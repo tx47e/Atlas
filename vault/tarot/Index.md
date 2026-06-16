@@ -1,0 +1,26 @@
+# Tarot
+
+## Arcane Majore
+
+- [[0-Nebunul]]
+- [[1-Magicianul]]
+- [[2-Marea Preoteasa]]
+- [[3-Imparateasa]]
+- [[4-Imparatul]]
+- [[5-Marele Preot]]
+- [[6-Indragostitii]]
+- [[7-Carul]]
+- [[8-Forta]]
+- [[9-Pustnicul]]
+- [[10-Roata Norocului]]
+- [[11-Dreptatea]]
+- [[12-Spanzuratul]]
+- [[13-Moartea]]
+- [[14-Cumpatarea]]
+- [[15-Diavolul]]
+- [[16-Turnul]]
+- [[17-Steaua]]
+- [[18-Luna]]
+- [[19-Soarele]]
+- [[20-Judecata]]
+- [[21-Lumea]]

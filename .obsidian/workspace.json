@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "c774eb767fa54e81",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d992b1bb9b4ef0d",
+        "type": "tabs",
+        "dimension": 57.776617954070986,
+        "children": [
+          {
+            "id": "b0a22f32ac646726",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/numerologie/Vibratia 5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vibratia 5"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5faba24fea8586fd",
+        "type": "tabs",
+        "dimension": 42.22338204592902,
+        "children": [
+          {
+            "id": "3eb76b7b4029eafa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Template_Concept.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Template_Concept"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "48d668b598dd4062",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ed92887046056cb",
+        "type": "tabs",
+        "dimension": 66,
+        "children": [
+          {
+            "id": "c1cd69e380e73c87",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1587b0e783e3be55",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "70e440e23f68fb46",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "744c8dee47e4b6c7",
+        "type": "tabs",
+        "dimension": 34,
+        "children": [
+          {
+            "id": "40333d0dadc56bb2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7ae17244d167b343",
+    "type": "split",
+    "children": [
+      {
+        "id": "c084b9da5fa2613a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e3d8f2b1653dc5a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "vault/numerologie/Vibratia 5.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Vibratia 5"
+            }
+          },
+          {
+            "id": "453438a759977e14",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ddb78194eda2065d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2baebf6a584ebd1e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1c3de6d91ec80f77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b0a22f32ac646726",
+  "lastOpenFiles": [
+    "vault/numerologie/Vibratia 33.md",
+    "vault/numerologie/Vibratia 22.md",
+    "vault/numerologie/Vibratia 11.md",
+    "vault/numerologie/Vibratia 9.md",
+    "vault/numerologie/Vibratia 8.md",
+    "vault/numerologie/Vibratia 7.md",
+    "vault/numerologie/Vibratia 6.md",
+    "vault/numerologie/Vibratia 5.md",
+    "vault/numerologie/Vibratia 4.md",
+    "vault/numerologie/Vibratia 3.md",
+    "vault/numerologie/Vibratia 2.md",
+    "vault/numerologie/Vibratia 1.md",
+    "vault/numerologie/Vibratia 0.md",
+    "vault/numerologie/Soarta si Destin.md",
+    "vault/numerologie/Vibratie Interioara.md",
+    "vault/numerologie/Datele de intrare.md",
+    "vault/numerologie/Concluzii.md",
+    "Untitled.base",
+    "templates/Template_Concept.md",
+    "templates/Template_Sinteza.md",
+    "templates/Template_Arhetip.md",
+    "vault/numerologie/Index.md",
+    "vault/tarot/2-Marea Preoteasa.md",
+    "temp/vibratii/vibratia-3/07-exemple.md",
+    "temp/vibratii/vibratia-3/06-directii-de-dezvoltare.md",
+    "temp/vibratii/vibratia-3/05-lectii.md",
+    "temp/vibratii/vibratia-3/04-umbra.md",
+    "temp/vibratii/vibratia-9",
+    "temp/vibratii/vibratia-8",
+    "temp/vibratii/vibratia-7",
+    "temp/vibratii/vibratia-6",
+    "temp/vibratii/vibratia-5",
+    "temp/vibratii/vibratia-4",
+    "temp/vibratii/vibratia-33",
+    "temp/vibratii/vibratia-3",
+    "temp/vibratii/vibratia-22"
+  ]
+}
