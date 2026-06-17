@@ -1,0 +1,3 @@
+# Pinacluri - observatii
+
+De completat.
