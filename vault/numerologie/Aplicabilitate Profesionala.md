@@ -1,4 +1,4 @@
----
+﻿---
 titlu: Aplicabilitate profesionala
 tip: concept
 tags:
@@ -104,8 +104,8 @@ Daca rezultatul nu intra in intervalul 1-22, se aplica reducerea prin scaderea r
 | [[5-Marele Preot|5 - Marele Preot]] | intelepciune practica | moralitate, traditie, sfat, cunoastere | fanatism, dogma, formalism | profesor, preot, psihoterapeut, consultant |
 | [[6-Indragostitii|6 - Indragostitii]] | relatie, alegere | pace, comunicare, iubire, grija | instabilitate, neincredere, refuzul alegerii | comunicare, colaborare, mass-media, comert |
 | [[7-Carul|7 - Carul]] | miscare, directie | actiune, scop, influenta sociala | graba, proiecte neterminate, grandoare | transport, constructii, logistica, turism, meserii cu deplasare |
-| [[8-Forta|8 - Forta]] | forta, rezistenta | lider natural, caracter puternic, energie | presiune, sete de putere, exces fizic | sport, masaj, kinetoterapie, sanatate, lucru cu animale |
-| [[9-Pustnicul|9 - Pustnicul]] | analiza, ezoterism | inteligenta, cercetare, solitudine productiva | izolare, frici, zgarcenie | cercetare, muzica, inventii, traduceri, medicina |
+| [[8-Puterea|8 - Puterea]] | forta, rezistenta | lider natural, caracter puternic, energie | presiune, sete de putere, exces fizic | sport, masaj, kinetoterapie, sanatate, lucru cu animale |
+| [[9-Ermitul|9 - Ermitul]] | analiza, ezoterism | inteligenta, cercetare, solitudine productiva | izolare, frici, zgarcenie | cercetare, muzica, inventii, traduceri, medicina |
 | [[10-Roata Norocului|10 - Roata Norocului]] | noroc, plan material | adaptare, oameni potriviti, sanse | pasivitate, sugestibilitate | economie, banca, contabilitate, speculatii |
 | [[11-Dreptatea|11 - Dreptatea]] | cauza-efect, justitie | onestitate, dovezi, impartialitate | judecata excesiva, rigiditate | drept, notar, avocat, politie, administratie |
 | [[12-Spanzuratul|12 - Spanzuratul]] | experienta dificila, altruism | mila, bunatate, lucru cu emotii | sacrificiu, apatie, dependente | film, teatru, psihologie, farmacie, medium |

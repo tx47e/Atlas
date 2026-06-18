@@ -1,4 +1,4 @@
----
+﻿---
 titlu: Vibratia 9
 tip: arhetip
 tags:
@@ -204,4 +204,4 @@ o tradare.
 ---
 ## Tarot
 
-[[9-Pustnicul|Arcana 9 - Pustnicul - "The Hermit"]]
+[[9-Ermitul|Arcana 9 - Ermitul - "The Hermit"]]

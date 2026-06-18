@@ -1,4 +1,4 @@
----
+﻿---
 titlu: Vibratia 8
 tip: arhetip
 tags:
@@ -204,4 +204,4 @@ in aceeasi analiza.
 ---
 ## Tarot
 
-[[8-Forta|Arcana 8 - Forta - "Strength"]]
+[[8-Puterea|Arcana 8 - Puterea - "Strength"]]

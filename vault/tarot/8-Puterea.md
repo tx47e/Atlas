@@ -1,54 +1,54 @@
 ﻿---
 tip: tarot
 categorie: arcana-majora
-numar: 0
-nume: Nebunul
-vibratie: 0
-element: Aer
-planeta: Uranus
-zodie: -
-litera_ebraica: Aleph
-cale_cabalistica: Kether-Chokmah
-da_nu: Da, daca accepti riscul si inceputul.
+numar: 8
+nume: Puterea
+vibratie: 8
+element: Foc
+planeta: Soarele
+zodie: Leu
+litera_ebraica: Teth
+cale_cabalistica: Chesed-Geburah (Mila - Rigoarea)
+da_nu: Da, prin blandete si stapanire de sine.
 tags:
   - tarot
   - arcana-majora
 ---
 
-# 0-Nebunul
+# 8-Puterea
 
 ## Descriere Generala
 
 ### Esenta
-- Nebunul este arhetipul inceputului pur, al pasului facut inainte ca mintea sa aiba toate garantiile. El vorbeste despre incredere, libertate, curajul de a porni si disponibilitatea de a invata direct din drum. In lumina, aduce prospetime si deschidere; in umbra, poate deveni imprudenta, fuga de responsabilitate sau refuzul de a vedea consecintele.
+- Puterea este arhetipul puterii blande, al curajului care nu are nevoie sa domine. Ea arata imblanzirea instinctului prin prezenta, rabdare si iubire constienta. In lumina, aduce autocontrol, compasiune si rezistenta interioara; in umbra, poate indica furie reprimata, slabiciune mascata sau impulsivitate.
 
 ### Mesaj principal
-- Porneste, dar ramai treaz. Nu ai nevoie sa controlezi tot traseul, insa ai nevoie sa iti cunosti intentia si sa observi semnele de pe drum.
+- Nu forta usa care se poate deschide prin calm. Adevarata putere este stapanirea de sine.
 
 ## Simbolism Vizual
 
 ### Personaje
-- tanarul calator si companionul sau.
+- femeie care imblanzeste leul.
 
 ### Obiecte
-- toiag, boccea, prapastie, floare.
+- coroana infinitului, ghirlanda.
 
 ### Culori
-- galben, alb, verde.
+- alb, galben, verde.
 
 ### Animale
-- caine.
+- leu.
 
 ### Fundal
-- munte si cer deschis.
+- camp deschis.
 
 ## Cuvinte Cheie
 
 ### Lumina
-- libertate, inceput, incredere, aventura.
+- curaj, blandete, autocontrol, compasiune.
 
 ### Umbra
-- naivitate, fuga, imprudenta, haos.
+- furie, slabiciune, impuls, reprimare.
 
 ## Interpretare
 
@@ -65,32 +65,32 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 0]]
+- [[Vibratia 8]]
 
 ## Corelari Astrologice
 
 ### Planeta
-- Uranus
+- Soarele
 
 ### Zodie
-- -
+- Leu
 
 ### Element
-- Aer
+- Foc
 
 ### Influenta astrologica
-- Uranus coloreaza cartea prin functia sa simbolica, iar elementul Aer arata modul de manifestare. Fara o zodie unica dominanta, accentul ramane pe planeta si pe arhetipul general al cartii.
+- Soarele coloreaza cartea prin functia sa simbolica, iar elementul Foc arata modul de manifestare. Zodia Leu da acestei arcane un ritm concret de expresie si o lectie de maturizare specifica.
 
 ## Corelari Cabalistice
 
 ### Litera ebraica
-- Aleph
+- Teth
 
 ### Cale pe Arborele Vietii
-- Kether-Chokmah (Coroana - Intelepciunea)
+- Chesed-Geburah (Mila - Rigoarea)
 
 ### Semnificatie cabalistica
-- Calea dintre Coroana si Intelepciunea descrie primul impuls al constiintei: scanteia care pleaca din potentialul pur si devine directie creatoare.
+- Calea dintre Mila si Rigoarea cauta echilibrul dintre expansiune si limita, blandete si forta, ingaduinta si fermitate.
 
 ## Aplicabilitate
 
@@ -112,13 +112,13 @@ tags:
 ## DA / NU
 
 ### Verdict General
-- Da, daca accepti riscul si inceputul.
+- Da, prin blandete si stapanire de sine.
 
 ### Cand indica DA
 - Indica DA cand energia cartii este traita in forma ei luminoasa si exista coerenta intre intentie si actiune.
 
 ### Cand indica NU
-- Indica NU cand domina umbra: naivitate, confuzia, frica sau lipsa asumarii.
+- Indica NU cand domina umbra: furie, confuzia, frica sau lipsa asumarii.
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
@@ -126,8 +126,8 @@ tags:
 ## Combinatii Importante
 
 ### Cu Arcane Majore
-- [[21-Lumea]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[1-Magicianul]]: arata continuarea naturala a drumului initiatic.
+- [[7-Carul]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
+- [[9-Ermitul]]: arata continuarea naturala a drumului initiatic.
 
 ### Cu Arcane Minore
 - Cu Cupe: accent pe emotii si relatii.
@@ -138,11 +138,11 @@ tags:
 ## Corelari
 
 ### Numerologie
-- [[Vibratia 0]]
+- [[Vibratia 8]]
 
 ### Arcane asociate
-- [[21-Lumea]]
-- [[1-Magicianul]]
+- [[7-Carul]]
+- [[9-Ermitul]]
 
 ### Concepte asociate
 - [[Calea Destinului]]
@@ -154,4 +154,3 @@ tags:
 - Arthur Edward Waite, The Pictorial Key to the Tarot.
 - Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
 - Aleister Crowley, The Book of Thoth.
-

@@ -1,4 +1,4 @@
----
+﻿---
 titlu: Karma din ziua nasterii
 tip: concept
 tags:
@@ -54,8 +54,8 @@ karma_zilei_de_nastere = ziua nasterii
 | 27 | [[5-Marele Preot|Arcana 5 - Marele Preot]] |
 | 28 | [[6-Indragostitii|Arcana 6 - Indragostitii]] |
 | 29 | [[7-Carul|Arcana 7 - Carul]] |
-| 30 | [[8-Forta|Arcana 8 - Forta]] |
-| 31 | [[9-Pustnicul|Arcana 9 - Pustnicul]] |
+| 30 | [[8-Puterea|Arcana 8 - Puterea]] |
+| 31 | [[9-Ermitul|Arcana 9 - Ermitul]] |
 
 ### Nivelul karmei implinite
 
@@ -78,8 +78,8 @@ karma_zilei_de_nastere = ziua nasterii
 | 5 | 5, 27 | [[5-Marele Preot|Marele Preot]] | smerenie, intelepciune practica |
 | 6 | 6, 28 | [[6-Indragostitii|Indragostitii]] | familie, fidelitate, alegere matura |
 | 7 | 7, 29 | [[7-Carul|Carul]] | stiinta, cercetare, credinta, intelect |
-| 8 | 8, 30 | [[8-Forta|Forta]] | putere interioara, control, responsabilitate |
-| 9 | 9, 31 | [[9-Pustnicul|Pustnicul]] | cunoastere pusa in slujba celorlalti |
+| 8 | 8, 30 | [[8-Puterea|Puterea]] | putere interioara, control, responsabilitate |
+| 9 | 9, 31 | [[9-Ermitul|Ermitul]] | cunoastere pusa in slujba celorlalti |
 | 10 | 10 | [[10-Roata Norocului|Roata Norocului]] | folosirea corecta a oportunitatilor |
 | 11 | 11 | [[11-Dreptatea|Dreptatea]] | corectitudine, lege cauza-efect, responsabilitate |
 | 12 | 12 | [[12-Spanzuratul|Spanzuratul]] | bunatate, sacrificiu, iluminare |

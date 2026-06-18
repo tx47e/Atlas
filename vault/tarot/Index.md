@@ -1,4 +1,4 @@
-# Tarot
+﻿# Tarot
 
 ## Arcane Majore
 
@@ -10,8 +10,8 @@
 - [[5-Marele Preot]]
 - [[6-Indragostitii]]
 - [[7-Carul]]
-- [[8-Forta]]
-- [[9-Pustnicul]]
+- [[8-Puterea]]
+- [[9-Ermitul]]
 - [[10-Roata Norocului]]
 - [[11-Dreptatea]]
 - [[12-Spanzuratul]]
