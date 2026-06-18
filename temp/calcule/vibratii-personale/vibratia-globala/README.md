@@ -9,6 +9,12 @@ interiorul si exteriorul persoanei intr-o vibratie comuna.
 vibratia globala = reducere_numerologica(ziua nasterii + luna nasterii)
 ```
 
+## Rezultat
+
+- o vibratie intre 1 si 9;
+- traseul complet de reducere, de exemplu `24 + 4 -> 28 -> 10 -> 1`;
+- interpretare pe cifra finala si nuantare prin traseul zi-luna.
+
 ## Fisiere
 
 - [Metoda](01-metoda.md)

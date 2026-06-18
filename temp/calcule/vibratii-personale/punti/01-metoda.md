@@ -33,12 +33,16 @@ punte cosmic-destin = |vibratia_cosmica - vibratia_destinului|
 
 ## Rezultat final
 
-| Punte | Calcul | Rezultat | Sens |
+| Punte | Calcul | Rezultat | Interpretare sintetica |
 | --- | --- | --- | --- |
 | Interior - exterior |  |  |  |
 | Interior - destin |  |  |  |
 | Exterior - destin |  |  |  |
 | Cosmic - destin |  |  |  |
+
+Dupa tabel se scrie o interpretare separata pentru fiecare punte. Interpretarea
+se construieste din fisierele complete ale vibratiilor implicate si din fisierul
+complet al vibratiei rezultate, nu dintr-o lista simpla de corespondente.
 
 ## Surse bibliografice interne
 

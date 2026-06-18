@@ -68,6 +68,11 @@ Exemple:
 2001 -> 01 -> 0 + 1 = 1
 ```
 
+In redactarea lucrarii, acest traseu se pastreaza ca traseu de reducere al
+rubricii. Interpretarea generala citeste rezultatul final ca energie activa a
+anului si integreaza felul in care ultimele doua cifre ale anului devin
+experienta concreta.
+
 ### Regula numere maestre
 
 Pentru implementarea initiala, rezultatul se reduce la 1-9.
@@ -78,6 +83,12 @@ Optional, rezultatele intermediare [[Vibratia 11|11]], [[Vibratia 22|22]] si [[V
 ## Interpretare generala
 
 [[Vibratie Cosmica Variabila|Vibratia cosmica variabila]] raspunde la intrebarea: ce energie activa aduce anul nasterii in planul concret?
+
+In interpretarea generala se include si traseul de reducere al ultimelor doua
+cifre ale anului. Cifra finala arata energia activa, iar traseul explica felul
+in care aceasta energie se formeaza din componenta variabila a anului.
+
+Interpretarea se face dupa vibratiile 1-9. Lista de mai jos ofera doar o varianta scurta de orientare; pentru o interpretare ampla se foloseste descrierea completa din nota fiecarei vibratii corespunzatoare.
 
 - [[Vibratia 1]]: actiune, initiativa, inceputuri.
 - [[Vibratia 2]]: cooperare, sensibilitate, adaptare.
@@ -166,6 +177,8 @@ Interpretare scurta:
 - Se calculeaza din ultimele doua cifre ale anului, nu din tot anul.
 - Se pastreaza traseul complet, mai ales cand apar praguri precum 10, [[Vibratia 11|11]] sau [[Vibratia 22|22]].
 - Se citeste impreuna cu [[Vibratie Cosmica Fixa|vibratia cosmica fixa]] si [[Vibratie Cosmica Totala|vibratia cosmica totala]].
+- In lucrare, campul `Traseu de reducere` este obligatoriu pentru aceasta
+  vibratie, iar citirea lui se integreaza in interpretarea generala.
 
 ---
 ## Utilizare in lucrare

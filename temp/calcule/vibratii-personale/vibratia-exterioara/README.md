@@ -24,6 +24,7 @@ vibratia exterioara = reducere_numerologica(luna nasterii)
 ## Rezultat
 
 - o vibratie intre 1 si 9;
+- traseul complet de reducere, folosit pentru nuantarea interpretarii;
 - optional, luna 11 poate pastra valoarea intermediara 11 pentru interpretari extinse.
 
 ## Fisiere

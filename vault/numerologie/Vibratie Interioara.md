@@ -66,6 +66,12 @@ vibratia interioara = reducere_numerologica(ziua nasterii)
 
 Rezultatul final este vibratia principala, dar formula completa trebuie pastrata pentru interpretare. Cu cat reducerea are mai multi pasi, cu atat citirea devine mai nuantata.
 
+In redactarea lucrarii, acest traseu se pastreaza ca traseu de reducere al
+rubricii. Interpretarea generala citeste rezultatul final si integreaza felul in
+care cifrele si pragurile intermediare au construit acel rezultat. Astfel,
+vibratia finala ofera directia, iar traseul de reducere ofera textura interioara
+a directiei.
+
 Exemplu:
 
 ```text
@@ -134,6 +140,12 @@ Optional, se poate pastra si rezultatul intermediar pentru zilele 11, 22 si 29, 
 ## Interpretare generala
 
 [[Vibratie Interioara|Vibratia interioara]] raspunde la intrebarea: ce il face pe om sa ticaie pe dinauntru?
+
+In interpretarea generala se include si traseul de reducere al zilei. Cifra
+finala arata directia interioara principala, iar traseul explica prin ce
+combinatii, tensiuni sau praguri se formeaza aceasta directie.
+
+Interpretarea se face dupa vibratiile 1-9. Lista de mai jos ofera doar o varianta scurta de orientare; pentru o interpretare ampla se foloseste descrierea completa din nota fiecarei vibratii corespunzatoare.
 
 - [[Vibratia 1]]: dorinta de autonomie, initiativa, afirmare si directie proprie.
 - [[Vibratia 2]]: dorinta de armonie, apropiere, cooperare si siguranta emotionala.
@@ -318,6 +330,8 @@ Rezultatul final [[Vibratia 1|1]] indica vointa, autonomie si initiativa. Traseu
 - Regulile legate de vocale, consoane, diacritice si nume multiple apartin calculelor derivate din nume, precum [[Numarul Intim]] sau [[Numarul de Exprimare]].
 - Se pastreaza traseul complet al reducerii, nu doar rezultatul final.
 - Fiecare pas intermediar poate fi folosit pentru nuantarea interpretarii.
+- In lucrare, campul `Traseu de reducere` este obligatoriu pentru aceasta
+  vibratie, iar citirea lui se integreaza in interpretarea generala.
 
 ---
 ## Utilizare in lucrare

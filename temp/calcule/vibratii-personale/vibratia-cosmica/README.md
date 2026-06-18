@@ -12,6 +12,13 @@ vibratia cosmica variabila = reducere_numerologica(ultimele doua cifre ale anulu
 vibratia cosmica totala = reducere_numerologica(suma cifrelor anului)
 ```
 
+## Rezultat
+
+- vibratia cosmica fixa, pastrata ca valoare de extragere;
+- vibratia cosmica variabila, cu traseu de reducere;
+- vibratia cosmica totala, cu traseu de reducere;
+- interpretare pe rezultatele finale si nuantare prin traseele fiecarui calcul.
+
 ## Fisiere
 
 - [Metoda](01-metoda.md)

@@ -26,6 +26,7 @@ vibratia interioara = reducere_numerologica(ziua nasterii)
 ## Rezultat
 
 - o vibratie intre 1 si 9;
+- traseul complet de reducere, folosit pentru nuantarea interpretarii;
 - optional, se poate pastra si valoarea intermediara 11 sau 22 pentru interpretari extinse.
 
 ## Fisiere

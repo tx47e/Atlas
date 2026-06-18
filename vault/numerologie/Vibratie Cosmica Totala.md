@@ -5,6 +5,7 @@ tags:
   - numerologie
   - "#ViCosTot"
   - VibratieCosmicaTotala
+  - "#scena"
 Data: 2026-06-17
 depinde de: Datele de intrare
 ---
@@ -15,6 +16,8 @@ depinde de: Datele de intrare
 [[Vibratie Cosmica Totala|Vibratia cosmica totala]] este sinteza numerologica a intregului an de nastere. Ea se calculeaza prin suma tuturor cifrelor anului, redusa la 1-9.
 
 Aceasta vibratie arata raportarea persoanei la planul mai larg al vietii: context, menire, fundal spiritual si felul in care anul nasterii se integreaza intr-o directie unica. Ea reuneste simbolic [[Vibratie Cosmica Fixa|vibratia cosmica fixa]] si [[Vibratie Cosmica Variabila|vibratia cosmica variabila]], dar nu le inlocuieste.
+
+Daca [[Vibratie Interioara|vibratia interioara]] reprezinta actorul, esenta autentica a fiintei, dorintele profunde si natura sa reala, iar [[Vibratie Exterioara|vibratia exterioara]] reprezinta rolul pe care acesta il joaca in lume, felul in care se manifesta si este perceput de ceilalti, atunci [[Vibratie Cosmica Totala|vibratia cosmica totala]] este piesa in care totul se desfasoara: decorul, regulile, ritmul si energia generala a scenei vietii. Ea reprezinta cadrul energetic complet al existentei, campul universal de influente in care actorul si rolul sau prind sens si se dezvolta. Prin aceasta vibratie se contureaza atmosfera generala a parcursului vietii, tipul de experiente predominante, provocarile, oportunitatile si sincronizarile care apar. Astfel, [[Vibratie Cosmica Totala|vibratia cosmica totala]] nu descrie doar cine este omul sau cum se exprima, ci si contextul mai vast in care intreaga sa evolutie are loc.
 
 ---
 ## Ce indica
@@ -67,6 +70,11 @@ Exemple:
 1974 -> 1 + 9 + 7 + 4 = 21 -> 2 + 1 = 3
 ```
 
+In redactarea lucrarii, acest traseu se pastreaza ca traseu de reducere al
+rubricii. Interpretarea generala citeste cifra finala ca tema larga a anului si
+integreaza succesiunea de straturi prin care anul nasterii isi condenseaza
+energia.
+
 ### Regula numere maestre
 
 Pentru implementarea initiala, rezultatul se reduce la 1-9.
@@ -77,6 +85,12 @@ Optional, daca traseul trece prin [[Vibratia 11|11]], [[Vibratia 22|22]] sau [[V
 ## Interpretare generala
 
 [[Vibratie Cosmica Totala|Vibratia cosmica totala]] raspunde la intrebarea: care este tema larga a anului de nastere in profilul persoanei?
+
+In interpretarea generala se include si traseul de reducere al anului complet.
+Cifra finala arata tema cosmica principala, iar traseul explica felul in care
+cifrele anului se aduna si se condenseaza intr-o singura directie.
+
+Interpretarea se face dupa vibratiile 1-9. Lista de mai jos ofera doar o varianta scurta de orientare; pentru o interpretare ampla se foloseste descrierea completa din nota fiecarei vibratii corespunzatoare.
 
 - [[Vibratia 1]]: context de initiere, autonomie si afirmare.
 - [[Vibratia 2]]: context de relatie, sensibilitate si cooperare.
@@ -169,6 +183,8 @@ Interpretare scurta:
 - [[Vibratie Cosmica Totala|Vibratia cosmica totala]] se calculeaza din toate cifrele anului, nu din suma zi + luna + an.
 - Nu se confunda cu [[Vibratia Destinului]], care foloseste ziua, luna si anul ca valori numerice.
 - Nu se confunda cu [[Vibratie Cosmica Variabila|vibratia cosmica variabila]], care foloseste doar ultimele doua cifre ale anului.
+- In lucrare, campul `Traseu de reducere` este obligatoriu pentru aceasta
+  vibratie, iar citirea lui se integreaza in interpretarea generala.
 
 ---
 ## Utilizare in lucrare

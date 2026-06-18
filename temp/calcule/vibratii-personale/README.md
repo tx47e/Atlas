@@ -21,6 +21,24 @@ Vibratiile personale sunt calcule pe data nasterii, iar unele pot include un an
 analizat. Ele nu folosesc numele persoanei. Calculul numit `destin` in zona
 numelui ramane separat de `vibratia destinului`, care vine din data nasterii.
 
+Pentru fiecare vibratie care se obtine prin reducere numerologica se pastreaza
+traseul complet al reducerii. Interpretarea finala citeste atat cifra redusa,
+cat si straturile intermediare. Cifra finala arata directia principala, iar
+traseul arata cum se formeaza acea directie.
+
+Traseul nu se noteaza doar ca formula. Pentru fiecare vibratie se scrie si
+interpretarea traseului de reducere: ce aduce numarul de pornire, ce marcheaza
+treptele intermediare si cum aceste trepte nuanteaza cifra finala.
+
+Template de lucru:
+
+```text
+Calcul:
+Traseu de reducere:
+Rezultat final:
+Interpretare:
+```
+
 ## Surse bibliografice interne
 
 - Nu sunt documentate surse bibliografice interne.

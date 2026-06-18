@@ -37,7 +37,8 @@ In analiza, ajuta la:
 - separarea influentei generatiei de influenta personala;
 - intelegerea diferentei dintre planul stabil si planul activ al anului nasterii;
 - nuantarea [[Vibratie Cosmica Totala|vibratiei cosmice totale]];
-- compararea persoanelor nascute in secole sau perioade diferite.
+- compararea persoanelor nascute in secole sau perioade diferite;
+- evidentierea nasterii la granita dintre doua secole, unde [[Vibratie Cosmica Fixa|vibratia cosmica fixa]] poate arata o schimbare de perspectiva sau de fundal generational.
 
 ---
 ## Date necesare
@@ -69,6 +70,12 @@ Exemple:
 2026 -> 20
 ```
 
+In redactarea lucrarii, aceasta valoare se noteaza la campul `Traseu de
+reducere`, cu mentiunea ca este un traseu de extragere, nu o reducere
+numerologica standard. Daca valoarea este descompusa simbolic, aceasta
+descompunere serveste doar interpretarii, iar rezultatul operational ramane
+componenta fixa a anului.
+
 ### Regula numere maestre
 
 [[Vibratie Cosmica Fixa|Vibratia cosmica fixa]] nu foloseste regula de reducere pentru numere maestre in calculul standard. Daca valoarea fixa ar fi analizata simbolic, ea poate fi descompusa separat, dar rezultatul operational ramane primele doua cifre ale anului.
@@ -77,6 +84,11 @@ Exemple:
 ## Interpretare generala
 
 [[Vibratie Cosmica Fixa|Vibratia cosmica fixa]] raspunde la intrebarea: din ce fundal subtil si colectiv vine persoana?
+
+In interpretarea generala se include si traseul de extragere al componentei
+fixe. Pentru ca aceasta rubrica nu foloseste reducerea standard, se explica
+felul in care primele doua cifre ale anului compun fundalul colectiv si,
+optional, cum se poate citi simbolic descompunerea lor.
 
 - 19 poate fi citit ca fundal in care [[Vibratia 1|1]] si [[Vibratia 9|9]] lucreaza impreuna: initiativa, individualizare, incheiere de ciclu si lectii de maturizare.
 - 20 poate fi citit ca fundal in care [[Vibratia 2|2]] si [[Vibratia 0|0]] lucreaza impreuna: relationare, sensibilitate, potential si spatiu de formare.
@@ -157,6 +169,8 @@ Valoarea 20 arata un fundal in care [[Vibratia 2|2]] este insotita de [[Vibratia
 - Se pastreaza ca valoare fixa, fara reducere standard.
 - Este o informatie de fundal, nu o vibratie comportamentala directa.
 - Se citeste impreuna cu [[Vibratie Cosmica Variabila|vibratia cosmica variabila]] si [[Vibratie Cosmica Totala|vibratia cosmica totala]].
+- In lucrare, campul `Traseu de reducere` se completeaza ca traseu de extragere
+  si, optional, ca descompunere simbolica pentru nuantare.
 
 ---
 ## Utilizare in lucrare

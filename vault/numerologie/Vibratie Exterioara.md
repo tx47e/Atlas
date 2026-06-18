@@ -64,6 +64,11 @@ vibratia exterioara = reducere_numerologica(luna nasterii)
 
 Rezultatul final este vibratia principala, dar traseul complet se pastreaza pentru interpretare. Lunile 10, 11 si 12 nu sunt identice ca nuanta cu lunile directe 1, 2 si 3.
 
+In redactarea lucrarii, acest traseu se pastreaza ca traseu de reducere al
+rubricii. Interpretarea generala citeste cifra finala ca directie principala si
+traseul ca strat de nuantare: numarul de pornire arata materialul exterior brut,
+iar reducerea arata felul in care acesta devine comportament vizibil.
+
 Exemple:
 
 ```text
@@ -106,6 +111,13 @@ Optional, valoarea intermediara [[Vibratia 11|11]] se poate pastra pentru interp
 ## Interpretare generala
 
 [[Vibratie Exterioara|Vibratia exterioara]] raspunde la intrebarea: cum se vede omul din afara?
+
+In interpretarea generala se include si traseul de reducere al lunii. Cifra
+finala arata expresia exterioara principala, iar traseul explica felul in care
+aceasta expresie se formeaza din luna de pornire si din eventualele praguri
+intermediare.
+
+Interpretarea se face dupa vibratiile 1-9. Lista de mai jos ofera doar o varianta scurta de orientare; pentru o interpretare ampla se foloseste descrierea completa din nota fiecarei vibratii corespunzatoare.
 
 - [[Vibratia 1]]: prezenta directa, initiativa, autonomie, imagine de lider.
 - [[Vibratia 2]]: diplomatie, tact, cooperare, atentie la atmosfera.
@@ -196,6 +208,8 @@ Rezultatul [[Vibratia 2|2]] indica diplomatie, sensibilitate si tact. Traseul pr
 - In acest proiect, [[Vibratie Exterioara|vibratia exterioara]] se calculeaza din luna nasterii, nu din consoanele numelui.
 - Calculul pe consoane poate fi tratat separat, daca se introduce un numar al personalitatii derivat din nume.
 - Lunile 10, 11 si 12 trebuie citite prin traseu, nu doar prin rezultatul final.
+- In lucrare, campul `Traseu de reducere` este obligatoriu pentru aceasta
+  vibratie, iar citirea lui se integreaza in interpretarea generala.
 
 ---
 ## Utilizare in lucrare

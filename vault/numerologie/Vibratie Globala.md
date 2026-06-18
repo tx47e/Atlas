@@ -66,6 +66,11 @@ vibratia globala = reducere_numerologica(ziua nasterii + luna nasterii)
 
 [[Vibratie Globala|Vibratia globala]] nu se obtine prin adunarea rezultatelor reduse ale [[Vibratie Interioara|vibratiei interioare]] si [[Vibratie Exterioara|vibratiei exterioare]], ci prin adunarea directa a zilei si lunii.
 
+In redactarea lucrarii, acest traseu se pastreaza ca traseu de reducere al
+rubricii. Interpretarea generala porneste de la rezultatul final si integreaza
+felul in care ziua, luna si pragurile intermediare construiesc sinteza dintre
+interior si exterior.
+
 Exemplu:
 
 ```text
@@ -92,6 +97,12 @@ Optional, daca suma zi + luna produce [[Vibratia 11|11]] sau [[Vibratia 22|22]],
 ## Interpretare generala
 
 [[Vibratie Globala|Vibratia globala]] raspunde la intrebarea: ce directie comuna rezulta din felul in care omul se simte pe sine si felul in care se manifesta?
+
+In interpretarea generala se include si traseul de reducere al sumei zi-luna.
+Cifra finala arata sinteza principala, iar traseul explica felul in care
+interiorul si exteriorul se combina pana ajung la aceasta sinteza.
+
+Interpretarea se face dupa vibratiile 1-9. Lista de mai jos ofera doar o varianta scurta de orientare; pentru o interpretare ampla se foloseste descrierea completa din nota fiecarei vibratii corespunzatoare.
 
 - [[Vibratia 1]]: sinteza orientata spre initiativa, autonomie si afirmare.
 - [[Vibratia 2]]: sinteza orientata spre cooperare, sensibilitate si relatie.
@@ -185,6 +196,8 @@ Interpretare scurta:
 - [[Vibratie Globala|Vibratia globala]] este o sinteza, nu o medie.
 - Se folosesc ziua si luna ca valori brute, nu doar rezultatele deja reduse.
 - Daca apare un rezultat intermediar semnificativ, acesta se pastreaza in interpretare.
+- In lucrare, campul `Traseu de reducere` este obligatoriu pentru aceasta
+  vibratie, iar citirea lui se integreaza in interpretarea generala.
 
 ---
 ## Utilizare in lucrare
