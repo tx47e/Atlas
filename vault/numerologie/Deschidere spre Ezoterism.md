@@ -16,11 +16,6 @@ depinde de: Datele de intrare
 
 Calculul nu este un verdict despre capacitati extrasenzoriale. El indica potential, directii de lucru si zone in care persoana poate avea sensibilitate, interes sau acces mai natural. Interpretarea trebuie formulata cu prudenta, mai ales cand rezultatul atinge domenii practice sau codul special 0.
 
-Metoda are doua etape:
-
-1. codul ezoteric principal, obtinut din prima cifra de dupa virgula la impartirea datei de nastere la 7;
-2. codul secundar, obtinut din prima cifra de dupa virgula la impartirea partii intregi din primul calcul la 7.
-
 ---
 ## Ce indica
 
@@ -56,6 +51,12 @@ Daca exista diferenta intre data reala si o data administrativa gresita, in lucr
 
 ---
 ## Formula de calcul
+
+Metoda are doua etape principale si o verificare intermediara:
+
+1. codul ezoteric principal, obtinut din prima cifra de dupa virgula la impartirea datei de nastere la 7;
+2. verificarea codului 0: daca data se imparte exact la 7, dupa virgula nu mai apare nicio cifra, codul se noteaza 0, iar codul secundar nu se mai calculeaza;
+3. codul secundar, obtinut din prima cifra de dupa virgula la impartirea partii intregi din primul calcul la 7.
 
 ### Scrierea datei
 
@@ -119,7 +120,7 @@ Codul 0 apare cand impartirea este exacta sau cand prima cifra de dupa virgula e
 
 ### Codul secundar
 
-Dupa stabilirea codului principal, se poate calcula orientarea secundara. Daca prima impartire da cod principal 0, calculul se opreste si nu se forteaza un domeniu secundar.
+Dupa stabilirea codului principal, se poate calcula orientarea secundara.
 
 Se ia partea intreaga obtinuta la prima impartire:
 

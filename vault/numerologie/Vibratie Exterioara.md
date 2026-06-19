@@ -94,18 +94,18 @@ Optional, valoarea intermediara [[Vibratia 11|11]] se poate pastra pentru interp
 
 | Luna nasterii | Calcul | Vibratie exterioara |
 | --- | --- | --- |
-| 1 | 1 | [[Vibratia 1|1]] |
-| 2 | 2 | [[Vibratia 2|2]] |
-| 3 | 3 | [[Vibratia 3|3]] |
-| 4 | 4 | [[Vibratia 4|4]] |
-| 5 | 5 | [[Vibratia 5|5]] |
-| 6 | 6 | [[Vibratia 6|6]] |
-| 7 | 7 | [[Vibratia 7|7]] |
-| 8 | 8 | [[Vibratia 8|8]] |
-| 9 | 9 | [[Vibratia 9|9]] |
-| 10 | 1 + 0 | [[Vibratia 1|1]] |
-| 11 | 1 + 1 | [[Vibratia 2|2]] |
-| 12 | 1 + 2 | [[Vibratia 3|3]] |
+| 1 | 1 | [[Vibratia 1\|1]] |
+| 2 | 2 | [[Vibratia 2\|2]] |
+| 3 | 3 | [[Vibratia 3\|3]] |
+| 4 | 4 | [[Vibratia 4\|4]] |
+| 5 | 5 | [[Vibratia 5\|5]] |
+| 6 | 6 | [[Vibratia 6\|6]] |
+| 7 | 7 | [[Vibratia 7\|7]] |
+| 8 | 8 | [[Vibratia 8\|8]] |
+| 9 | 9 | [[Vibratia 9\|9]] |
+| 10 | 1 + 0 | [[Vibratia 1\|1]] |
+| 11 | 1 + 1 | [[Vibratia 2\|2]] |
+| 12 | 1 + 2 | [[Vibratia 3\|3]] |
 
 ---
 ## Interpretare generala

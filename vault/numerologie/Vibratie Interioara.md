@@ -104,37 +104,37 @@ Optional, se poate pastra si rezultatul intermediar pentru zilele 11, 22 si 29, 
 
 | Ziua nasterii | Calcul | Vibratie interioara |
 | --- | --- | --- |
-| 1 | 1 | [[Vibratia 1|1]] |
-| 2 | 2 | [[Vibratia 2|2]] |
-| 3 | 3 | [[Vibratia 3|3]] |
-| 4 | 4 | [[Vibratia 4|4]] |
-| 5 | 5 | [[Vibratia 5|5]] |
-| 6 | 6 | [[Vibratia 6|6]] |
-| 7 | 7 | [[Vibratia 7|7]] |
-| 8 | 8 | [[Vibratia 8|8]] |
-| 9 | 9 | [[Vibratia 9|9]] |
-| 10 | 1 + 0 | [[Vibratia 1|1]] |
-| 11 | 1 + 1 | [[Vibratia 2|2]] |
-| 12 | 1 + 2 | [[Vibratia 3|3]] |
-| 13 | 1 + 3 | [[Vibratia 4|4]] |
-| 14 | 1 + 4 | [[Vibratia 5|5]] |
-| 15 | 1 + 5 | [[Vibratia 6|6]] |
-| 16 | 1 + 6 | [[Vibratia 7|7]] |
-| 17 | 1 + 7 | [[Vibratia 8|8]] |
-| 18 | 1 + 8 | [[Vibratia 9|9]] |
-| 19 | 1 + 9 = 10; 1 + 0 | [[Vibratia 1|1]] |
-| 20 | 2 + 0 | [[Vibratia 2|2]] |
-| 21 | 2 + 1 | [[Vibratia 3|3]] |
-| 22 | 2 + 2 | [[Vibratia 4|4]] |
-| 23 | 2 + 3 | [[Vibratia 5|5]] |
-| 24 | 2 + 4 | [[Vibratia 6|6]] |
-| 25 | 2 + 5 | [[Vibratia 7|7]] |
-| 26 | 2 + 6 | [[Vibratia 8|8]] |
-| 27 | 2 + 7 | [[Vibratia 9|9]] |
-| 28 | 2 + 8 = 10; 1 + 0 | [[Vibratia 1|1]] |
-| 29 | 2 + 9 = 11; 1 + 1 | [[Vibratia 2|2]] |
-| 30 | 3 + 0 | [[Vibratia 3|3]] |
-| 31 | 3 + 1 | [[Vibratia 4|4]] |
+| 1 | 1 | [[Vibratia 1\|1]] |
+| 2 | 2 | [[Vibratia 2\|2]] |
+| 3 | 3 | [[Vibratia 3\|3]] |
+| 4 | 4 | [[Vibratia 4\|4]] |
+| 5 | 5 | [[Vibratia 5\|5]] |
+| 6 | 6 | [[Vibratia 6\|6]] |
+| 7 | 7 | [[Vibratia 7\|7]] |
+| 8 | 8 | [[Vibratia 8\|8]] |
+| 9 | 9 | [[Vibratia 9\|9]] |
+| 10 | 1 + 0 | [[Vibratia 1\|1]] |
+| 11 | 1 + 1 | [[Vibratia 2\|2]] |
+| 12 | 1 + 2 | [[Vibratia 3\|3]] |
+| 13 | 1 + 3 | [[Vibratia 4\|4]] |
+| 14 | 1 + 4 | [[Vibratia 5\|5]] |
+| 15 | 1 + 5 | [[Vibratia 6\|6]] |
+| 16 | 1 + 6 | [[Vibratia 7\|7]] |
+| 17 | 1 + 7 | [[Vibratia 8\|8]] |
+| 18 | 1 + 8 | [[Vibratia 9\|9]] |
+| 19 | 1 + 9 = 10; 1 + 0 | [[Vibratia 1\|1]] |
+| 20 | 2 + 0 | [[Vibratia 2\|2]] |
+| 21 | 2 + 1 | [[Vibratia 3\|3]] |
+| 22 | 2 + 2 | [[Vibratia 4\|4]] |
+| 23 | 2 + 3 | [[Vibratia 5\|5]] |
+| 24 | 2 + 4 | [[Vibratia 6\|6]] |
+| 25 | 2 + 5 | [[Vibratia 7\|7]] |
+| 26 | 2 + 6 | [[Vibratia 8\|8]] |
+| 27 | 2 + 7 | [[Vibratia 9\|9]] |
+| 28 | 2 + 8 = 10; 1 + 0 | [[Vibratia 1\|1]] |
+| 29 | 2 + 9 = 11; 1 + 1 | [[Vibratia 2\|2]] |
+| 30 | 3 + 0 | [[Vibratia 3\|3]] |
+| 31 | 3 + 1 | [[Vibratia 4\|4]] |
 
 ---
 ## Interpretare generala
