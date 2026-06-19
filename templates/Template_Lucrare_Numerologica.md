@@ -36,16 +36,16 @@ Vezi: [[Datele de intrare]]
   formatului lucrarii: scurta, moderata sau ampla.
 - Pentru fiecare rezultat numeric se afiseaza descrierea, calculul, rezultatul,
   reprezentarea aferenta rubricii si interpretarea.
-- Pentru fiecare vibratie obtinuta prin reducere numerologica se afiseaza
-  traseul complet al reducerii. Interpretarea generala nu citeste doar cifra
-  finala, ci si numerele intermediare prin care aceasta se formeaza.
+- Pentru fiecare vibratie obtinuta prin reducere numerologica, traseul complet
+  al reducerii se include in campul `Calcul`. Interpretarea generala nu citeste
+  doar cifra finala, ci si numerele intermediare prin care aceasta se formeaza.
 - In interpretarea fiecarei vibratii se integreaza obligatoriu citirea traseului
   de reducere. Aceasta explica, in cuvinte, ce aduce fiecare treapta a
   traseului: numarul de pornire, suma intermediara, pragurile de reducere si
   cifra finala.
-- Traseul nu se trece doar ca formula. Dupa afisarea calculului, se scrie o
-  fraza sau un paragraf care interpreteaza treptele de reducere si arata cum
-  aceste trepte nuanteaza rezultatul final.
+- Traseul nu se trece ca rubrica separata. El ramane in `Calcul`, iar in
+  `Interpretare` se explica treptele de reducere si felul in care acestea
+  nuanteaza rezultatul final.
 - Cifra finala arata directia principala, iar traseul de reducere arata
   straturile de formare: numarul compus initial, pragurile intermediare,
   eventualele numere maestre aparute pe traseu si felul in care cifrele
@@ -69,7 +69,6 @@ Vezi: [[Datele de intrare]]
 ```text
 Rubrica:
 Calcul:
-Traseu de reducere:
 Rezultat final:
 
 Interpretare:
@@ -84,8 +83,7 @@ Exemplu:
 
 ```text
 Rubrica: Vibratie interioara
-Calcul: ziua nasterii 28
-Traseu de reducere: 28 -> 10 -> 1
+Calcul: ziua nasterii 28 -> 10 -> 1
 Rezultat final: 1
 
 Interpretare:
@@ -102,7 +100,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
@@ -110,7 +107,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
@@ -118,7 +114,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
@@ -126,7 +121,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
@@ -134,7 +128,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
@@ -142,7 +135,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
@@ -153,7 +145,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
@@ -170,7 +161,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Calcul:
 - Aspecte:
 - Vibratia solutiei:
-- Traseu de reducere pentru solutie:
 - Interpretare:
 
 ### [[Soarta si Destin]]
@@ -235,7 +225,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Comparatie cu [[Vibratia Destinului]]:
 
@@ -243,7 +232,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Comparatie cu [[Vibratie Interioara]]:
 
@@ -251,7 +239,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Comparatie cu [[Vibratie Exterioara]]:
 
@@ -259,7 +246,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
@@ -267,7 +253,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
@@ -275,7 +260,6 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 
 - Descriere:
 - Calcul:
-- Traseu de reducere:
 - Rezultat:
 - Interpretare:
 
