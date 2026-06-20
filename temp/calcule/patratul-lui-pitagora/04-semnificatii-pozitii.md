@@ -29,6 +29,17 @@ matrice.
 | 8 | Melancolic | Pamant |
 | 9 | Coleric | Foc |
 
+In sinteza matricei se numara frecventele pe elemente:
+
+- Foc: pozitiile 1, 5 si 9;
+- Aer: pozitiile 3 si 7;
+- Apa: pozitiile 2 si 6;
+- Pamant: pozitiile 4 si 8.
+
+Elementul predominant ajuta la formularea temperamentului dominant. Elementele
+slab reprezentate indica zone care pot cere constientizare, echilibrare si
+dezvoltare practica.
+
 ## 1 - Caracter, vointa, identitate
 
 Element: Foc.

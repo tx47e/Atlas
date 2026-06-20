@@ -25,6 +25,8 @@ Scopul este sa pastram separat:
   destinului; termenul `karma neamului` este tratat ca alias la
   `nume/numarul-ereditar-karmic/`.
 - `patratul-lui-pitagora/`: matrice numerologica pe baza datei de nastere.
+- `ajutoare/`: metode de sustinere si potentare, inclusiv semnatura astrala,
+  directiile de succes, triunghiul financiar si patratul de aur.
 
 ## Regula pentru fiecare calcul
 

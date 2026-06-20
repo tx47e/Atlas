@@ -1,6 +1,6 @@
 # Numerologie
 
-## Arhetip
+## Vibratii
 
 - [[Vibratia 0]]
 - [[Vibratia 1]]
@@ -12,9 +12,6 @@
 - [[Vibratia 7]]
 - [[Vibratia 8]]
 - [[Vibratia 9]]
-- [[Vibratia 11]]
-- [[Vibratia 22]]
-- [[Vibratia 33]]
 - [[Vibratia 11]]
 - [[Vibratia 22]]
 - [[Vibratia 33]]
@@ -52,6 +49,8 @@
 - [[Numarul Ereditar]]
 - [[Numarul Neamului]]
 - [[Cod Numerologic Personal]]
+- [[Influentele Numelui]]
+- [[Codul Spiritului]]
 
 ## Matrici si Analize
 
@@ -59,6 +58,9 @@
 - [[Matricea Numelui]]
 - [[Matricea Numelui vs Matricea Datei de Nastere]]
 - [[Scara Bunastarii]]
+- [[Fixatia]]
+- [[Curgerea Energiei]]
+- [[Caii Trasura si Vizitiul]]
 
 ## Cicluri si Etape de Viata
 
@@ -73,3 +75,9 @@
 - [[Deschidere spre Ezoterism]]
 - [[Aplicabilitate Profesionala]]
 - [[Concluzii]]
+
+## Ajutoare
+
+- [[Semnatura Astrala]]
+- [[Triunghiul Financiar]]
+- [[Patratul de Aur]]
