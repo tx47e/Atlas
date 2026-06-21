@@ -1,6 +1,7 @@
 ---
 name: numerologie-SVG-triunghiul-financiar
 description: Creeaza sau adapteaza SVG-uri numerologice pentru Triunghiul Financiar. Foloseste acest skill cand utilizatorul cere triunghi financiar, diagrama financiara numerologica, laturi/pozitii financiare sau un SVG similar cu referinta locala.
+tags: [skill]
 ---
 
 # Numerologie SVG Triunghiul Financiar

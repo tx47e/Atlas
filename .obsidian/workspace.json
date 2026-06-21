@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/Numerologie/Codul Spiritului.md",
+                "file": "agents/Agent 001.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Codul Spiritului"
+              "title": "Agent 001"
             }
           }
         ]
@@ -112,7 +112,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vault/Numerologie/Codul Spiritului.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Codul Spiritului"
+              "title": "Backlinks"
             }
           },
           {
@@ -199,12 +198,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b0a22f32ac646726",
+  "active": "40333d0dadc56bb2",
   "lastOpenFiles": [
+    "vault/Numerologie/Vibratia 0.md",
+    "agents/Agent 001.md",
+    "templates/Cuprins_Lucrare_Numerologica.md",
+    "skills/numerologie-SVG-septagrama/SKILL.md",
+    "skills/numerologie-SVG-omuletul-relatiilor/SKILL.md",
+    "vault/Numerologie/Codul Spiritului.md",
     "Dashboard/Dashboard - calcule.html",
     "vault/Numerologie/Concluzii.md",
-    "vault/Numerologie/Codul Spiritului.md",
-    "templates/Cuprins_Lucrare_Numerologica.md",
     "vault/tarot/imagini/Queen of Wands.jpg",
     "vault/tarot/imagini/Queen of Swords.jpg",
     "vault/tarot/imagini/Queen of Pentacles.jpg",
@@ -215,10 +218,7 @@
     "vault/tarot/imagini/Page of Cups.jpg",
     "vault/tarot/imagini/Knight of Wands.jpg",
     "vault/tarot/imagini/Knight of Swords.jpg",
-    "agents/Agent 001.md",
-    "skills/numerologie-SVG-septagrama/SKILL.md",
     "skills/numerologie-SVG-semnatura-astrala/SKILL.md",
-    "skills/numerologie-SVG-omuletul-relatiilor/SKILL.md",
     "skills/numerologie-SVG-triunghiul-financiar/SKILL.md",
     "skills/numerologie-svg-septagrama/SKILL.md",
     "skills/numerologie-SVG-triunghiul-financiar/agents/openai.yaml",
@@ -230,7 +230,6 @@
     "skills/numerologie-SVG-septagrama/agents",
     "skills/numerologie-SVG-septagrama",
     "skills/numerologie-SVG-semnatura-astrala/agents/openai.yaml",
-    "skills/numerologie-SVG-semnatura-astrala/assets",
     "skills/numerologie-SVG-patratul-de-aur/SKILL.md",
     "skills/numerologie-svg-semnatura-astrala/SKILL.md",
     "skills/numerologie-svg-patratul-de-aur/SKILL.md",

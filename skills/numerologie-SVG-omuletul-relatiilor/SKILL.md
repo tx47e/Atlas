@@ -1,6 +1,7 @@
 ---
 name: numerologie-SVG-omuletul-relatiilor
 description: Creeaza sau adapteaza SVG-uri numerologice pentru Omuletul Relatiilor. Foloseste acest skill cand utilizatorul cere numerologie SVG, omuletul relatiilor, compatibilitate de cuplu sau un SVG de relatie similar cu referinta locala.
+tags: [skill]
 ---
 
 # Numerologie SVG Omuletul Relatiilor

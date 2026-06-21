@@ -1,6 +1,7 @@
 ---
 name: numerologie-SVG-semnatura-astrala
 description: Creeaza sau adapteaza SVG-uri numerologice pentru Semnatura Astrala. Foloseste acest skill cand utilizatorul cere semnatura astrala, diagrama astrala numerologica, coduri astrale sau un SVG similar cu referinta locala.
+tags: [skill]
 ---
 
 # Numerologie SVG Semnatura Astrala

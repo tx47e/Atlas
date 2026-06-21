@@ -1,6 +1,7 @@
 ---
 name: numerologie-SVG-patratul-de-aur
 description: Creeaza sau adapteaza SVG-uri numerologice pentru Patratul de Aur. Foloseste acest skill cand utilizatorul cere patratul de aur, matrice 3x3 aurie, traseu numerologic in patrat sau un SVG similar cu referinta locala.
+tags: [skill]
 ---
 
 # Numerologie SVG Patratul De Aur

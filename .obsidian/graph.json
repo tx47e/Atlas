@@ -8,24 +8,24 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "karma",
+      "query": "tag:#agent  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "vibrati",
+      "query": "tag:#skill  ",
       "color": {
         "a": 1,
-        "rgb": 5431504
+        "rgb": 5984992
       }
     },
     {
-      "query": "",
+      "query": "tag:#tarot",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 1397017
       }
     }
   ],
@@ -39,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.09392927902846034,
+  "scale": 0.1846232622585626,
   "close": true
 }

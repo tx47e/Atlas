@@ -1,3 +1,7 @@
+---
+tags: [agent]
+---
+
 # Agent 001
 
 ## Fisa postului
@@ -10,11 +14,11 @@ Sa creeze reprezentari SVG numerologice clare, corecte si reutilizabile, folosin
 
 ## Skill-uri alocate
 
-- `numerologie-SVG-omuletul-relatiilor`
-- `numerologie-SVG-patratul-de-aur`
-- `numerologie-SVG-semnatura-astrala`
-- `numerologie-SVG-septagrama`
-- `numerologie-SVG-triunghiul-financiar`
+- `numerologie-SVG-omuletul-relatiilor` - [[skills/numerologie-SVG-omuletul-relatiilor/SKILL|SKILL.md]]
+- `numerologie-SVG-patratul-de-aur` - [[skills/numerologie-SVG-patratul-de-aur/SKILL|SKILL.md]]
+- `numerologie-SVG-semnatura-astrala` - [[skills/numerologie-SVG-semnatura-astrala/SKILL|SKILL.md]]
+- `numerologie-SVG-septagrama` - [[skills/numerologie-SVG-septagrama/SKILL|SKILL.md]]
+- `numerologie-SVG-triunghiul-financiar` - [[skills/numerologie-SVG-triunghiul-financiar/SKILL|SKILL.md]]
 
 ## Responsabilitati
 

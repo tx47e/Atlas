@@ -9,7 +9,6 @@ tags:
   - "#transcendenta"
   - "#sursa"
   - "#vibratia0"
-  - "#tarot"
 Data: 2026-06-17
 ---
 ---
