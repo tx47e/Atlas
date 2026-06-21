@@ -12,20 +12,7 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Numarul Ereditar|Numarul ereditar]] este calculul derivat din numele de familie. El descrie influenta pasiva a familiei, mostenirea purtata prin nume si legatura cu linia de neam.
-
----
-## Ce indica
-
-- Influenta familiei.
-- Mostenirea purtata prin numele de familie.
-- Linia de neam in forma numerologica redusa la 1-9.
-- O baza pentru [[Numarul Neamului]].
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se foloseste numele de familie relevant pentru analiza.
+Numarul ereditar este calculul derivat din numele de familie. El descrie influenta pasiva a familiei, mostenirea purtata prin nume si legatura cu linia de neam.
 
 ---
 ## Formula de calcul
@@ -61,24 +48,7 @@ D=4, O=6, I=9, N=5, A=1, S=1
 
 Rezultat:
 
-- [[Numarul Ereditar|Numarul ereditar]]: [[Vibratia 8|8]].
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Complementar cu
-
-- [[Numarul Neamului]]
-- [[Numarul de Exprimare]]
-
-### Contribuie la
-
-- [[Cod Numerologic Personal]]
-- [[Concluzii]]
+- Numarul ereditar: Vibratia 8.
 
 ---
 ## Observatii

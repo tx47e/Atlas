@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 6
@@ -18,6 +18,8 @@ tags:
 # 6-Indragostitii
 
 ## Descriere Generala
+
+![[imagini/06-The Lovers.jpg]]
 
 ### Esenta
 - Indragostitii sunt arhetipul alegerii facute din aliniere interioara. Cartea vorbeste despre iubire, atractie si complementaritate, dar mai profund despre valorile care decid directia vietii. In lumina, aduce armonie si sinceritate; in umbra, poate arata indecizie, ispita sau ruptura dintre dorinta si adevar.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 6]]
+- Vibratia 6 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[5-Marele Preot]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[7-Carul]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 6]]
-
-### Arcane asociate
-- [[5-Marele Preot]]
-- [[7-Carul]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

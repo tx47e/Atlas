@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 14
@@ -18,6 +18,8 @@ tags:
 # 14-Cumpatarea
 
 ## Descriere Generala
+
+![[imagini/14-Temperance.jpg]]
 
 ### Esenta
 - Cumpatarea este arhetipul alchimiei interioare, al echilibrarii fortelor si al vindecarii prin ritm. Ea amesteca elemente diferite pana cand apare o formula mai rafinata. In lumina, aduce armonie, rabdare si integrare; in umbra, poate indica exces, dispersie sau graba de a obtine rezultatul.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 5]]
+- Vibratia 5 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[13-Moartea]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[15-Diavolul]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 5]]
-
-### Arcane asociate
-- [[13-Moartea]]
-- [[15-Diavolul]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

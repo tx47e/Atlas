@@ -30,7 +30,7 @@ In viata cotidiana, esenta lui 33 se vede in dorinta de a alina, invata, repara
 si armoniza. Maturitatea apare cand ajutorul ramane curat: ofera prezenta si
 directie, dar nu creeaza dependenta si nu cere sacrificiu personal continuu.
 
-La nivel interior, vibratia 33 amplifica temele lui [[Vibratia 6]]: iubire, grija,
+La nivel interior, vibratia 33 amplifica temele lui Vibratia 6: iubire, grija,
 responsabilitate, familie si armonizare. Diferenta este raza de actiune. 6 are
 grija de cercul apropiat; 33 poate simti chemarea de a ingriji, educa sau vindeca
 un cerc mai larg: comunitate, grup, elevi, clienti, familie extinsa sau oameni
@@ -195,4 +195,4 @@ creeaza dependenta.
 ---
 ## Tarot
 
-Numar maestru: se citeste impreuna cu [[6-Indragostitii|Arcana 6 - Indragostitii - "The Lovers"]] si cu dinamica lui [[Vibratia 6]].
+Numar maestru: se citeste impreuna cu Arcana 6 - Indragostitii - "The Lovers", care se poate gasi in [[tarot/Index|tarot]], si cu dinamica lui Vibratia 6.

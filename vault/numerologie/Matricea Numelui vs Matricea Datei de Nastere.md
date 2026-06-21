@@ -11,12 +11,16 @@ depinde de: Matricea Datei de Nastere
 ---
 ## Descriere
 
-[[Matricea Numelui vs Matricea Datei de Nastere]] compara doua surse separate:
+Matricea Numelui vs Matricea Datei de Nastere compara doua surse separate:
 
 - [[Matricea Datei de Nastere]], care arata structura nativa;
 - [[Matricea Numelui]], care arata ce activeaza numele.
 
 Nu se calculeaza o a treia matrice. Comparatia se face pe fiecare casuta 1-9.
+
+Aceasta comparatie face parte din capitolul extins [[Influentele Numelui]], alaturi de primele si ultimele litere, primele vocale, cheile de bolta si cifra energetica.
+
+Aceasta rubrica nu este acelasi lucru cu [[Matricea Numelui#Comparatia cu optimul|Comparatia cu optimul]]. Comparatia cu optimul foloseste o matrice optima fixa si se documenteaza separat in [[Matricea Numelui]].
 
 ---
 ## Formula de comparatie
@@ -62,20 +66,7 @@ Cand cifra apare in nume, dar lipseste din data, numele activeaza o tema care nu
 | 5 | - | `55` | potential de nume fara suport nativ |
 | 9 | `9` | `999` | exces in nume |
 
-Interpretare scurta: numele poate impinge persoana spre mai multa afirmare si perspectiva larga decat structura nativa sustine natural, in timp ce zona emotionala a lui [[Vibratia 2|2]] poate fi traita ca mai putin activa in nume.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Matricea Datei de Nastere]]
-- [[Matricea Numelui]]
-
-### Contribuie la
-
-- [[Concluzii]]
-- [[Cod Numerologic Personal]]
+Interpretare scurta: numele poate impinge persoana spre mai multa afirmare si perspectiva larga decat structura nativa sustine natural, in timp ce zona emotionala a lui Vibratia 2 poate fi traita ca mai putin activa in nume.
 
 ---
 ## Observatii

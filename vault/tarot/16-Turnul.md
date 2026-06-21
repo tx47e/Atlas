@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 16
@@ -18,6 +18,8 @@ tags:
 # 16-Turnul
 
 ## Descriere Generala
+
+![[imagini/16-The Tower.jpg]]
 
 ### Esenta
 - Turnul este arhetipul revelatiei bruste si al prabusirii structurilor false. El intervine acolo unde adevarul a fost amanat prea mult sau unde orgoliul a ridicat ziduri instabile. In lumina, elibereaza si trezeste; in umbra, poate fi trait ca soc, pierdere si dezorientare.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 7]]
+- Vibratia 7 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[15-Diavolul]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[17-Steaua]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 7]]
-
-### Arcane asociate
-- [[15-Diavolul]]
-- [[17-Steaua]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

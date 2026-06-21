@@ -1,4 +1,4 @@
-﻿# Tarot
+# Tarot
 
 ## Arcane Majore
 

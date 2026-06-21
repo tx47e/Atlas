@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 15
@@ -18,6 +18,8 @@ tags:
 # 15-Diavolul
 
 ## Descriere Generala
+
+![[imagini/15-The Devil.jpg]]
 
 ### Esenta
 - Diavolul este arhetipul materiei, dorintei, instinctului si al lanturilor pe care omul le accepta uneori fara sa le mai vada. El scoate la suprafata dependente, frici, compulsii si contracte psihice cu propria umbra. In lumina, aduce luciditate asupra instinctului; in umbra, captivitate, atasament si autoinselare.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 6]]
+- Vibratia 6 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[14-Cumpatarea]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[16-Turnul]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 6]]
-
-### Arcane asociate
-- [[14-Cumpatarea]]
-- [[16-Turnul]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

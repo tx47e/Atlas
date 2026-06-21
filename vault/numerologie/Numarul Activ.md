@@ -12,20 +12,7 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Numarul Activ|Numarul activ]] este calculul derivat din prenumele folosit efectiv. El descrie influenta directa a numelui de zi cu zi asupra comportamentului curent.
-
----
-## Ce indica
-
-- Energia prenumelui activ.
-- Comportamentul curent.
-- Felul in care persoana raspunde la numele prin care este strigata.
-- O nuanta practica a [[Numarul de Exprimare|numarului de exprimare]].
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se foloseste prenumele activ declarat. Daca nu este declarat, se foloseste primul prenume din numele complet.
+Numarul activ este calculul derivat din prenumele folosit efectiv. El descrie influenta directa a numelui de zi cu zi asupra comportamentului curent.
 
 ---
 ## Formula de calcul
@@ -62,25 +49,7 @@ E=5, L=3, E=5, N=5, A=1
 
 Rezultat:
 
-- [[Numarul Activ|Numarul activ]]: [[Vibratia 1|1]].
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Complementar cu
-
-- [[Numarul de Exprimare]]
-- [[Numarul Intim]]
-- [[Numarul de Realizare]]
-
-### Contribuie la
-
-- [[Cod Numerologic Personal]]
-- [[Concluzii]]
+- Numarul activ: Vibratia 1.
 
 ---
 ## Observatii

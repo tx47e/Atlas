@@ -12,39 +12,9 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Lectii de Viata|Lectiile de viata]] descriu o succesiune ciclica de teme anuale, calculata din [[Datele de intrare|data nasterii]] prin inmultirea zilei, lunii si anului nasterii.
+Lectiile de viata descriu o succesiune ciclica de teme anuale, calculata din [[Datele de intrare|data nasterii]] prin inmultirea zilei, lunii si anului nasterii.
 
 Sirul rezultat se aplica peste anii de viata, in ordine, apoi se repeta de la inceput cand se termina.
-
----
-## Ce indica
-
-- Lectia activa a fiecarui an de viata.
-- Temele care revin ciclic.
-- Zonele de lucru anual: inceput, relatie, exprimare, disciplina, schimbare, responsabilitate, introspectie, putere, finalizare sau resetare.
-- Repetitiile care pot accentua anumite teme.
-- O cheie de citire pentru perioadele de evolutie personala.
-
----
-## Rol in analiza
-
-[[Lectii de Viata|Lectiile de viata]] se folosesc pentru ritmul anual interior al persoanei.
-
-In analiza, se coreleaza cu:
-
-- [[Soarta si Destin]], pentru tema vietii;
-- [[Ciclul de 7 Ani]], [[Ciclul de 9 Ani]] si [[Ciclul de 12 Ani]];
-- [[Pinacluri - Oportunitati si Provocari]];
-- [[Vibratie Interioara]], [[Vibratie Exterioara]] si [[Vibratia Destinului]].
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se folosesc:
-
-- ziua nasterii;
-- luna nasterii;
-- anul nasterii.
 
 ---
 ## Formula de calcul
@@ -90,16 +60,16 @@ O persoana care are 25 de ani impliniti se afla in anul 26 de viata, pana la urm
 ---
 ## Interpretare generala
 
-- [[Vibratia 0|0]]: potential, pauza, resetare, golire si reasezare.
-- [[Vibratia 1|1]]: initiativa, identitate, directie personala.
-- [[Vibratia 2|2]]: relatie, cooperare, diplomatie si limite emotionale.
-- [[Vibratia 3|3]]: exprimare, creativitate, comunicare si bucurie.
-- [[Vibratia 4|4]]: structura, disciplina, munca si constructie.
-- [[Vibratia 5|5]]: schimbare, libertate, adaptare si miscare.
-- [[Vibratia 6|6]]: responsabilitate, familie, grija si armonie.
-- [[Vibratia 7|7]]: introspectie, studiu, adevar si cunoastere.
-- [[Vibratia 8|8]]: putere, resurse, autoritate si materializare.
-- [[Vibratia 9|9]]: incheiere, iertare, compasiune si intelepciune.
+- Vibratia 0: potential, pauza, resetare, golire si reasezare.
+- Vibratia 1: initiativa, identitate, directie personala.
+- Vibratia 2: relatie, cooperare, diplomatie si limite emotionale.
+- Vibratia 3: exprimare, creativitate, comunicare si bucurie.
+- Vibratia 4: structura, disciplina, munca si constructie.
+- Vibratia 5: schimbare, libertate, adaptare si miscare.
+- Vibratia 6: responsabilitate, familie, grija si armonie.
+- Vibratia 7: introspectie, studiu, adevar si cunoastere.
+- Vibratia 8: putere, resurse, autoritate si materializare.
+- Vibratia 9: incheiere, iertare, compasiune si intelepciune.
 
 ---
 ## Exemplu de calcul
@@ -141,7 +111,7 @@ Aplicare pe primii 12 ani:
 
 Interpretare scurta:
 
-Lectia [[Vibratia 4|4]] apare in doi ani consecutivi, ceea ce poate accentua teme de structura, disciplina, constructie, cariera si responsabilitate practica.
+Lectia Vibratia 4 apare in doi ani consecutivi, ceea ce poate accentua teme de structura, disciplina, constructie, cariera si responsabilitate practica.
 
 ### Exemplu 2
 
@@ -160,32 +130,6 @@ Sirul lectiilor:
 ```text
 1, 9, 5, 2, 1, 6
 ```
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Contribuie la
-
-- [[Concluzii]]
-- [[Cod Numerologic Personal]]
-
-### Complementar cu
-
-- [[Soarta si Destin]]
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Ciclul de 7 Ani]]
-- [[Ciclul de 9 Ani]]
-- [[Ciclul de 12 Ani]]
-
-### Poate influenta
-
-- [[Aspecte de Indreptat]]
-- [[Aplicabilitate Profesionala]]
 
 ---
 ## Observatii

@@ -25,7 +25,12 @@ Interpretarea trebuie facuta cu prudenta, fara ierarhizare rigida. Un cod mai ma
 ---
 ## Calcule
 
-Formula adoptata pentru proiect:
+Codul matricial, prescurtat `CM`, se determina din ziua si luna datei de
+nastere. Se ia ziua nasterii pe verticala si luna nasterii pe orizontala, apoi
+se citeste valoarea de la intersectia lor in tabelul rapid zi-luna. Acea valoare
+este Codul Matricial si, in acelasi timp, Codul Spiritului.
+
+Formula echivalenta folosita pentru verificare:
 
 ```text
 CM = 55 - Zi - (2 x Luna)
@@ -37,8 +42,8 @@ Unde:
 - `Zi` este ziua nasterii;
 - `Luna` este luna nasterii, in forma numerica 1-12.
 
-In cadrul acestui capitol, codul matricial obtinut prin formula de mai sus este
-folosit ca reper numeric pentru citirea Codului Spiritului.
+In cadrul acestui capitol, codul matricial citit din tabel sau verificat prin
+formula este folosit ca reper numeric pentru citirea Codului Spiritului.
 
 Observatii:
 
@@ -52,13 +57,17 @@ Observatii:
 
 1. Se preia ziua din [[Datele de intrare|data nasterii]].
 2. Se preia luna din data nasterii.
-3. Se inmulteste luna cu 2.
-4. Din 55 se scad ziua nasterii si dublul lunii.
-5. Rezultatul obtinut este codul matricial, prescurtat `CM`.
-6. Codul matricial se foloseste ca reper pentru Codul Spiritului si se
-   incadreaza intr-o zona de dezvoltare.
-7. Se calculeaza subetapa, adica lectia spirituala.
-8. Se calculeaza varsta spiritului la nastere si, optional, varsta spiritului actuala.
+3. Se cauta ziua pe verticala si luna pe orizontala in tabelul rapid zi-luna.
+4. Valoarea de la intersectia zilei cu luna este codul matricial, prescurtat
+   `CM`.
+5. Codul matricial este Codul Spiritului.
+6. Se poate verifica valoarea prin formula `CM = 55 - Zi - (2 x Luna)`.
+7. Codul Spiritului se incadreaza intr-o zona de dezvoltare.
+8. Se calculeaza subetapa, adica lectia spirituala.
+9. Se calculeaza varsta spiritului la nastere:
+   `(CM x 189) - 189`.
+10. Se calculeaza varsta spiritului actuala:
+    `Varsta Spiritului la nastere + varsta actuala a persoanei`.
 
 ### Tabel rapid zi-luna
 
@@ -92,9 +101,9 @@ Observatii:
 | 26 | 27 | 25 | 23 | 21 | 19 | 17 | 15 | 13 | 11 | 9 | 7 | 5 |
 | 27 | 26 | 24 | 22 | 20 | 18 | 16 | 14 | 12 | 10 | 8 | 6 | 4 |
 | 28 | 25 | 23 | 21 | 19 | 17 | 15 | 13 | 11 | 9 | 7 | 5 | 3 |
-| 29 | 24 | 22 | 20 | 18 | 16 | 14 | 12 | 10 | 8 | 6 | 4 | 2 |
-| 30 | 23 | 21 | 19 | 17 | 15 | 13 | 11 | 9 | 7 | 5 | 3 | 1 |
-| 31 | 22 | 20 | 18 | 16 | 14 | 12 | 10 | 8 | 6 | 4 | 2 | 0 |
+| 29 | 24 |  | 20 | 18 | 16 | 14 | 12 | 10 | 8 | 6 | 4 | 2 |
+| 30 | 23 |  | 19 | 17 | 15 | 13 | 11 | 9 | 7 | 5 | 3 | 1 |
+| 31 | 22 |  | 18 |  | 14 |  | 10 | 8 |  | 4 |  | 0 |
 
 ---
 ## Zonele de dezvoltare
@@ -213,6 +222,10 @@ Varsta Spiritului actuala:
 Varsta Spiritului la nastere + varsta biologica
 ```
 
+Aceasta valoare reprezinta Varsta Spiritului in momentul analizat. Practic,
+se porneste de la Varsta Spiritului la nastere si se adauga varsta actuala a
+persoanei.
+
 ### Cheia lui 189
 
 ```text
@@ -300,6 +313,37 @@ Aceeasi lectie poate aparea pe mai multe niveluri. De exemplu:
 - Cod 45 = Haruri + Lectia 6.
 
 Diferenta este nivelul de constiinta la care se manifesta.
+
+---
+## Corelari interpretative
+
+Codul Spiritului se poate corela cu alte capitole ale lucrarii, mai ales atunci
+cand aceeasi tema apare in mai multe sisteme de calcul. Corelarea nu se
+foloseste ca formula separata, ci ca indiciu interpretativ.
+
+### Corelare cu Scara Bunastarii
+
+Daca spiritul se afla in zona materiala, iar in [[Scara Bunastarii|Scara Bunastarii]] 
+vectorul 369 - Bunastare materiala este printre cele mai inalte
+valori sau chiar cea mai inalta valoare a scarii, aceasta suprapunere devine un
+element important de interpretare.
+
+In acest caz, tema materiala nu se citeste doar ca interes pentru bani sau
+resurse, ci ca lectie spirituala de maturizare prin materie: administrare,
+constructie, responsabilitate, valoare concreta, relatie cu resursele si felul
+in care persoana invata sa transforme potentialul interior in rezultate
+vizibile.
+
+Daca zona materiala se combina cu Lectia 6 - Prelucrarea karmei, interpretarea
+poate arata ca persoana are de echilibrat si rafinat raportul cu responsabilitatea,
+datoria, resursele, familia, munca si consecintele alegerilor practice. Cand
+`369 - Bunastare materiala` domina Scara Bunastarii, aceasta tema poate deveni
+un fir central in lucrare si trebuie legata cu grija de destin, soarta, nume,
+profesie si concluzia finala.
+
+Aceasta corelare trebuie formulata prudent, fara verdict fatalist. Ea arata o
+zona de constientizare si lucru interior, nu o promisiune automata de bogatie si
+nici o condamnare la dificultati materiale.
 
 ---
 ## Exemple

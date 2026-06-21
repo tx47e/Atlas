@@ -265,4 +265,4 @@ decizia finala fara a transforma colaborarea intr-o amenintare.
 ---
 ## Tarot
 
-[[1-Magicianul|Arcana 1 - Magicianul - "The Magician"]] 
+Arcana 1 - Magicianul - "The Magician" se poate gasi in [[tarot/Index|tarot]].

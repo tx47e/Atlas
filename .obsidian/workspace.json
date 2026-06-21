@@ -6,7 +6,6 @@
       {
         "id": "3d992b1bb9b4ef0d",
         "type": "tabs",
-        "dimension": 57.776617954070986,
         "children": [
           {
             "id": "b0a22f32ac646726",
@@ -14,33 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/numerologie/Vibratia 5.md",
+                "file": "vault/Numerologie/Codul Spiritului.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vibratia 5"
-            }
-          }
-        ]
-      },
-      {
-        "id": "5faba24fea8586fd",
-        "type": "tabs",
-        "dimension": 42.22338204592902,
-        "children": [
-          {
-            "id": "3eb76b7b4029eafa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Template_Concept.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Template_Concept"
+              "title": "Codul Spiritului"
             }
           }
         ]
@@ -55,7 +33,7 @@
       {
         "id": "0ed92887046056cb",
         "type": "tabs",
-        "dimension": 66,
+        "dimension": 57.227575982209046,
         "children": [
           {
             "id": "c1cd69e380e73c87",
@@ -102,7 +80,7 @@
       {
         "id": "744c8dee47e4b6c7",
         "type": "tabs",
-        "dimension": 34,
+        "dimension": 42.772424017790954,
         "children": [
           {
             "id": "40333d0dadc56bb2",
@@ -118,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 492.5
   },
   "right": {
     "id": "7ae17244d167b343",
@@ -134,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vault/numerologie/Vibratia 5.md",
+                "file": "vault/Numerologie/Codul Spiritului.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +122,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vibratia 5"
+              "title": "Backlinks for Codul Spiritului"
             }
           },
           {
@@ -217,46 +195,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "3d-graph:3D Graph": false
     }
   },
   "active": "b0a22f32ac646726",
   "lastOpenFiles": [
-    "vault/numerologie/Vibratia 33.md",
-    "vault/numerologie/Vibratia 22.md",
-    "vault/numerologie/Vibratia 11.md",
-    "vault/numerologie/Vibratia 9.md",
-    "vault/numerologie/Vibratia 8.md",
-    "vault/numerologie/Vibratia 7.md",
-    "vault/numerologie/Vibratia 6.md",
-    "vault/numerologie/Vibratia 5.md",
-    "vault/numerologie/Vibratia 4.md",
-    "vault/numerologie/Vibratia 3.md",
-    "vault/numerologie/Vibratia 2.md",
-    "vault/numerologie/Vibratia 1.md",
-    "vault/numerologie/Vibratia 0.md",
-    "vault/numerologie/Soarta si Destin.md",
-    "vault/numerologie/Vibratie Interioara.md",
-    "vault/numerologie/Datele de intrare.md",
-    "vault/numerologie/Concluzii.md",
-    "Untitled.base",
-    "templates/Template_Concept.md",
-    "templates/Template_Sinteza.md",
-    "templates/Template_Arhetip.md",
-    "vault/numerologie/Index.md",
-    "vault/tarot/2-Marea Preoteasa.md",
-    "temp/vibratii/vibratia-3/07-exemple.md",
-    "temp/vibratii/vibratia-3/06-directii-de-dezvoltare.md",
-    "temp/vibratii/vibratia-3/05-lectii.md",
-    "temp/vibratii/vibratia-3/04-umbra.md",
-    "temp/vibratii/vibratia-9",
-    "temp/vibratii/vibratia-8",
-    "temp/vibratii/vibratia-7",
-    "temp/vibratii/vibratia-6",
-    "temp/vibratii/vibratia-5",
-    "temp/vibratii/vibratia-4",
-    "temp/vibratii/vibratia-33",
-    "temp/vibratii/vibratia-3",
-    "temp/vibratii/vibratia-22"
+    "Dashboard/Dashboard - calcule.html",
+    "vault/Numerologie/Concluzii.md",
+    "vault/Numerologie/Codul Spiritului.md",
+    "templates/Cuprins_Lucrare_Numerologica.md",
+    "vault/tarot/imagini/Queen of Wands.jpg",
+    "vault/tarot/imagini/Queen of Swords.jpg",
+    "vault/tarot/imagini/Queen of Pentacles.jpg",
+    "vault/tarot/imagini/Queen of Cups.jpg",
+    "vault/tarot/imagini/Page of Wands.jpg",
+    "vault/tarot/imagini/Page of Swords.jpg",
+    "vault/tarot/imagini/Page of Pentacles.jpg",
+    "vault/tarot/imagini/Page of Cups.jpg",
+    "vault/tarot/imagini/Knight of Wands.jpg",
+    "vault/tarot/imagini/Knight of Swords.jpg",
+    "agents/Agent 001.md",
+    "skills/numerologie-SVG-septagrama/SKILL.md",
+    "skills/numerologie-SVG-semnatura-astrala/SKILL.md",
+    "skills/numerologie-SVG-omuletul-relatiilor/SKILL.md",
+    "skills/numerologie-SVG-triunghiul-financiar/SKILL.md",
+    "skills/numerologie-svg-septagrama/SKILL.md",
+    "skills/numerologie-SVG-triunghiul-financiar/agents/openai.yaml",
+    "skills/numerologie-SVG-triunghiul-financiar/assets",
+    "skills/numerologie-SVG-triunghiul-financiar/agents",
+    "skills/numerologie-SVG-triunghiul-financiar",
+    "skills/numerologie-SVG-septagrama/agents/openai.yaml",
+    "skills/numerologie-SVG-septagrama/assets",
+    "skills/numerologie-SVG-septagrama/agents",
+    "skills/numerologie-SVG-septagrama",
+    "skills/numerologie-SVG-semnatura-astrala/agents/openai.yaml",
+    "skills/numerologie-SVG-semnatura-astrala/assets",
+    "skills/numerologie-SVG-patratul-de-aur/SKILL.md",
+    "skills/numerologie-svg-semnatura-astrala/SKILL.md",
+    "skills/numerologie-svg-patratul-de-aur/SKILL.md",
+    "vault/Numerologie/Omuletul Relatiilor.md",
+    "vault/Numerologie/Patratul de Aur.md",
+    "skills/numerologie-svg-amuletul-relatiilor/SKILL.md",
+    "skills/amuletul-relatiilor/SKILL.md",
+    "vault/Numerologie/Index.md",
+    "skills/numerologie-svg-triunghiul-financiar/SKILL.md",
+    "vault/Numerologie/Vibratie Interioara.md",
+    "vault/Numerologie/Vibratie Globala.md",
+    "vault/Numerologie/Vibratie Exterioara.md",
+    "vault/Numerologie/Vibratie Cosmica Variabila.md",
+    "vault/Numerologie/Vibratie Cosmica Totala.md",
+    "vault/Numerologie/Vibratie Cosmica Fixa.md",
+    "vault/Numerologie/Vibratia Destinului.md"
   ]
 }

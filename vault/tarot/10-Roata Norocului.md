@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 10
@@ -18,6 +18,8 @@ tags:
 # 10-Roata Norocului
 
 ## Descriere Generala
+
+![[imagini/10-Wheel of Fortune.jpg]]
 
 ### Esenta
 - Roata Norocului este arhetipul ciclurilor, al schimbarii si al destinului in miscare. Ea arata ca viata nu este statica si ca unele porti se deschid prin ritm, nu prin control. In lumina, aduce sansa, oportunitate si sincronizare; in umbra, poate indica instabilitate, repetarea lectiilor sau dependenta de hazard.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 1]]
+- Vibratia 1 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,35 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[9-Ermitul]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[11-Dreptatea]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 1]]
-
-### Arcane asociate
-- [[9-Ermitul]]
-- [[11-Dreptatea]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.

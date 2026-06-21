@@ -57,6 +57,7 @@
 - [[Matricea Datei de Nastere]]
 - [[Matricea Numelui]]
 - [[Matricea Numelui vs Matricea Datei de Nastere]]
+- [[Figuri Geometrice]]
 - [[Scara Bunastarii]]
 - [[Fixatia]]
 - [[Curgerea Energiei]]
@@ -66,9 +67,14 @@
 
 - [[Pinacluri - Oportunitati si Provocari]]
 - [[Ciclul de 7 Ani]]
+- [[Septagrama]]
 - [[Ciclul de 9 Ani]]
 - [[Ciclul de 12 Ani]]
 - [[Anii Importanti Int-Ext]]
+
+## Relatii
+
+- [[Omuletul Relatiilor]]
 
 ## Sinteza si Aplicabilitate
 
@@ -79,5 +85,6 @@
 ## Ajutoare
 
 - [[Semnatura Astrala]]
+- [[Directiile de Succes]]
 - [[Triunghiul Financiar]]
 - [[Patratul de Aur]]

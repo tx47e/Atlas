@@ -71,6 +71,30 @@ suma de control = centru x 3
 Toate liniile si toate coloanele trebuie sa dea aceeasi valoare. Pentru
 validarea completa se verifica si cele doua diagonale.
 
+### Observatie de analiza
+
+Suma de control a patratului nu reprezinta in mod automat [[Calea Destinului]].
+Ea se calculeaza strict din centrul Patratului de Aur:
+
+```text
+suma de control = centru x 3
+```
+
+Totusi, in unele cazuri poate aparea o rezonanta cu Calea Destinului:
+
+- centrul Patratului de Aur poate fi egal cu Calea Destinului;
+- mai rar, suma de control poate fi egala direct cu Calea Destinului.
+
+Cand centrul Patratului de Aur este egal cu Calea Destinului, suma de control
+devine triplul Caii Destinului:
+
+```text
+suma de control = Calea Destinului x 3
+```
+
+Aceasta relatie se noteaza ca observatie pentru analiza si concluzii, nu ca
+regula de constructie a patratului.
+
 ---
 ## Exemplu
 
@@ -117,7 +141,8 @@ Verificare:
 
 Exemplu desenat:
 
-- [[Patratul de Aur - 27 noiembrie 1973.svg]]
+- [[Patratul de Aur - 27 noiembrie 1973.svg]] - exemplu de referinta cu layout actualizat
+- [[Patratul de Aur - 06 noiembrie 1984.svg]] - exemplu suplimentar cu layout actualizat
 
 In exemplul vizual, culorile elementelor sunt:
 

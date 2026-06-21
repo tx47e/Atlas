@@ -12,27 +12,9 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Karma din Luna Nasterii|Karma lunii de nastere]] arata datoria sociala, familiala sau personala indicata de luna nasterii.
+Karma lunii de nastere arata datoria sociala, familiala sau personala indicata de luna nasterii.
 
 Luna are legatura cu viata curenta si arata de ce si pentru ce a venit omul in familia lui: in raport cu mama, tatal, fratii, bunicii, neamul, locul de nastere sau propria persoana.
-
----
-## Ce indica
-
-- Sarcina karmica familiala sau sociala.
-- Relatia principala care cere reparare sau maturizare.
-- Directia de lucru in familia si neamul persoanei.
-- Tema de responsabilitate personala in viata curenta.
-
----
-## Rol in analiza
-
-Se citeste impreuna cu [[Karma din Ziua Nasterii]] si [[Karma din Calea Destinului]]. Nu inlocuieste [[Vibratie Exterioara]], desi ambele pornesc de la luna nasterii.
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se preia luna nasterii, ca numar intre 1 si 12.
 
 ---
 ## Formula de calcul
@@ -81,23 +63,6 @@ karma lunii = karma fata de sine
 ```
 
 Citire scurta: tema este cizelarea propriei persoane, educatia si ascultarea sfaturilor oamenilor mai experimentati.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Complementar cu
-
-- [[Karma din Ziua Nasterii]]
-- [[Karma din Calea Destinului]]
-- [[Vibratie Exterioara]]
-
-### Contribuie la
-
-- [[Concluzii]]
 
 ---
 ## Observatii

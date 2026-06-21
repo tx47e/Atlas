@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <title>Figuri geometrice - 12.01.1960</title>
+  <desc>Matricea datei de nastere pentru 12.01.1960, cu cerc, linie, triunghi si patrat.</desc>
+  <defs>
+    <style>
+      .digit { font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 800; fill: #000; }
+      .shape { fill: #fff; stroke: #222; stroke-width: 2.4; }
+      .line { stroke: #222; stroke-width: 2.4; stroke-linecap: round; }
+      .fire { fill: #ff3c3c; }
+      .water { fill: #6fa0e8; }
+      .earth { fill: #d09a5f; }
+      .air { fill: #e8edf0; }
+      .empty { fill: #f1f1f1; }
+    </style>
+  </defs>
+
+  <rect width="360" height="360" fill="#fff"/>
+
+  <!-- Data: 12.01.1960 -> cod 12011960 + 20 + 2 + 18 + 9 -->
+  <!-- Cifre in matrice: 1111, 222, 6, 8, 99 -->
+  <g transform="translate(24,16)">
+    <rect class="fire" x="0" y="0" width="104" height="104"/>
+    <rect class="earth" x="104" y="0" width="104" height="104"/>
+    <rect class="air" x="208" y="0" width="104" height="104"/>
+
+    <rect class="water" x="0" y="104" width="104" height="104"/>
+    <rect class="fire" x="104" y="104" width="104" height="104"/>
+    <rect class="earth" x="208" y="104" width="104" height="104"/>
+
+    <rect class="air" x="0" y="208" width="104" height="104"/>
+    <rect class="water" x="104" y="208" width="104" height="104"/>
+    <rect class="fire" x="208" y="208" width="104" height="104"/>
+
+    <!-- 1: four appearances -> square -->
+    <text class="digit" x="28" y="62">1111</text>
+    <rect class="shape" x="41" y="73" width="22" height="22"/>
+
+    <!-- 2: three appearances -> triangle -->
+    <text class="digit" x="34" y="166">222</text>
+    <polygon class="shape" points="52,178 35,203 69,203"/>
+
+    <!-- 6: one appearance -> circle -->
+    <text class="digit" x="148" y="270">6</text>
+    <circle class="shape" cx="156" cy="300" r="8"/>
+
+    <!-- 8: one appearance -> circle -->
+    <text class="digit" x="252" y="166">8</text>
+    <circle class="shape" cx="260" cy="196" r="8"/>
+
+    <!-- 9: two appearances -> line -->
+    <text class="digit" x="248" y="270">99</text>
+    <line class="line" x1="237.5" y1="300" x2="282.5" y2="300"/>
+    <circle class="shape" cx="237.5" cy="300" r="7.5"/>
+    <circle class="shape" cx="282.5" cy="300" r="7.5"/>
+  </g>
+</svg>

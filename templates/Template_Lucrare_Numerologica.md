@@ -15,6 +15,11 @@ formulare: formal sau conversational
 
 # Lucrare numerologica
 
+Nota: pentru lucrarile numerologice complete si pentru modificarile de template
+de lucrare, se foloseste ca referinta principala
+`templates/Template_Lucrare_Numerologica_Examen.md`. Acest template ramane o
+varianta simplificata de lucru.
+
 ## Date de intrare
 
 - Data nasterii:
@@ -25,7 +30,7 @@ formulare: formal sau conversational
 - Format lucrare:
 - Tip formulare:
 
-Vezi: [[Datele de intrare]]
+Vezi: Datele de intrare
 
 ---
 ## Note de lucru pentru redactare
@@ -52,7 +57,7 @@ Vezi: [[Datele de intrare]]
   componente nuanteaza rezultatul.
 - Reprezentarea aferenta poate fi tabel, lista structurata, patratul lui
   Pitagora, tabel comparativ sau alta forma ceruta de rubrica.
-- Pentru [[Soarta si Destin]] se include si un grafic care arata raportul dintre
+- Pentru Soarta si Destin se include si un grafic care arata raportul dintre
   soarta, zona de confort a sortii, destin si zona de confort a destinului.
 - Calculele se pastreaza clare si verificabile, fara a incarca lucrarea cu
   explicatii tehnice inutile.
@@ -98,7 +103,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 ---
 ## 1. Vibratii fundamentale
 
-### [[Vibratie Interioara]]
+### Vibratie Interioara
 
 - Descriere:
 - Calcul:
@@ -106,7 +111,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Rezultat:
 - Interpretare:
 
-### [[Vibratie Exterioara]]
+### Vibratie Exterioara
 
 - Descriere:
 - Calcul:
@@ -114,7 +119,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Rezultat:
 - Interpretare:
 
-### [[Vibratie Cosmica Fixa]]
+### Vibratie Cosmica Fixa
 
 - Descriere:
 - Calcul:
@@ -122,7 +127,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Rezultat:
 - Interpretare:
 
-### [[Vibratie Cosmica Variabila]]
+### Vibratie Cosmica Variabila
 
 - Descriere:
 - Calcul:
@@ -130,7 +135,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Rezultat:
 - Interpretare:
 
-### [[Vibratie Cosmica Totala]]
+### Vibratie Cosmica Totala
 
 - Descriere:
 - Calcul:
@@ -138,7 +143,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Rezultat:
 - Interpretare:
 
-### [[Vibratie Globala]]
+### Vibratie Globala
 
 - Descriere:
 - Calcul:
@@ -149,7 +154,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 ---
 ## 2. Destin si evolutie
 
-### [[Vibratia Destinului]]
+### Vibratia Destinului
 
 - Descriere:
 - Calcul:
@@ -157,14 +162,14 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Rezultat:
 - Interpretare:
 
-### [[Calea Destinului]]
+### Calea Destinului
 
 - Descriere:
 - Calcul:
 - Rezultat:
 - Interpretare:
 
-### [[Aspecte de Indreptat]]
+### Aspecte de Indreptat
 
 - Descriere:
 - Calcul:
@@ -173,7 +178,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Traseu de reducere pentru solutie:
 - Interpretare:
 
-### [[Soarta si Destin]]
+### Soarta si Destin
 
 - Descriere:
 - Soarta:
@@ -184,7 +189,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Tema vietii:
 - Interpretare:
 
-### [[Punti]]
+### Punti
 
 - Descriere:
 - Nota de redactare: interpretarea fiecarei punti se construieste din fisierele
@@ -206,7 +211,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 ---
 ## 3. Karma
 
-### [[Karma din Ziua Nasterii]]
+### Karma din Ziua Nasterii
 
 - Descriere:
 - Calcul:
@@ -214,14 +219,14 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Nivel karma implinita:
 - Interpretare:
 
-### [[Karma din Luna Nasterii]]
+### Karma din Luna Nasterii
 
 - Descriere:
 - Calcul:
 - Tema karmica:
 - Interpretare:
 
-### [[Karma din Calea Destinului]]
+### Karma din Calea Destinului
 
 - Descriere:
 - Calcul:
@@ -231,39 +236,31 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 ---
 ## 4. Numere personale
 
-### [[Numarul de Exprimare]]
+### Numarul de Exprimare
 
 - Descriere:
 - Calcul:
 - Traseu de reducere:
 - Rezultat:
-- Comparatie cu [[Vibratia Destinului]]:
+- Comparatie cu Vibratia Destinului:
 
-### [[Numarul Intim]]
-
-- Descriere:
-- Calcul:
-- Traseu de reducere:
-- Rezultat:
-- Comparatie cu [[Vibratie Interioara]]:
-
-### [[Numarul de Realizare]]
+### Numarul Intim
 
 - Descriere:
 - Calcul:
 - Traseu de reducere:
 - Rezultat:
-- Comparatie cu [[Vibratie Exterioara]]:
+- Comparatie cu Vibratie Interioara:
 
-### [[Numarul Activ]]
+### Numarul de Realizare
 
 - Descriere:
 - Calcul:
 - Traseu de reducere:
 - Rezultat:
-- Interpretare:
+- Comparatie cu Vibratie Exterioara:
 
-### [[Numarul Ereditar]]
+### Numarul Activ
 
 - Descriere:
 - Calcul:
@@ -271,7 +268,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Rezultat:
 - Interpretare:
 
-### [[Numarul Neamului]]
+### Numarul Ereditar
 
 - Descriere:
 - Calcul:
@@ -279,7 +276,15 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Rezultat:
 - Interpretare:
 
-### [[Cod Numerologic Personal]]
+### Numarul Neamului
+
+- Descriere:
+- Calcul:
+- Traseu de reducere:
+- Rezultat:
+- Interpretare:
+
+### Cod Numerologic Personal
 
 - Descriere:
 - Cod:
@@ -288,7 +293,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 ---
 ## 5. Matrici si analize
 
-### [[Matricea Datei de Nastere]]
+### Matricea Datei de Nastere
 
 - Descriere:
 
@@ -303,7 +308,27 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Cifre absente:
 - Observatii:
 
-### [[Matricea Numelui]]
+### Fixatia
+
+- Descriere:
+- Formula:
+- Vectori plini identificati:
+- Vector ales:
+- Compozitie:
+- Valoare:
+- Numar total de elemente:
+- Casute pare:
+- Casute impare:
+- Legatura cu scara bunastarii:
+- Interpretare:
+
+Nota de redactare: fixația se calculeaza din matricea datei de nastere. Se
+alege vectorul plin dominant, adica vectorul ale carui trei casute sunt prezente
+si care are valoarea cea mai mare dintre vectorii plini. Daca nu exista vector
+plin, se noteaza ca persoana nu are fixatie matriceala clara si se interpreteaza
+tendinta impreuna cu treapta cea mai inalta din scara bunastarii.
+
+### Matricea Numelui
 
 - Descriere:
 
@@ -318,7 +343,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Cifre absente:
 - Observatii:
 
-### [[Matricea Numelui vs Matricea Datei de Nastere]]
+### Matricea Numelui vs Matricea Datei de Nastere
 
 - Descriere:
 
@@ -343,9 +368,10 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Potential de nume fara suport nativ:
 - Sustinere / nuantare:
 
-### [[Scara Bunastarii]]
+### Scara Bunastarii
 
 - Descriere:
+- Fixatia:
 - Trepte dominante:
 - Trepte slabe:
 - Salturi importante:
@@ -354,7 +380,7 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 ---
 ## 6. Cicluri si etape de viata
 
-### [[Pinacluri - Oportunitati si Provocari]]
+### Pinacluri - Oportunitati si Provocari
 
 - Descriere:
 
@@ -365,35 +391,35 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 | Pinaclul 3 |  |  |  |  |
 | Pinaclul 4 |  |  |  |  |
 
-### [[Ciclul de 7 Ani]]
+### Ciclul de 7 Ani
 
 - Descriere:
 - Ciclu:
 - Pozitie:
 - Interpretare:
 
-### [[Lectii de Viata]]
+### Lectii de Viata
 
 - Descriere:
 - Sir lectii:
 - Lectia perioadei analizate:
 - Interpretare:
 
-### [[Ciclul de 9 Ani]]
+### Ciclul de 9 Ani
 
 - Descriere:
 - Ciclu:
 - An personal:
 - Interpretare:
 
-### [[Ciclul de 12 Ani]]
+### Ciclul de 12 Ani
 
 - Descriere:
 - Ciclu:
 - Pozitie:
 - Interpretare:
 
-### [[Anii Importanti Int-Ext]]
+### Anii Importanti Int-Ext
 
 - Descriere:
 - Interval analizat:
@@ -417,7 +443,7 @@ si interpretarea se completeaza cu `-`.
 ---
 ## 7. Sinteza si aplicabilitate
 
-### [[Deschidere spre Ezoterism]]
+### Deschidere spre Ezoterism
 
 - Descriere:
 - Cod principal:
@@ -426,7 +452,7 @@ si interpretarea se completeaza cu `-`.
 - Domeniu:
 - Observatii de prudenta:
 
-### [[Aplicabilitate Profesionala]]
+### Aplicabilitate Profesionala
 
 - Descriere:
 - Arcana obstacole / ajutoare:
@@ -435,7 +461,7 @@ si interpretarea se completeaza cu `-`.
 - Arcana aplicabilitate profesionala:
 - Directii profesionale:
 
-### [[Concluzii]]
+### Concluzii
 
 #### Directia principala
 

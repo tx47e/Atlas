@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 8
@@ -18,6 +18,8 @@ tags:
 # 8-Puterea
 
 ## Descriere Generala
+
+![[imagini/08-Strenght.jpg]]
 
 ### Esenta
 - Puterea este arhetipul puterii blande, al curajului care nu are nevoie sa domine. Ea arata imblanzirea instinctului prin prezenta, rabdare si iubire constienta. In lumina, aduce autocontrol, compasiune si rezistenta interioara; in umbra, poate indica furie reprimata, slabiciune mascata sau impulsivitate.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 8]]
+- Vibratia 8 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,35 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[7-Carul]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[9-Ermitul]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 8]]
-
-### Arcane asociate
-- [[7-Carul]]
-- [[9-Ermitul]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.

@@ -12,7 +12,7 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Cod Numerologic Personal|Codul numerologic personal]] este sirul complet de cifre folosit pentru construirea [[Matricea Datei de Nastere|matricei datei de nastere]].
+Codul numerologic personal este sirul complet de cifre folosit pentru construirea [[Matricea Datei de Nastere|matricei datei de nastere]].
 
 El nu este un calcul separat de [[Matricea Datei de Nastere]]. Este denumirea operationala pentru:
 
@@ -21,23 +21,6 @@ data nasterii + N1 + N2 + N3 + N4
 ```
 
 Daca proiectul prefera sa pastreze mai putine note, acest concept poate fi sters, iar informatia ramane in [[Matricea Datei de Nastere]].
-
----
-## Ce indica
-
-- Sirul de cifre care se introduce in [[Matricea Datei de Nastere]].
-- Cifrele brute ale datei de nastere.
-- Cele patru numere de lucru folosite in metoda [[Matricea Datei de Nastere|Patratului lui Pitagora]].
-- Frecventele finale ale cifrelor 1-9 in matrice.
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se foloseste data nasterii:
-
-```text
-ZZ.LL.AAAA
-```
 
 ---
 ## Formula de calcul
@@ -108,23 +91,6 @@ Matrice:
 222 |    | 88
 33  | 6  | 9
 ```
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Contribuie la
-
-- [[Matricea Datei de Nastere]]
-- [[Scara Bunastarii]]
-
-### Complementar cu
-
-- [[Calea Destinului]]
-- [[Aspecte de Indreptat]]
 
 ---
 ## Observatii

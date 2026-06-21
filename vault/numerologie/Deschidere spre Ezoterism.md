@@ -12,42 +12,9 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Deschidere spre Ezoterism|Deschiderea spre ezoterism]] este un calcul suplimentar care foloseste [[Datele de intrare|data reala de nastere]] pentru a identifica inclinatii ezoterice, tipuri de perceptie subtila si domenii care se pot deschide mai usor.
+Deschiderea spre ezoterism este un calcul suplimentar care foloseste [[Datele de intrare|data reala de nastere]] pentru a identifica inclinatii ezoterice, tipuri de perceptie subtila si domenii care se pot deschide mai usor.
 
 Calculul nu este un verdict despre capacitati extrasenzoriale. El indica potential, directii de lucru si zone in care persoana poate avea sensibilitate, interes sau acces mai natural. Interpretarea trebuie formulata cu prudenta, mai ales cand rezultatul atinge domenii practice sau codul special 0.
-
----
-## Ce indica
-
-- Tipul principal de deschidere ezoterica.
-- Domeniile subtile care se pot activa mai usor.
-- Felul in care persoana poate lucra cu semne, sisteme, perceptii sau campuri informationale.
-- Zone unde este nevoie de prudenta, protectie si discernamant.
-- O directie suplimentara pentru [[Concluzii]] si [[Aplicabilitate Profesionala]].
-
----
-## Rol in analiza
-
-[[Deschidere spre Ezoterism|Deschiderea spre ezoterism]] se foloseste ca sectiune suplimentara, nu ca fundament al intregii lucrari.
-
-In analiza, ajuta la:
-
-- identificarea unei inclinatii spirituale, stiintifice sau practice;
-- observarea tipului de informatie pe care persoana o poate procesa mai usor;
-- corelarea cu [[Vibratie Interioara]], [[Vibratie Exterioara]] si [[Vibratie Cosmica Totala]];
-- formularea avertismentelor de prudenta cand exista risc de proiectie, manipulare sau lucru impulsiv cu informatii sensibile.
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se folosesc:
-
-- ziua nasterii;
-- luna nasterii;
-- anul nasterii;
-- confirmarea ca data folosita este data reala de nastere.
-
-Daca exista diferenta intre data reala si o data administrativa gresita, in lucrare se foloseste data reala si se noteaza explicit aceasta alegere.
 
 ---
 ## Formula de calcul
@@ -280,30 +247,6 @@ Rezultat secundar:
 Interpretare scurta:
 
 Codul 5 indica o minte orientata spre semne, simboluri, structuri si interpretare. Codul secundar 2 indica o deschidere catre terapii complementare in interiorul ezoterismului stiintific.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Contribuie la
-
-- [[Concluzii]]
-- [[Cod Numerologic Personal]]
-
-### Complementar cu
-
-- [[Vibratie Interioara]]
-- [[Vibratie Exterioara]]
-- [[Vibratie Cosmica Totala]]
-- [[Aplicabilitate Profesionala]]
-
-### Poate influenta
-
-- [[Aspecte de Indreptat]]
-- [[Lectii de Viata]]
 
 ---
 ## Observatii

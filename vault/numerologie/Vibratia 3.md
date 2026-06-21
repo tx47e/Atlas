@@ -208,4 +208,4 @@ doar nevoie de aplauze.
 ---
 ## Tarot
 
-[[3-Imparateasa|Arcana 3 - Imparateasa - "The Empress"]]
+Arcana 3 - Imparateasa - "The Empress" se poate gasi in [[tarot/Index|tarot]].

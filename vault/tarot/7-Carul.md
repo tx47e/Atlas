@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 7
@@ -18,6 +18,8 @@ tags:
 # 7-Carul
 
 ## Descriere Generala
+
+![[imagini/07-The Chariot.jpg]]
 
 ### Esenta
 - Carul este arhetipul vointei conduse, al victoriei obtinute prin disciplina si directie. El tine impreuna forte opuse si le orienteaza spre un scop. In lumina, aduce progres, curaj si control interior; in umbra, poate deveni graba, conflict, ambitia de a invinge cu orice pret sau pierderea contactului emotional.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 7]]
+- Vibratia 7 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,35 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[6-Indragostitii]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[8-Puterea]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 7]]
-
-### Arcane asociate
-- [[6-Indragostitii]]
-- [[8-Puterea]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.

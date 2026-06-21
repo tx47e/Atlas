@@ -11,21 +11,9 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Pinacluri - Oportunitati si Provocari|Pinaclurile]] descriu patru etape importante de viata, fiecare cu o oportunitate si o provocare.
+Pinaclurile descriu patru etape importante de viata, fiecare cu o oportunitate si o provocare.
 
 Oportunitatea arata resursa de crestere activa in etapa, iar provocarea arata tema de maturizare.
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se folosesc ziua, luna si anul nasterii, reduse numerologic:
-
-```text
-zi = reducere_numerologica(ziua nasterii)
-luna = reducere_numerologica(luna nasterii)
-an = reducere_numerologica(anul nasterii)
-vibratia_destinului = reducere_numerologica(data nasterii completa)
-```
 
 ---
 ## Formula de calcul
@@ -57,8 +45,7 @@ sfarsit pinaclu 3 = sfarsit pinaclu 2 + 9
 pinaclu 4 = de la anul urmator pana la finalul vietii
 ```
 
----
-## Rezultat final
+### Rezultat final
 
 | Etapa | Varsta | Oportunitate | Provocare |
 | --- | --- | ---: | ---: |
@@ -66,6 +53,15 @@ pinaclu 4 = de la anul urmator pana la finalul vietii
 | Pinaclul 2 | `sfarsit pinaclu 1 + 1` - `sfarsit pinaclu 2` | O2 | P2 |
 | Pinaclul 3 | `sfarsit pinaclu 2 + 1` - `sfarsit pinaclu 3` | O3 | P3 |
 | Pinaclul 4 | `sfarsit pinaclu 3 + 1`+ | O4 | P4 |
+
+---
+## Interpretare
+
+Interpretarea pinaclurilor se face dupa tabelul rezultat final, nu doar dupa valorile calculate separat. Fiecare rand se citeste ca o etapa de viata, in care intervalul de varsta arata perioada de activare, oportunitatea arata directia de crestere, iar provocarea arata lectia de maturizare.
+
+Coloana `Oportunitate` se interpreteaza prin sensul vibratiei obtinute: ce resursa se deschide, ce poate fi construit mai usor si ce tip de experienta sustine etapa. Coloana `Provocare` se citeste ca tema care cere echilibrare, rabdare si constienta; ea nu indica un blocaj fix, ci punctul prin care persoana invata sa foloseasca mai matur oportunitatea etapei.
+
+In lectura finala, oportunitatea si provocarea aceluiasi pinaclu se citesc impreuna. Oportunitatea arata directia favorabila, iar provocarea arata conditia prin care acea directie poate fi traita mai curat. Repetitiile intre pinacluri indica teme recurente, iar schimbarile mari intre etape arata treceri importante de ritm, interes sau responsabilitate.
 
 ---
 ## Exemplu de calcul
@@ -113,19 +109,14 @@ pinaclu 3: 41-49
 pinaclu 4: 50+
 ```
 
----
-## Relatii cu alte concepte
+Rezultat final:
 
-### Complementar cu
-
-- [[Vibratia Destinului]]
-- [[Calea Destinului]]
-- [[Ciclul de 9 Ani]]
-- [[Soarta si Destin]]
-
-### Contribuie la
-
-- [[Concluzii]]
+| Etapa | Varsta | Oportunitate | Provocare |
+| --- | ---: | ---: | ---: |
+| Pinaclul 1 | 0-31 | 8 | 0 |
+| Pinaclul 2 | 32-40 | 1 | 2 |
+| Pinaclul 3 | 41-49 | 9 | 2 |
+| Pinaclul 4 | 50+ | 1 | 2 |
 
 ---
 ## Observatii

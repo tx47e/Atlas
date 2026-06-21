@@ -206,4 +206,4 @@ odihna si neprevazut.
 ---
 ## Tarot
 
-[[4-Imparatul|Arcana 4 - Imparatul - "The Emperor"]]
+Arcana 4 - Imparatul - "The Emperor" se poate gasi in [[tarot/Index|tarot]].

@@ -12,7 +12,7 @@ depinde de: Matricea Datei de Nastere
 ---
 ## Descriere
 
-[[Scara Bunastarii|Scara bunastarii]] ordoneaza valorile casutelor si vectorilor din matrice pentru a vedea ce sustine persoana, ce o blocheaza, ce functioneaza ca trambulina si ce trepte sunt greu sau usor de urcat.
+Scara bunastarii ordoneaza valorile casutelor si vectorilor din matrice pentru a vedea ce sustine persoana, ce o blocheaza, ce functioneaza ca trambulina si ce trepte sunt greu sau usor de urcat.
 
 ---
 ## Formula de calcul
@@ -179,19 +179,6 @@ forme concrete. Astfel, piramida nu spune ca toate lucrurile trebuie fortate pri
 creativitate, ci ca aceasta este resursa de temelie: atunci cand persoana isi
 foloseste mintea vie, imaginatia si capacitatea de sinteza, celelalte zone ale
 vietii primesc directie si sustinere.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Matricea Datei de Nastere]]
-- [[Matricea Numelui]]
-
-### Complementar cu
-
-- [[Matricea Numelui vs Matricea Datei de Nastere]]
-- [[Aplicabilitate Profesionala]]
 
 ---
 ## Observatii

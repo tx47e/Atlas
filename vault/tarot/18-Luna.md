@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 18
@@ -18,6 +18,8 @@ tags:
 # 18-Luna
 
 ## Descriere Generala
+
+![[imagini/18-The Moon.jpg]]
 
 ### Esenta
 - Luna este arhetipul subconstientului, visului, fricii si imaginatiei. Ea lumineaza indirect si arata zonele in care proiectiile pot parea realitate. In lumina, aduce sensibilitate, inspiratie si acces la straturi profunde; in umbra, confuzie, anxietate si iluzie.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 9]]
+- Vibratia 9 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[17-Steaua]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[19-Soarele]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 9]]
-
-### Arcane asociate
-- [[17-Steaua]]
-- [[19-Soarele]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

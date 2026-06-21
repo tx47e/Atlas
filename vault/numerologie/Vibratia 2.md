@@ -208,4 +208,4 @@ adevarul este inclus in armonie.
 ---
 ## Tarot
 
-[[2-Marea Preoteasa|Arcana 2 - Marea Preoteasa - "The High Priestess"]]
+Arcana 2 - Marea Preoteasa - "The High Priestess" se poate gasi in [[tarot/Index|tarot]].

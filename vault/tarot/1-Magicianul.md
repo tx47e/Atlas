@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 1
@@ -18,6 +18,8 @@ tags:
 # 1-Magicianul
 
 ## Descriere Generala
+
+![[imagini/01-The Magician.jpg]]
 
 ### Esenta
 - Magicianul este arhetipul vointei focalizate si al puterii de a transforma ideea in forma. El reuneste resursele celor patru elemente si le pune in slujba unei intentii clare. In lumina, indica talent, prezenta si capacitate de manifestare; in umbra, poate arata manipulare, risipa de energie sau folosirea inteligentei fara etica.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 1]]
+- Vibratia 1 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[0-Nebunul]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[2-Marea Preoteasa]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 1]]
-
-### Arcane asociate
-- [[0-Nebunul]]
-- [[2-Marea Preoteasa]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

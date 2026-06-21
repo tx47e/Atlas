@@ -12,39 +12,9 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Aspecte de Indreptat|Aspectele de indreptat]] arata zonele care merita observate, reparate sau corectate in aceasta viata si vibratia solutiei prin care indreptarea poate fi facuta.
+Aspectele de indreptat arata zonele care merita observate, reparate sau corectate in aceasta viata si vibratia solutiei prin care indreptarea poate fi facuta.
 
 Calculul foloseste [[Calea Destinului]] si prima cifra din ziua de nastere. Rezultatul obtinut arata aspectele de lucru, iar reducerea lui numerologica arata solutia.
-
----
-## Ce indica
-
-- Aspecte de observat sau reparat.
-- Diferenta dintre drumul destinului si prima energie a zilei de nastere.
-- Numarul compus al aspectelor de indreptat.
-- Vibratia solutiei.
-- O tema practica pentru [[Concluzii]].
-
----
-## Rol in analiza
-
-[[Aspecte de Indreptat|Aspectele de indreptat]] se folosesc dupa calcularea [[Calea Destinului|caii destinului]].
-
-In analiza, ajuta la:
-
-- identificarea unei zone de corectie;
-- formularea unei directii de lucru personal;
-- separarea problemei de solutie;
-- corelarea cu [[Lectii de Viata]], [[Punti]] si [[Aplicabilitate Profesionala]].
-
----
-## Date necesare
-
-Sunt necesare:
-
-- [[Datele de intrare|data nasterii]] completa;
-- [[Calea Destinului]], ca suma a tuturor cifrelor din data nasterii, fara reducere la o singura cifra;
-- prima cifra din ziua nasterii.
 
 ---
 ## Formula de calcul
@@ -72,12 +42,12 @@ vibratia_solutiei = reducere_numerologica(aspecte_de_indreptat)
 ---
 ## Interpretare generala
 
-Numarul compus al [[Aspecte de Indreptat|aspectelor de indreptat]] arata materialul de lucru. Cifrele sale pot fi citite separat, iar vibratia redusa arata energia prin care solutia poate fi construita.
+Numarul compus al aspectelor de indreptat arata materialul de lucru. Cifrele sale pot fi citite separat, iar vibratia redusa arata energia prin care solutia poate fi construita.
 
 Exemplu de citire:
 
-- daca aspectele de indreptat sunt 17, se citesc [[Vibratia 1|1]] si [[Vibratia 7|7]] ca zone de lucru;
-- vibratia solutiei este [[Vibratia 8|8]], pentru ca `1 + 7 = 8`;
+- daca aspectele de indreptat sunt 17, se citesc Vibratia 1 si Vibratia 7 ca zone de lucru;
+- vibratia solutiei este Vibratia 8, pentru ca `1 + 7 = 8`;
 - solutia se cauta prin forta, organizare, asumare, maturitate si folosirea corecta a resurselor.
 
 ---
@@ -108,7 +78,7 @@ Calcul aspecte de indreptat:
 Rezultat:
 
 - aspecte de indreptat: 17;
-- aspecte citite separat: [[Vibratia 1|1]] si [[Vibratia 7|7]].
+- aspecte citite separat: Vibratia 1 si Vibratia 7.
 
 Vibratia solutiei:
 
@@ -118,32 +88,7 @@ Vibratia solutiei:
 
 Rezultat final:
 
-- vibratia solutiei: [[Vibratia 8|8]].
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-- [[Calea Destinului]]
-- [[Vibratie Interioara]]
-
-### Contribuie la
-
-- [[Concluzii]]
-- [[Cod Numerologic Personal]]
-
-### Complementar cu
-
-- [[Lectii de Viata]]
-- [[Punti]]
-- [[Soarta si Destin]]
-
-### Poate influenta
-
-- [[Aplicabilitate Profesionala]]
-- [[Deschidere spre Ezoterism]]
+- vibratia solutiei: Vibratia 8.
 
 ---
 ## Observatii

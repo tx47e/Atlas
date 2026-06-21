@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 0
@@ -18,6 +18,8 @@ tags:
 # 0-Nebunul
 
 ## Descriere Generala
+
+![[imagini/00-The Fool.jpg]]
 
 ### Esenta
 - Nebunul este arhetipul inceputului pur, al pasului facut inainte ca mintea sa aiba toate garantiile. El vorbeste despre incredere, libertate, curajul de a porni si disponibilitatea de a invata direct din drum. In lumina, aduce prospetime si deschidere; in umbra, poate deveni imprudenta, fuga de responsabilitate sau refuzul de a vedea consecintele.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 0]]
+- Vibratia 0 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[21-Lumea]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[1-Magicianul]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 0]]
-
-### Arcane asociate
-- [[21-Lumea]]
-- [[1-Magicianul]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

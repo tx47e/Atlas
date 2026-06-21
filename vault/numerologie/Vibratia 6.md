@@ -4,8 +4,6 @@ tip: arhetip
 tags:
   - numerologie
   - "#vibratia6"
-  - "#arcana6"
-  - "#grija"
   - "#loialitate"
   - "#responsabilitate"
   - "#iubire"
@@ -202,4 +200,4 @@ adevarat de el si ce trebuie lasat celorlalti. Grija ramane, dar capata limite.
 ---
 ## Tarot
 
-[[6-Indragostitii|Arcana 6 - Indragostitii - "The Lovers"]]
+Arcana 6 - Indragostitii - "The Lovers" se poate gasi in [[tarot/Index|tarot]].

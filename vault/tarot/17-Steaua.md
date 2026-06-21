@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 17
@@ -18,6 +18,8 @@ tags:
 # 17-Steaua
 
 ## Descriere Generala
+
+![[imagini/17-The Star.jpg]]
 
 ### Esenta
 - Steaua este arhetipul sperantei, inspiratiei si vindecarii dupa furtuna. Ea readuce increderea in viitor si conecteaza omul la o ordine mai larga, mai blanda. In lumina, aduce claritate, protectie si regenerare; in umbra, poate indica idealizare, pasivitate sau pierderea credintei.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 8]]
+- Vibratia 8 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[16-Turnul]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[18-Luna]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 8]]
-
-### Arcane asociate
-- [[16-Turnul]]
-- [[18-Luna]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

@@ -1,4 +1,4 @@
-﻿---
+---
 titlu: Vibratia 9
 tip: arhetip
 tags:
@@ -204,4 +204,4 @@ o tradare.
 ---
 ## Tarot
 
-[[9-Ermitul|Arcana 9 - Ermitul - "The Hermit"]]
+Arcana 9 - Ermitul - "The Hermit" se poate gasi in [[tarot/Index|tarot]].
