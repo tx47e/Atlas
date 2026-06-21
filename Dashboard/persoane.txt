@@ -1,0 +1,3 @@
+# Format:
+# Eticheta|Nume complet|Prenume activ|Nume familie|Data nasterii YYYY-MM-DD|Gen masculin/feminin|An referinta|Interval ani|Partener optional
+# Exemplu Test|Test Exemplu|Exemplu|Test|2000-01-01|masculin|2026|108|
