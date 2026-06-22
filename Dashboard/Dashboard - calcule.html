@@ -1812,7 +1812,10 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     }
 
     function applyPerson(person) {
-      if (!person) return;
+      if (!person) {
+        setPersonStatus(savedPeople.length ? "Alege o persoana din lista, apoi apasa Incarca." : "Nu exista persoane disponibile in lista.");
+        return;
+      }
       document.getElementById("fullName").value = person.fullName;
       document.getElementById("activeName").value = person.activeName;
       document.getElementById("familyName").value = person.familyName;
@@ -1838,9 +1841,11 @@ def calculate_capitol_2(person: PersonInput) -> dict:
           else savedPeople.push(person);
         });
         renderPersonOptions(savedPeople, savedPeople.length ? "Alege o persoana" : "Lista este goala");
+        setPersonStatus(savedPeople.length ? "" : "Nu exista persoane in persoane.txt.");
       } catch (error) {
         savedPeople = parsePeopleFile(localStorage.getItem("dashboardPersoane") || "");
         renderPersonOptions(savedPeople, "Nu pot citi persoane.txt");
+        setPersonStatus(savedPeople.length ? "" : "Browserul nu poate citi persoane.txt direct din file://.");
       }
     }
 
@@ -2460,7 +2465,8 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         hideInputPanel();
       }
     });
-    document.getElementById("loadPersonBtn").addEventListener("click", () => {
+    document.getElementById("loadPersonBtn").addEventListener("click", async () => {
+      if (!savedPeople.length) await loadPeople();
       const index = document.getElementById("personSelect").value;
       applyPerson(savedPeople[Number(index)]);
     });
