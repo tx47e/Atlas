@@ -11,9 +11,8 @@ tags: [skill]
 1. Consulta obligatoriu `vault/Numerologie/Omuletul Relatiilor.md` inainte de calcul, completarea valorilor sau interpretare.
 2. Acolo se afla documentatia pentru intocmirea diagramei, pozitionarea cifrelor, interpretare, sinteza relationala si verificari.
 3. Consulta documentele dependente mentionate acolo, in special `vault/Numerologie/Matricea Datei de Nastere.md`, `vault/Numerologie/Cod Numerologic Personal.md` si, daca este cazul, `vault/Numerologie/Influentele Numelui.md`.
-4. Foloseste `assets/reference.svg` doar ca referinta vizuala pentru schema clasica, cu omulet schitat, culori, proportii si pozitionari.
-5. Foloseste `assets/reference-pentagrama-only.svg` ca referinta vizuala cand utilizatorul cere varianta fara omuletul schitat: doar pentagrama, valorile celor doua persoane pozitionate in exteriorul pentagramei si fara totaluri langa cifre.
-6. Daca exista conflict intre asset si documentatia din vault, documentatia din vault are prioritate pentru metoda, valori si interpretare.
+4. Foloseste `assets/reference-pentagrama-only.svg` ca referinta vizuala cand utilizatorul cere varianta fara omuletul schitat: doar pentagrama, valorile celor doua persoane pozitionate in exteriorul pentagramei si fara totaluri langa cifre.
+5. Daca exista conflict intre asset si documentatia din vault, documentatia din vault are prioritate pentru metoda, valori si interpretare.
 
 ## Logica de calcul din documentatie
 
@@ -44,17 +43,15 @@ tags: [skill]
 1. Citeste `vault/Numerologie/Omuletul Relatiilor.md` si documentele dependente necesare pentru datele furnizate.
 2. Stabileste explicit sursa cifrelor folosita pentru toate persoanele comparate.
 3. Calculeaza distributia cifrelor, totalurile relationale, sinteza pe elemente si cele doua rezultate de sinteza.
-4. Foloseste `assets/reference.svg` ca sablon de compozitie clasica, nu ca sursa principala de calcul.
-5. Pentru o diagrama fara omulet, foloseste `assets/reference-pentagrama-only.svg` ca sablon de compozitie: pastreaza pentagrama, cercul si patratul, elimina cifrele incercuite ale pozitiilor, evita totalurile langa fiecare cifra si aseaza valorile persoanelor in exteriorul pentagramei, aproape de coltul interior sau exterior corespunzator, fara suprapunere peste linii.
-6. Pastreaza structura omuletului/amuletului, legaturile dintre valori si ordinea zonelor.
-7. Actualizeaza numele, datele si valorile numerologice ale persoanelor cand sunt furnizate.
-8. Daca lipsesc date pentru o persoana, marcheaza explicit campurile ca `de completat`.
-9. Salveaza SVG-ul rezultat in `vault/Numerologie/` sau in calea ceruta de utilizator.
-10. Verifica SVG-ul ca XML valid si inspecteaza vizual ca liniile, nodurile si textele sa fie lizibile.
-11. Verifica matematic distributiile, totalurile pe cifra, totalurile pe elemente si sintezele relationale.
+4. Foloseste `assets/reference-pentagrama-only.svg` ca sablon de compozitie: pastreaza pentagrama, cercul si patratul, elimina cifrele incercuite ale pozitiilor, evita totalurile langa fiecare cifra si aseaza valorile persoanelor in exteriorul pentagramei, aproape de coltul interior sau exterior corespunzator, fara suprapunere peste linii.
+5. Pastreaza structura omuletului/amuletului, legaturile dintre valori si ordinea zonelor.
+6. Actualizeaza numele, datele si valorile numerologice ale persoanelor cand sunt furnizate.
+7. Daca lipsesc date pentru o persoana, marcheaza explicit campurile ca `de completat`.
+8. Salveaza SVG-ul rezultat in `vault/Numerologie/` sau in calea ceruta de utilizator.
+9. Verifica SVG-ul ca XML valid si inspecteaza vizual ca liniile, nodurile si textele sa fie lizibile.
+10. Verifica matematic distributiile, totalurile pe cifra, totalurile pe elemente si sintezele relationale.
 
 ## Reference
 
 - `vault/Numerologie/Omuletul Relatiilor.md` este sursa de adevar pentru metoda, pozitionari numerologice, formule, interpretare si verificari.
-- `assets/reference.svg` este modelul validat pentru aspectul vizual al Amuletului/Omuletului Relatiilor.
 - `assets/reference-pentagrama-only.svg` este modelul validat pentru varianta fara omulet schitat, doar cu pentagrama si valorile persoanelor in exterior.
