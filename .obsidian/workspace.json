@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ADREEA-MARIA-V1.md",
+                "file": "vault/Numerologie/Vibratia 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1998-01-12-ROMAN-ADREEA-MARIA-V1"
+              "title": "Vibratia 2"
             }
           }
         ]
@@ -45,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorator de fișiere"
+              "title": "Files"
             }
           },
           {
@@ -89,14 +89,14 @@
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Afișaj grafic"
+              "title": "Graph view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 492.5
   },
   "right": {
     "id": "7ae17244d167b343",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ADREEA-MARIA-V1.md",
+                "file": "vault/Numerologie/Vibratia 2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Referințe pentru 1998-01-12-ROMAN-ADREEA-MARIA-V1"
+              "title": "Backlinks for Vibratia 2"
             }
           },
           {
@@ -189,19 +189,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "3d-graph:3D Graph": false,
-      "switcher:Deschide comutarea rapidă": false,
-      "graph:Deschide graficul": false,
-      "canvas:Creează o pânză nouă": false,
-      "daily-notes:Deschide nota de azie": false,
-      "templates:Inserează șablon": false,
-      "command-palette:Deschide paleta de comenzi": false,
-      "bases:Creează o bază nouă": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "3d-graph:3D Graph": false
     }
   },
-  "active": "b0a22f32ac646726",
+  "active": "c1cd69e380e73c87",
   "lastOpenFiles": [
+    "vault/Numerologie/Vibratia 2.md",
+    "vault/Numerologie/Index.md",
+    "vault/tarot/Index.md",
+    "vault/tarot/10-Roata Norocului.md",
+    "temp/lucrare finalizate/Chibulcutean Tamara_Lucrare Examen - extractie.md",
+    "vault/Numerologie/Vibratia 4.md",
+    "vault/Numerologie/Vibratia 1.md",
     "vault/Numerologie/Vibratia 0.md",
+    "vault/Numerologie/Fixatia.md",
+    "vault/Numerologie/Soarta si Destin.md",
     "agents/Agent 001.md",
     "templates/Cuprins_Lucrare_Numerologica.md",
     "skills/numerologie-SVG-septagrama/SKILL.md",
@@ -237,15 +246,6 @@
     "vault/Numerologie/Omuletul Relatiilor.md",
     "vault/Numerologie/Patratul de Aur.md",
     "skills/numerologie-svg-amuletul-relatiilor/SKILL.md",
-    "skills/amuletul-relatiilor/SKILL.md",
-    "vault/Numerologie/Index.md",
-    "skills/numerologie-svg-triunghiul-financiar/SKILL.md",
-    "vault/Numerologie/Vibratie Interioara.md",
-    "vault/Numerologie/Vibratie Globala.md",
-    "vault/Numerologie/Vibratie Exterioara.md",
-    "vault/Numerologie/Vibratie Cosmica Variabila.md",
-    "vault/Numerologie/Vibratie Cosmica Totala.md",
-    "vault/Numerologie/Vibratie Cosmica Fixa.md",
-    "vault/Numerologie/Vibratia Destinului.md"
+    "skills/amuletul-relatiilor/SKILL.md"
   ]
 }

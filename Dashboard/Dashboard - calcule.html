@@ -30,29 +30,14 @@
       color: var(--ink);
       line-height: 1.45;
       min-height: 100vh;
-      overflow: hidden;
-      display: grid;
-      place-items: center;
+      overflow: auto;
     }
 
     .landscape-shell {
-      width: min(100vw, calc(100vh * 16 / 9));
-      height: min(100vh, calc(100vw * 9 / 16));
-      aspect-ratio: 16 / 9;
+      width: 100%;
+      min-height: 100vh;
       background: var(--bg);
-      border: 1px solid rgba(217, 205, 189, 0.8);
-      box-shadow: 0 24px 64px rgba(47, 41, 34, 0.18);
-      display: grid;
-      grid-template-rows: auto 1fr;
-      overflow: hidden;
-    }
-
-    header {
-      background: var(--paper);
-      border-bottom: 1px solid var(--line);
-      padding: clamp(14px, 2.1vh, 24px) clamp(18px, 3vw, 36px);
-      position: relative;
-      z-index: 5;
+      overflow: visible;
     }
 
     h1 {
@@ -69,8 +54,8 @@
     }
 
     main {
-      min-height: 0;
-      overflow: auto;
+      min-height: 100vh;
+      overflow: visible;
       padding: clamp(14px, 2vh, 22px) clamp(14px, 2.4vw, 30px) 28px;
     }
 
@@ -90,6 +75,16 @@
       padding: 22px;
     }
 
+    .dashboard > .form-panel {
+      grid-column: 1 / -1;
+      width: 100%;
+      margin: 0;
+    }
+
+    .form-panel.is-hidden {
+      display: none;
+    }
+
     h2 {
       margin: 0 0 16px;
       font-size: 22px;
@@ -107,6 +102,46 @@
       display: grid;
       grid-template-columns: repeat(4, minmax(170px, 1fr));
       gap: 14px;
+    }
+
+    .person-picker {
+      display: grid;
+      grid-template-columns: auto minmax(220px, 320px) auto auto;
+      align-items: end;
+      gap: 10px;
+      margin: 0;
+    }
+
+    .person-picker label {
+      display: contents;
+    }
+
+    .person-picker label > span {
+      align-self: center;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .person-picker button {
+      min-height: 42px;
+      margin-bottom: 0;
+    }
+
+    .dashboard-person-tools {
+      display: grid;
+      align-items: center;
+      gap: 6px;
+      margin-left: auto;
+    }
+
+    .person-status {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      min-height: 16px;
+      text-align: center;
     }
 
     label {
@@ -448,8 +483,9 @@
     }
 
     .table-wrap {
-      overflow: auto;
-      max-height: min(56vh, 520px);
+      overflow-x: auto;
+      overflow-y: visible;
+      max-height: none;
     }
 
     table {
@@ -1061,6 +1097,18 @@
         flex-direction: column;
       }
 
+      .dashboard-person-tools {
+        margin-left: 0;
+      }
+
+      .person-picker {
+        grid-template-columns: auto 1fr;
+      }
+
+      .person-picker button {
+        grid-column: span 1;
+      }
+
       .toolbar input {
         max-width: none;
       }
@@ -1115,66 +1163,71 @@
 </head>
 <body>
   <div class="landscape-shell">
-  <header>
-    <h1>Dashboard - calcule</h1>
-    <p>Formular local pentru datele persoanei analizate si lista calculelor din Capitolul 2, fara diagrame sau grafice.</p>
-  </header>
-
   <main>
-    <section class="panel form-panel">
-      <h2>Date de intrare</h2>
-      <form id="inputForm">
-      <div class="grid">
-        <label>Nume complet
-          <input id="fullName" value="Szabo Mihai Gabriel" autocomplete="name">
-        </label>
-        <label>Prenume activ
-          <input id="activeName" value="Mihai">
-        </label>
-        <label>Nume de familie / neam
-          <input id="familyName" value="Szabo">
-        </label>
-        <label>Data nasterii
-          <input id="birthDate" type="date" value="1984-11-06">
-        </label>
-        <label>Gen
-          <select id="gender">
-            <option value="masculin">Masculin</option>
-            <option value="feminin">Feminin</option>
-          </select>
-        </label>
-        <label>An de referinta
-          <input id="referenceYear" type="number" value="2026" min="1900" max="2200">
-        </label>
-        <label>Interval ani pentru tabele
-          <input id="yearLimit" type="number" value="108" min="12" max="144">
-        </label>
-        <label>Partener / relatie, optional
-          <input id="partnerName" placeholder="Nume partener">
-        </label>
-      </div>
-
-      <h3>Note de lucru</h3>
-      <textarea id="workNotes" placeholder="Tema principala, intrebari, observatii biografice, surse pentru evenimente importante."></textarea>
-
-      <div class="actions">
-        <button id="calculateBtn" type="submit">Submit</button>
-        <button id="printBtn" class="secondary" type="button">Tipareste / salveaza PDF</button>
-        <button id="clearManualBtn" class="secondary" type="button">Goleste completarile manuale</button>
-      </div>
-      </form>
-
-      <div class="summary" id="summary"></div>
-    </section>
-
     <section class="panel">
       <div class="toolbar">
         <div>
           <h2 style="margin:0">Dashboard calcule</h2>
           <div class="hint">Se actualizeaza la Submit si sintetizeaza reperele principale din capitolul 2.</div>
         </div>
+        <div class="dashboard-person-tools">
+          <div class="person-picker">
+            <label><span>Persoana salvata</span>
+              <select id="personSelect">
+                <option value="">Se incarca lista...</option>
+              </select>
+            </label>
+            <button id="loadPersonBtn" class="secondary" type="button">Incarca</button>
+            <button id="newPersonBtn" class="secondary" type="button">Persoana noua</button>
+          </div>
+          <div class="person-status" id="personStatus"></div>
+        </div>
       </div>
       <div class="dashboard">
+        <section class="panel form-panel is-hidden" id="inputPanel">
+          <h2>Date de intrare</h2>
+          <form id="inputForm">
+          <div class="grid">
+            <label>Nume complet
+              <input id="fullName" value="Test Exemplu" autocomplete="name">
+            </label>
+            <label>Prenume activ
+              <input id="activeName" value="Exemplu">
+            </label>
+            <label>Nume de familie / neam
+              <input id="familyName" value="Test">
+            </label>
+            <label>Data nasterii
+              <input id="birthDate" type="date" value="2000-01-01">
+            </label>
+            <label>Gen
+              <select id="gender">
+                <option value="masculin">Masculin</option>
+                <option value="feminin">Feminin</option>
+              </select>
+            </label>
+            <label>An de referinta
+              <input id="referenceYear" type="number" value="2026" min="1900" max="2200">
+            </label>
+            <label>Interval ani pentru tabele
+              <input id="yearLimit" type="number" value="108" min="12" max="144">
+            </label>
+            <label>Partener / relatie, optional
+              <input id="partnerName" placeholder="Nume partener">
+            </label>
+          </div>
+
+          <h3>Note de lucru</h3>
+          <textarea id="workNotes" placeholder="Tema principala, intrebari, observatii biografice, surse pentru evenimente importante."></textarea>
+
+          <div class="actions">
+            <button id="calculateBtn" type="submit">Submit</button>
+            <button id="cancelInputBtn" class="secondary" type="button">Renunta</button>
+          </div>
+          </form>
+
+        </section>
+
         <div class="dash-card wellbeing-card">
           <div class="card-title-row">
             <h2>Scara bunastarii</h2>
@@ -1197,15 +1250,15 @@
               <div class="control-group">
                 <span>Sortare</span>
                 <div class="segmented">
-                  <button type="button" id="wellbeingCodeMode" class="active" aria-label="Sortare implicita" title="Sortare implicita"><span class="filter-icon icon-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
-                  <button type="button" id="wellbeingValueSortMode" aria-label="Sortare dupa valoare" title="Sortare dupa valoare"><span class="filter-icon icon-desc" aria-hidden="true"></span></button>
+                  <button type="button" id="wellbeingCodeMode" aria-label="Sortare implicita" title="Sortare implicita"><span class="filter-icon icon-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
+                  <button type="button" id="wellbeingValueSortMode" class="active" aria-label="Sortare dupa valoare" title="Sortare dupa valoare"><span class="filter-icon icon-desc" aria-hidden="true"></span></button>
                 </div>
               </div>
               <div class="control-group">
                 <span>Masura</span>
                 <div class="segmented">
-                  <button type="button" id="wellbeingQuantityMeasureMode" class="active" aria-label="Cantitate" title="Cantitate"><span class="filter-icon icon-dots" aria-hidden="true"><i></i><i></i><i></i></span></button>
-                  <button type="button" id="wellbeingValueMeasureMode" aria-label="Valoare" title="Valoare"><span class="filter-icon icon-sum" aria-hidden="true"></span></button>
+                  <button type="button" id="wellbeingQuantityMeasureMode" aria-label="Cantitate" title="Cantitate"><span class="filter-icon icon-dots" aria-hidden="true"><i></i><i></i><i></i></span></button>
+                  <button type="button" id="wellbeingValueMeasureMode" class="active" aria-label="Valoare" title="Valoare"><span class="filter-icon icon-sum" aria-hidden="true"></span></button>
                 </div>
               </div>
             </div>
@@ -1229,10 +1282,6 @@
           <div class="bars" id="elementsBars"></div>
         </div>
 
-        <div class="dash-card">
-          <h2>Parcurs 27 ani</h2>
-          <div class="timeline" id="lifePeriods"></div>
-        </div>
       </div>
     </section>
 
@@ -1439,19 +1488,15 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     const finalizatoare = new Set(["G", "L", "D", "M", "C", "V"]);
 
     const rows = [
-      { group: "Data nasterii", concept: "Vibratia interioara", method: "Suma cifrelor componente din ziua nasterii; se reduce la o singura cifra.", calc: s => `${digitsOf(s.day).join(" + ")} = ${sumDigitsRaw(s.day)}`, result: s => s.vi },
       { group: "Data nasterii", concept: "Vibratia interioara karma", method: "Ziua nasterii se pastreaza daca este intre 1 si 22; daca ziua este peste 22, se calculeaza ziua - 22.", calc: s => s.day > 22 ? `${s.day} - 22` : `${s.day}`, result: s => s.viKarma },
       { group: "Data nasterii", concept: "Liniile de tensiune", method: "Schimbari de caracter in stres major; se noteaza succesiunea pornind de la vibratia interioara si numerele operationale ale metodei.", calc: s => `VI ${s.vi}; completare manuala pentru succesiune`, result: () => "de completat", manual: true },
-      { group: "Data nasterii", concept: "Vibratia exterioara", method: "Suma cifrelor componente ale lunii de nastere; se reduce la o singura cifra.", calc: s => `${digitsOf(s.month).join(" + ")} = ${sumDigitsRaw(s.month)}`, result: s => s.ve },
       { group: "Data nasterii", concept: "Vibratia exterioara karma", method: "Luna nasterii se citeste ca valoare karmica atunci cand luna este 11 sau 12; altfel se noteaza luna conform metodei folosite.", calc: s => `${s.month}`, result: s => s.month },
-      { group: "Data nasterii", concept: "Vibratia globala", method: "Ziua nasterii + luna nasterii; suma se reduce la o singura cifra.", calc: s => `${s.day} + ${s.month} = ${s.day + s.month}`, result: s => s.vg },
       { group: "Data nasterii", concept: "Puntea interior - exterior", method: "Diferenta absoluta dintre vibratia interioara si vibratia exterioara.", calc: s => `|${s.vi} - ${s.ve}|`, result: s => Math.abs(s.vi - s.ve) },
       { group: "Data nasterii", concept: "Vibratia cosmica fixa", method: "Primele doua cifre ale anului nasterii, citite ca reper fix al perioadei.", calc: s => String(s.year).slice(0, 2), result: s => s.vcf },
       { group: "Data nasterii", concept: "Vibratia cosmica variabila", method: "Suma ultimelor doua cifre ale anului nasterii; se reduce la o singura cifra.", calc: s => `${digitsOf(s.year % 100).join(" + ")} = ${sumDigitsRaw(s.year % 100)}`, result: s => s.vcv },
       { group: "Data nasterii", concept: "Vibratia cosmica totala", method: "Suma tuturor cifrelor anului nasterii; se reduce la o singura cifra.", calc: s => `${digitsOf(s.year).join(" + ")} = ${sumDigitsRaw(s.year)}`, result: s => s.vct },
       { group: "Data nasterii", concept: "Calea Destinului", method: "Suma tuturor cifrelor din data completa de nastere: zi + luna + an.", calc: s => `${digitsOfDate(s).join(" + ")} = ${s.cdRaw}`, result: s => s.cdRaw },
       { group: "Data nasterii", concept: "Calea Destinului karma", method: "Calea Destinului - 22, daca suma Caii Destinului este peste 22.", calc: s => s.cdRaw > 22 ? `${s.cdRaw} - 22` : `${s.cdRaw}`, result: s => s.cdKarma },
-      { group: "Data nasterii", concept: "Destinul", method: "Ziua nasterii + luna nasterii + anul nasterii; rezultatul se reduce la o singura cifra.", calc: s => reductionText(s.day + s.month + s.year), result: s => s.destin },
       { group: "Data nasterii", concept: "Puntea interior - Destin", method: "Diferenta absoluta dintre vibratia interioara si Destin.", calc: s => `|${s.vi} - ${s.destin}|`, result: s => Math.abs(s.vi - s.destin) },
       { group: "Data nasterii", concept: "Aspectele de indreptat", method: "Calea Destinului - 2 x prima cifra nenula din ziua nasterii.", calc: s => `${s.cdRaw} - 2 x ${firstNonZeroDigit(s.day)}`, result: s => s.aspects },
       { group: "Data nasterii", concept: "Solutia aspectelor de indreptat", method: "Aspectele de indreptat se reduc numerologic la o singura cifra.", calc: s => reductionText(s.aspects), result: s => s.aspectsSolution },
@@ -1469,7 +1514,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       { group: "Structura matriciala", concept: "Comparatia cu optimul", method: "Se compara matricea personala cu matricea optima, pe casute si vectori.", calc: () => "Matrice personala vs matrice optima", result: () => "de completat", manual: true },
       { group: "Structura matriciala", concept: "Scara bunastarii", method: "Se ordoneaza succesiv valorile casutelor si vectorilor; casutele/vectorii lipsa se marcheaza ca trepte inexistente.", calc: s => wellbeingRows(s).map(x => `${x.name}=${x.value}`).join("; "), result: s => wellbeingRows(s).slice(0, 5).map(x => `${x.name} ${x.value}`).join("; ") },
 
-      { group: "Nume", concept: "Numarul de exprimare", method: "Suma cifrelor corespunzatoare tuturor literelor din numele complet; se reduce la o singura cifra.", calc: s => `${nameValues(s.fullName).join(" + ")} = ${nameSum(s.fullName)}`, result: s => reduceNumber(nameSum(s.fullName)) },
       { group: "Nume", concept: "Numarul intim", method: "Suma cifrelor corespunzatoare vocalelor din numele complet; se reduce la o singura cifra.", calc: s => `${nameValues(s.fullName, "vowels").join(" + ") || "0"} = ${nameSum(s.fullName, "vowels")}`, result: s => reduceNumber(nameSum(s.fullName, "vowels")) },
       { group: "Nume", concept: "Numarul de realizare", method: "Suma cifrelor corespunzatoare consoanelor din numele complet; se reduce la o singura cifra.", calc: s => `${nameValues(s.fullName, "consonants").join(" + ") || "0"} = ${nameSum(s.fullName, "consonants")}`, result: s => reduceNumber(nameSum(s.fullName, "consonants")) },
       { group: "Nume", concept: "Numarul activ", method: "Suma cifrelor corespunzatoare tuturor literelor din prenumele folosit activ sau porecla; se reduce la o singura cifra.", calc: s => `${nameValues(s.activeName).join(" + ") || "0"} = ${nameSum(s.activeName)}`, result: s => reduceNumber(nameSum(s.activeName)) },
@@ -1494,7 +1538,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       { group: "Ciclicitati", concept: "Ciclul de 9 ani", method: "Se construieste tabelul anilor de viata in cicluri de cate 9 ani, pornind de la anul nasterii.", calc: s => cyclePreview(s.year, 9, s.yearLimit), result: () => "tabel generabil" },
       { group: "Ciclicitati", concept: "Subcicluri", method: "Rubrica exista in structura Capitolului 2, dar algoritmul exact nu este formalizat in dashboard.", calc: () => "referinta lipsa in Capitolul 2", result: () => "de completat", manual: true },
       { group: "Ciclicitati", concept: "Ciclul de 12 ani", method: "Se construieste tabelul anilor de viata in cicluri de cate 12 ani, pornind de la anul nasterii.", calc: s => cyclePreview(s.year, 12, s.yearLimit), result: () => "tabel generabil" },
-      { group: "Ciclicitati", concept: "Ciclul de 27 ani", method: "Se imparte parcursul de 108 ani in patru perioade de cate 27 de ani: formare, maturizare, inteleptire, spiritualizare.", calc: s => `0-27: ${s.year}-${s.year + 26}; 27-54: ${s.year + 27}-${s.year + 53}; 54-81: ${s.year + 54}-${s.year + 80}; 81-108: ${s.year + 81}-${s.year + 107}`, result: () => "4 perioade" },
       { group: "Ciclicitati", concept: "Pinacluri", method: "Varsta primului pinaclu = 36 - Destin; oportunitati: zi+luna, zi+an, O1+O2, luna+an; provocari: luna-zi, zi-an, P1-P2, luna-an.", calc: s => pinnacleText(s), result: s => `P1 pana la ${36 - s.destin} ani` },
       { group: "Ciclicitati", concept: "Ani sub neam / independenti de neam", method: "Se aseaza literele numelui peste sirul anilor, repetitiv, pentru a observa anii sub influenta numelui/neamului.", calc: s => nameYearsPreview(s), result: () => "vezi calcul" },
       { group: "Ciclicitati", concept: "Ani importanti interiori", method: "Anul obtinut + cifra de vibratie a acelui an; rezultatul devine urmatorul an important interior.", calc: s => importantYearsInner(s.year, 12).join(", "), result: () => "sir calculat" },
@@ -1521,10 +1564,11 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     ];
 
     const manualValues = new Map();
+    let savedPeople = [];
     let wellbeingMode = "bars";
     let wellbeingContentMode = "all";
-    let wellbeingSortMode = "code";
-    let wellbeingMeasureMode = "quantity";
+    let wellbeingSortMode = "value";
+    let wellbeingMeasureMode = "value";
     let elementsSortMode = "element";
     function normalizeText(value) {
       return (value || "")
@@ -1568,7 +1612,10 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     }
 
     function parseState() {
+      const birthDateValue = document.getElementById("birthDate").value;
+      if (!birthDateValue) return null;
       const date = new Date(document.getElementById("birthDate").value + "T00:00:00");
+      if (Number.isNaN(date.getTime())) return null;
       const day = date.getDate();
       const month = date.getMonth() + 1;
       const year = date.getFullYear();
@@ -1617,6 +1664,189 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       state.goldenSquare = goldenSquare(state);
       state.goldenSquareSum = state.goldenSquare[5] * 3;
       return state;
+    }
+
+    function parsePeopleFile(text) {
+      return text
+        .split(/\r?\n/)
+        .map(line => line.trim())
+        .filter(line => line && !line.startsWith("#"))
+        .map(line => {
+          const parts = line.split("|").map(part => part.trim());
+          return {
+            label: parts[0] || parts[1] || "Persoana",
+            fullName: parts[1] || "",
+            activeName: parts[2] || "",
+            familyName: parts[3] || "",
+            birthDate: parts[4] || "",
+            gender: parts[5] || "masculin",
+            referenceYear: parts[6] || "",
+            yearLimit: parts[7] || "",
+            partnerName: parts[8] || ""
+          };
+        })
+        .filter(person => person.fullName && person.birthDate);
+    }
+
+    function personKey(person) {
+      return `${normalizeText(person.fullName)}|${person.birthDate}`;
+    }
+
+    function personFromInputs() {
+      const fullName = document.getElementById("fullName").value.trim();
+      const birthDate = document.getElementById("birthDate").value;
+      const familyName = document.getElementById("familyName").value.trim();
+      const activeName = document.getElementById("activeName").value.trim();
+      return {
+        label: fullName || activeName || familyName || "Persoana",
+        fullName,
+        activeName,
+        familyName,
+        birthDate,
+        gender: document.getElementById("gender").value,
+        referenceYear: document.getElementById("referenceYear").value,
+        yearLimit: document.getElementById("yearLimit").value,
+        partnerName: document.getElementById("partnerName").value.trim()
+      };
+    }
+
+    function peopleFileText(people) {
+      const header = [
+        "# Format:",
+        "# Eticheta|Nume complet|Prenume activ|Nume familie|Data nasterii YYYY-MM-DD|Gen masculin/feminin|An referinta|Interval ani|Partener optional"
+      ];
+      const lines = people.map(person => [
+        person.label,
+        person.fullName,
+        person.activeName,
+        person.familyName,
+        person.birthDate,
+        person.gender,
+        person.referenceYear,
+        person.yearLimit,
+        person.partnerName
+      ].map(value => String(value || "").replace(/\|/g, "/")).join("|"));
+      return header.concat(lines).join("\n") + "\n";
+    }
+
+    function setPersonStatus(message) {
+      document.getElementById("personStatus").textContent = message;
+    }
+
+    function showInputPanel() {
+      document.getElementById("inputPanel").classList.remove("is-hidden");
+      document.getElementById("inputPanel").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function hideInputPanel() {
+      document.getElementById("inputPanel").classList.add("is-hidden");
+    }
+
+    function clearPersonInputs() {
+      document.getElementById("fullName").value = "";
+      document.getElementById("activeName").value = "";
+      document.getElementById("familyName").value = "";
+      document.getElementById("birthDate").value = "";
+      document.getElementById("gender").value = "masculin";
+      document.getElementById("referenceYear").value = new Date().getFullYear();
+      document.getElementById("yearLimit").value = 108;
+      document.getElementById("partnerName").value = "";
+      document.getElementById("workNotes").value = "";
+    }
+
+    function upsertCurrentPerson() {
+      const person = personFromInputs();
+      if (!person.fullName || !person.birthDate) {
+        setPersonStatus("Completeaza numele complet si data nasterii ca sa pot salva persoana.");
+        return false;
+      }
+      const key = personKey(person);
+      const existingIndex = savedPeople.findIndex(item => personKey(item) === key);
+      if (existingIndex >= 0) {
+        savedPeople[existingIndex] = person;
+        setPersonStatus("Persoana exista deja in lista; am actualizat intrarea.");
+      } else {
+        savedPeople.push(person);
+        setPersonStatus("Am adaugat persoana in lista.");
+      }
+      localStorage.setItem("dashboardPersoane", peopleFileText(savedPeople));
+      renderPersonOptions(savedPeople);
+      document.getElementById("personSelect").value = String(existingIndex >= 0 ? existingIndex : savedPeople.length - 1);
+      return true;
+    }
+
+    async function savePeopleToFile() {
+      const text = peopleFileText(savedPeople);
+      if ("showSaveFilePicker" in window) {
+        try {
+          const handle = await window.showSaveFilePicker({
+            suggestedName: "persoane.txt",
+            types: [{ description: "Text", accept: { "text/plain": [".txt"] } }]
+          });
+          const writable = await handle.createWritable();
+          await writable.write(text);
+          await writable.close();
+          setPersonStatus("Lista a fost salvata in persoane.txt.");
+          return;
+        } catch (error) {
+          if (error.name === "AbortError") {
+            setPersonStatus("Lista este actualizata in browser; salvarea fisierului a fost anulata.");
+            return;
+          }
+        }
+      }
+      const blob = new Blob([text], { type: "text/plain" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "persoane.txt";
+      link.click();
+      URL.revokeObjectURL(link.href);
+      setPersonStatus("Lista a fost descarcata ca persoane.txt. Inlocuieste fisierul din director cu aceasta versiune.");
+    }
+
+    function renderPersonOptions(people, message = "Alege o persoana") {
+      const select = document.getElementById("personSelect");
+      select.innerHTML = [`<option value="">${escapeHtml(message)}</option>`]
+        .concat(people.map((person, index) => `<option value="${index}">${escapeHtml(person.label)}</option>`))
+        .join("");
+    }
+
+    function applyPerson(person) {
+      if (!person) {
+        setPersonStatus(savedPeople.length ? "Alege o persoana din lista, apoi apasa Incarca." : "Nu exista persoane disponibile in lista.");
+        return;
+      }
+      document.getElementById("fullName").value = person.fullName;
+      document.getElementById("activeName").value = person.activeName;
+      document.getElementById("familyName").value = person.familyName;
+      document.getElementById("birthDate").value = person.birthDate;
+      document.getElementById("gender").value = person.gender;
+      if (person.referenceYear) document.getElementById("referenceYear").value = person.referenceYear;
+      if (person.yearLimit) document.getElementById("yearLimit").value = person.yearLimit;
+      document.getElementById("partnerName").value = person.partnerName;
+      hideInputPanel();
+      renderTable();
+    }
+
+    async function loadPeople() {
+      try {
+        const response = await fetch("persoane.txt", { cache: "no-store" });
+        if (!response.ok) throw new Error("Lista nu a putut fi citita.");
+        savedPeople = parsePeopleFile(await response.text());
+        const cachedPeople = parsePeopleFile(localStorage.getItem("dashboardPersoane") || "");
+        cachedPeople.forEach(person => {
+          const key = personKey(person);
+          const existingIndex = savedPeople.findIndex(item => personKey(item) === key);
+          if (existingIndex >= 0) savedPeople[existingIndex] = person;
+          else savedPeople.push(person);
+        });
+        renderPersonOptions(savedPeople, savedPeople.length ? "Alege o persoana" : "Lista este goala");
+        setPersonStatus(savedPeople.length ? "" : "Nu exista persoane in persoane.txt.");
+      } catch (error) {
+        savedPeople = parsePeopleFile(localStorage.getItem("dashboardPersoane") || "");
+        renderPersonOptions(savedPeople, "Nu pot citi persoane.txt");
+        setPersonStatus(savedPeople.length ? "" : "Browserul nu poate citi persoane.txt direct din file://.");
+      }
     }
 
     function digitsOfDate(s) {
@@ -1992,18 +2222,10 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     }
 
     function renderSummary(s) {
-      const items = [
-        ["VI", s.vi],
-        ["VE", s.ve],
-        ["VG", s.vg],
-        ["Calea Destinului", s.cdRaw],
-        ["Destin", s.destin],
-        ["Nr. exprimare", reduceNumber(nameSum(s.fullName))]
-      ];
-      document.getElementById("summary").innerHTML = items.map(([label, value]) => `<div class="metric"><span>${label}</span><strong>${value}</strong></div>`).join("");
     }
 
     function renderDashboard(s) {
+      if (!s) return;
       document.getElementById("dashboardMatrix").innerHTML = matrixComparisonHtml(s);
 
       const elementItems = [
@@ -2020,16 +2242,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       renderBars("elementsBars", sortedElementItems);
 
       renderWellbeingVisual(s);
-
-      const periods = [
-        ["Formare", `${s.year}-${s.year + 26}`, "0-27 ani"],
-        ["Maturizare", `${s.year + 27}-${s.year + 53}`, "27-54 ani"],
-        ["Inteleptire", `${s.year + 54}-${s.year + 80}`, "54-81 ani"],
-        ["Spiritualizare", `${s.year + 81}-${s.year + 107}`, "81-108 ani"]
-      ];
-      document.getElementById("lifePeriods").innerHTML = periods
-        .map(([title, years, age]) => `<div class="period"><span>${age}</span><strong>${title}</strong><div>${years}</div></div>`)
-        .join("");
     }
 
     function matrixComparisonHtml(s) {
@@ -2205,6 +2417,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
 
     function renderTable() {
       const s = parseState();
+      if (!s) return;
       renderSummary(s);
       renderDashboard(s);
       const body = document.getElementById("tableBody");
@@ -2243,14 +2456,33 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       return value.replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[ch]));
     }
 
-    document.getElementById("inputForm").addEventListener("submit", event => {
+    document.getElementById("inputForm").addEventListener("submit", async event => {
       event.preventDefault();
+      const canSave = upsertCurrentPerson();
       renderTable();
+      if (canSave) {
+        await savePeopleToFile();
+        hideInputPanel();
+      }
     });
-    document.getElementById("printBtn").addEventListener("click", () => window.print());
-    document.getElementById("clearManualBtn").addEventListener("click", () => {
-      manualValues.clear();
-      renderTable();
+    document.getElementById("loadPersonBtn").addEventListener("click", async () => {
+      if (!savedPeople.length) await loadPeople();
+      const index = document.getElementById("personSelect").value;
+      applyPerson(savedPeople[Number(index)]);
+    });
+    document.getElementById("personSelect").addEventListener("change", event => {
+      applyPerson(savedPeople[Number(event.target.value)]);
+    });
+    document.getElementById("newPersonBtn").addEventListener("click", () => {
+      clearPersonInputs();
+      document.getElementById("personSelect").value = "";
+      setPersonStatus("");
+      document.getElementById("inputPanel").classList.remove("is-hidden");
+      document.getElementById("inputPanel").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    document.getElementById("cancelInputBtn").addEventListener("click", () => {
+      hideInputPanel();
+      setPersonStatus("");
     });
     document.getElementById("wellbeingBarsMode").addEventListener("click", () => {
       wellbeingMode = "bars";
@@ -2301,6 +2533,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       el.addEventListener("change", renderTable);
     });
 
+    loadPeople();
     renderTable();
   </script>
 </body>
