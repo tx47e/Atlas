@@ -1,4 +1,4 @@
----
+﻿---
 name: numerologie-SVG-omuletul-relatiilor
 description: Creeaza sau adapteaza SVG-uri numerologice pentru Omuletul Relatiilor. Foloseste acest skill cand utilizatorul cere numerologie SVG, omuletul relatiilor, compatibilitate de cuplu sau un SVG de relatie similar cu referinta locala.
 tags: [skill]
@@ -11,7 +11,7 @@ tags: [skill]
 1. Consulta obligatoriu `vault/Numerologie/Omuletul Relatiilor.md` inainte de calcul, completarea valorilor sau interpretare.
 2. Acolo se afla documentatia pentru intocmirea diagramei, pozitionarea cifrelor, interpretare, sinteza relationala si verificari.
 3. Consulta documentele dependente mentionate acolo, in special `vault/Numerologie/Matricea Datei de Nastere.md`, `vault/Numerologie/Cod Numerologic Personal.md` si, daca este cazul, `vault/Numerologie/Influentele Numelui.md`.
-4. Foloseste `assets/reference-pentagrama-only.svg` ca referinta vizuala cand utilizatorul cere varianta fara omuletul schitat: doar pentagrama, valorile celor doua persoane pozitionate in exteriorul pentagramei si fara totaluri langa cifre.
+4. Foloseste `assets/reference.svg` ca model vizual principal si unic: imagine de fundal Vitruvian embed-uita, fundal SVG potrivit cromatic cu marginile imaginii, cerc/patrat/pentagrama suprapuse peste reperele din imagine si casete numerice apropiate de colturile pentagramei fara sa atinga liniile.
 5. Daca exista conflict intre asset si documentatia din vault, documentatia din vault are prioritate pentru metoda, valori si interpretare.
 
 ## Logica de calcul din documentatie
@@ -38,12 +38,45 @@ tags: [skill]
 6. `Ce este de rezolvat impreuna` se calculeaza prin diferenta absoluta a vibratiilor interioare reduse pentru doua persoane; pentru trei persoane se calculeaza diferentele pe perechi.
 7. Elementele se totalizeaza astfel: Foc = 1 + 5 + 9, Apa = 2 + 6, Aer = 3 + 7, Pamant = 4 + 8, iar 0 ramane Potential separat.
 
+## Reguli vizuale pentru casetele cifrelor
+
+1. Toate cifrele din diagrama trebuie sa foloseasca aceeasi dimensiune de font. Nu mari fontul pentru cifre scurte si nu il micsora separat pentru cifre lungi; daca sunt multe cifre, se mareste chenarul.
+2. Valorile pentru doua persoane se afiseaza cu spatii clare in jurul separatorului: `2 / 222`, `111 / 1111`, `9999 / 999`.
+3. Chenarul fiecarei pozitii se dimensioneaza dupa textul complet afisat in acea pozitie. Formula recomandata pentru generator este:
+
+```text
+font_size = 24
+char_width_aprox = font_size * 0.58
+padding_x = 14
+padding_y = 10
+box_width = max(min_width, len(text_afisat) * char_width_aprox + 2 * padding_x)
+box_height = font_size + 2 * padding_y
+```
+
+4. Pentru pozitii cu valori pe doua persoane, `text_afisat` include ambele valori si separatorul cu spatii. Exemplu: `9999 / 999`.
+5. Textul trebuie centrat vertical si orizontal in chenar. Chenarul nu trebuie sa atinga cifrele; trebuie sa ramana padding vizibil pe toate partile.
+6. Daca o pozitie este absenta la ambele persoane, nu se afiseaza `0 / 0` ca lipsa numerologica. Cifra `0` se afiseaza doar in pozitia ei reala de potential, cand exista in sursa de cifre folosita.
+7. Daca legenda de sus sau sinteza de jos se apropie de diagrama, extinde viewBox-ul pe verticala si coboara diagrama. Nu suprapune niciodata legenda, casetele cifrelor, pentagrama sau sinteza elementelor.
+8. Dupa generare, verifica obligatoriu ca SVG-ul este XML valid si ca nu exista suprapuneri intre texte sau intre texte si chenare.
+
+## Reguli vizuale pentru fundalul Vitruvian si geometrie
+
+1. Cand se foloseste fundalul cu omul vitruvian, imaginea ramane nealterata ca format si este embed-uita in SVG; fundalul SVG trebuie setat dupa culoarea medie a marginilor imaginii pentru continuitate vizuala.
+2. Cercul, patratul, axele si pentagrama nu se pozitioneaza independent. Ele se calibreaza dupa cercul si patratul reale din imaginea de fundal.
+3. Daca cercul din imagine apare usor eliptic dupa incadrare, foloseste `ellipse` in SVG, nu forta un `circle` care nu se suprapune vizual.
+4. Varfurile pentagramei se construiesc dupa acelasi centru si aceleasi raze vizuale ca cercul din fundal, astfel incat pentagrama sa apartina aceleiasi geometrii.
+5. Casetele pentru `1`, `3`, `5`, `7`, `9` se aseaza aproape de varfurile pentagramei, cu o distanta constanta de siguranta fata de colt.
+6. Casetele pentru `0` si `2` se aseaza deasupra liniei orizontale negre a pentagramei, aproape de colturile interioare superioare, fara sa calce pe linie.
+7. Casetele pentru `8` si `4` se aseaza aproape de colturile interioare laterale ale pentagramei si usor deasupra zonei de intersectie, fara suprapunere cu liniile.
+8. Pastreaza legenda de sus si sinteza elementelor de jos in afara diagramei. Daca este nevoie, extinde inaltimea SVG-ului.
+
+Asset-ul `assets/reference.svg` contine exemplul actualizat cu fundal Vitruvian, spatiere verticala extinsa, geometrie aliniata pe imagine, casete cu padding si dimensiuni adaptate lungimii grupurilor de cifre.
 ## Workflow
 
 1. Citeste `vault/Numerologie/Omuletul Relatiilor.md` si documentele dependente necesare pentru datele furnizate.
 2. Stabileste explicit sursa cifrelor folosita pentru toate persoanele comparate.
 3. Calculeaza distributia cifrelor, totalurile relationale, sinteza pe elemente si cele doua rezultate de sinteza.
-4. Foloseste `assets/reference-pentagrama-only.svg` ca sablon de compozitie: pastreaza pentagrama, cercul si patratul, elimina cifrele incercuite ale pozitiilor, evita totalurile langa fiecare cifra si aseaza valorile persoanelor in exteriorul pentagramei, aproape de coltul interior sau exterior corespunzator, fara suprapunere peste linii.
+4. Foloseste `assets/reference.svg` ca sablon de compozitie, nu ca sursa principala de calcul.
 5. Pastreaza structura omuletului/amuletului, legaturile dintre valori si ordinea zonelor.
 6. Actualizeaza numele, datele si valorile numerologice ale persoanelor cand sunt furnizate.
 7. Daca lipsesc date pentru o persoana, marcheaza explicit campurile ca `de completat`.
@@ -54,4 +87,6 @@ tags: [skill]
 ## Reference
 
 - `vault/Numerologie/Omuletul Relatiilor.md` este sursa de adevar pentru metoda, pozitionari numerologice, formule, interpretare si verificari.
-- `assets/reference-pentagrama-only.svg` este modelul validat pentru varianta fara omulet schitat, doar cu pentagrama si valorile persoanelor in exterior.
+- `assets/reference.svg` este modelul vizual unic si validat pentru Amuletul/Omuletul Relatiilor: fundal Vitruvian, geometrie aliniata pe imagine, casete numerice dimensionate dupa continut, font uniform si spatiere verticala sigura.
+
+

@@ -20,22 +20,120 @@ Nota de folosire:
 - Nu se introduc link-uri catre lucrari, fisiere sau documente externe.
 - Pentru fiecare capitol se pastreaza calculul, rezultatul si interpretarea.
 - Unde exista tabele sau grafice in lucrarea finala, se lasa camp de completare pentru tabel/grafic.
+- Pentru lucrarile aflate in revizie se poate folosi varianta indexata, ca fiecare
+  element sa poata fi urmarit usor in feedback. Indexii se folosesc doar in
+  lucrarea care mai trebuie revizuita; dupa finalizarea reviziei, versiunea
+  finala se livreaza fara indexi vizibili.
+- Denumirea fisierelor de lucrare foloseste forma `v{numar}{stare}`:
+  `v1r`, `v2r`, `v3r` pentru revizii si `v1f`, `v2f`, `v3f` pentru variante
+  finale. Litera `v` indica versiunea, numarul indica numarul versiunii, iar
+  `r` inseamna revizie si `f` inseamna final.
 - Pentru rubrica Fixatia, se foloseste documentul de metoda:
   `vault/Numerologie/Fixatia.md`.
+
+### Regula pentru varianta de revizie indexata
+
+Indexul este un marcaj temporar de lucru, nu continut final pentru client.
+
+Format recomandat:
+
+```text
+{{initiale_client}}-{{AAAALLZZ}}-{{versiune_lucrare_cu_stare}}-{{tip_element}}-{{numar_ordine}}
+```
+
+Exemplu:
+
+```text
+BDR-19980219-v1r-CAP-001
+BDR-19980219-v1r-P-001
+BDR-19980219-v1r-T-001
+BDR-19980219-v1r-C-001
+```
+
+Tipuri de element:
+
+| Cod | Element indexat |
+| --- | --- |
+| CAP | capitol / titlu principal |
+| SUB | subcapitol / subtitlu |
+| P | paragraf |
+| L | lista |
+| T | tabel |
+| C | calcul, chenar de calcul, figura, grafic sau SVG |
+
+Reguli de folosire:
+
+- Indexii se introduc doar in varianta de revizie.
+- In HTML, inclusiv pentru titluri, indexul se pune pe linie separata imediat
+  deasupra elementului. Pentru titluri se foloseste si clasa `index-heading`,
+  ca indexul sa ramana vizual deasupra chenarului de capitol, nu in interiorul
+  lui:
+
+```html
+<div class="index index-heading">Index: BDR-19980219-v1r-CAP-001</div>
+<h2>Titlu capitol</h2>
+```
+
+- Pentru paragrafe, liste, tabele, calcule, figuri si SVG-uri, indexul se pune
+  imediat inaintea elementului:
+
+```html
+<div class="index">Index: BDR-19980219-v1r-P-001</div>
+<p>Textul paragrafului...</p>
+```
+
+- Stil recomandat pentru HTML-ul de revizie:
+
+```css
+.index {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 14px 0 6px;
+}
+.index-heading {
+  display: block;
+  margin: 30px 0 8px;
+}
+.index-heading + h1,
+.index-heading + h2,
+.index-heading + h3,
+.index-heading + h4 {
+  margin-top: 0;
+}
+```
+
+- In versiunea finala, se elimina toate elementele `.index`; continutul ramane
+  fara marcajul de index.
 
 ---
 ## Date generale
 
 - Persoana analizata: {{nume_complet}}
 - Data nasterii: {{data_nasterii}}
+- Nume familie: {{nume_familie}}
+- Prenume: {{prenume}}
+- Prenume activ folosit in calcul: {{prenume_activ}}
 - Nume complet la nastere: {{nume_complet_la_nastere}}
-- Nume activ: {{nume_activ}}
 - Nume anterior / schimbat: {{nume_anterior}}
 - Gen persoana: {{gen_persoana}}
 - Autor lucrare: {{autor_lucrare}}
+- Versiune lucrare: {{versiune_lucrare}}
 - Data lucrarii: {{data_lucrarii}}
+- Template de lucru: templates/Template_Lucrare_Numerologica_Examen.md
+- Tip lucrare: {{tip_lucrare}}
+- Metoda de lucru: {{metoda_de_lucru}}
 - Stil de redactare: {{formal_sau_conversational}}
 - Nivel de detaliere: {{scurt_mediu_amplu}}
+- Scopul lucrarii: {{scop_lucrare}}
+- Cadru de interpretare: {{cadru_interpretare}}
+
+### Relatii
+
+- Persoana analizata in relatie: {{nume_complet_partener}}
+- Data nasterii persoana analizata in relatie: {{data_nasterii_partener}}
+- Tip relatie analizata: {{tip_relatie_analizata}}
 
 ---
 ## Cuprins
@@ -43,34 +141,9 @@ Nota de folosire:
 {{cuprins_generat}}
 
 ---
-## Capitolul 1. Introducere
+## Capitolul 1. Formule, calcule, tabele, grafice
 
-### 1.1. Prezentarea autorului lucrarii
-
-{{prezentare_autor_lucrare}}
-
-### 1.2. Prezentarea persoanei analizate
-
-{{prezentare_persoana_analizata}}
-
-### 1.3. Context biografic
-
-{{context_biografic}}
-
-### 1.4. Date reprezentative din viata persoanei analizate
-
-| An | Varsta | Eveniment | Observatii numerologice |
-| --- | --- | --- | --- |
-| {{an}} | {{varsta}} | {{eveniment}} | {{observatii_numerologice}} |
-
-### 1.5. Sinteza introductiva
-
-{{sinteza_introductiva}}
-
----
-## Capitolul 2. Formule, calcule, tabele, grafice
-
-### 2.1. Date de intrare
+### 1.1. Date de intrare
 
 | Camp | Valoare |
 | --- | --- |
@@ -82,7 +155,7 @@ Nota de folosire:
 | Nume activ | {{nume_activ}} |
 | Nume anterior / schimbat | {{nume_anterior}} |
 
-### 2.2. Vibratiile
+### 1.2. Vibratiile
 
 | Concept | Formula | Calcul | Rezultat |
 | --- | --- | --- | --- |
@@ -99,7 +172,7 @@ Interpretare:
 
 {{interpretare_vibratii}}
 
-### 2.3. Calea destinului, destinul si puntile
+### 1.3. Calea destinului, destinul si puntile
 
 | Concept | Formula | Calcul | Rezultat |
 | --- | --- | --- | --- |
@@ -113,7 +186,7 @@ Interpretare:
 
 {{interpretare_destin_punti}}
 
-### 2.4. Aspecte de indreptat
+### 1.4. Aspecte de indreptat
 
 | Concept | Formula | Calcul | Rezultat |
 | --- | --- | --- | --- |
@@ -124,19 +197,19 @@ Interpretare:
 
 {{interpretare_aspecte_de_indreptat}}
 
-### 2.5. Structura matriciala
+### 1.5. Structura matriciala
 
-#### 2.5.1. Matricea datei de nastere
+#### 1.5.1. Matricea datei de nastere
 
 ```text
 {{matricea_datei_de_nastere}}
 ```
 
-#### 2.5.2. Numere pare si impare
+#### 1.5.2. Numere pare si impare
 
 {{numere_pare_impare}}
 
-#### 2.5.3. Valoarea casutelor
+#### 1.5.3. Valoarea casutelor
 
 | Casuta | Cifre | Valoare | Interpretare |
 | --- | --- | --- | --- |
@@ -150,15 +223,15 @@ Interpretare:
 | 8 | {{casuta_8_cifre}} | {{casuta_8_valoare}} | {{casuta_8_interpretare}} |
 | 9 | {{casuta_9_cifre}} | {{casuta_9_valoare}} | {{casuta_9_interpretare}} |
 
-#### 2.5.4. Figuri geometrice
+#### 1.5.4. Figuri geometrice
 
 {{figuri_geometrice}}
 
-#### 2.5.5. Elemente
+#### 1.5.5. Elemente
 
 {{elemente}}
 
-#### 2.5.6. Vectorii
+#### 1.5.6. Vectorii
 
 | Vector | Denumire | Cifre | Valoare | Interpretare |
 | --- | --- | --- | --- | --- |
@@ -171,25 +244,25 @@ Interpretare:
 | 159 | Cariera | {{vector_159_cifre}} | {{vector_159_valoare}} | {{vector_159_interpretare}} |
 | 357 | Scopuri | {{vector_357_cifre}} | {{vector_357_valoare}} | {{vector_357_interpretare}} |
 
-#### 2.5.7. Tendinta
+#### 1.5.7. Tendinta
 
 {{tendinta}}
 
-#### 2.5.8. Fixatia
+#### 1.5.8. Fixatia
 
 Nota de metoda: se identifica vectorul plin dominant conform documentului
 `vault/Numerologie/Fixatia.md`.
 
 {{fixatia}}
 
-#### 2.5.9. Caii, trasura si vizitiul
+#### 1.5.9. Caii, trasura si vizitiul
 
 Nota de metoda: se citesc vectorii 1-2-3 ca `caii`, 4-5-6 ca `trasura` si
 7-8-9 ca `vizitiul`; vezi `vault/Numerologie/Caii Trasura si Vizitiul.md`.
 
 {{caii_trasura_vizitiul}}
 
-#### 2.5.10. Curgerea energiei
+#### 1.5.10. Curgerea energiei
 
 Nota de metoda: se urmareste curgerea energiei in matricea datei de nastere,
 de sus in jos si de la stanga la dreapta; vezi
@@ -197,17 +270,17 @@ de sus in jos si de la stanga la dreapta; vezi
 
 {{curgerea_energiei}}
 
-#### 2.5.11. Comparatia cu optimul
+#### 1.5.11. Comparatia cu optimul
 
 {{comparatia_cu_optimul}}
 
-#### 2.5.12. Scara bunastarii
+#### 1.5.12. Scara bunastarii
 
 | Pozitie | Denumire | Cantitate | Formula | Valoare | Interpretare |
 | --- | --- | --- | --- | --- | --- |
 | {{pozitie_scara}} | {{denumire_scara}} | {{cantitate_scara}} | {{formula_scara}} | {{valoare_scara}} | {{interpretare_scara}} |
 
-### 2.6. Codul numerologic personal al numelui
+### 1.6. Codul numerologic personal al numelui
 
 | Concept | Formula | Calcul | Rezultat | Interpretare |
 | --- | --- | --- | --- | --- |
@@ -219,73 +292,73 @@ de sus in jos si de la stanga la dreapta; vezi
 | Numarul ereditar karmic / Neamul | {{formula_numar_neam}} | {{calcul_numar_neam}} | {{numar_neam}} | {{interpretare_numar_neam}} |
 | Cifra energetica | {{formula_cifra_energetica}} | {{calcul_cifra_energetica}} | {{cifra_energetica}} | {{interpretare_cifra_energetica}} |
 
-#### 2.6.1. Cifre in exces / cifre lipsa
+#### 1.6.1. Cifre in exces / cifre lipsa
 
 {{cifre_exces_lipsa}}
 
-#### 2.6.2. Cifre intense
+#### 1.6.2. Cifre intense
 
 {{cifre_intense}}
 
-#### 2.6.3. Primele litere si ultimele litere
+#### 1.6.3. Primele litere si ultimele litere
 
 {{primele_litere_ultimele_litere}}
 
-#### 2.6.4. Primele vocale
+#### 1.6.4. Primele vocale
 
 {{primele_vocale}}
 
-#### 2.6.5. Cheile de bolta
+#### 1.6.5. Cheile de bolta
 
 {{cheile_de_bolta}}
 
-#### 2.6.6. Litere mentale, fizice, emotionale, intuitive
+#### 1.6.6. Litere mentale, fizice, emotionale, intuitive
 
 {{litere_mentale_fizice_emotionale_intuitive}}
 
-#### 2.6.7. Litere initiatoare, continuatoare, finalizatoare
+#### 1.6.7. Litere initiatoare, continuatoare, finalizatoare
 
 {{litere_initiatoare_continuatoare_finalizatoare}}
 
-#### 2.6.8. Numerele temperamentului
+#### 1.6.8. Numerele temperamentului
 
 {{numerele_temperamentului}}
 
-#### 2.6.9. Cifrele de tensiune
+#### 1.6.9. Cifrele de tensiune
 
 {{cifrele_de_tensiune}}
 
-### 2.7. Ciclicitatile
+### 1.7. Ciclicitatile
 
-#### 2.7.1. Ciclicitatea vibratiilor
+#### 1.7.1. Ciclicitatea vibratiilor
 
 {{ciclicitatea_vibratiilor}}
 
-#### 2.7.2. Ciclicitatea scarii bunastarii
+#### 1.7.2. Ciclicitatea scarii bunastarii
 
 {{ciclicitatea_scarii_bunastarii}}
 
-#### 2.7.3. Lectiile de viata
+#### 1.7.3. Lectiile de viata
 
 {{lectiile_de_viata}}
 
-#### 2.7.4. Ciclul de 7 ani
+#### 1.7.4. Ciclul de 7 ani
 
 {{ciclul_de_7_ani}}
 
-#### 2.7.5. Ciclul de 9 ani si subciclurile
+#### 1.7.5. Ciclul de 9 ani si subciclurile
 
 {{ciclul_de_9_ani_subcicluri}}
 
-#### 2.7.6. Ciclul de 12 ani
+#### 1.7.6. Ciclul de 12 ani
 
 {{ciclul_de_12_ani}}
 
-#### 2.7.7. Ciclul de 27 ani
+#### 1.7.7. Ciclul de 27 ani
 
 {{ciclul_de_27_ani}}
 
-#### 2.7.8. Pinacluri
+#### 1.7.8. Pinacluri
 
 | Pinaclu | Interval / varsta | Oportunitate | Provocare | Interpretare |
 | --- | --- | --- | --- | --- |
@@ -294,157 +367,157 @@ de sus in jos si de la stanga la dreapta; vezi
 | 3 | {{pinaclu_3_interval}} | {{pinaclu_3_oportunitate}} | {{pinaclu_3_provocare}} | {{pinaclu_3_interpretare}} |
 | 4 | {{pinaclu_4_interval}} | {{pinaclu_4_oportunitate}} | {{pinaclu_4_provocare}} | {{pinaclu_4_interpretare}} |
 
-#### 2.7.9. Ani sub neam / ani independenti de neam
+#### 1.7.9. Ani sub neam / ani independenti de neam
 
 {{ani_sub_neam_independenti}}
 
-#### 2.7.10. Ani importanti interiori, exteriori, de criza si de rascruce
+#### 1.7.10. Ani importanti interiori, exteriori, de criza si de rascruce
 
 | An | Interior | Exterior | Criza | Rascruce | Interpretare |
 | --- | --- | --- | --- | --- | --- |
 | {{an}} | {{an_interior}} | {{an_exterior}} | {{an_criza}} | {{an_rascruce}} | {{interpretare_an}} |
 
-#### 2.7.11. Soarta si destin
+#### 1.7.11. Soarta si destin
 
 {{soarta_si_destin}}
 
-### 2.8. Relatii
+### 1.8. Relatii
 
-#### 2.8.1. Omuletul relatiilor
+#### 1.8.1. Omuletul relatiilor
 
 {{omuletul_relatiilor}}
 
-### 2.9. Spirit
+### 1.9. Spirit
 
-#### 2.9.1. Inclinatii profesionale
+#### 1.9.1. Inclinatii profesionale
 
 {{inclinatii_profesionale}}
 
-#### 2.9.2. Inclinatii ezoterice
+#### 1.9.2. Inclinatii ezoterice
 
 {{inclinatii_ezoterice}}
 
-#### 2.9.3. Codul Spiritului si Varsta Spiritului
+#### 1.9.3. Codul Spiritului si Varsta Spiritului
 
 {{codul_spiritului_varsta_spiritului}}
 
-#### 2.9.4. Etapele si subetapele spiritului
+#### 1.9.4. Etapele si subetapele spiritului
 
 {{etapele_subetapele_spiritului}}
 
-### 2.10. Ajutoare
+### 1.10. Ajutoare
 
-#### 2.10.1. Semnatura astrala
+#### 1.10.1. Semnatura astrala
 
 {{semnatura_astrala}}
 
-#### 2.10.2. Directiile de succes
+#### 1.10.2. Directiile de succes
 
 {{directiile_de_succes}}
 
-#### 2.10.3. Triunghiul financiar
+#### 1.10.3. Triunghiul financiar
 
 Formula: `ziua redusa` + `luna redusa` + `anul redus` + `destinul redus`.
 Destinul se obtine din suma celor trei componente deja reduse.
 
 {{triunghiul_financiar}}
 
-#### 2.10.4. Patratul de aur 3x3
+#### 1.10.4. Patratul de aur 3x3
 
 {{patratul_de_aur_3x3}}
 
-### 2.11. Concluziile capitolului 2
+### 1.11. Concluziile capitolului 2
 
-#### 2.11.1. Toate notiunile grupate pe cifre si elemente
+#### 1.11.1. Toate notiunile grupate pe cifre si elemente
 
 {{notiuni_grupate_pe_cifre_si_elemente}}
 
-#### 2.11.2. Tabelul tuturor informatiilor reunite
+#### 1.11.2. Tabelul tuturor informatiilor reunite
 
 {{tabelul_tuturor_informatiilor_reunite}}
 
-#### 2.11.3. Graficul tuturor informatiilor reunite
+#### 1.11.3. Graficul tuturor informatiilor reunite
 
 {{graficul_tuturor_informatiilor_reunite}}
 
 ---
-## Capitolul 3. Caracterul
+## Capitolul 2. Caracterul
 
-### 3.1. Vibratia interioara
+### 2.1. Vibratia interioara
 
-#### 3.1.1. Vibratia interioara pitagoreica
+#### 1.1.1. Vibratia interioara pitagoreica
 
 {{caracter_vibratie_interioara_pitagoreica}}
 
-#### 3.1.2. Liniile de tensiune
+#### 1.1.2. Liniile de tensiune
 
 {{caracter_linii_de_tensiune}}
 
-#### 3.1.3. Vibratia interioara karmica
+#### 1.1.3. Vibratia interioara karmica
 
 {{caracter_vibratie_interioara_karmica}}
 
-### 3.2. Structura matriciala
+### 2.2. Structura matriciala
 
-#### 3.2.1. Reflectarea vibratiei interioare in casute
+#### 1.2.1. Reflectarea vibratiei interioare in casute
 
 {{reflectarea_vibratiei_interioare_in_casute}}
 
-#### 3.2.2. Casutele calitativ si cantitativ
+#### 1.2.2. Casutele calitativ si cantitativ
 
 {{casutele_calitativ_cantitativ}}
 
-#### 3.2.3. Par / impar
+#### 1.2.3. Par / impar
 
 {{par_impar}}
 
-#### 3.2.4. Elementele
+#### 1.2.4. Elementele
 
 {{elementele_caracterului}}
 
-#### 3.2.5. Valoarea casutelor
+#### 1.2.5. Valoarea casutelor
 
 {{valoarea_casutelor_caracter}}
 
-#### 3.2.6. Forma geometrica
+#### 1.2.6. Forma geometrica
 
 {{forma_geometrica}}
 
-#### 3.2.7. Descrierea casutelor
+#### 1.2.7. Descrierea casutelor
 
 {{descrierea_casutelor}}
 
-#### 3.2.8. Combinatiile speciale
+#### 1.2.8. Combinatiile speciale
 
 {{combinatiile_speciale}}
 
-#### 3.2.9. Vectorii
+#### 1.2.9. Vectorii
 
 {{vectorii_caracter}}
 
-#### 3.2.10. Fixatia
+#### 1.2.10. Fixatia
 
 Nota de metoda: interpretarea caracterului foloseste aceeasi fixatie calculata
 din matricea datei de nastere; vezi `vault/Numerologie/Fixatia.md`.
 
 {{fixatia_caracter}}
 
-#### 3.2.11. Tendinta
+#### 1.2.11. Tendinta
 
 {{tendinta_caracter}}
 
-#### 3.2.12. Valoarea cea mai mare
+#### 1.2.12. Valoarea cea mai mare
 
 {{valoarea_cea_mai_mare}}
 
-#### 3.2.13. Curgerea energiei
+#### 1.2.13. Curgerea energiei
 
 Nota de metoda: interpretarea caracterului foloseste aceeasi curgere a energiei
 din matricea datei de nastere; vezi `vault/Numerologie/Curgerea Energiei.md`.
 
 {{curgerea_energiei_caracter}}
 
-#### 3.2.14. Caii, trasura si vizitiul
+#### 1.2.14. Caii, trasura si vizitiul
 
 Nota de metoda: interpretarea caracterului compara caii, trasura si vizitiul
 din matricea datei de nastere; vezi
@@ -452,211 +525,211 @@ din matricea datei de nastere; vezi
 
 {{caii_trasura_vizitiul_caracter}}
 
-### 3.3. Influente spirituale
+### 2.3. Influente spirituale
 
-#### 3.3.1. Inclinatii profesionale
+#### 1.3.1. Inclinatii profesionale
 
 {{caracter_inclinatii_profesionale}}
 
-#### 3.3.2. Inclinatii ezoterice
+#### 1.3.2. Inclinatii ezoterice
 
 {{caracter_inclinatii_ezoterice}}
 
-#### 3.3.3. Zona de confort intre soarta si destin
+#### 1.3.3. Zona de confort intre soarta si destin
 
 {{zona_confort_soarta_destin}}
 
-#### 3.3.4. Pinaclul 1
+#### 1.3.4. Pinaclul 1
 
 {{pinaclul_1_caracter}}
 
-#### 3.3.5. Codul si Varsta Spiritului
+#### 1.3.5. Codul si Varsta Spiritului
 
 {{codul_varsta_spiritului_caracter}}
 
-#### 3.3.6. Etapele si subetapele spiritului
+#### 1.3.6. Etapele si subetapele spiritului
 
 {{etape_subetape_spirit_caracter}}
 
-### 3.4. Influentele numelui
+### 2.4. Influentele numelui
 
-#### 3.4.1. Numarul activ
+#### 1.4.1. Numarul activ
 
 {{caracter_numar_activ}}
 
-#### 3.4.2. Numarul ereditar karmic / Numele Neamului
+#### 1.4.2. Numarul ereditar karmic / Numele Neamului
 
 {{caracter_numar_neam}}
 
-#### 3.4.3. Numarul intim
+#### 1.4.3. Numarul intim
 
 {{caracter_numar_intim}}
 
-#### 3.4.4. Numarul de realizare
+#### 1.4.4. Numarul de realizare
 
 {{caracter_numar_realizare}}
 
-#### 3.4.5. Cifre in exces si cifre lipsa
+#### 1.4.5. Cifre in exces si cifre lipsa
 
 {{caracter_cifre_exces_lipsa}}
 
-### 3.5. Concluziile caracterului
+### 2.5. Concluziile caracterului
 
 {{concluziile_caracterului}}
 
 ---
-## Capitolul 4. Transformarea
+## Capitolul 3. Transformarea
 
-### 4.1. Vibratia exterioara
+### 3.1. Vibratia exterioara
 
 {{transformare_vibratia_exterioara}}
 
-### 4.2. Programul karmic social
+### 3.2. Programul karmic social
 
 {{programul_karmic_social}}
 
-### 4.3. Numarul de realizare din nume
+### 3.3. Numarul de realizare din nume
 
 {{transformare_numar_realizare}}
 
-### 4.4. Contextele - vibratia globala
+### 3.4. Contextele - vibratia globala
 
 {{contextele_vibratia_globala}}
 
-### 4.5. Puntea dintre vibratia interioara si cea exterioara
+### 3.5. Puntea dintre vibratia interioara si cea exterioara
 
 {{transformare_punte_interior_exterior}}
 
-### 4.6. Puntea dintre vibratia interioara si cea a destinului
+### 3.6. Puntea dintre vibratia interioara si cea a destinului
 
 {{transformare_punte_interior_destin}}
 
-### 4.7. Calea Destinului
+### 3.7. Calea Destinului
 
 {{transformare_calea_destinului}}
 
-### 4.8. Aspecte de indreptat si solutia
+### 3.8. Aspecte de indreptat si solutia
 
 {{transformare_aspecte_de_indreptat_solutie}}
 
-### 4.9. Scara bunastarii
+### 3.9. Scara bunastarii
 
 {{transformare_scara_bunastarii}}
 
-### 4.10. Lectiile de viata
+### 3.10. Lectiile de viata
 
 {{transformare_lectii_de_viata}}
 
-### 4.11. Pinaclurile
+### 3.11. Pinaclurile
 
 {{transformare_pinacluri}}
 
-### 4.12. Inclinatiile profesionale
+### 3.12. Inclinatiile profesionale
 
 {{transformare_inclinatii_profesionale}}
 
-### 4.13. Inclinatiile ezoterice
+### 3.13. Inclinatiile ezoterice
 
 {{transformare_inclinatii_ezoterice}}
 
-### 4.14. Spiritul
+### 3.14. Spiritul
 
 {{transformare_spiritul}}
 
-### 4.15. Soarta si destinul
+### 3.15. Soarta si destinul
 
 {{transformare_soarta_destinul}}
 
-### 4.16. Liniile de tensiune
+### 3.16. Liniile de tensiune
 
 {{transformare_linii_de_tensiune}}
 
-### 4.17. Concluziile transformarii
+### 3.17. Concluziile transformarii
 
 {{concluziile_transformarii}}
 
 ---
-## Capitolul 5. Destinul
+## Capitolul 4. Destinul
 
-### 5.1. Vibratia Destinului
+### 4.1. Vibratia Destinului
 
 {{destin_vibratia_destinului}}
 
-### 5.2. Pinaclul 3
+### 4.2. Pinaclul 3
 
 {{destin_pinaclul_3}}
 
-### 5.3. Solutia aspectelor de indreptat
+### 4.3. Solutia aspectelor de indreptat
 
 {{destin_solutia_aspectelor_de_indreptat}}
 
-### 5.4. Vibratia cosmica variabila si totala
+### 4.4. Vibratia cosmica variabila si totala
 
 {{destin_vibratia_cosmica_variabila_totala}}
 
-### 5.5. Etapele si subetapele spiritului
+### 4.5. Etapele si subetapele spiritului
 
 {{destin_etape_subetape_spirit}}
 
-### 5.6. Potentialul ezoteric
+### 4.6. Potentialul ezoteric
 
 {{destin_potential_ezoteric}}
 
-### 5.7. Potentialul numelui - numarul de exprimare
+### 4.7. Potentialul numelui - numarul de exprimare
 
 {{destin_potential_nume_numar_exprimare}}
 
-### 5.8. Potentialul caracterului
+### 4.8. Potentialul caracterului
 
 {{destin_potential_caracter}}
 
-### 5.9. Concluziile destinului
+### 4.9. Concluziile destinului
 
 {{concluziile_destinului}}
 
 ---
-## Capitolul 6. Parcursul vietii
+## Capitolul 5. Parcursul vietii
 
-### 6.1. Ansamblul geometric al lui Pitagora
+### 5.1. Ansamblul geometric al lui Pitagora
 
 {{ansamblul_geometric_al_lui_pitagora}}
 
-### 6.2. Cele patru perioade mari
+### 5.2. Cele patru perioade mari
 
 {{cele_patru_perioade_mari}}
 
-#### 6.2.1. Perioada de formare
+#### 4.2.1. Perioada de formare
 
 {{perioada_de_formare}}
 
-#### 6.2.2. Perioada de maturizare
+#### 4.2.2. Perioada de maturizare
 
 {{perioada_de_maturizare}}
 
-#### 6.2.3. Perioada de inteleptire
+#### 4.2.3. Perioada de inteleptire
 
 {{perioada_de_inteleptire}}
 
-#### 6.2.4. Perioada de spiritualizare
+#### 4.2.4. Perioada de spiritualizare
 
 {{perioada_de_spiritualizare}}
 
-### 6.3. Concluziile parcursului vietii
+### 5.3. Concluziile parcursului vietii
 
 {{concluziile_parcursului_vietii}}
 
 ---
-## Capitolul 7. Ajutoare
+## Capitolul 6. Ajutoare
 
-### 7.1. Semnatura astrala
+### 6.1. Semnatura astrala
 
 {{ajutoare_semnatura_astrala}}
 
-### 7.2. Directiile de succes
+### 6.2. Directiile de succes
 
 {{ajutoare_directii_de_succes}}
 
-### 7.3. Triunghiul financiar
+### 6.3. Triunghiul financiar
 
 Regula de calcul: triunghiul financiar este triunghiul rosu personal, cu varful
 in sus. Pe baza de jos se scriu patru cifre: ziua nasterii redusa la o cifra,
@@ -668,7 +741,7 @@ unghiurile de la baza de `72` de grade.
 
 {{ajutoare_triunghi_financiar}}
 
-### 7.4. Patratul de aur 3x3
+### 6.4. Patratul de aur 3x3
 
 Regula de calcul: se foloseste asezarea patratului lui Pitagora, cu ordinea
 casutelor `1-4-7 / 2-5-8 / 3-6-9`. Ziua nasterii, fara reducere, se introduce
@@ -685,39 +758,39 @@ aceeasi valoare; pentru validarea completa se verifica si cele doua diagonale.
 {{ajutoare_patratul_de_aur_3x3}}
 
 ---
-## Capitolul 8. Concluzii finale pentru numerologi
+## Capitolul 7. Concluzii finale pentru numerologi
 
-### 8.1. Sinteza rezultatelor principale
+### 7.1. Concluzie asupra rezultatelor principale
 
-{{sinteza_rezultatelor_principale}}
+{{concluzie_rezultate_principale}}
 
-### 8.2. Elemente dominante
+### 7.2. Elemente dominante
 
 {{elemente_dominante}}
 
-### 8.3. Elemente de echilibrat
+### 7.3. Elemente de echilibrat
 
 {{elemente_de_echilibrat}}
 
-### 8.4. Concluzie finala
+### 7.4. Concluzie finala
 
 {{concluzie_finala_pentru_numerologi}}
 
 ---
-## Capitolul 9. Sfatul numerologului
+## Capitolul 8. Sfatul numerologului
 
-### 9.1. Directia principala
+### 8.1. Directia principala
 
 {{sfat_directia_principala}}
 
-### 9.2. Recomandari practice
+### 8.2. Recomandari practice
 
 {{sfat_recomandari_practice}}
 
-### 9.3. Perioada analizata
+### 8.3. Perioada analizata
 
 {{sfat_perioada_analizata}}
 
-### 9.4. Concluzia sfatului numerologic
+### 8.4. Concluzia sfatului numerologic
 
 {{concluzia_sfatului_numerologic}}

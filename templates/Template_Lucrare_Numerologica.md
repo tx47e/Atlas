@@ -69,6 +69,29 @@ Vezi: Datele de intrare
   bunastarii, destinul, ciclurile si concluzia finala.
 - Tonul ramane cald, clar, practic si nefatalist.
 
+### Varianta de revizie indexata
+
+- Cand lucrarea inca trebuie revizuita, fiecare element important poate primi
+  un index temporar pentru feedback si urmarire.
+- Indexul este doar pentru revizie; versiunea finala livrata clientului nu
+  trebuie sa contina indexi vizibili.
+- Denumirea fisierelor foloseste forma `v{numar}{stare}`: de exemplu `v1r`
+  pentru versiunea 1 in revizie si `v1f` pentru versiunea 1 finala. Pentru
+  versiuni urmatoare se folosesc `v2r`, `v2f`, `v3r`, `v3f`.
+- Format recomandat:
+
+```text
+{{initiale_client}}-{{AAAALLZZ}}-{{versiune_lucrare_cu_stare}}-{{tip_element}}-{{numar_ordine}}
+```
+
+- Coduri de element: `CAP` pentru capitole, `SUB` pentru subcapitole, `P`
+  pentru paragrafe, `L` pentru liste, `T` pentru tabele si `C` pentru calcule,
+  figuri, grafice sau SVG-uri.
+- In HTML, indexul se pune mereu pe linie separata imediat deasupra elementului.
+  Pentru titluri se foloseste `<div class="index index-heading">Index: ...</div>`,
+  ca indexul sa stea deasupra chenarului de capitol, nu in interiorul lui.
+- La finalizare se elimina toate elementele `.index`.
+
 ### Template lucrat pentru traseul de reducere
 
 ```text
