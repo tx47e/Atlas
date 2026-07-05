@@ -61,6 +61,11 @@ Vezi: Datele de intrare
   soarta, zona de confort a sortii, destin si zona de confort a destinului.
 - Calculele se pastreaza clare si verificabile, fara a incarca lucrarea cu
   explicatii tehnice inutile.
+- Cand un calcul are mai multi pasi, pasii se leaga cu ` -> `, nu cu punct si
+  virgula. Exemplu: `1 + 9 = 10 -> 1 + 0 = 1`.
+- In chenarele de calcul se pune doar formula/traseul de calcul. Explicatia
+  despre ce se calculeaza sta in paragraful de dinainte, iar interpretarea sta
+  dupa chenar.
 - Interpretarile se scriu dupa notele complete ale conceptelor relevante, nu
   doar dupa listele scurte de orientare.
 - Interpretarile respecta `Tip formulare`: formal sau conversational.
@@ -90,6 +95,9 @@ Vezi: Datele de intrare
 - In HTML, indexul se pune mereu pe linie separata imediat deasupra elementului.
   Pentru titluri se foloseste `<div class="index index-heading">Index: ...</div>`,
   ca indexul sa stea deasupra chenarului de capitol, nu in interiorul lui.
+- In Markdown, indexul se pune tot pe linie separata, ca text simplu:
+  `Index: {{cod_index}}`. Nu se folosesc niciodata `<div class="...">`,
+  `<figure>`, `<img>` sau alte fragmente HTML in varianta `.md`.
 - La finalizare se elimina toate elementele `.index`.
 
 ### Template lucrat pentru traseul de reducere
@@ -345,11 +353,30 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Legatura cu scara bunastarii:
 - Interpretare:
 
-Nota de redactare: fixația se calculeaza din matricea datei de nastere. Se
+Nota de redactare: fixatia se calculeaza din matricea datei de nastere. Se
 alege vectorul plin dominant, adica vectorul ale carui trei casute sunt prezente
 si care are valoarea cea mai mare dintre vectorii plini. Daca nu exista vector
 plin, se noteaza ca persoana nu are fixatie matriceala clara si se interpreteaza
 tendinta impreuna cu treapta cea mai inalta din scara bunastarii.
+
+
+### Vectorii matricei si scara bunastarii
+
+- Tabelul vectorilor foloseste coloana `Interpretare`, nu `Descriere si interpretare`.
+- Interpretarea fiecarui vector trebuie sa spuna explicit daca vectorul este
+  plin sau incomplet.
+- Pentru vectorii incompleti se numeste casuta lipsa si tema ei: 4 corp,
+  stabilitate si reguli; 5 centru, curaj practic si adaptare; 6 munca,
+  responsabilitate afectiva si finalizare; la fel pentru orice alta casuta
+  lipsa.
+- Fixatia se explica separat: este vectorul plin cu valoarea cea mai mare si
+  arata zona spre care energia se duce natural, cu talentul si riscul de exces.
+- Caii, trasura si vizitiul se interpreteaza prin compararea vectorilor 123,
+  456 si 789. Se mentioneaza atat valoarea, cat si lipsurile fiecarui vector.
+- Scara bunastarii se afiseaza in ordine descrescatoare si include atat
+  vectorii, cat si casutele. In HTML se recomanda grafic cu bare raportate la
+  valoarea maxima, iar pentru casute se afiseaza o bulina de element plus
+  legenda: Foc, Pamant, Apa, Aer.
 
 ### Matricea Numelui
 

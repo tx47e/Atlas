@@ -19,6 +19,9 @@ Nota de folosire:
 - Se completeaza campurile dintre acolade.
 - Nu se introduc link-uri catre lucrari, fisiere sau documente externe.
 - Pentru fiecare capitol se pastreaza calculul, rezultatul si interpretarea.
+- Cand un calcul are mai multi pasi, pasii se leaga cu ` -> `, nu cu punct si
+  virgula. In chenarul de calcul se pune doar traseul de calcul; explicatia sta
+  inainte, iar interpretarea dupa calcul.
 - Unde exista tabele sau grafice in lucrarea finala, se lasa camp de completare pentru tabel/grafic.
 - Pentru lucrarile aflate in revizie se poate folosi varianta indexata, ca fiecare
   element sa poata fi urmarit usor in feedback. Indexii se folosesc doar in
@@ -68,6 +71,9 @@ Reguli de folosire:
   deasupra elementului. Pentru titluri se foloseste si clasa `index-heading`,
   ca indexul sa ramana vizual deasupra chenarului de capitol, nu in interiorul
   lui:
+- In Markdown, indexul se pune tot pe linie separata, ca text simplu:
+  `Index: {{cod_index}}`. Nu se introduc niciodata `<div class="...">`,
+  `<figure>`, `<img>` sau alte fragmente HTML in varianta `.md`.
 
 ```html
 <div class="index index-heading">Index: BDR-19980219-v1r-CAP-001</div>
@@ -233,6 +239,11 @@ Interpretare:
 
 #### 1.5.6. Vectorii
 
+Nota de redactare: coloana finala se numeste `Interpretare`, nu `Descriere si
+interpretare`. Pentru fiecare vector se precizeaza daca este plin sau incomplet.
+Daca este incomplet, interpretarea numeste casuta lipsa si tema ei concreta
+din matrice.
+
 | Vector | Denumire | Cifre | Valoare | Interpretare |
 | --- | --- | --- | --- | --- |
 | 123 | Energie | {{vector_123_cifre}} | {{vector_123_valoare}} | {{vector_123_interpretare}} |
@@ -253,12 +264,21 @@ Interpretare:
 Nota de metoda: se identifica vectorul plin dominant conform documentului
 `vault/Numerologie/Fixatia.md`.
 
+Fixatia este vectorul plin cu valoarea cea mai mare. Se explica de ce este
+importanta: arata zona spre care energia se duce natural, atat ca talent, cat
+si ca risc de exces. Daca nu exista vector plin, se mentioneaza explicit ca nu
+exista fixatie matriceala clara.
+
 {{fixatia}}
 
 #### 1.5.9. Caii, trasura si vizitiul
 
 Nota de metoda: se citesc vectorii 1-2-3 ca `caii`, 4-5-6 ca `trasura` si
 7-8-9 ca `vizitiul`; vezi `vault/Numerologie/Caii Trasura si Vizitiul.md`.
+
+Interpretarea compara cele trei coloane prin valoare si prin lipsuri:
+`caii` arata energia de pornire, `trasura` arata suportul practic/corpul
+vehiculului, iar `vizitiul` arata directia mentala si spirituala.
 
 {{caii_trasura_vizitiul}}
 
@@ -276,9 +296,16 @@ de sus in jos si de la stanga la dreapta; vezi
 
 #### 1.5.12. Scara bunastarii
 
+Scara bunastarii se ordoneaza descrescator si include atat vectorii, cat si
+casutele. In HTML se recomanda grafic cu bare raportate la valoarea maxima
+din scara. Pentru casute se afiseaza o bulina cu elementul aferent, iar sub
+grafic se adauga legenda: Foc, Pamant, Apa, Aer.
+
 | Pozitie | Denumire | Cantitate | Formula | Valoare | Interpretare |
 | --- | --- | --- | --- | --- | --- |
 | {{pozitie_scara}} | {{denumire_scara}} | {{cantitate_scara}} | {{formula_scara}} | {{valoare_scara}} | {{interpretare_scara}} |
+
+{{grafic_scara_bunastarii}}
 
 ### 1.6. Codul numerologic personal al numelui
 
@@ -720,6 +747,19 @@ din matricea datei de nastere; vezi
 
 ---
 ## Capitolul 6. Ajutoare
+
+Ajutoarele sunt instrumente simbolice de sustinere, construite pe baza hartii
+numerologice personale. Ele pot fi privite ca talismane: obiecte, placute,
+carduri, medalioane sau elemente decorative pe care se imprima o schema
+numerologica, cum ar fi semnatura astrala, triunghiul financiar sau patratul
+de aur. Rolul lor este sa functioneze ca puncte de orientare, nu ca inlocuitor
+pentru decizie, disciplina sau actiune concreta.
+
+Un ajutor bine construit devine o ancora vizuala si energetica. El sustine
+alinierea cu ceea ce persoana are de facut, clarifica intentia si ajuta la
+organizarea atentiei. In interpretare se explica felul in care talismanul poate
+fi purtat, asezat in spatiul de lucru sau folosit intr-un ritual personal
+simplu, pentru a lega intentia de actiune si rezultat.
 
 ### 6.1. Semnatura astrala
 

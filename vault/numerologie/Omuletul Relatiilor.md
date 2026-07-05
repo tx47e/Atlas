@@ -34,8 +34,8 @@ apartine unui element, iar totalurile pe elemente arata ce tip de energie este
 dominanta in relatie: foc, apa, aer sau pamant.
 
 Omuletul relatiilor nu este un calcul separat care inlocuieste matricea sau
-numele, ci o diagrama comparativa construita din cifrele deja calculate pentru
-persoanele analizate.
+numele, ci o diagrama comparativa construita, in mod implicit, din cifrele brute
+ale datelor de nastere ale persoanelor analizate.
 
 In lucrare, omuletul relatiilor se foloseste in capitolul `Relatii`, dupa ce au
 fost calculate datele numerologice principale pentru fiecare persoana implicata.
@@ -145,10 +145,15 @@ Pentru fiecare cifra/pozitie se noteaza:
 - cine are lipsa sau prezenta slaba pe acea cifra;
 - ce poate oferi fiecare persoana relatiei prin cifra respectiva.
 
-Sursa cifrelor trebuie stabilita in functie de tipul de analiza: se poate lucra
-cu cifrele din data nasterii, cu matricea personala, cu matricea numelui sau cu
-un set de rezultate ales explicit pentru relatia analizata. Important este ca
-aceeasi sursa sa fie folosita pentru toate persoanele comparate.
+Sursa implicita pentru omuletul relatiilor este data de nastere bruta, scrisa in
+format numeric, din care se numara cifrele 0-9 asa cum apar in zi, luna si an.
+Nu se adauga automat N1, N2, N3, N4 si nu se foloseste codul numerologic
+personal extins decat daca acest lucru este cerut explicit.
+
+Important este ca aceeasi sursa sa fie folosita pentru toate persoanele
+comparate. Daca se alege alta sursa, cum ar fi matricea personala, matricea
+numelui sau codul numerologic personal extins, acest lucru trebuie mentionat
+clar in lucrare si in interpretare.
 
 ### Elemente
 
@@ -276,12 +281,11 @@ Acest SVG se foloseste ca referinta vizuala pentru asezarea omuletului
 relatiilor: omul vitruvian in fundal, cercul, patratul si pentagrama cu
 pozitiile cifrelor pe colturile exterioare si interioare ale steluței.
 
-Calculul foloseste codul numerologic personal al fiecarei date, dupa regula din
-[[Cod Numerologic Personal]]:
+Calculul foloseste cifrele brute din data de nastere a fiecarei persoane:
 
 ```text
-06.11.1984 -> 06111984 + 30 + 3 + 18 + 9
-17.04.1984 -> 17041984 + 34 + 7 + 32 + 5
+06.11.1984 -> 0, 6, 1, 1, 1, 9, 8, 4
+17.04.1984 -> 1, 7, 0, 4, 1, 9, 8, 4
 ```
 
 Vibratiile interioare reduse sunt:
@@ -319,9 +323,11 @@ Rubrica trebuie sa includa:
 ---
 ## Observatii
 
-- Omuletul relatiilor foloseste rezultate deja calculate.
+- Omuletul relatiilor foloseste implicit cifrele brute din data de nastere.
 - Diagrama poate fi folosita pentru doua sau trei persoane.
 - Se analizeaza cine cate cifre are si ce poate oferi relatiei prin acele cifre.
+- Codul numerologic personal extins se foloseste ca sursa pentru omulet numai
+  daca este cerut explicit si mentionat clar in lucrare.
 - Cifra energetica din [[Influentele Numelui]] poate fi adaugata ca nota
   secundara, pentru ca este numita si cifra relatiilor.
 - Pozitiile cifrelor se pastreaza constant pe diagrama, pentru ca exemplele sa

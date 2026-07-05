@@ -39,34 +39,17 @@
   <polyline class="star" points="448.9,209.2 591.0,657.3 219.0,380.4 678.8,380.4 306.8,657.3 448.9,209.2"/>
 
   <g data-digit="1">
-    <rect class="soft" x="365.3" y="158.0" width="167.2" height="44.0" rx="7"/>
-    <text class="value blue" x="400.2" y="180.0">111</text>
+    <rect class="soft" x="379.2" y="158.0" width="139.4" height="44.0" rx="7"/>
+    <text class="value blue" x="407.0" y="180.0">11</text>
     <text class="value dark" x="441.9" y="180.0"> / </text>
-    <text class="value pink" x="490.7" y="180.0">1111</text>
+    <text class="value pink" x="483.7" y="180.0">111</text>
   </g>
 
   <g data-digit="2">
-    <rect class="soft" x="529.3" y="306.0" width="125.4" height="44.0" rx="7"/>
-    <text class="value blue" x="550.2" y="328.0">2</text>
-    <text class="value dark" x="578.1" y="328.0"> / </text>
-    <text class="value pink" x="619.8" y="328.0">222</text>
-  </g>
-
-  <g data-digit="3">
-    <rect class="soft" x="702.0" y="358.0" width="125.4" height="44.0" rx="7"/>
-    <text class="value blue" x="736.9" y="380.0">333</text>
-    <text class="value dark" x="778.6" y="380.0"> / </text>
-    <text class="value pink" x="806.5" y="380.0">3</text>
-  </g>
-
-  <g data-digit="4">
-    <rect class="soft" x="612.7" y="476.0" width="88.0" height="44.0" rx="7"/>
-    <text class="value pink" x="656.7" y="498.0">4</text>
-  </g>
-
-  <g data-digit="7">
-    <rect class="soft" x="212.0" y="668.0" width="88.0" height="44.0" rx="7"/>
-    <text class="value blue" x="256.0" y="690.0">7</text>
+    <rect class="soft" x="536.2" y="306.0" width="111.6" height="44.0" rx="7"/>
+    <text class="value blue" x="564.1" y="328.0">2</text>
+    <text class="value dark" x="592.0" y="328.0"> / </text>
+    <text class="value pink" x="619.9" y="328.0">2</text>
   </g>
 
   <g data-digit="8">
@@ -77,10 +60,10 @@
   </g>
 
   <g data-digit="9">
-    <rect class="soft" x="60.2" y="358.0" width="167.2" height="44.0" rx="7"/>
-    <text class="value blue" x="102.0" y="380.0">9999</text>
+    <rect class="soft" x="74.1" y="358.0" width="139.4" height="44.0" rx="7"/>
+    <text class="value blue" x="109.0" y="380.0">999</text>
     <text class="value dark" x="150.8" y="380.0"> / </text>
-    <text class="value pink" x="192.5" y="380.0">999</text>
+    <text class="value pink" x="185.6" y="380.0">99</text>
   </g>
 
   <g data-digit="0">
@@ -92,7 +75,7 @@
 
   <g>
     <text class="summary-title" x="24" y="790">Sinteza elemente</text>
-    <text class="summary" x="24" y="814">Foc: 14   Apa: 4   Aer: 5   Pamant: 3   Potential/0: 2</text>
+    <text class="summary" x="24" y="814">Foc: 10   Apa: 2   Aer: 0   Pamant: 2   Potential/0: 2</text>
   </g>
 </svg>
 

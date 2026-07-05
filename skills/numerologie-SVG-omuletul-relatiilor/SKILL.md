@@ -1,4 +1,4 @@
-﻿---
+---
 name: numerologie-SVG-omuletul-relatiilor
 description: Creeaza sau adapteaza SVG-uri numerologice pentru Omuletul Relatiilor. Foloseste acest skill cand utilizatorul cere numerologie SVG, omuletul relatiilor, compatibilitate de cuplu sau un SVG de relatie similar cu referinta locala.
 tags: [skill]
@@ -10,15 +10,16 @@ tags: [skill]
 
 1. Consulta obligatoriu `vault/Numerologie/Omuletul Relatiilor.md` inainte de calcul, completarea valorilor sau interpretare.
 2. Acolo se afla documentatia pentru intocmirea diagramei, pozitionarea cifrelor, interpretare, sinteza relationala si verificari.
-3. Consulta documentele dependente mentionate acolo, in special `vault/Numerologie/Matricea Datei de Nastere.md`, `vault/Numerologie/Cod Numerologic Personal.md` si, daca este cazul, `vault/Numerologie/Influentele Numelui.md`.
+3. Consulta documentele dependente mentionate acolo. Pentru metoda implicita foloseste cifrele brute din data nasterii; consulta `vault/Numerologie/Cod Numerologic Personal.md` doar daca utilizatorul cere explicit sursa extinsa.
 4. Foloseste `assets/reference.svg` ca model vizual principal si unic: imagine de fundal Vitruvian embed-uita, fundal SVG potrivit cromatic cu marginile imaginii, cerc/patrat/pentagrama suprapuse peste reperele din imagine si casete numerice apropiate de colturile pentagramei fara sa atinga liniile.
 5. Daca exista conflict intre asset si documentatia din vault, documentatia din vault are prioritate pentru metoda, valori si interpretare.
 
 ## Logica de calcul din documentatie
 
-1. Omuletul relatiilor este o diagrama comparativa construita din cifrele deja calculate pentru persoanele analizate.
-2. Aceeasi sursa de cifre trebuie folosita pentru toate persoanele comparate: data nasterii, matricea personala, matricea numelui sau alt set ales explicit.
-3. Pozitiile cifrelor pe pentagrama se pastreaza constant:
+1. Omuletul relatiilor este o diagrama comparativa construita implicit din cifrele brute ale datelor de nastere ale persoanelor analizate.
+2. Pentru fiecare persoana se numara cifrele 0-9 exact asa cum apar in zi, luna si an. Nu adauga automat N1, N2, N3, N4 si nu folosi codul numerologic personal extins decat daca utilizatorul cere explicit aceasta sursa.
+3. Aceeasi sursa de cifre trebuie folosita pentru toate persoanele comparate. Daca se foloseste matricea personala, matricea numelui, codul numerologic personal extins sau alt set ales explicit, mentioneaza clar sursa in lucrare si interpretare.
+4. Pozitiile cifrelor pe pentagrama se pastreaza constant:
 
 | Cifra | Pozitie in diagrama |
 | --- | --- |
@@ -33,10 +34,10 @@ tags: [skill]
 | 9 | coltul exterior din stanga |
 | 0 | coltul interior din stanga sus |
 
-4. Pentru fiecare cifra noteaza cantitatea pe persoana, totalul relatiei, cine sustine cifra si zonele slabe sau absente.
-5. `Ce se poate realiza impreuna` se calculeaza prin adunarea vibratiilor interioare reduse si reducere numerologica.
-6. `Ce este de rezolvat impreuna` se calculeaza prin diferenta absoluta a vibratiilor interioare reduse pentru doua persoane; pentru trei persoane se calculeaza diferentele pe perechi.
-7. Elementele se totalizeaza astfel: Foc = 1 + 5 + 9, Apa = 2 + 6, Aer = 3 + 7, Pamant = 4 + 8, iar 0 ramane Potential separat.
+5. Pentru fiecare cifra noteaza cantitatea pe persoana, totalul relatiei, cine sustine cifra si zonele slabe sau absente.
+6. `Ce se poate realiza impreuna` se calculeaza prin adunarea vibratiilor interioare reduse si reducere numerologica.
+7. `Ce este de rezolvat impreuna` se calculeaza prin diferenta absoluta a vibratiilor interioare reduse pentru doua persoane; pentru trei persoane se calculeaza diferentele pe perechi.
+8. Elementele se totalizeaza astfel: Foc = 1 + 5 + 9, Apa = 2 + 6, Aer = 3 + 7, Pamant = 4 + 8, iar 0 ramane Potential separat.
 
 ## Reguli vizuale pentru casetele cifrelor
 
