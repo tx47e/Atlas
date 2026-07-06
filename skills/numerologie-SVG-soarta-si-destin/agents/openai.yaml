@@ -1,0 +1,4 @@
+interface:
+  display_name: "numerologie-SVG-soarta-si-destin"
+  short_description: "Skill local pentru graficul Soarta si Destin"
+  default_prompt: "Foloseste skill-ul local pentru a crea sau adapta SVG-ul Soarta si Destin."

@@ -385,6 +385,28 @@ Index: BDR-19980219-v1r-SUB-021
 Index: BDR-19980219-v1r-P-076
 Aceasta lectura strange dinamica matricei: dominantele, lipsurile si felul in care energia se misca prin vectorii de baza.
 
+Index: BDR-19980219-v1r-P-076a
+Comparatia cu optimul adauga reperul de echilibru. Matricea optima folosita ca baza este `111 | 44 | 7`, `222 | 55 | 8`, `333 | 66 | 9`, cu total general 72. Matricea ta are total general 65, deci nu lipseste forta, ci lipseste mai ales zona care face energia sa curga prin corp, centru si responsabilitate practica.
+
+Index: BDR-19980219-v1r-T-003b
+| Casuta | Cantitate personala | Valoare personala | Cantitate optima | Valoare optima | Diferenta | Citire |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 1 | 3 | 3 | 3 | 3 | 0 | Identitatea si initiativa sunt la optim: poti porni, decide si ocupa un loc propriu. |
+| 2 | 1 | 2 | 3 | 6 | -4 | Sensibilitatea exista, dar are nevoie de exercitiu relational, rabdare si ascultare constienta. |
+| 3 | 3 | 9 | 3 | 9 | 0 | Exprimarea este la optim: comunicarea, creativitatea si adaptarea pot curge firesc. |
+| 4 | 0 | 0 | 2 | 8 | -8 | Lipseste baza practica: corp, ordine, program, disciplina si stabilitate. |
+| 5 | 0 | 0 | 2 | 10 | -10 | Lipseste centrul de reglaj: curaj practic, libertate asumata, prezenta in experienta directa. |
+| 6 | 0 | 0 | 2 | 12 | -12 | Lipseste sustinerea afectiv-practica: responsabilitate, grija, continuitate si finalizare. |
+| 7 | 1 | 7 | 1 | 7 | 0 | Intuitia si analiza sunt la optim: exista acces natural la observatie si sens interior. |
+| 8 | 1 | 8 | 1 | 8 | 0 | Organizarea si raportul cu rezultatul sunt la optim: poti administra resurse cand ai cadru. |
+| 9 | 4 | 36 | 1 | 9 | +27 | Zona de viziune, memorie si sens este mult peste optim; poate deveni talent major, dar si suprasolicitare mentala. |
+
+Index: BDR-19980219-v1r-P-076b
+Pe linii, prima linie `1-4-7` are 10 fata de optimul 18, a doua linie `2-5-8` are 10 fata de optimul 24, iar a treia linie `3-6-9` are 45 fata de optimul 30. Asta arata ca energia se strange puternic in zona de exprimare, rezultat si sens, dar are nevoie de 4, 5 si 6 ca sa nu ramana doar in minte, inspiratie sau analiza.
+
+Index: BDR-19980219-v1r-P-076c
+Pe coloane, coloana `1-2-3` are 14 fata de optimul 18, coloana `4-5-6` are 0 fata de optimul 30, iar coloana `7-8-9` are 51 fata de optimul 24. Aici se vede cel mai clar lectia curgerii energiei: pornirea exista, vizitiul mental-spiritual este foarte puternic, dar trasura practica lipseste. Ca energia sa curga, Daniel are nevoie sa alimenteze constient coloana 4-5-6 prin rutina, corp, limite, exercitiu, responsabilitate si finalizare concreta.
+
 Index: BDR-19980219-v1r-P-077
 Casuta dominanta este 9, cu valoarea 36. Casutele lipsa sunt 4, 5 si 6, adica zona de corp, stabilitate, centru, curaj practic, munca si responsabilitate afectiva. Aceste lipsuri nu anuleaza potentialul, dar arata unde energia trebuie educata prin obiceiuri, limite si actiuni repetate.
 
@@ -421,11 +443,18 @@ Index: BDR-19980219-v1r-T-003a
 Index: BDR-19980219-v1r-SUB-022
 ### 1.5. Codul numerologic personal al numelui
 
-Index: BDR-19980219-v1r-P-079
-Codul numerologic al numelui arata cum lucreaza numele tau ca instrument de expresie. Data de nastere vorbeste despre structura de baza, dar numele arata felul in care aceasta structura capata voce, reactie, stil social si mod de realizare. Daca data de nastere este scheletul energetic, numele este haina pe care o porti in lume: modul in care esti chemat, recunoscut, perceput si activat in relatii.
+Index: BDR-19980219-v1r-C-011b
+**Calcul:** BIRSAN = B2 + I9 + R9 + S1 + A1 + N5 = 27 -> 2 + 7 = 9; cod BIRSAN = 299115. DANIEL = D4 + A1 + N5 + I9 + E5 + L3 = 27 -> 2 + 7 = 9; cod DANIEL = 415953. ROBERT = R9 + O6 + B2 + E5 + R9 + T2 = 33 -> 3 + 3 = 6; cod ROBERT = 962592. Numar de exprimare = 9 + 9 + 6 = 24 -> 2 + 4 = 6.
 
-Index: BDR-19980219-v1r-P-080
-Ca analogie, putem privi numele ca pe o partitura. Vocalele arata melodia interioara, consoanele arata ritmul practic, numele complet arata orchestra intreaga, prenumele activ arata instrumentul pe care il folosesti cel mai des, iar numele de familie arata tema mostenita. Arhetipurile acestei sectiuni sunt vocea, semnatura, rolul social, chemarea si felul in care o identitate interioara devine vizibila.
+Index: BDR-19980219-v1r-C-011c
+**Calcul:** Codul literelor numelui = 299115 + 415953 + 962592 = 299115415953962592. Codul numerologic personal al numelui = codul literelor + numarul de exprimare = 299115415953962592 + 6 = 2991154159539625926
+
+Index: BDR-19980219-v1r-T-003c
+```text
+1: 111 / optim 111 / triunghi | 4: 4    / optim 44 / cerc     | 7: - / optim 7 / absent
+2: 222 / optim 222 / triunghi | 5: 5555 / optim 55 / patrat   | 8: - / optim 8 / absent
+3: 3   / optim 333 / cerc     | 6: 66   / optim 66 / triunghi | 9: 99999 / optim 9 / cerc cu punct
+```
 
 Index: BDR-19980219-v1r-SUB-023
 #### Numarul de exprimare
@@ -617,16 +646,66 @@ Index: BDR-19980219-v1r-T-004
 | 2036 | 38 | 5 | 2 | Anul aduce miscare, iesire din rutina si nevoia de adaptare. Lectia 2 cere ca schimbarile sa fie discutate, negociate si asezate cu grija fata de oamenii implicati. |
 
 Index: BDR-19980219-v1r-SUB-033
-#### Ciclul de 7 ani si ciclul de 12 ani
+#### Ciclurile de 7 ani si de 12 ani
 
 Index: BDR-19980219-v1r-P-123
-Ciclul de 7 ani este legat de maturizare, disciplina si formarea structurii interioare. Ciclul de 12 ani este legat de expansiune, invatare si repozitionare in lume.
+Ciclul de 7 ani si ciclul de 12 ani se citesc separat. Ciclul de 7 ani arata maturizarea, disciplina si formarea structurii interioare. Ciclul de 12 ani arata expansiunea, oportunitatile mari si repozitionarea in lume.
 
 Index: BDR-19980219-v1r-P-124
-Primul ciclu de 7 ani: 0-6. Primul ciclu de 12 ani: 0-11.
+##### Ciclul de 7 ani
+
+Index: BDR-19980219-v1r-C-017a
+![Septagrama pentru Birsan Daniel Robert](septagrama-birsan-daniel-robert.svg)
+
+Index: BDR-19980219-v1r-T-004a
+| Ciclu | Ani calendaristici | Varsta | Varsta criza | An criza | An de viata | Varf | Pereche | Rezultat pereche | Interpretare |
+| --- | --- | --- | ---: | ---: | --- | ---: | --- | ---: | --- |
+| C1 | 1998-2004 | 0-7 | 3,5 | 2001 | al 4-lea | 1 | 1/8 | 9 | Primul prag leaga afirmarea de raportul cu puterea si cere integrarea lor prin sens, maturitate si intelegerea mai larga a experientei. |
+| C2 | 2005-2011 | 7-14 | 10,5 | 2008 | al 11-lea | 2 | 2/6 | 8 | Relatia, familia si nevoia de armonie se verifica prin responsabilitate, limite si raport matur cu autoritatea. |
+| C3 | 2012-2018 | 14-21 | 17,5 | 2015 | al 18-lea | 3 | 3/10 | 4 | Exprimarea si schimbarea de etapa cer structura, disciplina si o forma concreta prin care energia sa se stabilizeze. |
+| C4 | 2019-2025 | 21-28 | 24,5 | 2022 | al 25-lea | 4 | 4/11 | 6 | Constructia personala se intalneste cu intuitia si intensitatea lui 11; rezultatul cere echilibru, grija si responsabilitate afectiva. |
+| C5 | 2026-2032 | 28-35 | 31,5 | 2029 | al 32-lea | 5 | 5/9 | 5 | Ciclul activ deschide tema libertatii, schimbarii si maturizarii prin sens; lectia este sa ramai mobil fara sa risipesti directia. |
+| C6 | 2033-2039 | 35-42 | 38,5 | 2036 | al 39-lea | 6 | 3/7 | 1 | Expresia si analiza se aduna intr-o decizie proprie; aici se cere initiativa lucida, nu doar intelegere interioara. |
+| C7 | 2040-2046 | 42-49 | 45,5 | 2043 | al 46-lea | 7 | 1/5 | 6 | Autonomia si schimbarea se maturizeaza prin responsabilitate, familie simbolica, grija si capacitatea de a aseza relatiile. |
+| C8 | 2047-2053 | 49-56 | 52,5 | 2050 | al 53-lea | 1 | 1/8 | 9 | Revine varful 1/8: initiativa si puterea se cer integrate prin sens, generozitate si perspectiva. |
+| C9 | 2054-2060 | 56-63 | 59,5 | 2057 | al 60-lea | 2 | 2/6 | 8 | Relatia si grija se verifica prin responsabilitate concreta, echilibru material si limite clare. |
+| C10 | 2061-2067 | 63-70 | 66,5 | 2064 | al 67-lea | 3 | 3/10 | 4 | Comunicarea si schimbarea de ciclu au nevoie de ordine, metoda si constructie pas cu pas. |
+| C11 | 2068-2074 | 70-77 | 73,5 | 2071 | al 74-lea | 4 | 4/11 | 6 | Structura si intuitia trebuie puse in slujba armoniei, a impacarii si a responsabilitatii asumate. |
+| C12 | 2075-2081 | 77-84 | 80,5 | 2078 | al 81-lea | 5 | 5/9 | 5 | Libertatea se reia ca tema de sinteza: schimbare cu sens, nu fuga de forma. |
+| C13 | 2082-2088 | 84-91 | 87,5 | 2085 | al 88-lea | 6 | 3/7 | 1 | Analiza si expresia cer o ultima forma de initiativa clara si asumata. |
+| C14 | 2089-2095 | 91-98 | 94,5 | 2092 | al 95-lea | 7 | 1/5 | 6 | Autonomia si libertatea se inchid prin responsabilitate, blandete si asezare relationala. |
+
+Index: BDR-19980219-v1r-P-124a
+Daniel se afla in ciclul C5, 28-35 ani, adica etapa varfului 5, cu perechea 5/9 si rezultat pereche 5. Momentul de criza al acestui ciclu este la 31,5 ani, in 2029, al 32-lea an de viata. Nu il citim ca eveniment negativ obligatoriu, ci ca prag de verificare: cat de liber poate ramane fara sa piarda sensul, cat de flexibil poate fi fara sa se imprastie si cat de matur poate inchide sau reorganiza ce nu mai sustine directia vietii.
+
+Index: BDR-19980219-v1r-P-124b
+Pentru harta lui, aceasta septagrama se leaga direct de lectia deja vazuta in matrice: energia mentala si creativa este puternica, dar are nevoie de centru, corp si ritm concret. Ciclul 5/9 poate aduce schimbari, dorinta de miscare, cautare de sens si nevoie de aer nou. Cheia este ca schimbarea sa fie folosita ca metoda de crestere, nu ca reactie la presiune. Daca Daniel isi pune libertatea in forma prin disciplina minima, alegeri clare si finalizari reale, energia ciclului poate curge mai bine.
+
+Index: BDR-19980219-v1r-P-124c
+##### Ciclul de 12 ani
+
+Index: BDR-19980219-v1r-P-124d
+Ciclul de 12 ani se citeste prin analogia cu Jupiter. Jupiter are o orbita de aproximativ 11,86 ani, deci o data la aproape 12 ani revine pe pozitia de la nastere. In lectura simbolica, acest ritm arata intoarcerile mari ale expansiunii: oportunitati, crestere, largirea orizontului, bogatie, sansa de a primi mai mult si nevoia de a fi pregatit pentru ceea ce vine.
+
+Index: BDR-19980219-v1r-T-004b
+| Ciclu | Ani calendaristici | Varsta | Tema | Interpretare |
+| --- | --- | --- | --- | --- |
+| C1 | 1998-2009 | 0-12 | Formare primara | Se formeaza baza de incredere, invatare si raportare la lume. Expansiunea este absorbita prin familie, mediu si primele modele de viata. |
+| C2 | 2010-2021 | 12-24 | Explorare si autonomie | Jupiter deschide orizontul prin cautare, educatie, oameni noi si desprindere treptata de forma veche. Persoana invata ce inseamna libertatea si directia proprie. |
+| C3 | 2022-2033 | 24-36 | Constructie si consolidare identitara | Ciclul activ. Oportunitatile cer pregatire, structura si curaj de crestere. Ce vine mai mare trebuie sustinut prin disciplina, alegeri clare si capacitatea de a nu risipi sansa. |
+| C4 | 2034-2045 | 36-48 | Expansiune si impact | La 36 de ani se intalnesc ciclul de 9 ani si ciclul de 12 ani. Poate aparea o recalibrare majora: sens, statut, misiune, proiecte mai ample. |
+| C5 | 2046-2057 | 48-60 | Autoritate si transmitere | Ce a fost construit poate deveni influenta, mentorat, responsabilitate sociala sau profesionala. Expansiunea cere maturitate si masura. |
+| C6 | 2058-2069 | 60-72 | Intelepciune aplicata | Experienta acumulata se poate transforma in ghidaj, sinteza si contributie mai larga. |
+| C7 | 2070-2081 | 72-84 | Sinteza si eliberare | Se pastreaza ceea ce are sens si se elibereaza formele care nu mai sustin cresterea interioara. |
+
+Index: BDR-19980219-v1r-P-124e
+Pentru Daniel, ciclul activ de 12 ani este C3, 24-36 ani, inceput in 2022 si activ pana in 2033. La varsta de 28 ani, pozitia in ciclul de 12 ani este 5, adica o faza de schimbare, mobilitate si ajustare. Aceasta nu este doar miscare de dragul miscarii, ci pregatirea pentru o forma mai mare de viata: proiecte, responsabilitati, directie profesionala, relatii, bani, statut sau sens personal.
+
+Index: BDR-19980219-v1r-P-124f
+Intoarcerile jupiteriene importante pentru el sunt in jurul varstelor 12, 24, 36, 48 si 60 de ani, adica aproximativ in 2010, 2022, 2034, 2046 si 2058. La fiecare astfel de prag, viata poate aduce o deschidere: o oportunitate, o extindere a lumii, o crestere a responsabilitatii sau o schimbare de perspectiva. Ideea centrala este pregatirea: cand vine sansa, trebuie sa existe structura interioara, discernamant si capacitatea de a sustine ceea ce se mareste.
 
 Index: BDR-19980219-v1r-P-125
-Aceste cicluri sunt folosite ca fundal. Ele nu spun exact ce se va intampla, ci arata ce fel de maturizare poate fi activa intr-o etapa.
+Aceste cicluri sunt folosite ca fundal. Ele nu spun exact ce se va intampla, ci arata ce fel de maturizare, expansiune si pregatire poate fi activa intr-o etapa.
 
 Index: BDR-19980219-v1r-SUB-034
 #### Pinacluri
@@ -649,7 +728,42 @@ Index: BDR-19980219-v1r-P-127
 Anii interiori marcheaza momente in care poti simti schimbari de directie, decizie sau maturizare. Anii exteriori sunt mai vizibili in planul evenimentelor.
 
 Index: BDR-19980219-v1r-P-128
-Ani interiori calculati: [2007, 2016, 2025, 2034]. Ani exteriori calculati: [2025, 2034].
+Interval analizat: 2016-2046. Ani interiori calculati in interval: 2016, 2025, 2034, 2043. Ani exteriori calculati in interval: 2025, 2034, 2043.
+
+Index: BDR-19980219-v1r-T-004c
+| An | Varsta | Interior | Exterior | Descriere / interpretare |
+| ---: | ---: | --- | --- | --- |
+| 2016 | 18 | Da | - | An de clarificare interioara, cu posibila schimbare de valori, decizii personale si maturizare emotionala. |
+| 2017 | 19 | - | - | - |
+| 2018 | 20 | - | - | - |
+| 2019 | 21 | - | - | - |
+| 2020 | 22 | - | - | - |
+| 2021 | 23 | - | - | - |
+| 2022 | 24 | - | - | - |
+| 2023 | 25 | - | - | - |
+| 2024 | 26 | - | - | - |
+| 2025 | 27 | Da | Da | An cu dubla influenta: proces interior puternic si solicitare exterioara vizibila. Ce se clarifica inauntru cere si raspuns concret in afara. |
+| 2026 | 28 | - | - | - |
+| 2027 | 29 | - | - | - |
+| 2028 | 30 | - | - | - |
+| 2029 | 31 | - | - | - |
+| 2030 | 32 | - | - | - |
+| 2031 | 33 | - | - | - |
+| 2032 | 34 | - | - | - |
+| 2033 | 35 | - | - | - |
+| 2034 | 36 | Da | Da | An de suprapunere majora: maturizarea interioara se intalneste cu un prag exterior. Poate cere decizii vizibile, asumare si reasezare de directie. |
+| 2035 | 37 | - | - | - |
+| 2036 | 38 | - | - | - |
+| 2037 | 39 | - | - | - |
+| 2038 | 40 | - | - | - |
+| 2039 | 41 | - | - | - |
+| 2040 | 42 | - | - | - |
+| 2041 | 43 | - | - | - |
+| 2042 | 44 | - | - | - |
+| 2043 | 45 | Da | Da | An cu dubla influenta, legat de bilant interior si contexte exterioare care cer raspuns matur. Se citeste ca prag de integrare si alegere. |
+| 2044 | 46 | - | - | - |
+| 2045 | 47 | - | - | - |
+| 2046 | 48 | - | - | - |
 
 Index: BDR-19980219-v1r-P-129
 Acesti ani se interpreteaza impreuna cu varsta, anul personal si contextul real al persoanei. Ei nu sunt promisiuni de evenimente, ci repere pentru lectura parcursului.
@@ -658,13 +772,38 @@ Index: BDR-19980219-v1r-SUB-036
 #### Soarta si destin
 
 Index: BDR-19980219-v1r-P-130
-Aceasta rubrica compara baza de pornire cu directia de realizare. In calculatorul actual, formula grafica este marcata ca punct de completat, deci este pastrata cu prudenta.
+Soarta si Destin compara doua linii ale vietii: soarta, adica linia de conditionare, cadrul primit si drumul initial, si destinul grafic, adica directia de implinire si varianta care cere urcare constienta. Cele doua rezultate se pastreaza ca numere grafice de 7 cifre si se citesc impreuna prin zona de confort, puncte de intalnire si puncte de rascruce.
 
 Index: BDR-19980219-v1r-P-131
-Baza posibila pentru soarta: 1902. Baza posibila pentru destin grafic: 1998.
+Pentru soarta se foloseste formula `ZZLL x AAAA`. Pentru Daniel: `19.02.1998 -> ZZLL = 1902`, deci `1902 x 1998 = 3800196`. Numarul grafic al sortii este `3800196`.
+
+Index: BDR-19980219-v1r-C-019a
+**Calcul:** Soarta = 1902 x 1998 = 3800196; zona de confort soarta = (3 + 8 + 0 + 0 + 1 + 9 + 6) / 7 = 27 / 7 = 3,86.
 
 Index: BDR-19980219-v1r-P-132
-Pentru o lucrare finala tip examen, acest punct poate fi completat ulterior cu formula validata din documentatia scolii.
+Pentru destinul grafic, zerourile din data folosita in grafic se inlocuiesc cu 1. Astfel, `1902` devine `1912`, iar anul `1998` ramane neschimbat, pentru ca nu contine zero. Calculul este `1912 x 1998 = 3820176`. Numarul grafic al destinului este `3820176`.
+
+Index: BDR-19980219-v1r-C-019b
+**Calcul:** Destin grafic = 1912 x 1998 = 3820176; zona de confort destin = (3 + 8 + 2 + 0 + 1 + 7 + 6) / 7 = 27 / 7 = 3,86.
+
+Index: BDR-19980219-v1r-C-019c
+![Grafic Soarta si Destin pentru Birsan Daniel Robert](soarta-si-destin-birsan-daniel-robert.svg)
+
+_Grafic Soarta si Destin pentru Birsan Daniel Robert_
+
+Index: BDR-19980219-v1r-T-005a
+| Pozitie | Soarta | Destin | Citire |
+| ---: | ---: | ---: | --- |
+| 1 | 3 | 3 | Punct de intalnire: cadrul primit si directia de implinire pornesc din aceeasi nevoie de expresie si comunicare. |
+| 2 | 8 | 8 | Punct de intalnire: puterea, resursele si responsabilitatea sunt teme comune. |
+| 3 | 0 | 2 | Punct de rascruce: destinul cere relatie, sensibilitate si cooperare acolo unde soarta poate ramane goala sau pasiva. |
+| 4 | 0 | 0 | Punct comun de lucru: structura practica trebuie construita constient. |
+| 5 | 1 | 1 | Punct de intalnire: initiativa personala ramane fir comun. |
+| 6 | 9 | 7 | Punct de rascruce: soarta duce spre intensitate mentala si sens larg, iar destinul cere analiza, discernamant si interiorizare. |
+| 7 | 6 | 6 | Punct de intalnire: finalul graficului cere responsabilitate, armonie si grija fata de forma concreta a vietii. |
+
+Index: BDR-19980219-v1r-P-132a
+Cele doua linii sunt foarte apropiate si au aceeasi zona de confort, 3,86. Asta arata ca drumul primit si directia de implinire nu sunt in conflict major, dar exista doua puncte de lucru clare: pozitia 3, unde destinul cere activarea relatiei si a sensibilitatii, si pozitia 6, unde intensitatea lui 9 trebuie rafinata prin analiza si discernamantul lui 7.
 
 Index: BDR-19980219-v1r-SUB-037
 ### 1.7. Relatii

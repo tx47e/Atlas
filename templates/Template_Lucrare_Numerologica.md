@@ -80,9 +80,16 @@ Vezi: Datele de intrare
   un index temporar pentru feedback si urmarire.
 - Indexul este doar pentru revizie; versiunea finala livrata clientului nu
   trebuie sa contina indexi vizibili.
-- Denumirea fisierelor foloseste forma `v{numar}{stare}`: de exemplu `v1r`
-  pentru versiunea 1 in revizie si `v1f` pentru versiunea 1 finala. Pentru
-  versiuni urmatoare se folosesc `v2r`, `v2f`, `v3r`, `v3f`.
+- Denumirea fisierelor foloseste forma `v{versiune}{stare}`: de exemplu
+  `v1.00r` pentru versiunea 1.00 in revizie si `v1.00f` pentru versiunea 1.00
+  finala. Pentru versiuni urmatoare se folosesc `v1.01r`, `v1.02r`,
+  `v2.00r` sau echivalentele finale cu sufix `f`.
+- La fiecare modificare facuta intr-o lucrare existenta se ridica versiunea.
+  Schimbarile de capitole sau structura majora ridica versiunea principala
+  (`v1.00` -> `v2.00`), iar schimbarile de paragrafe, calcule, tabele,
+  grafice, SVG-uri sau completari locale ridica versiunea minora
+  (`v1.00` -> `v1.01`). Pentru mai multe schimbari locale intr-o singura
+  interventie, incrementul minor poate fi mai mare de `0.01`.
 - Format recomandat:
 
 ```text

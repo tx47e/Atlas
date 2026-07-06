@@ -27,10 +27,17 @@ Nota de folosire:
   element sa poata fi urmarit usor in feedback. Indexii se folosesc doar in
   lucrarea care mai trebuie revizuita; dupa finalizarea reviziei, versiunea
   finala se livreaza fara indexi vizibili.
-- Denumirea fisierelor de lucrare foloseste forma `v{numar}{stare}`:
-  `v1r`, `v2r`, `v3r` pentru revizii si `v1f`, `v2f`, `v3f` pentru variante
-  finale. Litera `v` indica versiunea, numarul indica numarul versiunii, iar
-  `r` inseamna revizie si `f` inseamna final.
+- Denumirea fisierelor de lucrare foloseste forma `v{versiune}{stare}`:
+  `v1.00r`, `v1.01r`, `v2.00r` pentru revizii si `v1.00f`, `v1.01f`,
+  `v2.00f` pentru variante finale. Litera `v` indica versiunea, numarul indica
+  numarul versiunii, iar `r` inseamna revizie si `f` inseamna final.
+- La fiecare modificare facuta intr-o lucrare existenta, versiunea se ridica
+  inainte de livrare. Schimbarile majore de capitole, structura sau
+  reorganizare ampla ridica versiunea principala: `v1.00` -> `v2.00`.
+  Schimbarile de paragrafe, calcule, tabele, grafice, SVG-uri sau completari
+  locale ridica versiunea minora: `v1.00` -> `v1.01`, `v1.01` -> `v1.02`.
+  Mai multe modificari locale intr-o singura interventie pot ridica versiunea
+  cu mai mult de `0.01`, proportional cu volumul modificarilor.
 - Pentru rubrica Fixatia, se foloseste documentul de metoda:
   `vault/Numerologie/Fixatia.md`.
 
@@ -47,10 +54,10 @@ Format recomandat:
 Exemplu:
 
 ```text
-BDR-19980219-v1r-CAP-001
-BDR-19980219-v1r-P-001
-BDR-19980219-v1r-T-001
-BDR-19980219-v1r-C-001
+BDR-19980219-v1.01r-CAP-001
+BDR-19980219-v1.01r-P-001
+BDR-19980219-v1.01r-T-001
+BDR-19980219-v1.01r-C-001
 ```
 
 Tipuri de element:
@@ -76,7 +83,7 @@ Reguli de folosire:
   `<figure>`, `<img>` sau alte fragmente HTML in varianta `.md`.
 
 ```html
-<div class="index index-heading">Index: BDR-19980219-v1r-CAP-001</div>
+<div class="index index-heading">Index: BDR-19980219-v1.01r-CAP-001</div>
 <h2>Titlu capitol</h2>
 ```
 
@@ -84,7 +91,7 @@ Reguli de folosire:
   imediat inaintea elementului:
 
 ```html
-<div class="index">Index: BDR-19980219-v1r-P-001</div>
+<div class="index">Index: BDR-19980219-v1.01r-P-001</div>
 <p>Textul paragrafului...</p>
 ```
 
