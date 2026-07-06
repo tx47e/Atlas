@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 11
@@ -18,6 +18,8 @@ tags:
 # 11-Dreptatea
 
 ## Descriere Generala
+
+![[imagini/11-Justice.jpg]]
 
 ### Esenta
 - Dreptatea este arhetipul echilibrului, adevarului si consecintelor. Ea cantareste faptele, intentiile si responsabilitatea, fara dramatism si fara indulgenta falsa. In lumina, aduce claritate, corectitudine si reparatie; in umbra, poate arata nedreptate, negare sau judecata rigida.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 2]]
+- Vibratia 2 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[10-Roata Norocului]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[12-Spanzuratul]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 2]]
-
-### Arcane asociate
-- [[10-Roata Norocului]]
-- [[12-Spanzuratul]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

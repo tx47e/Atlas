@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 19
@@ -18,6 +18,8 @@ tags:
 # 19-Soarele
 
 ## Descriere Generala
+
+![[imagini/19-The Sun.jpg]]
 
 ### Esenta
 - Soarele este arhetipul vitalitatii, bucuriei si claritatii. El aduce lucrurile la lumina, incalzeste, confirma si permite exprimarea fara masca. In lumina, vorbeste despre succes, incredere si viata asumata; in umbra, poate deveni orgoliu, expunere excesiva sau naivitate.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 1]]
+- Vibratia 1 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[18-Luna]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[20-Judecata]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 1]]
-
-### Arcane asociate
-- [[18-Luna]]
-- [[20-Judecata]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

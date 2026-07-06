@@ -29,7 +29,7 @@ lung si de a organiza pasi concreti pentru o miza mai mare. Maturitatea apare ca
 presiunea viziunii nu paralizeaza, ci este impartita in structuri, etape si
 colaborari sustenabile.
 
-La nivel interior, vibratia 22 amplifica temele lui [[Vibratia 4]]: disciplina,
+La nivel interior, vibratia 22 amplifica temele lui Vibratia 4: disciplina,
 structura, responsabilitate si constructie. Diferenta este scara. 4 construieste
 temelia apropiata; 22 vede sistemul, comunitatea, institutia, metoda sau lucrarea
 care poate sustine mai multi oameni si poate ramane dupa efortul initial.
@@ -196,4 +196,4 @@ realist.
 ---
 ## Tarot
 
-Numar maestru: se citeste impreuna cu [[4-Imparatul|Arcana 4 - Imparatul - "The Emperor"]] si cu dinamica lui [[Vibratia 4]].
+Numar maestru: se citeste impreuna cu Arcana 4 - Imparatul - "The Emperor", care se poate gasi in [[tarot/Index|tarot]], si cu dinamica lui Vibratia 4.

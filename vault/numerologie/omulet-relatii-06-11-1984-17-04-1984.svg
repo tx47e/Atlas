@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
+  <title>Omuletul relatiilor - 06.11.1984 si 17.04.1984</title>
+  <desc>Diagrama tip omul lui Da Vinci cu patrat, cerc si pentagrama pentru doua persoane.</desc>
+  <defs>
+    <style>
+      .frame { fill: none; stroke: #df8200; stroke-width: 7; }
+      .star { fill: none; stroke: #3f3f3f; stroke-width: 6; stroke-linejoin: round; stroke-linecap: round; }
+      .vbody { fill: none; stroke: #666; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; opacity: 0.34; }
+      .vthin { fill: none; stroke: #555; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; opacity: 0.24; }
+      .blue { fill: #0070c9; }
+      .pink { fill: #ff00b8; }
+      .dark { fill: #333; }
+      .grey { fill: #c8c8c8; opacity: 0.86; }
+      .num { font-family: Arial, Helvetica, sans-serif; font-size: 36px; font-weight: 800; }
+      .midnum { font-family: Arial, Helvetica, sans-serif; font-size: 38px; font-weight: 800; }
+      .hand { font-family: "Comic Sans MS", "Segoe Print", cursive; font-size: 44px; font-weight: 400; }
+      .word { font-family: Arial, Helvetica, sans-serif; font-size: 37px; font-weight: 800; letter-spacing: 0; }
+      .legend { font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 800; }
+      .legend-small { font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 800; fill: #4f4f4f; }
+    </style>
+  </defs>
+
+  <rect width="900" height="720" fill="#fff"/>
+
+  <!-- Legends -->
+  <text class="legend blue" x="18" y="26">Persoana A: 06.11.1984</text>
+  <text class="legend pink" x="18" y="51">Persoana B: 17.04.1984</text>
+  <text class="legend-small" x="520" y="26">Realizare impreuna: 6 + 8 = 14 -> 5</text>
+  <text class="legend-small" x="520" y="51">De rezolvat impreuna: |6 - 8| = 2</text>
+
+  <!-- Vitruvian man, pale background -->
+  <g transform="translate(0,4)">
+    <circle class="vbody" cx="366" cy="203" r="34"/>
+    <path class="vbody" d="M366 236 C357 294 357 392 366 516 C375 392 375 294 366 236"/>
+    <path class="vbody" d="M319 305 C344 282 388 282 413 305"/>
+    <path class="vbody" d="M322 316 C304 390 314 470 344 576"/>
+    <path class="vbody" d="M410 316 C428 390 418 470 388 576"/>
+    <path class="vbody" d="M366 515 C328 575 286 632 252 650"/>
+    <path class="vbody" d="M366 515 C404 575 446 632 480 650"/>
+    <path class="vbody" d="M356 515 C344 590 338 622 333 650"/>
+    <path class="vbody" d="M376 515 C388 590 394 622 399 650"/>
+    <path class="vbody" d="M322 316 C250 240 188 202 132 188"/>
+    <path class="vbody" d="M410 316 C482 240 544 202 600 188"/>
+    <path class="vbody" d="M322 318 C230 312 140 302 58 288"/>
+    <path class="vbody" d="M410 318 C502 312 592 302 674 288"/>
+    <path class="vthin" d="M331 236 C348 251 384 251 401 236"/>
+    <path class="vthin" d="M324 391 C346 405 386 405 408 391"/>
+    <path class="vthin" d="M329 449 C350 462 382 462 403 449"/>
+    <path class="vthin" d="M336 500 C354 512 378 512 396 500"/>
+  </g>
+
+  <!-- Orange circle and square -->
+  <circle class="frame" cx="367" cy="354" r="250"/>
+  <rect class="frame" x="158" y="190" width="424" height="420"/>
+
+  <!-- Time labels -->
+  <text class="word grey" x="283" y="170">PREZENT</text>
+  <text class="word grey" x="100" y="321">TRECUT</text>
+  <text class="word grey" x="502" y="321">VIITOR</text>
+
+  <!-- Pentagram -->
+  <polyline class="star" points="366,79 203,582 630,272 103,272 531,582 366,79"/>
+
+  <!-- Numbers: blue = 06.11.1984, pink = 17.04.1984 -->
+  <text class="num blue" x="309" y="60">1111</text>
+  <text class="num dark" x="398" y="60">/</text>
+  <text class="num pink" x="430" y="60">11</text>
+
+  <text class="num pink" x="428" y="243">2</text>
+
+  <text class="num blue" x="585" y="285">33</text>
+  <text class="num dark" x="638" y="285">/</text>
+  <text class="num pink" x="664" y="285">33</text>
+
+  <text class="midnum pink" x="357" y="448">6</text>
+
+  <text class="hand blue" x="486" y="410">4</text>
+
+  <text class="num pink" x="536" y="605">5</text>
+
+  <text class="num pink" x="344" y="591">77</text>
+
+  <text class="hand blue" x="208" y="410">8</text>
+
+  <text class="num blue" x="23" y="286">99</text>
+  <text class="num dark" x="80" y="286">/</text>
+  <text class="num pink" x="109" y="286">9</text>
+</svg>

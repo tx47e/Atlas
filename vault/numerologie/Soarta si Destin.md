@@ -13,7 +13,7 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Soarta si Destin]] compara doua linii ale vietii:
+Soarta si Destin compara doua linii ale vietii:
 
 - soarta, adica linia de conditionare, cadrul primit si drumul initial;
 - destinul, adica directia de implinire si varianta de urcat catre potential.
@@ -21,39 +21,6 @@ depinde de: Datele de intrare
 Cele doua rezultate nu se reduc la o singura cifra. Ele se pastreaza ca numere grafice de 7 cifre si se citesc impreuna prin zona de confort, puncte de intalnire, puncte de rascruce si ritmuri de 10 sau 12 ani.
 
 Interpretarea comparativa dintre cele doua linii poate fi numita si tema vietii, atunci cand accentul cade pe concluzia de sinteza.
-
----
-## Ce indica
-
-- Cadrul primit si conditionarile initiale.
-- Directia de implinire si potentialul de urcat.
-- Zona de confort a sortii si a destinului.
-- Diferentele dintre drumul familiar si drumul de crestere.
-- Punctele de intalnire si rascruce.
-- Tema vietii ca sinteza comparativa.
-
----
-## Rol in analiza
-
-[[Soarta si Destin]] se foloseste pentru a compara ce primeste omul cu ce are de construit constient.
-
-In analiza, ajuta la:
-
-- diferentierea dintre cadru si potential;
-- observarea perioadelor de confort, presiune sau crestere;
-- identificarea momentelor de alegere;
-- corelarea cu [[Calea Destinului]], [[Vibratia Destinului]], [[Lectii de Viata]] si [[Pinacluri - Oportunitati si Provocari]];
-- formularea unei teme de viata clare in [[Concluzii]].
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se folosesc:
-
-- ziua nasterii;
-- luna nasterii;
-- anul nasterii;
-- alegerea ciclului grafic de 10 sau 12 ani, daca se face reprezentare vizuala.
 
 ---
 ## Formula de calcul
@@ -95,10 +62,12 @@ Pasi:
 2. Se scrie luna cu doua cifre.
 3. Se unesc ziua si luna in blocul `ZZLL`.
 4. Se scrie anul nasterii in forma `AAAA`.
-5. In `ZZLL` si `AAAA`, fiecare 0 se inlocuieste cu 1.
-6. Se inmulteste blocul `ZZLL` ajustat cu anul ajustat.
-7. Daca rezultatul are mai putin de 7 cifre, se completeaza cu zerouri in fata.
-8. Numarul de 7 cifre se foloseste pentru graficul destinului.
+5. Se verifica daca `ZZLL` si `AAAA` contin cifra 0.
+6. Daca nu exista niciun 0, destinul grafic este egal cu soarta si nu se mai recalculeaza separat.
+7. Daca exista 0, in `ZZLL` si `AAAA`, fiecare 0 se inlocuieste cu 1.
+8. Se inmulteste blocul `ZZLL` ajustat cu anul ajustat.
+9. Daca rezultatul are mai putin de 7 cifre, se completeaza cu zerouri in fata.
+10. Numarul de 7 cifre se foloseste pentru graficul destinului.
 
 ### Zona de confort
 
@@ -117,7 +86,7 @@ Interpretare:
 ---
 ## Interpretare generala
 
-[[Soarta si Destin]] se citeste prin comparatie:
+Soarta si Destin se citeste prin comparatie:
 
 - unde liniile sunt apropiate;
 - unde se indeparteaza;
@@ -197,30 +166,6 @@ Calcul destin:
 ```
 
 Rezultatul destinului are deja 7 cifre.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Contribuie la
-
-- [[Concluzii]]
-- [[Cod Numerologic Personal]]
-
-### Complementar cu
-
-- [[Vibratia Destinului]]
-- [[Calea Destinului]]
-- [[Lectii de Viata]]
-- [[Pinacluri - Oportunitati si Provocari]]
-
-### Poate influenta
-
-- [[Aspecte de Indreptat]]
-- [[Aplicabilitate Profesionala]]
 
 ---
 ## Observatii

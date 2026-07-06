@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 9
@@ -18,6 +18,8 @@ tags:
 # 9-Ermitul
 
 ## Descriere Generala
+
+![[imagini/09-The Hermit.jpg]]
 
 ### Esenta
 - Ermitul este arhetipul cautatorului interior, al retragerii necesare pentru a gasi adevarul propriu. El lumineaza doar urmatorul pas, nu intregul drum, si cere rabdare cu procesul de maturizare. In lumina, aduce intelepciune si discernamant; in umbra, poate deveni izolare, raceala sau evitare a vietii.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 9]]
+- Vibratia 9 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,35 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[8-Puterea]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[10-Roata Norocului]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 9]]
-
-### Arcane asociate
-- [[8-Puterea]]
-- [[10-Roata Norocului]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.

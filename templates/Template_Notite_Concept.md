@@ -3,44 +3,14 @@ titlu:
 tip: concept
 tags:
   - numerologie
-Data: 2026-06-16
+Data:
 depinde de:
 ---
 
 ## Descriere
 
-## Rol in analiza
+## Cuprins
 
-## Date necesare
-
-## Formula de calcul
-
-## Interpretare
-
-### 1
-### 2
-### 3
-### 4
-### 5
-### 6
-### 7
-### 8
-### 9
-
-
-## Exemplu de calcul
-
-
-## Relatii cu alte concepte
-
-### Depinde de
-
-### Contribuie la
-
-### Complementar cu
-
-### Poate influenta
-
-## Observatii
+- [[Link catre capitol]]
 
 ## Utilizare in lucrare

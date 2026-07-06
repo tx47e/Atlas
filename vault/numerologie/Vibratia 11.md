@@ -31,7 +31,7 @@ de a simti atmosfera unei situatii si in nevoia de a da sens unor experiente gre
 de explicat logic. Maturitatea apare cand intensitatea este filtrata prin calm,
 discernamant si contact cu realitatea.
 
-La nivel interior, vibratia 11 amplifica tot ce tine de [[Vibratia 2]]: sensibilitate,
+La nivel interior, vibratia 11 amplifica tot ce tine de Vibratia 2: sensibilitate,
 relatie, intuitie si receptivitate. Diferenta este intensitatea. Acolo unde 2
 simte atmosfera, 11 poate simti si directia subtila a atmosferei. Acolo unde 2
 mediaza, 11 poate inspira, trezi sau formula un mesaj care schimba perspectiva.
@@ -200,4 +200,4 @@ nu sursa de panica.
 ---
 ## Tarot
 
-Vibratia 11 este asociata cu [[11-Dreptatea|Arcana 11 - Dreptatea - "Justice"]]. Redus la o singura cifra este asociata cu [[Vibratia 2]] care corespunde cu [[2-Marea Preoteasa|Arcana 2 - Marea Preoteasa - "The High Priestess"]]
+Vibratia 11 este asociata cu Arcana 11 - Dreptatea - "Justice", care se poate gasi in [[tarot/Index|tarot]]. Redusa la o singura cifra, este asociata cu Vibratia 2, care corespunde cu Arcana 2 - Marea Preoteasa - "The High Priestess".

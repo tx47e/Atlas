@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 20
@@ -18,6 +18,8 @@ tags:
 # 20-Judecata
 
 ## Descriere Generala
+
+![[imagini/20-Judgenmet.jpg]]
 
 ### Esenta
 - Judecata este arhetipul chemarii, al trezirii si al bilantului profund. Ea ridica trecutul la suprafata nu pentru condamnare, ci pentru intelegere, iertare si decizie. In lumina, aduce renastere si raspuns la vocatie; in umbra, vina, amanare sau refuzul responsabilitatii.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 2]]
+- Vibratia 2 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[19-Soarele]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[21-Lumea]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 2]]
-
-### Arcane asociate
-- [[19-Soarele]]
-- [[21-Lumea]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

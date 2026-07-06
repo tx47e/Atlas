@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 4
@@ -18,6 +18,8 @@ tags:
 # 4-Imparatul
 
 ## Descriere Generala
+
+![[imagini/04-The Emperor.jpg]]
 
 ### Esenta
 - Imparatul este arhetipul structurii, autoritatii si responsabilitatii asumate. El stabileste limite, construieste reguli si transforma impulsul in ordine functionala. In lumina, ofera stabilitate, protectie si strategie; in umbra, poate deveni rigiditate, dominare sau frica de vulnerabilitate.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 4]]
+- Vibratia 4 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[3-Imparateasa]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[5-Marele Preot]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 4]]
-
-### Arcane asociate
-- [[3-Imparateasa]]
-- [[5-Marele Preot]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

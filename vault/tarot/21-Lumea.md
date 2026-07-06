@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 21
@@ -18,6 +18,8 @@ tags:
 # 21-Lumea
 
 ## Descriere Generala
+
+![[imagini/21-The World.jpg]]
 
 ### Esenta
 - Lumea este arhetipul implinirii, integrarii si finalizarii unui ciclu initiatic. Ea arata momentul in care lectiile separate se unesc intr-o intelegere vie. In lumina, aduce maiestrie, apartenenta si incununare; in umbra, poate indica un ciclu neincheiat sau dificultatea de a trece la etapa urmatoare.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 3]]
+- Vibratia 3 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[20-Judecata]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[0-Nebunul]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 3]]
-
-### Arcane asociate
-- [[20-Judecata]]
-- [[0-Nebunul]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

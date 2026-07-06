@@ -1,4 +1,4 @@
-﻿---
+---
 titlu: Karma din ziua nasterii
 tip: concept
 tags:
@@ -12,27 +12,9 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Karma din Ziua Nasterii|Karma din ziua nasterii]] arata programul karmic indicat de ziua calendaristica a nasterii. Ziua nu se reduce la 1-9, ci se pastreaza ca valoare intre 1 si 31.
+Karma din ziua nasterii arata programul karmic indicat de ziua calendaristica a nasterii. Ziua nu se reduce la 1-9, ci se pastreaza ca valoare intre 1 si 31.
 
-Interpretarea se face prin [[0-Nebunul|Arcanele Majore]] si prin trecerea de la polaritatea negativa la solutia sau calitatea care trebuie dezvoltata.
-
----
-## Ce indica
-
-- Tema karmica a zilei de nastere.
-- Gradul general in care sarcinile karmice sunt implinite.
-- Arcana karmica asociata zilei.
-- Cheia de lucru pentru corectare si maturizare.
-
----
-## Rol in analiza
-
-Se foloseste ca strat karmic personal, impreuna cu [[Karma din Luna Nasterii]] si [[Karma din Calea Destinului]]. Nu inlocuieste [[Vibratie Interioara]], chiar daca ambele pornesc de la ziua nasterii.
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se preia ziua nasterii.
+Interpretarea se face prin [[tarot/Index|Arcanele Majore]] si prin trecerea de la polaritatea negativa la solutia sau calitatea care trebuie dezvoltata.
 
 ---
 ## Formula de calcul
@@ -46,7 +28,7 @@ karma_zilei_de_nastere = ziua nasterii
 | Zi | Arcana karmica |
 | --- | --- |
 | 1-21 | Arcana 1-21 |
-| 22 | [[0-Nebunul|Arcana 0 - Nebunul]] |
+| 22 | Arcana 0 - Nebunul |
 | 23 | [[1-Magicianul|Arcana 1 - Magicianul]] |
 | 24 | [[2-Marea Preoteasa|Arcana 2 - Marea Preoteasa]] |
 | 25 | [[3-Imparateasa|Arcana 3 - Imparateasa]] |
@@ -92,7 +74,7 @@ karma_zilei_de_nastere = ziua nasterii
 | 19 | 19 | [[19-Soarele|Soarele]] | inspiratie, libertate, putere responsabila |
 | 20 | 20 | [[20-Judecata|Judecata]] | apararea neamului, culturii si traditiei |
 | 21 | 21 | [[21-Lumea|Lumea]] | apararea patriei si valorilor nationale |
-| 22 | 22 | [[0-Nebunul|Nebunul]] | libertate, relatia cu copiii, incredere in drum |
+| 22 | 22 | Nebunul | libertate, relatia cu copiii, incredere in drum |
 
 ---
 ## Exemplu de calcul
@@ -118,25 +100,8 @@ karma implinita = spre 80%
 Citire scurta: tema karmica este transformarea, eliberarea, renasterea si deschiderea unor drumuri noi.
 
 ---
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Complementar cu
-
-- [[Karma din Luna Nasterii]]
-- [[Karma din Calea Destinului]]
-- [[Vibratie Interioara]]
-
-### Contribuie la
-
-- [[Concluzii]]
-
----
 ## Observatii
 
 - Ziua nu se reduce numerologic la 1-9.
 - Zilele 23-31 reiau arcanele 1-9.
-- Pentru ziua 22 se foloseste [[0-Nebunul|Arcana 0 - Nebunul]].
+- Pentru ziua 22 se foloseste Arcana 0 - Nebunul. Se poate continua din [[tarot/Index|tarot]].

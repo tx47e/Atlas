@@ -12,38 +12,11 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Vibratie Cosmica Fixa|Vibratia cosmica fixa]] este componenta constanta a [[Vibratie Cosmica Totala|vibratiei cosmice]]. Ea se calculeaza din primele doua cifre ale anului nasterii si descrie fundalul subtil, generational si greu de schimbat al persoanei.
+Vibratia cosmica fixa este componenta constanta a [[Vibratie Cosmica Totala|vibratiei cosmice]]. Ea se calculeaza din primele doua cifre ale anului nasterii si descrie fundalul subtil, generational si greu de schimbat al persoanei.
 
-In acest proiect, [[Vibratie Cosmica Fixa|vibratia cosmica fixa]] nu se reduce automat la 1-9. Ea se pastreaza ca valoare de context, deoarece rolul ei este sa arate planul stabil din care se naste experienta persoanei.
+In acest proiect, vibratia cosmica fixa nu se reduce automat la 1-9. Ea se pastreaza ca valoare de context, deoarece rolul ei este sa arate planul stabil din care se naste experienta persoanei.
 
 Pentru anii 1900, componenta fixa este 19. Pentru anii 2000, componenta fixa este 20. Aceasta diferenta poate fi citita ca schimbare de fundal colectiv, nu ca trasatura individuala izolata.
-
----
-## Ce indica
-
-- Fundalul subtil al anului nasterii.
-- Contextul generational.
-- Dimensiunea constanta a [[Vibratie Cosmica Totala|vibratiei cosmice]].
-- Planul profund pe care se sprijina [[Vibratie Cosmica Variabila|vibratia cosmica variabila]].
-- O informatie de fundal pentru [[Vibratia Destinului]] si [[Concluzii]].
-
----
-## Rol in analiza
-
-[[Vibratie Cosmica Fixa|Vibratia cosmica fixa]] se foloseste ca strat de context. Ea nu descrie reactia de zi cu zi a persoanei, ci fundalul larg in care se manifesta viata ei.
-
-In analiza, ajuta la:
-
-- separarea influentei generatiei de influenta personala;
-- intelegerea diferentei dintre planul stabil si planul activ al anului nasterii;
-- nuantarea [[Vibratie Cosmica Totala|vibratiei cosmice totale]];
-- compararea persoanelor nascute in secole sau perioade diferite;
-- evidentierea nasterii la granita dintre doua secole, unde [[Vibratie Cosmica Fixa|vibratia cosmica fixa]] poate arata o schimbare de perspectiva sau de fundal generational.
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se preia anul nasterii.
 
 ---
 ## Formula de calcul
@@ -78,22 +51,22 @@ componenta fixa a anului.
 
 ### Regula numere maestre
 
-[[Vibratie Cosmica Fixa|Vibratia cosmica fixa]] nu foloseste regula de reducere pentru numere maestre in calculul standard. Daca valoarea fixa ar fi analizata simbolic, ea poate fi descompusa separat, dar rezultatul operational ramane primele doua cifre ale anului.
+Vibratia cosmica fixa nu foloseste regula de reducere pentru numere maestre in calculul standard. Daca valoarea fixa ar fi analizata simbolic, ea poate fi descompusa separat, dar rezultatul operational ramane primele doua cifre ale anului.
 
 ---
 ## Interpretare generala
 
-[[Vibratie Cosmica Fixa|Vibratia cosmica fixa]] raspunde la intrebarea: din ce fundal subtil si colectiv vine persoana?
+Vibratia cosmica fixa raspunde la intrebarea: din ce fundal subtil si colectiv vine persoana?
 
 In interpretarea generala se include si traseul de extragere al componentei
 fixe. Pentru ca aceasta rubrica nu foloseste reducerea standard, se explica
 felul in care primele doua cifre ale anului compun fundalul colectiv si,
 optional, cum se poate citi simbolic descompunerea lor.
 
-- 19 poate fi citit ca fundal in care [[Vibratia 1|1]] si [[Vibratia 9|9]] lucreaza impreuna: initiativa, individualizare, incheiere de ciclu si lectii de maturizare.
-- 20 poate fi citit ca fundal in care [[Vibratia 2|2]] si [[Vibratia 0|0]] lucreaza impreuna: relationare, sensibilitate, potential si spatiu de formare.
+- 19 poate fi citit ca fundal in care Vibratia 1 si Vibratia 9 lucreaza impreuna: initiativa, individualizare, incheiere de ciclu si lectii de maturizare.
+- 20 poate fi citit ca fundal in care Vibratia 2 si Vibratia 0 lucreaza impreuna: relationare, sensibilitate, potential si spatiu de formare.
 
-Interpretarea trebuie pastrata prudenta. [[Vibratie Cosmica Fixa|Vibratia cosmica fixa]] este un fundal, nu verdictul personal principal.
+Interpretarea trebuie pastrata prudenta. Vibratia cosmica fixa este un fundal, nu verdictul personal principal.
 
 ---
 ## Exemplu de calcul
@@ -113,11 +86,11 @@ Calcul:
 
 Rezultat:
 
-- [[Vibratie Cosmica Fixa|Vibratie cosmica fixa]]: 19.
+- Vibratie cosmica fixa: 19.
 
 Interpretare scurta:
 
-Valoarea 19 arata un fundal generational in care initiativa lui [[Vibratia 1|1]] se intalneste cu finalizarea, experienta si viziunea lui [[Vibratia 9|9]].
+Valoarea 19 arata un fundal generational in care initiativa lui Vibratia 1 se intalneste cu finalizarea, experienta si viziunea lui Vibratia 9.
 
 ### Exemplu 2
 
@@ -134,34 +107,11 @@ Calcul:
 
 Rezultat:
 
-- [[Vibratie Cosmica Fixa|Vibratie cosmica fixa]]: 20.
+- Vibratie cosmica fixa: 20.
 
 Interpretare scurta:
 
-Valoarea 20 arata un fundal in care [[Vibratia 2|2]] este insotita de [[Vibratia 0|0]], sugerand sensibilitate relationala, potential si un camp de formare mai deschis.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Contribuie la
-
-- [[Vibratie Cosmica Totala]]
-- [[Concluzii]]
-
-### Complementar cu
-
-- [[Vibratie Cosmica Variabila]]
-- [[Vibratie Interioara]]
-- [[Vibratie Exterioara]]
-
-### Poate influenta
-
-- [[Vibratia Destinului]]
-- [[Cod Numerologic Personal]]
+Valoarea 20 arata un fundal in care Vibratia 2 este insotita de Vibratia 0, sugerand sensibilitate relationala, potential si un camp de formare mai deschis.
 
 ---
 ## Observatii

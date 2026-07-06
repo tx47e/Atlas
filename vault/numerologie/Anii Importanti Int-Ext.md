@@ -4,6 +4,11 @@ tip: concept
 tags:
   - numerologie
   - aniimportanti
+  - "#aniiinteriori"
+  - aniiexteriori
+  - interior
+  - exterior
+  - cicluri
 Data: 2026-06-17
 depinde de: Datele de intrare
 ---
@@ -11,17 +16,12 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Anii Importanti Int-Ext|Anii importanti interiori si exteriori]] marcheaza doua tipuri de praguri:
+Anii importanti interiori si exteriori marcheaza doua tipuri de praguri:
 
 - ani importanti interiori, in care schimbarea porneste mai ales din interior;
 - ani importanti exteriori, in care schimbarea vine mai ales prin contexte, oameni, evenimente sau roluri vizibile.
 
 Aceste calcule nu promit evenimente obligatorii. Ele arata ani in care poate creste presiunea de maturizare, clarificare, reactie sau adaptare.
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se foloseste anul nasterii.
 
 ---
 ## Formula de calcul
@@ -69,6 +69,49 @@ Acesti ani pot marca:
 - relatii si contexte care cer raspuns concret;
 - reorganizarea rolului personal in lume.
 
+### Tabelul rezultat
+
+In lucrare, dupa explicarea celor doua siruri, se introduce un subcapitol numit
+`Tabelul rezultat`.
+
+Inainte de construirea tabelului se stabileste `Intervalul analizat`. Daca
+persoana are un punct de interes, o intrebare concreta sau o perioada de viata
+pe care doreste sa o inteleaga, se cere intervalul pentru care sa fie facuta
+analiza anilor importanti interiori si exteriori.
+
+Daca persoana nu indica un interval, se foloseste intervalul implicit format din
+cinci ani inainte de anul curent si zece ani dupa anul curent:
+
+```text
+interval = anul_curent - 5 pana la anul_curent + 10
+```
+
+Pentru fiecare an din interval se verifica daca anul apare in sirul anilor
+importanti interiori, in sirul anilor importanti exteriori sau in ambele.
+
+Structura tabelului:
+
+| An | Interior | Exterior | Descriere / interpretare |
+| --- | --- | --- | --- |
+| anul analizat | Da / - | Da / - | interpretare scurta / - |
+
+Reguli de completare:
+
+- in coloana `Interior` se marcheaza `Da` cand anul apare in sirul interior;
+- in coloana `Exterior` se marcheaza `Da` cand anul apare in sirul exterior;
+- daca anul apare in ambele siruri, se marcheaza `Da` in ambele coloane;
+- daca anul nu apare in niciun sir, se lasa `-` in cele doua coloane si se
+  trece `-` si in coloana `Descriere / interpretare`;
+- descrierea trebuie sa fie scurta, clara si aplicata, fara ton predictiv;
+- interpretarea se scrie doar pentru anii cu influenta interioara, exterioara
+  sau dubla;
+- pentru anii interiori, descrierea accentueaza clarificarea, maturizarea,
+  decizia sau schimbarea de valori;
+- pentru anii exteriori, descrierea accentueaza evenimentele vizibile,
+  contexte, roluri, presiuni sau raspunsuri concrete;
+- pentru anii cu dubla influenta, descrierea arata suprapunerea dintre procesul
+  interior si raspunsul exterior.
+
 ---
 ## Exemplu de calcul
 
@@ -114,19 +157,44 @@ Ani importanti exteriori:
 - 2021;
 - 2026.
 
----
-## Relatii cu alte concepte
+### Exemplu tabel rezultat
 
-### Complementar cu
+Presupunand ca anul curent este `2026`, intervalul analizat este:
 
-- [[Lectii de Viata]]
-- [[Ciclul de 9 Ani]]
-- [[Pinacluri - Oportunitati si Provocari]]
-- [[Soarta si Destin]]
+```text
+2026 - 5 = 2021
+2026 + 10 = 2036
+```
 
-### Contribuie la
+Pentru anul nasterii `1988`, se continua secventele pana la finalul intervalului:
 
-- [[Concluzii]]
+```text
+Ani importanti interiori in interval: 2023, 2030, 2035, 2036
+Ani importanti exteriori in interval: 2021, 2026, 2036
+```
+
+Tabelul rezultat:
+
+Interval analizat: `2021-2036`
+
+| An | Interior | Exterior | Descriere / interpretare |
+| --- | --- | --- | --- |
+| 2021 | - | Da | An de raspuns exterior, cu posibile contexte vizibile care cer adaptare. |
+| 2022 | - | - | - |
+| 2023 | Da | - | An de clarificare interioara, cu reevaluari si decizii personale. |
+| 2024 | - | - | - |
+| 2025 | - | - | - |
+| 2026 | - | Da | An de solicitare exterioara, cu schimbari sau roluri care cer raspuns concret. |
+| 2027 | - | - | - |
+| 2028 | - | - | - |
+| 2029 | - | - | - |
+| 2030 | Da | - | An de maturizare interioara si schimbare de perspectiva. |
+| 2031 | - | - | - |
+| 2032 | - | - | - |
+| 2033 | - | - | - |
+| 2034 | - | - | - |
+| 2035 | Da | - | An de decizie interioara, integrare si reasezare personala. |
+| 2036 | Da | Da | An cu dubla influenta: proces interior puternic si solicitare exterioara vizibila. |
 
 ---
 ## Observatii
@@ -134,6 +202,9 @@ Ani importanti exteriori:
 - Calculul foloseste anul nasterii ca punct de pornire.
 - Fiecare an obtinut devine baza pasului urmator.
 - Pentru un interval analizat, se calculeaza secventa completa si se pastreaza doar anii care intra in interval.
+- In lucrare, se mentioneaza explicit intervalul analizat inaintea tabelului rezultat.
+- Daca exista o intrebare personala sau un punct de interes, intervalul se cere si se adapteaza acelei teme.
+- Daca nu exista un interval indicat, se foloseste intervalul implicit de la cinci ani inainte de anul curent pana la zece ani dupa anul curent.
 - Anii interiori folosesc reducerea numerologica a anului.
 - Anii exteriori folosesc suma cifrelor anului fara reducere.
 - Interpretarea trebuie formulata ca potential, nu ca predictie fixa.
@@ -141,4 +212,11 @@ Ani importanti exteriori:
 ---
 ## Utilizare in lucrare
 
-Se foloseste in sectiunea de cicluri si etape de viata, pentru a distinge intre ani de maturizare interioara si ani in care contextul exterior cere raspuns concret.
+Se foloseste in sectiunea de cicluri si etape de viata, pentru a distinge intre
+ani de maturizare interioara si ani in care contextul exterior cere raspuns
+concret.
+
+In lucrare se introduce explicit intervalul analizat. Daca persoana are un punct
+de interes, se cere perioada pentru care doreste analiza; daca nu, se foloseste
+intervalul implicit de cinci ani inainte de anul curent si zece ani dupa anul
+curent.

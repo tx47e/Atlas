@@ -1,0 +1,9 @@
+id: agentul-001
+display_name: "agentul 001"
+description: "Primul agent local pentru generarea si adaptarea SVG-urilor numerologice."
+skills:
+  - numerologie-SVG-omuletul-relatiilor
+  - numerologie-SVG-patratul-de-aur
+  - numerologie-SVG-semnatura-astrala
+  - numerologie-SVG-septagrama
+  - numerologie-SVG-triunghiul-financiar

@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 3
@@ -18,6 +18,8 @@ tags:
 # 3-Imparateasa
 
 ## Descriere Generala
+
+![[imagini/03-The Empress.jpg]]
 
 ### Esenta
 - Imparateasa este arhetipul fertilitatii, al creativitatii si al abundentei traite prin corp, natura si relationare. Ea hraneste, creste, atrage si da forma frumusetii. In lumina, vorbeste despre generozitate, expresie si rodire; in umbra, poate deveni exces, posesivitate, lene sau dependenta de confort.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 3]]
+- Vibratia 3 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[2-Marea Preoteasa]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[4-Imparatul]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 3]]
-
-### Arcane asociate
-- [[2-Marea Preoteasa]]
-- [[4-Imparatul]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

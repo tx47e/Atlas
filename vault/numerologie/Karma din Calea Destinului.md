@@ -12,28 +12,9 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Karma din Calea Destinului]] arata ritmul karmic al vietii, tipul de sanse, obstacole si ajutoare. Formula este aceeasi baza ca la [[Calea Destinului]]: suma tuturor cifrelor din data nasterii, pastrata neredusa complet.
+Karma din Calea Destinului arata ritmul karmic al vietii, tipul de sanse, obstacole si ajutoare. Formula este aceeasi baza ca la [[Calea Destinului]]: suma tuturor cifrelor din data nasterii, pastrata neredusa complet.
 
 Interpretarea este karmica: conteaza ce a fost acumulat, ce obstacole apar, ce ajutoare exista si ce directie trebuie curatata sau dezvoltata.
-
----
-## Ce indica
-
-- Calea karmica a destinului.
-- Varsta simbolica la care omul intra mai puternic in viata.
-- Tipul de sanse si obstacole.
-- Categoria mare a drumului karmic.
-- Interpretarea exacta a numarului, daca exista in sursa.
-
----
-## Rol in analiza
-
-Se citeste impreuna cu [[Calea Destinului]], dar accentul cade pe karma, nu pe formula `ce/cum`. Completeaza [[Karma din Ziua Nasterii]] si [[Karma din Luna Nasterii]].
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se foloseste data completa de nastere.
 
 ---
 ## Formula de calcul
@@ -108,7 +89,7 @@ Rezultatul nu se reduce complet la o singura cifra.
 24.04.1982 = 2 + 4 + 0 + 4 + 1 + 9 + 8 + 2 = 30
 ```
 
-Rezultat: [[Karma din Calea Destinului|karma din calea destinului]] = 30.
+Rezultat: karma din calea destinului = 30.
 
 Categoria mare este 3: influenta, relationare, transmitere de intelepciune. Interpretarea exacta pentru 30 vorbeste despre superioritate, inteligenta, spirit puternic si nevoia de a-i influenta constructiv pe ceilalti.
 
@@ -119,23 +100,6 @@ Categoria mare este 3: influenta, relationare, transmitere de intelepciune. Inte
 ```
 
 Rezultat: 35, cu tema de prudenta relationala, dezamagiri si tradari prin apropiati.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-- [[Calea Destinului]]
-
-### Complementar cu
-
-- [[Karma din Ziua Nasterii]]
-- [[Karma din Luna Nasterii]]
-
-### Contribuie la
-
-- [[Concluzii]]
 
 ---
 ## Observatii

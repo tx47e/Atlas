@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 13
@@ -18,6 +18,8 @@ tags:
 # 13-Moartea
 
 ## Descriere Generala
+
+![[imagini/13-Death.jpg]]
 
 ### Esenta
 - Moartea este arhetipul transformarii radicale, al incheierii unei forme si al eliberarii energiei blocate in trecut. Ea nu vorbeste doar despre sfarsit, ci despre curatarea necesara pentru renastere. In lumina, aduce desprindere si regenerare; in umbra, poate arata frica, atasament sau refuzul de a lasa ceva sa se termine.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 4]]
+- Vibratia 4 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[12-Spanzuratul]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[14-Cumpatarea]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 4]]
-
-### Arcane asociate
-- [[12-Spanzuratul]]
-- [[14-Cumpatarea]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

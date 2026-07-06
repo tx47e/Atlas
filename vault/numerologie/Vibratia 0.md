@@ -9,15 +9,13 @@ tags:
   - "#transcendenta"
   - "#sursa"
   - "#vibratia0"
-  - "#tarot"
-  - "#arcana0"
 Data: 2026-06-17
 ---
 ---
 ## Descriere
 
 Vibratia 0 reprezinta principiul potentialului pur, al spatiului dintre forme si
-al campului din care orice directie poate aparea. Daca [[Vibratia 1]] este primul
+al campului din care orice directie poate aparea. Daca Vibratia 1 este primul
 pas vizibil, 0 este locul dinaintea pasului: linistea, posibilitatea, golul fertil
 si poarta prin care constiinta poate alege ce urmeaza sa manifeste.
 
@@ -53,7 +51,7 @@ nesiguranta, dezorientare sau lipsa de directie. Tema nu este sa elimine golul,
 ci sa invete sa ramana constienti in interiorul lui.
 
 0 amplifica vibratia pe care o insoteste. In calcule, un 10 nu este doar 1, ci
-un [[Vibratia 1|1]] insotit de potentialul lui 0; un 20 nu este doar 2, ci o
+un Vibratia 1 insotit de potentialul lui 0; un 20 nu este doar 2, ci o
 sensibilitate relationara asezata langa un camp de deschidere si posibilitate. De
 aceea, 0 nu se ignora in traseu, chiar daca nu se introduce in matricea
 numerologica.
@@ -179,6 +177,6 @@ testeaza concret si transforma potentialul in experienta.
 ---
 ## Tarot
 
-[[0-Nebunul|Arcana 0 - Nebunul - "The Fool"]] reprezinta inceputul calatoriei,
+Arcana 0 - Nebunul - "The Fool" se poate gasi in [[tarot/Index|tarot]]. Reprezinta inceputul calatoriei,
 potentialul nelimitat si increderea in necunoscut. Este energia celui care paseste
 inainte fara garantii, dar cu deschidere fata de experienta si evolutie.

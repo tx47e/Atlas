@@ -204,4 +204,4 @@ angajamentul pana la finalizarea etapei.
 ---
 ## Tarot
 
-[[5-Marele Preot|Arcana 5 - Marele Preot - "The Hierophant"]]
+Arcana 5 - Marele Preot - "The Hierophant" se poate gasi in [[tarot/Index|tarot]].

@@ -12,25 +12,9 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Numarul Neamului|Numarul neamului]] este calculul din numele de familie pastrat in intervalul 1-22. El mai apare ca numar ereditar karmic sau karma neamului.
+Numarul neamului este calculul din numele de familie pastrat in intervalul 1-22. El mai apare ca numar ereditar karmic sau karma neamului.
 
-In proiect, `karma neamului` nu este un calcul separat. Termenul este pastrat ca denumire alternativa pentru [[Numarul Neamului]].
-
----
-## Ce indica
-
-- Neamul simbolic al numelui de familie.
-- Linia karmica transmisa prin nume.
-- Asocierea cu [[0-Nebunul|Arcanele Majore]].
-- Diferenta dintre numele de origine si numele actual, daca exista schimbare de nume.
-
----
-## Date necesare
-
-- numele de familie relevant;
-- numele anterior / schimbat, daca exista;
-- numele actual, daca exista;
-- genul persoanei, cand interpretarea cere distinctii de linie.
+In proiect, `karma neamului` nu este un calcul separat. Termenul este pastrat ca denumire alternativa pentru Numarul Neamului.
 
 ---
 ## Formula de calcul
@@ -48,8 +32,8 @@ reducere_22(numar):
 
 ### Asociere cu tarotul
 
-- rezultatele 1-21 se citesc prin [[1-Magicianul|Arcanele Majore 1-21]];
-- rezultatul 22 se citeste ca [[0-Nebunul|Arcana 0 - Nebunul]].
+- rezultatele 1-21 se citesc prin Arcanele Majore 1-21 din [[tarot/Index|tarot]];
+- rezultatul 22 se citeste ca Arcana 0 - Nebunul din [[tarot/Index|tarot]].
 
 ---
 ## Interpretare generala
@@ -98,26 +82,8 @@ P=7, O=6, P=7, E=5, S=1, C=3, U=3
 
 Rezultat:
 
-- [[Numarul Neamului|Numarul neamului]]: 10.
+- Numarul neamului: 10.
 - Interpretare: neamul 10, contabilii si finantistii.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-- [[Numarul Ereditar]]
-
-### Complementar cu
-
-- [[Numarul de Exprimare]]
-- [[Karma din Luna Nasterii]]
-
-### Contribuie la
-
-- [[Cod Numerologic Personal]]
-- [[Concluzii]]
 
 ---
 ## Observatii

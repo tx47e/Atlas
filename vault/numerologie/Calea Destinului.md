@@ -12,38 +12,11 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Calea Destinului|Calea destinului]] este suma tuturor cifrelor din [[Datele de intrare|data nasterii]], pastrata inainte de reducerea finala la o singura cifra.
+Calea destinului este suma tuturor cifrelor din [[Datele de intrare|data nasterii]], pastrata inainte de reducerea finala la o singura cifra.
 
 In bibliografia de lucru, aceasta rubrica apare si ca vibratia caii destinului. In proiect, cele doua denumiri sunt echivalente.
 
-[[Calea Destinului|Calea destinului]] arata ce si cum are omul de facut prin viata ca sa isi realizeze destinul. Prima cifra raspunde la intrebarea `ce?`, iar a doua cifra raspunde la intrebarea `cum?`. Daca rezultatul are o singura cifra, aceeasi cifra raspunde la ambele intrebari.
-
----
-## Ce indica
-
-- Traseul neredus al datei de nastere.
-- Tema de lucru a destinului.
-- Ce are omul de cultivat.
-- Cum poate aplica acel lucru in viata concreta.
-- Raportul dintre sanse, ajutoare, obstacole si antrenament interior.
-
----
-## Rol in analiza
-
-[[Calea Destinului|Calea destinului]] este mai nuantata decat [[Vibratia Destinului]], deoarece pastreaza numarul compus.
-
-In analiza, se foloseste pentru:
-
-- a raspunde la intrebarile `ce?` si `cum?`;
-- a intelege categoria mare de lucru a persoanei;
-- a interpreta obstacolele si ajutoarele;
-- a calcula [[Aspecte de Indreptat]];
-- a sustine sinteza din [[Concluzii]].
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se foloseste data completa de nastere.
+Calea destinului arata ce si cum are omul de facut prin viata ca sa isi realizeze destinul. Prima cifra raspunde la intrebarea `ce?`, iar a doua cifra raspunde la intrebarea `cum?`. Daca rezultatul are o singura cifra, aceeasi cifra raspunde la ambele intrebari, este solutia.
 
 ---
 ## Formula de calcul
@@ -74,10 +47,10 @@ calea destinului = 34
 
 Interpretare:
 
-- [[Vibratia 3|3]] arata ce are de cultivat persoana;
-- [[Vibratia 4|4]] arata cum poate face acel lucru.
+- Vibratia 3 arata ce are de cultivat persoana;
+- Vibratia 4 arata cum poate face acel lucru.
 
-Daca [[Calea Destinului|calea destinului]] este formata dintr-o singura cifra, aceeasi cifra raspunde la ambele intrebari.
+Daca calea destinului este formata dintr-o singura cifra, aceeasi cifra raspunde la ambele intrebari.
 
 ### Categorii de interpretare
 
@@ -96,7 +69,7 @@ Numarul cel mai mic posibil este 4, iar cel mai mare este 48. Aceasta nu este o 
 
 Cu cat numarul este mai mic, omul poate primi mai multe sanse, pentru ca are nevoie de ele ca sa faca ce are de facut. Cu cat numarul este mai mare, sansele pot fi mai putine sau mai subtile, pentru ca perioada de antrenament interior este mai mare.
 
-[[Calea Destinului|Calea destinului]] nu se reduce complet la 1-9. Daca este nevoie de vibratia finala a traseului, se foloseste [[Vibratia Destinului]].
+Calea destinului nu se reduce complet la 1-9. Daca este nevoie de vibratia finala a traseului, se foloseste [[Vibratia Destinului]].
 
 ---
 ## Exemplu de calcul
@@ -121,11 +94,11 @@ Calcul:
 
 Rezultat:
 
-- [[Calea Destinului|Calea destinului]]: 30.
+- Calea destinului: 30.
 
 Interpretare scurta:
 
-[[Vibratia 3|3]] raspunde la intrebarea `ce?`: exprimare, comunicare, creativitate si transmitere. [[Vibratia 0|0]] raspunde la intrebarea `cum?`: prin potential, deschidere, credinta si un camp mai larg de constienta.
+Vibratia 3 raspunde la intrebarea `ce?`: exprimare, comunicare, creativitate si transmitere. Vibratia 0 raspunde la intrebarea `cum?`: prin potential, deschidere, credinta si un camp mai larg de constienta.
 
 ### Exemplu 2
 
@@ -141,35 +114,11 @@ Calcul:
 
 Rezultat:
 
-- [[Calea Destinului|Calea destinului]]: 34.
+- Calea destinului: 34.
 
 Interpretare scurta:
 
-[[Vibratia 3|3]] arata ce are persoana de cultivat: comunicare, expresie si capacitatea de a da forma vie experientei. [[Vibratia 4|4]] arata cum: prin disciplina, structura, rabdare si constructie pas cu pas.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Contribuie la
-
-- [[Aspecte de Indreptat]]
-- [[Concluzii]]
-- [[Cod Numerologic Personal]]
-
-### Complementar cu
-
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-- [[Lectii de Viata]]
-
-### Poate influenta
-
-- [[Aplicabilitate Profesionala]]
-- [[Punti]]
+Vibratia 3 arata ce are persoana de cultivat: comunicare, expresie si capacitatea de a da forma vie experientei. Vibratia 4 arata cum: prin disciplina, structura, rabdare si constructie pas cu pas.
 
 ---
 ## Observatii

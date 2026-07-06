@@ -200,4 +200,4 @@ verifica realitatea. Cunoasterea devine sprijin pentru viata, nu inlocuitor al e
 ---
 ## Tarot
 
-[[7-Carul|Arcana 7 - Carul - "The Chariot"]]
+Arcana 7 - Carul - "The Chariot" se poate gasi in [[tarot/Index|tarot]].

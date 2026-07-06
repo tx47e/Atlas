@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 2
@@ -18,6 +18,8 @@ tags:
 # 2-Marea Preoteasa
 
 ## Descriere Generala
+
+![[imagini/02-The High Priestess.jpg]]
 
 ### Esenta
 - Marea Preoteasa este arhetipul cunoasterii tacute, al intuitiei si al misterului care nu se reveleaza prin fortare. Ea pazeste pragul dintre constient si subconstient, dintre ceea ce poate fi spus si ceea ce trebuie simtit. In lumina, aduce receptivitate si profunzime; in umbra, poate indica secretomanie, pasivitate sau ruperea de realitatea concreta.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 2]]
+- Vibratia 2 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[1-Magicianul]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[3-Imparateasa]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 2]]
-
-### Arcane asociate
-- [[1-Magicianul]]
-- [[3-Imparateasa]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-

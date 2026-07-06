@@ -12,35 +12,9 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-[[Vibratie Cosmica Variabila|Vibratia cosmica variabila]] este componenta activa a anului nasterii. Ea se calculeaza din ultimele doua cifre ale anului, reduse numerologic.
+Vibratia cosmica variabila este componenta activa a anului nasterii. Ea se calculeaza din ultimele doua cifre ale anului, reduse numerologic.
 
-Daca [[Vibratie Cosmica Fixa|vibratia cosmica fixa]] arata fundalul stabil, [[Vibratie Cosmica Variabila|vibratia cosmica variabila]] arata partea mai concreta, personala si dinamica a anului. Ea descrie ce poate lucra omul in viata concreta, in relatie cu contextul sau de nastere.
-
----
-## Ce indica
-
-- Componenta activa a anului nasterii.
-- Energia concreta a perioadei de nastere.
-- Felul in care fundalul fix devine experienta traita.
-- O punte intre [[Vibratie Cosmica Fixa|vibratia cosmica fixa]] si [[Vibratie Cosmica Totala|vibratia cosmica totala]].
-- Nuanta personala a contextului generational.
-
----
-## Rol in analiza
-
-[[Vibratie Cosmica Variabila|Vibratia cosmica variabila]] se foloseste pentru a vedea ce parte din anul nasterii devine mai activa in profil.
-
-In analiza, ajuta la:
-
-- intelegerea diferentei dintre context si actiune;
-- citirea ultimelor doua cifre ale anului ca material energetic;
-- pastrarea traseului de reducere pentru anii care trec prin praguri precum 10, [[Vibratia 11|11]] sau [[Vibratia 22|22]], daca aceste valori sunt documentate;
-- nuantarea [[Vibratie Cosmica Totala|vibratiei cosmice totale]].
-
----
-## Date necesare
-
-Din [[Datele de intrare|datele de intrare]], se preia anul nasterii.
+Daca [[Vibratie Cosmica Fixa|vibratia cosmica fixa]] arata fundalul stabil, vibratia cosmica variabila arata partea mai concreta, personala si dinamica a anului. Ea descrie ce poate lucra omul in viata concreta, in relatie cu contextul sau de nastere.
 
 ---
 ## Formula de calcul
@@ -77,12 +51,12 @@ experienta concreta.
 
 Pentru implementarea initiala, rezultatul se reduce la 1-9.
 
-Optional, rezultatele intermediare [[Vibratia 11|11]], [[Vibratia 22|22]] si [[Vibratia 33|33]] pot fi pastrate pentru interpretare extinsa, daca apar in traseu.
+Optional, rezultatele intermediare Vibratia 11, Vibratia 22 si Vibratia 33 pot fi pastrate pentru interpretare extinsa, daca apar in traseu.
 
 ---
 ## Interpretare generala
 
-[[Vibratie Cosmica Variabila|Vibratia cosmica variabila]] raspunde la intrebarea: ce energie activa aduce anul nasterii in planul concret?
+Vibratia cosmica variabila raspunde la intrebarea: ce energie activa aduce anul nasterii in planul concret?
 
 In interpretarea generala se include si traseul de reducere al ultimelor doua
 cifre ale anului. Cifra finala arata energia activa, iar traseul explica felul
@@ -90,15 +64,15 @@ in care aceasta energie se formeaza din componenta variabila a anului.
 
 Interpretarea se face dupa vibratiile 1-9. Lista de mai jos ofera doar o varianta scurta de orientare; pentru o interpretare ampla se foloseste descrierea completa din nota fiecarei vibratii corespunzatoare.
 
-- [[Vibratia 1]]: actiune, initiativa, inceputuri.
-- [[Vibratia 2]]: cooperare, sensibilitate, adaptare.
-- [[Vibratia 3]]: exprimare, comunicare, creativitate.
-- [[Vibratia 4]]: structura, efort, constructie.
-- [[Vibratia 5]]: schimbare, libertate, experienta.
-- [[Vibratia 6]]: responsabilitate, grija, armonie.
-- [[Vibratia 7]]: introspectie, analiza, cunoastere.
-- [[Vibratia 8]]: forta, organizare, rezultate.
-- [[Vibratia 9]]: sinteza, compasiune, finalizare.
+- Vibratia 1: actiune, initiativa, inceputuri.
+- Vibratia 2: cooperare, sensibilitate, adaptare.
+- Vibratia 3: exprimare, comunicare, creativitate.
+- Vibratia 4: structura, efort, constructie.
+- Vibratia 5: schimbare, libertate, experienta.
+- Vibratia 6: responsabilitate, grija, armonie.
+- Vibratia 7: introspectie, analiza, cunoastere.
+- Vibratia 8: forta, organizare, rezultate.
+- Vibratia 9: sinteza, compasiune, finalizare.
 
 ---
 ## Exemplu de calcul
@@ -119,13 +93,13 @@ Calcul:
 
 Rezultat:
 
-- [[Vibratie Cosmica Variabila|Vibratie cosmica variabila]]: [[Vibratia 1|1]].
+- Vibratie cosmica variabila: Vibratia 1.
 - Rezultat intermediar: 10.
 - Traseu de calcul: 82 -> 10 -> 1.
 
 Interpretare scurta:
 
-[[Vibratia 1|1]] indica o componenta cosmica activa orientata spre initiativa si afirmare. Traseul 8 + 2 arata ca aceasta directie apare din intalnirea dintre forta lui [[Vibratia 8|8]] si sensibilitatea relationara a lui [[Vibratia 2|2]].
+Vibratia 1 indica o componenta cosmica activa orientata spre initiativa si afirmare. Traseul 8 + 2 arata ca aceasta directie apare din intalnirea dintre forta lui Vibratia 8 si sensibilitatea relationara a lui Vibratia 2.
 
 ### Exemplu 2
 
@@ -142,40 +116,18 @@ Calcul:
 
 Rezultat:
 
-- [[Vibratie Cosmica Variabila|Vibratie cosmica variabila]]: [[Vibratia 1|1]].
+- Vibratie cosmica variabila: Vibratia 1.
 - Traseu de calcul: 01 -> 1.
 
 Interpretare scurta:
 
-[[Vibratia 1|1]] este sustinuta aici de [[Vibratia 0|0]], ceea ce poate sugera potential de initiere si nevoie de a da forma concreta unei directii personale.
-
----
-## Relatii cu alte concepte
-
-### Depinde de
-
-- [[Datele de intrare]]
-
-### Contribuie la
-
-- [[Vibratie Cosmica Totala]]
-- [[Concluzii]]
-
-### Complementar cu
-
-- [[Vibratie Cosmica Fixa]]
-- [[Vibratie Globala]]
-
-### Poate influenta
-
-- [[Vibratia Destinului]]
-- [[Aplicabilitate Profesionala]]
+Vibratia 1 este sustinuta aici de Vibratia 0, ceea ce poate sugera potential de initiere si nevoie de a da forma concreta unei directii personale.
 
 ---
 ## Observatii
 
 - Se calculeaza din ultimele doua cifre ale anului, nu din tot anul.
-- Se pastreaza traseul complet, mai ales cand apar praguri precum 10, [[Vibratia 11|11]] sau [[Vibratia 22|22]].
+- Se pastreaza traseul complet, mai ales cand apar praguri precum 10, Vibratia 11 sau Vibratia 22.
 - Se citeste impreuna cu [[Vibratie Cosmica Fixa|vibratia cosmica fixa]] si [[Vibratie Cosmica Totala|vibratia cosmica totala]].
 - In lucrare, campul `Traseu de reducere` este obligatoriu pentru aceasta
   vibratie, iar citirea lui se integreaza in interpretarea generala.

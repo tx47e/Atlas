@@ -1,4 +1,4 @@
-﻿---
+---
 tip: tarot
 categorie: arcana-majora
 numar: 5
@@ -18,6 +18,8 @@ tags:
 # 5-Marele Preot
 
 ## Descriere Generala
+
+![[imagini/05-The Hierrophant.jpg]]
 
 ### Esenta
 - Marele Preot este arhetipul traditiei, invataturii si transmiterii unei cai spirituale sau morale. El leaga experienta personala de un sistem de valori, de un ritual sau de o comunitate. In lumina, aduce ghidaj si intelepciune; in umbra, poate indica dogma, conformism sau dependenta de validarea unei autoritati.
@@ -65,7 +67,7 @@ tags:
 ## Numerologie
 
 ### Vibratie asociata
-- [[Vibratia 5]]
+- Vibratia 5 din numerologie
 
 ## Corelari Astrologice
 
@@ -122,36 +124,3 @@ tags:
 
 ### Factori de influenta
 - Pozitia cartii, cartile vecine, intrebarea exacta si starea consultantului pot schimba nuanta raspunsului.
-
-## Combinatii Importante
-
-### Cu Arcane Majore
-- [[4-Imparatul]]: arata etapa precedenta sau tensiunea care pregateste aceasta lectie.
-- [[6-Indragostitii]]: arata continuarea naturala a drumului initiatic.
-
-### Cu Arcane Minore
-- Cu Cupe: accent pe emotii si relatii.
-- Cu Spade: accent pe decizie, conflict mental si adevar.
-- Cu Bate: accent pe actiune, vointa si initiativa.
-- Cu Monede: accent pe corp, resurse si concretizare.
-
-## Corelari
-
-### Numerologie
-- [[Vibratia 5]]
-
-### Arcane asociate
-- [[4-Imparatul]]
-- [[6-Indragostitii]]
-
-### Concepte asociate
-- [[Calea Destinului]]
-- [[Vibratia Destinului]]
-- [[Soarta si Destin]]
-
-## Bibliografie
-
-- Arthur Edward Waite, The Pictorial Key to the Tarot.
-- Paul Foster Case, The Tarot: A Key to the Wisdom of the Ages.
-- Aleister Crowley, The Book of Thoth.
-
