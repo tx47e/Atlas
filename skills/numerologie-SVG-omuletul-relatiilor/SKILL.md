@@ -85,9 +85,26 @@ Asset-ul `assets/reference.svg` contine exemplul actualizat cu fundal Vitruvian,
 9. Verifica SVG-ul ca XML valid si inspecteaza vizual ca liniile, nodurile si textele sa fie lizibile.
 10. Verifica matematic distributiile, totalurile pe cifra, totalurile pe elemente si sintezele relationale.
 
-## Reference
+## Regula pentru includerea in lucrari HTML
 
+1. In varianta `.md`, omuletul se pastreaza ca imagine Markdown normala, de forma `![descriere](nume-asset.svg)`. Nu se introduc fragmente HTML in Markdown.
+2. In varianta `.html` destinata trimiterii ca fisier unic, SVG-ul omuletului trebuie inclus ca imagine embedded, nu ca referinta externa la fisier. Se foloseste:
+
+```html
+<img class="embedded-svg" src="data:image/svg+xml;base64,{{svg_base64}}" alt="{{descriere}}">
+```
+
+3. Aceasta regula este obligatorie mai ales cand SVG-ul contine imagine de fundal embed-uita, cum este fundalul Vitruvian. Daca HTML-ul trimis separat refera `src="nume-asset.svg"`, exista risc ca fundalul sau intreaga diagrama sa nu se mai vada la destinatar.
+4. Inainte de conversia in base64, SVG-ul se salveaza UTF-8 fara BOM si se verifica XML valid.
+5. Dupa generarea HTML-ului, verifica faptul ca nu mai exista referinta externa pentru omulet si ca `src` incepe cu `data:image/svg+xml;base64,`.
+
+## Regula watermark
+
+- Fiecare SVG final trebuie sa includa watermark-ul `Atlas Numerologie` in coltul dreapta jos al panzei SVG.
+- Stil recomandat, discret si consecvent cu septagrama validata: `font-family="Arial, Helvetica, sans-serif"`, `font-size="14"`, `fill="#aaa"`, `font-weight="800"`, `text-anchor="end"`.
+- Pozitionare recomandata: `x = latime_viewBox - 20`, `y = inaltime_viewBox - 15`. Pentru SVG-uri cu margini sau continut special, pastreaza watermark-ul in interiorul panzei, fara sa atinga rama sau elementele principale.
+- Textul trebuie scris exact `Atlas Numerologie`, nu cu majuscule integrale.
+
+## Reference
 - `vault/Numerologie/Omuletul Relatiilor.md` este sursa de adevar pentru metoda, pozitionari numerologice, formule, interpretare si verificari.
 - `assets/reference.svg` este modelul vizual unic si validat pentru Amuletul/Omuletul Relatiilor: fundal Vitruvian, geometrie aliniata pe imagine, casete numerice dimensionate dupa continut, font uniform si spatiere verticala sigura.
-
-

@@ -389,7 +389,7 @@ Index: BDR-19980219-v1.04r-P-076a
 Comparatia cu optimul adauga reperul de echilibru. Matricea optima folosita ca baza este `111 | 44 | 7`, `222 | 55 | 8`, `333 | 66 | 9`, cu total general 72. Matricea ta are total general 65, deci nu lipseste forta, ci lipseste mai ales zona care face energia sa curga prin corp, centru si responsabilitate practica.
 
 Index: BDR-19980219-v1.04r-T-003b
-| Casuta | Cantitate personala | Valoare personala | Cantitate optima | Valoare optima | Diferenta | Citire |
+| Casuta | Cantitate<br>personala | Valoare<br>personala | Cantitate<br>optima | Valoare<br>optima | Diferenta | Citire |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | 1 | 3 | 3 | 3 | 3 | 0 | Identitatea si initiativa sunt la optim: poti porni, decide si ocupa un loc propriu. |
 | 2 | 1 | 2 | 3 | 6 | -4 | Sensibilitatea exista, dar are nevoie de exercitiu relational, rabdare si ascultare constienta. |
@@ -575,6 +575,9 @@ Rezultatul este 5. Arhetipurile lui 5 sunt profesorul, cautatorul de libertate, 
 Index: BDR-19980219-v1.04r-P-113
 Pentru tine, Daniel, 5-ul neamului poate sugera ca in spatele numelui exista o tema legata de adaptare, invatare, schimbare si raportare la reguli. Poate fi important sa nu repeti mecanic ce ai primit, ci sa intelegi, sa alegi si sa transformi. Cand 5-ul este matur, el nu fuge de responsabilitate, ci gaseste o forma vie, flexibila si personala de a merge mai departe.
 
+Index: BDR-19980219-v1.04r-P-113a
+Pentru codul numerologic personal al numelui, luam fiecare parte a numelui complet, calculam codul literelor si apoi adaugam numarul de exprimare. Calculul urmator arata traseul complet.
+
 Index: BDR-19980219-v1.04r-C-011b
 **Calcul:** BIRSAN = B2 + I9 + R9 + S1 + A1 + N5 = 27 -> 2 + 7 = 9; cod BIRSAN = 299115. DANIEL = D4 + A1 + N5 + I9 + E5 + L3 = 27 -> 2 + 7 = 9; cod DANIEL = 415953. ROBERT = R9 + O6 + B2 + E5 + R9 + T2 = 33 -> 3 + 3 = 6; cod ROBERT = 962592. Numar de exprimare = 9 + 9 + 6 = 24 -> 2 + 4 = 6.
 
@@ -646,13 +649,10 @@ Index: BDR-19980219-v1.04r-T-004
 | 2036 | 38 | 5 | 2 | Anul aduce miscare, iesire din rutina si nevoia de adaptare. Lectia 2 cere ca schimbarile sa fie discutate, negociate si asezate cu grija fata de oamenii implicati. |
 
 Index: BDR-19980219-v1.04r-SUB-033
-#### Ciclurile de 7 ani si de 12 ani
+#### Ciclurile de 7 ani
 
 Index: BDR-19980219-v1.04r-P-123
-Ciclul de 7 ani si ciclul de 12 ani se citesc separat. Ciclul de 7 ani arata maturizarea, disciplina si formarea structurii interioare. Ciclul de 12 ani arata expansiunea, oportunitatile mari si repozitionarea in lume.
-
-Index: BDR-19980219-v1.04r-P-124
-##### Ciclul de 7 ani
+Ciclurile de 7 ani arata maturizarea, disciplina si formarea structurii interioare. Le citim ca praguri de lucru care revin din sapte in sapte ani si arata cum se aseaza energia in etape concrete de viata.
 
 Index: BDR-19980219-v1.04r-C-017a
 ![Septagrama pentru Birsan Daniel Robert](septagrama-birsan-daniel-robert.svg)
@@ -681,8 +681,8 @@ Daniel se afla in ciclul C5, 28-35 ani, adica etapa varfului 5, cu perechea 5/9 
 Index: BDR-19980219-v1.04r-P-124b
 Pentru harta lui, aceasta septagrama se leaga direct de lectia deja vazuta in matrice: energia mentala si creativa este puternica, dar are nevoie de centru, corp si ritm concret. Ciclul 5/9 poate aduce schimbari, dorinta de miscare, cautare de sens si nevoie de aer nou. Cheia este ca schimbarea sa fie folosita ca metoda de crestere, nu ca reactie la presiune. Daca Daniel isi pune libertatea in forma prin disciplina minima, alegeri clare si finalizari reale, energia ciclului poate curge mai bine.
 
-Index: BDR-19980219-v1.04r-P-124c
-##### Ciclul de 12 ani
+Index: BDR-19980219-v1.04r-SUB-033a
+#### Ciclul de 12 ani
 
 Index: BDR-19980219-v1.04r-P-124d
 Ciclul de 12 ani se citeste prin analogia cu Jupiter. Jupiter are o orbita de aproximativ 11,86 ani, deci o data la aproape 12 ani revine pe pozitia de la nastere. In lectura simbolica, acest ritm arata intoarcerile mari ale expansiunii: oportunitati, crestere, largirea orizontului, bogatie, sansa de a primi mai mult si nevoia de a fi pregatit pentru ceea ce vine.
@@ -725,10 +725,13 @@ Index: BDR-19980219-v1.04r-SUB-035
 #### Ani importanti interiori si exteriori
 
 Index: BDR-19980219-v1.04r-P-127
-Anii interiori marcheaza momente in care poti simti schimbari de directie, decizie sau maturizare. Anii exteriori sunt mai vizibili in planul evenimentelor.
+Anii interiori si anii exteriori se citesc ca doua feluri diferite de a intalni schimbarea. Anii interiori sunt importanti pentru ca arata momentele in care miscarea porneste din tine: se schimba felul in care vezi lucrurile, se maturizeaza o decizie, se modifica o dorinta sau apare nevoia de a te aseza altfel fata de propria viata. Uneori, in exterior nu se vede imediat nimic spectaculos, dar inauntru se schimba centrul de greutate. Anii exteriori, in schimb, vorbesc despre presiuni, contexte si evenimente care vin din afara: oameni, situatii, oportunitati, blocaje sau responsabilitati vizibile. Cand un an este si interior, si exterior, schimbarea se simte pe ambele planuri: ceva se clarifica inauntru si cere un raspuns concret in afara.
 
-Index: BDR-19980219-v1.04r-P-128
-Interval analizat: 2016-2046. Ani interiori calculati in interval: 2016, 2025, 2034, 2043. Ani exteriori calculati in interval: 2025, 2034, 2043.
+Index: BDR-19980219-v1.04r-C-017b
+**Calcul:** An interior: 1998 -> 1 + 9 + 9 + 8 = 27 -> 2 + 7 = 9 -> 1998 + 9 = 2007 -> 2 + 0 + 0 + 7 = 9 -> 2007 + 9 = 2016.
+
+Index: BDR-19980219-v1.04r-C-017c
+**Calcul:** An exterior: 1998 -> 1 + 9 + 9 + 8 = 27 -> 1998 + 27 = 2025.
 
 Index: BDR-19980219-v1.04r-T-004c
 | An | Varsta | Interior | Exterior | Descriere / interpretare |
@@ -775,13 +778,13 @@ Index: BDR-19980219-v1.04r-P-130
 Soarta si Destin compara doua linii ale vietii: soarta, adica linia de conditionare, cadrul primit si drumul initial, si destinul grafic, adica directia de implinire si varianta care cere urcare constienta. Cele doua rezultate se pastreaza ca numere grafice de 7 cifre si se citesc impreuna prin zona de confort, puncte de intalnire si puncte de rascruce.
 
 Index: BDR-19980219-v1.04r-P-131
-Pentru soarta se foloseste formula `ZZLL x AAAA`. Pentru Daniel: `19.02.1998 -> ZZLL = 1902`, deci `1902 x 1998 = 3800196`. Numarul grafic al sortii este `3800196`.
+Pentru soarta se foloseste formula `ZZLL x AAAA`. Pornim de la data de nastere, o transformam in formatul zi-luna, apoi inmultim acest reper cu anul nasterii. Calculul de mai jos arata numarul grafic al sortii si media lui de confort.
 
 Index: BDR-19980219-v1.04r-C-019a
 **Calcul:** Soarta = 1902 x 1998 = 3800196; zona de confort soarta = (3 + 8 + 0 + 0 + 1 + 9 + 6) / 7 = 27 / 7 = 3,86.
 
 Index: BDR-19980219-v1.04r-P-132
-Pentru destinul grafic, zerourile din data folosita in grafic se inlocuiesc cu 1. Astfel, `1902` devine `1912`, iar anul `1998` ramane neschimbat, pentru ca nu contine zero. Calculul este `1912 x 1998 = 3820176`. Numarul grafic al destinului este `3820176`.
+Pentru destinul grafic folosim aceeasi structura, dar inlocuim zerourile din data de lucru cu 1. Astfel vedem cum se modifica linia atunci cand potentialul latent este activat. Calculul de mai jos arata numarul grafic al destinului si media lui de confort.
 
 Index: BDR-19980219-v1.04r-C-019b
 **Calcul:** Destin grafic = 1912 x 1998 = 3820176; zona de confort destin = (3 + 8 + 2 + 0 + 1 + 7 + 6) / 7 = 27 / 7 = 3,86.
@@ -803,7 +806,7 @@ Index: BDR-19980219-v1.04r-T-005a
 | 7 | 6 | 6 | Punct de intalnire: finalul graficului cere responsabilitate, armonie si grija fata de forma concreta a vietii. |
 
 Index: BDR-19980219-v1.04r-P-132a
-Cele doua linii sunt foarte apropiate si au aceeasi zona de confort, 3,86. Asta arata ca drumul primit si directia de implinire nu sunt in conflict major, dar exista doua puncte de lucru clare: pozitia 3, unde destinul cere activarea relatiei si a sensibilitatii, si pozitia 6, unde intensitatea lui 9 trebuie rafinata prin analiza si discernamantul lui 7.
+Pentru Daniel folosim citirea pe intervale de 10 ani, deoarece data lui are predominanta impara / masculina. Cele doua linii sunt foarte apropiate si au aceeasi zona de confort, 3,86. Asta arata ca drumul primit si directia de implinire nu sunt in conflict major, dar exista doua puncte de lucru clare: la 20 de ani, unde destinul cere activarea relatiei si a sensibilitatii, si la 50 de ani, unde intensitatea lui 9 trebuie rafinata prin analiza si discernamantul lui 7.
 
 Index: BDR-19980219-v1.04r-SUB-037
 ### 1.7. Relatii
@@ -812,10 +815,7 @@ Index: BDR-19980219-v1.04r-SUB-038
 ### 1.7.1. Omuletul relatiilor
 
 Index: BDR-19980219-v1.04r-P-133
-Omuletul relatiilor compara doua persoane folosind aceeasi sursa de cifre. El arata cine sustine anumite zone, unde exista complementaritate si unde relatia cere atentie.
-
-Index: BDR-19980219-v1.04r-P-134
-Pentru aceasta relatie folosim aceeasi sursa pentru ambele persoane: cifrele brute din data de nastere. Nu adaugam N1, N2, N3 si N4 din codul numerologic personal extins. Daniel este notat cu albastru, iar Andreea cu roz.
+Daniel, aici nu ne uitam la relatie ca la un verdict, ci ca la o harta de orientare. Omuletul relatiilor iti arata ce aduci tu in legatura cu Andreea, ce aduce ea, unde va completati firesc si unde este nevoie sa fiti mai constienti unul cu celalalt. Ideea nu este sa cautam cine are dreptate, ci sa vedem cum puteti construi o relatie mai limpede, mai asezata si mai vie.
 
 Index: BDR-19980219-v1.04r-C-018
 ![Omuletul relatiilor pentru Birsan Daniel Robert si Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg)
@@ -826,19 +826,19 @@ Index: BDR-19980219-v1.04r-C-019
 **Calcul:** Realizare impreuna: 1 + 3 = 4 -> de rezolvat impreuna: |1 - 3| = 2
 
 Index: BDR-19980219-v1.04r-P-135
-In aceasta relatie, Daniel aduce mai multa forta pe zona de sens si viziune prin 9: in data lui apar trei cifre de 9. Andreea aduce mai multa forta pe zona de initiativa si identitate prin 1: in data ei apar trei cifre de 1, fata de cele doua ale lui Daniel. Asta arata o relatie in care focul este puternic la amandoi, dar se exprima diferit: Daniel poate sustine perspectiva si intelegerea, iar Andreea poate sustine pornirea, initiativa si decizia.
+In relatia asta, Daniel, tu vii cu multa forta pe zona lui 9: sens, viziune, intelegere, capacitatea de a privi lucrurile mai larg. Andreea vine mai puternic pe zona lui 1: initiativa, identitate, pornire, decizie. Asta inseamna ca focul exista la amandoi, dar nu se aprinde la fel. Tu poti aduce perspectiva si maturizare, iar ea poate impinge lucrurile spre miscare si alegere. Daca va ascultati, aceasta diferenta poate deveni motor; daca va grabiti sa va judecati, poate deveni lupta de directie.
 
 Index: BDR-19980219-v1.04r-P-136
-Pe zona emotionala, amandoi au cate un 2, deci sensibilitatea relationala exista la fiecare, dar nu este supraincarcata. Asta inseamna ca apropierea se construieste prin gesturi constiente, rabdare si discutii clare, nu doar prin presupunerea ca celalalt va simti automat totul. Pe zona de pamant, amandoi au cate un 8, ceea ce poate ajuta relatia sa ramana conectata la organizare, rezultate si responsabilitate practica.
+Pe zona emotionala, amandoi aveti cate un 2. Asta imi spune ca sensibilitatea exista, dar nu este atat de abundenta incat totul sa se regleze singur. De aceea, Daniel, nu te baza pe ideea ca Andreea va simti automat ce ai vrut sa spui, si nu presupune nici ca tu vei intelege imediat tot ce se intampla in ea. Relatia are nevoie de intrebari simple, spuse la timp: "ce ai simtit?", "ce ai nevoie?", "cum putem aseza asta?". Pe zona de pamant, amandoi aveti cate un 8, ceea ce va poate ajuta sa discutati si practic: ce facem, cum organizam, ce responsabilitate isi ia fiecare.
 
 Index: BDR-19980219-v1.04r-P-137
-Impreuna, cele doua persoane au un foc relational puternic: totalul pe foc este 10, construit din cifrele 1 si 9. Relatia poate avea directie, vointa, intensitate si dorinta de a construi ceva cu sens. Rezultatul comun 4 arata ca directia buna este constructia: reguli clare, stabilitate, proiecte concrete si asumare. Nu este o relatie care se hraneste doar din emotie; are nevoie de forma.
+Impreuna, aveti un foc relational puternic. Asta poate da atractie, intensitate, ambitie si dorinta de a duce relatia undeva, nu doar de a o trai de pe o zi pe alta. Rezultatul comun 4 iti spune foarte clar, Daniel: relatia are nevoie de constructie. Nu ajunge sa existe emotie sau interes; trebuie sa existe forma. Vorbim despre reguli clare, stabilitate, ritm, gesturi repetate, proiecte concrete si asumare. Daca lasati totul doar pe impuls, focul consuma. Daca ii dati structura, focul incalzeste si construieste.
 
 Index: BDR-19980219-v1.04r-P-138
-Tema de rezolvat impreuna este 2. Aici cheia este rabdarea, ascultarea si felul in care fiecare il lasa pe celalalt sa isi exprime ritmul. Daniel poate veni mai direct, Andreea poate simti mai mult nuantele; daca aceste doua feluri de a reactiona nu sunt discutate, apar neintelegeri. Cand sunt folosite matur, ele se completeaza: Daniel da directie, Andreea aduce sensibilitate si reglaj relational.
+Tema de rezolvat impreuna este 2, deci lectia voastra este relatia in sine: rabdarea, ascultarea, finetea, felul in care fiecare ii face loc celuilalt. Pentru tine, asta inseamna sa nu impingi mereu lucrurile doar prin directie si concluzie. Uneori relatia are nevoie sa incetinesti, sa intrebi, sa lasi spatiu. Andreea poate aduce reglaj relational si sensibilitate, dar si ea are nevoie sa spuna clar ce simte, nu doar sa astepte sa fie intuita. Cand lucrati matur cu acest 2, tu aduci directie, ea aduce nuanta, iar impreuna puteti crea cooperare reala.
 
 Index: BDR-19980219-v1.04r-P-139
-Zonele 3, 4, 5, 6 si 7 sunt absente in diagrama pe baza datelor brute. Asta nu inseamna lipsa de relatie, ci arata zone care trebuie construite constient: comunicarea exprimata direct, stabilitatea concreta, libertatea sanatoasa, grija zilnica si profunzimea analitica. Cu alte cuvinte, relatia nu trebuie lasata doar pe seama intensitatii sau a atractiei; are nevoie de obiceiuri mici, prezenta, gesturi constante si discutii clare despre nevoi.
+Zonele 3, 4, 5, 6 si 7 nu apar in diagrama pe baza datelor brute, iar aici e partea practica pentru tine, Daniel. Nu inseamna ca relatia nu are sanse; inseamna ca anumite lucruri trebuie construite intentionat. Aveti nevoie sa exersati comunicarea directa, stabilitatea concreta, libertatea sanatoasa, grija de zi cu zi si profunzimea discutiilor. Altfel spus: nu lasa relatia doar pe atractie, intensitate sau presupuneri. Pune intrebari, stabileste obiceiuri mici, fii prezent, spune ce ai nevoie si invita-o si pe Andreea sa faca la fel. Relatia aceasta se poate aseza mai bine cand amandoi construiti constient ceea ce nu vine automat.
 
 Index: BDR-19980219-v1.04r-SUB-039
 ### 1.8. Spirit
@@ -847,13 +847,19 @@ Index: BDR-19980219-v1.04r-SUB-040
 #### Inclinatii profesionale
 
 Index: BDR-19980219-v1.04r-P-140
-Acest punct priveste felul in care energia datei de nastere poate sugera o orientare profesionala. Nu este vorba despre o meserie obligatorie, ci despre un climat interior: ce tip de provocare apare, ce fel de ajutor poate sustine persoana si in ce directie se poate organiza mai bine.
+Aplicabilitatea profesionala traduce data nasterii in zona muncii, carierei si colaborarilor. Aici nu cautam o meserie obligatorie pentru tine, Daniel, ci o directie de lucru: ce fel de energie poti folosi mai natural, ce ritm profesional ti se potriveste si ce tip de obstacol merita recunoscut inainte sa devina blocaj.
 
 Index: BDR-19980219-v1.04r-P-141
-Se lucreaza cu rezultate pastrate in intervalul 1-22. Pentru tine, calculul indica: obstacol 3, ajutor 11, directie 12.
+In aceasta metoda citim doua raspunsuri. `DA` arata aplicabilitatea profesionala, adica directia care poate fi cultivata si folosita concret. `NU` arata obstacolele, adica formele prin care energia se poate bloca daca nu este gestionata constient.
 
-Index: BDR-19980219-v1.04r-P-142
-Obstacolul arata zona care poate cere efort sau maturizare; ajutorul arata resursa care poate sustine drumul; directia arata sensul in care energia poate fi orientata. Citirea ramane simbolica si trebuie corelata cu matricea, numele si experienta reala a persoanei.
+Index: BDR-19980219-v1.04r-C-019d
+**Calcul:** NU / obstacole: 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39 -> 39 - 22 = 17. DA / aplicabilitate profesionala: luna 2 + (1 + 9 + 9 + 8) = 2 + 27 = 29 -> 29 - 22 = 7.
+
+Index: BDR-19980219-v1.04r-T-005c
+| Arcana | Interpretare |
+| --- | --- |
+| Index: BDR-19980219-v1.04r-IMG-001<br>![Arcana 7 - Carul, aplicabilitate profesionala](tarot-07-carul-aplicabilitate-profesionala.jpg)<br>_Arcana 7 - Carul. Aplicabilitate profesionala / DA_ | Index: BDR-19980219-v1.04r-P-142<br>Carul iti spune ca profesional ai nevoie de directie, miscare si control interior. Nu esti facut sa ramai prea mult intr-un loc in care doar executi fara sa intelegi sensul drumului. Ai nevoie de obiective clare, autonomie, provocari care cer prezenta si situatii in care poti organiza forte diferite: oameni, resurse, timp, presiune, emotie si decizie. In varianta buna, Carul poate sustine domenii legate de coordonare, management, vanzari, logistica, sport, transport, proiecte dinamice, antreprenoriat, interventie rapida, strategie sau roluri in care trebuie sa tii fraiele fara sa te rupi de oameni. |
+| Index: BDR-19980219-v1.04r-IMG-002<br>![Arcana 17 - Steaua, obstacole profesionale](tarot-17-steaua-obstacole-profesionale.jpg)<br>_Arcana 17 - Steaua. Obstacole / NU_ | Index: BDR-19980219-v1.04r-P-142a<br>Partea care cere atentie este Steaua pe pozitia de `NU`. Asta nu inseamna ca inspiratia este gresita, ci ca poate deveni obstacol atunci cand ramane doar vis, asteptare sau incredere fara plan. Daca idealizezi prea mult directia profesionala, poti amana pasii concreti. Daca astepti confirmarea perfecta, poti pierde momentul in care trebuie sa actionezi. Cheia este sa folosesti speranta Stelei ca sursa de sens, dar sa o pui in Car: program, decizie, ritm, responsabilitate si actiune vizibila. |
 
 Index: BDR-19980219-v1.04r-SUB-041
 #### Inclinatii ezoterice
@@ -948,7 +954,7 @@ Index: BDR-19980219-v1.04r-T-007
 | <span class="zone-badge zone-gifts">Haruri</span> | 40-52 | 7.500-10.000 ani | intelepciune, haruri spirituale, ghidare, serviciu, intuitie |
 
 Index: BDR-19980219-v1.04r-P-152
-Subetapa se calculeaza din codul spiritului. La codul 32, lectia activa este 6.
+Subetapa se calculeaza din codul spiritului, asezand codul pe ciclul celor treisprezece lectii. Calculul de mai jos arata pozitia exacta in matricea lectiilor.
 
 Index: BDR-19980219-v1.04r-C-022
 **Calcul:** Subetapa = ((32 - 1) mod 13) + 1 = 6
@@ -998,7 +1004,7 @@ Index: BDR-19980219-v1.04r-P-157
 Triunghiul financiar combina ziua, luna, anul redus si destinul redus pentru a observa raportarea la resurse, constructie si directie materiala.
 
 Index: BDR-19980219-v1.04r-P-158
-Baza triunghiului este [1, 2, 9, 3]; destinul din triunghi este 3.
+Pentru triunghi pornim de la zi, luna, anul redus si destinul redus. Diagrama de mai jos aseaza aceste valori in forma lor de lucru, ca sa putem citi relatia dintre pornire, sustinere, viziune si rezultat.
 
 Index: BDR-19980219-v1.04r-C-023a
 ![Triunghiul financiar pentru Birsan Daniel Robert](triunghiul-financiar-birsan-daniel-robert.svg)
@@ -1015,7 +1021,7 @@ Index: BDR-19980219-v1.04r-P-160
 Patratul de aur aseaza valori succesive pornind de la ziua nasterii si creeaza o schema de echilibru numeric.
 
 Index: BDR-19980219-v1.04r-P-161
-Valoarea centrala este 23; suma de control este 69.
+Pentru patrat pornim de la ziua nasterii si completam schema in ordinea specifica instrumentului. Diagrama de mai jos arata centrul, traseul si suma de control, apoi citim ce fel de stabilizare simbolica propune.
 
 Index: BDR-19980219-v1.04r-C-023b
 ![Patratul de aur pentru Birsan Daniel Robert](patratul-de-aur-birsan-daniel-robert.svg)
@@ -1124,11 +1130,8 @@ Index: BDR-19980219-v1.04r-SUB-050
 Index: BDR-19980219-v1.04r-P-184
 Aici privim zona care cere corectare. Este un punct de maturizare, nu o condamnare. Aspectul de indreptat functioneaza ca o oglinda: iti arata ce tipar merita observat, educat si condus altfel.
 
-Index: BDR-19980219-v1.04r-P-185
-In cazul tau, pornim de la 37 si ajungem la solutia 1. 37 aduce combinatia dintre expresie si analiza, iar 1 arata ca solutia este asumarea clara.
-
 Index: BDR-19980219-v1.04r-P-186
-Pentru aspectele de indreptat pornim de la rezultatul 37, apoi reducem solutia la o singura cifra.
+Pentru aspectele de indreptat pornim de la formula specifica acestei rubrici, apoi reducem rezultatul pana la cifra care arata directia de corectare.
 
 Index: BDR-19980219-v1.04r-C-028
 **Calcul:** 39 - 2 x 1 = 37 -> 3 + 7 = 10 -> 1 + 0 = 1
@@ -1297,7 +1300,7 @@ Index: BDR-19980219-v1.04r-SUB-058
 ### 6.2. Triunghiul financiar
 
 Index: BDR-19980219-v1.04r-P-214
-Triunghiul financiar arata cum se organizeaza relatia ta cu resursele, munca si directia materiala. La tine apare sirul 1-2-9-3: initiativa, sensibilitate relationala, viziune larga si exprimare. Cu alte cuvinte, banii si rezultatele se aseaza mai bine cand nu lucrezi doar mecanic, ci cand pui o idee personala intr-o forma clara pentru ceilalti.
+Triunghiul financiar arata cum se organizeaza relatia ta cu resursele, munca si directia materiala. Pentru calcul luam pe rand ziua, luna, anul redus si destinul redus, apoi le asezam in forma triunghiului.
 
 Index: BDR-19980219-v1.04r-C-036
 **Calcul:** 19 -> 1 -> 2 -> 2 -> 1998 -> 9 -> 1 + 2 + 9 = 12 -> 3
@@ -1314,7 +1317,7 @@ Index: BDR-19980219-v1.04r-SUB-059
 ### 6.3. Patratul de aur
 
 Index: BDR-19980219-v1.04r-P-216
-Patratul de aur aseaza ziua de nastere intr-o matrice de echilibru. Pentru tine pornim de la ziua 19 si completam patratul dupa ordinea 4-9-2-3-5-7-8-1-6. Centrul este 23, iar suma de control este 69.
+Patratul de aur aseaza ziua de nastere intr-o matrice de echilibru. Pentru calcul pornim de la ziua nasterii, completam patratul dupa ordinea instrumentului si obtinem centrul impreuna cu suma de control.
 
 Index: BDR-19980219-v1.04r-C-038
 **Calcul:** Ziua nasterii: 19 -> Centru: 23 -> 23 x 3 = 69

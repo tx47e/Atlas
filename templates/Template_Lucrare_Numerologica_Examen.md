@@ -81,6 +81,17 @@ Reguli de folosire:
 - In Markdown, indexul se pune tot pe linie separata, ca text simplu:
   `Index: {{cod_index}}`. Nu se introduc niciodata `<div class="...">`,
   `<figure>`, `<img>` sau alte fragmente HTML in varianta `.md`.
+- Pentru HTML-ul trimis ca fisier unic catre client, graficele si SVG-urile
+  esentiale se includ embedded in HTML. Cand un SVG este introdus prin `<img>`,
+  se recomanda `src="data:image/svg+xml;base64,{{svg_base64}}"`, mai ales daca
+  SVG-ul contine imagini de fundal embed-uite. Nu se lasa dependente obligatorii
+  de fisiere SVG externe pentru elementele fara de care lucrarea nu se intelege.
+- In varianta `.md`, aceleasi grafice raman referinte curate de imagine
+  Markdown, de forma `![descriere](asset.svg)`.
+- Paragraful de dinaintea unui calcul sau SVG de calcul nu anticipeaza
+  rezultatul concret: nu mentioneaza cifra finala, codul obtinut, numarul
+  grafic, lectia activa, centrul, suma de control sau interpretarea acestor
+  valori inainte ca ele sa fie afisate in chenarul de calcul ori in figura.
 
 ```html
 <div class="index index-heading">Index: BDR-19980219-v1.01r-CAP-001</div>
@@ -113,6 +124,57 @@ Reguli de folosire:
 .index-heading + h2,
 .index-heading + h3,
 .index-heading + h4 {
+  margin-top: 0;
+}
+.calc-box,
+pre {
+  background: #ead7b8;
+  color: var(--deep);
+  border-left: 6px solid var(--sand);
+  border-radius: 6px;
+}
+.calc-box {
+  margin: 14px 0;
+  padding: 12px 16px;
+  font-weight: 400;
+}
+.calc-box strong {
+  color: #c62828;
+  font-weight: 800;
+}
+pre {
+  padding: 16px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+.tarot-reading-table {
+  table-layout: fixed;
+}
+.tarot-reading-table col:first-child {
+  width: 180px;
+}
+.tarot-reading-table td {
+  vertical-align: top;
+}
+.tarot-card-cell {
+  text-align: left;
+}
+.tarot-card-cell img {
+  display: block;
+  width: 130px;
+  height: auto;
+  margin: 0;
+  border: 1px solid rgba(11, 43, 44, 0.16);
+  border-radius: 6px;
+  background: #fffdf8;
+}
+.tarot-card-caption {
+  margin-top: 8px;
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 700;
+}
+.tarot-reading-table p {
   margin-top: 0;
 }
 ```
@@ -460,7 +522,7 @@ Destinul se obtine din suma celor trei componente deja reduse.
 
 {{patratul_de_aur_3x3}}
 
-### 1.11. Concluziile capitolului 2
+### 1.11. Concluziile capitolului 1
 
 #### 1.11.1. Toate notiunile grupate pe cifre si elemente
 
@@ -479,79 +541,79 @@ Destinul se obtine din suma celor trei componente deja reduse.
 
 ### 2.1. Vibratia interioara
 
-#### 1.1.1. Vibratia interioara pitagoreica
+#### 2.1.1. Vibratia interioara pitagoreica
 
 {{caracter_vibratie_interioara_pitagoreica}}
 
-#### 1.1.2. Liniile de tensiune
+#### 2.1.2. Liniile de tensiune
 
 {{caracter_linii_de_tensiune}}
 
-#### 1.1.3. Vibratia interioara karmica
+#### 2.1.3. Vibratia interioara karmica
 
 {{caracter_vibratie_interioara_karmica}}
 
 ### 2.2. Structura matriciala
 
-#### 1.2.1. Reflectarea vibratiei interioare in casute
+#### 2.2.1. Reflectarea vibratiei interioare in casute
 
 {{reflectarea_vibratiei_interioare_in_casute}}
 
-#### 1.2.2. Casutele calitativ si cantitativ
+#### 2.2.2. Casutele calitativ si cantitativ
 
 {{casutele_calitativ_cantitativ}}
 
-#### 1.2.3. Par / impar
+#### 2.2.3. Par / impar
 
 {{par_impar}}
 
-#### 1.2.4. Elementele
+#### 2.2.4. Elementele
 
 {{elementele_caracterului}}
 
-#### 1.2.5. Valoarea casutelor
+#### 2.2.5. Valoarea casutelor
 
 {{valoarea_casutelor_caracter}}
 
-#### 1.2.6. Forma geometrica
+#### 2.2.6. Forma geometrica
 
 {{forma_geometrica}}
 
-#### 1.2.7. Descrierea casutelor
+#### 2.2.7. Descrierea casutelor
 
 {{descrierea_casutelor}}
 
-#### 1.2.8. Combinatiile speciale
+#### 2.2.8. Combinatiile speciale
 
 {{combinatiile_speciale}}
 
-#### 1.2.9. Vectorii
+#### 2.2.9. Vectorii
 
 {{vectorii_caracter}}
 
-#### 1.2.10. Fixatia
+#### 2.2.10. Fixatia
 
 Nota de metoda: interpretarea caracterului foloseste aceeasi fixatie calculata
 din matricea datei de nastere; vezi `vault/Numerologie/Fixatia.md`.
 
 {{fixatia_caracter}}
 
-#### 1.2.11. Tendinta
+#### 2.2.11. Tendinta
 
 {{tendinta_caracter}}
 
-#### 1.2.12. Valoarea cea mai mare
+#### 2.2.12. Valoarea cea mai mare
 
 {{valoarea_cea_mai_mare}}
 
-#### 1.2.13. Curgerea energiei
+#### 2.2.13. Curgerea energiei
 
 Nota de metoda: interpretarea caracterului foloseste aceeasi curgere a energiei
 din matricea datei de nastere; vezi `vault/Numerologie/Curgerea Energiei.md`.
 
 {{curgerea_energiei_caracter}}
 
-#### 1.2.14. Caii, trasura si vizitiul
+#### 2.2.14. Caii, trasura si vizitiul
 
 Nota de metoda: interpretarea caracterului compara caii, trasura si vizitiul
 din matricea datei de nastere; vezi
@@ -561,49 +623,49 @@ din matricea datei de nastere; vezi
 
 ### 2.3. Influente spirituale
 
-#### 1.3.1. Inclinatii profesionale
+#### 2.3.1. Inclinatii profesionale
 
 {{caracter_inclinatii_profesionale}}
 
-#### 1.3.2. Inclinatii ezoterice
+#### 2.3.2. Inclinatii ezoterice
 
 {{caracter_inclinatii_ezoterice}}
 
-#### 1.3.3. Zona de confort intre soarta si destin
+#### 2.3.3. Zona de confort intre soarta si destin
 
 {{zona_confort_soarta_destin}}
 
-#### 1.3.4. Pinaclul 1
+#### 2.3.4. Pinaclul 1
 
 {{pinaclul_1_caracter}}
 
-#### 1.3.5. Codul si Varsta Spiritului
+#### 2.3.5. Codul si Varsta Spiritului
 
 {{codul_varsta_spiritului_caracter}}
 
-#### 1.3.6. Etapele si subetapele spiritului
+#### 2.3.6. Etapele si subetapele spiritului
 
 {{etape_subetape_spirit_caracter}}
 
 ### 2.4. Influentele numelui
 
-#### 1.4.1. Numarul activ
+#### 2.4.1. Numarul activ
 
 {{caracter_numar_activ}}
 
-#### 1.4.2. Numarul ereditar karmic / Numele Neamului
+#### 2.4.2. Numarul ereditar karmic / Numele Neamului
 
 {{caracter_numar_neam}}
 
-#### 1.4.3. Numarul intim
+#### 2.4.3. Numarul intim
 
 {{caracter_numar_intim}}
 
-#### 1.4.4. Numarul de realizare
+#### 2.4.4. Numarul de realizare
 
 {{caracter_numar_realizare}}
 
-#### 1.4.5. Cifre in exces si cifre lipsa
+#### 2.4.5. Cifre in exces si cifre lipsa
 
 {{caracter_cifre_exces_lipsa}}
 
@@ -732,19 +794,19 @@ din matricea datei de nastere; vezi
 
 {{cele_patru_perioade_mari}}
 
-#### 4.2.1. Perioada de formare
+#### 5.2.1. Perioada de formare
 
 {{perioada_de_formare}}
 
-#### 4.2.2. Perioada de maturizare
+#### 5.2.2. Perioada de maturizare
 
 {{perioada_de_maturizare}}
 
-#### 4.2.3. Perioada de inteleptire
+#### 5.2.3. Perioada de inteleptire
 
 {{perioada_de_inteleptire}}
 
-#### 4.2.4. Perioada de spiritualizare
+#### 5.2.4. Perioada de spiritualizare
 
 {{perioada_de_spiritualizare}}
 

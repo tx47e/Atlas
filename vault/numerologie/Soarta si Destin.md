@@ -83,6 +83,16 @@ Interpretare:
 - in zona de confort persoana functioneaza firesc;
 - peste zona de confort apare efortul de crestere si dinamica evolutiva.
 
+### Alegerea intervalului de varsta
+
+Intervalul folosit pe axa orizontala a graficului nu este optional, ci se alege dupa predominanta energetica a datei de nastere:
+
+- daca matricea datei de nastere are predominanta impara / masculina, graficul se citeste pe intervale de 10 ani: `0`, `10`, `20`, `30`, `40`, `50`, `60` etc.;
+- daca matricea datei de nastere are predominanta para / feminina, graficul se citeste pe intervale de 12 ani: `0`, `12`, `24`, `36`, `48`, `60`, `72` etc.;
+- daca raportul este echilibrat, se alege ritmul dominant rezultat din interpretarea matricei si se mentioneaza explicit alegerea in sinteza graficului.
+
+Sinteza graficului trebuie sa spuna ce interval se foloseste si de ce: 10 ani pentru predominanta impara / masculina sau 12 ani pentru predominanta para / feminina.
+
 ---
 ## Interpretare generala
 
@@ -173,7 +183,6 @@ Rezultatul destinului are deja 7 cifre.
 - Destinul din aceasta metoda nu este acelasi lucru cu [[Vibratia Destinului]].
 - Destinul grafic nu se calculeaza din nume si nu se confunda cu [[Numarul de Exprimare]].
 - Soarta si destinul se pastreaza ca numere grafice de 7 cifre.
-- Ciclul de 10 ani se foloseste mai ales pentru predominanta masculina, iar ciclul de 12 ani pentru predominanta feminina.
 
 ---
 ## Utilizare in lucrare

@@ -26,7 +26,13 @@ tags: [skill]
 8. Verifica SVG-ul ca XML valid si inspecteaza vizual ca triunghiul si etichetele sa fie corect incadrate.
 9. Verifica matematic valorile finale cu baza din `vault/Numerologie/Triunghiul Financiar.md`.
 
-## Reference
+## Regula watermark
 
+- Fiecare SVG final trebuie sa includa watermark-ul `Atlas Numerologie` in coltul dreapta jos al panzei SVG.
+- Stil recomandat, discret si consecvent cu septagrama validata: `font-family="Arial, Helvetica, sans-serif"`, `font-size="14"`, `fill="#aaa"`, `font-weight="800"`, `text-anchor="end"`.
+- Pozitionare recomandata: `x = latime_viewBox - 20`, `y = inaltime_viewBox - 15`. Pentru SVG-uri cu margini sau continut special, pastreaza watermark-ul in interiorul panzei, fara sa atinga rama sau elementele principale.
+- Textul trebuie scris exact `Atlas Numerologie`, nu cu majuscule integrale.
+
+## Reference
 - `vault/Numerologie/Triunghiul Financiar.md` este sursa de adevar pentru metoda, formule, valori si interpretare.
 - `assets/reference.svg` este modelul validat pentru aspectul vizual al Triunghiului Financiar.

@@ -160,7 +160,5 @@
     <text x="1330" y="944" class="bold muted">Sens de curgere:</text>
     <line class="flow" x1="1465" y1="939" x2="1545" y2="939"/>
   </g>
-  <text class="foot" x="1420" y="985">ATLAS NUMEROLOGIE</text>
+  <text x="1680" y="985" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#aaa" font-weight="800">Atlas Numerologie</text>
 </svg>
-
-

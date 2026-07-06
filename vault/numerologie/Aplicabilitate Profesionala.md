@@ -29,7 +29,7 @@ Rezultatul nu se citeste ca eticheta fixa de profesie. Arcana indica un mod de l
 Pentru obstacole si instrumente se aduna toate cifrele din ziua, luna si anul nasterii, apoi se scade 22.
 
 ```text
-arcana obstacole/ajutoare =
+arcana obstacole/ajutoare (NU) =
   suma_cifrelor(zi + luna + an) - 22
 ```
 
@@ -40,12 +40,12 @@ In interpretare:
 - `++` arata instrumentele, capacitatile si potentialul care ajuta omul sa mearga mai usor pe calea destinului;
 - `--` arata obstacolele care il pot impiedica sa mearga usor pe linia destinului.
 
-### Aplicabilitate profesionala
+### Aplicabilitate profesionala (DA)
 
 Pentru aplicabilitatea profesionala se aduna luna nasterii cu suma cifrelor anului nasterii, apoi se scade 22.
 
 ```text
-arcana aplicabilitate profesionala =
+arcana aplicabilitate profesionala (DA) =
   luna + suma_cifrelor(an) - 22
 ```
 
@@ -56,10 +56,10 @@ Daca rezultatul nu intra in intervalul 1-22, se aplica reducerea prin scaderea r
 | Camp | Valoare |
 | --- | --- |
 | Data nasterii |  |
-| Arcana obstacole/ajutoare |  |
+| Arcana obstacole/ajutoare (NU) |  |
 | Instrumente `++` |  |
 | Obstacole `--` |  |
-| Arcana aplicabilitate profesionala |  |
+| Arcana aplicabilitate profesionala (DA) |  |
 | Directii profesionale |  |
 
 ---
@@ -85,7 +85,7 @@ Calcul:
 
 Rezultat:
 
-- Arcana obstacole/ajutoare: 13.
+- Arcana obstacole/ajutoare (NU): 13.
 - Arcana corespondenta: Moartea.
 
 Interpretare scurta:
@@ -109,7 +109,7 @@ an = 1 + 9 + 8 + 7 = 25
 
 Rezultat:
 
-- Arcana aplicabilitate profesionala: 14.
+- Arcana aplicabilitate profesionala (DA): 14.
 - Arcana corespondenta: Cumpatarea.
 
 Interpretare scurta:

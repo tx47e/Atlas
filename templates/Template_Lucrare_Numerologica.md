@@ -66,6 +66,21 @@ Vezi: Datele de intrare
 - In chenarele de calcul se pune doar formula/traseul de calcul. Explicatia
   despre ce se calculeaza sta in paragraful de dinainte, iar interpretarea sta
   dupa chenar.
+- In HTML, chenarele de calcul folosesc fundalul deschis `#ead7b8`, text
+  normal `font-weight: 400`, iar eventualele marcaje `<strong>` din calcule
+  se coloreaza rosu `#c62828` si se scriu cu `font-weight: 800`, ca cifra
+  evidentiata sa fie usor de distins.
+- Paragraful de dinaintea unui calcul nu anticipeaza rezultatul concret:
+  nu spune cifra finala, numarul grafic, codul obtinut, lectia activa,
+  centrul, suma de control sau interpretarea acestor rezultate inainte ca
+  ele sa fie afisate in chenarul de calcul ori in figura aferenta.
+- Pentru HTML-ul care trebuie trimis ca fisier unic, graficele si SVG-urile
+  esentiale se includ embedded in HTML, preferabil ca `data:image/svg+xml;base64`
+  atunci cand sunt folosite in `<img>`. Nu se lasa dependente obligatorii de
+  fisiere SVG externe daca lucrarea trebuie sa poata fi deschisa singura.
+- In Markdown, aceleasi grafice raman referinte curate de imagine Markdown:
+  `![descriere](asset.svg)`. Nu se introduc `<figure>`, `<img>`, `<div>` sau
+  alte fragmente HTML in varianta `.md`.
 - Interpretarile se scriu dupa notele complete ale conceptelor relevante, nu
   doar dupa listele scurte de orientare.
 - Interpretarile respecta `Tip formulare`: formal sau conversational.
@@ -496,11 +511,19 @@ si interpretarea se completeaza cu `-`.
 ### Aplicabilitate Profesionala
 
 - Descriere:
-- Arcana obstacole / ajutoare:
+- Arcana obstacole / ajutoare (NU):
 - Instrumente:
 - Obstacole:
-- Arcana aplicabilitate profesionala:
+- Arcana aplicabilitate profesionala (DA):
 - Directii profesionale:
+- Calculul se pune in chenar si foloseste etichetele explicite `NU / obstacole`
+  si `DA / aplicabilitate profesionala`.
+- Pentru interpretarea arcanelor, se foloseste un tabel cu doua coloane:
+  prima coloana contine imaginea arcanei si eticheta ei, iar a doua coloana
+  contine interpretarea. In HTML tabelul foloseste clasa
+  `tarot-reading-table`, cu imaginile mici, aliniate la stanga.
+- In MD, tabelul ramane Markdown curat, fara `<div>`, `<figure>` sau `<img>`.
+  Imaginile se introduc ca referinte Markdown in prima coloana.
 
 ### Concluzii
 

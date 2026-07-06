@@ -74,4 +74,5 @@
     <circle cx="240" cy="-5" r="10" fill="#e8ecef" stroke="#9aa3aa"/><text x="258" y="0">Aer</text>
     <circle cx="360" cy="-5" r="10" fill="#d19b61"/><text x="378" y="0">Pamant</text>
   </g>
+  <text x="1080" y="845" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#aaa" font-weight="800">Atlas Numerologie</text>
 </svg>
