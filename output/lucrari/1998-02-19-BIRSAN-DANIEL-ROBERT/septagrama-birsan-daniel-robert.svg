@@ -116,8 +116,8 @@
   <g class="txt">
     <text x="900" y="36" class="bold">C1:1998 - 2004</text>
     <text x="900" y="66">0-7 ani. <tspan class="orange">3,5 ani</tspan> <tspan class="bold">2001</tspan> (al 4-lea an de viata)</text>
-    <text x="900" y="96" class="green">C8:2047 - 2053</text>
-    <text x="900" y="126" class="green">49-56 ani. 52,5 ani 2050 (al 53-lea an de viata)</text>
+    <text x="900" y="96" class="bold">C8:2047 - 2053</text>
+    <text x="900" y="126">49-56 ani. <tspan class="orange">52,5 ani</tspan> <tspan class="bold">2050</tspan> (al 53-lea an de viata)</text>
 
     <text x="1125" y="238" class="bold">C2:2005 - 2011</text>
     <text x="1125" y="268">7-14 ani. <tspan class="orange">10,5 ani</tspan> <tspan class="bold">2008</tspan> (al 11-lea an de viata)</text>
@@ -136,8 +136,8 @@
     <text x="950" y="855" class="bold">C11:2068 - 2074</text>
     <text x="950" y="885">70-77 ani. <tspan class="orange">73,5 ani</tspan> <tspan class="bold">2071</tspan> (al 74-lea an de viata)</text>
 
-    <text x="360" y="802" class="bold">C5:2026 - 2032</text>
-    <text x="40" y="832">28-35 ani. <tspan class="orange">31,5 ani</tspan> <tspan class="bold">2029</tspan> (al 32-lea an de viata)</text>
+    <text x="360" y="802" class="green">C5:2026 - 2032</text>
+    <text x="40" y="832" class="green">28-35 ani. 31,5 ani 2029 (al 32-lea an de viata)</text>
     <text x="360" y="868" class="bold">C12:2075 - 2081</text>
     <text x="40" y="898">77-84 ani. <tspan class="orange">80,5 ani</tspan> <tspan class="bold">2078</tspan> (al 81-lea an de viata)</text>
 

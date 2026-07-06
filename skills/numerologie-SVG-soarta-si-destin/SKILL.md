@@ -23,13 +23,15 @@ tags: [skill]
 zona_de_confort = suma_cifrelor(numar_grafic) / 7
 ```
 
-5. Deseneaza un SVG landscape cu axa orizontala `Pozitia 1-7` si axa verticala `Valoare 0-9`.
-6. Reprezinta linia sortii si linia destinului ca polilinii distincte, cu puncte pe fiecare cifra.
-7. Marcheaza zona de confort prin linii orizontale punctate, cate una pentru soarta si una pentru destin.
-8. Eticheteaza fiecare punct cu cifra corespunzatoare si pozitia.
-9. Include legenda, formulele scurte si concluzia vizuala: apropiere, diferenta, puncte de intalnire si puncte de rascruce.
-10. Salveaza SVG-ul in calea lucrarii sau in calea ceruta de utilizator.
-11. Verifica SVG-ul ca XML valid si inspecteaza lizibilitatea etichetelor.
+5. Deseneaza un SVG landscape cu fundal integral de culoarea hartiei vechi, in acord cu lucrarea. Nu pune graficul intr-un chenar alb care rupe textura vizuala.
+6. Axa verticala trebuie sa afiseze toate cifrele de la 0 la 9, nu doar repere rare.
+7. Axa orizontala trebuie sa afiseze etapele de varsta: `0`, `0-10`, `10-20`, `20-30`, `30-40`, `40-50`, `50-60` etc., in functie de cate pozitii are numarul grafic.
+8. Reprezinta linia sortii si linia destinului ca polilinii distincte, cu puncte pe fiecare cifra.
+9. Marcheaza zona de confort prin linii orizontale punctate, cate una pentru Soarta si una pentru Destin. Daca valorile coincid, separa vizual liniile foarte putin sau eticheteaza ambele clar, ca sa fie vizibil ca exista zona de confort pentru ambele.
+10. Eticheteaza fiecare punct cu cifra corespunzatoare si intervalul de varsta.
+11. Include legenda, formulele scurte si concluzia vizuala: apropiere, diferenta, puncte de intalnire si puncte de rascruce.
+12. Salveaza SVG-ul in calea lucrarii sau in calea ceruta de utilizator.
+13. Verifica SVG-ul ca XML valid si inspecteaza lizibilitatea etichetelor.
 
 ## Interpretare
 

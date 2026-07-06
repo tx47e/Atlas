@@ -1,36 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
   <title>Soarta si destin - Birsan Daniel Robert</title>
-  <desc>Grafic numerologic comparativ pentru numerele grafice 3800196 si 3820176.</desc>
+  <desc>Grafic numerologic comparativ pentru numerele grafice 3800196 si 3820176, pe intervale de varsta.</desc>
   <defs>
     <style>
-      .bg { fill: #fffdf8; }
+      .paper { fill: #f4e5d4; }
       .axis { stroke: #2d2d2d; stroke-width: 2; }
-      .grid { stroke: #d9d2c4; stroke-width: 1; }
-      .comfort-fate { stroke: #bf6b2c; stroke-width: 2; stroke-dasharray: 8 7; }
-      .comfort-destiny { stroke: #116466; stroke-width: 2; stroke-dasharray: 5 6; }
+      .grid { stroke: #cdbda7; stroke-width: 1; opacity: 0.75; }
+      .comfort-fate { stroke: #bf6b2c; stroke-width: 2.5; stroke-dasharray: 9 7; }
+      .comfort-destiny { stroke: #116466; stroke-width: 2.5; stroke-dasharray: 4 6; }
       .fate { fill: none; stroke: #bf6b2c; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
       .destiny { fill: none; stroke: #116466; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
-      .fate-dot { fill: #bf6b2c; stroke: #fff; stroke-width: 3; }
-      .destiny-dot { fill: #116466; stroke: #fff; stroke-width: 3; }
-      .meet-dot { fill: #2d2d2d; stroke: #fff; stroke-width: 3; }
+      .fate-dot { fill: #bf6b2c; stroke: #f4e5d4; stroke-width: 3; }
+      .destiny-dot { fill: #116466; stroke: #f4e5d4; stroke-width: 3; }
+      .meet-dot { fill: #2d2d2d; stroke: #f4e5d4; stroke-width: 3; }
       .title { font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 800; fill: #242424; }
       .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 700; fill: #555; }
       .label { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #333; }
       .small { font-family: Arial, Helvetica, sans-serif; font-size: 13px; fill: #555; }
       .value { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 800; fill: #111; text-anchor: middle; }
       .legend { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 800; fill: #222; }
-      .box { fill: #ffffff; stroke: #d0c5b4; stroke-width: 1.5; rx: 8; }
+      .note { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; fill: #6d5b50; }
     </style>
   </defs>
-  <rect class="bg" width="1200" height="720"/>
+  <rect class="paper" width="1200" height="720"/>
   <text class="title" x="60" y="54">Soarta si destin - Birsan Daniel Robert</text>
   <text class="subtitle" x="60" y="82">Data nasterii: 19.02.1998 | Soarta: 1902 x 1998 = 3800196 | Destin: 1912 x 1998 = 3820176</text>
 
   <g id="chart" transform="translate(95,130)">
-    <rect class="box" x="-35" y="-30" width="820" height="470"/>
     <line class="axis" x1="0" y1="400" x2="735" y2="400"/>
     <line class="axis" x1="0" y1="0" x2="0" y2="400"/>
     <g class="grid">
+      <line x1="0" y1="400.0" x2="735" y2="400.0"/>
       <line x1="0" y1="355.6" x2="735" y2="355.6"/>
       <line x1="0" y1="311.1" x2="735" y2="311.1"/>
       <line x1="0" y1="266.7" x2="735" y2="266.7"/>
@@ -39,9 +39,19 @@
       <line x1="0" y1="133.3" x2="735" y2="133.3"/>
       <line x1="0" y1="88.9" x2="735" y2="88.9"/>
       <line x1="0" y1="44.4" x2="735" y2="44.4"/>
+      <line x1="0" y1="0.0" x2="735" y2="0.0"/>
+      <line x1="0" y1="0" x2="0" y2="400"/>
+      <line x1="122.5" y1="0" x2="122.5" y2="400"/>
+      <line x1="245" y1="0" x2="245" y2="400"/>
+      <line x1="367.5" y1="0" x2="367.5" y2="400"/>
+      <line x1="490" y1="0" x2="490" y2="400"/>
+      <line x1="612.5" y1="0" x2="612.5" y2="400"/>
+      <line x1="735" y1="0" x2="735" y2="400"/>
     </g>
     <line class="comfort-fate" x1="0" y1="228.6" x2="735" y2="228.6"/>
-    <line class="comfort-destiny" x1="0" y1="228.6" x2="735" y2="228.6"/>
+    <line class="comfort-destiny" x1="0" y1="236.6" x2="735" y2="236.6"/>
+    <text class="note" x="742" y="225">Zona confort Soarta 3,86</text>
+    <text class="note" x="742" y="242">Zona confort Destin 3,86</text>
     <polyline class="fate" points="0,266.7 122.5,44.4 245,400 367.5,400 490,355.6 612.5,0 735,133.3"/>
     <polyline class="destiny" points="0,266.7 122.5,44.4 245,311.1 367.5,400 490,355.6 612.5,88.9 735,133.3"/>
 
@@ -58,23 +68,37 @@
     </g>
 
     <g class="label">
-      <text x="-24" y="405">0</text><text x="-24" y="272">3</text><text x="-24" y="139">6</text><text x="-24" y="5">9</text>
-      <text x="-5" y="430">1</text><text x="117" y="430">2</text><text x="240" y="430">3</text><text x="362" y="430">4</text>
-      <text x="485" y="430">5</text><text x="607" y="430">6</text><text x="730" y="430">7</text>
-      <text x="300" y="462">Pozitia cifrei in numarul grafic</text>
+      <text x="-24" y="405">0</text>
+      <text x="-24" y="361">1</text>
+      <text x="-24" y="316">2</text>
+      <text x="-24" y="272">3</text>
+      <text x="-24" y="227">4</text>
+      <text x="-24" y="183">5</text>
+      <text x="-24" y="139">6</text>
+      <text x="-24" y="94">7</text>
+      <text x="-24" y="50">8</text>
+      <text x="-24" y="5">9</text>
+      <text x="-5" y="430">0</text>
+      <text x="105" y="430">0-10</text>
+      <text x="224" y="430">10-20</text>
+      <text x="346" y="430">20-30</text>
+      <text x="469" y="430">30-40</text>
+      <text x="591" y="430">40-50</text>
+      <text x="714" y="430">50-60</text>
+      <text x="300" y="462">Varsta / etape de 10 ani</text>
       <text x="-72" y="214" transform="rotate(-90 -72 214)">Valoare cifra</text>
     </g>
   </g>
 
   <g transform="translate(900,150)">
-    <rect class="box" x="-20" y="-28" width="250" height="245"/>
     <text class="legend" x="0" y="0">Legenda</text>
     <line class="fate" x1="0" y1="34" x2="70" y2="34"/><text class="label" x="88" y="39">Soarta 3800196</text>
     <line class="destiny" x1="0" y1="70" x2="70" y2="70"/><text class="label" x="88" y="75">Destin 3820176</text>
-    <line class="comfort-fate" x1="0" y1="108" x2="70" y2="108"/><text class="label" x="88" y="113">Zona confort 3,86</text>
-    <circle class="meet-dot" cx="12" cy="145" r="8"/><text class="label" x="34" y="150">Punct de intalnire</text>
-    <text class="small" x="0" y="184">Intalniri: pozitiile 1, 2, 4, 5, 7</text>
-    <text class="small" x="0" y="207">Rascruci: pozitiile 3 si 6</text>
+    <line class="comfort-fate" x1="0" y1="108" x2="70" y2="108"/><text class="label" x="88" y="113">Confort Soarta 3,86</text>
+    <line class="comfort-destiny" x1="0" y1="136" x2="70" y2="136"/><text class="label" x="88" y="141">Confort Destin 3,86</text>
+    <circle class="meet-dot" cx="12" cy="174" r="8"/><text class="label" x="34" y="179">Punct de intalnire</text>
+    <text class="small" x="0" y="210">Intalniri: pozitiile 1, 2, 4, 5, 7</text>
+    <text class="small" x="0" y="233">Rascruci: pozitiile 3 si 6</text>
   </g>
 
   <g transform="translate(60,640)">

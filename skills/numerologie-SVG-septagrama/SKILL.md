@@ -21,10 +21,12 @@ tags: [skill]
 3. Foloseste `assets/reference.svg` ca sablon de compozitie, nu ca sursa principala de calcul.
 4. Pastreaza structura generala: panza landscape, septagrama centrala, noduri portocalii, sageti de curgere, etichete de varsta si blocuri text laterale.
 5. Recalculeaza textul pentru persoana ceruta cand sunt furnizate data nasterii si anii de referinta; altfel pastreaza campurile ca locuri de completat.
-6. Pastreaza fonturi simple de tip Arial/Helvetica, contrast bun, sageti vizibile si etichete care nu intersecteaza liniile.
-7. Salveaza SVG-ul rezultat in `vault/Numerologie/` sau in calea ceruta de utilizator.
-8. Verifica SVG-ul ca XML valid si inspecteaza vizual incadrarea, suprapunerile, sagetile si lizibilitatea.
-9. Verifica matematic valorile finale cu baza din `vault/Numerologie/Septagrama.md`.
+6. Marcheaza cu verde doar ciclul actual de 7 ani in care se afla persoana la data de referinta a lucrarii. Nu copia marcajul verde din `assets/reference.svg`: acela este doar un exemplu vizual si poate apartine altei persoane.
+7. Daca un bloc vizual contine doua cicluri pe aceeasi pozitie, coloreaza in verde numai randurile ciclului activ; celalalt ciclu ramane cu stil normal.
+8. Pastreaza fonturi simple de tip Arial/Helvetica, contrast bun, sageti vizibile si etichete care nu intersecteaza liniile.
+9. Salveaza SVG-ul rezultat in `vault/Numerologie/` sau in calea ceruta de utilizator.
+10. Verifica SVG-ul ca XML valid si inspecteaza vizual incadrarea, suprapunerile, sagetile si lizibilitatea.
+11. Verifica matematic valorile finale cu baza din `vault/Numerologie/Septagrama.md`.
 
 ## Reference
 
@@ -32,3 +34,4 @@ tags: [skill]
 - `assets/reference.svg` este septagrama validata vizual si trebuie folosita ca model local.
 - Cand modifici geometria, pastreaza traseul de septagrama regulata si sensul de curgere.
 - Cand modifici textul, evita diacriticele daca fisierul existent este ASCII-only.
+- Verdele indica exclusiv ciclul actual al persoanei analizate. Pentru fiecare persoana se recalculeaza ciclul activ dupa data nasterii si data de referinta; nu se pastreaza verdele din referinta.

@@ -32,7 +32,10 @@ Cantitatea determina figura geometrica:
 | 2 | linie | doua puncte unite sau doua cerculete |
 | 3 | triunghi | triunghi |
 | 4 | patrat | patrat |
-| peste 4 | figura supraincarcata | patrat + marcaj suplimentar / multiplicare |
+| 5 | pentagrama | stea cu cinci varfuri |
+| 6 | hexagrama | stea cu sase varfuri |
+| 7 | septagrama | stea cu sapte varfuri |
+| peste 7 | poligon / stea cu numarul de varfuri corespunzator | figura construita dupa cantitate |
 
 ---
 ## Formula de lucru
@@ -75,8 +78,11 @@ Figura geometrica arata gradul de formare al energiei din casuta:
 - linia arata polarizare, relatie intre doua puncte, dinamica si oscilatie;
 - triunghiul arata o forma mai stabila, cu directie si sustinere;
 - patratul arata structura, stabilitate, fixare si materializare;
-- peste patru aparitii, energia poate deveni foarte accentuata si se citeste cu
-  prudenta, impreuna cu [[Scara Bunastarii]], [[Fixatia]] si [[Curgerea Energiei]].
+- pentagrama, hexagrama si septagrama arata o energie foarte incarcata, care
+  capata deja o forma simbolica proprie si se citeste cu prudenta, impreuna cu
+  [[Scara Bunastarii]], [[Fixatia]] si [[Curgerea Energiei]];
+- peste sapte aparitii, forma geometrica se adapteaza la numarul de cifre, dar
+  trebuie sa ramana lizibila in casuta.
 
 Figurile geometrice nu se interpreteaza izolat. Ele se citesc impreuna cu tema
 casutei, elementul, vectorii si cantitatea generala din matrice.
@@ -91,6 +97,11 @@ Daca in casuta `2` apar doua cifre `22`, figura este linie.
 Daca in casuta `3` apar trei cifre `333`, figura este triunghi.
 
 Daca in casuta `4` apar patru cifre `4444`, figura este patrat.
+
+Daca in casuta `9` apar cinci cifre `99999`, figura este pentagrama.
+
+Daca intr-o casuta apar sase cifre, figura este hexagrama. Daca apar sapte
+cifre, figura este septagrama.
 
 ### Exemplu vizual
 
