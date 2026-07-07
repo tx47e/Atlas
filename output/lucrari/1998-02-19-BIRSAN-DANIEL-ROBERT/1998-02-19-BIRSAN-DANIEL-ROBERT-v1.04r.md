@@ -957,7 +957,11 @@ Index: BDR-19980219-v1.04r-P-152
 Subetapa se calculeaza din codul spiritului, asezand codul pe ciclul celor treisprezece lectii. Calculul de mai jos arata pozitia exacta in matricea lectiilor.
 
 Index: BDR-19980219-v1.04r-C-022
-**Calcul:** Subetapa = ((32 - 1) mod 13) + 1 = 6
+**Calcul explicat:** Subetapa se calculeaza din Codul Spiritului, care aici este 32. Formula folosita este `((CM - 1) mod 13) + 1`, deoarece cele treisprezece lectii se repeta ciclic: scadem 1 ca sa pornim numararea ciclului de la zero, aplicam restul impartirii la 13, apoi adaugam 1 ca sa revenim la numerotarea lectiilor de la 1 la 13.
+
+Pentru Daniel: `32 - 1 = 31`. Impartim 31 la 13: `13 x 2 = 26`, iar restul este `31 - 26 = 5`. Revenim la scara 1-13 prin `5 + 1 = 6`. Rezultatul este **subetapa 6**.
+
+**Formula finala:** `((32 - 1) mod 13) + 1 = (31 mod 13) + 1 = 5 + 1 = 6`
 
 Index: BDR-19980219-v1.04r-P-153
 Matricea lectiilor arata cum sunt organizate cele treisprezece subetape ale Codului Spiritului. Ele sunt impartite in patru etape mari: intelegere si stabilizare, experimentare si manifestare, finalizare si orientare catre ceilalti, apoi examenul de integrare.
@@ -989,7 +993,11 @@ Index: BDR-19980219-v1.04r-P-155
 Varsta spiritului arata simbolic experienta acumulata pana la nastere si apoi experienta actualizata cu varsta biologica.
 
 Index: BDR-19980219-v1.04r-C-023
-**Calcul:** Varsta la nastere = (32 - 1) x 189 = 5.859 ani -> varsta actuala = 5.859 + 28 = 5.887 ani
+**Calcul explicat:** Varsta Spiritului la nastere se calculeaza din Codul Spiritului. Fiecare treapta de cod reprezinta simbolic 189 de ani de experienta spirituala, iar formula folosita in metoda este `(CM x 189) - 189`. Se scade 189 la final deoarece primul cod reprezinta baza de pornire a ciclului; astfel, calculul arata experienta acumulata pana la intrarea in viata actuala.
+
+Pentru Daniel: `32 x 189 = 6.048`, apoi `6.048 - 189 = 5.859`. Aceasta este **Varsta Spiritului la nastere: 5.859 ani**. Pentru varsta actuala se adauga varsta biologica din momentul lucrarii: `5.859 + 28 = 5.887`.
+
+**Formula finala:** `Varsta la nastere = (32 x 189) - 189 = 6.048 - 189 = 5.859 ani`; `Varsta actuala = 5.859 + 28 = 5.887 ani`
 
 Index: BDR-19980219-v1.04r-P-156
 Ghidarea practica este simpla: cand apare presiune materiala, profesionala, familiala sau relationala, nu o trata ca pe o piedica, ci ca pe locul in care ai ceva de ordonat. Pentru codul 32, progresul vine cand transformi haosul in structura, emotiile in decizii mature si responsabilitatile in alegeri asumate.
