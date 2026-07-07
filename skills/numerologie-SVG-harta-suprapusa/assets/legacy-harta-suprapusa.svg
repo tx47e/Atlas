@@ -1,0 +1,375 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1500" viewBox="0 0 2400 1500">
+  <title>Harta suprapusa Soarta, Destin si cicluri - Birsan Daniel Robert</title>
+  <desc>Grafic sintetic amplu care suprapune Soarta si Destin cu ciclurile de 9, 7 si 12 ani, anii importanti si pinaclurile.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7efe3; }
+      .panel { fill: #fffaf2; stroke: #d8c5aa; stroke-width: 2; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 38px; font-weight: 800; fill: #27231f; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700; fill: #66594b; }
+      .section-label { font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 800; fill: #3b332b; }
+      .axis-label { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #5d5145; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #3f372f; }
+      .band-title { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 800; fill: #1f1f1f; }
+      .band-detail { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 700; fill: #4a4138; }
+      .grid { stroke: #dccbb5; stroke-width: 1; }
+      .major-grid { stroke: #bca78d; stroke-width: 2; }
+      .chart-grid { stroke: #ddcdb8; stroke-width: 1; }
+      .fate-line { fill: none; stroke: #c56f2d; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .destiny-line { fill: none; stroke: #0f6a70; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .fate-dot { fill: #c56f2d; stroke: #fffaf2; stroke-width: 3; }
+      .destiny-dot { fill: #0f6a70; stroke: #fffaf2; stroke-width: 3; }
+      .meet-dot { fill: #2e2b27; stroke: #fffaf2; stroke-width: 3; }
+      .point-label { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 900; fill: #1f1f1f; }
+      .pinacle { fill: #f2c14e; stroke: #8f6b12; stroke-width: 1.5; opacity: .88; }
+      .cycle12 { fill: #9cc9c1; stroke: #356f69; stroke-width: 1.5; opacity: .9; }
+      .cycle7 { fill: #d9b6df; stroke: #7c4d86; stroke-width: 1.3; opacity: .86; }
+      .cycle9 { fill: #f7a072; stroke: #9f4d29; stroke-width: 1.2; opacity: .9; }
+      .crisis { stroke: #7c1f1f; stroke-width: 2.5; stroke-dasharray: 8 5; }
+      .crisis-dot { fill: #7c1f1f; stroke: #fffaf2; stroke-width: 2; }
+      .crisis-label { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 800; fill: #7c1f1f; }
+      .crisis-small { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 700; fill: #7c1f1f; }
+      .important { stroke: #263b8f; stroke-width: 3; }
+      .important-dot { fill: #263b8f; stroke: #fffaf2; stroke-width: 2; }
+      .important-label { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 900; fill: #263b8f; }
+      .important-small { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 800; fill: #263b8f; }
+      .jupiter { stroke: #2f7d32; stroke-width: 2.5; stroke-dasharray: 4 5; }
+      .jupiter-dot { fill: #2f7d32; stroke: #fffaf2; stroke-width: 2; }
+      .jupiter-label { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 900; fill: #2f7d32; }
+      .jupiter-small { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 800; fill: #2f7d32; }
+      .legend-title { font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 900; fill: #27231f; }
+      .legend-text { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 700; fill: #4f453b; }
+    </style>
+  </defs>
+
+<rect class="bg" width="2400" height="1500"/>
+<rect class="panel" x="40" y="35" width="2320" height="1415" rx="18"/>
+<text class="title" x="70.0" y="82.0" text-anchor="start">Harta suprapusa: Soarta, Destin si cicluri</text>
+<text class="subtitle" x="70.0" y="112.0" text-anchor="start">Birsan Daniel Robert | 19.02.1998 | baza: Soarta 3800196 si Destin grafic 3820176</text>
+<line class="grid" x1="170.0" y1="128.0" x2="170.0" y2="1375.0"/>
+<line class="grid" x1="323.6" y1="128.0" x2="323.6" y2="1375.0"/>
+<line class="grid" x1="477.1" y1="128.0" x2="477.1" y2="1375.0"/>
+<line class="grid" x1="630.7" y1="128.0" x2="630.7" y2="1375.0"/>
+<line class="grid" x1="784.3" y1="128.0" x2="784.3" y2="1375.0"/>
+<line class="grid" x1="937.9" y1="128.0" x2="937.9" y2="1375.0"/>
+<line class="grid" x1="1091.4" y1="128.0" x2="1091.4" y2="1375.0"/>
+<line class="grid" x1="1245.0" y1="128.0" x2="1245.0" y2="1375.0"/>
+<line class="grid" x1="1398.6" y1="128.0" x2="1398.6" y2="1375.0"/>
+<line class="grid" x1="1552.1" y1="128.0" x2="1552.1" y2="1375.0"/>
+<line class="grid" x1="1705.7" y1="128.0" x2="1705.7" y2="1375.0"/>
+<line class="grid" x1="1859.3" y1="128.0" x2="1859.3" y2="1375.0"/>
+<line class="grid" x1="2012.9" y1="128.0" x2="2012.9" y2="1375.0"/>
+<line class="grid" x1="2166.4" y1="128.0" x2="2166.4" y2="1375.0"/>
+<line class="grid" x1="2320.0" y1="128.0" x2="2320.0" y2="1375.0"/>
+<line class="major-grid" x1="170.0" y1="128.0" x2="170.0" y2="1375.0"/>
+<line class="major-grid" x1="477.1" y1="128.0" x2="477.1" y2="1375.0"/>
+<line class="major-grid" x1="784.3" y1="128.0" x2="784.3" y2="1375.0"/>
+<line class="major-grid" x1="1091.4" y1="128.0" x2="1091.4" y2="1375.0"/>
+<line class="major-grid" x1="1398.6" y1="128.0" x2="1398.6" y2="1375.0"/>
+<line class="major-grid" x1="1705.7" y1="128.0" x2="1705.7" y2="1375.0"/>
+<line class="major-grid" x1="2012.9" y1="128.0" x2="2012.9" y2="1375.0"/>
+<line class="major-grid" x1="2320.0" y1="128.0" x2="2320.0" y2="1375.0"/>
+<text class="axis-label" x="170.0" y="1405.0" text-anchor="middle">0</text>
+<text class="axis-label" x="323.6" y="1405.0" text-anchor="middle">7</text>
+<text class="axis-label" x="477.1" y="1405.0" text-anchor="middle">14</text>
+<text class="axis-label" x="630.7" y="1405.0" text-anchor="middle">21</text>
+<text class="axis-label" x="784.3" y="1405.0" text-anchor="middle">28</text>
+<text class="axis-label" x="937.9" y="1405.0" text-anchor="middle">35</text>
+<text class="axis-label" x="1091.4" y="1405.0" text-anchor="middle">42</text>
+<text class="axis-label" x="1245.0" y="1405.0" text-anchor="middle">49</text>
+<text class="axis-label" x="1398.6" y="1405.0" text-anchor="middle">56</text>
+<text class="axis-label" x="1552.1" y="1405.0" text-anchor="middle">63</text>
+<text class="axis-label" x="1705.7" y="1405.0" text-anchor="middle">70</text>
+<text class="axis-label" x="1859.3" y="1405.0" text-anchor="middle">77</text>
+<text class="axis-label" x="2012.9" y="1405.0" text-anchor="middle">84</text>
+<text class="axis-label" x="2166.4" y="1405.0" text-anchor="middle">91</text>
+<text class="axis-label" x="2320.0" y="1405.0" text-anchor="middle">98</text>
+<text class="axis-label" x="170.0" y="1430.0" text-anchor="middle">varsta</text>
+<text class="section-label" x="70.0" y="175.0" text-anchor="start">Soarta / Destin</text>
+<line class="chart-grid" x1="170.0" y1="430.0" x2="1705.7" y2="430.0"/>
+<text class="axis-label" x="138.0" y="435.0" text-anchor="end">0</text>
+<line class="chart-grid" x1="170.0" y1="396.7" x2="1705.7" y2="396.7"/>
+<text class="axis-label" x="138.0" y="401.7" text-anchor="end">1</text>
+<line class="chart-grid" x1="170.0" y1="363.3" x2="1705.7" y2="363.3"/>
+<text class="axis-label" x="138.0" y="368.3" text-anchor="end">2</text>
+<line class="chart-grid" x1="170.0" y1="330.0" x2="1705.7" y2="330.0"/>
+<text class="axis-label" x="138.0" y="335.0" text-anchor="end">3</text>
+<line class="chart-grid" x1="170.0" y1="296.7" x2="1705.7" y2="296.7"/>
+<text class="axis-label" x="138.0" y="301.7" text-anchor="end">4</text>
+<line class="chart-grid" x1="170.0" y1="263.3" x2="1705.7" y2="263.3"/>
+<text class="axis-label" x="138.0" y="268.3" text-anchor="end">5</text>
+<line class="chart-grid" x1="170.0" y1="230.0" x2="1705.7" y2="230.0"/>
+<text class="axis-label" x="138.0" y="235.0" text-anchor="end">6</text>
+<line class="chart-grid" x1="170.0" y1="196.7" x2="1705.7" y2="196.7"/>
+<text class="axis-label" x="138.0" y="201.7" text-anchor="end">7</text>
+<line class="chart-grid" x1="170.0" y1="163.3" x2="1705.7" y2="163.3"/>
+<text class="axis-label" x="138.0" y="168.3" text-anchor="end">8</text>
+<line class="chart-grid" x1="170.0" y1="130.0" x2="1705.7" y2="130.0"/>
+<text class="axis-label" x="138.0" y="135.0" text-anchor="end">9</text>
+<line class="chart-grid" x1="170.0" y1="130.0" x2="170.0" y2="430.0"/>
+<text class="axis-label" x="170.0" y="458.0" text-anchor="middle">0</text>
+<line class="chart-grid" x1="389.4" y1="130.0" x2="389.4" y2="430.0"/>
+<text class="axis-label" x="389.4" y="458.0" text-anchor="middle">10</text>
+<line class="chart-grid" x1="608.8" y1="130.0" x2="608.8" y2="430.0"/>
+<text class="axis-label" x="608.8" y="458.0" text-anchor="middle">20</text>
+<line class="chart-grid" x1="828.2" y1="130.0" x2="828.2" y2="430.0"/>
+<text class="axis-label" x="828.2" y="458.0" text-anchor="middle">30</text>
+<line class="chart-grid" x1="1047.6" y1="130.0" x2="1047.6" y2="430.0"/>
+<text class="axis-label" x="1047.6" y="458.0" text-anchor="middle">40</text>
+<line class="chart-grid" x1="1266.9" y1="130.0" x2="1266.9" y2="430.0"/>
+<text class="axis-label" x="1266.9" y="458.0" text-anchor="middle">50</text>
+<line class="chart-grid" x1="1486.3" y1="130.0" x2="1486.3" y2="430.0"/>
+<text class="axis-label" x="1486.3" y="458.0" text-anchor="middle">60</text>
+<polyline class="fate-line" points="170.0,330.0 389.4,163.3 608.8,430.0 828.2,430.0 1047.6,396.7 1266.9,130.0 1486.3,230.0"/>
+<polyline class="destiny-line" points="170.0,330.0 389.4,163.3 608.8,363.3 828.2,430.0 1047.6,396.7 1266.9,196.7 1486.3,230.0"/>
+<circle class="meet-dot" cx="170.0" cy="330.0" r="10"/>
+<text class="point-label" x="170.0" y="314.0" text-anchor="middle">3</text>
+<circle class="meet-dot" cx="389.4" cy="163.3" r="10"/>
+<text class="point-label" x="389.4" y="147.3" text-anchor="middle">8</text>
+<circle class="fate-dot" cx="608.8" cy="430.0" r="8"/>
+<text class="point-label" x="608.8" y="418.0" text-anchor="middle">0</text>
+<circle class="destiny-dot" cx="608.8" cy="363.3" r="8"/>
+<text class="point-label" x="608.8" y="351.3" text-anchor="middle">2</text>
+<circle class="meet-dot" cx="828.2" cy="430.0" r="10"/>
+<text class="point-label" x="828.2" y="414.0" text-anchor="middle">0</text>
+<circle class="meet-dot" cx="1047.6" cy="396.7" r="10"/>
+<text class="point-label" x="1047.6" y="380.7" text-anchor="middle">1</text>
+<circle class="fate-dot" cx="1266.9" cy="130.0" r="8"/>
+<text class="point-label" x="1266.9" y="118.0" text-anchor="middle">9</text>
+<circle class="destiny-dot" cx="1266.9" cy="196.7" r="8"/>
+<text class="point-label" x="1266.9" y="184.7" text-anchor="middle">7</text>
+<circle class="meet-dot" cx="1486.3" cy="230.0" r="10"/>
+<text class="point-label" x="1486.3" y="214.0" text-anchor="middle">6</text>
+<text class="label" x="970.0" y="165.0" text-anchor="start">Soarta: 3-8-0-0-1-9-6</text>
+<text class="label" x="970.0" y="190.0" text-anchor="start">Destin: 3-8-2-0-1-7-6</text>
+<text class="label" x="970.0" y="215.0" text-anchor="start">Puncte comune: 0, 10, 30, 40, 60 ani</text>
+<text class="label" x="970.0" y="240.0" text-anchor="start">Rascruce vizibila: 20 si 50 ani</text>
+<text class="section-label" x="70.0" y="525.0" text-anchor="start">Pinacluri</text>
+<rect class="pinacle" x="170.0" y="500.0" width="724.0" height="54.0" rx="12"/>
+<text class="band-title" x="180.0" y="522.0" text-anchor="start">P1</text>
+<text class="band-detail" x="180.0" y="542.0" text-anchor="start">Oportunitate 3 / Provocare 1</text>
+<rect class="pinacle" x="915.9" y="500.0" width="175.5" height="54.0" rx="12"/>
+<text class="band-title" x="925.9" y="522.0" text-anchor="start">P2</text>
+<text class="band-detail" x="925.9" y="542.0" text-anchor="start">Oportunitate 1 / Provocare 8</text>
+<rect class="pinacle" x="1113.4" y="500.0" width="175.5" height="54.0" rx="12"/>
+<text class="band-title" x="1123.4" y="522.0" text-anchor="start">P3</text>
+<text class="band-detail" x="1123.4" y="542.0" text-anchor="start">Oportunitate 4 / Provocare 7</text>
+<rect class="pinacle" x="1310.8" y="500.0" width="1009.2" height="54.0" rx="12"/>
+<text class="band-title" x="1320.8" y="522.0" text-anchor="start">P4</text>
+<text class="band-detail" x="1320.8" y="542.0" text-anchor="start">Oportunitate 2 / Provocare 7</text>
+<text class="section-label" x="70.0" y="625.0" text-anchor="start">Ciclul 12 ani</text>
+<rect class="cycle12" x="170.0" y="600.0" width="263.3" height="54.0" rx="12"/>
+<text class="band-title" x="180.0" y="622.0" text-anchor="start">C1 1998-2009</text>
+<text class="band-detail" x="180.0" y="642.0" text-anchor="start">Formare primara</text>
+<rect class="cycle12" x="433.3" y="600.0" width="263.3" height="54.0" rx="12"/>
+<text class="band-title" x="443.3" y="622.0" text-anchor="start">C2 2010-2021</text>
+<text class="band-detail" x="443.3" y="642.0" text-anchor="start">Explorare si autonomie</text>
+<rect class="cycle12" x="696.5" y="600.0" width="263.3" height="54.0" rx="12"/>
+<text class="band-title" x="706.5" y="622.0" text-anchor="start">C3 2022-2033</text>
+<text class="band-detail" x="706.5" y="642.0" text-anchor="start">Constructie identitara</text>
+<rect class="cycle12" x="959.8" y="600.0" width="263.3" height="54.0" rx="12"/>
+<text class="band-title" x="969.8" y="622.0" text-anchor="start">C4 2034-2045</text>
+<text class="band-detail" x="969.8" y="642.0" text-anchor="start">Expansiune si impact</text>
+<rect class="cycle12" x="1223.1" y="600.0" width="263.3" height="54.0" rx="12"/>
+<text class="band-title" x="1233.1" y="622.0" text-anchor="start">C5 2046-2057</text>
+<text class="band-detail" x="1233.1" y="642.0" text-anchor="start">Autoritate si transmitere</text>
+<rect class="cycle12" x="1486.3" y="600.0" width="263.3" height="54.0" rx="12"/>
+<text class="band-title" x="1496.3" y="622.0" text-anchor="start">C6 2058-2069</text>
+<text class="band-detail" x="1496.3" y="642.0" text-anchor="start">Intelepciune aplicata</text>
+<rect class="cycle12" x="1749.6" y="600.0" width="263.3" height="54.0" rx="12"/>
+<text class="band-title" x="1759.6" y="622.0" text-anchor="start">C7 2070-2081</text>
+<text class="band-detail" x="1759.6" y="642.0" text-anchor="start">Sinteza si eliberare</text>
+<line class="jupiter" x1="433.3" y1="588.0" x2="433.3" y2="670.0"/>
+<circle class="jupiter-dot" cx="433.3" cy="588.0" r="8"/>
+<text class="jupiter-label" x="433.3" y="576.0" text-anchor="middle">12</text>
+<text class="jupiter-small" x="433.3" y="688.0" text-anchor="middle">2010</text>
+<line class="jupiter" x1="696.5" y1="588.0" x2="696.5" y2="670.0"/>
+<circle class="jupiter-dot" cx="696.5" cy="588.0" r="8"/>
+<text class="jupiter-label" x="696.5" y="576.0" text-anchor="middle">24</text>
+<text class="jupiter-small" x="696.5" y="688.0" text-anchor="middle">2022</text>
+<line class="jupiter" x1="959.8" y1="588.0" x2="959.8" y2="670.0"/>
+<circle class="jupiter-dot" cx="959.8" cy="588.0" r="8"/>
+<text class="jupiter-label" x="959.8" y="576.0" text-anchor="middle">36</text>
+<text class="jupiter-small" x="959.8" y="688.0" text-anchor="middle">2034</text>
+<line class="jupiter" x1="1223.1" y1="588.0" x2="1223.1" y2="670.0"/>
+<circle class="jupiter-dot" cx="1223.1" cy="588.0" r="8"/>
+<text class="jupiter-label" x="1223.1" y="576.0" text-anchor="middle">48</text>
+<text class="jupiter-small" x="1223.1" y="688.0" text-anchor="middle">2046</text>
+<line class="jupiter" x1="1486.3" y1="588.0" x2="1486.3" y2="670.0"/>
+<circle class="jupiter-dot" cx="1486.3" cy="588.0" r="8"/>
+<text class="jupiter-label" x="1486.3" y="576.0" text-anchor="middle">60</text>
+<text class="jupiter-small" x="1486.3" y="688.0" text-anchor="middle">2058</text>
+<text class="section-label" x="70.0" y="725.0" text-anchor="start">Ciclul 7 ani</text>
+<rect class="cycle7" x="170.0" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="180.0" y="722.0" text-anchor="start">C1 0-7</text>
+<text class="band-detail" x="180.0" y="742.0" text-anchor="start">1/8 -&gt; 9</text>
+<line class="crisis" x1="246.8" y1="690.0" x2="246.8" y2="770.0"/>
+<circle class="crisis-dot" cx="246.8" cy="690.0" r="8"/>
+<text class="crisis-label" x="246.8" y="678.0" text-anchor="middle">3.5</text>
+<text class="crisis-small" x="246.8" y="788.0" text-anchor="middle">2001</text>
+<rect class="cycle7" x="323.6" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="333.6" y="722.0" text-anchor="start">C2 7-14</text>
+<text class="band-detail" x="333.6" y="742.0" text-anchor="start">2/6 -&gt; 8</text>
+<line class="crisis" x1="400.4" y1="690.0" x2="400.4" y2="770.0"/>
+<circle class="crisis-dot" cx="400.4" cy="690.0" r="8"/>
+<text class="crisis-label" x="400.4" y="678.0" text-anchor="middle">10.5</text>
+<text class="crisis-small" x="400.4" y="788.0" text-anchor="middle">2008</text>
+<rect class="cycle7" x="477.1" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="487.1" y="722.0" text-anchor="start">C3 14-21</text>
+<text class="band-detail" x="487.1" y="742.0" text-anchor="start">3/10 -&gt; 4</text>
+<line class="crisis" x1="553.9" y1="690.0" x2="553.9" y2="770.0"/>
+<circle class="crisis-dot" cx="553.9" cy="690.0" r="8"/>
+<text class="crisis-label" x="553.9" y="678.0" text-anchor="middle">17.5</text>
+<text class="crisis-small" x="553.9" y="788.0" text-anchor="middle">2015</text>
+<rect class="cycle7" x="630.7" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="640.7" y="722.0" text-anchor="start">C4 21-28</text>
+<text class="band-detail" x="640.7" y="742.0" text-anchor="start">4/11 -&gt; 6</text>
+<line class="crisis" x1="707.5" y1="690.0" x2="707.5" y2="770.0"/>
+<circle class="crisis-dot" cx="707.5" cy="690.0" r="8"/>
+<text class="crisis-label" x="707.5" y="678.0" text-anchor="middle">24.5</text>
+<text class="crisis-small" x="707.5" y="788.0" text-anchor="middle">2022</text>
+<rect class="cycle7" x="784.3" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="794.3" y="722.0" text-anchor="start">C5 28-35</text>
+<text class="band-detail" x="794.3" y="742.0" text-anchor="start">5/9 -&gt; 5</text>
+<line class="crisis" x1="861.1" y1="690.0" x2="861.1" y2="770.0"/>
+<circle class="crisis-dot" cx="861.1" cy="690.0" r="8"/>
+<text class="crisis-label" x="861.1" y="678.0" text-anchor="middle">31.5</text>
+<text class="crisis-small" x="861.1" y="788.0" text-anchor="middle">2029</text>
+<rect class="cycle7" x="937.9" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="947.9" y="722.0" text-anchor="start">C6 35-42</text>
+<text class="band-detail" x="947.9" y="742.0" text-anchor="start">3/7 -&gt; 1</text>
+<line class="crisis" x1="1014.6" y1="690.0" x2="1014.6" y2="770.0"/>
+<circle class="crisis-dot" cx="1014.6" cy="690.0" r="8"/>
+<text class="crisis-label" x="1014.6" y="678.0" text-anchor="middle">38.5</text>
+<text class="crisis-small" x="1014.6" y="788.0" text-anchor="middle">2036</text>
+<rect class="cycle7" x="1091.4" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="1101.4" y="722.0" text-anchor="start">C7 42-49</text>
+<text class="band-detail" x="1101.4" y="742.0" text-anchor="start">1/5 -&gt; 6</text>
+<line class="crisis" x1="1168.2" y1="690.0" x2="1168.2" y2="770.0"/>
+<circle class="crisis-dot" cx="1168.2" cy="690.0" r="8"/>
+<text class="crisis-label" x="1168.2" y="678.0" text-anchor="middle">45.5</text>
+<text class="crisis-small" x="1168.2" y="788.0" text-anchor="middle">2043</text>
+<rect class="cycle7" x="1245.0" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="1255.0" y="722.0" text-anchor="start">C8 49-56</text>
+<text class="band-detail" x="1255.0" y="742.0" text-anchor="start">1/8 -&gt; 9</text>
+<line class="crisis" x1="1321.8" y1="690.0" x2="1321.8" y2="770.0"/>
+<circle class="crisis-dot" cx="1321.8" cy="690.0" r="8"/>
+<text class="crisis-label" x="1321.8" y="678.0" text-anchor="middle">52.5</text>
+<text class="crisis-small" x="1321.8" y="788.0" text-anchor="middle">2050</text>
+<rect class="cycle7" x="1398.6" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="1408.6" y="722.0" text-anchor="start">C9 56-63</text>
+<text class="band-detail" x="1408.6" y="742.0" text-anchor="start">2/6 -&gt; 8</text>
+<line class="crisis" x1="1475.4" y1="690.0" x2="1475.4" y2="770.0"/>
+<circle class="crisis-dot" cx="1475.4" cy="690.0" r="8"/>
+<text class="crisis-label" x="1475.4" y="678.0" text-anchor="middle">59.5</text>
+<text class="crisis-small" x="1475.4" y="788.0" text-anchor="middle">2057</text>
+<rect class="cycle7" x="1552.1" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="1562.1" y="722.0" text-anchor="start">C10 63-70</text>
+<text class="band-detail" x="1562.1" y="742.0" text-anchor="start">3/10 -&gt; 4</text>
+<line class="crisis" x1="1628.9" y1="690.0" x2="1628.9" y2="770.0"/>
+<circle class="crisis-dot" cx="1628.9" cy="690.0" r="8"/>
+<text class="crisis-label" x="1628.9" y="678.0" text-anchor="middle">66.5</text>
+<text class="crisis-small" x="1628.9" y="788.0" text-anchor="middle">2064</text>
+<rect class="cycle7" x="1705.7" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="1715.7" y="722.0" text-anchor="start">C11 70-77</text>
+<text class="band-detail" x="1715.7" y="742.0" text-anchor="start">4/11 -&gt; 6</text>
+<line class="crisis" x1="1782.5" y1="690.0" x2="1782.5" y2="770.0"/>
+<circle class="crisis-dot" cx="1782.5" cy="690.0" r="8"/>
+<text class="crisis-label" x="1782.5" y="678.0" text-anchor="middle">73.5</text>
+<text class="crisis-small" x="1782.5" y="788.0" text-anchor="middle">2071</text>
+<rect class="cycle7" x="1859.3" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="1869.3" y="722.0" text-anchor="start">C12 77-84</text>
+<text class="band-detail" x="1869.3" y="742.0" text-anchor="start">5/9 -&gt; 5</text>
+<line class="crisis" x1="1936.1" y1="690.0" x2="1936.1" y2="770.0"/>
+<circle class="crisis-dot" cx="1936.1" cy="690.0" r="8"/>
+<text class="crisis-label" x="1936.1" y="678.0" text-anchor="middle">80.5</text>
+<text class="crisis-small" x="1936.1" y="788.0" text-anchor="middle">2078</text>
+<rect class="cycle7" x="2012.9" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="2022.9" y="722.0" text-anchor="start">C13 84-91</text>
+<text class="band-detail" x="2022.9" y="742.0" text-anchor="start">3/7 -&gt; 1</text>
+<line class="crisis" x1="2089.6" y1="690.0" x2="2089.6" y2="770.0"/>
+<circle class="crisis-dot" cx="2089.6" cy="690.0" r="8"/>
+<text class="crisis-label" x="2089.6" y="678.0" text-anchor="middle">87.5</text>
+<text class="crisis-small" x="2089.6" y="788.0" text-anchor="middle">2085</text>
+<rect class="cycle7" x="2166.4" y="700.0" width="153.6" height="54.0" rx="12"/>
+<text class="band-title" x="2176.4" y="722.0" text-anchor="start">C14 91-98</text>
+<text class="band-detail" x="2176.4" y="742.0" text-anchor="start">1/5 -&gt; 6</text>
+<line class="crisis" x1="2243.2" y1="690.0" x2="2243.2" y2="770.0"/>
+<circle class="crisis-dot" cx="2243.2" cy="690.0" r="8"/>
+<text class="crisis-label" x="2243.2" y="678.0" text-anchor="middle">94.5</text>
+<text class="crisis-small" x="2243.2" y="788.0" text-anchor="middle">2092</text>
+<text class="section-label" x="70.0" y="855.0" text-anchor="start">Ciclul 9 ani</text>
+<rect class="cycle9" x="784.3" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="794.3" y="852.0" text-anchor="start">2026</text>
+<text class="band-detail" x="794.3" y="872.0" text-anchor="start">AP 4 / L 2</text>
+<rect class="cycle9" x="806.2" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="816.2" y="852.0" text-anchor="start">2027</text>
+<text class="band-detail" x="816.2" y="872.0" text-anchor="start">AP 5 / L 4</text>
+<rect class="cycle9" x="828.2" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="838.2" y="852.0" text-anchor="start">2028</text>
+<text class="band-detail" x="838.2" y="872.0" text-anchor="start">AP 6 / L 7</text>
+<rect class="cycle9" x="850.1" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="860.1" y="852.0" text-anchor="start">2029</text>
+<text class="band-detail" x="860.1" y="872.0" text-anchor="start">AP 7 / L 5</text>
+<rect class="cycle9" x="872.0" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="882.0" y="852.0" text-anchor="start">2030</text>
+<text class="band-detail" x="882.0" y="872.0" text-anchor="start">AP 8 / L 9</text>
+<rect class="cycle9" x="894.0" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="904.0" y="852.0" text-anchor="start">2031</text>
+<text class="band-detail" x="904.0" y="872.0" text-anchor="start">AP 9 / L 2</text>
+<rect class="cycle9" x="915.9" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="925.9" y="852.0" text-anchor="start">2032</text>
+<text class="band-detail" x="925.9" y="872.0" text-anchor="start">AP 1 / L 4</text>
+<rect class="cycle9" x="937.9" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="947.9" y="852.0" text-anchor="start">2033</text>
+<text class="band-detail" x="947.9" y="872.0" text-anchor="start">AP 2 / L 7</text>
+<rect class="cycle9" x="959.8" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="969.8" y="852.0" text-anchor="start">2034</text>
+<text class="band-detail" x="969.8" y="872.0" text-anchor="start">AP 3 / L 5</text>
+<rect class="cycle9" x="981.7" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="991.7" y="852.0" text-anchor="start">2035</text>
+<text class="band-detail" x="991.7" y="872.0" text-anchor="start">AP 4 / L 9</text>
+<rect class="cycle9" x="1003.7" y="830.0" width="21.9" height="54.0" rx="12"/>
+<text class="band-title" x="1013.7" y="852.0" text-anchor="start">2036</text>
+<text class="band-detail" x="1013.7" y="872.0" text-anchor="start">AP 5 / L 2</text>
+<text class="label" x="784.3" y="910.0" text-anchor="start">interval calculat explicit in lucrare: 2026-2036</text>
+<text class="section-label" x="70.0" y="995.0" text-anchor="start">Ani importanti</text>
+<line class="important" x1="564.9" y1="960.0" x2="564.9" y2="1080.0"/>
+<circle class="important-dot" cx="564.9" cy="960.0" r="8"/>
+<text class="important-label" x="564.9" y="948.0" text-anchor="middle">2016</text>
+<text class="important-small" x="564.9" y="1098.0" text-anchor="middle">18 ani / I</text>
+<line class="important" x1="762.3" y1="960.0" x2="762.3" y2="1080.0"/>
+<circle class="important-dot" cx="762.3" cy="960.0" r="8"/>
+<text class="important-label" x="762.3" y="948.0" text-anchor="middle">2025</text>
+<text class="important-small" x="762.3" y="1098.0" text-anchor="middle">27 ani / I+E</text>
+<line class="important" x1="959.8" y1="960.0" x2="959.8" y2="1080.0"/>
+<circle class="important-dot" cx="959.8" cy="960.0" r="8"/>
+<text class="important-label" x="959.8" y="948.0" text-anchor="middle">2034</text>
+<text class="important-small" x="959.8" y="1098.0" text-anchor="middle">36 ani / I+E</text>
+<line class="important" x1="1157.2" y1="960.0" x2="1157.2" y2="1080.0"/>
+<circle class="important-dot" cx="1157.2" cy="960.0" r="8"/>
+<text class="important-label" x="1157.2" y="948.0" text-anchor="middle">2043</text>
+<text class="important-small" x="1157.2" y="1098.0" text-anchor="middle">45 ani / I+E</text>
+<text class="section-label" x="70.0" y="1160.0" text-anchor="start">Citire sintetica</text>
+<text class="label" x="170.0" y="1160.0" text-anchor="start">28-35 ani: suprapunere activa intre pinaclul 1 spre 2, ciclul 7 C5, ciclul 12 C3 si anii personali 2026-2033.</text>
+<text class="label" x="170.0" y="1190.0" text-anchor="start">2029 / 31,5 ani: criza ciclului de 7 ani cade in intervalul de schimbare din ciclul de 9 ani.</text>
+<text class="label" x="170.0" y="1220.0" text-anchor="start">2034 / 36 ani: prag comun important; se intalnesc ciclul de 9 ani, ciclul de 12 ani si anul interior/exterior.</text>
+<text class="label" x="170.0" y="1250.0" text-anchor="start">Linia destinului nu inlocuieste ciclurile; ea este baza peste care se citesc ritmurile de maturizare si oportunitate.</text>
+<rect class="panel" x="1660.0" y="1145.0" width="620.0" height="210.0" rx="14"/>
+<text class="legend-title" x="1685.0" y="1180.0" text-anchor="start">Legenda</text>
+<rect x="1685" y="1199" width="16" height="16" rx="3" fill="#c56f2d"/>
+<text class="legend-text" x="1712.0" y="1212.0" text-anchor="start">Linia Soartei</text>
+<rect x="1685" y="1219" width="16" height="16" rx="3" fill="#0f6a70"/>
+<text class="legend-text" x="1712.0" y="1232.0" text-anchor="start">Linia Destinului</text>
+<rect x="1685" y="1239" width="16" height="16" rx="3" fill="#f2c14e"/>
+<text class="legend-text" x="1712.0" y="1252.0" text-anchor="start">Pinacluri: oportunitate / provocare</text>
+<rect x="1685" y="1259" width="16" height="16" rx="3" fill="#9cc9c1"/>
+<text class="legend-text" x="1712.0" y="1272.0" text-anchor="start">Cicluri de 12 ani</text>
+<rect x="1685" y="1279" width="16" height="16" rx="3" fill="#d9b6df"/>
+<text class="legend-text" x="1712.0" y="1292.0" text-anchor="start">Cicluri de 7 ani si crize</text>
+<rect x="1685" y="1299" width="16" height="16" rx="3" fill="#f7a072"/>
+<text class="legend-text" x="1712.0" y="1312.0" text-anchor="start">Ani personali in ciclul de 9 ani</text>
+<rect x="1685" y="1319" width="16" height="16" rx="3" fill="#263b8f"/>
+<text class="legend-text" x="1712.0" y="1332.0" text-anchor="start">Ani importanti interiori / exteriori</text>
+<text class="axis-label" x="2290.0" y="1428.0" text-anchor="end">Atlas Numerologie</text>
+</svg>

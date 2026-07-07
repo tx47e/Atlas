@@ -26,15 +26,38 @@
       <text x="180" y="312" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#7a6558">6</text>
       <text x="300" y="312" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#7a6558">9</text>
     </g>
-    <polyline id="signature-path" points="60,60 300,300 60,300 60,180 60,60 300,300 300,300 300,60 300,300 60,300 60,300 60,60 60,300 300,60" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="signature-path" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="60" y1="60" x2="300" y2="300" stroke-width="12"/>
+      <line x1="300" y1="300" x2="60" y2="180" stroke-width="7"/>
+      <line x1="60" y1="180" x2="60" y2="60" stroke-width="7"/>
+      <circle cx="60" cy="60" r="24" stroke-width="5"/>
+      <circle cx="300" cy="300" r="24" stroke-width="5"/>
+      <line x1="300" y1="300" x2="300" y2="180" stroke-width="7"/>
+      <line x1="300" y1="180" x2="60" y2="300" stroke-width="7"/>
+      <line x1="60" y1="300" x2="300" y2="300" stroke-width="12"/>
+      <circle cx="60" cy="300" r="24" stroke-width="5"/>
+      <line x1="60" y1="300" x2="300" y2="60" stroke-width="7"/>
+      <line x1="300" y1="60" x2="60" y2="60" stroke-width="7"/>
+    </g>
   </defs>
 
   <g transform="translate(120 160)">
     <text x="180" y="-24" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#3d2c22">Forma de baza</text>
     <use href="#pitagora-grid"/>
-    <use href="#signature-path" stroke="#b11f2a" stroke-width="8" marker-end="url(#arrow-red)"/>
+    <use href="#signature-path" stroke="#b11f2a"/>
     <circle cx="60" cy="60" r="14" fill="#0f7f85" stroke="#fffdf8" stroke-width="4"/>
     <text x="60" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f7f85">start / centru</text>
+    <g font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">
+      <rect x="32" y="32" width="24" height="20" rx="10" fill="#fffdf8" stroke="#b11f2a"/><text x="44" y="47" fill="#b11f2a">1</text>
+      <rect x="304" y="304" width="24" height="20" rx="10" fill="#fffdf8" stroke="#b11f2a"/><text x="316" y="319" fill="#b11f2a">2</text>
+      <rect x="32" y="170" width="24" height="20" rx="10" fill="#fffdf8" stroke="#b11f2a"/><text x="44" y="185" fill="#b11f2a">3</text>
+      <rect x="62" y="32" width="30" height="20" rx="10" fill="#fffdf8" stroke="#b11f2a"/><text x="77" y="47" fill="#b11f2a">4/5</text>
+      <rect x="270" y="304" width="30" height="20" rx="10" fill="#fffdf8" stroke="#b11f2a"/><text x="285" y="319" fill="#b11f2a">6/7</text>
+      <rect x="304" y="170" width="24" height="20" rx="10" fill="#fffdf8" stroke="#b11f2a"/><text x="316" y="185" fill="#b11f2a">8</text>
+      <rect x="18" y="304" width="54" height="20" rx="10" fill="#fffdf8" stroke="#b11f2a"/><text x="45" y="319" fill="#b11f2a">9/11/12</text>
+      <rect x="302" y="32" width="30" height="20" rx="10" fill="#fffdf8" stroke="#b11f2a"/><text x="317" y="47" fill="#b11f2a">13</text>
+      <rect x="78" y="32" width="30" height="20" rx="10" fill="#fffdf8" stroke="#b11f2a"/><text x="93" y="47" fill="#b11f2a">14</text>
+    </g>
   </g>
 
   <g transform="translate(700 160)">

@@ -1,375 +1,445 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1500" viewBox="0 0 2400 1500">
-  <title>Harta suprapusa Soarta, Destin si cicluri - Birsan Daniel Robert</title>
-  <desc>Grafic sintetic amplu care suprapune Soarta si Destin cu ciclurile de 9, 7 si 12 ani, anii importanti si pinaclurile.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1080" viewBox="0 0 1900 1080">
+  <title>Harta suprapusa soarta-destin-ciclicitati - Birsan Daniel Robert</title>
+  <desc>Grafic suprapus cu Soarta, Destin, zona de confort, ani interior/exterior si cicluri de 7, 9 si 12 ani.</desc>
   <defs>
     <style>
       .bg { fill: #f7efe3; }
-      .panel { fill: #fffaf2; stroke: #d8c5aa; stroke-width: 2; }
-      .title { font-family: Arial, Helvetica, sans-serif; font-size: 38px; font-weight: 800; fill: #27231f; }
-      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700; fill: #66594b; }
-      .section-label { font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 800; fill: #3b332b; }
-      .axis-label { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #5d5145; }
-      .label { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #3f372f; }
-      .band-title { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 800; fill: #1f1f1f; }
-      .band-detail { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 700; fill: #4a4138; }
-      .grid { stroke: #dccbb5; stroke-width: 1; }
-      .major-grid { stroke: #bca78d; stroke-width: 2; }
-      .chart-grid { stroke: #ddcdb8; stroke-width: 1; }
-      .fate-line { fill: none; stroke: #c56f2d; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
-      .destiny-line { fill: none; stroke: #0f6a70; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
-      .fate-dot { fill: #c56f2d; stroke: #fffaf2; stroke-width: 3; }
-      .destiny-dot { fill: #0f6a70; stroke: #fffaf2; stroke-width: 3; }
-      .meet-dot { fill: #2e2b27; stroke: #fffaf2; stroke-width: 3; }
-      .point-label { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 900; fill: #1f1f1f; }
-      .pinacle { fill: #f2c14e; stroke: #8f6b12; stroke-width: 1.5; opacity: .88; }
-      .cycle12 { fill: #9cc9c1; stroke: #356f69; stroke-width: 1.5; opacity: .9; }
-      .cycle7 { fill: #d9b6df; stroke: #7c4d86; stroke-width: 1.3; opacity: .86; }
-      .cycle9 { fill: #f7a072; stroke: #9f4d29; stroke-width: 1.2; opacity: .9; }
-      .crisis { stroke: #7c1f1f; stroke-width: 2.5; stroke-dasharray: 8 5; }
-      .crisis-dot { fill: #7c1f1f; stroke: #fffaf2; stroke-width: 2; }
-      .crisis-label { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 800; fill: #7c1f1f; }
-      .crisis-small { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 700; fill: #7c1f1f; }
-      .important { stroke: #263b8f; stroke-width: 3; }
-      .important-dot { fill: #263b8f; stroke: #fffaf2; stroke-width: 2; }
-      .important-label { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 900; fill: #263b8f; }
-      .important-small { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 800; fill: #263b8f; }
-      .jupiter { stroke: #2f7d32; stroke-width: 2.5; stroke-dasharray: 4 5; }
-      .jupiter-dot { fill: #2f7d32; stroke: #fffaf2; stroke-width: 2; }
-      .jupiter-label { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 900; fill: #2f7d32; }
-      .jupiter-small { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 800; fill: #2f7d32; }
-      .legend-title { font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 900; fill: #27231f; }
-      .legend-text { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 700; fill: #4f453b; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 800; fill: #293238; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 800; fill: #35434a; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 700; fill: #333; }
+      .axis-y { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 800; fill: #2b2119; }
+      .axis-x { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; fill: #222; }
+      .axis-name { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 900; fill: #2b2119; }
+      .grid { stroke: #c9d0d2; stroke-width: 1; stroke-dasharray: 6 4; }
+      .major-y, .major-x { stroke: #aeb7bb; stroke-width: 1.4; }
+      .axis { stroke: #111; stroke-width: 3; }
+      .axis-light { stroke: #111; stroke-width: 2; }
+      .comfort { stroke-width: 4; stroke-dasharray: 18 12; opacity: .75; }
+      .comfort-green { stroke: #22b14c; }
+      .comfort-red { stroke: #ff1616; }
+      .fate-line { fill: none; stroke: #22b14c; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .destiny-line { fill: none; stroke: #ff1616; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .fate-dot { fill: #22b14c; stroke: #fff; stroke-width: 2; }
+      .destiny-dot { fill: #ff1616; stroke: #fff; stroke-width: 2; }
+      .meet-dot { fill: #fff; stroke: #333; stroke-width: 2.5; }
+      .point-value { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 900; paint-order: stroke; stroke: #fff; stroke-width: 3px; }
+      .green-text { fill: #22b14c; }
+      .red-text { fill: #ff1616; }
+      .orange { stroke: #ff9800; stroke-width: 2; opacity: .72; }
+      .orange-dot { fill: #ff9800; }
+      .orange-label, .orange-small { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 800; fill: #ff9800; }
+      .cycle7-line { stroke-width: 1.4; opacity: .42; }
+      .cycle7-triangle { fill: #ff9800; stroke: #ff9800; stroke-width: 2; vector-effect: non-scaling-stroke; }
+      .cycle7-top-label { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 900; fill: #ff9800; paint-order: stroke; stroke: #fff3de; stroke-width: 2px; }
+      .cycle7-year { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 900; fill: #ff9800; paint-order: stroke; stroke: #fff3de; stroke-width: 2px; }
+      .triangle-number { font-family: Arial, Helvetica, sans-serif; font-size: 8.5px; font-weight: 900; fill: #fff; dominant-baseline: middle; alignment-baseline: middle; pointer-events: none; }
+      .interior { stroke: #ff1616; stroke-width: 2.2; opacity: .78; }
+      .interior-dot { fill: #ff1616; }
+      .interior-label, .interior-small { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 900; fill: #ff1616; }
+      .exterior { stroke: #22b14c; stroke-width: 2.2; opacity: .78; }
+      .exterior-dot { fill: #22b14c; }
+      .exterior-label, .exterior-small { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 900; fill: #22b14c; }
+      .year-link { stroke: #7a858c; stroke-width: 1.5; opacity: .62; stroke-dasharray: 4 4; }
+      .crisis { stroke: #ff9800; stroke-width: 1.8; opacity: .64; }
+      .crisis-dot { fill: #ff9800; }
+      .crisis-label, .crisis-small { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 800; fill: #ff9800; }
+      .crisis-triangle { fill: none; stroke: #ff9800; stroke-width: 2; vector-effect: non-scaling-stroke; }
+      .crisis-top-label { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 900; fill: #ff9800; paint-order: stroke; stroke: #fff3de; stroke-width: 2px; }
+      .crisis-number { fill: #ff9800; stroke: #fff3de; stroke-width: 1.5px; paint-order: stroke; }
+      .pill-title { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 900; fill: #222; }
+      .pill-detail { font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-weight: 700; fill: #333; }
+      .pill7 { fill: #ff9800; stroke: #e07400; stroke-width: 1; }
+      .pill9 { fill: #ead3dc; stroke: #d59bb0; stroke-width: 1; }
+      .pill12 { fill: #cfe4f6; stroke: #98c6e8; stroke-width: 1; }
+      .pill-pinacle { fill: #efe4a8; stroke: #b9a44a; stroke-width: 1; }
+      .opportunity-line { fill: none; stroke: #8e44ad; stroke-width: 2.4; opacity: .82; }
+      .challenge-line { fill: none; stroke: #1f8fbf; stroke-width: 2.4; opacity: .78; }
+      .opportunity-dot { fill: #8e44ad; stroke: #fff; stroke-width: 1.5; }
+      .challenge-dot { fill: #1f8fbf; stroke: #fff; stroke-width: 1.5; }
+      .opportunity-label { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 900; fill: #8e44ad; paint-order: stroke; stroke: #fff; stroke-width: 2px; }
+      .challenge-label { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 900; fill: #1f8fbf; paint-order: stroke; stroke: #fff; stroke-width: 2px; }
+      .row-label { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 800; }
+      .legend { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 800; fill: #222; }
+      .watermark { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #aaa; font-weight: 800; }
     </style>
   </defs>
-
-<rect class="bg" width="2400" height="1500"/>
-<rect class="panel" x="40" y="35" width="2320" height="1415" rx="18"/>
-<text class="title" x="70.0" y="82.0" text-anchor="start">Harta suprapusa: Soarta, Destin si cicluri</text>
-<text class="subtitle" x="70.0" y="112.0" text-anchor="start">Birsan Daniel Robert | 19.02.1998 | baza: Soarta 3800196 si Destin grafic 3820176</text>
-<line class="grid" x1="170.0" y1="128.0" x2="170.0" y2="1375.0"/>
-<line class="grid" x1="323.6" y1="128.0" x2="323.6" y2="1375.0"/>
-<line class="grid" x1="477.1" y1="128.0" x2="477.1" y2="1375.0"/>
-<line class="grid" x1="630.7" y1="128.0" x2="630.7" y2="1375.0"/>
-<line class="grid" x1="784.3" y1="128.0" x2="784.3" y2="1375.0"/>
-<line class="grid" x1="937.9" y1="128.0" x2="937.9" y2="1375.0"/>
-<line class="grid" x1="1091.4" y1="128.0" x2="1091.4" y2="1375.0"/>
-<line class="grid" x1="1245.0" y1="128.0" x2="1245.0" y2="1375.0"/>
-<line class="grid" x1="1398.6" y1="128.0" x2="1398.6" y2="1375.0"/>
-<line class="grid" x1="1552.1" y1="128.0" x2="1552.1" y2="1375.0"/>
-<line class="grid" x1="1705.7" y1="128.0" x2="1705.7" y2="1375.0"/>
-<line class="grid" x1="1859.3" y1="128.0" x2="1859.3" y2="1375.0"/>
-<line class="grid" x1="2012.9" y1="128.0" x2="2012.9" y2="1375.0"/>
-<line class="grid" x1="2166.4" y1="128.0" x2="2166.4" y2="1375.0"/>
-<line class="grid" x1="2320.0" y1="128.0" x2="2320.0" y2="1375.0"/>
-<line class="major-grid" x1="170.0" y1="128.0" x2="170.0" y2="1375.0"/>
-<line class="major-grid" x1="477.1" y1="128.0" x2="477.1" y2="1375.0"/>
-<line class="major-grid" x1="784.3" y1="128.0" x2="784.3" y2="1375.0"/>
-<line class="major-grid" x1="1091.4" y1="128.0" x2="1091.4" y2="1375.0"/>
-<line class="major-grid" x1="1398.6" y1="128.0" x2="1398.6" y2="1375.0"/>
-<line class="major-grid" x1="1705.7" y1="128.0" x2="1705.7" y2="1375.0"/>
-<line class="major-grid" x1="2012.9" y1="128.0" x2="2012.9" y2="1375.0"/>
-<line class="major-grid" x1="2320.0" y1="128.0" x2="2320.0" y2="1375.0"/>
-<text class="axis-label" x="170.0" y="1405.0" text-anchor="middle">0</text>
-<text class="axis-label" x="323.6" y="1405.0" text-anchor="middle">7</text>
-<text class="axis-label" x="477.1" y="1405.0" text-anchor="middle">14</text>
-<text class="axis-label" x="630.7" y="1405.0" text-anchor="middle">21</text>
-<text class="axis-label" x="784.3" y="1405.0" text-anchor="middle">28</text>
-<text class="axis-label" x="937.9" y="1405.0" text-anchor="middle">35</text>
-<text class="axis-label" x="1091.4" y="1405.0" text-anchor="middle">42</text>
-<text class="axis-label" x="1245.0" y="1405.0" text-anchor="middle">49</text>
-<text class="axis-label" x="1398.6" y="1405.0" text-anchor="middle">56</text>
-<text class="axis-label" x="1552.1" y="1405.0" text-anchor="middle">63</text>
-<text class="axis-label" x="1705.7" y="1405.0" text-anchor="middle">70</text>
-<text class="axis-label" x="1859.3" y="1405.0" text-anchor="middle">77</text>
-<text class="axis-label" x="2012.9" y="1405.0" text-anchor="middle">84</text>
-<text class="axis-label" x="2166.4" y="1405.0" text-anchor="middle">91</text>
-<text class="axis-label" x="2320.0" y="1405.0" text-anchor="middle">98</text>
-<text class="axis-label" x="170.0" y="1430.0" text-anchor="middle">varsta</text>
-<text class="section-label" x="70.0" y="175.0" text-anchor="start">Soarta / Destin</text>
-<line class="chart-grid" x1="170.0" y1="430.0" x2="1705.7" y2="430.0"/>
-<text class="axis-label" x="138.0" y="435.0" text-anchor="end">0</text>
-<line class="chart-grid" x1="170.0" y1="396.7" x2="1705.7" y2="396.7"/>
-<text class="axis-label" x="138.0" y="401.7" text-anchor="end">1</text>
-<line class="chart-grid" x1="170.0" y1="363.3" x2="1705.7" y2="363.3"/>
-<text class="axis-label" x="138.0" y="368.3" text-anchor="end">2</text>
-<line class="chart-grid" x1="170.0" y1="330.0" x2="1705.7" y2="330.0"/>
-<text class="axis-label" x="138.0" y="335.0" text-anchor="end">3</text>
-<line class="chart-grid" x1="170.0" y1="296.7" x2="1705.7" y2="296.7"/>
-<text class="axis-label" x="138.0" y="301.7" text-anchor="end">4</text>
-<line class="chart-grid" x1="170.0" y1="263.3" x2="1705.7" y2="263.3"/>
-<text class="axis-label" x="138.0" y="268.3" text-anchor="end">5</text>
-<line class="chart-grid" x1="170.0" y1="230.0" x2="1705.7" y2="230.0"/>
-<text class="axis-label" x="138.0" y="235.0" text-anchor="end">6</text>
-<line class="chart-grid" x1="170.0" y1="196.7" x2="1705.7" y2="196.7"/>
-<text class="axis-label" x="138.0" y="201.7" text-anchor="end">7</text>
-<line class="chart-grid" x1="170.0" y1="163.3" x2="1705.7" y2="163.3"/>
-<text class="axis-label" x="138.0" y="168.3" text-anchor="end">8</text>
-<line class="chart-grid" x1="170.0" y1="130.0" x2="1705.7" y2="130.0"/>
-<text class="axis-label" x="138.0" y="135.0" text-anchor="end">9</text>
-<line class="chart-grid" x1="170.0" y1="130.0" x2="170.0" y2="430.0"/>
-<text class="axis-label" x="170.0" y="458.0" text-anchor="middle">0</text>
-<line class="chart-grid" x1="389.4" y1="130.0" x2="389.4" y2="430.0"/>
-<text class="axis-label" x="389.4" y="458.0" text-anchor="middle">10</text>
-<line class="chart-grid" x1="608.8" y1="130.0" x2="608.8" y2="430.0"/>
-<text class="axis-label" x="608.8" y="458.0" text-anchor="middle">20</text>
-<line class="chart-grid" x1="828.2" y1="130.0" x2="828.2" y2="430.0"/>
-<text class="axis-label" x="828.2" y="458.0" text-anchor="middle">30</text>
-<line class="chart-grid" x1="1047.6" y1="130.0" x2="1047.6" y2="430.0"/>
-<text class="axis-label" x="1047.6" y="458.0" text-anchor="middle">40</text>
-<line class="chart-grid" x1="1266.9" y1="130.0" x2="1266.9" y2="430.0"/>
-<text class="axis-label" x="1266.9" y="458.0" text-anchor="middle">50</text>
-<line class="chart-grid" x1="1486.3" y1="130.0" x2="1486.3" y2="430.0"/>
-<text class="axis-label" x="1486.3" y="458.0" text-anchor="middle">60</text>
-<polyline class="fate-line" points="170.0,330.0 389.4,163.3 608.8,430.0 828.2,430.0 1047.6,396.7 1266.9,130.0 1486.3,230.0"/>
-<polyline class="destiny-line" points="170.0,330.0 389.4,163.3 608.8,363.3 828.2,430.0 1047.6,396.7 1266.9,196.7 1486.3,230.0"/>
-<circle class="meet-dot" cx="170.0" cy="330.0" r="10"/>
-<text class="point-label" x="170.0" y="314.0" text-anchor="middle">3</text>
-<circle class="meet-dot" cx="389.4" cy="163.3" r="10"/>
-<text class="point-label" x="389.4" y="147.3" text-anchor="middle">8</text>
-<circle class="fate-dot" cx="608.8" cy="430.0" r="8"/>
-<text class="point-label" x="608.8" y="418.0" text-anchor="middle">0</text>
-<circle class="destiny-dot" cx="608.8" cy="363.3" r="8"/>
-<text class="point-label" x="608.8" y="351.3" text-anchor="middle">2</text>
-<circle class="meet-dot" cx="828.2" cy="430.0" r="10"/>
-<text class="point-label" x="828.2" y="414.0" text-anchor="middle">0</text>
-<circle class="meet-dot" cx="1047.6" cy="396.7" r="10"/>
-<text class="point-label" x="1047.6" y="380.7" text-anchor="middle">1</text>
-<circle class="fate-dot" cx="1266.9" cy="130.0" r="8"/>
-<text class="point-label" x="1266.9" y="118.0" text-anchor="middle">9</text>
-<circle class="destiny-dot" cx="1266.9" cy="196.7" r="8"/>
-<text class="point-label" x="1266.9" y="184.7" text-anchor="middle">7</text>
-<circle class="meet-dot" cx="1486.3" cy="230.0" r="10"/>
-<text class="point-label" x="1486.3" y="214.0" text-anchor="middle">6</text>
-<text class="label" x="970.0" y="165.0" text-anchor="start">Soarta: 3-8-0-0-1-9-6</text>
-<text class="label" x="970.0" y="190.0" text-anchor="start">Destin: 3-8-2-0-1-7-6</text>
-<text class="label" x="970.0" y="215.0" text-anchor="start">Puncte comune: 0, 10, 30, 40, 60 ani</text>
-<text class="label" x="970.0" y="240.0" text-anchor="start">Rascruce vizibila: 20 si 50 ani</text>
-<text class="section-label" x="70.0" y="525.0" text-anchor="start">Pinacluri</text>
-<rect class="pinacle" x="170.0" y="500.0" width="724.0" height="54.0" rx="12"/>
-<text class="band-title" x="180.0" y="522.0" text-anchor="start">P1</text>
-<text class="band-detail" x="180.0" y="542.0" text-anchor="start">Oportunitate 3 / Provocare 1</text>
-<rect class="pinacle" x="915.9" y="500.0" width="175.5" height="54.0" rx="12"/>
-<text class="band-title" x="925.9" y="522.0" text-anchor="start">P2</text>
-<text class="band-detail" x="925.9" y="542.0" text-anchor="start">Oportunitate 1 / Provocare 8</text>
-<rect class="pinacle" x="1113.4" y="500.0" width="175.5" height="54.0" rx="12"/>
-<text class="band-title" x="1123.4" y="522.0" text-anchor="start">P3</text>
-<text class="band-detail" x="1123.4" y="542.0" text-anchor="start">Oportunitate 4 / Provocare 7</text>
-<rect class="pinacle" x="1310.8" y="500.0" width="1009.2" height="54.0" rx="12"/>
-<text class="band-title" x="1320.8" y="522.0" text-anchor="start">P4</text>
-<text class="band-detail" x="1320.8" y="542.0" text-anchor="start">Oportunitate 2 / Provocare 7</text>
-<text class="section-label" x="70.0" y="625.0" text-anchor="start">Ciclul 12 ani</text>
-<rect class="cycle12" x="170.0" y="600.0" width="263.3" height="54.0" rx="12"/>
-<text class="band-title" x="180.0" y="622.0" text-anchor="start">C1 1998-2009</text>
-<text class="band-detail" x="180.0" y="642.0" text-anchor="start">Formare primara</text>
-<rect class="cycle12" x="433.3" y="600.0" width="263.3" height="54.0" rx="12"/>
-<text class="band-title" x="443.3" y="622.0" text-anchor="start">C2 2010-2021</text>
-<text class="band-detail" x="443.3" y="642.0" text-anchor="start">Explorare si autonomie</text>
-<rect class="cycle12" x="696.5" y="600.0" width="263.3" height="54.0" rx="12"/>
-<text class="band-title" x="706.5" y="622.0" text-anchor="start">C3 2022-2033</text>
-<text class="band-detail" x="706.5" y="642.0" text-anchor="start">Constructie identitara</text>
-<rect class="cycle12" x="959.8" y="600.0" width="263.3" height="54.0" rx="12"/>
-<text class="band-title" x="969.8" y="622.0" text-anchor="start">C4 2034-2045</text>
-<text class="band-detail" x="969.8" y="642.0" text-anchor="start">Expansiune si impact</text>
-<rect class="cycle12" x="1223.1" y="600.0" width="263.3" height="54.0" rx="12"/>
-<text class="band-title" x="1233.1" y="622.0" text-anchor="start">C5 2046-2057</text>
-<text class="band-detail" x="1233.1" y="642.0" text-anchor="start">Autoritate si transmitere</text>
-<rect class="cycle12" x="1486.3" y="600.0" width="263.3" height="54.0" rx="12"/>
-<text class="band-title" x="1496.3" y="622.0" text-anchor="start">C6 2058-2069</text>
-<text class="band-detail" x="1496.3" y="642.0" text-anchor="start">Intelepciune aplicata</text>
-<rect class="cycle12" x="1749.6" y="600.0" width="263.3" height="54.0" rx="12"/>
-<text class="band-title" x="1759.6" y="622.0" text-anchor="start">C7 2070-2081</text>
-<text class="band-detail" x="1759.6" y="642.0" text-anchor="start">Sinteza si eliberare</text>
-<line class="jupiter" x1="433.3" y1="588.0" x2="433.3" y2="670.0"/>
-<circle class="jupiter-dot" cx="433.3" cy="588.0" r="8"/>
-<text class="jupiter-label" x="433.3" y="576.0" text-anchor="middle">12</text>
-<text class="jupiter-small" x="433.3" y="688.0" text-anchor="middle">2010</text>
-<line class="jupiter" x1="696.5" y1="588.0" x2="696.5" y2="670.0"/>
-<circle class="jupiter-dot" cx="696.5" cy="588.0" r="8"/>
-<text class="jupiter-label" x="696.5" y="576.0" text-anchor="middle">24</text>
-<text class="jupiter-small" x="696.5" y="688.0" text-anchor="middle">2022</text>
-<line class="jupiter" x1="959.8" y1="588.0" x2="959.8" y2="670.0"/>
-<circle class="jupiter-dot" cx="959.8" cy="588.0" r="8"/>
-<text class="jupiter-label" x="959.8" y="576.0" text-anchor="middle">36</text>
-<text class="jupiter-small" x="959.8" y="688.0" text-anchor="middle">2034</text>
-<line class="jupiter" x1="1223.1" y1="588.0" x2="1223.1" y2="670.0"/>
-<circle class="jupiter-dot" cx="1223.1" cy="588.0" r="8"/>
-<text class="jupiter-label" x="1223.1" y="576.0" text-anchor="middle">48</text>
-<text class="jupiter-small" x="1223.1" y="688.0" text-anchor="middle">2046</text>
-<line class="jupiter" x1="1486.3" y1="588.0" x2="1486.3" y2="670.0"/>
-<circle class="jupiter-dot" cx="1486.3" cy="588.0" r="8"/>
-<text class="jupiter-label" x="1486.3" y="576.0" text-anchor="middle">60</text>
-<text class="jupiter-small" x="1486.3" y="688.0" text-anchor="middle">2058</text>
-<text class="section-label" x="70.0" y="725.0" text-anchor="start">Ciclul 7 ani</text>
-<rect class="cycle7" x="170.0" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="180.0" y="722.0" text-anchor="start">C1 0-7</text>
-<text class="band-detail" x="180.0" y="742.0" text-anchor="start">1/8 -&gt; 9</text>
-<line class="crisis" x1="246.8" y1="690.0" x2="246.8" y2="770.0"/>
-<circle class="crisis-dot" cx="246.8" cy="690.0" r="8"/>
-<text class="crisis-label" x="246.8" y="678.0" text-anchor="middle">3.5</text>
-<text class="crisis-small" x="246.8" y="788.0" text-anchor="middle">2001</text>
-<rect class="cycle7" x="323.6" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="333.6" y="722.0" text-anchor="start">C2 7-14</text>
-<text class="band-detail" x="333.6" y="742.0" text-anchor="start">2/6 -&gt; 8</text>
-<line class="crisis" x1="400.4" y1="690.0" x2="400.4" y2="770.0"/>
-<circle class="crisis-dot" cx="400.4" cy="690.0" r="8"/>
-<text class="crisis-label" x="400.4" y="678.0" text-anchor="middle">10.5</text>
-<text class="crisis-small" x="400.4" y="788.0" text-anchor="middle">2008</text>
-<rect class="cycle7" x="477.1" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="487.1" y="722.0" text-anchor="start">C3 14-21</text>
-<text class="band-detail" x="487.1" y="742.0" text-anchor="start">3/10 -&gt; 4</text>
-<line class="crisis" x1="553.9" y1="690.0" x2="553.9" y2="770.0"/>
-<circle class="crisis-dot" cx="553.9" cy="690.0" r="8"/>
-<text class="crisis-label" x="553.9" y="678.0" text-anchor="middle">17.5</text>
-<text class="crisis-small" x="553.9" y="788.0" text-anchor="middle">2015</text>
-<rect class="cycle7" x="630.7" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="640.7" y="722.0" text-anchor="start">C4 21-28</text>
-<text class="band-detail" x="640.7" y="742.0" text-anchor="start">4/11 -&gt; 6</text>
-<line class="crisis" x1="707.5" y1="690.0" x2="707.5" y2="770.0"/>
-<circle class="crisis-dot" cx="707.5" cy="690.0" r="8"/>
-<text class="crisis-label" x="707.5" y="678.0" text-anchor="middle">24.5</text>
-<text class="crisis-small" x="707.5" y="788.0" text-anchor="middle">2022</text>
-<rect class="cycle7" x="784.3" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="794.3" y="722.0" text-anchor="start">C5 28-35</text>
-<text class="band-detail" x="794.3" y="742.0" text-anchor="start">5/9 -&gt; 5</text>
-<line class="crisis" x1="861.1" y1="690.0" x2="861.1" y2="770.0"/>
-<circle class="crisis-dot" cx="861.1" cy="690.0" r="8"/>
-<text class="crisis-label" x="861.1" y="678.0" text-anchor="middle">31.5</text>
-<text class="crisis-small" x="861.1" y="788.0" text-anchor="middle">2029</text>
-<rect class="cycle7" x="937.9" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="947.9" y="722.0" text-anchor="start">C6 35-42</text>
-<text class="band-detail" x="947.9" y="742.0" text-anchor="start">3/7 -&gt; 1</text>
-<line class="crisis" x1="1014.6" y1="690.0" x2="1014.6" y2="770.0"/>
-<circle class="crisis-dot" cx="1014.6" cy="690.0" r="8"/>
-<text class="crisis-label" x="1014.6" y="678.0" text-anchor="middle">38.5</text>
-<text class="crisis-small" x="1014.6" y="788.0" text-anchor="middle">2036</text>
-<rect class="cycle7" x="1091.4" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="1101.4" y="722.0" text-anchor="start">C7 42-49</text>
-<text class="band-detail" x="1101.4" y="742.0" text-anchor="start">1/5 -&gt; 6</text>
-<line class="crisis" x1="1168.2" y1="690.0" x2="1168.2" y2="770.0"/>
-<circle class="crisis-dot" cx="1168.2" cy="690.0" r="8"/>
-<text class="crisis-label" x="1168.2" y="678.0" text-anchor="middle">45.5</text>
-<text class="crisis-small" x="1168.2" y="788.0" text-anchor="middle">2043</text>
-<rect class="cycle7" x="1245.0" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="1255.0" y="722.0" text-anchor="start">C8 49-56</text>
-<text class="band-detail" x="1255.0" y="742.0" text-anchor="start">1/8 -&gt; 9</text>
-<line class="crisis" x1="1321.8" y1="690.0" x2="1321.8" y2="770.0"/>
-<circle class="crisis-dot" cx="1321.8" cy="690.0" r="8"/>
-<text class="crisis-label" x="1321.8" y="678.0" text-anchor="middle">52.5</text>
-<text class="crisis-small" x="1321.8" y="788.0" text-anchor="middle">2050</text>
-<rect class="cycle7" x="1398.6" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="1408.6" y="722.0" text-anchor="start">C9 56-63</text>
-<text class="band-detail" x="1408.6" y="742.0" text-anchor="start">2/6 -&gt; 8</text>
-<line class="crisis" x1="1475.4" y1="690.0" x2="1475.4" y2="770.0"/>
-<circle class="crisis-dot" cx="1475.4" cy="690.0" r="8"/>
-<text class="crisis-label" x="1475.4" y="678.0" text-anchor="middle">59.5</text>
-<text class="crisis-small" x="1475.4" y="788.0" text-anchor="middle">2057</text>
-<rect class="cycle7" x="1552.1" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="1562.1" y="722.0" text-anchor="start">C10 63-70</text>
-<text class="band-detail" x="1562.1" y="742.0" text-anchor="start">3/10 -&gt; 4</text>
-<line class="crisis" x1="1628.9" y1="690.0" x2="1628.9" y2="770.0"/>
-<circle class="crisis-dot" cx="1628.9" cy="690.0" r="8"/>
-<text class="crisis-label" x="1628.9" y="678.0" text-anchor="middle">66.5</text>
-<text class="crisis-small" x="1628.9" y="788.0" text-anchor="middle">2064</text>
-<rect class="cycle7" x="1705.7" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="1715.7" y="722.0" text-anchor="start">C11 70-77</text>
-<text class="band-detail" x="1715.7" y="742.0" text-anchor="start">4/11 -&gt; 6</text>
-<line class="crisis" x1="1782.5" y1="690.0" x2="1782.5" y2="770.0"/>
-<circle class="crisis-dot" cx="1782.5" cy="690.0" r="8"/>
-<text class="crisis-label" x="1782.5" y="678.0" text-anchor="middle">73.5</text>
-<text class="crisis-small" x="1782.5" y="788.0" text-anchor="middle">2071</text>
-<rect class="cycle7" x="1859.3" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="1869.3" y="722.0" text-anchor="start">C12 77-84</text>
-<text class="band-detail" x="1869.3" y="742.0" text-anchor="start">5/9 -&gt; 5</text>
-<line class="crisis" x1="1936.1" y1="690.0" x2="1936.1" y2="770.0"/>
-<circle class="crisis-dot" cx="1936.1" cy="690.0" r="8"/>
-<text class="crisis-label" x="1936.1" y="678.0" text-anchor="middle">80.5</text>
-<text class="crisis-small" x="1936.1" y="788.0" text-anchor="middle">2078</text>
-<rect class="cycle7" x="2012.9" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="2022.9" y="722.0" text-anchor="start">C13 84-91</text>
-<text class="band-detail" x="2022.9" y="742.0" text-anchor="start">3/7 -&gt; 1</text>
-<line class="crisis" x1="2089.6" y1="690.0" x2="2089.6" y2="770.0"/>
-<circle class="crisis-dot" cx="2089.6" cy="690.0" r="8"/>
-<text class="crisis-label" x="2089.6" y="678.0" text-anchor="middle">87.5</text>
-<text class="crisis-small" x="2089.6" y="788.0" text-anchor="middle">2085</text>
-<rect class="cycle7" x="2166.4" y="700.0" width="153.6" height="54.0" rx="12"/>
-<text class="band-title" x="2176.4" y="722.0" text-anchor="start">C14 91-98</text>
-<text class="band-detail" x="2176.4" y="742.0" text-anchor="start">1/5 -&gt; 6</text>
-<line class="crisis" x1="2243.2" y1="690.0" x2="2243.2" y2="770.0"/>
-<circle class="crisis-dot" cx="2243.2" cy="690.0" r="8"/>
-<text class="crisis-label" x="2243.2" y="678.0" text-anchor="middle">94.5</text>
-<text class="crisis-small" x="2243.2" y="788.0" text-anchor="middle">2092</text>
-<text class="section-label" x="70.0" y="855.0" text-anchor="start">Ciclul 9 ani</text>
-<rect class="cycle9" x="784.3" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="794.3" y="852.0" text-anchor="start">2026</text>
-<text class="band-detail" x="794.3" y="872.0" text-anchor="start">AP 4 / L 2</text>
-<rect class="cycle9" x="806.2" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="816.2" y="852.0" text-anchor="start">2027</text>
-<text class="band-detail" x="816.2" y="872.0" text-anchor="start">AP 5 / L 4</text>
-<rect class="cycle9" x="828.2" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="838.2" y="852.0" text-anchor="start">2028</text>
-<text class="band-detail" x="838.2" y="872.0" text-anchor="start">AP 6 / L 7</text>
-<rect class="cycle9" x="850.1" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="860.1" y="852.0" text-anchor="start">2029</text>
-<text class="band-detail" x="860.1" y="872.0" text-anchor="start">AP 7 / L 5</text>
-<rect class="cycle9" x="872.0" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="882.0" y="852.0" text-anchor="start">2030</text>
-<text class="band-detail" x="882.0" y="872.0" text-anchor="start">AP 8 / L 9</text>
-<rect class="cycle9" x="894.0" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="904.0" y="852.0" text-anchor="start">2031</text>
-<text class="band-detail" x="904.0" y="872.0" text-anchor="start">AP 9 / L 2</text>
-<rect class="cycle9" x="915.9" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="925.9" y="852.0" text-anchor="start">2032</text>
-<text class="band-detail" x="925.9" y="872.0" text-anchor="start">AP 1 / L 4</text>
-<rect class="cycle9" x="937.9" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="947.9" y="852.0" text-anchor="start">2033</text>
-<text class="band-detail" x="947.9" y="872.0" text-anchor="start">AP 2 / L 7</text>
-<rect class="cycle9" x="959.8" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="969.8" y="852.0" text-anchor="start">2034</text>
-<text class="band-detail" x="969.8" y="872.0" text-anchor="start">AP 3 / L 5</text>
-<rect class="cycle9" x="981.7" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="991.7" y="852.0" text-anchor="start">2035</text>
-<text class="band-detail" x="991.7" y="872.0" text-anchor="start">AP 4 / L 9</text>
-<rect class="cycle9" x="1003.7" y="830.0" width="21.9" height="54.0" rx="12"/>
-<text class="band-title" x="1013.7" y="852.0" text-anchor="start">2036</text>
-<text class="band-detail" x="1013.7" y="872.0" text-anchor="start">AP 5 / L 2</text>
-<text class="label" x="784.3" y="910.0" text-anchor="start">interval calculat explicit in lucrare: 2026-2036</text>
-<text class="section-label" x="70.0" y="995.0" text-anchor="start">Ani importanti</text>
-<line class="important" x1="564.9" y1="960.0" x2="564.9" y2="1080.0"/>
-<circle class="important-dot" cx="564.9" cy="960.0" r="8"/>
-<text class="important-label" x="564.9" y="948.0" text-anchor="middle">2016</text>
-<text class="important-small" x="564.9" y="1098.0" text-anchor="middle">18 ani / I</text>
-<line class="important" x1="762.3" y1="960.0" x2="762.3" y2="1080.0"/>
-<circle class="important-dot" cx="762.3" cy="960.0" r="8"/>
-<text class="important-label" x="762.3" y="948.0" text-anchor="middle">2025</text>
-<text class="important-small" x="762.3" y="1098.0" text-anchor="middle">27 ani / I+E</text>
-<line class="important" x1="959.8" y1="960.0" x2="959.8" y2="1080.0"/>
-<circle class="important-dot" cx="959.8" cy="960.0" r="8"/>
-<text class="important-label" x="959.8" y="948.0" text-anchor="middle">2034</text>
-<text class="important-small" x="959.8" y="1098.0" text-anchor="middle">36 ani / I+E</text>
-<line class="important" x1="1157.2" y1="960.0" x2="1157.2" y2="1080.0"/>
-<circle class="important-dot" cx="1157.2" cy="960.0" r="8"/>
-<text class="important-label" x="1157.2" y="948.0" text-anchor="middle">2043</text>
-<text class="important-small" x="1157.2" y="1098.0" text-anchor="middle">45 ani / I+E</text>
-<text class="section-label" x="70.0" y="1160.0" text-anchor="start">Citire sintetica</text>
-<text class="label" x="170.0" y="1160.0" text-anchor="start">28-35 ani: suprapunere activa intre pinaclul 1 spre 2, ciclul 7 C5, ciclul 12 C3 si anii personali 2026-2033.</text>
-<text class="label" x="170.0" y="1190.0" text-anchor="start">2029 / 31,5 ani: criza ciclului de 7 ani cade in intervalul de schimbare din ciclul de 9 ani.</text>
-<text class="label" x="170.0" y="1220.0" text-anchor="start">2034 / 36 ani: prag comun important; se intalnesc ciclul de 9 ani, ciclul de 12 ani si anul interior/exterior.</text>
-<text class="label" x="170.0" y="1250.0" text-anchor="start">Linia destinului nu inlocuieste ciclurile; ea este baza peste care se citesc ritmurile de maturizare si oportunitate.</text>
-<rect class="panel" x="1660.0" y="1145.0" width="620.0" height="210.0" rx="14"/>
-<text class="legend-title" x="1685.0" y="1180.0" text-anchor="start">Legenda</text>
-<rect x="1685" y="1199" width="16" height="16" rx="3" fill="#c56f2d"/>
-<text class="legend-text" x="1712.0" y="1212.0" text-anchor="start">Linia Soartei</text>
-<rect x="1685" y="1219" width="16" height="16" rx="3" fill="#0f6a70"/>
-<text class="legend-text" x="1712.0" y="1232.0" text-anchor="start">Linia Destinului</text>
-<rect x="1685" y="1239" width="16" height="16" rx="3" fill="#f2c14e"/>
-<text class="legend-text" x="1712.0" y="1252.0" text-anchor="start">Pinacluri: oportunitate / provocare</text>
-<rect x="1685" y="1259" width="16" height="16" rx="3" fill="#9cc9c1"/>
-<text class="legend-text" x="1712.0" y="1272.0" text-anchor="start">Cicluri de 12 ani</text>
-<rect x="1685" y="1279" width="16" height="16" rx="3" fill="#d9b6df"/>
-<text class="legend-text" x="1712.0" y="1292.0" text-anchor="start">Cicluri de 7 ani si crize</text>
-<rect x="1685" y="1299" width="16" height="16" rx="3" fill="#f7a072"/>
-<text class="legend-text" x="1712.0" y="1312.0" text-anchor="start">Ani personali in ciclul de 9 ani</text>
-<rect x="1685" y="1319" width="16" height="16" rx="3" fill="#263b8f"/>
-<text class="legend-text" x="1712.0" y="1332.0" text-anchor="start">Ani importanti interiori / exteriori</text>
-<text class="axis-label" x="2290.0" y="1428.0" text-anchor="end">Atlas Numerologie</text>
+<rect class="bg" width="1900" height="1080"/>
+<text class="title" x="95.0" y="28.0" text-anchor="start">Harta suprapusa soarta-destin-ciclicitati</text>
+<text class="title" x="1740.0" y="28.0" text-anchor="end">BIRSAN DANIEL ROBERT</text>
+<text class="subtitle" x="1740.0" y="52.0" text-anchor="end">19.02.1998 -&gt; Soarta 3800196 -&gt; Destin 3820176</text>
+<line class="orange cycle7-line" x1="270.0" y1="184.0" x2="270.0" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="259.0,162.0 281.0,162.0 270.0,184.0"/>
+<text class="crisis-top-label" x="270.0" y="157.0" text-anchor="middle">0</text>
+<text class="triangle-number" x="270.0" y="168.0" text-anchor="middle">1</text>
+<text class="cycle7-year" x="265.0" y="214.5" text-anchor="middle" transform="rotate(-90 265.0 214.5)">1998</text>
+<line class="orange cycle7-line" x1="349.1" y1="184.0" x2="349.1" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="338.1,162.0 360.1,162.0 349.1,184.0"/>
+<text class="crisis-top-label" x="349.1" y="157.0" text-anchor="middle">7</text>
+<text class="triangle-number" x="349.1" y="168.0" text-anchor="middle">2</text>
+<text class="cycle7-year" x="344.1" y="214.5" text-anchor="middle" transform="rotate(-90 344.1 214.5)">2005</text>
+<line class="orange cycle7-line" x1="428.1" y1="184.0" x2="428.1" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="417.1,162.0 439.1,162.0 428.1,184.0"/>
+<text class="crisis-top-label" x="428.1" y="157.0" text-anchor="middle">14</text>
+<text class="triangle-number" x="428.1" y="168.0" text-anchor="middle">3</text>
+<text class="cycle7-year" x="423.1" y="214.5" text-anchor="middle" transform="rotate(-90 423.1 214.5)">2012</text>
+<line class="orange cycle7-line" x1="507.2" y1="184.0" x2="507.2" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="496.2,162.0 518.2,162.0 507.2,184.0"/>
+<text class="crisis-top-label" x="507.2" y="157.0" text-anchor="middle">21</text>
+<text class="triangle-number" x="507.2" y="168.0" text-anchor="middle">4</text>
+<text class="cycle7-year" x="502.2" y="214.5" text-anchor="middle" transform="rotate(-90 502.2 214.5)">2019</text>
+<line class="orange cycle7-line" x1="586.3" y1="184.0" x2="586.3" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="575.3,162.0 597.3,162.0 586.3,184.0"/>
+<text class="crisis-top-label" x="586.3" y="157.0" text-anchor="middle">28</text>
+<text class="triangle-number" x="586.3" y="168.0" text-anchor="middle">5</text>
+<text class="cycle7-year" x="581.3" y="214.5" text-anchor="middle" transform="rotate(-90 581.3 214.5)">2026</text>
+<line class="orange cycle7-line" x1="665.4" y1="184.0" x2="665.4" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="654.4,162.0 676.4,162.0 665.4,184.0"/>
+<text class="crisis-top-label" x="665.4" y="157.0" text-anchor="middle">35</text>
+<text class="triangle-number" x="665.4" y="168.0" text-anchor="middle">6</text>
+<text class="cycle7-year" x="660.4" y="214.5" text-anchor="middle" transform="rotate(-90 660.4 214.5)">2033</text>
+<line class="orange cycle7-line" x1="744.4" y1="184.0" x2="744.4" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="733.4,162.0 755.4,162.0 744.4,184.0"/>
+<text class="crisis-top-label" x="744.4" y="157.0" text-anchor="middle">42</text>
+<text class="triangle-number" x="744.4" y="168.0" text-anchor="middle">7</text>
+<text class="cycle7-year" x="739.4" y="214.5" text-anchor="middle" transform="rotate(-90 739.4 214.5)">2040</text>
+<line class="orange cycle7-line" x1="823.5" y1="184.0" x2="823.5" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="812.5,162.0 834.5,162.0 823.5,184.0"/>
+<text class="crisis-top-label" x="823.5" y="157.0" text-anchor="middle">49</text>
+<text class="triangle-number" x="823.5" y="168.0" text-anchor="middle">8</text>
+<text class="cycle7-year" x="818.5" y="214.5" text-anchor="middle" transform="rotate(-90 818.5 214.5)">2047</text>
+<line class="orange cycle7-line" x1="902.6" y1="184.0" x2="902.6" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="891.6,162.0 913.6,162.0 902.6,184.0"/>
+<text class="crisis-top-label" x="902.6" y="157.0" text-anchor="middle">56</text>
+<text class="triangle-number" x="902.6" y="168.0" text-anchor="middle">9</text>
+<text class="cycle7-year" x="897.6" y="214.5" text-anchor="middle" transform="rotate(-90 897.6 214.5)">2054</text>
+<line class="orange cycle7-line" x1="981.7" y1="184.0" x2="981.7" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="970.7,162.0 992.7,162.0 981.7,184.0"/>
+<text class="crisis-top-label" x="981.7" y="157.0" text-anchor="middle">63</text>
+<text class="triangle-number" x="981.7" y="168.0" text-anchor="middle">10</text>
+<text class="cycle7-year" x="976.7" y="214.5" text-anchor="middle" transform="rotate(-90 976.7 214.5)">2061</text>
+<line class="orange cycle7-line" x1="1060.7" y1="184.0" x2="1060.7" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="1049.7,162.0 1071.7,162.0 1060.7,184.0"/>
+<text class="crisis-top-label" x="1060.7" y="157.0" text-anchor="middle">70</text>
+<text class="triangle-number" x="1060.7" y="168.0" text-anchor="middle">11</text>
+<text class="cycle7-year" x="1055.7" y="214.5" text-anchor="middle" transform="rotate(-90 1055.7 214.5)">2068</text>
+<line class="orange cycle7-line" x1="1139.8" y1="184.0" x2="1139.8" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="1128.8,162.0 1150.8,162.0 1139.8,184.0"/>
+<text class="crisis-top-label" x="1139.8" y="157.0" text-anchor="middle">77</text>
+<text class="triangle-number" x="1139.8" y="168.0" text-anchor="middle">12</text>
+<text class="cycle7-year" x="1134.8" y="214.5" text-anchor="middle" transform="rotate(-90 1134.8 214.5)">2075</text>
+<line class="orange cycle7-line" x1="1218.9" y1="184.0" x2="1218.9" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="1207.9,162.0 1229.9,162.0 1218.9,184.0"/>
+<text class="crisis-top-label" x="1218.9" y="157.0" text-anchor="middle">84</text>
+<text class="triangle-number" x="1218.9" y="168.0" text-anchor="middle">13</text>
+<text class="cycle7-year" x="1213.9" y="214.5" text-anchor="middle" transform="rotate(-90 1213.9 214.5)">2082</text>
+<line class="orange cycle7-line" x1="1298.0" y1="184.0" x2="1298.0" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="1287.0,162.0 1309.0,162.0 1298.0,184.0"/>
+<text class="crisis-top-label" x="1298.0" y="157.0" text-anchor="middle">91</text>
+<text class="triangle-number" x="1298.0" y="168.0" text-anchor="middle">14</text>
+<text class="cycle7-year" x="1293.0" y="214.5" text-anchor="middle" transform="rotate(-90 1293.0 214.5)">2089</text>
+<line class="orange cycle7-line" x1="1377.0" y1="184.0" x2="1377.0" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="1366.0,162.0 1388.0,162.0 1377.0,184.0"/>
+<text class="crisis-top-label" x="1377.0" y="157.0" text-anchor="middle">98</text>
+<text class="triangle-number" x="1377.0" y="168.0" text-anchor="middle">15</text>
+<text class="cycle7-year" x="1372.0" y="214.5" text-anchor="middle" transform="rotate(-90 1372.0 214.5)">2096</text>
+<line class="orange cycle7-line" x1="1456.1" y1="184.0" x2="1456.1" y2="675.0" stroke-dasharray="7 7"/>
+<polygon class="cycle7-triangle" points="1445.1,162.0 1467.1,162.0 1456.1,184.0"/>
+<text class="crisis-top-label" x="1456.1" y="157.0" text-anchor="middle">105</text>
+<text class="triangle-number" x="1456.1" y="168.0" text-anchor="middle">16</text>
+<text class="cycle7-year" x="1451.1" y="214.5" text-anchor="middle" transform="rotate(-90 1451.1 214.5)">2103</text>
+<line class="crisis" x1="309.5" y1="184.0" x2="309.5" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="298.5,184.0 320.5,184.0 309.5,162.0"/>
+<text class="crisis-top-label" x="309.5" y="157.0" text-anchor="middle">3.5</text>
+<line class="crisis" x1="388.6" y1="184.0" x2="388.6" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="377.6,184.0 399.6,184.0 388.6,162.0"/>
+<text class="crisis-top-label" x="388.6" y="157.0" text-anchor="middle">10.5</text>
+<line class="crisis" x1="467.7" y1="184.0" x2="467.7" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="456.7,184.0 478.7,184.0 467.7,162.0"/>
+<text class="crisis-top-label" x="467.7" y="157.0" text-anchor="middle">17.5</text>
+<line class="crisis" x1="546.8" y1="184.0" x2="546.8" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="535.8,184.0 557.8,184.0 546.8,162.0"/>
+<text class="crisis-top-label" x="546.8" y="157.0" text-anchor="middle">24.5</text>
+<line class="crisis" x1="625.8" y1="184.0" x2="625.8" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="614.8,184.0 636.8,184.0 625.8,162.0"/>
+<text class="crisis-top-label" x="625.8" y="157.0" text-anchor="middle">31.5</text>
+<line class="crisis" x1="704.9" y1="184.0" x2="704.9" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="693.9,184.0 715.9,184.0 704.9,162.0"/>
+<text class="crisis-top-label" x="704.9" y="157.0" text-anchor="middle">38.5</text>
+<line class="crisis" x1="784.0" y1="184.0" x2="784.0" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="773.0,184.0 795.0,184.0 784.0,162.0"/>
+<text class="crisis-top-label" x="784.0" y="157.0" text-anchor="middle">45.5</text>
+<line class="crisis" x1="863.1" y1="184.0" x2="863.1" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="852.1,184.0 874.1,184.0 863.1,162.0"/>
+<text class="crisis-top-label" x="863.1" y="157.0" text-anchor="middle">52.5</text>
+<line class="crisis" x1="942.1" y1="184.0" x2="942.1" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="931.1,184.0 953.1,184.0 942.1,162.0"/>
+<text class="crisis-top-label" x="942.1" y="157.0" text-anchor="middle">59.5</text>
+<line class="crisis" x1="1021.2" y1="184.0" x2="1021.2" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="1010.2,184.0 1032.2,184.0 1021.2,162.0"/>
+<text class="crisis-top-label" x="1021.2" y="157.0" text-anchor="middle">66.5</text>
+<line class="crisis" x1="1100.3" y1="184.0" x2="1100.3" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="1089.3,184.0 1111.3,184.0 1100.3,162.0"/>
+<text class="crisis-top-label" x="1100.3" y="157.0" text-anchor="middle">73.5</text>
+<line class="crisis" x1="1179.4" y1="184.0" x2="1179.4" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="1168.4,184.0 1190.4,184.0 1179.4,162.0"/>
+<text class="crisis-top-label" x="1179.4" y="157.0" text-anchor="middle">80.5</text>
+<line class="crisis" x1="1258.4" y1="184.0" x2="1258.4" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="1247.4,184.0 1269.4,184.0 1258.4,162.0"/>
+<text class="crisis-top-label" x="1258.4" y="157.0" text-anchor="middle">87.5</text>
+<line class="crisis" x1="1337.5" y1="184.0" x2="1337.5" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="1326.5,184.0 1348.5,184.0 1337.5,162.0"/>
+<text class="crisis-top-label" x="1337.5" y="157.0" text-anchor="middle">94.5</text>
+<line class="crisis" x1="1416.6" y1="184.0" x2="1416.6" y2="675.0" stroke-dasharray="6 6"/>
+<polygon class="crisis-triangle" points="1405.6,184.0 1427.6,184.0 1416.6,162.0"/>
+<text class="crisis-top-label" x="1416.6" y="157.0" text-anchor="middle">101.5</text>
+<line class="grid major-y" x1="270.0" y1="675.0" x2="1490.0" y2="675.0"/>
+<text class="axis-y" x="250.0" y="680.0" text-anchor="end">0</text>
+<line class="grid" x1="270.0" y1="627.2" x2="1490.0" y2="627.2"/>
+<text class="axis-y" x="250.0" y="632.2" text-anchor="end">1</text>
+<line class="grid" x1="270.0" y1="579.4" x2="1490.0" y2="579.4"/>
+<text class="axis-y" x="250.0" y="584.4" text-anchor="end">2</text>
+<line class="grid" x1="270.0" y1="531.7" x2="1490.0" y2="531.7"/>
+<text class="axis-y" x="250.0" y="536.7" text-anchor="end">3</text>
+<line class="grid" x1="270.0" y1="483.9" x2="1490.0" y2="483.9"/>
+<text class="axis-y" x="250.0" y="488.9" text-anchor="end">4</text>
+<line class="grid" x1="270.0" y1="436.1" x2="1490.0" y2="436.1"/>
+<text class="axis-y" x="250.0" y="441.1" text-anchor="end">5</text>
+<line class="grid" x1="270.0" y1="388.3" x2="1490.0" y2="388.3"/>
+<text class="axis-y" x="250.0" y="393.3" text-anchor="end">6</text>
+<line class="grid" x1="270.0" y1="340.6" x2="1490.0" y2="340.6"/>
+<text class="axis-y" x="250.0" y="345.6" text-anchor="end">7</text>
+<line class="grid" x1="270.0" y1="292.8" x2="1490.0" y2="292.8"/>
+<text class="axis-y" x="250.0" y="297.8" text-anchor="end">8</text>
+<line class="grid major-y" x1="270.0" y1="245.0" x2="1490.0" y2="245.0"/>
+<text class="axis-y" x="250.0" y="250.0" text-anchor="end">9</text>
+<line class="grid major-x" x1="270.0" y1="245.0" x2="270.0" y2="675.0"/>
+<text class="axis-x" x="270.0" y="699.0" text-anchor="middle">0</text>
+<line class="grid" x1="383.0" y1="245.0" x2="383.0" y2="675.0"/>
+<text class="axis-x" x="383.0" y="699.0" text-anchor="middle">10</text>
+<line class="grid major-x" x1="495.9" y1="245.0" x2="495.9" y2="675.0"/>
+<text class="axis-x" x="495.9" y="699.0" text-anchor="middle">20</text>
+<line class="grid" x1="608.9" y1="245.0" x2="608.9" y2="675.0"/>
+<text class="axis-x" x="608.9" y="699.0" text-anchor="middle">30</text>
+<line class="grid major-x" x1="721.9" y1="245.0" x2="721.9" y2="675.0"/>
+<text class="axis-x" x="721.9" y="699.0" text-anchor="middle">40</text>
+<line class="grid" x1="834.8" y1="245.0" x2="834.8" y2="675.0"/>
+<text class="axis-x" x="834.8" y="699.0" text-anchor="middle">50</text>
+<line class="grid major-x" x1="947.8" y1="245.0" x2="947.8" y2="675.0"/>
+<text class="axis-x" x="947.8" y="699.0" text-anchor="middle">60</text>
+<line class="grid" x1="1060.7" y1="245.0" x2="1060.7" y2="675.0"/>
+<text class="axis-x" x="1060.7" y="699.0" text-anchor="middle">70</text>
+<line class="grid major-x" x1="1173.7" y1="245.0" x2="1173.7" y2="675.0"/>
+<text class="axis-x" x="1173.7" y="699.0" text-anchor="middle">80</text>
+<line class="grid" x1="1286.7" y1="245.0" x2="1286.7" y2="675.0"/>
+<text class="axis-x" x="1286.7" y="699.0" text-anchor="middle">90</text>
+<line class="grid major-x" x1="1399.6" y1="245.0" x2="1399.6" y2="675.0"/>
+<text class="axis-x" x="1399.6" y="699.0" text-anchor="middle">100</text>
+<line class="grid" x1="1490.0" y1="245.0" x2="1490.0" y2="675.0"/>
+<text class="axis-x" x="1490.0" y="699.0" text-anchor="middle">108</text>
+<line class="axis" x1="270.0" y1="245.0" x2="270.0" y2="675.0"/>
+<line class="axis" x1="270.0" y1="675.0" x2="1490.0" y2="675.0"/>
+<line class="axis-light" x1="1490.0" y1="245.0" x2="1490.0" y2="675.0"/>
+<line class="comfort comfort-green" x1="270.0" y1="487.7" x2="1490.0" y2="487.7"/>
+<line class="comfort comfort-red" x1="270.0" y1="493.7" x2="1490.0" y2="493.7"/>
+<polyline class="fate-line" points="270.0,531.7 383.0,292.8 495.9,675.0 608.9,675.0 721.9,627.2 834.8,245.0 947.8,388.3 1060.7,531.7 1173.7,292.8 1286.7,675.0 1399.6,675.0 1490.0,627.2"/>
+<polyline class="destiny-line" points="270.0,531.7 383.0,292.8 495.9,579.4 608.9,675.0 721.9,627.2 834.8,340.6 947.8,388.3 1060.7,531.7 1173.7,292.8 1286.7,579.4 1399.6,675.0 1490.0,627.2"/>
+<circle class="meet-dot" cx="270.0" cy="531.7" r="8"/>
+<text class="point-value green-text" x="288.0" y="513.7" text-anchor="start">3</text>
+<text class="point-value red-text" x="288.0" y="559.7" text-anchor="start">3</text>
+<circle class="meet-dot" cx="383.0" cy="292.8" r="8"/>
+<text class="point-value green-text" x="365.0" y="318.8" text-anchor="end">8</text>
+<text class="point-value red-text" x="401.0" y="318.8" text-anchor="start">8</text>
+<circle class="fate-dot" cx="495.9" cy="675.0" r="7"/>
+<text class="point-value green-text" x="477.9" y="659.0" text-anchor="end">0</text>
+<circle class="destiny-dot" cx="495.9" cy="579.4" r="7"/>
+<text class="point-value red-text" x="513.9" y="605.4" text-anchor="start">2</text>
+<circle class="meet-dot" cx="608.9" cy="675.0" r="8"/>
+<text class="point-value green-text" x="590.9" y="659.0" text-anchor="end">0</text>
+<text class="point-value red-text" x="626.9" y="659.0" text-anchor="start">0</text>
+<circle class="meet-dot" cx="721.9" cy="627.2" r="8"/>
+<text class="point-value green-text" x="703.9" y="611.2" text-anchor="end">1</text>
+<text class="point-value red-text" x="739.9" y="611.2" text-anchor="start">1</text>
+<circle class="fate-dot" cx="834.8" cy="245.0" r="7"/>
+<text class="point-value green-text" x="816.8" y="271.0" text-anchor="end">9</text>
+<circle class="destiny-dot" cx="834.8" cy="340.6" r="7"/>
+<text class="point-value red-text" x="852.8" y="366.6" text-anchor="start">7</text>
+<circle class="meet-dot" cx="947.8" cy="388.3" r="8"/>
+<text class="point-value green-text" x="929.8" y="370.3" text-anchor="end">6</text>
+<text class="point-value red-text" x="965.8" y="416.3" text-anchor="start">6</text>
+<circle class="meet-dot" cx="1060.7" cy="531.7" r="8"/>
+<text class="point-value green-text" x="1042.7" y="513.7" text-anchor="end">3</text>
+<text class="point-value red-text" x="1078.7" y="559.7" text-anchor="start">3</text>
+<circle class="meet-dot" cx="1173.7" cy="292.8" r="8"/>
+<text class="point-value green-text" x="1155.7" y="318.8" text-anchor="end">8</text>
+<text class="point-value red-text" x="1191.7" y="318.8" text-anchor="start">8</text>
+<circle class="fate-dot" cx="1286.7" cy="675.0" r="7"/>
+<text class="point-value green-text" x="1268.7" y="659.0" text-anchor="end">0</text>
+<circle class="destiny-dot" cx="1286.7" cy="579.4" r="7"/>
+<text class="point-value red-text" x="1304.7" y="605.4" text-anchor="start">2</text>
+<circle class="meet-dot" cx="1399.6" cy="675.0" r="8"/>
+<text class="point-value green-text" x="1381.6" y="659.0" text-anchor="end">0</text>
+<text class="point-value red-text" x="1417.6" y="659.0" text-anchor="start">0</text>
+<circle class="meet-dot" cx="1490.0" cy="627.2" r="8"/>
+<text class="point-value green-text" x="1472.0" y="609.2" text-anchor="end">1</text>
+<text class="point-value red-text" x="1472.0" y="655.2" text-anchor="end">1</text>
+<path class="opportunity-line" d="M 270.0 531.7 H 642.8 V 627.2 H 744.4 V 483.9 H 846.1 V 579.4 H 1490.0"/>
+<path class="challenge-line" d="M 270.0 627.2 H 642.8 V 292.8 H 744.4 V 340.6 H 846.1 V 340.6 H 1490.0"/>
+<circle class="opportunity-dot" cx="456.4" cy="531.7" r="4"/>
+<circle class="challenge-dot" cx="456.4" cy="627.2" r="4"/>
+<text class="opportunity-label" x="456.4" y="522.7" text-anchor="middle">O3</text>
+<text class="challenge-label" x="456.4" y="642.2" text-anchor="middle">P1</text>
+<circle class="opportunity-dot" cx="699.3" cy="627.2" r="4"/>
+<circle class="challenge-dot" cx="699.3" cy="292.8" r="4"/>
+<text class="opportunity-label" x="699.3" y="618.2" text-anchor="middle">O1</text>
+<text class="challenge-label" x="699.3" y="307.8" text-anchor="middle">P8</text>
+<circle class="opportunity-dot" cx="800.9" cy="483.9" r="4"/>
+<circle class="challenge-dot" cx="800.9" cy="340.6" r="4"/>
+<text class="opportunity-label" x="800.9" y="474.9" text-anchor="middle">O4</text>
+<text class="challenge-label" x="800.9" y="355.6" text-anchor="middle">P7</text>
+<circle class="opportunity-dot" cx="1173.7" cy="579.4" r="4"/>
+<circle class="challenge-dot" cx="1173.7" cy="340.6" r="4"/>
+<text class="opportunity-label" x="1173.7" y="570.4" text-anchor="middle">O2</text>
+<text class="challenge-label" x="1173.7" y="355.6" text-anchor="middle">P7</text>
+<text class="axis-name" x="880.0" y="720.0" text-anchor="middle">Ani</text>
+<text class="axis-name" x="202.0" y="460.0" text-anchor="middle" transform="rotate(-90 202.0 460.0)">Vibrație</text>
+<text class="row-label red-text" x="234.0" y="778.0" text-anchor="end">Ani interior</text>
+<text class="row-label green-text" x="234.0" y="807.0" text-anchor="end">Ani exterior</text>
+<line class="year-link" x1="371.7" y1="245.0" x2="371.7" y2="805.0"/>
+<text class="interior-label" x="366.7" y="775.0" text-anchor="middle" transform="rotate(-90 366.7 775.0)">2007</text>
+<line class="year-link" x1="473.3" y1="245.0" x2="473.3" y2="805.0"/>
+<text class="interior-label" x="468.3" y="775.0" text-anchor="middle" transform="rotate(-90 468.3 775.0)">2016</text>
+<line class="year-link" x1="575.0" y1="245.0" x2="575.0" y2="805.0"/>
+<text class="interior-label" x="570.0" y="775.0" text-anchor="middle" transform="rotate(-90 570.0 775.0)">2025</text>
+<text class="exterior-label" x="580.0" y="805.0" text-anchor="middle" transform="rotate(-90 580.0 805.0)">2025</text>
+<line class="year-link" x1="676.7" y1="245.0" x2="676.7" y2="805.0"/>
+<text class="interior-label" x="671.7" y="775.0" text-anchor="middle" transform="rotate(-90 671.7 775.0)">2034</text>
+<text class="exterior-label" x="681.7" y="805.0" text-anchor="middle" transform="rotate(-90 681.7 805.0)">2034</text>
+<line class="year-link" x1="778.3" y1="245.0" x2="778.3" y2="805.0"/>
+<text class="interior-label" x="773.3" y="775.0" text-anchor="middle" transform="rotate(-90 773.3 775.0)">2043</text>
+<text class="exterior-label" x="783.3" y="805.0" text-anchor="middle" transform="rotate(-90 783.3 805.0)">2043</text>
+<line class="year-link" x1="880.0" y1="245.0" x2="880.0" y2="805.0"/>
+<text class="interior-label" x="875.0" y="775.0" text-anchor="middle" transform="rotate(-90 875.0 775.0)">2052</text>
+<text class="exterior-label" x="885.0" y="805.0" text-anchor="middle" transform="rotate(-90 885.0 805.0)">2052</text>
+<line class="year-link" x1="981.7" y1="245.0" x2="981.7" y2="805.0"/>
+<text class="interior-label" x="976.7" y="775.0" text-anchor="middle" transform="rotate(-90 976.7 775.0)">2061</text>
+<text class="exterior-label" x="986.7" y="805.0" text-anchor="middle" transform="rotate(-90 986.7 805.0)">2061</text>
+<line class="year-link" x1="1083.3" y1="245.0" x2="1083.3" y2="805.0"/>
+<text class="interior-label" x="1078.3" y="775.0" text-anchor="middle" transform="rotate(-90 1078.3 775.0)">2070</text>
+<text class="exterior-label" x="1088.3" y="805.0" text-anchor="middle" transform="rotate(-90 1088.3 805.0)">2070</text>
+<line class="year-link" x1="1185.0" y1="245.0" x2="1185.0" y2="805.0"/>
+<text class="interior-label" x="1180.0" y="775.0" text-anchor="middle" transform="rotate(-90 1180.0 775.0)">2079</text>
+<text class="exterior-label" x="1190.0" y="805.0" text-anchor="middle" transform="rotate(-90 1190.0 805.0)">2079</text>
+<line class="year-link" x1="1286.7" y1="245.0" x2="1286.7" y2="805.0"/>
+<text class="interior-label" x="1281.7" y="775.0" text-anchor="middle" transform="rotate(-90 1281.7 775.0)">2088</text>
+<line class="year-link" x1="1388.3" y1="245.0" x2="1388.3" y2="805.0"/>
+<text class="interior-label" x="1383.3" y="775.0" text-anchor="middle" transform="rotate(-90 1383.3 775.0)">2097</text>
+<text class="exterior-label" x="1393.3" y="805.0" text-anchor="middle" transform="rotate(-90 1393.3 805.0)">2097</text>
+<line class="year-link" x1="1490.0" y1="245.0" x2="1490.0" y2="805.0"/>
+<text class="interior-label" x="1485.0" y="775.0" text-anchor="middle" transform="rotate(-90 1485.0 775.0)">2106</text>
+<text class="row-label" x="234.0" y="860.0" text-anchor="end">Ciclu 9</text>
+<rect class="pill9" x="271.5" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="319.3" y="853.0" text-anchor="middle">1998-2006</text>
+<text class="pill-detail" x="319.3" y="865.0" text-anchor="middle">0-9</text>
+<rect class="pill9" x="373.2" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="421.0" y="853.0" text-anchor="middle">2007-2015</text>
+<text class="pill-detail" x="421.0" y="865.0" text-anchor="middle">9-18</text>
+<rect class="pill9" x="474.8" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="522.7" y="853.0" text-anchor="middle">2016-2024</text>
+<text class="pill-detail" x="522.7" y="865.0" text-anchor="middle">18-27</text>
+<rect class="pill9" x="576.5" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="624.3" y="853.0" text-anchor="middle">2025-2033</text>
+<text class="pill-detail" x="624.3" y="865.0" text-anchor="middle">27-36</text>
+<rect class="pill9" x="678.2" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="726.0" y="853.0" text-anchor="middle">2034-2042</text>
+<text class="pill-detail" x="726.0" y="865.0" text-anchor="middle">36-45</text>
+<rect class="pill9" x="779.8" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="827.7" y="853.0" text-anchor="middle">2043-2051</text>
+<text class="pill-detail" x="827.7" y="865.0" text-anchor="middle">45-54</text>
+<rect class="pill9" x="881.5" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="929.3" y="853.0" text-anchor="middle">2052-2060</text>
+<text class="pill-detail" x="929.3" y="865.0" text-anchor="middle">54-63</text>
+<rect class="pill9" x="983.2" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="1031.0" y="853.0" text-anchor="middle">2061-2069</text>
+<text class="pill-detail" x="1031.0" y="865.0" text-anchor="middle">63-72</text>
+<rect class="pill9" x="1084.8" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="1132.7" y="853.0" text-anchor="middle">2070-2078</text>
+<text class="pill-detail" x="1132.7" y="865.0" text-anchor="middle">72-81</text>
+<rect class="pill9" x="1186.5" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="1234.3" y="853.0" text-anchor="middle">2079-2087</text>
+<text class="pill-detail" x="1234.3" y="865.0" text-anchor="middle">81-90</text>
+<rect class="pill9" x="1288.2" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="1336.0" y="853.0" text-anchor="middle">2088-2096</text>
+<text class="pill-detail" x="1336.0" y="865.0" text-anchor="middle">90-99</text>
+<rect class="pill9" x="1389.8" y="840.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="1437.7" y="853.0" text-anchor="middle">2097-2105</text>
+<text class="pill-detail" x="1437.7" y="865.0" text-anchor="middle">99-108</text>
+<text class="row-label" x="234.0" y="903.0" text-anchor="end">Ciclu 12</text>
+<rect class="pill12" x="271.5" y="883.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="336.3" y="896.0" text-anchor="middle">C1</text>
+<text class="pill-detail" x="336.3" y="908.0" text-anchor="middle">1998-2009</text>
+<rect class="pill12" x="407.1" y="883.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="471.8" y="896.0" text-anchor="middle">C2</text>
+<text class="pill-detail" x="471.8" y="908.0" text-anchor="middle">2010-2021</text>
+<rect class="pill12" x="542.6" y="883.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="607.4" y="896.0" text-anchor="middle">C3</text>
+<text class="pill-detail" x="607.4" y="908.0" text-anchor="middle">2022-2033</text>
+<rect class="pill12" x="678.2" y="883.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="742.9" y="896.0" text-anchor="middle">C4</text>
+<text class="pill-detail" x="742.9" y="908.0" text-anchor="middle">2034-2045</text>
+<rect class="pill12" x="813.7" y="883.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="878.5" y="896.0" text-anchor="middle">C5</text>
+<text class="pill-detail" x="878.5" y="908.0" text-anchor="middle">2046-2057</text>
+<rect class="pill12" x="949.3" y="883.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="1014.1" y="896.0" text-anchor="middle">C6</text>
+<text class="pill-detail" x="1014.1" y="908.0" text-anchor="middle">2058-2069</text>
+<rect class="pill12" x="1084.8" y="883.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="1149.6" y="896.0" text-anchor="middle">C7</text>
+<text class="pill-detail" x="1149.6" y="908.0" text-anchor="middle">2070-2081</text>
+<rect class="pill12" x="1220.4" y="883.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="1285.2" y="896.0" text-anchor="middle">C8</text>
+<text class="pill-detail" x="1285.2" y="908.0" text-anchor="middle">2082-2093</text>
+<rect class="pill12" x="1355.9" y="883.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="1420.7" y="896.0" text-anchor="middle">C9</text>
+<text class="pill-detail" x="1420.7" y="908.0" text-anchor="middle">2094-2105</text>
+<text class="row-label" x="234.0" y="940.0" text-anchor="end">Pinaclu</text>
+<rect class="pill-pinacle" x="271.5" y="920.0" width="369.8" height="30.0" rx="7"/>
+<text class="pill-title" x="454.9" y="933.0" text-anchor="middle">P1</text>
+<text class="pill-detail" x="454.9" y="945.0" text-anchor="middle">O3 / P1</text>
+<rect class="pill-pinacle" x="644.3" y="920.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="692.1" y="933.0" text-anchor="middle">P2</text>
+<text class="pill-detail" x="692.1" y="945.0" text-anchor="middle">O1 / P8</text>
+<rect class="pill-pinacle" x="745.9" y="920.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="793.8" y="933.0" text-anchor="middle">P3</text>
+<text class="pill-detail" x="793.8" y="945.0" text-anchor="middle">O4 / P7</text>
+<rect class="pill-pinacle" x="847.6" y="920.0" width="640.9" height="30.0" rx="7"/>
+<text class="pill-title" x="1166.6" y="933.0" text-anchor="middle">P4</text>
+<text class="pill-detail" x="1166.6" y="945.0" text-anchor="middle">O2 / P7</text>
+<text class="legend" x="1610.0" y="390.0" text-anchor="start">Legenda</text>
+<rect x="1610" y="406" width="18" height="12" rx="2" fill="#22b14c"/>
+<text class="legend" x="1640.0" y="418.0" text-anchor="start">Soarta 3800196</text>
+<rect x="1610" y="428" width="18" height="12" rx="2" fill="#ff1616"/>
+<text class="legend" x="1640.0" y="440.0" text-anchor="start">Destin 3820176</text>
+<line x1="1610" y1="458" x2="1632" y2="458" stroke="#22b14c" stroke-width="4" stroke-dasharray="8 5"/>
+<text class="legend" x="1640.0" y="462.0" text-anchor="start">Zona confort Soarta 3,86</text>
+<line x1="1610" y1="480" x2="1632" y2="480" stroke="#ff1616" stroke-width="4" stroke-dasharray="8 5"/>
+<text class="legend" x="1640.0" y="484.0" text-anchor="start">Zona confort Destin 3,86</text>
+<rect x="1610" y="494" width="18" height="12" rx="2" fill="#8e44ad"/>
+<text class="legend" x="1640.0" y="506.0" text-anchor="start">Oportunitate</text>
+<rect x="1610" y="516" width="18" height="12" rx="2" fill="#1f8fbf"/>
+<text class="legend" x="1640.0" y="528.0" text-anchor="start">Provocare</text>
+<rect x="1610" y="538" width="18" height="12" rx="2" fill="#ff1616"/>
+<text class="legend" x="1640.0" y="550.0" text-anchor="start">An interior</text>
+<rect x="1610" y="560" width="18" height="12" rx="2" fill="#22b14c"/>
+<text class="legend" x="1640.0" y="572.0" text-anchor="start">An exterior</text>
+<polygon points="1608.0,578.0 1630.0,578.0 1619.0,600.0" fill="#ff9800" stroke="#ff9800" stroke-width="2"/>
+<text class="legend" x="1640.0" y="594.0" text-anchor="start">Ciclu 7</text>
+<polygon points="1608.0,622.0 1630.0,622.0 1619.0,600.0" fill="none" stroke="#ff9800" stroke-width="2"/>
+<text class="legend" x="1640.0" y="616.0" text-anchor="start">Criză ciclu 7</text>
+<rect x="1610" y="626" width="18" height="12" rx="2" fill="#ead3dc"/>
+<text class="legend" x="1640.0" y="638.0" text-anchor="start">Ciclu 9</text>
+<rect x="1610" y="648" width="18" height="12" rx="2" fill="#cfe4f6"/>
+<text class="legend" x="1640.0" y="660.0" text-anchor="start">Ciclu 12</text>
+<rect x="1610" y="670" width="18" height="12" rx="2" fill="#b9a44a"/>
+<text class="legend" x="1640.0" y="682.0" text-anchor="start">Pinaclu</text>
+<text class="watermark" x="1880.0" y="1065.0" text-anchor="end">Atlas Numerologie</text>
 </svg>

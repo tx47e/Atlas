@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="930" viewBox="0 0 1600 930">
+  <title>Harta suprapusa Soarta si Destin - Birsan Daniel Robert</title>
+  <desc>Grafic suprapus cu Soarta, Destin, zona de confort, ani interior/exterior si cicluri de 7, 9 si 12 ani.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7efe3; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 800; fill: #293238; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 800; fill: #35434a; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 700; fill: #333; }
+      .axis-y { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 800; fill: #2b2119; }
+      .axis-x { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; fill: #222; }
+      .grid { stroke: #c9d0d2; stroke-width: 1; stroke-dasharray: 6 4; }
+      .major-y, .major-x { stroke: #aeb7bb; stroke-width: 1.4; }
+      .axis { stroke: #111; stroke-width: 3; }
+      .axis-light { stroke: #111; stroke-width: 2; }
+      .comfort { stroke-width: 4; stroke-dasharray: 18 12; opacity: .75; }
+      .comfort-green { stroke: #22b14c; }
+      .comfort-red { stroke: #ff1616; }
+      .fate-line { fill: none; stroke: #22b14c; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .destiny-line { fill: none; stroke: #ff1616; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .fate-dot { fill: #22b14c; stroke: #fff; stroke-width: 2; }
+      .destiny-dot { fill: #ff1616; stroke: #fff; stroke-width: 2; }
+      .meet-dot { fill: #fff; stroke: #333; stroke-width: 2.5; }
+      .point-value { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 900; paint-order: stroke; stroke: #fff; stroke-width: 3px; }
+      .green-text { fill: #22b14c; }
+      .red-text { fill: #ff1616; }
+      .orange { stroke: #ff9800; stroke-width: 2; opacity: .72; }
+      .orange-dot { fill: #ff9800; }
+      .orange-label, .orange-small { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 800; fill: #ff9800; }
+      .interior { stroke: #ff1616; stroke-width: 2.2; opacity: .78; }
+      .interior-dot { fill: #ff1616; }
+      .interior-label, .interior-small { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 900; fill: #ff1616; }
+      .exterior { stroke: #22b14c; stroke-width: 2.2; opacity: .78; }
+      .exterior-dot { fill: #22b14c; }
+      .exterior-label, .exterior-small { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 900; fill: #22b14c; }
+      .crisis { stroke: #ff9800; stroke-width: 1.8; opacity: .64; }
+      .crisis-dot { fill: #ff9800; }
+      .crisis-label, .crisis-small { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 800; fill: #ff9800; }
+      .pill-title { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 900; fill: #222; }
+      .pill-detail { font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-weight: 700; fill: #333; }
+      .pill7 { fill: #ff9800; stroke: #e07400; stroke-width: 1; }
+      .pill9 { fill: #ead3dc; stroke: #d59bb0; stroke-width: 1; }
+      .pill12 { fill: #cfe4f6; stroke: #98c6e8; stroke-width: 1; }
+      .opportunity-line { fill: none; stroke: #8e44ad; stroke-width: 2.2; stroke-dasharray: 9 7; opacity: .78; }
+      .challenge-line { fill: none; stroke: #3f7ee8; stroke-width: 2.2; stroke-dasharray: 9 7; opacity: .72; }
+      .opportunity-dot { fill: #8e44ad; stroke: #fff; stroke-width: 1.5; }
+      .challenge-dot { fill: #3f7ee8; stroke: #fff; stroke-width: 1.5; }
+      .opportunity-label { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 900; fill: #8e44ad; paint-order: stroke; stroke: #fff; stroke-width: 2px; }
+      .challenge-label { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 900; fill: #3f7ee8; paint-order: stroke; stroke: #fff; stroke-width: 2px; }
+      .row-label { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 800; }
+      .legend { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 800; fill: #222; }
+      .watermark { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #aaa; font-weight: 800; }
+    </style>
+  </defs>
+<rect class="bg" width="1600" height="930"/>
+<text class="title" x="95.0" y="28.0" text-anchor="start">Harta suprapusa soarta-destin-ciclicitati</text>
+<text class="title" x="1440.0" y="28.0" text-anchor="end">BIRSAN DANIEL ROBERT</text>
+<text class="subtitle" x="1440.0" y="52.0" text-anchor="end">19.02.1998 -&gt; Soarta 3800196 -&gt; Destin 3820176</text>
+<line class="orange" x1="130.0" y1="82.0" x2="130.0" y2="562.0"/>
+<circle class="orange-dot" cx="130.0" cy="562.0" r="4"/>
+<text class="orange-label" x="130.0" y="554.0" text-anchor="middle">0</text>
+<line class="orange" x1="209.1" y1="82.0" x2="209.1" y2="562.0"/>
+<circle class="orange-dot" cx="209.1" cy="562.0" r="4"/>
+<text class="orange-label" x="209.1" y="554.0" text-anchor="middle">7</text>
+<line class="orange" x1="288.1" y1="82.0" x2="288.1" y2="562.0"/>
+<circle class="orange-dot" cx="288.1" cy="562.0" r="4"/>
+<text class="orange-label" x="288.1" y="554.0" text-anchor="middle">14</text>
+<line class="orange" x1="367.2" y1="82.0" x2="367.2" y2="562.0"/>
+<circle class="orange-dot" cx="367.2" cy="562.0" r="4"/>
+<text class="orange-label" x="367.2" y="554.0" text-anchor="middle">21</text>
+<line class="orange" x1="446.3" y1="82.0" x2="446.3" y2="562.0"/>
+<circle class="orange-dot" cx="446.3" cy="562.0" r="4"/>
+<text class="orange-label" x="446.3" y="554.0" text-anchor="middle">28</text>
+<line class="orange" x1="525.4" y1="82.0" x2="525.4" y2="562.0"/>
+<circle class="orange-dot" cx="525.4" cy="562.0" r="4"/>
+<text class="orange-label" x="525.4" y="554.0" text-anchor="middle">35</text>
+<line class="orange" x1="604.4" y1="82.0" x2="604.4" y2="562.0"/>
+<circle class="orange-dot" cx="604.4" cy="562.0" r="4"/>
+<text class="orange-label" x="604.4" y="554.0" text-anchor="middle">42</text>
+<line class="orange" x1="683.5" y1="82.0" x2="683.5" y2="562.0"/>
+<circle class="orange-dot" cx="683.5" cy="562.0" r="4"/>
+<text class="orange-label" x="683.5" y="554.0" text-anchor="middle">49</text>
+<line class="orange" x1="762.6" y1="82.0" x2="762.6" y2="562.0"/>
+<circle class="orange-dot" cx="762.6" cy="562.0" r="4"/>
+<text class="orange-label" x="762.6" y="554.0" text-anchor="middle">56</text>
+<line class="orange" x1="841.7" y1="82.0" x2="841.7" y2="562.0"/>
+<circle class="orange-dot" cx="841.7" cy="562.0" r="4"/>
+<text class="orange-label" x="841.7" y="554.0" text-anchor="middle">63</text>
+<line class="orange" x1="920.7" y1="82.0" x2="920.7" y2="562.0"/>
+<circle class="orange-dot" cx="920.7" cy="562.0" r="4"/>
+<text class="orange-label" x="920.7" y="554.0" text-anchor="middle">70</text>
+<line class="orange" x1="999.8" y1="82.0" x2="999.8" y2="562.0"/>
+<circle class="orange-dot" cx="999.8" cy="562.0" r="4"/>
+<text class="orange-label" x="999.8" y="554.0" text-anchor="middle">77</text>
+<line class="orange" x1="1078.9" y1="82.0" x2="1078.9" y2="562.0"/>
+<circle class="orange-dot" cx="1078.9" cy="562.0" r="4"/>
+<text class="orange-label" x="1078.9" y="554.0" text-anchor="middle">84</text>
+<line class="orange" x1="1158.0" y1="82.0" x2="1158.0" y2="562.0"/>
+<circle class="orange-dot" cx="1158.0" cy="562.0" r="4"/>
+<text class="orange-label" x="1158.0" y="554.0" text-anchor="middle">91</text>
+<line class="orange" x1="1237.0" y1="82.0" x2="1237.0" y2="562.0"/>
+<circle class="orange-dot" cx="1237.0" cy="562.0" r="4"/>
+<text class="orange-label" x="1237.0" y="554.0" text-anchor="middle">98</text>
+<line class="orange" x1="1316.1" y1="82.0" x2="1316.1" y2="562.0"/>
+<circle class="orange-dot" cx="1316.1" cy="562.0" r="4"/>
+<text class="orange-label" x="1316.1" y="554.0" text-anchor="middle">105</text>
+<line class="crisis" x1="169.5" y1="82.0" x2="169.5" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="169.5" cy="590.0" r="3"/>
+<text class="crisis-label" x="169.5" y="606.0" text-anchor="middle">3.5</text>
+<text class="crisis-small" x="169.5" y="620.0" text-anchor="middle">2001</text>
+<line class="crisis" x1="248.6" y1="82.0" x2="248.6" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="248.6" cy="590.0" r="3"/>
+<text class="crisis-label" x="248.6" y="606.0" text-anchor="middle">10.5</text>
+<text class="crisis-small" x="248.6" y="620.0" text-anchor="middle">2008</text>
+<line class="crisis" x1="327.7" y1="82.0" x2="327.7" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="327.7" cy="590.0" r="3"/>
+<text class="crisis-label" x="327.7" y="606.0" text-anchor="middle">17.5</text>
+<text class="crisis-small" x="327.7" y="620.0" text-anchor="middle">2015</text>
+<line class="crisis" x1="406.8" y1="82.0" x2="406.8" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="406.8" cy="590.0" r="3"/>
+<text class="crisis-label" x="406.8" y="606.0" text-anchor="middle">24.5</text>
+<text class="crisis-small" x="406.8" y="620.0" text-anchor="middle">2022</text>
+<line class="crisis" x1="485.8" y1="82.0" x2="485.8" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="485.8" cy="590.0" r="3"/>
+<text class="crisis-label" x="485.8" y="606.0" text-anchor="middle">31.5</text>
+<text class="crisis-small" x="485.8" y="620.0" text-anchor="middle">2029</text>
+<line class="crisis" x1="564.9" y1="82.0" x2="564.9" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="564.9" cy="590.0" r="3"/>
+<text class="crisis-label" x="564.9" y="606.0" text-anchor="middle">38.5</text>
+<text class="crisis-small" x="564.9" y="620.0" text-anchor="middle">2036</text>
+<line class="crisis" x1="644.0" y1="82.0" x2="644.0" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="644.0" cy="590.0" r="3"/>
+<text class="crisis-label" x="644.0" y="606.0" text-anchor="middle">45.5</text>
+<text class="crisis-small" x="644.0" y="620.0" text-anchor="middle">2043</text>
+<line class="crisis" x1="723.1" y1="82.0" x2="723.1" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="723.1" cy="590.0" r="3"/>
+<text class="crisis-label" x="723.1" y="606.0" text-anchor="middle">52.5</text>
+<text class="crisis-small" x="723.1" y="620.0" text-anchor="middle">2050</text>
+<line class="crisis" x1="802.1" y1="82.0" x2="802.1" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="802.1" cy="590.0" r="3"/>
+<text class="crisis-label" x="802.1" y="606.0" text-anchor="middle">59.5</text>
+<text class="crisis-small" x="802.1" y="620.0" text-anchor="middle">2057</text>
+<line class="crisis" x1="881.2" y1="82.0" x2="881.2" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="881.2" cy="590.0" r="3"/>
+<text class="crisis-label" x="881.2" y="606.0" text-anchor="middle">66.5</text>
+<text class="crisis-small" x="881.2" y="620.0" text-anchor="middle">2064</text>
+<line class="crisis" x1="960.3" y1="82.0" x2="960.3" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="960.3" cy="590.0" r="3"/>
+<text class="crisis-label" x="960.3" y="606.0" text-anchor="middle">73.5</text>
+<text class="crisis-small" x="960.3" y="620.0" text-anchor="middle">2071</text>
+<line class="crisis" x1="1039.4" y1="82.0" x2="1039.4" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="1039.4" cy="590.0" r="3"/>
+<text class="crisis-label" x="1039.4" y="606.0" text-anchor="middle">80.5</text>
+<text class="crisis-small" x="1039.4" y="620.0" text-anchor="middle">2078</text>
+<line class="crisis" x1="1118.4" y1="82.0" x2="1118.4" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="1118.4" cy="590.0" r="3"/>
+<text class="crisis-label" x="1118.4" y="606.0" text-anchor="middle">87.5</text>
+<text class="crisis-small" x="1118.4" y="620.0" text-anchor="middle">2085</text>
+<line class="crisis" x1="1197.5" y1="82.0" x2="1197.5" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="1197.5" cy="590.0" r="3"/>
+<text class="crisis-label" x="1197.5" y="606.0" text-anchor="middle">94.5</text>
+<text class="crisis-small" x="1197.5" y="620.0" text-anchor="middle">2092</text>
+<line class="crisis" x1="1276.6" y1="82.0" x2="1276.6" y2="590.0" stroke-dasharray="6 6"/>
+<circle class="crisis-dot" cx="1276.6" cy="590.0" r="3"/>
+<text class="crisis-label" x="1276.6" y="606.0" text-anchor="middle">101.5</text>
+<text class="crisis-small" x="1276.6" y="620.0" text-anchor="middle">2099</text>
+<line class="grid major-y" x1="130.0" y1="512.0" x2="1350.0" y2="512.0"/>
+<text class="axis-y" x="110.0" y="517.0" text-anchor="end">0</text>
+<line class="grid" x1="130.0" y1="464.2" x2="1350.0" y2="464.2"/>
+<text class="axis-y" x="110.0" y="469.2" text-anchor="end">1</text>
+<line class="grid" x1="130.0" y1="416.4" x2="1350.0" y2="416.4"/>
+<text class="axis-y" x="110.0" y="421.4" text-anchor="end">2</text>
+<line class="grid" x1="130.0" y1="368.7" x2="1350.0" y2="368.7"/>
+<text class="axis-y" x="110.0" y="373.7" text-anchor="end">3</text>
+<line class="grid" x1="130.0" y1="320.9" x2="1350.0" y2="320.9"/>
+<text class="axis-y" x="110.0" y="325.9" text-anchor="end">4</text>
+<line class="grid" x1="130.0" y1="273.1" x2="1350.0" y2="273.1"/>
+<text class="axis-y" x="110.0" y="278.1" text-anchor="end">5</text>
+<line class="grid" x1="130.0" y1="225.3" x2="1350.0" y2="225.3"/>
+<text class="axis-y" x="110.0" y="230.3" text-anchor="end">6</text>
+<line class="grid" x1="130.0" y1="177.6" x2="1350.0" y2="177.6"/>
+<text class="axis-y" x="110.0" y="182.6" text-anchor="end">7</text>
+<line class="grid" x1="130.0" y1="129.8" x2="1350.0" y2="129.8"/>
+<text class="axis-y" x="110.0" y="134.8" text-anchor="end">8</text>
+<line class="grid major-y" x1="130.0" y1="82.0" x2="1350.0" y2="82.0"/>
+<text class="axis-y" x="110.0" y="87.0" text-anchor="end">9</text>
+<line class="grid major-x" x1="130.0" y1="82.0" x2="130.0" y2="512.0"/>
+<text class="axis-x" x="130.0" y="536.0" text-anchor="middle">0</text>
+<line class="grid" x1="243.0" y1="82.0" x2="243.0" y2="512.0"/>
+<text class="axis-x" x="243.0" y="536.0" text-anchor="middle">10</text>
+<line class="grid major-x" x1="355.9" y1="82.0" x2="355.9" y2="512.0"/>
+<text class="axis-x" x="355.9" y="536.0" text-anchor="middle">20</text>
+<line class="grid" x1="468.9" y1="82.0" x2="468.9" y2="512.0"/>
+<text class="axis-x" x="468.9" y="536.0" text-anchor="middle">30</text>
+<line class="grid major-x" x1="581.9" y1="82.0" x2="581.9" y2="512.0"/>
+<text class="axis-x" x="581.9" y="536.0" text-anchor="middle">40</text>
+<line class="grid" x1="694.8" y1="82.0" x2="694.8" y2="512.0"/>
+<text class="axis-x" x="694.8" y="536.0" text-anchor="middle">50</text>
+<line class="grid major-x" x1="807.8" y1="82.0" x2="807.8" y2="512.0"/>
+<text class="axis-x" x="807.8" y="536.0" text-anchor="middle">60</text>
+<line class="grid" x1="920.7" y1="82.0" x2="920.7" y2="512.0"/>
+<text class="axis-x" x="920.7" y="536.0" text-anchor="middle">70</text>
+<line class="grid major-x" x1="1033.7" y1="82.0" x2="1033.7" y2="512.0"/>
+<text class="axis-x" x="1033.7" y="536.0" text-anchor="middle">80</text>
+<line class="grid" x1="1146.7" y1="82.0" x2="1146.7" y2="512.0"/>
+<text class="axis-x" x="1146.7" y="536.0" text-anchor="middle">90</text>
+<line class="grid major-x" x1="1259.6" y1="82.0" x2="1259.6" y2="512.0"/>
+<text class="axis-x" x="1259.6" y="536.0" text-anchor="middle">100</text>
+<line class="grid" x1="1350.0" y1="82.0" x2="1350.0" y2="512.0"/>
+<text class="axis-x" x="1350.0" y="536.0" text-anchor="middle">108</text>
+<line class="axis" x1="130.0" y1="82.0" x2="130.0" y2="512.0"/>
+<line class="axis" x1="130.0" y1="512.0" x2="1350.0" y2="512.0"/>
+<line class="axis-light" x1="1350.0" y1="82.0" x2="1350.0" y2="512.0"/>
+<line class="comfort comfort-green" x1="130.0" y1="324.7" x2="1350.0" y2="324.7"/>
+<line class="comfort comfort-red" x1="130.0" y1="330.7" x2="1350.0" y2="330.7"/>
+<polyline class="fate-line" points="130.0,368.7 243.0,129.8 355.9,512.0 468.9,512.0 581.9,464.2 694.8,82.0 807.8,225.3 920.7,368.7 1033.7,129.8 1146.7,512.0 1259.6,512.0 1350.0,464.2"/>
+<polyline class="destiny-line" points="130.0,368.7 243.0,129.8 355.9,416.4 468.9,512.0 581.9,464.2 694.8,177.6 807.8,225.3 920.7,368.7 1033.7,129.8 1146.7,416.4 1259.6,512.0 1350.0,464.2"/>
+<circle class="meet-dot" cx="130.0" cy="368.7" r="8"/>
+<text class="point-value green-text" x="130.0" y="354.7" text-anchor="middle">3</text>
+<text class="point-value red-text" x="144.0" y="388.7" text-anchor="start">3</text>
+<circle class="meet-dot" cx="243.0" cy="129.8" r="8"/>
+<text class="point-value green-text" x="243.0" y="115.8" text-anchor="middle">8</text>
+<text class="point-value red-text" x="257.0" y="149.8" text-anchor="start">8</text>
+<circle class="fate-dot" cx="355.9" cy="512.0" r="7"/>
+<text class="point-value green-text" x="344.9" y="500.0" text-anchor="end">0</text>
+<circle class="destiny-dot" cx="355.9" cy="416.4" r="7"/>
+<text class="point-value red-text" x="366.9" y="434.4" text-anchor="start">2</text>
+<circle class="meet-dot" cx="468.9" cy="512.0" r="8"/>
+<text class="point-value green-text" x="468.9" y="498.0" text-anchor="middle">0</text>
+<text class="point-value red-text" x="482.9" y="532.0" text-anchor="start">0</text>
+<circle class="meet-dot" cx="581.9" cy="464.2" r="8"/>
+<text class="point-value green-text" x="581.9" y="450.2" text-anchor="middle">1</text>
+<text class="point-value red-text" x="595.9" y="484.2" text-anchor="start">1</text>
+<circle class="fate-dot" cx="694.8" cy="82.0" r="7"/>
+<text class="point-value green-text" x="683.8" y="70.0" text-anchor="end">9</text>
+<circle class="destiny-dot" cx="694.8" cy="177.6" r="7"/>
+<text class="point-value red-text" x="705.8" y="195.6" text-anchor="start">7</text>
+<circle class="meet-dot" cx="807.8" cy="225.3" r="8"/>
+<text class="point-value green-text" x="807.8" y="211.3" text-anchor="middle">6</text>
+<text class="point-value red-text" x="821.8" y="245.3" text-anchor="start">6</text>
+<circle class="meet-dot" cx="920.7" cy="368.7" r="8"/>
+<text class="point-value green-text" x="920.7" y="354.7" text-anchor="middle">3</text>
+<text class="point-value red-text" x="934.7" y="388.7" text-anchor="start">3</text>
+<circle class="meet-dot" cx="1033.7" cy="129.8" r="8"/>
+<text class="point-value green-text" x="1033.7" y="115.8" text-anchor="middle">8</text>
+<text class="point-value red-text" x="1047.7" y="149.8" text-anchor="start">8</text>
+<circle class="fate-dot" cx="1146.7" cy="512.0" r="7"/>
+<text class="point-value green-text" x="1135.7" y="500.0" text-anchor="end">0</text>
+<circle class="destiny-dot" cx="1146.7" cy="416.4" r="7"/>
+<text class="point-value red-text" x="1157.7" y="434.4" text-anchor="start">2</text>
+<circle class="meet-dot" cx="1259.6" cy="512.0" r="8"/>
+<text class="point-value green-text" x="1259.6" y="498.0" text-anchor="middle">0</text>
+<text class="point-value red-text" x="1273.6" y="532.0" text-anchor="start">0</text>
+<circle class="meet-dot" cx="1350.0" cy="464.2" r="8"/>
+<text class="point-value green-text" x="1350.0" y="450.2" text-anchor="middle">1</text>
+<text class="point-value red-text" x="1364.0" y="484.2" text-anchor="start">1</text>
+<line class="opportunity-line" x1="130.0" y1="368.7" x2="502.8" y2="368.7"/>
+<line class="challenge-line" x1="130.0" y1="464.2" x2="502.8" y2="464.2"/>
+<circle class="opportunity-dot" cx="316.4" cy="368.7" r="4"/>
+<circle class="challenge-dot" cx="316.4" cy="464.2" r="4"/>
+<text class="opportunity-label" x="316.4" y="359.7" text-anchor="middle">P1 O3</text>
+<text class="challenge-label" x="316.4" y="479.2" text-anchor="middle">P1 P1</text>
+<line class="opportunity-line" x1="514.1" y1="464.2" x2="604.4" y2="464.2"/>
+<line class="challenge-line" x1="514.1" y1="129.8" x2="604.4" y2="129.8"/>
+<circle class="opportunity-dot" cx="559.3" cy="464.2" r="4"/>
+<circle class="challenge-dot" cx="559.3" cy="129.8" r="4"/>
+<text class="opportunity-label" x="559.3" y="455.2" text-anchor="middle">P2 O1</text>
+<text class="challenge-label" x="559.3" y="144.8" text-anchor="middle">P2 P8</text>
+<line class="opportunity-line" x1="615.7" y1="320.9" x2="706.1" y2="320.9"/>
+<line class="challenge-line" x1="615.7" y1="177.6" x2="706.1" y2="177.6"/>
+<circle class="opportunity-dot" cx="660.9" cy="320.9" r="4"/>
+<circle class="challenge-dot" cx="660.9" cy="177.6" r="4"/>
+<text class="opportunity-label" x="660.9" y="311.9" text-anchor="middle">P3 O4</text>
+<text class="challenge-label" x="660.9" y="192.6" text-anchor="middle">P3 P7</text>
+<line class="opportunity-line" x1="717.4" y1="416.4" x2="1350.0" y2="416.4"/>
+<line class="challenge-line" x1="717.4" y1="177.6" x2="1350.0" y2="177.6"/>
+<circle class="opportunity-dot" cx="1033.7" cy="416.4" r="4"/>
+<circle class="challenge-dot" cx="1033.7" cy="177.6" r="4"/>
+<text class="opportunity-label" x="1033.7" y="407.4" text-anchor="middle">P4 O2</text>
+<text class="challenge-label" x="1033.7" y="192.6" text-anchor="middle">P4 P7</text>
+<polyline class="opportunity-line" points="316.4,368.7 559.3,464.2 660.9,320.9 1033.7,416.4"/>
+<polyline class="challenge-line" points="316.4,464.2 559.3,129.8 660.9,177.6 1033.7,177.6"/>
+<text class="row-label" x="96.0" y="584.0" text-anchor="end">Ani</text>
+<text class="row-label red-text" x="96.0" y="615.0" text-anchor="end">Interior</text>
+<text class="row-label green-text" x="96.0" y="644.0" text-anchor="end">Exterior</text>
+<circle class="interior-dot" cx="333.3" cy="608.0" r="4"/>
+<text class="interior-label" x="333.3" y="612.0" text-anchor="middle">2016</text>
+<circle class="interior-dot" cx="435.0" cy="608.0" r="4"/>
+<text class="interior-label" x="435.0" y="612.0" text-anchor="middle">2025</text>
+<circle class="interior-dot" cx="536.7" cy="608.0" r="4"/>
+<text class="interior-label" x="536.7" y="612.0" text-anchor="middle">2034</text>
+<circle class="interior-dot" cx="638.3" cy="608.0" r="4"/>
+<text class="interior-label" x="638.3" y="612.0" text-anchor="middle">2043</text>
+<circle class="exterior-dot" cx="435.0" cy="638.0" r="4"/>
+<text class="exterior-label" x="435.0" y="642.0" text-anchor="middle">2025</text>
+<circle class="exterior-dot" cx="536.7" cy="638.0" r="4"/>
+<text class="exterior-label" x="536.7" y="642.0" text-anchor="middle">2034</text>
+<circle class="exterior-dot" cx="638.3" cy="638.0" r="4"/>
+<text class="exterior-label" x="638.3" y="642.0" text-anchor="middle">2043</text>
+<text class="row-label" x="96.0" y="697.0" text-anchor="end">Ciclu 7</text>
+<rect class="pill7" x="131.5" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="168.0" y="697.0" text-anchor="middle">C1</text>
+<rect class="pill7" x="210.6" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="247.1" y="697.0" text-anchor="middle">C2</text>
+<rect class="pill7" x="289.6" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="326.2" y="697.0" text-anchor="middle">C3</text>
+<rect class="pill7" x="368.7" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="405.3" y="697.0" text-anchor="middle">C4</text>
+<rect class="pill7" x="447.8" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="484.3" y="697.0" text-anchor="middle">C5</text>
+<rect class="pill7" x="526.9" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="563.4" y="697.0" text-anchor="middle">C6</text>
+<rect class="pill7" x="605.9" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="642.5" y="697.0" text-anchor="middle">C7</text>
+<rect class="pill7" x="685.0" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="721.6" y="697.0" text-anchor="middle">C8</text>
+<rect class="pill7" x="764.1" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="800.6" y="697.0" text-anchor="middle">C9</text>
+<rect class="pill7" x="843.2" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="879.7" y="697.0" text-anchor="middle">C10</text>
+<rect class="pill7" x="922.2" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="958.8" y="697.0" text-anchor="middle">C11</text>
+<rect class="pill7" x="1001.3" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="1037.9" y="697.0" text-anchor="middle">C12</text>
+<rect class="pill7" x="1080.4" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="1116.9" y="697.0" text-anchor="middle">C13</text>
+<rect class="pill7" x="1159.5" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="1196.0" y="697.0" text-anchor="middle">C14</text>
+<rect class="pill7" x="1238.5" y="677.0" width="76.1" height="30.0" rx="7"/>
+<text class="pill-title" x="1275.1" y="697.0" text-anchor="middle">C15</text>
+<rect class="pill7" x="1317.6" y="677.0" width="30.9" height="30.0" rx="7"/>
+<text class="pill-title" x="1331.6" y="697.0" text-anchor="middle">C16</text>
+<text class="row-label" x="96.0" y="740.0" text-anchor="end">Ciclu 9</text>
+<rect class="pill9" x="131.5" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="179.3" y="733.0" text-anchor="middle">1998-2006</text>
+<text class="pill-detail" x="179.3" y="745.0" text-anchor="middle">0-9</text>
+<rect class="pill9" x="233.2" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="281.0" y="733.0" text-anchor="middle">2007-2015</text>
+<text class="pill-detail" x="281.0" y="745.0" text-anchor="middle">9-18</text>
+<rect class="pill9" x="334.8" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="382.7" y="733.0" text-anchor="middle">2016-2024</text>
+<text class="pill-detail" x="382.7" y="745.0" text-anchor="middle">18-27</text>
+<rect class="pill9" x="436.5" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="484.3" y="733.0" text-anchor="middle">2025-2033</text>
+<text class="pill-detail" x="484.3" y="745.0" text-anchor="middle">27-36</text>
+<rect class="pill9" x="538.2" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="586.0" y="733.0" text-anchor="middle">2034-2042</text>
+<text class="pill-detail" x="586.0" y="745.0" text-anchor="middle">36-45</text>
+<rect class="pill9" x="639.8" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="687.7" y="733.0" text-anchor="middle">2043-2051</text>
+<text class="pill-detail" x="687.7" y="745.0" text-anchor="middle">45-54</text>
+<rect class="pill9" x="741.5" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="789.3" y="733.0" text-anchor="middle">2052-2060</text>
+<text class="pill-detail" x="789.3" y="745.0" text-anchor="middle">54-63</text>
+<rect class="pill9" x="843.2" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="891.0" y="733.0" text-anchor="middle">2061-2069</text>
+<text class="pill-detail" x="891.0" y="745.0" text-anchor="middle">63-72</text>
+<rect class="pill9" x="944.8" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="992.7" y="733.0" text-anchor="middle">2070-2078</text>
+<text class="pill-detail" x="992.7" y="745.0" text-anchor="middle">72-81</text>
+<rect class="pill9" x="1046.5" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="1094.3" y="733.0" text-anchor="middle">2079-2087</text>
+<text class="pill-detail" x="1094.3" y="745.0" text-anchor="middle">81-90</text>
+<rect class="pill9" x="1148.2" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="1196.0" y="733.0" text-anchor="middle">2088-2096</text>
+<text class="pill-detail" x="1196.0" y="745.0" text-anchor="middle">90-99</text>
+<rect class="pill9" x="1249.8" y="720.0" width="98.7" height="30.0" rx="7"/>
+<text class="pill-title" x="1297.7" y="733.0" text-anchor="middle">2097-2105</text>
+<text class="pill-detail" x="1297.7" y="745.0" text-anchor="middle">99-108</text>
+<text class="row-label" x="96.0" y="783.0" text-anchor="end">Ciclu 12</text>
+<rect class="pill12" x="131.5" y="763.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="196.3" y="776.0" text-anchor="middle">C1</text>
+<text class="pill-detail" x="196.3" y="788.0" text-anchor="middle">1998-2009</text>
+<rect class="pill12" x="267.1" y="763.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="331.8" y="776.0" text-anchor="middle">C2</text>
+<text class="pill-detail" x="331.8" y="788.0" text-anchor="middle">2010-2021</text>
+<rect class="pill12" x="402.6" y="763.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="467.4" y="776.0" text-anchor="middle">C3</text>
+<text class="pill-detail" x="467.4" y="788.0" text-anchor="middle">2022-2033</text>
+<rect class="pill12" x="538.2" y="763.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="602.9" y="776.0" text-anchor="middle">C4</text>
+<text class="pill-detail" x="602.9" y="788.0" text-anchor="middle">2034-2045</text>
+<rect class="pill12" x="673.7" y="763.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="738.5" y="776.0" text-anchor="middle">C5</text>
+<text class="pill-detail" x="738.5" y="788.0" text-anchor="middle">2046-2057</text>
+<rect class="pill12" x="809.3" y="763.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="874.1" y="776.0" text-anchor="middle">C6</text>
+<text class="pill-detail" x="874.1" y="788.0" text-anchor="middle">2058-2069</text>
+<rect class="pill12" x="944.8" y="763.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="1009.6" y="776.0" text-anchor="middle">C7</text>
+<text class="pill-detail" x="1009.6" y="788.0" text-anchor="middle">2070-2081</text>
+<rect class="pill12" x="1080.4" y="763.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="1145.2" y="776.0" text-anchor="middle">C8</text>
+<text class="pill-detail" x="1145.2" y="788.0" text-anchor="middle">2082-2093</text>
+<rect class="pill12" x="1215.9" y="763.0" width="132.6" height="30.0" rx="7"/>
+<text class="pill-title" x="1280.7" y="776.0" text-anchor="middle">C9</text>
+<text class="pill-detail" x="1280.7" y="788.0" text-anchor="middle">2094-2105</text>
+<text class="row-label" x="96.0" y="826.0" text-anchor="end">Pinacle</text>
+<rect class="pill7" x="131.5" y="806.0" width="369.8" height="30.0" rx="7"/>
+<text class="pill-title" x="314.9" y="819.0" text-anchor="middle">P1</text>
+<text class="pill-detail" x="314.9" y="831.0" text-anchor="middle">O3 / P1</text>
+<rect class="pill7" x="515.6" y="806.0" width="87.4" height="30.0" rx="7"/>
+<text class="pill-title" x="557.8" y="819.0" text-anchor="middle">P2</text>
+<text class="pill-detail" x="557.8" y="831.0" text-anchor="middle">O1 / P8</text>
+<rect class="pill7" x="617.2" y="806.0" width="87.4" height="30.0" rx="7"/>
+<text class="pill-title" x="659.4" y="819.0" text-anchor="middle">P3</text>
+<text class="pill-detail" x="659.4" y="831.0" text-anchor="middle">O4 / P7</text>
+<rect class="pill7" x="718.9" y="806.0" width="629.6" height="30.0" rx="7"/>
+<text class="pill-title" x="1032.2" y="819.0" text-anchor="middle">P4</text>
+<text class="pill-detail" x="1032.2" y="831.0" text-anchor="middle">O2 / P7</text>
+<text class="legend" x="1395.0" y="84.0" text-anchor="start">Legenda</text>
+<rect x="1395" y="100" width="18" height="12" rx="2" fill="#22b14c"/>
+<text class="legend" x="1425.0" y="112.0" text-anchor="start">Soarta</text>
+<rect x="1395" y="122" width="18" height="12" rx="2" fill="#ff1616"/>
+<text class="legend" x="1425.0" y="134.0" text-anchor="start">Destin</text>
+<line x1="1395" y1="152" x2="1417" y2="152" stroke="#999" stroke-width="4" stroke-dasharray="8 5"/>
+<text class="legend" x="1425.0" y="156.0" text-anchor="start">Zona confort</text>
+<rect x="1395" y="166" width="18" height="12" rx="2" fill="#8e44ad"/>
+<text class="legend" x="1425.0" y="178.0" text-anchor="start">Oportunitate pinaclu</text>
+<rect x="1395" y="188" width="18" height="12" rx="2" fill="#3f7ee8"/>
+<text class="legend" x="1425.0" y="200.0" text-anchor="start">Provocare pinaclu</text>
+<rect x="1395" y="210" width="18" height="12" rx="2" fill="#ff1616"/>
+<text class="legend" x="1425.0" y="222.0" text-anchor="start">An interior</text>
+<rect x="1395" y="232" width="18" height="12" rx="2" fill="#22b14c"/>
+<text class="legend" x="1425.0" y="244.0" text-anchor="start">An exterior</text>
+<rect x="1395" y="254" width="18" height="12" rx="2" fill="#ff9800"/>
+<text class="legend" x="1425.0" y="266.0" text-anchor="start">Ciclu de 7 ani</text>
+<rect x="1395" y="276" width="18" height="12" rx="2" fill="#ead3dc"/>
+<text class="legend" x="1425.0" y="288.0" text-anchor="start">Ciclu de 9 ani</text>
+<rect x="1395" y="298" width="18" height="12" rx="2" fill="#cfe4f6"/>
+<text class="legend" x="1425.0" y="310.0" text-anchor="start">Ciclu de 12 ani</text>
+<text class="label" x="95.0" y="878.0" text-anchor="start">Soarta: 1902 x 1998 = 3800196 -&gt; zona confort 27 / 7 = 3,86</text>
+<text class="label" x="95.0" y="902.0" text-anchor="start">Destin: 1912 x 1998 = 3820176 -&gt; zona confort 27 / 7 = 3,86</text>
+<text class="watermark" x="1580.0" y="915.0" text-anchor="end">Atlas Numerologie</text>
+</svg>

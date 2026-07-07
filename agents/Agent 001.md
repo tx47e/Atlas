@@ -18,6 +18,8 @@ Sa creeze reprezentari SVG numerologice clare, corecte si reutilizabile, folosin
 - `numerologie-SVG-patratul-de-aur` - [[skills/numerologie-SVG-patratul-de-aur/SKILL|SKILL.md]]
 - `numerologie-SVG-semnatura-astrala` - [[skills/numerologie-SVG-semnatura-astrala/SKILL|SKILL.md]]
 - `numerologie-SVG-septagrama` - [[skills/numerologie-SVG-septagrama/SKILL|SKILL.md]]
+- `numerologie-SVG-harta-suprapusa` - [[skills/numerologie-SVG-harta-suprapusa/SKILL|SKILL.md]]
+- `numerologie-SVG-soarta-si-destin` - [[skills/numerologie-SVG-soarta-si-destin/SKILL|SKILL.md]]
 - `numerologie-SVG-triunghiul-financiar` - [[skills/numerologie-SVG-triunghiul-financiar/SKILL|SKILL.md]]
 
 ## Responsabilitati

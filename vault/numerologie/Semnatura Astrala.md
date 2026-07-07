@@ -29,7 +29,7 @@ semnaturii.
 2. Se realizeaza patratul lui Pitagora.
 3. Se porneste de la prima cifra si se merge pana la ultima cifra din matrice,
    conform ordinii cifrelor din CNP-ul astral.
-4. Se unesc intre ele punctele/casutele cu linii, in ordinea mentionata.
+4. Se unesc intre ele centrele casutelor cu linii, in ordinea mentionata.
 5. Se obtine o forma geometrica.
 6. Forma se multiplica de cate ori este necesar, recomandat conform cifrei
    destinului sau ariei de viata care se doreste potentata.
@@ -46,7 +46,8 @@ Se foloseste asezarea clasica a patratului lui Pitagora:
 ```
 
 Cifrele din CNP-ul astral se citesc in ordine. Pentru fiecare cifra se merge la
-casuta corespunzatoare din patrat si se traseaza linia catre urmatoarea cifra.
+centrul casutei corespunzatoare din patrat si se traseaza linia catre urmatoarea
+cifra.
 
 ```text
 CNP astral: c1.c2.c3...cn
@@ -57,6 +58,16 @@ c1 -> c2 -> c3 -> ... -> cn
 
 Punctul de inceput este centrul de rotire al semnaturii. Cand forma se
 multiplica, rotirea se face in jurul acestui punct initial.
+
+Cifra `0` ramane in codul numeric, dar nu are casuta in patratul `1-9`, deci nu
+se traseaza ca punct geometric. Daca apar doua cifre identice consecutive,
+traseul ramane in aceeasi casuta; repetitia se pastreaza in textul traseului si
+poate fi marcata vizual printr-un semn de stationare.
+
+Daca acelasi segment apare de mai multe ori, indiferent de sensul de parcurgere,
+linia se deseneaza suprapus si se ingroasa proportional. De exemplu, o legatura
+`2 -> 9` si o legatura `9 -> 2` ocupa aceeasi linie geometrica si trebuie citite
+ca o repetitie a aceleiasi punti.
 
 ---
 ## Multiplicare

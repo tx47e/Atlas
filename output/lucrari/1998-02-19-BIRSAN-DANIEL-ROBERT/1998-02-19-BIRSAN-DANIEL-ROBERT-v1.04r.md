@@ -1291,10 +1291,10 @@ Index: BDR-19980219-v1.04r-P-211
 Semnatura astrala iti arata traseul principal intr-o forma vizuala. La tine, Daniel, pornirea este in cifra 1, ceea ce vorbeste despre initiativa, identitate si nevoia de a-ti asuma directia. Traseul se intoarce des prin 9 si 3, deci ai o semnatura care cere sa transformi experienta acumulata in exprimare, comunicare si creatie concreta.
 
 Index: BDR-19980219-v1.04r-P-212
-Pentru acest ajutor folosim CNP-ul astral si destinul. CNP-ul astral da traseul, iar destinul arata de cate ori se multiplica forma.
+Pentru acest ajutor folosim data nasterii, codul numeric personal si codul numerologic personal. Din ele obtinem CNP-ul astral, iar traseul se deseneaza pe centrele casutelor din patratul lui Pitagora. Cifra 0 ramane in codul numeric, dar nu are casuta in patratul 1-9, deci nu se traseaza ca punct. Cand aceeasi legatura apare de mai multe ori, linia se ingroasa, pentru ca repetitia arata o zona prin care energia revine insistent. Destinul arata de cate ori se multiplica forma.
 
 Index: BDR-19980219-v1.04r-C-034
-**Calcul:** 19021998 + 39 + 3 + 37 + 1 = 19021998393371 -> Destin: 3
+**Calcul:** 19021998 + 39 + 3 + 37 + 1 = 19021998393371 -> fara 0 in patratul 1-9: 1 -> 9 -> 2 -> 1 -> 1 -> 9 -> 9 -> 8 -> 3 -> 9 -> 3 -> 3 -> 7 -> 1 -> Destin: 3
 
 Index: BDR-19980219-v1.04r-C-035
 ![Semnatura astrala pentru Birsan Daniel Robert](semnatura-astrala-birsan-daniel-robert.svg)
@@ -1302,7 +1302,7 @@ Index: BDR-19980219-v1.04r-C-035
 _Semnatura astrala - traseul personal al lui Daniel_
 
 Index: BDR-19980219-v1.04r-P-213
-Interpretarea este simpla: nu esti construit sa mergi doar pe acumulare tacuta. Cand ramai blocat in analiza sau in asteptarea momentului perfect, semnatura te impinge inapoi spre actiune si exprimare. Cifra 1 iti cere sa pornesti, 9 iti cere sa vezi imaginea larga, iar 3 iti cere sa dai forma prin cuvant, proiect, prezenta si comunicare.
+Interpretarea este simpla: nu esti construit sa mergi doar pe acumulare tacuta. Cand ramai blocat in analiza sau in asteptarea momentului perfect, semnatura te impinge inapoi spre actiune si exprimare. Cifra 1 iti cere sa pornesti, 9 iti cere sa vezi imaginea larga, iar 3 iti cere sa dai forma prin cuvant, proiect, prezenta si comunicare. Traseul revine puternic pe legaturile 1-9 si 3-9, iar asta iti arata ca directia personala, experienta acumulata si exprimarea trebuie tinute impreuna: nu ajunge doar sa intelegi, Daniel, ci trebuie sa transformi intelegerea in gest, mesaj si actiune vizibila.
 
 Index: BDR-19980219-v1.04r-SUB-058
 ### 6.2. Triunghiul financiar

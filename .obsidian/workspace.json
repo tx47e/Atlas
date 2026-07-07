@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/Numerologie/Aplicabilitate Profesionala.md",
+                "file": "vault/Numerologie/Lectii de Viata.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aplicabilitate Profesionala"
+              "title": "Lectii de Viata"
             }
           }
         ]
@@ -40,21 +40,8 @@
               "icon": "lucide-file-text",
               "title": "Chibulcutean Tamara_Lucrare Examen"
             }
-          },
-          {
-            "id": "a89c30676e24caac",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.html#capitolul-1-formule-calcule-tabele-grafice"
-              },
-              "icon": "lucide-file",
-              "title": "Birsan Daniel Robert - Lucrare numerologica v1.04r"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,41 +219,44 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a89c30676e24caac",
+  "active": "b0a22f32ac646726",
   "lastOpenFiles": [
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-17-steaua-obstacole-profesionale.jpg",
+    "vault/Numerologie/Soarta si Destin.md",
     "temp/lucrare finalizate/Chibulcutean Tamara_Lucrare Examen.pdf",
+    "vault/Numerologie/Lectii de Viata.md",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/harta-suprapusa-soarta-destin-birsan-daniel-robert.svg",
+    "Link catre capitol.md",
+    "skills/numerologie-SVG-soarta-si-destin/SKILL.md",
+    "skills/numerologie-SVG-harta-suprapusa/SKILL.md",
+    "skills/numerologie-SVG-harta-suprapusa/assets/visual-reference.png",
+    "temp/chrome-svg-check/Default/Site Characteristics Database/LOG.old",
+    "scripts/__pycache__/gen_harta_suprapusa_bdr.cpython-312.pyc",
+    "temp/chrome-svg-check/ZxcvbnData",
+    "temp/chrome-svg-check/WidevineCdm",
+    "temp/chrome-svg-check/WasmTtsEngine",
+    "temp/chrome-svg-check/TrustTokenKeyCommitments",
+    "temp/chrome-svg-check/SSLErrorAssistant",
+    "temp/chrome-svg-check/SafetyTips",
+    "temp/chrome-svg-check/Safe Browsing",
+    "temp/harta-suprapusa-title-check.svg",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.md",
+    "temp/harta-suprapusa-preview.png",
+    "skills/numerologie-SVG-harta-suprapusa/assets/legacy-harta-suprapusa.svg",
+    "vault/Numerologie/Aplicabilitate Profesionala.md",
+    "agents/Agent 001.md",
+    "skills/numerologie-svg-harta-suprapusa/SKILL.md",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-17-steaua-obstacole-profesionale.jpg",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-07-carul-aplicabilitate-profesionala.jpg",
     "vault/tarot/3-Imparateasa.md",
-    "vault/Numerologie/Aplicabilitate Profesionala.md",
-    "vault/Numerologie/Soarta si Destin.md",
     "skills/numerologie-SVG-soarta-si-destin/assets/reference.svg",
-    "skills/numerologie-SVG-soarta-si-destin/assets",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.md",
-    "skills/numerologie-SVG-soarta-si-destin/agents/openai.yaml",
-    "skills/numerologie-SVG-soarta-si-destin/SKILL.md",
-    "skills/numerologie-SVG-soarta-si-destin/agents",
-    "skills/numerologie-SVG-soarta-si-destin",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/soarta-si-destin-birsan-daniel-robert.svg",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/septagrama-birsan-daniel-robert.svg",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.html",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1r.md",
-    "agents/Agent 001.md",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ADREEA-MARIA-V1.md",
-    "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/triunghiul-financiar-roman-adreea-maria.svg",
-    "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/semnatura-astrala-roman-adreea-maria.svg",
-    "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/patratul-de-aur-roman-adreea-maria.svg",
     "skills/numerologie-SVG-omuletul-relatiilor/SKILL.md",
     "temp/lucrare finalizate/Template lucrare numerologica - din PDF.md",
     "vault/Numerologie/Caii Trasura si Vizitiul.md",
-    "temp/sync_chapters_2_to_5_html.py",
-    "temp/sync_section_1_5_html.py",
-    "temp/sync_sections_1_2_1_3_html.py",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1r.html",
     "vault/Numerologie/Deschidere spre Ezoterism.md",
-    "temp/ChatGPT Image Jul 5, 2026, 01_36_47 PM.png",
-    "temp/ChatGPT Image Jul 5, 2026, 01_27_23 PM.png",
-    "temp/ChatGPT Image Jul 5, 2026, 01_26_17 PM.png",
     "vault/Numerologie/Anii Importanti Int-Ext.md",
     "vault/Numerologie/Vibratia 2.md",
     "vault/Numerologie/Index.md",
@@ -275,10 +265,6 @@
     "temp/lucrare finalizate/Chibulcutean Tamara_Lucrare Examen - extractie.md",
     "vault/Numerologie/Vibratia 4.md",
     "vault/Numerologie/Vibratia 1.md",
-    "vault/Numerologie/Vibratia 0.md",
-    "vault/Numerologie/Fixatia.md",
-    "templates/Cuprins_Lucrare_Numerologica.md",
-    "skills/numerologie-SVG-septagrama/SKILL.md",
-    "vault/Numerologie/Codul Spiritului.md"
+    "vault/Numerologie/Vibratia 0.md"
   ]
 }

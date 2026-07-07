@@ -18,13 +18,19 @@ tags: [skill]
 
 1. Citeste `vault/Numerologie/Semnatura Astrala.md` si documentele dependente necesare pentru datele furnizate.
 2. Stabileste valorile semnaturii astrale conform metodei din documentatie.
-3. Foloseste `assets/reference.svg` ca sablon de compozitie, nu ca sursa principala de calcul.
-4. Pastreaza forma principala, distributia nodurilor si modul de etichetare din referinta.
-5. Actualizeaza valorile calculate doar pe baza datelor furnizate si verificate cu documentatia din `vault/Numerologie/`.
-6. Nu introduce elemente decorative noi daca nu ajuta calculul sau lizibilitatea.
-7. Salveaza SVG-ul rezultat in `vault/Numerologie/` sau in calea ceruta de utilizator.
-8. Verifica SVG-ul ca XML valid si inspecteaza vizual alinierea, suprapunerile si contrastul.
-9. Verifica matematic valorile finale cu baza din `vault/Numerologie/Semnatura Astrala.md`.
+3. Construieste traseul din cifrele reale ale CNP-ului astral/codului folosit, in ordinea lor exacta.
+4. Mapeaza cifrele `1-9` pe centrele casutelor din patratul lui Pitagora: `1,4,7` sus, `2,5,8` la mijloc, `3,6,9` jos.
+5. Pastreaza cifra `0` in textul calculului, dar nu o trasa geometric, pentru ca nu are casuta in patratul `1-9`.
+6. Daca doua cifre consecutive sunt identice, pastreaza repetitia in traseul afisat si marcheaza stationarea discret, fara sa inventezi un segment fals.
+7. Grupeaza segmentele suprapuse; daca acelasi segment apare de mai multe ori, inclusiv in sens invers, linia trebuie ingrosata proportional cu numarul de treceri.
+8. Foloseste `assets/reference.svg` ca sablon de compozitie, nu ca sursa principala de calcul.
+9. Pastreaza forma principala, distributia nodurilor si modul de etichetare din referinta.
+10. Actualizeaza valorile calculate doar pe baza datelor furnizate si verificate cu documentatia din `vault/Numerologie/`.
+11. Nu introduce elemente decorative noi daca nu ajuta calculul sau lizibilitatea.
+12. Salveaza SVG-ul rezultat in `vault/Numerologie/` sau in calea ceruta de utilizator.
+13. Verifica SVG-ul ca XML valid si inspecteaza vizual alinierea, suprapunerile si contrastul.
+14. Verifica matematic valorile finale cu baza din `vault/Numerologie/Semnatura Astrala.md`.
+15. Verifica explicit ca punctele sau segmentele din SVG corespund cu textul `Traseu folosit`.
 
 ## Regula watermark
 
