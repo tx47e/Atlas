@@ -44,12 +44,12 @@
 
     <!-- Nodes -->
     <circle class="node" cx="760" cy="140" r="20"/><text class="node-text" x="744" y="147">1/8</text>
-    <circle class="node" cx="1041.5" cy="275.5" r="20"/><text class="node-text" x="1026" y="282">2/6</text>
+    <circle class="node" cx="1041.5" cy="275.5" r="20"/><text class="node-text" x="1026" y="282">2/9</text>
     <circle class="node" cx="1111" cy="580.1" r="20"/><text class="node-text" x="1093" y="587">3/10</text>
     <circle class="node" cx="916.2" cy="824.3" r="20"/><text class="node-text" x="898" y="831">4/11</text>
-    <circle class="node" cx="603.8" cy="824.3" r="20"/><text class="node-text" x="589" y="831">5/9</text>
-    <circle class="node" cx="409" cy="580.1" r="20"/><text class="node-text" x="394" y="587">3/7</text>
-    <circle class="node" cx="478.5" cy="275.5" r="20"/><text class="node-text" x="463" y="282">1/5</text>
+    <circle class="node" cx="603.8" cy="824.3" r="20"/><text class="node-text" x="589" y="831">5/12</text>
+    <circle class="node" cx="409" cy="580.1" r="20"/><text class="node-text" x="394" y="587">6/13</text>
+    <circle class="node" cx="478.5" cy="275.5" r="20"/><text class="node-text" x="463" y="282">7/14</text>
 
     <!-- Edge labels follow the septagram edges and sit just beside the line, toward the nearest star point. -->
     <g class="edge">

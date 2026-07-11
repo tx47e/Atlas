@@ -6,7 +6,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-POSITIONS = {0:(318,328),1:(442,180),2:(592,328),3:(700,405),4:(610,498),5:(450,620),6:(450,625),7:(200,560),8:(285,498),9:(151,380)}
+POSITIONS = {0:(318,328),1:(442,180),2:(592,328),3:(700,405),4:(610,498),5:(650,680),6:(450,625),7:(250,680),8:(285,498),9:(151,380)}
 LABEL_FONT_WEIGHT = "800"
 
 def digits(value: str) -> list[int]:

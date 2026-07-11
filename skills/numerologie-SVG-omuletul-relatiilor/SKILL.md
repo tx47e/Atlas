@@ -48,6 +48,8 @@ in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regener
   cerc, patrat, axe si pentagrama. Nu redesena geometria independent.
 - Pastreaza coordonatele din `POSITIONS` in script. Eticheta `6` este pozitionata
   sub pentagrama, la mijloc, fara sa atinga linii.
+- Eticheta `7` sta sub si in exteriorul cercului, langa coltul stanga-jos al
+  pentagramei; eticheta `5` este pozitionata oglindit in dreapta-jos.
 - Afiseaza valorile persoanei A cu `#0070c9`, separatorul cu `#333333` si valorile
   persoanei B cu `#ff00b8`.
 - Toate valorile din casete, inclusiv separatorul, folosesc `font-size="24"` si

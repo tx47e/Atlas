@@ -655,7 +655,7 @@ Index: BDR-19980219-v1.04r-P-123
 Ciclurile de 7 ani arata maturizarea, disciplina si formarea structurii interioare. Le citim ca praguri de lucru care revin din sapte in sapte ani si arata cum se aseaza energia in etape concrete de viata.
 
 Index: BDR-19980219-v1.04r-C-017a
-![Septagrama pentru Birsan Daniel Robert](septagrama-birsan-daniel-robert-v2.svg)
+![Septagrama pentru Birsan Daniel Robert](septagrama-birsan-daniel-robert.svg)
 
 Index: BDR-19980219-v1.04r-T-004a
 | Ciclu | Ani calendaristici | Varsta | Varsta criza | An criza | An de viata | Varf | Pereche | Rezultat pereche | Interpretare |
@@ -790,7 +790,7 @@ Index: BDR-19980219-v1.04r-C-019b
 **Calcul:** Destin grafic = 1912 x 1998 = 3820176; zona de confort destin = (3 + 8 + 2 + 0 + 1 + 7 + 6) / 7 = 27 / 7 = 3,86.
 
 Index: BDR-19980219-v1.04r-C-019c
-![Grafic Soarta si Destin pentru Birsan Daniel Robert](soarta-si-destin-birsan-daniel-robert-v2.svg)
+![Grafic Soarta si Destin pentru Birsan Daniel Robert](soarta-si-destin-birsan-daniel-robert.svg)
 
 _Grafic Soarta si Destin pentru Birsan Daniel Robert_
 
@@ -798,7 +798,7 @@ Index: BDR-19980219-v1.04r-SUB-036a
 #### Harta suprapusa
 
 Index: BDR-19980219-v1.04r-C-019e
-![Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert-v2.svg)
+![Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert.svg)
 
 _Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert_
 
@@ -1305,7 +1305,7 @@ Index: BDR-19980219-v1.04r-C-034
 **Calcul:** 19021998 + 39 + 3 + 37 + 1 = 19021998393371 -> fara 0 in patratul 1-9: 1 -> 9 -> 2 -> 1 -> 1 -> 9 -> 9 -> 8 -> 3 -> 9 -> 3 -> 3 -> 7 -> 1 -> Destin: 3
 
 Index: BDR-19980219-v1.04r-C-035
-![Semnatura astrala pentru Birsan Daniel Robert](semnatura-astrala-birsan-daniel-robert-v2.svg)
+![Semnatura astrala pentru Birsan Daniel Robert](semnatura-astrala-birsan-daniel-robert.svg)
 
 _Semnatura astrala - traseul personal al lui Daniel_
 

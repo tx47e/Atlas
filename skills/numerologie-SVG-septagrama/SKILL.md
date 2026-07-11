@@ -10,6 +10,7 @@ description: Creeaza SVG-uri autonome pentru Septagrama ciclurilor de 7 ani. Fol
 - Foloseste exclusiv `scripts/generate_septagrama.py` pentru calcule si generare.
 - Scriptul primeste numele, data nasterii, data de referinta si calea SVG-ului de iesire.
 - Scriptul calculeaza ciclurile C1-C14, anul momentului de criza si ciclul activ pe baza varstei implinite la data de referinta.
+- Varfurile septagramei sunt etichetate permanent in ordinea `1/8`, `2/9`, `3/10`, `4/11`, `5/12`, `6/13`, `7/14`.
 - Marcheaza cu verde intregul bloc al ciclului activ: eticheta ciclului si randul lui descriptiv. Toate celelalte cicluri raman in stil normal.
 - Nu consulta `vault/Numerologie/` si nu cere verificare manuala suplimentara la fiecare rulare.
 
