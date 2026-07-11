@@ -794,6 +794,11 @@ Index: BDR-19980219-v1.04r-C-019c
 
 _Grafic Soarta si Destin pentru Birsan Daniel Robert_
 
+Index: BDR-19980219-v1.04r-C-019d
+![Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert-v2.svg)
+
+_Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert_
+
 Index: BDR-19980219-v1.04r-T-005a
 | Pozitie | Soarta | Destin | Citire |
 | ---: | ---: | ---: | --- |

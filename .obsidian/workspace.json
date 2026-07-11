@@ -6,20 +6,18 @@
       {
         "id": "3d992b1bb9b4ef0d",
         "type": "tabs",
-        "dimension": 42.63833992094862,
+        "dimension": 67.58893280632411,
         "children": [
           {
-            "id": "b0a22f32ac646726",
+            "id": "a4e0f5eb388eda79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "vault/Numerologie/Lectii de Viata.md",
-                "mode": "source",
-                "source": false
+                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.html#capitolul-7-concluzii-finale-pentru-numerologi"
               },
               "icon": "lucide-file",
-              "title": "Lectii de Viata"
+              "title": "Birsan Daniel Robert - Lucrare numerologica v1.04r"
             }
           }
         ]
@@ -27,7 +25,7 @@
       {
         "id": "9f0dc0c7aeddc05f",
         "type": "tabs",
-        "dimension": 57.36166007905138,
+        "dimension": 32.41106719367589,
         "children": [
           {
             "id": "faa6dc9f83bae1f8",
@@ -219,12 +217,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b0a22f32ac646726",
+  "active": "a4e0f5eb388eda79",
   "lastOpenFiles": [
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/harta-suprapusa-soarta-destin-birsan-daniel-robert-v2.svg",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/harta-suprapusa-soarta-destin-birsan-daniel-robert.svg",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.md",
+    "scripts/gen_harta_suprapusa_bdr_v2.py",
+    "vault/Numerologie/Lectii de Viata.md",
     "vault/Numerologie/Soarta si Destin.md",
     "temp/lucrare finalizate/Chibulcutean Tamara_Lucrare Examen.pdf",
-    "vault/Numerologie/Lectii de Viata.md",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/harta-suprapusa-soarta-destin-birsan-daniel-robert.svg",
     "Link catre capitol.md",
     "skills/numerologie-SVG-soarta-si-destin/SKILL.md",
     "skills/numerologie-SVG-harta-suprapusa/SKILL.md",
@@ -237,9 +239,7 @@
     "temp/chrome-svg-check/TrustTokenKeyCommitments",
     "temp/chrome-svg-check/SSLErrorAssistant",
     "temp/chrome-svg-check/SafetyTips",
-    "temp/chrome-svg-check/Safe Browsing",
     "temp/harta-suprapusa-title-check.svg",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.md",
     "temp/harta-suprapusa-preview.png",
     "skills/numerologie-SVG-harta-suprapusa/assets/legacy-harta-suprapusa.svg",
     "vault/Numerologie/Aplicabilitate Profesionala.md",
@@ -250,7 +250,6 @@
     "vault/tarot/3-Imparateasa.md",
     "skills/numerologie-SVG-soarta-si-destin/assets/reference.svg",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/soarta-si-destin-birsan-daniel-robert.svg",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/septagrama-birsan-daniel-robert.svg",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1r.md",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ADREEA-MARIA-V1.md",
     "skills/numerologie-SVG-omuletul-relatiilor/SKILL.md",
