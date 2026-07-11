@@ -85,6 +85,52 @@
       display: none;
     }
 
+    .overlay-chart-panel {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .overlay-chart-toolbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: flex-start;
+      padding: 18px 20px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .overlay-chart-toolbar .hint {
+      max-width: 760px;
+    }
+
+    .overlay-chart-stage {
+      width: 100%;
+      overflow-x: auto;
+      padding: 12px;
+      background: #f7efe3;
+    }
+
+    .overlay-chart-stage svg {
+      display: block;
+      width: 100%;
+      min-width: 1280px;
+      height: auto;
+    }
+
+    .overlay-legend-item {
+      cursor: pointer;
+      user-select: none;
+      transition: opacity .15s ease;
+    }
+
+    .overlay-legend-item.is-off {
+      opacity: .36;
+    }
+
+    .overlay-hidden {
+      display: none;
+    }
+
     h2 {
       margin: 0 0 16px;
       font-size: 22px;
@@ -1285,29 +1331,14 @@
       </div>
     </section>
 
-    <section class="panel">
-      <div class="toolbar">
+    <section class="panel overlay-chart-panel">
+      <div class="overlay-chart-toolbar">
         <div>
-          <h2 style="margin:0">Tabel central de calcul - Capitolul 2</h2>
-          <div class="hint">Randurile cu marcaj manual au formula definita ca loc de lucru si se completeaza dupa metoda/documentatie.</div>
+          <h2 style="margin:0">Harta suprapusa soarta-destin-ciclicitati</h2>
+          <div class="hint">Grafic dinamic pentru datele introduse. Legenda din dreapta activeaza si dezactiveaza straturile vizuale.</div>
         </div>
-        <input id="search" class="no-print" placeholder="Cauta concept, formula sau grup">
       </div>
-      <div class="table-wrap">
-        <table id="calcTable">
-          <thead>
-            <tr>
-              <th>Grup</th>
-              <th>Concept</th>
-              <th>Modalitate de calcul</th>
-              <th>Calcul pentru persoana</th>
-              <th>Rezultat</th>
-              <th>Completari, interpretare, grafice</th>
-            </tr>
-          </thead>
-          <tbody id="tableBody"></tbody>
-        </table>
-      </div>
+      <div class="overlay-chart-stage" id="overlayChart"></div>
     </section>
   </main>
   </div>
@@ -1570,6 +1601,22 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     let wellbeingSortMode = "value";
     let wellbeingMeasureMode = "value";
     let elementsSortMode = "element";
+    const overlayVisibility = {
+      fate: true,
+      destiny: true,
+      comfortFate: true,
+      comfortDestiny: true,
+      opportunity: true,
+      challenge: true,
+      lessons: true,
+      interior: true,
+      exterior: true,
+      cycle7: true,
+      crisis7: true,
+      cycle9: true,
+      cycle12: true,
+      pinacle: true
+    };
     function normalizeText(value) {
       return (value || "")
         .normalize("NFD")
@@ -2186,6 +2233,289 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       return `Soarta: ${base} x ${s.year} = ${product}; Destin: ${destinyBase} x ${destinyYear} = ${destinyProduct}; ritm varste: 0, ${rhythm}, ${rhythm * 2}, ${rhythm * 3}...`;
     }
 
+    function fateDestinyData(s) {
+      const baseText = `${String(s.day).padStart(2, "0")}${String(s.month).padStart(2, "0")}`;
+      const destinyBaseText = baseText.replace(/0/g, "1");
+      const destinyYearText = String(s.year).replace(/0/g, "1");
+      const fateNumber = String(Number(baseText) * s.year).padStart(7, "0");
+      const destinyNumber = String(Number(destinyBaseText) * Number(destinyYearText)).padStart(7, "0");
+      const fateDigits = fateNumber.split("").map(Number);
+      const destinyDigits = destinyNumber.split("").map(Number);
+      return {
+        fateNumber,
+        destinyNumber,
+        fateDigits,
+        destinyDigits,
+        comfortFate: fateDigits.reduce((a, b) => a + b, 0) / 7,
+        comfortDestiny: destinyDigits.reduce((a, b) => a + b, 0) / 7
+      };
+    }
+
+    function importantYearsAges(startYear, endYear, mode) {
+      const items = [];
+      let current = startYear;
+      while (true) {
+        const step = mode === "interior" ? reduceNumber(current) : sumDigitsRaw(current);
+        current += step;
+        if (current > endYear) break;
+        items.push({ age: current - startYear, year: current });
+      }
+      return items;
+    }
+
+    function pinacleData(s, endAge) {
+      const yearDigit = reduceNumber(s.year);
+      const opportunities = [
+        reduceNumber(s.ve + s.vi),
+        reduceNumber(s.vi + yearDigit),
+        0,
+        reduceNumber(s.ve + yearDigit)
+      ];
+      opportunities[2] = reduceNumber(opportunities[0] + opportunities[1]);
+      const challenges = [
+        Math.abs(s.vi - s.ve),
+        Math.abs(s.vi - yearDigit),
+        0,
+        Math.abs(s.ve - yearDigit)
+      ];
+      challenges[2] = Math.abs(challenges[0] - challenges[1]);
+      const p1End = 36 - s.destin;
+      const p2End = p1End + 9;
+      const p3End = p2End + 9;
+      return [
+        { start: 0, end: p1End, label: "1", opportunity: opportunities[0], challenge: challenges[0] },
+        { start: p1End + 1, end: p2End, label: "2", opportunity: opportunities[1], challenge: challenges[1] },
+        { start: p2End + 1, end: p3End, label: "3", opportunity: opportunities[2], challenge: challenges[2] },
+        { start: p3End + 1, end: endAge, label: "4", opportunity: opportunities[3], challenge: challenges[3] }
+      ];
+    }
+
+    function renderOverlayChart(s) {
+      const target = document.getElementById("overlayChart");
+      if (!target || !s) return;
+
+      const endAge = 108;
+      const data = fateDestinyData(s);
+      const width = 1900;
+      const height = 1080;
+      const left = 270;
+      const right = 410;
+      const top = 135;
+      const chartH = 430;
+      const chartW = width - left - right;
+      const bottom = top + chartH;
+      const paper = "#f7efe3";
+      const colors = {
+        fate: "#22b14c",
+        destiny: "#ff1616",
+        orange: "#ff9800",
+        opportunity: "#8e44ad",
+        challenge: "#1f8fbf",
+        lessons: "#9fc9de",
+        interior: "#5a4fb0",
+        exterior: "#2f7f5f",
+        cycle9: "#7f2346",
+        cycle12: "#6f9fbd",
+        pinacle: "#b9a44a"
+      };
+      const x = age => left + (age / endAge) * chartW;
+      const y = value => bottom - (value / 9) * chartH;
+      const escAttr = value => escapeHtml(String(value));
+      const text = (xp, yp, value, cls = "ov-label", anchor = "start", extra = "") =>
+        `<text class="${cls}" x="${xp.toFixed(1)}" y="${yp.toFixed(1)}" text-anchor="${anchor}"${extra}>${escAttr(value)}</text>`;
+      const line = (x1, y1, x2, y2, cls, extra = "") =>
+        `<line class="${cls}" x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}"${extra}/>`;
+      const circle = (xp, yp, r, cls) => `<circle class="${cls}" cx="${xp.toFixed(1)}" cy="${yp.toFixed(1)}" r="${r}"/>`;
+      const square = (xp, yp, size, cls) => `<rect class="${cls}" x="${(xp - size / 2).toFixed(1)}" y="${(yp - size / 2).toFixed(1)}" width="${size}" height="${size}" rx="2"/>`;
+      const downTriangle = (xp, yp, size, cls) => {
+        const h = size / 2;
+        return `<polygon class="${cls}" points="${(xp - h).toFixed(1)},${(yp - h).toFixed(1)} ${(xp + h).toFixed(1)},${(yp - h).toFixed(1)} ${xp.toFixed(1)},${(yp + h).toFixed(1)}"/>`;
+      };
+      const upTriangle = (xp, yp, size, cls) => {
+        const h = size / 2;
+        return `<polygon class="${cls}" points="${(xp - h).toFixed(1)},${(yp + h).toFixed(1)} ${(xp + h).toFixed(1)},${(yp + h).toFixed(1)} ${xp.toFixed(1)},${(yp - h).toFixed(1)}"/>`;
+      };
+      const groupClass = key => overlayVisibility[key] ? "" : " overlay-hidden";
+      const ages = Array.from({ length: Math.floor(endAge / 10) + 1 }, (_, i) => i * 10).filter(age => age <= endAge);
+      if (!ages.includes(endAge)) ages.push(endAge);
+      const fateValues = ages.map((_, i) => data.fateDigits[i % data.fateDigits.length]);
+      const destinyValues = ages.map((_, i) => data.destinyDigits[i % data.destinyDigits.length]);
+      const points = values => ages.map((age, i) => `${x(age).toFixed(1)},${y(values[i]).toFixed(1)}`).join(" ");
+      const lifeDigits = String(s.lifeProduct).split("").map(Number);
+      const lessonPoints = Array.from({ length: endAge + 1 }, (_, age) => {
+        const value = lifeDigits[age % lifeDigits.length] || 0;
+        return `${x(age).toFixed(1)},${y(value).toFixed(1)}`;
+      }).join(" ");
+      const endYear = s.year + endAge;
+      const interior = importantYearsAges(s.year, endYear, "interior");
+      const exterior = importantYearsAges(s.year, endYear, "exterior");
+      const pinacles = pinacleData(s, endAge);
+      const markerCounts = new Map();
+      const countMarker = age => markerCounts.set(age, (markerCounts.get(age) || 0) + 1);
+      interior.forEach(item => countMarker(item.age));
+      exterior.forEach(item => countMarker(item.age));
+      for (let age = 0; age <= endAge; age += 7) countMarker(age);
+      for (let age = 0; age < endAge; age += 9) countMarker(age);
+      for (let age = 0; age < endAge; age += 12) countMarker(age);
+      pinacles.forEach(item => countMarker(item.start));
+      const sw = age => (1.4 + Math.max(0, (markerCounts.get(age) || 1) - 1) * .65).toFixed(2);
+      const rowsY = {
+        fate: bottom + 48,
+        destiny: bottom + 70,
+        interior: bottom + 100,
+        exterior: bottom + 130,
+        c7: bottom + 197,
+        c9: bottom + 262,
+        c12: bottom + 327,
+        pinacle: bottom + 392
+      };
+      const rowLabelX = left - 36;
+      const parts = [];
+
+      parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Harta suprapusa soarta destin ciclicitati">`);
+      parts.push(`<style>
+        .ov-bg{fill:${paper}} .ov-title{font:800 22px Arial,sans-serif;fill:#293238}.ov-subtitle{font:800 15px Arial,sans-serif;fill:#35434a}
+        .ov-label{font:700 12px Arial,sans-serif;fill:#333}.ov-axis-y{font:800 16px Arial,sans-serif;fill:#2b2119}.ov-axis-x{font:700 13px Arial,sans-serif;fill:#222}
+        .ov-axis-name{font:900 14px Arial,sans-serif;fill:#2b2119}.ov-grid{stroke:#c9d0d2;stroke-width:1;stroke-dasharray:6 4}.ov-major{stroke:#aeb7bb;stroke-width:1.4}
+        .ov-axis{stroke:#111;stroke-width:3}.ov-axis-light{stroke:#111;stroke-width:2}.ov-fate-line{fill:none;stroke:${colors.fate};stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+        .ov-destiny-line{fill:none;stroke:${colors.destiny};stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.ov-fate-dot{fill:${colors.fate};stroke:#fff;stroke-width:2}
+        .ov-destiny-dot{fill:${colors.destiny};stroke:#fff;stroke-width:2}.ov-meet-dot{fill:#fff;stroke:#333;stroke-width:2.5}.ov-comfort{stroke-width:4;stroke-dasharray:18 12;opacity:.75}
+        .ov-row{font:800 16px Arial,sans-serif}.ov-value{font:900 15px Arial,sans-serif;paint-order:stroke;stroke:#fff;stroke-width:3px}.ov-green{fill:${colors.fate}}.ov-red{fill:${colors.destiny}}
+        .ov-year-link{stroke:#7a858c;stroke-width:1.5;opacity:.62;stroke-dasharray:4 4}.ov-interior-label{font:900 11px Arial,sans-serif;fill:${colors.interior};paint-order:stroke;stroke:#fff3de;stroke-width:2px}
+        .ov-exterior-label{font:900 11px Arial,sans-serif;fill:${colors.exterior};paint-order:stroke;stroke:#fff3de;stroke-width:2px}.ov-cycle7-line{stroke:${colors.orange};opacity:.42;stroke-dasharray:7 7}
+        .ov-crisis-line{stroke:${colors.orange};opacity:.64;stroke-dasharray:6 6}.ov-cycle7-triangle{fill:${colors.orange};stroke:${colors.orange};stroke-width:2}.ov-crisis-triangle{fill:none;stroke:${colors.orange};stroke-width:2}
+        .ov-triangle-number{font:900 8.5px Arial,sans-serif;fill:#fff;dominant-baseline:middle}.ov-cycle-year{font:900 10px Arial,sans-serif;paint-order:stroke;stroke:#fff3de;stroke-width:2px}
+        .ov-cycle9-line{stroke:${colors.cycle9};opacity:.42;stroke-dasharray:4 7}.ov-cycle9-square{fill:${colors.cycle9};stroke:${colors.cycle9};stroke-width:2}.ov-cycle12-line{stroke:${colors.cycle12};opacity:.52;stroke-dasharray:4 6}
+        .ov-cycle12-square{fill:${colors.cycle12};stroke:${colors.cycle12};stroke-width:2}.ov-pinacle-line{stroke:${colors.pinacle};opacity:.62;stroke-dasharray:4 6}.ov-pinacle-square{fill:${colors.pinacle};stroke:${colors.pinacle};stroke-width:2}
+        .ov-square-number{font:900 10px Arial,sans-serif;fill:#fff;dominant-baseline:middle}.ov-opportunity-line{fill:none;stroke:${colors.opportunity};stroke-width:2.4;opacity:.82}.ov-challenge-line{fill:none;stroke:${colors.challenge};stroke-width:2.4;opacity:.78}
+        .ov-lesson-line{fill:none;stroke:${colors.lessons};stroke-width:2.2;opacity:.82;stroke-linejoin:round;stroke-linecap:round}.ov-opportunity-label{font:900 10px Arial,sans-serif;fill:${colors.opportunity};paint-order:stroke;stroke:#fff;stroke-width:2px}
+        .ov-challenge-label{font:900 10px Arial,sans-serif;fill:${colors.challenge};paint-order:stroke;stroke:#fff;stroke-width:2px}.ov-legend{font:800 13px Arial,sans-serif;fill:#222}.ov-watermark{font:800 14px Arial,sans-serif;fill:#aaa}
+      </style>`);
+      parts.push(`<rect class="ov-bg" width="${width}" height="${height}"/>`);
+      parts.push(text(95, 28, "Harta suprapusa soarta-destin-ciclicitati", "ov-title"));
+      parts.push(text(width - 160, 28, (s.fullName || "-").toUpperCase(), "ov-title", "end"));
+      parts.push(text(width - 160, 52, formatBirthDate(s), "ov-subtitle", "end"));
+
+      for (let value = 0; value <= 9; value++) {
+        const yy = y(value);
+        parts.push(line(left, yy, left + chartW, yy, value === 0 || value === 9 ? "ov-grid ov-major" : "ov-grid"));
+        parts.push(text(left - 20, yy + 5, value, "ov-axis-y", "end"));
+      }
+      ages.forEach(age => {
+        const xp = x(age);
+        parts.push(line(xp, top, xp, bottom, age % 20 === 0 ? "ov-grid ov-major" : "ov-grid"));
+        parts.push(text(xp, bottom + 24, age, "ov-axis-x", "middle"));
+      });
+      parts.push(line(left, top, left, bottom, "ov-axis"));
+      parts.push(line(left, bottom, left + chartW, bottom, "ov-axis"));
+      parts.push(line(left + chartW, top, left + chartW, bottom, "ov-axis-light"));
+      parts.push(text(left + chartW + 34, bottom + 24, "Ani", "ov-axis-name"));
+      parts.push(text(left - 68, top + chartH / 2, "Vibratie", "ov-axis-name", "middle", ` transform="rotate(-90 ${(left - 68).toFixed(1)} ${(top + chartH / 2).toFixed(1)})"`));
+
+      parts.push(`<g class="chart-layer-${overlayVisibility.comfortFate ? "on" : "off"}${groupClass("comfortFate")}">${line(left, y(data.comfortFate), left + chartW, y(data.comfortFate), "ov-comfort", ` stroke="${colors.fate}"`)}</g>`);
+      parts.push(`<g class="chart-layer-${overlayVisibility.comfortDestiny ? "on" : "off"}${groupClass("comfortDestiny")}">${line(left, y(data.comfortDestiny), left + chartW, y(data.comfortDestiny), "ov-comfort", ` stroke="${colors.destiny}"`)}</g>`);
+      parts.push(`<g class="${groupClass("fate")}"><polyline class="ov-fate-line" points="${points(fateValues)}"/>${ages.map((age, i) => circle(x(age), y(fateValues[i]), 7, "ov-fate-dot")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("destiny")}"><polyline class="ov-destiny-line" points="${points(destinyValues)}"/>${ages.map((age, i) => circle(x(age), y(destinyValues[i]), 7, "ov-destiny-dot")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("lessons")}"><polyline class="ov-lesson-line" points="${lessonPoints}"/></g>`);
+
+      function stepPath(key) {
+        const commands = [];
+        pinacles.forEach((p, index) => {
+          const value = key === "opportunity" ? p.opportunity : p.challenge;
+          if (index === 0) commands.push(`M ${x(p.start).toFixed(1)} ${y(value).toFixed(1)}`);
+          commands.push(`H ${x(p.end).toFixed(1)}`);
+          if (index < pinacles.length - 1) {
+            const nextValue = key === "opportunity" ? pinacles[index + 1].opportunity : pinacles[index + 1].challenge;
+            commands.push(`V ${y(nextValue).toFixed(1)}`);
+          }
+        });
+        return commands.join(" ");
+      }
+      parts.push(`<g class="${groupClass("opportunity")}"><path class="ov-opportunity-line" d="${stepPath("opportunity")}"/></g>`);
+      parts.push(`<g class="${groupClass("challenge")}"><path class="ov-challenge-line" d="${stepPath("challenge")}"/></g>`);
+
+      const yearLineBottom = rowsY.exterior + 18;
+      interior.concat(exterior).forEach(item => {
+        parts.push(line(x(item.age), top, x(item.age), yearLineBottom, "ov-year-link", ` stroke-width="${sw(item.age)}"`));
+      });
+      parts.push(`<g class="${groupClass("interior")}">${text(rowLabelX, rowsY.interior, "Ani interior", "ov-row ov-interior-label", "end")}${interior.map(item => text(x(item.age) - 5, rowsY.interior, item.year, "ov-interior-label", "middle", ` transform="rotate(-90 ${(x(item.age) - 5).toFixed(1)} ${rowsY.interior.toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("exterior")}">${text(rowLabelX, rowsY.exterior, "Ani exterior", "ov-row ov-exterior-label", "end")}${exterior.map(item => text(x(item.age) + 12, rowsY.exterior, item.year, "ov-exterior-label", "middle", ` transform="rotate(-90 ${(x(item.age) + 12).toFixed(1)} ${rowsY.exterior.toFixed(1)})"`)).join("")}</g>`);
+
+      parts.push(`<g class="${groupClass("cycle7")}">${text(rowLabelX, rowsY.c7 + 5, "Ciclu 7", "ov-row", "end")}${Array.from({ length: Math.floor(endAge / 7) + 1 }, (_, i) => i * 7).map((age, i) => line(x(age), top, x(age), rowsY.c7 - 12, "ov-cycle7-line", ` stroke-width="${sw(age)}"` ) + downTriangle(x(age), rowsY.c7, 24, "ov-cycle7-triangle") + text(x(age), rowsY.c7 - 5, i + 1, "ov-triangle-number", "middle")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("crisis7")}">${Array.from({ length: Math.floor((endAge - 3.5) / 7) + 1 }, (_, i) => i * 7 + 3.5).map(age => line(x(age), top, x(age), rowsY.c7 - 12, "ov-crisis-line") + upTriangle(x(age), rowsY.c7, 24, "ov-crisis-triangle")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle9")}">${text(rowLabelX, rowsY.c9 + 5, "Ciclu 9", "ov-row", "end")}${Array.from({ length: Math.ceil(endAge / 9) }, (_, i) => i * 9).map((age, i) => line(x(age), bottom, x(age), rowsY.c9 - 12, "ov-cycle9-line", ` stroke-width="${sw(age)}"` ) + square(x(age), rowsY.c9, 24, "ov-cycle9-square") + text(x(age), rowsY.c9 + .5, i + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c9 - 18, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle9}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c9 - 18).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle12")}">${text(rowLabelX, rowsY.c12 + 5, "Ciclu 12", "ov-row", "end")}${Array.from({ length: Math.ceil(endAge / 12) }, (_, i) => i * 12).map((age, i) => line(x(age), top, x(age), rowsY.c12 - 12, "ov-cycle12-line", ` stroke-width="${sw(age)}"` ) + square(x(age), rowsY.c12, 24, "ov-cycle12-square") + text(x(age), rowsY.c12 + .5, i + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c12 - 18, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle12}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c12 - 18).toFixed(1)})"`)).join("")}</g>`);
+
+      const bridgeParts = pinacles.map((p, index) => {
+        const nextStart = index < pinacles.length - 1 ? pinacles[index + 1].start : endAge;
+        const x1 = x(p.start) + 12;
+        const x2 = x(nextStart) - (index < pinacles.length - 1 ? 12 : 0);
+        const topY = rowsY.pinacle - 6;
+        const bottomY = rowsY.pinacle + 6;
+        const opportunityTop = p.opportunity >= p.challenge;
+        const oy = opportunityTop ? topY : bottomY;
+        const cy = opportunityTop ? bottomY : topY;
+        const mid = (x1 + x2) / 2;
+        return `<line x1="${x1.toFixed(1)}" y1="${oy}" x2="${x2.toFixed(1)}" y2="${oy}" stroke="${colors.opportunity}" stroke-width="2.3"/><line x1="${x1.toFixed(1)}" y1="${cy}" x2="${x2.toFixed(1)}" y2="${cy}" stroke="${colors.challenge}" stroke-width="2.3"/>${text(mid, oy + (opportunityTop ? -11 : 15), `O${p.opportunity}`, "ov-opportunity-label", "middle")}${text(mid, cy + (opportunityTop ? 15 : -11), `P${p.challenge}`, "ov-challenge-label", "middle")}`;
+      }).join("");
+      parts.push(`<g class="${groupClass("pinacle")}">${text(rowLabelX, rowsY.pinacle + 5, "Pinaclu", "ov-row", "end")}${pinacles.map(p => line(x(p.start), top, x(p.start), rowsY.pinacle - 12, "ov-pinacle-line", ` stroke-width="${sw(p.start)}"`)).join("")}${bridgeParts}${pinacles.map(p => square(x(p.start), rowsY.pinacle, 24, "ov-pinacle-square") + text(x(p.start), rowsY.pinacle + .5, p.label, "ov-square-number", "middle") + text(x(p.start) - 6, rowsY.pinacle - 18, s.year + p.start, "ov-cycle-year", "middle", ` fill="${colors.pinacle}" transform="rotate(-90 ${(x(p.start) - 6).toFixed(1)} ${(rowsY.pinacle - 18).toFixed(1)})"`)).join("")}</g>`);
+
+      parts.push(text(rowLabelX, rowsY.fate, "Soarta", "ov-row ov-green", "end"));
+      parts.push(text(rowLabelX, rowsY.destiny, "Destin", "ov-row ov-red", "end"));
+      for (let i = 0; i < Math.floor(endAge / 10) + 1; i++) {
+        const midAge = Math.min(i * 10 + 5, endAge);
+        parts.push(text(x(midAge), rowsY.fate, data.fateDigits[i % data.fateDigits.length], "ov-value ov-green", "middle"));
+        parts.push(text(x(midAge), rowsY.destiny, data.destinyDigits[i % data.destinyDigits.length], "ov-value ov-red", "middle"));
+      }
+
+      const legendX = left + chartW + 120;
+      const legendY = 390;
+      const legendItems = [
+        ["fate", colors.fate, `Soarta ${data.fateNumber}`, "line"],
+        ["destiny", colors.destiny, `Destin ${data.destinyNumber}`, "line"],
+        ["comfortFate", colors.fate, `Zona confort Soarta ${data.comfortFate.toFixed(2).replace(".", ",")}`, "dash"],
+        ["comfortDestiny", colors.destiny, `Zona confort Destin ${data.comfortDestiny.toFixed(2).replace(".", ",")}`, "dash"],
+        ["opportunity", colors.opportunity, "Oportunitate", "line"],
+        ["challenge", colors.challenge, "Provocare", "line"],
+        ["lessons", colors.lessons, `Lectii de viata ${s.lifeProduct}`, "line"],
+        ["interior", colors.interior, "An interior", "dash"],
+        ["exterior", colors.exterior, "An exterior", "dash"],
+        ["cycle7", colors.orange, "Ciclu 7", "down"],
+        ["crisis7", colors.orange, "Criza ciclu 7", "up"],
+        ["cycle9", colors.cycle9, "Ciclu 9", "square"],
+        ["cycle12", colors.cycle12, "Ciclu 12", "square"],
+        ["pinacle", colors.pinacle, "Pinaclu", "square"]
+      ];
+      parts.push(text(legendX, legendY, "Legenda", "ov-legend"));
+      legendItems.forEach(([key, color, label, kind], i) => {
+        const yy = legendY + 24 + i * 22;
+        const offClass = overlayVisibility[key] ? "" : " is-off";
+        let symbol = "";
+        if (kind === "line" || kind === "dash") symbol = `<line x1="${legendX}" y1="${yy}" x2="${legendX + 24}" y2="${yy}" stroke="${color}" stroke-width="3"${kind === "dash" ? ' stroke-dasharray="8 5"' : ""}/>`;
+        if (kind === "down") symbol = downTriangle(legendX + 12, yy - 1, 24, "").replace('class=""', `fill="${color}" stroke="${color}" stroke-width="2"`);
+        if (kind === "up") symbol = upTriangle(legendX + 12, yy - 1, 24, "").replace('class=""', `fill="none" stroke="${color}" stroke-width="2"`);
+        if (kind === "square") symbol = `<rect x="${legendX}" y="${yy - 12}" width="24" height="24" rx="2" fill="${color}" stroke="${color}" stroke-width="2"/>`;
+        parts.push(`<g class="overlay-legend-item${offClass}" data-layer="${key}" tabindex="0" role="button" aria-pressed="${overlayVisibility[key] ? "true" : "false"}">${symbol}${text(legendX + 30, yy + 4, label, "ov-legend")}</g>`);
+      });
+
+      parts.push(text(width - 20, height - 15, "Atlas Numerologie", "ov-watermark", "end"));
+      parts.push("</svg>");
+      target.innerHTML = parts.join("");
+      target.querySelectorAll(".overlay-legend-item").forEach(item => {
+        const toggle = () => {
+          overlayVisibility[item.dataset.layer] = !overlayVisibility[item.dataset.layer];
+          renderOverlayChart(parseState());
+        };
+        item.addEventListener("click", toggle);
+        item.addEventListener("keydown", event => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            toggle();
+          }
+        });
+      });
+    }
+
     function professionalText(s) {
       return `Obstacole/ajutoare: ${s.cdRaw} - 22 = ${s.professionalObstacle}; aplicabilitate: ${s.month} + ${sumDigitsRaw(s.year)} - 22 = ${s.professionalArcana}`;
     }
@@ -2242,6 +2572,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       renderBars("elementsBars", sortedElementItems);
 
       renderWellbeingVisual(s);
+      renderOverlayChart(s);
     }
 
     function matrixComparisonHtml(s) {
@@ -2420,36 +2751,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       if (!s) return;
       renderSummary(s);
       renderDashboard(s);
-      const body = document.getElementById("tableBody");
-      const query = document.getElementById("search").value.toLowerCase();
-      let currentGroup = "";
-      const html = [];
-      rows.forEach((row, index) => {
-        const haystack = `${row.group} ${row.concept} ${row.method}`.toLowerCase();
-        if (query && !haystack.includes(query)) return;
-        if (row.group !== currentGroup) {
-          currentGroup = row.group;
-          html.push(`<tr class="group-row"><td colspan="6">${currentGroup}</td></tr>`);
-        }
-        const calc = row.calc ? row.calc(s) : "";
-        const result = row.result ? row.result(s) : "";
-        const manualKey = `manual-${index}`;
-        const manualValue = manualValues.get(manualKey) || "";
-        html.push(`
-          <tr>
-            <td>${row.group}</td>
-            <td class="concept">${row.concept}${row.manual ? '<br><span class="manual">manual</span>' : ""}</td>
-            <td class="calc">${row.method}</td>
-            <td>${calc}</td>
-            <td class="result">${row.html ? result : escapeHtml(String(result))}</td>
-            <td class="editable"><textarea data-manual-key="${manualKey}" placeholder="Interpretare, observatii, link grafic, tabel extins...">${escapeHtml(manualValue)}</textarea></td>
-          </tr>
-        `);
-      });
-      body.innerHTML = html.join("");
-      body.querySelectorAll("textarea[data-manual-key]").forEach(area => {
-        area.addEventListener("input", () => manualValues.set(area.dataset.manualKey, area.value));
-      });
     }
 
     function escapeHtml(value) {
@@ -2528,7 +2829,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       elementsSortMode = "quantity";
       renderDashboard(parseState());
     });
-    document.getElementById("search").addEventListener("input", renderTable);
     document.querySelectorAll("input, select, textarea#workNotes").forEach(el => {
       el.addEventListener("change", renderTable);
     });

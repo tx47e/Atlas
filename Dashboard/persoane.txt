@@ -1,6 +1,5 @@
 # Format:
 # Eticheta|Nume complet|Prenume activ|Nume familie|Data nasterii YYYY-MM-DD|Gen masculin/feminin|An referinta|Interval ani|Partener optional
-Szabo Mihai Gabriel|Szabo Mihai Gabriel|Mihai|Szabo|1984-11-06|masculin|2026|108|
-Szabo Sabina|Szabo Sabina|Sabina|Szabo|1984-04-17|feminin|2026|108|Szabo Mihai Gabriel / sot
-Szabo Norica Doinita|Szabo Norica Doinita|Norica|Szabo|1956-01-11|feminin|2026|108|
-Szabo Ovidiu Cristian|Szabo Ovidiu Cristian|Ovidiu|Szabo|1980-06-04|masculin|2026|108|
+Szabo Mihai Gabriel|Szabo Mihai Gabriel|Mihai|Szabo|1984-06-11|masculin|2026|108|
+Szabo Sabina|Szabo Sabina|Sabina|Szabo|1984-04-17|masculin|2026|108|
+Szabo Mihai Gabriel|Szabo Mihai Gabriel|Mihai|Szabo|1984-11-06|masculin|2026|108|Szabo Sabina

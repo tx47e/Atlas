@@ -6,15 +6,15 @@
       {
         "id": "3d992b1bb9b4ef0d",
         "type": "tabs",
-        "dimension": 67.58893280632411,
+        "dimension": 61.72979084228377,
         "children": [
           {
-            "id": "a4e0f5eb388eda79",
+            "id": "a52fdac48ab205b3",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.html#capitolul-7-concluzii-finale-pentru-numerologi"
+                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.html#capitolul-1-formule-calcule-tabele-grafice"
               },
               "icon": "lucide-file",
               "title": "Birsan Daniel Robert - Lucrare numerologica v1.04r"
@@ -25,7 +25,7 @@
       {
         "id": "9f0dc0c7aeddc05f",
         "type": "tabs",
-        "dimension": 32.41106719367589,
+        "dimension": 38.270209157716224,
         "children": [
           {
             "id": "faa6dc9f83bae1f8",
@@ -51,7 +51,7 @@
       {
         "id": "0ed92887046056cb",
         "type": "tabs",
-        "dimension": 57.227575982209046,
+        "dimension": 35.18518518518518,
         "children": [
           {
             "id": "c1cd69e380e73c87",
@@ -96,9 +96,59 @@
         ]
       },
       {
+        "id": "67d5687188d996c3",
+        "type": "tabs",
+        "dimension": 27.85185185185185,
+        "children": [
+          {
+            "id": "b699d76cdc11cdf2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "C:\\Users\\Mihai\\Documents\\Atlas",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "environment": [],
+                    "executable": "C:\\Windows\\System32\\cmd.exe",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "win32": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "profileSourceId": "win32IntegratedDefault",
+                  "serial": null,
+                  "userTitle": ""
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "Terminal: C:\\WINDOWS\\system32\\cmd.exe"
+            }
+          }
+        ]
+      },
+      {
         "id": "744c8dee47e4b6c7",
         "type": "tabs",
-        "dimension": 42.772424017790954,
+        "dimension": 36.96296296296296,
         "children": [
           {
             "id": "40333d0dadc56bb2",
@@ -114,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 492.5
+    "width": 747.5
   },
   "right": {
     "id": "7ae17244d167b343",
@@ -214,11 +264,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "3d-graph:3D Graph": false
+      "3d-graph:3D Graph": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "a4e0f5eb388eda79",
+  "active": "b699d76cdc11cdf2",
   "lastOpenFiles": [
+    "Dashboard/persoane.txt.crswap",
+    "scripts/__pycache__/gen_harta_suprapusa_szabo_mihai_gabriel.cpython-312.pyc",
+    "output/lucrari/1984-11-06-SZABO-MIHAI-GABRIEL/harta-suprapusa-soarta-destin-szabo-mihai-gabriel.svg",
+    "output/lucrari/1984-11-06-SZABO-MIHAI-GABRIEL",
+    "scripts/gen_harta_suprapusa_szabo_mihai_gabriel.py",
     "skills/numerologie-SVG-harta-suprapusa/templates/__pycache__/harta-suprapusa-template.cpython-312.pyc",
     "skills/numerologie-SVG-harta-suprapusa/templates/__pycache__",
     "skills/numerologie-SVG-harta-suprapusa/SKILL.md",
@@ -237,10 +293,6 @@
     "skills/numerologie-SVG-soarta-si-destin/SKILL.md",
     "skills/numerologie-SVG-harta-suprapusa/assets/visual-reference.png",
     "temp/chrome-svg-check/Default/Site Characteristics Database/LOG.old",
-    "scripts/__pycache__/gen_harta_suprapusa_bdr.cpython-312.pyc",
-    "temp/chrome-svg-check/ZxcvbnData",
-    "temp/chrome-svg-check/WidevineCdm",
-    "temp/chrome-svg-check/WasmTtsEngine",
     "temp/harta-suprapusa-title-check.svg",
     "temp/harta-suprapusa-preview.png",
     "skills/numerologie-SVG-harta-suprapusa/assets/legacy-harta-suprapusa.svg",
@@ -248,7 +300,6 @@
     "agents/Agent 001.md",
     "skills/numerologie-svg-harta-suprapusa/SKILL.md",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-17-steaua-obstacole-profesionale.jpg",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-07-carul-aplicabilitate-profesionala.jpg",
     "vault/tarot/3-Imparateasa.md",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1r.md",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ADREEA-MARIA-V1.md",
