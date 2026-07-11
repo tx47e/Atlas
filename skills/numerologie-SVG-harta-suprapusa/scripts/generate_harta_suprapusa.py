@@ -1,7 +1,5 @@
-﻿from pathlib import Path
-
-
-OUT = Path("output/lucrari/1984-11-06-SZABO-MIHAI-GABRIEL/harta-suprapusa-soarta-destin-szabo-mihai-gabriel.svg")
+import argparse
+from pathlib import Path
 
 WIDTH = 1900
 HEIGHT = 1080
@@ -28,6 +26,7 @@ EXTERIOR_YEAR = "#2f7f5f"
 PAPER = "#f7efe3"
 GRID = "#c9d0d2"
 MARKER_COUNTS = {}
+DATA = {}
 
 
 def esc(value):
@@ -56,6 +55,62 @@ def numerological_reduce(value):
     while value > 9:
         value = digit_sum(value)
     return value
+
+
+def parse_birth_date(value):
+    parts = value.strip().replace("/", ".").replace("-", ".").split(".")
+    if len(parts) != 3 or not all(part.isdigit() for part in parts):
+        raise ValueError("Data nasterii trebuie sa fie in forma ZZ.LL.AAAA.")
+    day, month, year = (int(part) for part in parts)
+    if not 1 <= day <= 31 or not 1 <= month <= 12 or year < 1:
+        raise ValueError("Data nasterii nu este valida.")
+    return day, month, year
+
+
+def harta_data(name, birth_date):
+    day, month, birth_year = parse_birth_date(birth_date)
+    base_text = f"{day:02d}{month:02d}"
+    destiny_base_text = base_text.replace("0", "1")
+    destiny_year_text = str(birth_year).replace("0", "1")
+    fate_number = str(int(base_text) * birth_year).zfill(7)
+    destiny_number = str(int(destiny_base_text) * int(destiny_year_text)).zfill(7)
+    fate_digits = [int(digit) for digit in fate_number]
+    destiny_digits = [int(digit) for digit in destiny_number]
+    vi = numerological_reduce(day)
+    ve = numerological_reduce(month)
+    destin = numerological_reduce(day + month + birth_year)
+    year_digit = numerological_reduce(birth_year)
+    opportunities = [
+        numerological_reduce(ve + vi),
+        numerological_reduce(vi + year_digit),
+        0,
+        numerological_reduce(ve + year_digit),
+    ]
+    opportunities[2] = numerological_reduce(opportunities[0] + opportunities[1])
+    challenges = [abs(vi - ve), abs(vi - year_digit), 0, abs(ve - year_digit)]
+    challenges[2] = abs(challenges[0] - challenges[1])
+    p1_end = 36 - destin
+    p2_end = p1_end + 9
+    p3_end = p2_end + 9
+    return {
+        "name": name,
+        "birth_date": f"{day:02d}.{month:02d}.{birth_year:04d}",
+        "birth_year": birth_year,
+        "fate_number": fate_number,
+        "destiny_number": destiny_number,
+        "fate_digits": fate_digits,
+        "destiny_digits": destiny_digits,
+        "comfort_fate": sum(fate_digits) / 7,
+        "comfort_destiny": sum(destiny_digits) / 7,
+        "life_digits": [int(digit) for digit in str(day * month * birth_year)],
+        "life_product": day * month * birth_year,
+        "pinacles": [
+            (0, p1_end, "P1", opportunities[0], challenges[0]),
+            (p1_end + 1, p2_end, "P2", opportunities[1], challenges[1]),
+            (p2_end + 1, p3_end, "P3", opportunities[2], challenges[2]),
+            (p3_end + 1, END_AGE, "P4", opportunities[3], challenges[3]),
+        ],
+    }
 
 
 def important_years(birth_year, end_year, mode):
@@ -288,7 +343,7 @@ def cycle7_top_marker(age, label):
     triangle_center_y = marker_y
     triangle_size = 22
     triangle_tip_y = triangle_center_y + triangle_size / 2
-    year = 1984 + age
+    year = DATA["birth_year"] + age
     year_y = (triangle_tip_y + TOP) / 2
     parts = [
         line(xp, triangle_tip_y, xp, CHART_BOTTOM, "orange cycle7-line", marker_stroke_extra(age, 1.4, ' stroke-dasharray="7 7"')),
@@ -304,7 +359,7 @@ def cycle9_top_marker(age, label):
     marker_center_y = TOP - 155
     marker_size = 24
     marker_bottom_y = marker_center_y + marker_size / 2
-    year = 1984 + age
+    year = DATA["birth_year"] + age
     year_y = marker_bottom_y + 30
     parts = [
         line(xp, marker_bottom_y, xp, CHART_BOTTOM, "cycle9-line", marker_stroke_extra(age, 1.4, ' stroke-dasharray="4 7"')),
@@ -342,7 +397,7 @@ def crisis_bottom_line(age, row_y):
 
 def cycle7_bottom_marker(age, label, row_y):
     xp = x(age)
-    year = 1984 + age
+    year = DATA["birth_year"] + age
     year_y = row_y - 30
     return "\n".join([
         down_triangle(xp, row_y, 24, "cycle7-triangle"),
@@ -353,7 +408,7 @@ def cycle7_bottom_marker(age, label, row_y):
 
 def crisis_bottom_marker(age, row_y):
     xp = x(age)
-    year = int(1984 + age)
+    year = int(DATA["birth_year"] + age)
     year_y = row_y - 30
     return "\n".join([
         up_triangle(xp, row_y, 24, "crisis-triangle"),
@@ -362,7 +417,7 @@ def crisis_bottom_marker(age, row_y):
 
 
 def life_lesson_line():
-    series = [int(digit) for digit in str(6 * 11 * 1984)]
+    series = DATA["life_digits"]
     points = []
     for age in range(START_AGE, END_AGE + 1):
         life_year = age + 1
@@ -372,8 +427,8 @@ def life_lesson_line():
 
 
 def chart():
-    fate = [1, 2, 1, 2, 2, 2, 4]
-    destiny = [3, 1, 9, 6, 2, 2, 4]
+    fate = DATA["fate_digits"]
+    destiny = DATA["destiny_digits"]
     ages = list(range(0, 101, 10)) + [END_AGE]
     fate_values = [fate[i % len(fate)] for i in range(len(ages))]
     destiny_values = [destiny[i % len(destiny)] for i in range(len(ages))]
@@ -394,13 +449,8 @@ def chart():
     parts.append(line(LEFT, CHART_BOTTOM, LEFT + CHART_W, CHART_BOTTOM, "axis"))
     parts.append(line(LEFT + CHART_W, TOP, LEFT + CHART_W, CHART_BOTTOM, "axis-light"))
 
-    comfort_fate = 14 / 7
-    comfort_destiny = 27 / 7
-    cy_fate = y(comfort_fate)
-    cy_destiny = y(comfort_destiny)
-    offset = 3 if abs(cy_fate - cy_destiny) < 4 else 0
-    parts.append(line(LEFT, cy_fate - offset, LEFT + CHART_W, cy_fate - offset, "comfort comfort-green"))
-    parts.append(line(LEFT, cy_destiny + offset, LEFT + CHART_W, cy_destiny + offset, "comfort comfort-red"))
+    parts.append(line(LEFT, y(DATA["comfort_fate"]), LEFT + CHART_W, y(DATA["comfort_fate"]), "comfort comfort-green"))
+    parts.append(line(LEFT, y(DATA["comfort_destiny"]), LEFT + CHART_W, y(DATA["comfort_destiny"]), "comfort comfort-red"))
 
     fate_points = " ".join(f"{x(age):.1f},{y(value):.1f}" for age, value in zip(ages, fate_values))
     destiny_points = " ".join(f"{x(age):.1f},{y(value):.1f}" for age, value in zip(ages, destiny_values))
@@ -421,13 +471,13 @@ def chart():
 
 
 def fate_destiny_rows(row_label_x):
-    fate = [1, 2, 1, 2, 2, 2, 4]
-    destiny = [3, 1, 9, 6, 2, 2, 4]
+    fate = DATA["fate_digits"]
+    destiny = DATA["destiny_digits"]
     intervals = list(range(0, 101, 10))
     fate_y = CHART_BOTTOM + 48
     destiny_y = CHART_BOTTOM + 70
     parts = [
-        text(row_label_x, fate_y, "Soarta", "row-label green-text", "end"),
+        text(row_label_x, fate_y, "Soartă", "row-label green-text", "end"),
         text(row_label_x, destiny_y, "Destin", "row-label red-text", "end"),
     ]
     for index, start_age in enumerate(intervals):
@@ -444,11 +494,10 @@ def pinacle_lines(pinacles):
         commands = []
         for idx, item in enumerate(pinacles):
             start, end, _label, opportunity, challenge = item
-            next_start = pinacles[idx + 1][0] if idx < len(pinacles) - 1 else end
             value = (opportunity, challenge)[value_index]
             if idx == 0:
                 commands.append(f"M {x(start):.1f} {y(value):.1f}")
-            commands.append(f"H {x(next_start):.1f}")
+            commands.append(f"H {x(end):.1f}")
             if idx < len(pinacles) - 1:
                 next_value = (pinacles[idx + 1][3], pinacles[idx + 1][4])[value_index]
                 commands.append(f"V {y(next_value):.1f}")
@@ -470,25 +519,28 @@ def pinacle_lines(pinacles):
 
 
 def main():
-    global MARKER_COUNTS
-    birth_year = 1984
+    global DATA, END_AGE, MARKER_COUNTS
+    parser = argparse.ArgumentParser(description="Genereaza Harta Suprapusa Soarta-Destin.")
+    parser.add_argument("--name", required=True)
+    parser.add_argument("--birth-date", required=True)
+    parser.add_argument("--output", required=True, type=Path)
+    parser.add_argument("--end-age", type=int, default=108)
+    args = parser.parse_args()
+    if args.end_age < 1:
+        raise ValueError("Intervalul de varsta trebuie sa fie pozitiv.")
+    END_AGE = args.end_age
+    DATA = harta_data(args.name, args.birth_date)
+    birth_year = DATA["birth_year"]
     end_year = birth_year + END_AGE
-    c7 = [
-        (0, "C1", "0-7"), (7, "C2", "7-14"), (14, "C3", "14-21"), (21, "C4", "21-28"),
-        (28, "C5", "28-35"), (35, "C6", "35-42"), (42, "C7", "42-49"), (49, "C8", "49-56"),
-        (56, "C9", "56-63"), (63, "C10", "63-70"), (70, "C11", "70-77"), (77, "C12", "77-84"),
-        (84, "C13", "84-91"), (91, "C14", "91-98"), (98, "C15", "98-105"), (105, "C16", "105-108"),
-    ]
+    c7 = [(age, f"C{index}", f"{age}-{min(age + 7, END_AGE)}") for index, age in enumerate(range(0, END_AGE + 1, 7), start=1)]
     c9 = []
     for age in range(0, END_AGE, 9):
         start_year = birth_year + age
         c9_end_year = min(birth_year + age + 8, birth_year + END_AGE - 1)
         c9.append((age, f"{start_year}-{c9_end_year}", f"{age}-{min(age + 9, END_AGE)}"))
-    c12 = [(age, f"C{index}", f"{birth_year + age}-{min(birth_year + age + 11, birth_year + END_AGE - 1)}")
-           for index, age in enumerate(range(0, END_AGE, 12), start=1)]
-    crises = [(age + 3.5, str(int(birth_year + age + 3.5))) for age in range(0, 105, 7)]
-    opportunities = [0, 7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105]
-    pinacles = [(0, 33, "P1", 8, 4), (34, 42, "P2", 1, 2), (43, 51, "P3", 9, 2), (52, 108, "P4", 6, 2)]
+    c12 = [(age, f"C{index}", f"{birth_year + age}-{min(birth_year + age + 11, birth_year + END_AGE - 1)}") for index, age in enumerate(range(0, END_AGE, 12), start=1)]
+    crises = [(age, str(int(birth_year + age))) for age in (3.5 + index * 7 for index in range(0, END_AGE // 7 + 1)) if age < END_AGE]
+    pinacles = DATA["pinacles"]
     interior = important_years(birth_year, end_year, "interior")
     exterior = important_years(birth_year, end_year, "exterior")
     marker_events = []
@@ -501,7 +553,7 @@ def main():
     MARKER_COUNTS = {age: marker_events.count(age) for age in set(marker_events)}
 
     parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">
-  <title>Harta suprapusa soarta-destin-ciclicitati - Szabo Mihai Gabriel</title>
+  <title>Harta suprapusa soarta-destin-ciclicitati - {esc(DATA["name"])}</title>
   <desc>Grafic suprapus cu Soarta, Destin, zona de confort, ani interior/exterior si cicluri de 7, 9 si 12 ani.</desc>
   <defs>
     <style>
@@ -581,14 +633,14 @@ def main():
   </defs>''']
     parts.append(f'<rect class="bg" width="{WIDTH}" height="{HEIGHT}"/>')
     parts.append(text(95, 28, "Harta suprapusa soarta-destin-ciclicitati", "title"))
-    parts.append(text(WIDTH - 160, 28, "SZABO MIHAI GABRIEL", "title", "end"))
-    parts.append(text(WIDTH - 160, 52, "06.11.1984", "subtitle", "end"))
+    parts.append(text(WIDTH - 160, 28, DATA["name"].upper(), "title", "end"))
+    parts.append(text(WIDTH - 160, 52, DATA["birth_date"], "subtitle", "end"))
 
     parts.append(chart())
     parts.append(life_lesson_line())
     parts.append(pinacle_lines(pinacles))
     parts.append(text(LEFT + CHART_W + 34, CHART_BOTTOM + 24, "Ani", "axis-name", "start"))
-    parts.append(text(LEFT - 68, TOP + CHART_H / 2, "Vibratie", "axis-name", "middle", f' transform="rotate(-90 {LEFT - 68:.1f} {TOP + CHART_H / 2:.1f})"'))
+    parts.append(text(LEFT - 68, TOP + CHART_H / 2, "Vibrație", "axis-name", "middle", f' transform="rotate(-90 {LEFT - 68:.1f} {TOP + CHART_H / 2:.1f})"'))
 
     # Interior/exterior years above the cycle pills.
     row_label_x = LEFT - 36
@@ -652,13 +704,29 @@ def main():
     legend_y = 390
     parts.append(text(legend_x, legend_y, "Legenda", "legend", "start"))
     legend_items = [
-        (GREEN, "Soarta 1212224"),
-        (RED, "Destin 3196224"),
-        (GREEN, "Zona confort Soarta 2,00"),
+        (GREEN, "Soarta 3800196"),
+        (RED, "Destin 3820176"),
+        (GREEN, "Zona confort Soarta 3,86"),
         (RED, "Zona confort Destin 3,86"),
-        (OPPORTUNITY, "Oportunitate"),
-        (BLUE, "Provocare"),
-        (LESSON, "Lectii de viata 130944"),
+        (OPPORTUNITY, "Oportunitate " + "".join(str(pinacle[3]) for pinacle in pinacles)),
+        (BLUE, "Provocare " + "".join(str(pinacle[4]) for pinacle in pinacles)),
+        (LESSON, "Lecții de viață 75924"),
+        (INTERIOR_YEAR, "An interior"),
+        (EXTERIOR_YEAR, "An exterior"),
+        (ORANGE, "Ciclu 7"),
+        (ORANGE, "Criză ciclu 7"),
+        (CYCLE9, "Ciclu 9"),
+        (CYCLE12, "Ciclu 12"),
+        (PINACLE, "Pinaclu"),
+    ]
+    legend_items = [
+        (GREEN, f"Soarta {DATA['fate_number']}"),
+        (RED, f"Destin {DATA['destiny_number']}"),
+        (GREEN, f"Zona confort Soarta {DATA['comfort_fate']:.2f}"),
+        (RED, f"Zona confort Destin {DATA['comfort_destiny']:.2f}"),
+        (OPPORTUNITY, "Oportunitate " + "".join(str(pinacle[3]) for pinacle in pinacles)),
+        (BLUE, "Provocare " + "".join(str(pinacle[4]) for pinacle in pinacles)),
+        (LESSON, f"Lectii de viata {DATA['life_product']}"),
         (INTERIOR_YEAR, "An interior"),
         (EXTERIOR_YEAR, "An exterior"),
         (ORANGE, "Ciclu 7"),
@@ -671,12 +739,17 @@ def main():
         yy = legend_y + 24 + i * 22
         if "Zona" in label:
             parts.append(f'<line x1="{legend_x}" y1="{yy}" x2="{legend_x + 22}" y2="{yy}" stroke="{color}" stroke-width="4" stroke-dasharray="8 5"/>')
-        elif label.startswith("Lectii") or label in ("Soarta 1212224", "Destin 3196224", "Oportunitate", "Provocare", "An interior", "An exterior"):
+        elif label.startswith("Lectii") or label.startswith("Soarta") or label.startswith("Destin") or label in ("Oportunitate", "Provocare", "An interior", "An exterior"):
+            dash = ' stroke-dasharray="4 4"' if label in ("An interior", "An exterior") else ""
+            parts.append(f'<line x1="{legend_x}" y1="{yy}" x2="{legend_x + 24}" y2="{yy}" stroke="{color}" stroke-width="3"{dash}/>')
+        elif label == "Criza ciclu 7":
+            parts.append(f'<polygon points="{up_triangle_points(legend_x + 12, yy - 1, 24)}" fill="none" stroke="{ORANGE}" stroke-width="2"/>')
+        elif label.startswith("Lecții") or label in ("Soarta 3800196", "Destin 3820176", "Oportunitate", "Provocare", "An interior", "An exterior"):
             dash = ' stroke-dasharray="4 4"' if label in ("An interior", "An exterior") else ""
             parts.append(f'<line x1="{legend_x}" y1="{yy}" x2="{legend_x + 24}" y2="{yy}" stroke="{color}" stroke-width="3"{dash}/>')
         elif label == "Ciclu 7":
             parts.append(f'<polygon points="{down_triangle_points(legend_x + 12, yy - 1, 24)}" fill="{ORANGE}" stroke="{ORANGE}" stroke-width="2"/>')
-        elif label == "Criza ciclu 7":
+        elif label == "Criză ciclu 7":
             parts.append(f'<polygon points="{up_triangle_points(legend_x + 12, yy - 1, 24)}" fill="none" stroke="{ORANGE}" stroke-width="2"/>')
         elif label == "Ciclu 9":
             parts.append(f'<rect x="{legend_x}" y="{yy - 12}" width="24" height="24" rx="2" fill="{CYCLE9}" stroke="{CYCLE9}" stroke-width="2"/>')
@@ -691,9 +764,10 @@ def main():
     parts.append(text(WIDTH - 20, HEIGHT - 15, "Atlas Numerologie", "watermark", "end"))
     parts.append("</svg>\n")
 
-    OUT.write_text("\n".join(parts), encoding="utf-8")
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text("\n".join(parts), encoding="utf-8", newline="\n")
+    print(f"Generated: {args.output}")
 
 
 if __name__ == "__main__":
     main()
-

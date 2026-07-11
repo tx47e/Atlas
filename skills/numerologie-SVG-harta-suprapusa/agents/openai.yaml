@@ -1,4 +1,4 @@
 interface:
-  display_name: "Numerologie SVG Harta Suprapusa"
-  short_description: "Creeaza grafice SVG suprapuse pentru soarta, destin si cicluri."
-  default_prompt: "Creeaza o harta suprapusa soarta-destin cu cicluri numerologice, folosind datele persoanei si referinta vizuala validata."
+  display_name: "Harta Suprapusa"
+  short_description: "Genereaza harta Soarta-Destin completa"
+  default_prompt: "Foloseste $numerologie-SVG-harta-suprapusa pentru a genera harta suprapusa din nume si data de nastere."

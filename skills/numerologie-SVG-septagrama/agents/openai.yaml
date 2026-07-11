@@ -1,4 +1,4 @@
 interface:
   display_name: "numerologie-SVG-septagrama"
-  short_description: "Skill local pentru SVG numerologic"
-  default_prompt: "Foloseste skill-ul local pentru a crea sau adapta SVG-ul numerologic."
+  short_description: "Genereaza autonom Septagrama ciclurilor de 7 ani"
+  default_prompt: "Ruleaza scriptul autonom al skill-ului pentru a genera Septagrama din nume, data nasterii si data de referinta."

@@ -1,38 +1,64 @@
 ---
 name: numerologie-SVG-patratul-de-aur
-description: Creeaza sau adapteaza SVG-uri numerologice pentru Patratul de Aur. Foloseste acest skill cand utilizatorul cere patratul de aur, matrice 3x3 aurie, traseu numerologic in patrat sau un SVG similar cu referinta locala.
+description: Creeaza SVG-uri autonome pentru Patratul de Aur, cu matricea 3x3, valorile calculate, sumele pe linii, coloane si diagonale si legenda elementelor. Foloseste cand utilizatorul cere patratul de aur, matrice 3x3 aurie sau traseu numerologic in patrat.
 tags: [skill]
 ---
 
-# Numerologie SVG Patratul De Aur
+# Patratul de Aur
 
-## Surse obligatorii
+Genereaza diagrama exclusiv cu scriptul inclus. Scriptul contine metoda de
+calcul, ordinea matricei, culorile, layout-ul si watermark-ul; nu consulta
+vault-ul sau alta documentatie la fiecare rulare.
 
-1. Consulta obligatoriu `vault/Numerologie/Patratul de Aur.md` inainte de calcul, completarea valorilor sau interpretare.
-2. Calculele pot fi incluse in acest skill, dar trebuie verificate intotdeauna cu documentatia din `vault/Numerologie/`.
-3. Consulta documentele dependente mentionate in documentatia din vault, daca metoda cere date din alte capitole numerologice.
-4. Foloseste `assets/reference.svg` doar ca referinta vizuala pentru layout, culori, grosimi de linii si pozitionari.
-5. Daca exista conflict intre asset, calculele din skill si documentatia din vault, documentatia din vault are prioritate pentru metoda, valori si interpretare.
+## Date de intrare
 
-## Workflow
+- Numele persoanei.
+- Data de nastere in forma `ZZ.LL.AAAA`, `ZZ/LL/AAAA` sau `ZZ-LL-AAAA`.
+- Calea SVG de iesire.
 
-1. Citeste `vault/Numerologie/Patratul de Aur.md` si documentele dependente necesare pentru datele furnizate.
-2. Stabileste valorile si traseul conform metodei din documentatie.
-3. Foloseste `assets/reference.svg` ca sablon de compozitie, nu ca sursa principala de calcul.
-4. Pastreaza matricea 3x3, traseul numerologic si etichetele calculate.
-5. Actualizeaza valorile dupa data sau codurile furnizate de utilizator, fara sa schimbi stilul daca nu este cerut explicit.
-6. Pastreaza celulele echilibrate, alinierea centrala si textul lizibil la dimensiune de prezentare.
-7. Salveaza SVG-ul rezultat in `vault/Numerologie/` sau in calea ceruta de utilizator.
-8. Verifica SVG-ul ca XML valid si inspecteaza vizual ca patratul, traseul si etichetele sa nu se suprapuna.
-9. Verifica matematic valorile finale cu baza din `vault/Numerologie/Patratul de Aur.md`.
+## Generare
 
-## Regula watermark
+Ruleaza generatorul din directorul skill-ului:
 
-- Fiecare SVG final trebuie sa includa watermark-ul `Atlas Numerologie` in coltul dreapta jos al panzei SVG.
-- Stil recomandat, discret si consecvent cu septagrama validata: `font-family="Arial, Helvetica, sans-serif"`, `font-size="14"`, `fill="#aaa"`, `font-weight="800"`, `text-anchor="end"`.
-- Pozitionare recomandata: `x = latime_viewBox - 20`, `y = inaltime_viewBox - 15`. Pentru SVG-uri cu margini sau continut special, pastreaza watermark-ul in interiorul panzei, fara sa atinga rama sau elementele principale.
-- Textul trebuie scris exact `Atlas Numerologie`, nu cu majuscule integrale.
+```powershell
+python scripts/generate_patratul_de_aur.py `
+  --name "Nume Persoana" --birth-date "19.02.1998" `
+  --output "C:\cale\patratul-de-aur.svg"
+```
 
-## Reference
-- `vault/Numerologie/Patratul de Aur.md` este sursa de adevar pentru metoda, formule, valori si interpretare.
-- `assets/reference.svg` este modelul validat pentru aspectul vizual al Patratului de Aur.
+Foloseste runtime-ul Python configurat in spatiu daca `python` nu este in PATH.
+Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regenereaza.
+
+## Calcul
+
+1. Extrage ziua nasterii ca numar de pornire.
+2. Construieste valorile in ordinea `4 -> 9 -> 2 -> 3 -> 5 -> 7 -> 8 -> 1 -> 6`.
+3. Valoarea centrala este casuta `5`.
+4. Suma de referinta este `centru * 3`.
+5. Afiseaza toate cele 3 linii, 3 coloane si 2 diagonale cu valorile lor.
+
+## Reguli vizuale
+
+- Pastreaza matricea 3x3 si conturul exterior inchis.
+- Pastreaza liniile interne albe si casutele echilibrate.
+- Foloseste culorile elementelor: Foc pentru `1, 5, 9`, Apa pentru `2, 6`,
+  Aer pentru `3, 7`, Pamant pentru `4, 8`.
+- Afiseaza numerele mari cu Georgia bold; etichetele si calculele folosesc
+  Arial/Helvetica.
+- Pastreaza calculele pentru linii, coloane si diagonale in partea dreapta.
+- Pastreaza legenda elementelor sub matrice.
+- Pastreaza watermark-ul `Atlas Numerologie` in coltul dreapta jos.
+
+## Verificare
+
+Verifica SVG-ul generat ca XML valid. Pentru generarea uzuala nu compara manual
+cu documentatie externa; sincronizarea cu documentatia se face separat, la cerere.
+
+```powershell
+[xml](Get-Content -Raw "C:\cale\patratul-de-aur.svg") | Out-Null
+```
+
+## Includere in lucrari
+
+- In Markdown, foloseste SVG-ul ca imagine normala.
+- In HTML distribuit ca fisier unic, include SVG-ul ca `data:image/svg+xml;base64,...`.

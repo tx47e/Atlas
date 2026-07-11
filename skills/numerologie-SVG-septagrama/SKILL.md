@@ -1,43 +1,39 @@
 ---
 name: numerologie-SVG-septagrama
-description: Creeaza sau adapteaza SVG-uri numerologice pentru Septagrama ciclului de 7 ani. Foloseste acest skill cand utilizatorul cere septagrama, cicluri de 7 ani, momente de criza, sens de curgere sau un SVG numerologic similar cu referinta locala.
-tags: [skill]
+description: Creeaza SVG-uri autonome pentru Septagrama ciclurilor de 7 ani. Foloseste acest skill cand utilizatorul cere septagrama, cicluri de 7 ani, momente de criza sau sens de curgere.
 ---
 
 # Numerologie SVG Septagrama
 
-## Surse obligatorii
+## Sursa operationala
 
-1. Consulta obligatoriu `vault/Numerologie/Septagrama.md` inainte de calcul, completarea valorilor sau interpretare.
-2. Calculele pot fi incluse in acest skill, dar trebuie verificate intotdeauna cu documentatia din `vault/Numerologie/`.
-3. Consulta documentele dependente mentionate in documentatia din vault, daca metoda cere date din cicluri, momente de criza sau alte capitole numerologice.
-4. Foloseste `assets/reference.svg` doar ca referinta vizuala pentru compozitie, stil, proportii, sageti si pozitionari.
-5. Daca exista conflict intre asset, calculele din skill si documentatia din vault, documentatia din vault are prioritate pentru metoda, valori si interpretare.
+- Foloseste exclusiv `scripts/generate_septagrama.py` pentru calcule si generare.
+- Scriptul primeste numele, data nasterii, data de referinta si calea SVG-ului de iesire.
+- Scriptul calculeaza ciclurile C1-C14, anul momentului de criza si ciclul activ pe baza varstei implinite la data de referinta.
+- Marcheaza cu verde intregul bloc al ciclului activ: eticheta ciclului si randul lui descriptiv. Toate celelalte cicluri raman in stil normal.
+- Nu consulta `vault/Numerologie/` si nu cere verificare manuala suplimentara la fiecare rulare.
 
 ## Workflow
 
-1. Citeste `vault/Numerologie/Septagrama.md` si documentele dependente necesare pentru datele furnizate.
-2. Stabileste valorile, ciclurile, varstele si sensul de curgere conform metodei din documentatie.
-3. Foloseste `assets/reference.svg` ca sablon de compozitie, nu ca sursa principala de calcul.
-4. Pastreaza structura generala: panza landscape, septagrama centrala, noduri portocalii, sageti de curgere, etichete de varsta si blocuri text laterale.
-5. Recalculeaza textul pentru persoana ceruta cand sunt furnizate data nasterii si anii de referinta; altfel pastreaza campurile ca locuri de completat.
-6. Marcheaza cu verde doar ciclul actual de 7 ani in care se afla persoana la data de referinta a lucrarii. Nu copia marcajul verde din `assets/reference.svg`: acela este doar un exemplu vizual si poate apartine altei persoane.
-7. Daca un bloc vizual contine doua cicluri pe aceeasi pozitie, coloreaza in verde numai randurile ciclului activ; celalalt ciclu ramane cu stil normal.
-8. Pastreaza fonturi simple de tip Arial/Helvetica, contrast bun, sageti vizibile si etichete care nu intersecteaza liniile.
-9. Salveaza SVG-ul rezultat in `vault/Numerologie/` sau in calea ceruta de utilizator.
-10. Verifica SVG-ul ca XML valid si inspecteaza vizual incadrarea, suprapunerile, sagetile si lizibilitatea.
-11. Verifica matematic valorile finale cu baza din `vault/Numerologie/Septagrama.md`.
+1. Primeste numele complet, data nasterii, optional data de referinta si calea SVG-ului de iesire.
+2. Ruleaza `scripts/generate_septagrama.py`.
+3. Livreaza SVG-ul generat de script fara recalcul manual.
+
+## Script de generare
+
+```powershell
+python skills/numerologie-SVG-septagrama/scripts/generate_septagrama.py `
+  --name "Nume Prenume" `
+  --birth-date "19.02.1998" `
+  --reference-date "2026-07-11" `
+  --output "output/lucrari/YYYY-MM-DD-NUME/septagrama-nume.svg"
+```
+
+## Sincronizare periodica
+
+Verifica separat, doar cand este programata o actualizare a metodei, concordanta dintre script, `assets/reference.svg` si documentatia numerologica. Aceasta sincronizare nu face parte din generarea curenta.
 
 ## Regula watermark
 
-- Fiecare SVG final trebuie sa includa watermark-ul `Atlas Numerologie` in coltul dreapta jos al panzei SVG.
-- Stil recomandat, discret si consecvent cu septagrama validata: `font-family="Arial, Helvetica, sans-serif"`, `font-size="14"`, `fill="#aaa"`, `font-weight="800"`, `text-anchor="end"`.
-- Pozitionare recomandata: `x = latime_viewBox - 20`, `y = inaltime_viewBox - 15`. Pentru SVG-uri cu margini sau continut special, pastreaza watermark-ul in interiorul panzei, fara sa atinga rama sau elementele principale.
-- Textul trebuie scris exact `Atlas Numerologie`, nu cu majuscule integrale.
-
-## Reference
-- `vault/Numerologie/Septagrama.md` este sursa de adevar pentru metoda, formule, valori si interpretare.
-- `assets/reference.svg` este septagrama validata vizual si trebuie folosita ca model local.
-- Cand modifici geometria, pastreaza traseul de septagrama regulata si sensul de curgere.
-- Cand modifici textul, evita diacriticele daca fisierul existent este ASCII-only.
-- Verdele indica exclusiv ciclul actual al persoanei analizate. Pentru fiecare persoana se recalculeaza ciclul activ dupa data nasterii si data de referinta; nu se pastreaza verdele din referinta.
+- Include watermark-ul `Atlas Numerologie` in coltul dreapta jos al panzei SVG.
+- Foloseste `font-family="Arial, Helvetica, sans-serif"`, `font-size="14"`, `fill="#aaa"`, `font-weight="800"`, `text-anchor="end"`.

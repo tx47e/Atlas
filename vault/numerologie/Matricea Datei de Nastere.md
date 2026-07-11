@@ -77,11 +77,11 @@ nevoie de reglare constienta a temei.
 Elementele se citesc prin gruparea frecventelor din casute:
 
 | Element | Pozitii | Temperament |
-| --- | --- | --- |
-| Foc | 1, 5, 9 | coleric |
-| Aer | 3, 7 | sangvin |
-| Apa | 2, 6 | flegmatic |
-| Pamant | 4, 8 | melancolic |
+| ------- | ------- | ----------- |
+| Foc     | 1, 5, 9 | coleric     |
+| Aer     | 3, 7    | sangvin     |
+| Apa     | 2, 6    | flegmatic   |
+| Pamant  | 4, 8    | melancolic  |
 
 Temperamentul este determinat de cantitatea cifrelor din fiecare element. Se
 numara toate aparitiile cifrelor din pozitiile care apartin aceluiasi element,

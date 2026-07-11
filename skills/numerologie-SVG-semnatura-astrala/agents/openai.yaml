@@ -1,4 +1,4 @@
 interface:
   display_name: "numerologie-SVG-semnatura-astrala"
-  short_description: "Skill local pentru SVG numerologic"
-  default_prompt: "Foloseste skill-ul local pentru a crea sau adapta SVG-ul numerologic."
+  short_description: "Genereaza autonom SVG-ul Semnaturii Astrale"
+  default_prompt: "Ruleaza scriptul autonom al skill-ului pentru a genera Semnatura Astrala din nume si data nasterii."

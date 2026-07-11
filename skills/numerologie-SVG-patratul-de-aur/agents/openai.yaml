@@ -1,4 +1,4 @@
 interface:
-  display_name: "numerologie-SVG-patratul-de-aur"
-  short_description: "Skill local pentru SVG numerologic"
-  default_prompt: "Foloseste skill-ul local pentru a crea sau adapta SVG-ul numerologic."
+  display_name: "Patratul de Aur"
+  short_description: "Genereaza Patratul de Aur numerologic"
+  default_prompt: "Foloseste $numerologie-SVG-patratul-de-aur pentru a genera Patratul de Aur din nume si data de nastere."

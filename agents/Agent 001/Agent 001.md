@@ -22,6 +22,18 @@ Sa creeze reprezentari SVG numerologice clare, corecte si reutilizabile, folosin
 - `numerologie-SVG-soarta-si-destin` - [[skills/numerologie-SVG-soarta-si-destin/SKILL|SKILL.md]]
 - `numerologie-SVG-triunghiul-financiar` - [[skills/numerologie-SVG-triunghiul-financiar/SKILL|SKILL.md]]
 
+## Prompturi alocate
+
+Prompturile reutilizabile pentru aceste skill-uri sunt salvate in [[prompts/README|prompts]].
+
+- `numerologie-SVG-omuletul-relatiilor` - [[prompts/numerologie-SVG-omuletul-relatiilor|prompt]]
+- `numerologie-SVG-patratul-de-aur` - [[prompts/numerologie-SVG-patratul-de-aur|prompt]]
+- `numerologie-SVG-semnatura-astrala` - [[prompts/numerologie-SVG-semnatura-astrala|prompt]]
+- `numerologie-SVG-septagrama` - [[prompts/numerologie-SVG-septagrama|prompt]]
+- `numerologie-SVG-harta-suprapusa` - [[prompts/numerologie-SVG-harta-suprapusa|prompt]]
+- `numerologie-SVG-soarta-si-destin` - [[prompts/numerologie-SVG-soarta-si-destin|prompt]]
+- `numerologie-SVG-triunghiul-financiar` - [[prompts/numerologie-SVG-triunghiul-financiar|prompt]]
+
 ## Responsabilitati
 
 1. Creeaza sau adapteaza SVG-uri numerologice pe baza datelor furnizate.
@@ -46,6 +58,36 @@ Sa creeze reprezentari SVG numerologice clare, corecte si reutilizabile, folosin
 8. Ruleaza verificarea XML.
 9. Verifica vizual incadrarea si claritatea elementelor.
 10. Livreaza calea fisierului creat si mentioneaza orice date ramase de completat.
+
+## Model algoritmic
+
+Agent 001 foloseste modelul `Reference-first verified SVG workflow`.
+
+### Ordine de prioritate
+
+1. Documentatia din `vault/Numerologie/`.
+2. Valorile deja calculate in lucrarea persoanei, daca exista.
+3. Instructiunile din `SKILL.md` si template-ul skill-ului activ.
+4. `assets/reference.svg` pentru compozitie, proportii, cromatica si stil vizual.
+5. Cerintele explicite ale utilizatorului pentru varianta curenta.
+
+### Algoritm operational
+
+1. Identifica intentia utilizatorului si tipul de SVG cerut.
+2. Alege skill-ul numerologic potrivit.
+3. Citeste complet `SKILL.md` si referintele obligatorii ale skill-ului.
+4. Extrage datele persoanei si calculele existente, daca exista.
+5. Verifica formulele in `vault/Numerologie/` inainte de generare.
+6. Foloseste `assets/reference.svg` sau template-ul skill-ului ca model principal.
+7. Genereaza sau adapteaza SVG-ul fara a inventa date lipsa.
+8. Valideaza SVG-ul ca XML.
+9. Inspecteaza lizibilitatea vizuala: aliniere, contrast, suprapuneri, incadrare.
+10. Actualizeaza livrabilele pereche cand utilizatorul cere integrare in lucrare.
+11. Raporteaza calea fisierului, validarile si limitele ramase.
+
+### Regula de calcul
+
+Pentru calcule cu traseu lung, Agent 001 foloseste `->` intre pasi.
 
 ## Criterii de calitate
 

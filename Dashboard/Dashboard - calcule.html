@@ -2375,7 +2375,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Harta suprapusa soarta destin ciclicitati">`);
       parts.push(`<style>
         .ov-bg{fill:${paper}} .ov-title{font:800 22px Arial,sans-serif;fill:#293238}.ov-subtitle{font:800 15px Arial,sans-serif;fill:#35434a}
-        .ov-label{font:700 12px Arial,sans-serif;fill:#333}.ov-axis-y{font:800 16px Arial,sans-serif;fill:#2b2119}.ov-axis-x{font:700 13px Arial,sans-serif;fill:#222}
+        .ov-label{font:700 12px Arial,sans-serif;fill:#333}.ov-axis-y{font:800 16px Arial,sans-serif;fill:#2b2119}.ov-axis-x{font:800 16px Arial,sans-serif;fill:#2b2119}
         .ov-axis-name{font:900 14px Arial,sans-serif;fill:#2b2119}.ov-grid{stroke:#c9d0d2;stroke-width:1;stroke-dasharray:6 4}.ov-major{stroke:#aeb7bb;stroke-width:1.4}
         .ov-axis{stroke:#111;stroke-width:3}.ov-axis-light{stroke:#111;stroke-width:2}.ov-fate-line{fill:none;stroke:${colors.fate};stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
         .ov-destiny-line{fill:none;stroke:${colors.destiny};stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.ov-fate-dot{fill:${colors.fate};stroke:#fff;stroke-width:2}
@@ -2414,8 +2414,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
 
       parts.push(`<g class="chart-layer-${overlayVisibility.comfortFate ? "on" : "off"}${groupClass("comfortFate")}">${line(left, y(data.comfortFate), left + chartW, y(data.comfortFate), "ov-comfort", ` stroke="${colors.fate}"`)}</g>`);
       parts.push(`<g class="chart-layer-${overlayVisibility.comfortDestiny ? "on" : "off"}${groupClass("comfortDestiny")}">${line(left, y(data.comfortDestiny), left + chartW, y(data.comfortDestiny), "ov-comfort", ` stroke="${colors.destiny}"`)}</g>`);
-      parts.push(`<g class="${groupClass("fate")}"><polyline class="ov-fate-line" points="${points(fateValues)}"/>${ages.map((age, i) => circle(x(age), y(fateValues[i]), 7, "ov-fate-dot")).join("")}</g>`);
-      parts.push(`<g class="${groupClass("destiny")}"><polyline class="ov-destiny-line" points="${points(destinyValues)}"/>${ages.map((age, i) => circle(x(age), y(destinyValues[i]), 7, "ov-destiny-dot")).join("")}</g>`);
       parts.push(`<g class="${groupClass("lessons")}"><polyline class="ov-lesson-line" points="${lessonPoints}"/></g>`);
 
       function stepPath(key) {
@@ -2434,17 +2432,24 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       parts.push(`<g class="${groupClass("opportunity")}"><path class="ov-opportunity-line" d="${stepPath("opportunity")}"/></g>`);
       parts.push(`<g class="${groupClass("challenge")}"><path class="ov-challenge-line" d="${stepPath("challenge")}"/></g>`);
 
+      const cycle7Ages = Array.from({ length: Math.floor(endAge / 7) + 1 }, (_, i) => i * 7);
+      const crisis7Ages = Array.from({ length: Math.floor((endAge - 3.5) / 7) + 1 }, (_, i) => i * 7 + 3.5);
+      const cycle9Ages = Array.from({ length: Math.ceil(endAge / 9) }, (_, i) => i * 9);
+      const cycle12Ages = Array.from({ length: Math.ceil(endAge / 12) }, (_, i) => i * 12);
       const yearLineBottom = rowsY.exterior + 18;
-      interior.concat(exterior).forEach(item => {
-        parts.push(line(x(item.age), top, x(item.age), yearLineBottom, "ov-year-link", ` stroke-width="${sw(item.age)}"`));
-      });
-      parts.push(`<g class="${groupClass("interior")}">${text(rowLabelX, rowsY.interior, "Ani interior", "ov-row ov-interior-label", "end")}${interior.map(item => text(x(item.age) - 5, rowsY.interior, item.year, "ov-interior-label", "middle", ` transform="rotate(-90 ${(x(item.age) - 5).toFixed(1)} ${rowsY.interior.toFixed(1)})"`)).join("")}</g>`);
-      parts.push(`<g class="${groupClass("exterior")}">${text(rowLabelX, rowsY.exterior, "Ani exterior", "ov-row ov-exterior-label", "end")}${exterior.map(item => text(x(item.age) + 12, rowsY.exterior, item.year, "ov-exterior-label", "middle", ` transform="rotate(-90 ${(x(item.age) + 12).toFixed(1)} ${rowsY.exterior.toFixed(1)})"`)).join("")}</g>`);
 
-      parts.push(`<g class="${groupClass("cycle7")}">${text(rowLabelX, rowsY.c7 + 5, "Ciclu 7", "ov-row", "end")}${Array.from({ length: Math.floor(endAge / 7) + 1 }, (_, i) => i * 7).map((age, i) => line(x(age), top, x(age), rowsY.c7 - 12, "ov-cycle7-line", ` stroke-width="${sw(age)}"` ) + downTriangle(x(age), rowsY.c7, 24, "ov-cycle7-triangle") + text(x(age), rowsY.c7 - 5, i + 1, "ov-triangle-number", "middle")).join("")}</g>`);
-      parts.push(`<g class="${groupClass("crisis7")}">${Array.from({ length: Math.floor((endAge - 3.5) / 7) + 1 }, (_, i) => i * 7 + 3.5).map(age => line(x(age), top, x(age), rowsY.c7 - 12, "ov-crisis-line") + upTriangle(x(age), rowsY.c7, 24, "ov-crisis-triangle")).join("")}</g>`);
-      parts.push(`<g class="${groupClass("cycle9")}">${text(rowLabelX, rowsY.c9 + 5, "Ciclu 9", "ov-row", "end")}${Array.from({ length: Math.ceil(endAge / 9) }, (_, i) => i * 9).map((age, i) => line(x(age), bottom, x(age), rowsY.c9 - 12, "ov-cycle9-line", ` stroke-width="${sw(age)}"` ) + square(x(age), rowsY.c9, 24, "ov-cycle9-square") + text(x(age), rowsY.c9 + .5, i + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c9 - 18, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle9}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c9 - 18).toFixed(1)})"`)).join("")}</g>`);
-      parts.push(`<g class="${groupClass("cycle12")}">${text(rowLabelX, rowsY.c12 + 5, "Ciclu 12", "ov-row", "end")}${Array.from({ length: Math.ceil(endAge / 12) }, (_, i) => i * 12).map((age, i) => line(x(age), top, x(age), rowsY.c12 - 12, "ov-cycle12-line", ` stroke-width="${sw(age)}"` ) + square(x(age), rowsY.c12, 24, "ov-cycle12-square") + text(x(age), rowsY.c12 + .5, i + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c12 - 18, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle12}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c12 - 18).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle7")}">${cycle7Ages.map(age => line(x(age), top, x(age), rowsY.c7 - 12, "ov-cycle7-line", ` stroke-width="${sw(age)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("crisis7")}">${crisis7Ages.map(age => line(x(age), top, x(age), rowsY.c7 - 12, "ov-crisis-line")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle9")}">${cycle9Ages.map(age => line(x(age), bottom, x(age), rowsY.c9 - 12, "ov-cycle9-line", ` stroke-width="${sw(age)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle12")}">${cycle12Ages.map(age => line(x(age), top, x(age), rowsY.c12 - 12, "ov-cycle12-line", ` stroke-width="${sw(age)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("pinacle")}">${pinacles.map(p => line(x(p.start), top, x(p.start), rowsY.pinacle - 12, "ov-pinacle-line", ` stroke-width="${sw(p.start)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("interior")}">${interior.map(item => line(x(item.age), top, x(item.age), yearLineBottom, "ov-year-link", ` stroke-width="${sw(item.age)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("exterior")}">${exterior.map(item => line(x(item.age), top, x(item.age), yearLineBottom, "ov-year-link", ` stroke-width="${sw(item.age)}"`)).join("")}</g>`);
+
+      parts.push(`<g class="${groupClass("cycle7")}">${text(rowLabelX, rowsY.c7 + 5, "Ciclu 7", "ov-row", "end")}${cycle7Ages.map((age, i) => downTriangle(x(age), rowsY.c7, 24, "ov-cycle7-triangle") + text(x(age), rowsY.c7 - 5, i + 1, "ov-triangle-number", "middle") + text(x(age) - 6, rowsY.c7 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.orange}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c7 - 34).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("crisis7")}">${crisis7Ages.map(age => upTriangle(x(age), rowsY.c7, 24, "ov-crisis-triangle")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle9")}">${text(rowLabelX, rowsY.c9 + 5, "Ciclu 9", "ov-row", "end")}${cycle9Ages.map((age, i) => square(x(age), rowsY.c9, 24, "ov-cycle9-square") + text(x(age), rowsY.c9 + .5, i + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c9 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle9}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c9 - 34).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle12")}">${text(rowLabelX, rowsY.c12 + 5, "Ciclu 12", "ov-row", "end")}${cycle12Ages.map((age, i) => square(x(age), rowsY.c12, 24, "ov-cycle12-square") + text(x(age), rowsY.c12 + .5, i + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c12 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle12}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c12 - 34).toFixed(1)})"`)).join("")}</g>`);
 
       const bridgeParts = pinacles.map((p, index) => {
         const nextStart = index < pinacles.length - 1 ? pinacles[index + 1].start : endAge;
@@ -2458,8 +2463,12 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         const mid = (x1 + x2) / 2;
         return `<line x1="${x1.toFixed(1)}" y1="${oy}" x2="${x2.toFixed(1)}" y2="${oy}" stroke="${colors.opportunity}" stroke-width="2.3"/><line x1="${x1.toFixed(1)}" y1="${cy}" x2="${x2.toFixed(1)}" y2="${cy}" stroke="${colors.challenge}" stroke-width="2.3"/>${text(mid, oy + (opportunityTop ? -11 : 15), `O${p.opportunity}`, "ov-opportunity-label", "middle")}${text(mid, cy + (opportunityTop ? 15 : -11), `P${p.challenge}`, "ov-challenge-label", "middle")}`;
       }).join("");
-      parts.push(`<g class="${groupClass("pinacle")}">${text(rowLabelX, rowsY.pinacle + 5, "Pinaclu", "ov-row", "end")}${pinacles.map(p => line(x(p.start), top, x(p.start), rowsY.pinacle - 12, "ov-pinacle-line", ` stroke-width="${sw(p.start)}"`)).join("")}${bridgeParts}${pinacles.map(p => square(x(p.start), rowsY.pinacle, 24, "ov-pinacle-square") + text(x(p.start), rowsY.pinacle + .5, p.label, "ov-square-number", "middle") + text(x(p.start) - 6, rowsY.pinacle - 18, s.year + p.start, "ov-cycle-year", "middle", ` fill="${colors.pinacle}" transform="rotate(-90 ${(x(p.start) - 6).toFixed(1)} ${(rowsY.pinacle - 18).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("pinacle")}">${text(rowLabelX, rowsY.pinacle + 5, "Pinaclu", "ov-row", "end")}${bridgeParts}${pinacles.map(p => square(x(p.start), rowsY.pinacle, 24, "ov-pinacle-square") + text(x(p.start), rowsY.pinacle + .5, p.label, "ov-square-number", "middle") + text(x(p.start) - 6, rowsY.pinacle - 34, s.year + p.start, "ov-cycle-year", "middle", ` fill="${colors.pinacle}" transform="rotate(-90 ${(x(p.start) - 6).toFixed(1)} ${(rowsY.pinacle - 34).toFixed(1)})"`)).join("")}</g>`);
 
+      parts.push(`<g class="${groupClass("exterior")}">${text(rowLabelX, rowsY.exterior, "Ani exterior", "ov-row ov-exterior-label", "end")}${exterior.map(item => text(x(item.age) + 12, rowsY.exterior, item.year, "ov-exterior-label", "middle", ` transform="rotate(-90 ${(x(item.age) + 12).toFixed(1)} ${rowsY.exterior.toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("interior")}">${text(rowLabelX, rowsY.interior, "Ani interior", "ov-row ov-interior-label", "end")}${interior.map(item => text(x(item.age) - 5, rowsY.interior, item.year, "ov-interior-label", "middle", ` transform="rotate(-90 ${(x(item.age) - 5).toFixed(1)} ${rowsY.interior.toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("fate")}"><polyline class="ov-fate-line" points="${points(fateValues)}"/>${ages.map((age, i) => circle(x(age), y(fateValues[i]), 7, "ov-fate-dot")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("destiny")}"><polyline class="ov-destiny-line" points="${points(destinyValues)}"/>${ages.map((age, i) => circle(x(age), y(destinyValues[i]), 7, "ov-destiny-dot")).join("")}</g>`);
       parts.push(text(rowLabelX, rowsY.fate, "Soarta", "ov-row ov-green", "end"));
       parts.push(text(rowLabelX, rowsY.destiny, "Destin", "ov-row ov-red", "end"));
       for (let i = 0; i < Math.floor(endAge / 10) + 1; i++) {

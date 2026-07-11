@@ -441,10 +441,11 @@ def pinacle_lines(pinacles):
         commands = []
         for idx, item in enumerate(pinacles):
             start, end, _label, opportunity, challenge = item
+            next_start = pinacles[idx + 1][0] if idx < len(pinacles) - 1 else end
             value = (opportunity, challenge)[value_index]
             if idx == 0:
                 commands.append(f"M {x(start):.1f} {y(value):.1f}")
-            commands.append(f"H {x(end):.1f}")
+            commands.append(f"H {x(next_start):.1f}")
             if idx < len(pinacles) - 1:
                 next_value = (pinacles[idx + 1][3], pinacles[idx + 1][4])[value_index]
                 commands.append(f"V {y(next_value):.1f}")

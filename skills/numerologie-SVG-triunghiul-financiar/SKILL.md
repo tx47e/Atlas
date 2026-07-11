@@ -6,25 +6,45 @@ tags: [skill]
 
 # Numerologie SVG Triunghiul Financiar
 
-## Surse obligatorii
+## Sursa operationala
 
-1. Consulta obligatoriu `vault/Numerologie/Triunghiul Financiar.md` inainte de calcul, completarea valorilor sau interpretare.
-2. Calculele pot fi incluse in acest skill, dar trebuie verificate intotdeauna cu documentatia din `vault/Numerologie/`.
-3. Consulta documentele dependente mentionate in documentatia din vault, daca metoda cere date din alte capitole numerologice.
-4. Foloseste `assets/reference.svg` doar ca referinta vizuala pentru forma, culori, pozitionari si dimensiuni.
-5. Daca exista conflict intre asset, calculele din skill si documentatia din vault, documentatia din vault are prioritate pentru metoda, valori si interpretare.
+- Foloseste exclusiv `scripts/generate_triunghi_financiar.py` pentru calcule si generare.
+- Scriptul este autonom: primeste numele si data nasterii, calculeaza codul `ZLAD` si genereaza SVG-ul in compozitia stabilita.
+- Nu consulta `vault/Numerologie/` si nu face o verificare manuala suplimentara la fiecare rulare.
+- `assets/reference.svg` ramane modelul vizual incorporat in structura scriptului, nu o sursa de calcul consultata la rulare.
 
 ## Workflow
 
-1. Citeste `vault/Numerologie/Triunghiul Financiar.md` si documentele dependente necesare pentru datele furnizate.
-2. Stabileste valorile si relatiile dintre laturi conform metodei din documentatie.
-3. Foloseste `assets/reference.svg` ca sablon de compozitie, nu ca sursa principala de calcul.
-4. Pastreaza triunghiul, etichetele de valori si relatiile dintre laturi.
-5. Actualizeaza valorile conform datelor furnizate si verificate cu documentatia din `vault/Numerologie/`.
-6. Pastreaza textul scurt, bine centrat si usor de citit.
-7. Salveaza SVG-ul rezultat in `vault/Numerologie/` sau in calea ceruta de utilizator.
-8. Verifica SVG-ul ca XML valid si inspecteaza vizual ca triunghiul si etichetele sa fie corect incadrate.
-9. Verifica matematic valorile finale cu baza din `vault/Numerologie/Triunghiul Financiar.md`.
+1. Primeste numele complet, data nasterii si calea SVG-ului de iesire.
+2. Ruleaza `scripts/generate_triunghi_financiar.py`.
+3. Livreaza SVG-ul generat de script, fara recalcul manual sau verificare suplimentara.
+
+## Script de generare
+
+Scriptul principal pentru generarea automata este:
+
+```powershell
+python skills/numerologie-SVG-triunghiul-financiar/scripts/generate_triunghi_financiar.py `
+  --name "Nume Prenume" `
+  --birth-date "27.11.1973" `
+  --output "output/lucrari/YYYY-MM-DD-NUME/triunghiul-financiar-nume.svg"
+```
+
+Scriptul calculeaza:
+
+```text
+Z = ziua nasterii redusa la o cifra
+L = luna nasterii redusa la o cifra
+A = anul nasterii redus la o cifra
+D = Z + L + A, redus la o cifra
+Triunghiul financiar = ZLAD
+```
+
+Scriptul contine formula, coordonatele, paleta, watermark-ul si structura SVG necesare. La o rulare reusita, rezultatul scriptului este livrabil fara verificari suplimentare.
+
+## Sincronizare periodica
+
+Verifica separat, doar cand este programata o actualizare a metodei, concordanta dintre script, `assets/reference.svg` si `vault/Numerologie/Triunghiul Financiar.md`. Aceasta sincronizare nu face parte din generarea curenta a unui SVG.
 
 ## Regula watermark
 
@@ -34,5 +54,4 @@ tags: [skill]
 - Textul trebuie scris exact `Atlas Numerologie`, nu cu majuscule integrale.
 
 ## Reference
-- `vault/Numerologie/Triunghiul Financiar.md` este sursa de adevar pentru metoda, formule, valori si interpretare.
 - `assets/reference.svg` este modelul validat pentru aspectul vizual al Triunghiului Financiar.

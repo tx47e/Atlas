@@ -137,7 +137,7 @@
     <text x="950" y="885">70-77 ani. <tspan class="orange">73,5 ani</tspan> <tspan class="bold">2071</tspan> (al 74-lea an de viata)</text>
 
     <text x="360" y="802" class="green">C5:2026 - 2032</text>
-    <text x="40" y="832" class="green">28-35 ani. 31,5 ani 2029 (al 32-lea an de viata)</text>
+    <text class="green" x="40" y="832">28-35 ani. 31,5 ani 2029 (al 32-lea an de viata)</text>
     <text x="360" y="868" class="bold">C12:2075 - 2081</text>
     <text x="40" y="898">77-84 ani. <tspan class="orange">80,5 ani</tspan> <tspan class="bold">2078</tspan> (al 81-lea an de viata)</text>
 

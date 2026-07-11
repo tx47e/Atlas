@@ -1,4 +1,4 @@
 interface:
   display_name: "numerologie-SVG-triunghiul-financiar"
-  short_description: "Skill local pentru SVG numerologic"
-  default_prompt: "Foloseste skill-ul local pentru a crea sau adapta SVG-ul numerologic."
+  short_description: "Genereaza autonom SVG-ul Triunghiului Financiar"
+  default_prompt: "Ruleaza scriptul autonom al skill-ului pentru a genera Triunghiul Financiar din nume si data nasterii."
