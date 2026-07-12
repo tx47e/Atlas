@@ -222,6 +222,7 @@
   },
   "active": "a52fdac48ab205b3",
   "lastOpenFiles": [
+    "Dashboard/persoane.txt.crswap",
     "vault/Numerologie/Cod Numerologic Personal.md",
     "vault/Numerologie/Aspecte de Indreptat.md",
     "vault/Numerologie/Lectii de Viata.md",
@@ -246,7 +247,6 @@
     "agents/Agent 001/Agent 001.md",
     "agents/Agent 001",
     "agents/Agent 001.md",
-    "Dashboard/persoane.txt.crswap",
     "scripts/__pycache__/gen_harta_suprapusa_szabo_mihai_gabriel.cpython-312.pyc",
     "output/lucrari/1984-11-06-SZABO-MIHAI-GABRIEL",
     "scripts/gen_harta_suprapusa_szabo_mihai_gabriel.py",
@@ -266,7 +266,6 @@
     "vault/Numerologie/Deschidere spre Ezoterism.md",
     "vault/Numerologie/Anii Importanti Int-Ext.md",
     "vault/Numerologie/Vibratia 2.md",
-    "vault/Numerologie/Index.md",
-    "vault/tarot/Index.md"
+    "vault/Numerologie/Index.md"
   ]
 }
