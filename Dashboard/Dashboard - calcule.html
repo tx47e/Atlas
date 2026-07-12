@@ -103,23 +103,6 @@
       max-width: 760px;
     }
 
-    .overlay-range-control {
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 800;
-      white-space: nowrap;
-    }
-
-    .overlay-range-control input {
-      width: 58px;
-      min-height: 30px;
-      padding: 4px 6px;
-      text-align: center;
-    }
-
     .overlay-chart-stage {
       width: 100%;
       overflow-x: auto;
@@ -960,6 +943,15 @@
       margin: 0;
     }
 
+    .elements-temperament {
+      flex: 1 1 auto;
+      min-width: 0;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
     .matrix-elements .elements-controls {
       flex: 0 0 auto;
     }
@@ -1363,6 +1355,7 @@
           <div class="matrix-elements">
             <div class="card-title-row">
               <h3>Elemente</h3>
+              <span class="elements-temperament" id="elementsTemperament"></span>
               <div class="control-stack wellbeing-controls elements-controls" aria-label="Optiuni elemente">
                 <div class="control-group">
                   <span>Matrice</span>
@@ -1393,11 +1386,6 @@
           <h2 style="margin:0">Harta suprapusa soarta-destin-ciclicitati</h2>
           <div class="hint">Grafic dinamic pentru datele introduse. Legenda din dreapta activeaza si dezactiveaza straturile vizuale.</div>
         </div>
-        <label class="overlay-range-control">Interval
-          <input id="overlayRangeStart" type="number" min="0" max="108" step="1" value="0" aria-label="Inceput interval" />
-          <span>-</span>
-          <input id="overlayRangeEnd" type="number" min="0" max="108" step="1" value="108" aria-label="Final interval" />
-        </label>
       </div>
       <div class="overlay-chart-stage" id="overlayChart"></div>
     </section>
@@ -2597,7 +2585,8 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         if (kind === "square") symbol = `<rect x="${legendX}" y="${yy - 12}" width="24" height="24" rx="2" fill="${color}" stroke="${color}" stroke-width="2"/>`;
         parts.push(`<g class="overlay-legend-item${offClass}" data-layer="${key}" tabindex="0" role="button" aria-pressed="${overlayVisibility[key] ? "true" : "false"}">${symbol}${text(legendX + 30, yy + 4, label, "ov-legend")}</g>`);
       });
-      parts.push(text(legendX, legendY + 24 + legendItems.length * 22, `Interval ${startAge}-${endAge} ani`, "ov-legend"));
+      const rangeY = legendY + 24 + legendItems.length * 22 + 14;
+      parts.push(`<foreignObject x="${legendX}" y="${rangeY}" width="300" height="54"><div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:center;gap:7px;border-top:1px solid #c9c0b3;padding-top:9px;color:#222;font:800 13px Arial,sans-serif;white-space:nowrap"><span>Interval</span><input class="overlay-range-input" data-range="start" type="number" min="0" max="108" step="1" value="${startAge}" aria-label="Inceput interval" style="width:48px;height:25px;padding:2px 4px;text-align:center;border:1px solid #b9aa96;border-radius:4px;background:#fffaf0;font:800 12px Arial,sans-serif"/><span>-</span><input class="overlay-range-input" data-range="end" type="number" min="0" max="108" step="1" value="${endAge}" aria-label="Final interval" style="width:48px;height:25px;padding:2px 4px;text-align:center;border:1px solid #b9aa96;border-radius:4px;background:#fffaf0;font:800 12px Arial,sans-serif"/></div></foreignObject>`);
 
       parts.push(text(width - 20, height - 15, "Atlas Numerologie", "ov-watermark", "end"));
       parts.push("</svg>");
@@ -2615,6 +2604,9 @@ def calculate_capitol_2(person: PersonInput) -> dict:
           }
         });
       });
+      const rangeStartInput = target.querySelector('[data-range="start"]');
+      const rangeEndInput = target.querySelector('[data-range="end"]');
+      [rangeStartInput, rangeEndInput].forEach(input => input.addEventListener("change", () => updateOverlayRange(rangeStartInput, rangeEndInput)));
     }
 
     function professionalText(s) {
@@ -2689,6 +2681,25 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       };
     }
 
+    function elementTemperamentText(counts) {
+      const traits = {
+        foc: "activ si direct",
+        pamant: "pragmatic si stabil",
+        apa: "sensibil si receptiv",
+        aer: "analitic si comunicativ"
+      };
+      const names = { foc: "Foc", pamant: "Pamant", apa: "Apa", aer: "Aer" };
+      const entries = Object.entries(counts);
+      const max = Math.max(...entries.map(([, value]) => value));
+      if (max <= 0) return "Temperament: fara elemente active";
+      const dominant = entries.filter(([, value]) => value === max).map(([element]) => element);
+      if (dominant.length === 1) {
+        const element = dominant[0];
+        return `Temperament ${names[element]}: ${traits[element]}`;
+      }
+      return `Temperament combinat ${dominant.map(element => names[element]).join(" - ")}: ${dominant.map(element => traits[element]).join(", ")}`;
+    }
+
     function renderElementsVisual(s) {
       const matrix = elementsMatrixMode === "name" ? nameMatrix(s.fullName) : s.matrix;
       const counts = elementCountsFromMatrix(matrix);
@@ -2701,6 +2712,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       const rows = elementsSortMode === "quantity"
         ? [...items].sort((a, b) => b.value - a.value || a.order - b.order)
         : items;
+      document.getElementById("elementsTemperament").textContent = elementTemperamentText(counts);
       setActive("elementsBirthMatrixMode", elementsMatrixMode === "birth");
       setActive("elementsNameMatrixMode", elementsMatrixMode === "name");
       setActive("elementsOrderMode", elementsSortMode === "element");
@@ -2952,9 +2964,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       elementsSortMode = "quantity";
       renderDashboard(parseState());
     });
-    function updateOverlayRange() {
-      const startInput = document.getElementById("overlayRangeStart");
-      const endInput = document.getElementById("overlayRangeEnd");
+    function updateOverlayRange(startInput, endInput) {
       const requestedStart = Number(startInput.value);
       const requestedEnd = Number(endInput.value);
       overlayRangeStart = Number.isFinite(requestedStart) ? requestedStart : 0;
@@ -2965,8 +2975,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       endInput.value = overlayRangeEnd;
       renderOverlayChart(parseState());
     }
-    document.getElementById("overlayRangeStart").addEventListener("change", updateOverlayRange);
-    document.getElementById("overlayRangeEnd").addEventListener("change", updateOverlayRange);
     document.querySelectorAll("input, select, textarea#workNotes").forEach(el => {
       el.addEventListener("change", renderTable);
     });
