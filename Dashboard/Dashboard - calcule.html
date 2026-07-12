@@ -103,6 +103,23 @@
       max-width: 760px;
     }
 
+    .overlay-range-control {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .overlay-range-control input {
+      width: 58px;
+      min-height: 30px;
+      padding: 4px 6px;
+      text-align: center;
+    }
+
     .overlay-chart-stage {
       width: 100%;
       overflow-x: auto;
@@ -933,6 +950,34 @@
       border-radius: 999px;
     }
 
+    .matrix-elements {
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+
+    .matrix-elements .card-title-row h3 {
+      margin: 0;
+    }
+
+    .matrix-elements .elements-controls {
+      flex: 0 0 auto;
+    }
+
+    .matrix-elements .bars {
+      margin-top: 10px;
+    }
+
+    .element-bar-fill {
+      height: 100%;
+      border-radius: 999px;
+    }
+
+    .element-bar-fill.element-foc { background: #e45745; }
+    .element-bar-fill.element-pamant { background: #9a6a43; }
+    .element-bar-fill.element-apa { background: #2878c7; }
+    .element-bar-fill.element-aer { background: #a9bdcc; }
+
     .timeline {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -1315,17 +1360,28 @@
         <div class="dash-card matrix-compare-card">
           <h2>Matrici comparate</h2>
           <div id="dashboardMatrix"></div>
-        </div>
-
-        <div class="dash-card">
-          <div class="card-title-row">
-            <h2>Elemente</h2>
-            <div class="segmented" aria-label="Mod sortare elemente">
-              <button type="button" id="elementsOrderMode" class="active">Element</button>
-              <button type="button" id="elementsQuantityMode">Cantitate</button>
+          <div class="matrix-elements">
+            <div class="card-title-row">
+              <h3>Elemente</h3>
+              <div class="control-stack wellbeing-controls elements-controls" aria-label="Optiuni elemente">
+                <div class="control-group">
+                  <span>Matrice</span>
+                  <div class="segmented">
+                    <button type="button" id="elementsBirthMatrixMode" class="active" aria-label="Matricea datei de nastere" title="Matricea datei de nastere"><span class="filter-icon icon-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
+                    <button type="button" id="elementsNameMatrixMode" aria-label="Matricea numelui" title="Matricea numelui"><span class="filter-icon icon-vector" aria-hidden="true"></span></button>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <span>Sortare</span>
+                  <div class="segmented">
+                    <button type="button" id="elementsOrderMode" class="active" aria-label="Sortare dupa element" title="Sortare dupa element"><span class="filter-icon icon-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
+                    <button type="button" id="elementsQuantityMode" aria-label="Sortare dupa valoare" title="Sortare dupa valoare"><span class="filter-icon icon-desc" aria-hidden="true"></span></button>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="bars" id="elementsBars"></div>
           </div>
-          <div class="bars" id="elementsBars"></div>
         </div>
 
       </div>
@@ -1337,6 +1393,11 @@
           <h2 style="margin:0">Harta suprapusa soarta-destin-ciclicitati</h2>
           <div class="hint">Grafic dinamic pentru datele introduse. Legenda din dreapta activeaza si dezactiveaza straturile vizuale.</div>
         </div>
+        <label class="overlay-range-control">Interval
+          <input id="overlayRangeStart" type="number" min="0" max="108" step="1" value="0" aria-label="Inceput interval" />
+          <span>-</span>
+          <input id="overlayRangeEnd" type="number" min="0" max="108" step="1" value="108" aria-label="Final interval" />
+        </label>
       </div>
       <div class="overlay-chart-stage" id="overlayChart"></div>
     </section>
@@ -1600,7 +1661,10 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     let wellbeingContentMode = "all";
     let wellbeingSortMode = "value";
     let wellbeingMeasureMode = "value";
+    let elementsMatrixMode = "birth";
     let elementsSortMode = "element";
+    let overlayRangeStart = 0;
+    let overlayRangeEnd = 108;
     const overlayVisibility = {
       fate: true,
       destiny: true,
@@ -2294,7 +2358,8 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       const target = document.getElementById("overlayChart");
       if (!target || !s) return;
 
-      const endAge = 108;
+      const startAge = Math.max(0, Math.min(107, Math.round(overlayRangeStart)));
+      const endAge = Math.max(startAge + 1, Math.min(108, Math.round(overlayRangeEnd)));
       const data = fateDestinyData(s);
       const width = 1900;
       const height = 1080;
@@ -2318,7 +2383,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         cycle12: "#6f9fbd",
         pinacle: "#b9a44a"
       };
-      const x = age => left + (age / endAge) * chartW;
+      const x = age => left + ((age - startAge) / (endAge - startAge)) * chartW;
       const y = value => bottom - (value / 9) * chartH;
       const escAttr = value => escapeHtml(String(value));
       const text = (xp, yp, value, cls = "ov-label", anchor = "start", extra = "") =>
@@ -2336,38 +2401,58 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         return `<polygon class="${cls}" points="${(xp - h).toFixed(1)},${(yp + h).toFixed(1)} ${(xp + h).toFixed(1)},${(yp + h).toFixed(1)} ${xp.toFixed(1)},${(yp - h).toFixed(1)}"/>`;
       };
       const groupClass = key => overlayVisibility[key] ? "" : " overlay-hidden";
-      const ages = Array.from({ length: Math.floor(endAge / 10) + 1 }, (_, i) => i * 10).filter(age => age <= endAge);
-      if (!ages.includes(endAge)) ages.push(endAge);
-      const fateValues = ages.map((_, i) => data.fateDigits[i % data.fateDigits.length]);
-      const destinyValues = ages.map((_, i) => data.destinyDigits[i % data.destinyDigits.length]);
+      const ages = [...new Set([startAge, ...Array.from({ length: Math.floor((endAge - Math.ceil(startAge / 10) * 10) / 10) + 1 }, (_, i) => Math.ceil(startAge / 10) * 10 + i * 10).filter(age => age > startAge && age < endAge), endAge])];
+      const fateValues = ages.map(age => data.fateDigits[Math.floor(age / 10) % data.fateDigits.length]);
+      const destinyValues = ages.map(age => data.destinyDigits[Math.floor(age / 10) % data.destinyDigits.length]);
       const points = values => ages.map((age, i) => `${x(age).toFixed(1)},${y(values[i]).toFixed(1)}`).join(" ");
       const lifeDigits = String(s.lifeProduct).split("").map(Number);
-      const lessonPoints = Array.from({ length: endAge + 1 }, (_, age) => {
+      const lessonPoints = Array.from({ length: endAge - startAge + 1 }, (_, index) => {
+        const age = startAge + index;
         const value = lifeDigits[age % lifeDigits.length] || 0;
         return `${x(age).toFixed(1)},${y(value).toFixed(1)}`;
       }).join(" ");
-      const endYear = s.year + endAge;
-      const interior = importantYearsAges(s.year, endYear, "interior");
-      const exterior = importantYearsAges(s.year, endYear, "exterior");
-      const pinacles = pinacleData(s, endAge);
+      const fullEndYear = s.year + 108;
+      const interior = importantYearsAges(s.year, fullEndYear, "interior").filter(item => item.age >= startAge && item.age <= endAge);
+      const exterior = importantYearsAges(s.year, fullEndYear, "exterior").filter(item => item.age >= startAge && item.age <= endAge);
+      const pinacles = pinacleData(s, 108)
+        .filter(item => item.end >= startAge && item.start <= endAge)
+        .map(item => ({ ...item, markerAge: item.start, start: Math.max(item.start, startAge), end: Math.min(item.end, endAge) }));
+      const staggerYearLabels = (items, baseY, closeGap = 3, step = 22) => {
+        const lanes = [];
+        const positions = new Map();
+        [...items].sort((a, b) => a.age - b.age).forEach(item => {
+          let laneIndex = lanes.findIndex(lastAge => item.age - lastAge > closeGap);
+          if (laneIndex === -1) {
+            laneIndex = lanes.length;
+            lanes.push(item.age);
+          } else {
+            lanes[laneIndex] = item.age;
+          }
+          positions.set(item.age, baseY + laneIndex * step);
+        });
+        return { positions, extra: Math.max(0, (lanes.length - 1) * step) };
+      };
+      const interiorLanes = staggerYearLabels(interior, bottom + 100);
+      const exteriorLanes = staggerYearLabels(exterior, bottom + 130);
+      const yearExtra = Math.max(interiorLanes.extra, exteriorLanes.extra);
       const markerCounts = new Map();
       const countMarker = age => markerCounts.set(age, (markerCounts.get(age) || 0) + 1);
       interior.forEach(item => countMarker(item.age));
       exterior.forEach(item => countMarker(item.age));
-      for (let age = 0; age <= endAge; age += 7) countMarker(age);
-      for (let age = 0; age < endAge; age += 9) countMarker(age);
-      for (let age = 0; age < endAge; age += 12) countMarker(age);
-      pinacles.forEach(item => countMarker(item.start));
+      for (let age = 0; age <= 108; age += 7) if (age >= startAge && age <= endAge) countMarker(age);
+      for (let age = 0; age < 108; age += 9) if (age >= startAge && age <= endAge) countMarker(age);
+      for (let age = 0; age < 108; age += 12) if (age >= startAge && age <= endAge) countMarker(age);
+      pinacles.filter(item => item.markerAge >= startAge && item.markerAge <= endAge).forEach(item => countMarker(item.markerAge));
       const sw = age => (1.4 + Math.max(0, (markerCounts.get(age) || 1) - 1) * .65).toFixed(2);
       const rowsY = {
         fate: bottom + 48,
         destiny: bottom + 70,
         interior: bottom + 100,
         exterior: bottom + 130,
-        c7: bottom + 197,
-        c9: bottom + 262,
-        c12: bottom + 327,
-        pinacle: bottom + 392
+        c7: bottom + 197 + yearExtra,
+        c9: bottom + 262 + yearExtra,
+        c12: bottom + 327 + yearExtra,
+        pinacle: bottom + 392 + yearExtra
       };
       const rowLabelX = left - 36;
       const parts = [];
@@ -2432,24 +2517,24 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       parts.push(`<g class="${groupClass("opportunity")}"><path class="ov-opportunity-line" d="${stepPath("opportunity")}"/></g>`);
       parts.push(`<g class="${groupClass("challenge")}"><path class="ov-challenge-line" d="${stepPath("challenge")}"/></g>`);
 
-      const cycle7Ages = Array.from({ length: Math.floor(endAge / 7) + 1 }, (_, i) => i * 7);
-      const crisis7Ages = Array.from({ length: Math.floor((endAge - 3.5) / 7) + 1 }, (_, i) => i * 7 + 3.5);
-      const cycle9Ages = Array.from({ length: Math.ceil(endAge / 9) }, (_, i) => i * 9);
-      const cycle12Ages = Array.from({ length: Math.ceil(endAge / 12) }, (_, i) => i * 12);
-      const yearLineBottom = rowsY.exterior + 18;
+      const cycle7Ages = Array.from({ length: Math.floor(108 / 7) + 1 }, (_, i) => i * 7).filter(age => age >= startAge && age <= endAge);
+      const crisis7Ages = Array.from({ length: Math.floor((108 - 3.5) / 7) + 1 }, (_, i) => i * 7 + 3.5).filter(age => age >= startAge && age <= endAge);
+      const cycle9Ages = Array.from({ length: Math.ceil(108 / 9) }, (_, i) => i * 9).filter(age => age >= startAge && age <= endAge);
+      const cycle12Ages = Array.from({ length: Math.ceil(108 / 12) }, (_, i) => i * 12).filter(age => age >= startAge && age <= endAge);
+      const yearLineBottom = rowsY.exterior + 18 + yearExtra;
 
       parts.push(`<g class="${groupClass("cycle7")}">${cycle7Ages.map(age => line(x(age), top, x(age), rowsY.c7 - 12, "ov-cycle7-line", ` stroke-width="${sw(age)}"`)).join("")}</g>`);
       parts.push(`<g class="${groupClass("crisis7")}">${crisis7Ages.map(age => line(x(age), top, x(age), rowsY.c7 - 12, "ov-crisis-line")).join("")}</g>`);
       parts.push(`<g class="${groupClass("cycle9")}">${cycle9Ages.map(age => line(x(age), bottom, x(age), rowsY.c9 - 12, "ov-cycle9-line", ` stroke-width="${sw(age)}"`)).join("")}</g>`);
       parts.push(`<g class="${groupClass("cycle12")}">${cycle12Ages.map(age => line(x(age), top, x(age), rowsY.c12 - 12, "ov-cycle12-line", ` stroke-width="${sw(age)}"`)).join("")}</g>`);
-      parts.push(`<g class="${groupClass("pinacle")}">${pinacles.map(p => line(x(p.start), top, x(p.start), rowsY.pinacle - 12, "ov-pinacle-line", ` stroke-width="${sw(p.start)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("pinacle")}">${pinacles.filter(p => p.markerAge >= startAge && p.markerAge <= endAge).map(p => line(x(p.markerAge), top, x(p.markerAge), rowsY.pinacle - 12, "ov-pinacle-line", ` stroke-width="${sw(p.markerAge)}"`)).join("")}</g>`);
       parts.push(`<g class="${groupClass("interior")}">${interior.map(item => line(x(item.age), top, x(item.age), yearLineBottom, "ov-year-link", ` stroke-width="${sw(item.age)}"`)).join("")}</g>`);
       parts.push(`<g class="${groupClass("exterior")}">${exterior.map(item => line(x(item.age), top, x(item.age), yearLineBottom, "ov-year-link", ` stroke-width="${sw(item.age)}"`)).join("")}</g>`);
 
-      parts.push(`<g class="${groupClass("cycle7")}">${text(rowLabelX, rowsY.c7 + 5, "Ciclu 7", "ov-row", "end")}${cycle7Ages.map((age, i) => downTriangle(x(age), rowsY.c7, 24, "ov-cycle7-triangle") + text(x(age), rowsY.c7 - 5, i + 1, "ov-triangle-number", "middle") + text(x(age) - 6, rowsY.c7 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.orange}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c7 - 34).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle7")}">${text(rowLabelX, rowsY.c7 + 5, "Ciclu 7", "ov-row", "end")}${cycle7Ages.map(age => downTriangle(x(age), rowsY.c7, 24, "ov-cycle7-triangle") + text(x(age), rowsY.c7 - 5, Math.floor(age / 7) + 1, "ov-triangle-number", "middle") + text(x(age) - 6, rowsY.c7 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.orange}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c7 - 34).toFixed(1)})"`)).join("")}</g>`);
       parts.push(`<g class="${groupClass("crisis7")}">${crisis7Ages.map(age => upTriangle(x(age), rowsY.c7, 24, "ov-crisis-triangle")).join("")}</g>`);
-      parts.push(`<g class="${groupClass("cycle9")}">${text(rowLabelX, rowsY.c9 + 5, "Ciclu 9", "ov-row", "end")}${cycle9Ages.map((age, i) => square(x(age), rowsY.c9, 24, "ov-cycle9-square") + text(x(age), rowsY.c9 + .5, i + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c9 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle9}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c9 - 34).toFixed(1)})"`)).join("")}</g>`);
-      parts.push(`<g class="${groupClass("cycle12")}">${text(rowLabelX, rowsY.c12 + 5, "Ciclu 12", "ov-row", "end")}${cycle12Ages.map((age, i) => square(x(age), rowsY.c12, 24, "ov-cycle12-square") + text(x(age), rowsY.c12 + .5, i + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c12 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle12}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c12 - 34).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle9")}">${text(rowLabelX, rowsY.c9 + 5, "Ciclu 9", "ov-row", "end")}${cycle9Ages.map(age => square(x(age), rowsY.c9, 24, "ov-cycle9-square") + text(x(age), rowsY.c9 + .5, Math.floor(age / 9) + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c9 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle9}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c9 - 34).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle12")}">${text(rowLabelX, rowsY.c12 + 5, "Ciclu 12", "ov-row", "end")}${cycle12Ages.map(age => square(x(age), rowsY.c12, 24, "ov-cycle12-square") + text(x(age), rowsY.c12 + .5, Math.floor(age / 12) + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c12 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle12}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c12 - 34).toFixed(1)})"`)).join("")}</g>`);
 
       const bridgeParts = pinacles.map((p, index) => {
         const nextStart = index < pinacles.length - 1 ? pinacles[index + 1].start : endAge;
@@ -2463,19 +2548,25 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         const mid = (x1 + x2) / 2;
         return `<line x1="${x1.toFixed(1)}" y1="${oy}" x2="${x2.toFixed(1)}" y2="${oy}" stroke="${colors.opportunity}" stroke-width="2.3"/><line x1="${x1.toFixed(1)}" y1="${cy}" x2="${x2.toFixed(1)}" y2="${cy}" stroke="${colors.challenge}" stroke-width="2.3"/>${text(mid, oy + (opportunityTop ? -11 : 15), `O${p.opportunity}`, "ov-opportunity-label", "middle")}${text(mid, cy + (opportunityTop ? 15 : -11), `P${p.challenge}`, "ov-challenge-label", "middle")}`;
       }).join("");
-      parts.push(`<g class="${groupClass("pinacle")}">${text(rowLabelX, rowsY.pinacle + 5, "Pinaclu", "ov-row", "end")}${bridgeParts}${pinacles.map(p => square(x(p.start), rowsY.pinacle, 24, "ov-pinacle-square") + text(x(p.start), rowsY.pinacle + .5, p.label, "ov-square-number", "middle") + text(x(p.start) - 6, rowsY.pinacle - 34, s.year + p.start, "ov-cycle-year", "middle", ` fill="${colors.pinacle}" transform="rotate(-90 ${(x(p.start) - 6).toFixed(1)} ${(rowsY.pinacle - 34).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("pinacle")}">${text(rowLabelX, rowsY.pinacle + 5, "Pinaclu", "ov-row", "end")}${bridgeParts}${pinacles.filter(p => p.markerAge >= startAge && p.markerAge <= endAge).map(p => square(x(p.markerAge), rowsY.pinacle, 24, "ov-pinacle-square") + text(x(p.markerAge), rowsY.pinacle + .5, p.label, "ov-square-number", "middle") + text(x(p.markerAge) - 6, rowsY.pinacle - 34, s.year + p.markerAge, "ov-cycle-year", "middle", ` fill="${colors.pinacle}" transform="rotate(-90 ${(x(p.markerAge) - 6).toFixed(1)} ${(rowsY.pinacle - 34).toFixed(1)})"`)).join("")}</g>`);
 
-      parts.push(`<g class="${groupClass("exterior")}">${text(rowLabelX, rowsY.exterior, "Ani exterior", "ov-row ov-exterior-label", "end")}${exterior.map(item => text(x(item.age) + 12, rowsY.exterior, item.year, "ov-exterior-label", "middle", ` transform="rotate(-90 ${(x(item.age) + 12).toFixed(1)} ${rowsY.exterior.toFixed(1)})"`)).join("")}</g>`);
-      parts.push(`<g class="${groupClass("interior")}">${text(rowLabelX, rowsY.interior, "Ani interior", "ov-row ov-interior-label", "end")}${interior.map(item => text(x(item.age) - 5, rowsY.interior, item.year, "ov-interior-label", "middle", ` transform="rotate(-90 ${(x(item.age) - 5).toFixed(1)} ${rowsY.interior.toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("exterior")}">${text(rowLabelX, rowsY.exterior, "Ani exterior", "ov-row ov-exterior-label", "end")}${exterior.map(item => {
+        const labelY = exteriorLanes.positions.get(item.age);
+        return text(x(item.age) + 12, labelY, item.year, "ov-exterior-label", "middle", ` transform="rotate(-90 ${(x(item.age) + 12).toFixed(1)} ${labelY.toFixed(1)})"`);
+      }).join("")}</g>`);
+      parts.push(`<g class="${groupClass("interior")}">${text(rowLabelX, rowsY.interior, "Ani interior", "ov-row ov-interior-label", "end")}${interior.map(item => {
+        const labelY = interiorLanes.positions.get(item.age);
+        return text(x(item.age) - 5, labelY, item.year, "ov-interior-label", "middle", ` transform="rotate(-90 ${(x(item.age) - 5).toFixed(1)} ${labelY.toFixed(1)})"`);
+      }).join("")}</g>`);
       parts.push(`<g class="${groupClass("fate")}"><polyline class="ov-fate-line" points="${points(fateValues)}"/>${ages.map((age, i) => circle(x(age), y(fateValues[i]), 7, "ov-fate-dot")).join("")}</g>`);
       parts.push(`<g class="${groupClass("destiny")}"><polyline class="ov-destiny-line" points="${points(destinyValues)}"/>${ages.map((age, i) => circle(x(age), y(destinyValues[i]), 7, "ov-destiny-dot")).join("")}</g>`);
       parts.push(text(rowLabelX, rowsY.fate, "Soarta", "ov-row ov-green", "end"));
       parts.push(text(rowLabelX, rowsY.destiny, "Destin", "ov-row ov-red", "end"));
-      for (let i = 0; i < Math.floor(endAge / 10) + 1; i++) {
-        const midAge = Math.min(i * 10 + 5, endAge);
-        parts.push(text(x(midAge), rowsY.fate, data.fateDigits[i % data.fateDigits.length], "ov-value ov-green", "middle"));
-        parts.push(text(x(midAge), rowsY.destiny, data.destinyDigits[i % data.destinyDigits.length], "ov-value ov-red", "middle"));
-      }
+      ages.slice(0, -1).forEach((age, i) => {
+        const midAge = (age + ages[i + 1]) / 2;
+        parts.push(text(x(midAge), rowsY.fate, fateValues[i], "ov-value ov-green", "middle"));
+        parts.push(text(x(midAge), rowsY.destiny, destinyValues[i], "ov-value ov-red", "middle"));
+      });
 
       const legendX = left + chartW + 120;
       const legendY = 390;
@@ -2484,8 +2575,8 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         ["destiny", colors.destiny, `Destin ${data.destinyNumber}`, "line"],
         ["comfortFate", colors.fate, `Zona confort Soarta ${data.comfortFate.toFixed(2).replace(".", ",")}`, "dash"],
         ["comfortDestiny", colors.destiny, `Zona confort Destin ${data.comfortDestiny.toFixed(2).replace(".", ",")}`, "dash"],
-        ["opportunity", colors.opportunity, "Oportunitate", "line"],
-        ["challenge", colors.challenge, "Provocare", "line"],
+        ["opportunity", colors.opportunity, `Oportunitate ${pinacles.map(p => p.opportunity).join("")}`, "line"],
+        ["challenge", colors.challenge, `Provocare ${pinacles.map(p => p.challenge).join("")}`, "line"],
         ["lessons", colors.lessons, `Lectii de viata ${s.lifeProduct}`, "line"],
         ["interior", colors.interior, "An interior", "dash"],
         ["exterior", colors.exterior, "An exterior", "dash"],
@@ -2506,6 +2597,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         if (kind === "square") symbol = `<rect x="${legendX}" y="${yy - 12}" width="24" height="24" rx="2" fill="${color}" stroke="${color}" stroke-width="2"/>`;
         parts.push(`<g class="overlay-legend-item${offClass}" data-layer="${key}" tabindex="0" role="button" aria-pressed="${overlayVisibility[key] ? "true" : "false"}">${symbol}${text(legendX + 30, yy + 4, label, "ov-legend")}</g>`);
       });
+      parts.push(text(legendX, legendY + 24 + legendItems.length * 22, `Interval ${startAge}-${endAge} ani`, "ov-legend"));
 
       parts.push(text(width - 20, height - 15, "Atlas Numerologie", "ov-watermark", "end"));
       parts.push("</svg>");
@@ -2566,20 +2658,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     function renderDashboard(s) {
       if (!s) return;
       document.getElementById("dashboardMatrix").innerHTML = matrixComparisonHtml(s);
-
-      const elementItems = [
-        ["Foc", s.elements.foc],
-        ["Pamant", s.elements.pamant],
-        ["Apa", s.elements.apa],
-        ["Aer", s.elements.aer]
-      ];
-      const sortedElementItems = elementsSortMode === "quantity"
-        ? [...elementItems].sort((a, b) => b[1] - a[1])
-        : elementItems;
-      document.getElementById("elementsOrderMode").classList.toggle("active", elementsSortMode === "element");
-      document.getElementById("elementsQuantityMode").classList.toggle("active", elementsSortMode === "quantity");
-      renderBars("elementsBars", sortedElementItems);
-
+      renderElementsVisual(s);
       renderWellbeingVisual(s);
       renderOverlayChart(s);
     }
@@ -2598,8 +2677,39 @@ def calculate_capitol_2(person: PersonInput) -> dict:
             ${matrixHtmlLarge(nameMatrix(s.fullName), true)}
           </div>
         </div>
-        ${matrixLegendHtml()}
       `;
+    }
+
+    function elementCountsFromMatrix(matrix) {
+      return {
+        foc: [1, 5, 9].reduce((sum, digit) => sum + matrix[digit].length, 0),
+        pamant: [4, 8].reduce((sum, digit) => sum + matrix[digit].length, 0),
+        apa: [2, 6].reduce((sum, digit) => sum + matrix[digit].length, 0),
+        aer: [3, 7].reduce((sum, digit) => sum + matrix[digit].length, 0)
+      };
+    }
+
+    function renderElementsVisual(s) {
+      const matrix = elementsMatrixMode === "name" ? nameMatrix(s.fullName) : s.matrix;
+      const counts = elementCountsFromMatrix(matrix);
+      const items = [
+        { label: "Foc", value: counts.foc, className: "element-foc", order: 0 },
+        { label: "Pamant", value: counts.pamant, className: "element-pamant", order: 1 },
+        { label: "Apa", value: counts.apa, className: "element-apa", order: 2 },
+        { label: "Aer", value: counts.aer, className: "element-aer", order: 3 }
+      ];
+      const rows = elementsSortMode === "quantity"
+        ? [...items].sort((a, b) => b.value - a.value || a.order - b.order)
+        : items;
+      setActive("elementsBirthMatrixMode", elementsMatrixMode === "birth");
+      setActive("elementsNameMatrixMode", elementsMatrixMode === "name");
+      setActive("elementsOrderMode", elementsSortMode === "element");
+      setActive("elementsQuantityMode", elementsSortMode === "quantity");
+      const max = Math.max(1, ...rows.map(item => item.value));
+      document.getElementById("elementsBars").innerHTML = rows.map(item => {
+        const width = item.value <= 0 ? 0 : Math.max(3, Math.round((item.value / max) * 100));
+        return `<div class="bar-row"><div class="wellbeing-label"><span class="element-dot ${item.className}" aria-hidden="true"></span>${item.label}</div><div class="bar-track"><div class="element-bar-fill ${item.className}" style="width:${width}%"></div></div><strong>${item.value}</strong></div>`;
+      }).join("");
     }
 
     function formatBirthDate(s) {
@@ -2648,10 +2758,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       if (count === 2) return '<span class="shape-marker shape-2" aria-hidden="true"><i></i></span>';
       if (count <= 4) return `<span class="shape-marker shape-${count}" aria-hidden="true"></span>`;
       return '<span class="shape-marker shape-many" aria-hidden="true"></span>';
-    }
-
-    function matrixLegendHtml() {
-      return elementLegendHtml("legend");
     }
 
     function elementName(digit) {
@@ -2830,6 +2936,14 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       wellbeingMeasureMode = "value";
       renderDashboard(parseState());
     });
+    document.getElementById("elementsBirthMatrixMode").addEventListener("click", () => {
+      elementsMatrixMode = "birth";
+      renderDashboard(parseState());
+    });
+    document.getElementById("elementsNameMatrixMode").addEventListener("click", () => {
+      elementsMatrixMode = "name";
+      renderDashboard(parseState());
+    });
     document.getElementById("elementsOrderMode").addEventListener("click", () => {
       elementsSortMode = "element";
       renderDashboard(parseState());
@@ -2838,6 +2952,21 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       elementsSortMode = "quantity";
       renderDashboard(parseState());
     });
+    function updateOverlayRange() {
+      const startInput = document.getElementById("overlayRangeStart");
+      const endInput = document.getElementById("overlayRangeEnd");
+      const requestedStart = Number(startInput.value);
+      const requestedEnd = Number(endInput.value);
+      overlayRangeStart = Number.isFinite(requestedStart) ? requestedStart : 0;
+      overlayRangeEnd = Number.isFinite(requestedEnd) ? requestedEnd : 108;
+      overlayRangeStart = Math.max(0, Math.min(107, Math.round(overlayRangeStart)));
+      overlayRangeEnd = Math.max(overlayRangeStart + 1, Math.min(108, Math.round(overlayRangeEnd)));
+      startInput.value = overlayRangeStart;
+      endInput.value = overlayRangeEnd;
+      renderOverlayChart(parseState());
+    }
+    document.getElementById("overlayRangeStart").addEventListener("change", updateOverlayRange);
+    document.getElementById("overlayRangeEnd").addEventListener("change", updateOverlayRange);
     document.querySelectorAll("input, select, textarea#workNotes").forEach(el => {
       el.addEventListener("change", renderTable);
     });

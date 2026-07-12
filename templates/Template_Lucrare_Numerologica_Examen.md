@@ -477,6 +477,14 @@ grafic se adauga legenda: Foc, Pamant, Apa, Aer.
 
 {{soarta_si_destin}}
 
+Ordine obligatorie pentru aceasta rubrica:
+
+1. calculele si graficul Soarta si Destin;
+2. tabelul comparativ al pozitiilor (`Soarta`, `Destin`, `Citire`) si interpretarea aferenta graficului;
+3. subtitlul si continutul pentru Harta suprapusa Soarta-Destin-Ciclicitati.
+
+Tabelul si interpretarea care explica graficul Soarta si Destin se pastreaza in aceasta rubrica, imediat dupa grafic. Nu se muta dupa Harta suprapusa.
+
 ### 1.8. Relatii
 
 #### 1.8.1. Omuletul relatiilor
@@ -735,6 +743,12 @@ din matricea datei de nastere; vezi
 ### 3.15. Soarta si destinul
 
 {{transformare_soarta_destinul}}
+
+Regula de compunere pentru o sectiune separata „Transformarea prin cicluri”:
+
+- Reutilizeaza harta suprapusa Soarta-Destin-Ciclicitati deja generata in capitolul 1, cu acelasi index de figura, ca suport vizual pentru interpretare.
+- Plaseaza figura imediat sub subtitlu, inainte de primul paragraf interpretativ despre cicluri.
+- Pastreaza aceeasi sursa SVG si adauga o legenda care precizeaza utilizarea ei pentru interpretarea ciclurilor.
 
 ### 3.16. Liniile de tensiune
 

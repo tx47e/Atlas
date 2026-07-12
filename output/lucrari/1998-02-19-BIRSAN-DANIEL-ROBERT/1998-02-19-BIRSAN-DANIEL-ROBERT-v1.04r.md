@@ -317,7 +317,7 @@ Index: BDR-19980219-v1.04r-SUB-017
 #### Matricea datei de nastere
 
 Index: BDR-19980219-v1.04r-P-070
-Matricea este o harta a cifrelor prezente in codul numerologic personal. Ea arata ce energii sunt repetitive, ce energii lipsesc si unde apar vectori importanti.
+Matricea este una dintre cele mai utile harti de orientare din lucrare, Daniel. Ea nu te defineste rigid, ci iti arata unde ai energii care pornesc firesc, unde apar repetitii puternice si ce zone merita cultivate cu mai multa rabdare.
 
 Index: BDR-19980219-v1.04r-P-071
 Pentru matrice pornim de la data de nastere si construim, pe rand, N1, N2, N3 si N4. La final, data compacta impreuna cu aceste patru valori formeaza sirul complet, adica numarul logic al persoanei.
@@ -334,7 +334,7 @@ Index: BDR-19980219-v1.04r-T-001
 
 
 Index: BDR-19980219-v1.04r-P-072
-Casutele pline arata resurse usor accesibile. Casutele goale nu inseamna defect, ci zone care se invata prin constienta, relatie, disciplina sau prin influenta numelui.
+Casutele pline arata resurse la care ai acces mai usor. Casutele goale nu sunt defecte si nu spun ca iti lipseste ceva esential; ele indica locuri in care invatarea devine mai constienta, prin experienta, relatie, disciplina si alegeri repetate.
 
 Index: BDR-19980219-v1.04r-SUB-018
 #### Casutele matricei
@@ -362,7 +362,7 @@ Index: BDR-19980219-v1.04r-P-074
 Total cifre pare = 2; total cifre impare = 11.
 
 Index: BDR-19980219-v1.04r-P-075
-Raportul dintre pare si impare iti arata ritmul dintre a primi si a actiona. Daca apare un dezechilibru, nu il citim ca problema, ci ca indiciu: acolo ai nevoie sa compensezi mai constient.
+Raportul dintre pare si impare iti arata felul in care alternezi intre a primi, a observa si a actiona. Daca balanta inclina mai mult intr-o directie, nu este o problema de corectat cu forta, ci un indiciu bland: acolo merita sa aduci mai multa prezenta si alegere constienta.
 
 Index: BDR-19980219-v1.04r-SUB-020
 #### Vectorii matricei
@@ -616,7 +616,7 @@ Index: BDR-19980219-v1.04r-SUB-031
 #### Lectiile de viata
 
 Index: BDR-19980219-v1.04r-P-119
-Lectiile de viata sunt citite ca teme recurente. Ele indica ce fel de energie revine in diferite etape, asemenea unor exercitii repetate.
+Lectiile de viata pot fi privite ca teme care revin pana cand devin mai usor de recunoscut si de trait matur. Nu vin sa te pedepseasca, ci sa iti ofere ocazii repetate de a exersa increderea, schimbarea, sensul, rabdarea sau constructia concreta.
 
 Index: BDR-19980219-v1.04r-P-120
 Pentru lectiile de viata inmultim ziua, luna si anul. Din rezultatul obtinut citim sirul lectiilor care revine in diferite etape si iti arata ce energie merita lucrata mai constient.
@@ -625,7 +625,7 @@ Index: BDR-19980219-v1.04r-C-017
 **Calcul:** 19 x 2 x 1998 = 75924 -> 7, 5, 9, 2, 4
 
 Index: BDR-19980219-v1.04r-P-121
-Acest sir te ajuta sa vezi ce fel de exercitii interioare se reactiveaza pe parcurs: uneori ai de lucrat cu profunzimea si increderea, alteori cu schimbarea, sensul, rabdarea sau constructia concreta. Privit asa, fiecare etapa devine o ocazie de maturizare, nu doar o perioada care trece peste tine.
+Sirul acesta iti ofera un mod mai calm de a citi repetitiile vietii: uneori lucrezi cu profunzimea si increderea, alteori cu schimbarea, sensul, rabdarea sau constructia concreta. Privit astfel, fiecare etapa poate deveni un loc de maturizare si alegere, nu doar o perioada care trece peste tine.
 
 Index: BDR-19980219-v1.04r-SUB-032
 #### Ciclul de 9 ani
@@ -794,14 +794,6 @@ Index: BDR-19980219-v1.04r-C-019c
 
 _Grafic Soarta si Destin pentru Birsan Daniel Robert_
 
-Index: BDR-19980219-v1.04r-SUB-036a
-#### Harta suprapusa
-
-Index: BDR-19980219-v1.04r-C-019e
-![Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert.svg)
-
-_Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert_
-
 Index: BDR-19980219-v1.04r-T-005a
 | Pozitie | Soarta | Destin | Citire |
 | ---: | ---: | ---: | --- |
@@ -815,6 +807,14 @@ Index: BDR-19980219-v1.04r-T-005a
 
 Index: BDR-19980219-v1.04r-P-132a
 Pentru Daniel folosim citirea pe intervale de 10 ani, deoarece data lui are predominanta impara / masculina. Cele doua linii sunt foarte apropiate si au aceeasi zona de confort, 3,86. Asta arata ca drumul primit si directia de implinire nu sunt in conflict major, dar exista doua puncte de lucru clare: la 20 de ani, unde destinul cere activarea relatiei si a sensibilitatii, si la 50 de ani, unde intensitatea lui 9 trebuie rafinata prin analiza si discernamantul lui 7.
+
+Index: BDR-19980219-v1.04r-SUB-036a
+#### Harta suprapusa
+
+Index: BDR-19980219-v1.04r-C-019e
+![Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert.svg)
+
+_Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert_
 
 Index: BDR-19980219-v1.04r-SUB-037
 ### 1.7. Relatii
@@ -1161,6 +1161,11 @@ Pentru tine, Daniel, asta inseamna ca nu este suficient sa intelegi o situatie. 
 Index: BDR-19980219-v1.04r-SUB-051
 ### 3.3. Transformarea prin cicluri
 
+Index: BDR-19980219-v1.04r-C-019e
+![Harta suprapusa Soarta-Destin-Ciclicitati pentru interpretarea ciclurilor](harta-suprapusa-soarta-destin-birsan-daniel-robert.svg)
+
+_Harta suprapusa Soarta-Destin-Ciclicitati, utilizata pentru interpretarea ciclurilor_
+
 Index: BDR-19980219-v1.04r-P-189
 Ciclurile arata cand anumite lectii devin mai vizibile. Ele dau ritm transformarii. Daca aspectele de indreptat arata ce ai de rafinat, ciclurile arata cand anumite teme ies mai puternic la suprafata.
 
@@ -1243,13 +1248,13 @@ Index: BDR-19980219-v1.04r-SUB-055
 ### 5.1. Etapele mari
 
 Index: BDR-19980219-v1.04r-P-206
-Parcursul vietii este citit prin mai multe straturi: cicluri, pinacluri, ani personali si lectii.
+Parcursul vietii nu este o harta care iti fixeaza viitorul, Daniel, ci un mod mai atent de a citi etapele prin care treci. Ciclurile, pinaclurile, anii personali si lectiile pun in ordine ritmuri care devin vizibile in alegerile, provocarile si oportunitatile tale.
 
 Index: BDR-19980219-v1.04r-P-207
 Vezi capitolul 1.6 pentru calculele detaliate.
 
 Index: BDR-19980219-v1.04r-P-208
-Aceste repere ajuta la intelegerea momentelor de schimbare, dar nu trebuie folosite fatalist. Ele indica teme, nu impun evenimente.
+Priveste aceste repere ca pe un limbaj de orientare, nu ca pe o sentinta. Ele nu impun evenimente si nu iti iau libertatea de alegere; doar iti arata ce teme pot cere mai multa atentie, rabdare sau curaj intr-o anumita perioada.
 
 Index: BDR-19980219-v1.04r-SUB-056
 ### 5.2. Urmatorii ani personali
@@ -1353,28 +1358,28 @@ Index: BDR-19980219-v1.04r-SUB-060
 ### 7.1. Concluzie finala
 
 Index: BDR-19980219-v1.04r-P-218
-Concluzia finala strange rezultatele mari si le aseaza intr-o lectura coerenta.
+Concluzia finala aduna ideile importante intr-o imagine coerenta, ca sa ramai nu doar cu cifre, ci cu o directie pe care o poti recunoaste in viata de zi cu zi.
 
 Index: BDR-19980219-v1.04r-P-219
 VI=1; VE=2; VG=3; Calea destinului=39; Destin=3; Numar de exprimare=6.
 
 Index: BDR-19980219-v1.04r-P-220
-Daniel, harta ta pune in dialog energia interioara 1, manifestarea exterioara 2 si destinul 3. Cu alte cuvinte: ai initiativa, ai sensibilitate relationala si ai nevoie sa exprimi. Forta ta cere maturitate, zonele lipsa cer educare, iar repetitiile pot deveni maiestrie daca le lucrezi constient.
+Daniel, harta ta pune la aceeasi masa initiativa lui 1, sensibilitatea relationala a lui 2 si vocea creativa a destinului 3. Ai resursele sa pornesti, sa intelegi oamenii si sa exprimi ceea ce conteaza pentru tine. Nu e nevoie sa fii perfect pentru ca aceste energii sa lucreze bine impreuna; e suficient sa le observi, sa le educi cu rabdare si sa transformi repetitiile in deprinderi care te ajuta.
 
 Index: BDR-19980219-v1.04r-SUB-061
 ### 7.2. Directii de dezvoltare
 
 Index: BDR-19980219-v1.04r-P-221
-Directiile de dezvoltare transforma analiza in practica. Pentru tine, lucrarea devine utila atunci cand pleci din ea cu intrebari clare si pasi concreti.
+Directiile de dezvoltare dau analizei un rost practic. Lucrarea devine cu adevarat utila atunci cand pleci din ea cu cateva intrebari sincere, cu pasi mici si clari, iar nu cu presiunea de a schimba totul dintr-o data.
 
 Index: BDR-19980219-v1.04r-P-222
-Se folosesc vibratiile dominante, casutele lipsa, puntile si ciclurile active.
+Pentru aceasta orientare ne uitam la vibratiile dominante, la casutele care cer antrenament, la puntile dintre energii si la ciclurile active. Impreuna, ele arata unde merita sa investesti atentia acum, fara sa te reduca la o formula.
 
 Index: BDR-19980219-v1.04r-P-223
-Recomandarea pentru tine este sa observi cand folosesti energia in lumina si cand o duci in exces. Numerologia devine utila abia atunci cand o folosesti ca limbaj de autoeducare, nu ca lista de etichete.
+Recomandarea mea pentru tine este sa observi, cu sinceritate si fara asprime, cand iti folosesti energia in forma ei buna si cand o impingi spre exces. Numerologia te poate ajuta tocmai fiindca ofera un limbaj de autoeducare: nu iti pune etichete, ci iti arata unde poti alege mai constient.
 
 Index: BDR-19980219-v1.04r-CAP-010
 ## Capitolul 8. Sfatul numerologului
 
 Index: BDR-19980219-v1.04r-P-224
-Daniel, sfatul central este sa nu tratezi cifrele ca pe limite, ci ca pe repere. Vibratia interioara 1 iti arata cum se aprinde energia personala, vibratia exterioara 2 iti arata cum se vede aceasta energie in lume, iar destinul 3 iti arata directia de implinire. Daca le traiesti constient, transformi predispozitiile in alegeri mature. Daca le traiesti automat, aceleasi energii pot deveni tensiuni. Cheia este observarea, disciplina blanda si folosirea constienta a resurselor tale.
+Daniel, ideea cea mai importanta este sa nu privesti cifrele ca pe limite, ci ca pe repere care te ajuta sa te cunosti mai bine. Vibratia interioara 1 iti arata de unde pornește curajul personal, vibratia exterioara 2 iti arata cum il asezi in relatie cu oamenii, iar destinul 3 iti aminteste sa dai glas ideilor si experientelor tale. Traite constient, aceste energii devin alegeri mature; traite pe pilot automat, pot crea tensiune. Cheia ramane simpla si puternica: observare, disciplina blanda, comunicare sincera si incredere in pasii mici pe care ii faci consecvent.

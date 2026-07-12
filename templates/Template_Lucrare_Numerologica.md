@@ -229,6 +229,8 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Destin:
 - Zona de confort destin:
 - Grafic:
+- Tabel comparativ si interpretarea graficului: se introduc imediat dupa graficul Soarta si Destin.
+- Harta suprapusa Soarta-Destin-Ciclicitati: se introduce numai dupa tabelul comparativ si interpretarea aferenta graficului Soarta si Destin.
 - Tema vietii:
 - Interpretare:
 
@@ -435,6 +437,9 @@ tendinta impreuna cu treapta cea mai inalta din scara bunastarii.
 
 ---
 ## 6. Cicluri si etape de viata
+
+- Pentru interpretarea de sinteza a ciclurilor, se reutilizeaza Harta suprapusa Soarta-Destin-Ciclicitati din capitolul anterior, imediat sub subtitlul interpretarii si inaintea textului explicativ.
+- Se pastreaza aceeasi sursa SVG, cu o legenda care mentioneaza folosirea ei pentru interpretarea ciclurilor.
 
 ### Pinacluri - Oportunitati si Provocari
 
