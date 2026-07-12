@@ -6,20 +6,18 @@
       {
         "id": "3d992b1bb9b4ef0d",
         "type": "tabs",
-        "dimension": 46.94694694694695,
+        "dimension": 54.454454454454456,
         "children": [
           {
-            "id": "a52fdac48ab205b3",
+            "id": "0b6e3e2b956f3f6e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "vault/Numerologie/Aspecte de Indreptat.md",
-                "mode": "source",
-                "source": false
+                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.html"
               },
               "icon": "lucide-file",
-              "title": "Aspecte de Indreptat"
+              "title": "Birsan Daniel Robert - Lucrare numerologica v1.04r"
             }
           }
         ]
@@ -27,7 +25,7 @@
       {
         "id": "9f0dc0c7aeddc05f",
         "type": "tabs",
-        "dimension": 53.053053053053056,
+        "dimension": 45.545545545545544,
         "children": [
           {
             "id": "faa6dc9f83bae1f8",
@@ -220,11 +218,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a52fdac48ab205b3",
+  "active": "0b6e3e2b956f3f6e",
   "lastOpenFiles": [
+    "vault/Numerologie/Aspecte de Indreptat.md",
     "Dashboard/persoane.txt.crswap",
     "vault/Numerologie/Cod Numerologic Personal.md",
-    "vault/Numerologie/Aspecte de Indreptat.md",
     "vault/Numerologie/Lectii de Viata.md",
     "vault/Numerologie/Matricea Datei de Nastere.md",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/soarta-si-destin-birsan-daniel-robert.svg",
