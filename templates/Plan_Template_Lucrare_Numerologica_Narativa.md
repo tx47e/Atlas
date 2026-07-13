@@ -117,6 +117,8 @@ Intrebarea capitolului: **Ce are de construit si prin ce fel de contributie isi 
 
 Capitolul se citeste trecut -> prezent -> urmatoarea etapa. Nu va fi o succesiune de tabele, ci o harta a momentelor in care mai multe repere numerologice vorbesc despre aceeasi tema.
 
+Toate ciclurile de 7, 9 si 12 ani, precum si anii importanti interiori si exteriori, se calculeaza complet pentru intervalul de varsta 0-108 ani. Lucrarea afiseaza doar selectia relevanta pentru cititor; raportul de calcul pastreaza toate randurile pentru verificare si pentru viitoare sincronizari.
+
 ### 6.1. Etapele mari
 
 - ciclurile de 7 ani;

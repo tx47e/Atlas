@@ -1,0 +1,27 @@
+id: agent-vault
+display_name: "Agent Vault"
+description: "Autoritatea locala pentru intretinerea Vault-ului, validarea formulelor si sincronizarea skill-urilor numerologice."
+vault_access: "read_write_exclusive"
+algorithm_model:
+  name: "Approved vault validation workflow"
+  steps:
+    - "cere aprobarea explicita a sesiunii inainte de orice lansare a validarii formulelor"
+    - "inregistreaza fiecare lansare in manifestul de validare"
+    - "compara Vault-ul, calculatorul, skill-urile SVG si exemplele aprobate"
+    - "documenteaza neconformitatile fara a inventa formule"
+    - "cere aprobare separata pentru corectii ale formulelor sau algoritmilor"
+    - "actualizeaza Vault-ul, skill-urile si calculatorul numai dupa aprobarea corectiei"
+    - "noteaza sincronizarile si deciziile durabile in memorie"
+  priority_order:
+    - "documentatia confirmata din vault/Numerologie"
+    - "deciziile explicite ale utilizatorului"
+    - "exemplele aprobate din lucrari"
+    - "calculatorul agregat si skill-urile existente"
+skills:
+  - numerologie-validare-formule
+  - numerologie-vault-redactare
+prompts_dir: "agents/Agent Vault/prompts"
+memory_dir: "agents/Agent Vault/memory"
+prompts:
+  numerologie-validare-formule: "agents/Agent Vault/prompts/numerologie-validare-formule.md"
+  numerologie-vault-redactare: "agents/Agent Vault/prompts/numerologie-vault-redactare.md"

@@ -1,6 +1,7 @@
 id: agent-dash
 display_name: "Agent Dash"
 description: "Orchestrator local pentru persoane, lucrari numerologice, livrabile si manifestele Dashboard v2."
+vault_access: "read_only"
 algorithm_model:
   name: "Dashboard-first controlled work orchestration"
   steps:
@@ -36,4 +37,3 @@ prompts:
   numerologie-SVG-harta-suprapusa: "agents/Agent Dash/prompts/numerologie-SVG-harta-suprapusa.md"
   numerologie-SVG-soarta-si-destin: "agents/Agent Dash/prompts/numerologie-SVG-soarta-si-destin.md"
   numerologie-SVG-triunghiul-financiar: "agents/Agent Dash/prompts/numerologie-SVG-triunghiul-financiar.md"
-

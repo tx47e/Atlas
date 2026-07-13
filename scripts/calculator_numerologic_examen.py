@@ -573,7 +573,7 @@ def lectii_de_viata(data_nasterii: date, ani: int = 108) -> dict[str, Any]:
 
 def ciclu_9_ani(data_nasterii: date, start: int | None = None, final: int | None = None) -> list[dict[str, Any]]:
     start = start or data_nasterii.year
-    final = final or start + 20
+    final = final or data_nasterii.year + 108
     lectii = lectii_de_viata(data_nasterii, max(1, final - data_nasterii.year + 2))["ani"]
     randuri = []
     for an in range(start, final + 1):
@@ -591,22 +591,32 @@ def ciclu_9_ani(data_nasterii: date, start: int | None = None, final: int | None
     return randuri
 
 
-def cicluri_7_ani(data_nasterii: date, pana_la_varsta: int = 84) -> list[dict[str, Any]]:
+def cicluri_7_ani(data_nasterii: date, pana_la_varsta: int = 108) -> list[dict[str, Any]]:
     return [
-        {"ciclu": index + 1, "interval_varsta": f"{index * 7}-{index * 7 + 6}"}
+        {
+            "ciclu": index + 1,
+            "interval_varsta": f"{index * 7}-{min(index * 7 + 6, pana_la_varsta)}",
+            "inceput_varsta": index * 7,
+            "sfarsit_varsta": min(index * 7 + 6, pana_la_varsta),
+        }
         for index in range((pana_la_varsta // 7) + 1)
     ]
 
 
 def cicluri_12_ani(data_nasterii: date, pana_la_varsta: int = 108) -> list[dict[str, Any]]:
     return [
-        {"ciclu": index + 1, "interval_varsta": f"{index * 12}-{index * 12 + 11}"}
+        {
+            "ciclu": index + 1,
+            "interval_varsta": f"{index * 12}-{min(index * 12 + 11, pana_la_varsta)}",
+            "inceput_varsta": index * 12,
+            "sfarsit_varsta": min(index * 12 + 11, pana_la_varsta),
+        }
         for index in range((pana_la_varsta // 12) + 1)
     ]
 
 
 def ani_importanti(data_nasterii: date, final: int | None = None) -> dict[str, Any]:
-    final = final or data_nasterii.year + 90
+    final = final or data_nasterii.year + 108
     return {
         "interiori": secventa_ani_importanti(data_nasterii.year, final, "interior"),
         "exteriori": secventa_ani_importanti(data_nasterii.year, final, "exterior"),
@@ -751,6 +761,7 @@ def raport_complet(
 ) -> dict[str, Any]:
     matrice_data = matrice_data_nasterii(data_nasterii)
     nume = profil_nume(nume_complet, nume_familie, prenume, prenume_activ, nume_anterior)
+    an_final_calcul = data_nasterii.year + 108
     return {
         "date_intrare": {
             "data_nasterii": data_nasterii.isoformat(),
@@ -760,6 +771,18 @@ def raport_complet(
             "prenume_activ": prenume_activ,
             "gen": gen,
             "nume_anterior": nume_anterior,
+        },
+        "interval_calculat": {
+            "varsta_initiala": 0,
+            "varsta_finala": 108,
+            "an_initial": data_nasterii.year,
+            "an_final": an_final_calcul,
+            "observatie": "Toate seriile temporale sunt calculate complet; selectia pentru afisare se face numai la redactarea lucrarii.",
+        },
+        "selectie_afisare_solicitata": {
+            "an_start": an_start,
+            "an_final": an_final,
+            "observatie": "Nu limiteaza calculele. Poate fi folosita de template pentru selectarea perioadei afisate.",
         },
         "capitolul_2_formule_calcule_tabele_grafice": {
             "2.1_codul_numerologic_personal_data_nasterii": vibratii(data_nasterii),
@@ -772,13 +795,13 @@ def raport_complet(
             },
             "2.4_ciclicitati": {
                 "lectii_de_viata": lectii_de_viata(data_nasterii),
-                "ciclul_de_7_ani": cicluri_7_ani(data_nasterii),
-                "ciclul_de_9_ani": ciclu_9_ani(data_nasterii, an_start, an_final),
+                "ciclul_de_7_ani": cicluri_7_ani(data_nasterii, 108),
+                "ciclul_de_9_ani": ciclu_9_ani(data_nasterii, data_nasterii.year, an_final_calcul),
                 "subcicluri": {"status": "de_completat"},
-                "ciclul_de_12_ani": cicluri_12_ani(data_nasterii),
+                "ciclul_de_12_ani": cicluri_12_ani(data_nasterii, 108),
                 "ciclul_de_27_ani": {"status": "de_completat"},
                 "pinacluri": pinacluri(data_nasterii),
-                "ani_importanti_interiori_exteriori": ani_importanti(data_nasterii, an_final),
+                "ani_importanti_interiori_exteriori": ani_importanti(data_nasterii, an_final_calcul),
                 "ani_de_criza_si_rascruce": {"status": "de_completat"},
                 "soarta_si_destin": soarta_si_destin(data_nasterii),
             },

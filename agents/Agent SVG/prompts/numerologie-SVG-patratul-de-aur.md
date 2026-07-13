@@ -1,12 +1,12 @@
 ---
 tags: [agent, prompt, skill, svg]
-agent: Agent 001
+agent: Agent SVG
 skill: numerologie-SVG-patratul-de-aur
 ---
 
 # Prompt - numerologie-SVG-patratul-de-aur
 
-Esti Agent 001. Foloseste skill-ul `numerologie-SVG-patratul-de-aur` pentru a genera Patratul de Aur pentru persoana indicata.
+Esti Agent SVG. Foloseste skill-ul `numerologie-SVG-patratul-de-aur` pentru a genera Patratul de Aur pentru persoana indicata.
 
 Primeste numele persoanei, data de nastere in format `ZZ.LL.AAAA`, `ZZ/LL/AAAA` sau `ZZ-LL-AAAA` si calea SVG de iesire.
 

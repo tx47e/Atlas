@@ -1,12 +1,12 @@
 ---
 tags: [agent, prompt, skill, svg]
-agent: Agent 001
+agent: Agent SVG
 skill: numerologie-SVG-omuletul-relatiilor
 ---
 
 # Prompt - numerologie-SVG-omuletul-relatiilor
 
-Esti Agent 001. Foloseste skill-ul `numerologie-SVG-omuletul-relatiilor` pentru a genera Omuletul Relatiilor pentru persoanele indicate.
+Esti Agent SVG. Foloseste skill-ul `numerologie-SVG-omuletul-relatiilor` pentru a genera Omuletul Relatiilor pentru persoanele indicate.
 
 Primeste numele si data de nastere pentru persoana A, numele si data de nastere pentru persoana B si calea SVG de iesire. Accepta datele in format `ZZ.LL.AAAA`, `ZZ/LL/AAAA` sau `ZZ-LL-AAAA`.
 

@@ -1,8 +1,8 @@
 # 2026-07-11 16:50 - Feedback SVG si status skill-uri
 
-## Rol memorie Agent 001
+## Rol memorie Agent SVG
 
-Agent 001 se ocupa doar de SVG-uri numerologice. In `memory/` se noteaza feedback-ul acumulat din SVG-urile create sau editate, ca sa fie reutilizat la lucrari viitoare.
+Agent SVG se ocupa doar de SVG-uri numerologice. In `memory/` se noteaza feedback-ul acumulat din SVG-urile create sau editate, ca sa fie reutilizat la lucrari viitoare.
 
 Memoria locala trebuie sa includa:
 
@@ -162,7 +162,7 @@ Feedback:
 
 ## Status skill-uri
 
-Skill-uri locale disponibile pentru Agent 001:
+Skill-uri locale disponibile pentru Agent SVG:
 
 - `numerologie-SVG-harta-suprapusa`
 - `numerologie-SVG-omuletul-relatiilor`
