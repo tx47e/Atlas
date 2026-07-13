@@ -15,6 +15,17 @@ formulare: formal sau conversational
 
 # Lucrare numerologica
 
+Pentru o lucrare finala similara, acest template se completeaza numai in cadrul
+contractului editorial al modelului final Daniel Birsan din skill. Copiaza
+1-la-1 perechea Markdown + HTML si inlocuieste pe campuri doar datele, calculele
+validate, tabelele dependente, arcanele, interpretarile personalizate si
+SVG-urile. Pastreaza paritatea structurala si vizuala, inclusiv ordinea
+descriere-calcul-tabel/figura-interpretare, matricele colorate 4.1/5.7,
+descrierea dinaintea 2.1, ordinea 6.6, lectura ampla 7.1 si structurile 8.1-8.3.
+Completeaza lista de control a modelului; nu livra dupa o substituire mecanica
+fara audit sectiune-cu-sectiune si fara eliminarea formularilor repetitive din
+tabele.
+
 Nota: pentru lucrarile numerologice complete si pentru modificarile de template
 de lucrare, se foloseste ca referinta principala
 `templates/Template_Lucrare_Numerologica_Examen.md`. Acest template ramane o

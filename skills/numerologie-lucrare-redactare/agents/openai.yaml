@@ -1,4 +1,4 @@
 interface:
   display_name: "Redactare lucrari numerologice"
-  short_description: "Redacteaza trei tipuri de lucrari numerologice"
-  default_prompt: "Foloseste $numerologie-lucrare-redactare pentru a selecta tipul potrivit si a redacta in Markdown o lucrare completa de examen, completa narativa sau tematica."
+  short_description: "Reconstruieste editorial lucrari numerologice validate"
+  default_prompt: "Foloseste $numerologie-lucrare-redactare pentru a selecta tipul lucrarii. Pentru o lucrare finala similara, copiaza 1-la-1 modelul Daniel, inlocuieste numai elementele dependente de persoana si finalizeaza auditul de paritate sectiune-cu-sectiune."

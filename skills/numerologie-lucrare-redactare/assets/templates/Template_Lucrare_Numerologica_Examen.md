@@ -14,6 +14,19 @@ status: template de lucru
 Nota de folosire:
 
 - Acesta este un template, nu o lucrare completata.
+- Pentru o lucrare finala din aceeasi familie editoriala, modelul final Daniel
+  Birsan din skill este schema obligatorie. Se copiaza 1-la-1 perechea
+  Markdown + HTML si se completeaza pe campuri; nu se reconstruieste mecanic
+  dintr-o lucrare incompleta.
+- Se pastreaza paritatea structurala si vizuala: capitole, formatare, ordinea
+  descriere-calcul-tabel/figura-interpretare, tabele, chenare, matrice colorate,
+  simboluri, optim, numerotarea casutelor si amploarea interpretarilor.
+- Se aplica integral lista de control a modelului Daniel. Sunt obligatorii:
+  descrierea inainte de 2.1; matricele complete 4.1 si 5.7; ordinea 6.6;
+  interpretarile individuale si nerepetitive din tabele; lectura ampla 7.1;
+  calculele 8.1 pe doua randuri; separarea operatiilor si interpretarilor 8.2,
+  cu rezultatul dupa virgula rosu; calculul explicat, casutele colorate si
+  tabelul subetapelor din 8.3.
 - Pentru lucrarile numerologice complete si pentru orice modificare de template
   de lucrare, acesta este template-ul principal de referinta.
 - Se completeaza campurile dintre acolade.

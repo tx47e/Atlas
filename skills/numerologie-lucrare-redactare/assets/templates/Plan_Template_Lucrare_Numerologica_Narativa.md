@@ -4,6 +4,17 @@
 
 Lucrarea se citeste ca un parcurs despre om, nu ca o lista de calcule. Fiecare informatie numerologica apare o singura data in interpretarea principala, in locul in care raspunde cel mai bine la o intrebare fireasca a cititorului. Formulele, tabelele complete si graficele de lucru se muta in anexa tehnica.
 
+Pentru o lucrare finala similara modelului Daniel Birsan, planul narativ nu
+autorizeaza schimbarea schemei validate. Se copiaza 1-la-1 modelul Markdown +
+HTML si se completeaza pe campuri, pastrand formatarea, capitolele, tabelele,
+matricele colorate cu simboluri/optim/numerotare, chenarele, ordinea interna si
+amploarea interpretarilor. Se verifica explicit descrierea inainte de 2.1,
+ordinea 6.6, interpretarea ampla 7.1, calculele pe doua randuri la 8.1,
+separarea operatiilor la 8.2, evidentierea rosie dupa virgula si structura
+calculului/tabelelor 8.3. Tabelele primesc interpretari individuale, nu texte
+boilerplate repetate. Lista de control a modelului este obligatorie; o
+substituire mecanica fara audit de paritate nu este livrabila.
+
 Firul lucrarii: **cine sunt -> ce simt -> cum ma arat -> ce am de armonizat -> incotro cresc -> cand se activeaza etapele -> cum construiesc relatiile -> ce pot aplica acum**.
 
 ## Formatul de lucru si livrare

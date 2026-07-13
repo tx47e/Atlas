@@ -1,6 +1,6 @@
 ---
 name: numerologie-lucrare-redactare
-description: Redacteaza lucrari numerologice personale complete de examen, complete narative sau tematice in Markdown, folosind calcule validate, template-uri aprobate si livrabile SVG existente. Foloseste cand se creeaza sau se restructureaza o lucrare numerologica, inclusiv capitole despre caracter, evolutie, spirit sau relatie.
+description: Redacteaza sau reconstruieste editorial lucrari numerologice personale complete de examen, complete narative ori tematice, folosind calcule validate, template-uri aprobate si livrabile SVG existente. Pentru lucrari finale similare modelului Daniel Birsan, impune reproducerea 1-la-1 a structurii, formatarii, componentelor si amplorii editoriale, cu inlocuirea exclusiva a datelor dependente de persoana. Foloseste cand se creeaza, se finalizeaza sau se restructureaza o lucrare numerologica.
 ---
 
 # Redactare lucrare numerologica
@@ -8,12 +8,21 @@ description: Redacteaza lucrari numerologice personale complete de examen, compl
 ## Flux
 
 1. Citeste [Harta template-urilor pentru lucrari](references/harta-template-uri-lucrari.md) si selecteaza tipul potrivit: completa de examen, completa narativa sau tematica/restransa.
-2. Citeste integral notele de folosire ale template-ului principal si resursele auxiliare indicate de harta. Consulta si modelul editorial corespunzator starii lucrarii: modelul de revizie pentru sufix `r`, respectiv modelul final pentru sufix `f`. Fiecare model editorial este o pereche Markdown + HTML; pastreaza cele doua formate sincronizate ca structura si continut. Modelele sunt exemple validate si nu inlocuiesc template-ul general selectat. Pentru o lucrare narativa completa, planul narativ conduce lectura, iar template-ul de examen verifica integralitatea tehnica.
-3. Ruleaza sau primeste raportul din `scripts/calculator_numerologic_examen.py`.
-4. Citeste `vault/Numerologie/Registru Validare Formule.md` in regim de citire. Nu redacta interpretarea unei valori marcate `neconforma`, `neimplementata`, `lipsa sursa operationala` sau `blocata`; solicita Agentului Vault validarea necesara.
-5. Subcontracteaza Agentul SVG pentru fiecare grafic si SVG cerut de template. Nu recalcula si nu redesena SVG-uri manual.
-6. Creeaza numai fisierul Markdown. Genereaza HTML doar dupa aprobarea explicita a Markdown-ului.
-7. Foloseste seriile temporale calculate integral de la varsta 0 la 108. Afiseaza in lucrare numai anii si intervalele relevante; nu elimina datele din raportul de calcul.
+2. Citeste integral notele template-ului principal si ambele fisiere Markdown + HTML ale modelului corespunzator starii lucrarii. Pastreaza perechea sincronizata. Pentru o lucrare narativa completa, planul narativ conduce lectura, iar template-ul de examen verifica integralitatea tehnica.
+3. Pentru o lucrare finala similara modelului Daniel Birsan, trateaza sarcina ca reconstructie editoriala cu libertate redusa. Copiaza modelul final 1-la-1 si completeaza [lista de control pentru paritatea editoriala](references/lista-control-model-final-daniel.md). Nu porni de la un document incomplet si nu reconstrui modelul din memorie.
+4. Ruleaza sau primeste raportul din `scripts/calculator_numerologic_examen.py`.
+5. Citeste `vault/Numerologie/Registru Validare Formule.md` in regim de citire. Nu redacta interpretarea unei valori marcate `neconforma`, `neimplementata`, `lipsa sursa operationala` sau `blocata`; solicita Agentului Vault validarea necesara.
+6. Subcontracteaza Agentul SVG pentru fiecare grafic si SVG cerut de template. Nu recalcula si nu redesena SVG-uri manual.
+7. Creeaza numai fisierul Markdown. Genereaza HTML dupa aprobarea explicita a Markdown-ului, exceptand cererea explicita pentru pereche sau HTML.
+8. Foloseste seriile temporale calculate integral de la varsta 0 la 108. Afiseaza in lucrare numai anii si intervalele relevante; nu elimina datele din raportul de calcul.
+
+## Contractul modelului final Daniel
+
+Pentru o lucrare finala similara, pastreaza 1-la-1 structura, cuprinsul, ierarhia, ordinea interna, formatarea, CSS-ul, tabelele, matricele colorate, simbolurile, reperul optim, numerotarea casutelor, chenarele, Tarotul, SVG-urile, tranzitiile si amploarea interpretarilor din model.
+
+Inlocuieste numai datele persoanei si relatiilor, calculele validate, celulele si seriile dependente, arcanele, interpretarile personalizate si SVG-urile validate. Pastreaza ordinea `descriere ampla -> calcul in chenar -> tabel sau figura -> interpretare ampla`.
+
+Nu folosi substituirea mecanica globala drept metoda de redactare. Poate fi doar o operatie auxiliara, urmata obligatoriu de auditul sectiune-cu-sectiune. Nu elimina si nu muta o componenta inaplicabila fara confirmarea explicita a utilizatorului.
 
 ## Structura si stil
 
@@ -44,6 +53,10 @@ capitol din varianta finala.
 
 - Verifica existenta tuturor indexurilor si unicitatea lor.
 - Verifica fiecare calcul fata de raportul validat.
+- Pentru modelul final Daniel, completeaza integral [lista de control de paritate](references/lista-control-model-final-daniel.md). Compara sectiune-cu-sectiune Markdown-ul si HTML-ul; numararea globala a componentelor nu este suficienta.
+- Confirma ordinea componentelor, structura tabelelor, matricele colorate, simbolurile, optimul, numerotarea casutelor si amploarea interpretarilor.
+- Cauta ramasite ale persoanei-model in date, calcule, tabele, texte, atribute HTML, cai, legende si SVG-uri; rezultatul trebuie sa fie zero.
+- Verifica ancorele, resursele, validitatea XML a SVG-urilor, watermark-ul `Atlas Numerologie` si paritatea vizuala.
 - Pentru o varianta `r`, verifica prezenta capitolului de trasabilitate; pentru
   o varianta `f`, verifica absenta indexurilor si a capitolului temporar.
-- Nu genera HTML in aceasta etapa.
+- Opreste livrarea daca auditul de paritate este incomplet sau daca o sectiune a fost simplificata fara aprobarea utilizatorului.

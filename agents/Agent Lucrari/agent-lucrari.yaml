@@ -9,9 +9,9 @@ algorithm_model:
     - "solicita Agentului Vault validarea aprobata a formulelor necesare"
     - "consuma raportul calculatorului si registrul de validare"
     - "blocheaza sectiunile dependente de formule nevalidate"
-    - "selecteaza template-ul si construieste numai Markdown indexat"
+    - "selecteaza template-ul si reconstruieste lucrarea pe scheletul editorial aprobat"
     - "subcontracteaza Agentul SVG pentru toate SVG-urile necesare"
-    - "verifica tonul, indexurile, calculele si continutul obligatoriu"
+    - "verifica sectiune cu sectiune paritatea structurii, formatarii, interpretarilor, tabelelor, matricelor si SVG-urilor"
     - "asteapta aprobarea Markdown-ului inainte de orice HTML"
   priority_order:
     - "formulele confirmate din vault/Numerologie"

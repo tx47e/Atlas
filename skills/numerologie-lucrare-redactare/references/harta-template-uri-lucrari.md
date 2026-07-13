@@ -7,7 +7,7 @@
 | Lucrare tematica sau restransa | [Template_Lucrare_Numerologica.md](../assets/templates/Template_Lucrare_Numerologica.md) | Se foloseste pentru o analiza mai scurta, un set limitat de teme sau capitole individuale. |
 | Lista de control | [Cuprins_Lucrare_Numerologica.md](../assets/templates/Cuprins_Lucrare_Numerologica.md) | Inventar extins pentru alegerea capitolelor si verificarea acoperirii notiunilor. Nu este template de redactare de sine statator. |
 | Model editorial de revizie | [Markdown](../assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.md) · [HTML](../assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.html) | Pereche editoriala `v1.04r`: Markdown-ul conduce continutul, iar HTML-ul arata prezentarea publicata si redarea indexurilor. Sursa istorica nu contine capitolul de trasabilitate; la o revizie noua, adauga-l obligatoriu conform `SKILL.md` si template-ului general. |
-| Model editorial final | [Markdown](../assets/templates/Model_Lucrare_Numerologica_Finala_Daniel_Birsan.md) · [HTML](../assets/templates/Model_Lucrare_Numerologica_Finala_Daniel_Birsan.html) | Pereche validata `v1.05f`: Markdown-ul conduce continutul, iar HTML-ul arata prezentarea finala, fara indexuri si fara capitol de documentatie si trasabilitate. |
+| Model editorial final | [Markdown](../assets/templates/Model_Lucrare_Numerologica_Finala_Daniel_Birsan.md) · [HTML](../assets/templates/Model_Lucrare_Numerologica_Finala_Daniel_Birsan.html) · [lista de control](lista-control-model-final-daniel.md) | Contract editorial validat `v1.05f` pentru lucrari finale similare: reproduce 1-la-1 structura, formatarea, ordinea, componentele si amploarea, apoi inlocuieste exclusiv elementele dependente de persoana. |
 
 ## Regula de selectie
 
@@ -22,8 +22,10 @@
   cere utilizatorului confirmarea tipului inainte de redactare.
 - Dupa selectarea template-ului general, consulta modelul editorial care
   corespunde starii lucrarii. Pentru sufix `r`, urmeaza modelul de revizie;
-  pentru sufix `f`, urmeaza modelul final. Nu folosi modelele ca inlocuitor
-  pentru template-ul general sau pentru notele sale de redactare.
+  pentru sufix `f`, urmeaza modelul final. Pentru lucrari finale similare,
+  modelul Daniel este contract editorial cu libertate redusa si se auditeaza
+  obligatoriu cu lista de control; template-ul general ramane controlul
+  domeniului si al calculelor.
 - Consulta impreuna fisierele Markdown si HTML ale modelului ales si pastreaza
   perechea sincronizata atunci cand modelul este actualizat.
 

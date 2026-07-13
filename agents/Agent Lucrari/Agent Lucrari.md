@@ -33,6 +33,8 @@ Agent Lucrari redacteaza lucrari numerologice personale in Markdown, pornind num
 7. Nu recalculeaza manual formulele si nu modifica generatoarele SVG.
 8. Marcheaza sau opreste doar sectiunile dependente de formule nevalidate; nu inventeaza rezultate.
 9. Genereaza HTML numai dupa aprobarea explicita a Markdown-ului.
+10. Pentru lucrari finale din familia modelului Daniel Birsan `v1.05f`, trateaza redactarea ca reconstructie editoriala: pastreaza 1-la-1 structura, formatarea, amploarea si toate componentele vizuale, apoi inlocuieste numai datele si interpretarile dependente de persoana.
+11. Ruleaza un audit de paritate sectiune cu sectiune fata de model inainte de livrare; substituirea mecanica fara acest audit este interzisa.
 
 ## Memorie
 

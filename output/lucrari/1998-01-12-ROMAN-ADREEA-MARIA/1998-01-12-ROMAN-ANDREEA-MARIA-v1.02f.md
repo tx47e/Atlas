@@ -1,4 +1,4 @@
-﻿# Lucrare numerologica - Roman Andreea Maria - v1.01f
+﻿# Lucrare numerologica - Roman Andreea Maria - v1.02f
 
 ## Date generale
 
@@ -6,7 +6,7 @@
 - Nume familie: Roman
 - Prenume: Andreea Maria
 - Prenume activ folosit in calcul: Andreea
-- Data lucrarii: 2026-07-13
+- Data lucrarii: 2026-07-14
 
 ### Relatii
 
@@ -305,9 +305,9 @@ In viata de zi cu zi, aceasta tema se vede in felul in care iti folosesti sensib
 
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
-**Calcul:** Componentele numelui = 20 -> 2 + 0 = 2
+**Calcul:** ROMAN = 25 -> 7; ANDREEA = 30 -> 3; MARIA = 24 -> 6. Numarul de exprimare = 7 + 3 + 6 = 16 -> 1 + 6 = 7.
 
-Rezultatul 2 pune in centrul exprimarii tale diplomatia, cooperarea si capacitatea de a simti nuantele unei relatii.
+Rezultatul 7 pune in centrul exprimarii tale analiza, discernamantul, intuitia si nevoia de a intelege sensul din spatele experientelor.
 
 La tine, Andreea, aceasta energie poate deveni vizibila atunci cand iti folosesti sensibilitatea in comunicare, colaborare si apropierea de oameni. In forma ei echilibrata, iti ofera claritate si resurse; traita automat, poate crea tensiune sau senzatia ca trebuie sa fortezi lucrurile.
 
@@ -337,9 +337,9 @@ In viata de zi cu zi, aceasta tema se vede in felul in care organizezi, administ
 
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
-**Calcul:** Suma consoanelor = 44 -> 4 + 4 = 8
+**Calcul:** Suma consoanelor = 49 -> 4 + 9 = 13 -> 1 + 3 = 4
 
-Rezultatul 8 sustine capacitatea de organizare, simtul dreptatii si raportarea matura la putere si resurse.
+Rezultatul 4 sustine capacitatea de organizare, disciplina, continuitatea si talentul de a transforma o idee intr-o forma stabila.
 
 La tine, Andreea, aceasta energie poate deveni vizibila atunci cand organizezi, administrezi si urmaresti un rezultat concret. In forma ei echilibrata, iti ofera claritate si resurse; traita automat, poate crea tensiune sau senzatia ca trebuie sa fortezi lucrurile.
 
@@ -353,9 +353,9 @@ In viata de zi cu zi, aceasta tema se vede in felul in care analizezi, observi i
 
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
-**Calcul:** Prenumele activ Andreea = 25 -> 2 + 5 = 7
+**Calcul:** Prenumele activ ANDREEA = 30 -> 3 + 0 = 3
 
-Rezultatul 7 aduce cercetare, intuitie, discernamant si nevoia unui spatiu interior propriu.
+Rezultatul 3 aduce expresie, creativitate, sociabilitate si nevoia de a pune trairile in cuvinte sau forme personale.
 
 La tine, Andreea, aceasta energie poate deveni vizibila atunci cand analizezi, observi in profunzime si cauti sensul din spatele aparentelor. In forma ei echilibrata, iti ofera claritate si resurse; traita automat, poate crea tensiune sau senzatia ca trebuie sa fortezi lucrurile.
 
@@ -393,7 +393,17 @@ La tine, Andreea, aceasta energie poate deveni vizibila atunci cand transformi m
 
 Cheia practica este sa folosesti aceasta energie constient: lasa-i calitatile sa lucreze pentru tine, dar observa momentul in care intensitatea ei devine graba, rigiditate, retragere sau presiune.
 
-### 5.7. Cifre intense si influente subtile ale numelui
+### 5.7. Codul numerologic personal al numelui
+
+Codul numerologic personal al numelui reuneste codul fiecarei litere cu numarul de exprimare. El pastreaza amprenta completa a numelui, nu doar reducerea sa finala, si permite sa vezi cum se distribuie cifrele in identitatea purtata zi de zi.
+
+**Calcul:** ROMAN = R9 + O6 + M4 + A1 + N5 = 25 -> 7; cod ROMAN = 96415. ANDREEA = A1 + N5 + D4 + R9 + E5 + E5 + A1 = 30 -> 3; cod ANDREEA = 1549551. MARIA = M4 + A1 + R9 + I9 + A1 = 24 -> 6; cod MARIA = 41991.
+
+**Calcul:** Codul literelor numelui = 96415154955141991. Codul numerologic personal al numelui = codul literelor + numarul de exprimare = 964151549551419917.
+
+Pentru tine, Andreea, codul arata o identitate in care initiativa lui 1 este cea mai frecventa, dar lucreaza impreuna cu energia practica a lui 4, mobilitatea lui 5 si perspectiva lui 9. Numarul de exprimare 7 inchide codul printr-o invitatie la selectie, profunzime si discernamant: nu ai nevoie sa urmezi toate impulsurile deodata, ci sa alegi ceea ce are sens si poate fi dus pana la capat.
+
+### 5.8. Cifre intense si influente subtile ale numelui
 
 Frecventele numelui arata ce energii sunt chemate cel mai des prin literele identitatii tale.
 
@@ -401,7 +411,7 @@ In viata de zi cu zi, aceasta tema se vede in felul in care iti afirmi identitat
 
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
-**Calcul:** Frecvente in nume: 1 = 5 aparitii; 4 = 3 aparitii; 5 = 3 aparitii; 6 = 1 aparitie; 9 = 4 aparitii -> cifra intensa = 1.
+**Calcul:** Frecvente in nume: 1 = 5 aparitii; 4 = 3 aparitii; 5 = 4 aparitii; 6 = 1 aparitie; 9 = 4 aparitii -> cifra intensa = 1.
 
 Cifra intensa 1 amplifica initiativa, autonomia si nevoia de a avea o directie proprie.
 
@@ -451,23 +461,48 @@ Ciclul de 9 ani descrie ritmul anilor personali. Fiecare an aduce o tema: incepu
 
 Priveste acesti ani ca pe niste capitole succesive. Nu trebuie sa rezolvi totul intr-un singur an; este suficient sa recunosti tema activa si sa faci pasul potrivit ritmului in care te afli.
 
-### 6.3. Ciclul de 7 ani si ciclul de 12 ani
+### 6.3. Ciclurile de 7 ani
 
-Ciclurile de 7 si 12 ani ofera doua ritmuri complementare: maturizarea interioara si repozitionarea in lume.
+Ciclurile de 7 ani arata maturizarea, disciplina si formarea structurii interioare. Fiecare interval are un varf si un punct de verificare; ele nu anunta evenimente obligatorii, ci momente in care o tema cere mai multa constienta.
 
 In viata de zi cu zi, aceasta tema se vede in felul in care intelegi ca schimbarea se construieste in etape, nu intr-un singur moment. Nu este o eticheta si nici un verdict, ci o lentila prin care poti intelege mai bine de ce anumite situatii te atrag, te provoaca sau iti cer mai multa energie.
 
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
-**Calcul:** Ciclul de 7 ani: 0-6 ani; ciclul de 12 ani: 0-11 ani
+![Septagrama pentru Roman Andreea Maria](septagrama-roman-andreea-maria.svg)
 
-Primii pasi se citesc pe intervalele 0-6 si 0-11 ani, apoi ritmurile continua ciclic si se suprapun.
+| Ciclu | Ani calendaristici | Varsta | An de criza | Varf | Citire |
+| --- | --- | --- | ---: | ---: | --- |
+| C1 | 1998-2004 | 0-7 | 2001 | 1 | Formarea autonomiei si a increderii in initiativa proprie. |
+| C2 | 2005-2011 | 7-14 | 2008 | 2 | Relatia, cooperarea si sensibilitatea se cer echilibrate. |
+| C3 | 2012-2018 | 14-21 | 2015 | 3 | Exprimarea si creativitatea cauta o forma personala. |
+| C4 | 2019-2025 | 21-28 | 2022 | 4 | Constructia, ordinea si responsabilitatea devin centrale. |
+| C5 | 2026-2032 | 28-35 | 2029 | 5 | Ciclul activ aduce schimbare, mobilitate si alegerea constienta a directiei. |
+| C6 | 2033-2039 | 35-42 | 2036 | 6 | Grija, familia si responsabilitatea afectiva se maturizeaza. |
+| C7 | 2040-2046 | 42-49 | 2043 | 7 | Analiza, sensul si viata interioara cer aprofundare. |
+
+Andreea, in 2026 intri in C5, intre 28 si 35 de ani. Energia 5 iti cere aer, miscare si adaptare, dar nu imprastiere. Verificarea din 2029 poate aduce intrebarea foarte concreta daca schimbarile tale au o directie sau sunt doar reactii la presiune. Cand pastrezi cateva repere stabile si alegi constient ce merita continuat, libertatea devine resursa.
 
 La tine, Andreea, aceasta energie poate deveni vizibila atunci cand intelegi ca schimbarea se construieste in etape, nu intr-un singur moment. In forma ei echilibrata, iti ofera claritate si resurse; traita automat, poate crea tensiune sau senzatia ca trebuie sa fortezi lucrurile.
 
-Cheia practica este sa folosesti aceasta energie constient: lasa-i calitatile sa lucreze pentru tine, dar observa momentul in care intensitatea ei devine graba, rigiditate, retragere sau presiune.
+Cheia practica este sa lasi schimbarea sa deschida o etapa mai potrivita, fara sa pierzi continuitatea lucrurilor care deja functioneaza.
 
-### 6.4. Pinacluri
+### 6.4. Ciclul de 12 ani
+
+Ciclul de 12 ani descrie repozitionarea in lume si largirea periodica a orizontului. Il citim simbolic drept ritmul oportunitatilor care cresc impreuna cu responsabilitatea de a le sustine.
+
+| Ciclu | Ani calendaristici | Varsta | Tema | Interpretare |
+| --- | --- | --- | --- | --- |
+| C1 | 1998-2009 | 0-12 | Formare primara | Se formeaza baza de incredere, apartenenta si raportare la lume. |
+| C2 | 2010-2021 | 12-24 | Explorare si autonomie | Lumea se largeste prin invatare, relatii si desprinderea treptata de vechile forme. |
+| C3 | 2022-2033 | 24-36 | Constructie si consolidare | Ciclul activ cere sa transformi oportunitatile in proiecte, relatii si alegeri sustenabile. |
+| C4 | 2034-2045 | 36-48 | Expansiune si impact | Experienta acumulata poate primi o forma mai vizibila si mai ampla. |
+| C5 | 2046-2057 | 48-60 | Autoritate si transmitere | Ceea ce ai construit poate deveni ghidaj si contributie pentru ceilalti. |
+| C6 | 2058-2069 | 60-72 | Intelepciune aplicata | Experienta se transforma in sinteza si discernamant. |
+
+La 28 de ani te afli in C3, pe pozitia 5 a ciclului. Aceasta combinatie sustine schimbarea in interiorul unei etape de constructie: poti ajusta directia, dar este important ca miscarea sa faca loc unei forme mai incapatoare de viata, nu doar sa rupa rutina.
+
+### 6.5. Pinacluri
 
 Pinaclurile descriu patru etape mari de crestere. Fiecare aduce o oportunitate, adica o energie pe care o poti construi, si o provocare, adica un mod de reactie care are nevoie de echilibru si maturizare.
 
@@ -484,7 +519,7 @@ Pinaclurile descriu patru etape mari de crestere. Fiecare are o oportunitate si 
 
 Citirea utila nu este „ce mi se va intampla?”, ci „ce calitate pot educa in aceasta etapa?”. In felul acesta, oportunitatea devine actiune, iar provocarea nu mai este obstacol, ci directie de crestere.
 
-### 6.5. Ani importanti interiori si exteriori
+### 6.6. Ani importanti interiori si exteriori
 
 Anii interiori marcheaza schimbari resimtite in constiinta, iar anii exteriori arata momente in care schimbarea devine vizibila in context.
 
@@ -500,7 +535,7 @@ La tine, Andreea, aceasta energie poate deveni vizibila atunci cand alinierea di
 
 Cheia practica este sa folosesti aceasta energie constient: lasa-i calitatile sa lucreze pentru tine, dar observa momentul in care intensitatea ei devine graba, rigiditate, retragere sau presiune.
 
-### 6.6. Soarta si destin
+### 6.7. Soarta si destin
 
 Comparatia Soarta-Destin pune alaturi baza primita si directia spre care se organizeaza implinirea.
 
@@ -508,13 +543,35 @@ In viata de zi cu zi, aceasta tema se vede in felul in care observi unde pornire
 
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
-**Calcul:** Baza de lucru pentru Soarta = 1201; baza de lucru pentru Destinul grafic = 1998
+**Calcul:** Soarta = 1201 x 1998 = 2399598; zona de confort Soarta = (2 + 3 + 9 + 9 + 5 + 9 + 8) / 7 = 45 / 7 = 6,43.
 
-Bazele 1201 si 1998 trebuie citite ca puncte de constructie ale graficului, impreuna cu restul hartii numerologice.
+**Calcul:** Destin grafic = 1211 x 1998 = 2419578; zona de confort Destin = (2 + 4 + 1 + 9 + 5 + 7 + 8) / 7 = 36 / 7 = 5,14.
+
+![Grafic Soarta si Destin pentru Roman Andreea Maria](soarta-si-destin-roman-andreea-maria.svg)
+
+| Varsta | Soarta | Destin | Citire |
+| ---: | ---: | ---: | --- |
+| 0-10 ani | 2 | 2 | Punct de intalnire: sensibilitatea si relatia sustin ambele linii. |
+| 10-20 ani | 3 | 4 | Rascruce intre exprimare si nevoia de structura. |
+| 20-30 ani | 9 | 1 | Rascruce intre perspectiva larga si afirmarea unei directii proprii. |
+| 30-40 ani | 9 | 9 | Punct de intalnire: sensul si maturizarea devin comune. |
+| 40-50 ani | 5 | 5 | Punct de intalnire: schimbarea si libertatea cer alegeri asumate. |
+| 50-60 ani | 9 | 7 | Rascruce intre deschiderea catre ansamblu si aprofundarea interioara. |
+| 60-70 ani | 8 | 8 | Punct de intalnire: resursele si responsabilitatea se integreaza. |
+
+Confortul Sortii este mai ridicat decat confortul Destinului. Asta sugereaza ca ceea ce este familiar si primit poate parea mai usor decat directia care trebuie activata constient. Cresterea apare atunci cand nu ramai doar in ceea ce stii deja sa faci, ci accepti efortul de a-ti construi propria directie.
 
 La tine, Andreea, aceasta energie poate deveni vizibila atunci cand observi unde pornirea si directia se sustin sau cer ajustare. In forma ei echilibrata, iti ofera claritate si resurse; traita automat, poate crea tensiune sau senzatia ca trebuie sa fortezi lucrurile.
 
-Cheia practica este sa folosesti aceasta energie constient: lasa-i calitatile sa lucreze pentru tine, dar observa momentul in care intensitatea ei devine graba, rigiditate, retragere sau presiune.
+Cheia practica este sa privesti rascrucile ca locuri de alegere, nu ca defecte ale traseului. Intalnirile iti arata resursele stabile, iar diferentele iti arata unde ai de pus vointa si discernamant.
+
+### 6.8. Harta suprapusa
+
+Harta suprapusa aduce pe acelasi plan liniile Soarta-Destin, ciclurile de 7, 9 si 12 ani, anii importanti si pinaclurile. Ea te ajuta sa vezi cand mai multe ritmuri sustin aceeasi tema si cand o schimbare interioara cere raspuns concret in exterior.
+
+![Harta suprapusa Soarta-Destin-Ciclicitati pentru Roman Andreea Maria](harta-suprapusa-soarta-destin-roman-andreea-maria.svg)
+
+Andreea, foloseste aceasta harta ca pe o vedere de ansamblu. Ea nu fixeaza evenimente, ci iti arata unde merita sa privesti mai atent felul in care se intalnesc ritmul interior, contextul si alegerile tale.
 
 ## Capitolul 7. Relatii
 
@@ -527,7 +584,9 @@ In viata de zi cu zi, aceasta tema se vede in felul in care va completati, va re
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
 ![Omuletul relatiilor pentru Roman Andreea Maria si Birsan Daniel Robert](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg)
+
 _Omuletul relatiilor pentru Roman Andreea Maria si Birsan Daniel Robert_
+
 **Calcul:** Realizare impreuna: 3 + 1 = 4 -> de rezolvat impreuna: |3 - 1| = 2
 
 Realizarea comuna 4 cere constructie si stabilitate, iar diferenta 2 cere rabdare, cooperare si grija fata de sensibilitatea celuilalt.
@@ -546,9 +605,9 @@ In viata de zi cu zi, aceasta tema se vede in felul in care transformi o provoca
 
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
-**Calcul:** Obstacol = 4; ajutor = 10; directie = 13
+**Calcul:** NU profesional = 1 + 2 + 0 + 1 + 1 + 9 + 9 + 8 = 31 -> 31 - 22 = 9, Arcana Ermitul. DA profesional = luna 1 + suma anului 27 = 28 -> 28 - 22 = 6, Arcana Indragostitii.
 
-Triada 4-10-13 vorbeste despre disciplina ca obstacol de maturizat, adaptare ca ajutor si transformare profunda ca directie.
+Arcana 9 arata ce poate bloca parcursul: retragerea prea lunga, supragandirea sau asteptarea certitudinii perfecte. Arcana 6 arata directia favorabila: alegeri asumate, colaborari potrivite si munca in care valorile personale pot ramane vii.
 
 La tine, Andreea, aceasta energie poate deveni vizibila atunci cand transformi o provocare in resursa si apoi intr-o directie concreta. In forma ei echilibrata, iti ofera claritate si resurse; traita automat, poate crea tensiune sau senzatia ca trebuie sa fortezi lucrurile.
 
@@ -562,9 +621,9 @@ In viata de zi cu zi, aceasta tema se vede in felul in care cauti explicatia din
 
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
-**Calcul:** 12011998 : 7 -> cod principal 7; cod secundar 7
+**Calcul:** Eliminam zerourile calendaristice de completare: 1211998 : 7 = 173142,571428... -> cod principal 5. Apoi 173142 : 7 = 24734,571428... -> cod secundar 5.
 
-Dublul cod 7 accentueaza analiza, profunzimea, discernamantul si nevoia de a nu confunda intuitia cu presupunerea.
+Dublul cod 5 indica ezoterism stiintific, cu directie secundara spre chiromantie. Pentru tine, interesul subtil functioneaza mai bine cand intuitia este insotita de observatie, comparatie si verificare, nu cand ramane doar impresie.
 
 La tine, Andreea, aceasta energie poate deveni vizibila atunci cand cauti explicatia din spatele unui eveniment si verifici intuitia prin observatie. In forma ei echilibrata, iti ofera claritate si resurse; traita automat, poate crea tensiune sau senzatia ca trebuie sa fortezi lucrurile.
 
@@ -572,35 +631,27 @@ Cheia practica este sa folosesti aceasta energie constient: lasa-i calitatile sa
 
 ### 8.3. Codul spiritului si varsta spiritului
 
-Codul spiritului sintetizeaza ziua si luna nasterii intr-o tema profunda de maturizare.
+Codul spiritului aseaza experienta simbolica intr-o zona, o subetapa si o varsta a spiritului. In aceasta metoda, calculul nu este simpla reducere a zilei si lunii, ci urmeaza formula validata pentru codul matricial.
 
 In viata de zi cu zi, aceasta tema se vede in felul in care dai structurii un sens interior si construiesti cu rabdare. Nu este o eticheta si nici un verdict, ci o lentila prin care poti intelege mai bine de ce anumite situatii te atrag, te provoaca sau iti cer mai multa energie.
 
 Calculul aseaza datele intr-o forma simpla si verificabila. Il citim ca punct de pornire, apoi il legam de felul in care traiesti concret aceasta tema.
 
-**Calcul:** Ziua 12 + luna 1 = 13 -> 1 + 3 = 4
+**Calcul:** CM = 55 - 12 - (2 x 1) = 41. Codul 41 se afla in zona Haruri.
 
-Rezultatul 4 arata un spirit care invata prin ordine, responsabilitate, continuitate si lucruri duse pana la capat.
+**Calcul:** Subetapa = ((41 - 1) mod 13) + 1 = (40 mod 13) + 1 = 1 + 1 = 2 -> Interactiune.
 
-La tine, Andreea, aceasta energie poate deveni vizibila atunci cand dai structurii un sens interior si construiesti cu rabdare. In forma ei echilibrata, iti ofera claritate si resurse; traita automat, poate crea tensiune sau senzatia ca trebuie sa fortezi lucrurile.
+**Calcul:** Varsta Spiritului la nastere = (41 - 1) x 189 = 40 x 189 = 7.560 ani. Varsta actuala = 7.560 + 28 = 7.588 ani.
+
+Codul 41 te aseaza simbolic in zona Haruri, unde experienta acumulata cauta sa devina intelepciune, ghidare, intuitie si serviciu. Subetapa 2, Interactiune, spune insa ca harul nu se maturizeaza in izolare: ai de invatat cine esti si ce ai de oferit in raport real cu ceilalti.
+
+La tine, Andreea, maturizarea apare atunci cand sensibilitatea si intuitia capata limbaj, limite si o forma care poate fi impartasita. Nu este nevoie sa demonstrezi ca stii tot; este mai important sa ramai prezenta in dialog, sa asculti si sa lasi experienta sa rafineze ceea ce oferi.
 
 Cheia practica este sa folosesti aceasta energie constient: lasa-i calitatile sa lucreze pentru tine, dar observa momentul in care intensitatea ei devine graba, rigiditate, retragere sau presiune.
 
 ## Capitolul 9. Ajutoare
 
-### 9.1. Semnatura astrala
-
-Semnatura astrala este un instrument grafic si simbolic care aseaza traseul numerologic personal intr-o forma vizuala. Ea nu inlocuieste analiza, ci o sustine si ofera un reper usor de urmarit.
-
-Traseul poate fi privit ca o amprenta energetica: arata ordinea in care valorile tale se cheama una pe alta si locurile prin care energia revine. Repetitia unei legaturi pune accent pe tema respectiva, asa cum o poteca devine mai vizibila de fiecare data cand este parcursa.
-
-![Semnatura astrala pentru Roman Andreea Maria](semnatura-astrala-roman-adreea-maria.svg)
-
-_Semnatura astrala pentru Roman Andreea Maria_
-
-Andreea, foloseste semnatura ca pe o ancora vizuala, nu ca pe un obiect care decide in locul tau. Ea iti poate reaminti directia, dar sensul apare numai atunci cand o legi de alegerile, disciplina si experientele tale reale.
-
-### 9.2. Triunghiul financiar
+### 9.1. Triunghiul financiar
 
 Triunghiul financiar reuneste patru repere ale hartii pentru a arata felul in care energia se poate organiza in jurul resurselor si rezultatelor.
 
@@ -620,7 +671,7 @@ La tine, Andreea, aceasta energie poate deveni vizibila atunci cand pui initiati
 
 Cheia practica este sa folosesti aceasta energie constient: lasa-i calitatile sa lucreze pentru tine, dar observa momentul in care intensitatea ei devine graba, rigiditate, retragere sau presiune.
 
-### 9.3. Patratul de aur
+### 9.2. Patratul de aur
 
 Patratul de Aur este o schema de echilibru care porneste din ziua nasterii si organizeaza valorile intr-o geometrie simbolica.
 

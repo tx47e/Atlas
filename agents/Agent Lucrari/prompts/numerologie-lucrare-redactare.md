@@ -16,6 +16,21 @@ este suficient de clar, cere confirmarea utilizatorului inainte de redactare.
 Pentru lucrarea narativa completa, foloseste planul narativ pentru firul
 editorial si template-ul de examen pentru controlul integralitatii tehnice.
 
+Pentru o lucrare finala din aceeasi familie cu modelul Daniel Birsan `v1.05f`,
+trateaza redactarea ca reconstructie editoriala cu libertate redusa. Copiaza
+1-la-1 scheletul modelului: capitolele, subcapitolele, ordinea paragrafelor,
+formatarea, chenarele, tabelele, matricele, figurile, amploarea interpretarilor
+si succesiunea descriere -> calcul -> tabel/figura -> interpretare. Inlocuieste
+numai datele persoanei, calculele validate, valorile din tabele, arcanele,
+interpretarile personalizate si SVG-urile. Nu porni de la un document mai
+scurt si nu face substituiri globale fara verificare sectiune cu sectiune.
+
+Inainte de livrare, compara modelul si lucrarea tinta pe fiecare titlu. Confirma
+paritatea elementelor editoriale si vizuale, inclusiv matricele colorate cu
+numarul casutei, valoarea, reperul optim si simbolul geometric. Orice abatere
+intentionata se justifica prin datele persoanei sau prin cererea utilizatorului;
+orice alta abatere se corecteaza.
+
 Redacteaza numai Markdown din calcule validate, fara prescurtari neexplicate si
 fara HTML pana la aprobarea explicita a utilizatorului. Pentru o versiune cu
 sufix `r`, indexeaza elementele cu `CAP`, `SUB`, `P`, `C`, `T`, `G` si `L` si
