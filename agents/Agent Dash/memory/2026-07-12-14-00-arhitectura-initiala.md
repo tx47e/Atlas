@@ -1,3 +1,7 @@
+---
+tags: [agent, agent-dash]
+---
+
 # Arhitectura initiala Agent Dash
 
 - `Dashboard/v1/` conserva calculatorul existent si fisierul sau local de persoane.

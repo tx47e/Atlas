@@ -1,4 +1,5 @@
 id: agent-dash
+tags: [agent, agent-dash]
 display_name: "Agent Dash"
 description: "Orchestrator local pentru persoane, lucrari numerologice, livrabile si manifestele Dashboard v2."
 vault_access: "read_only"

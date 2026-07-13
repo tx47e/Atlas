@@ -1,3 +1,7 @@
+---
+tags: [agent, agent-svg]
+---
+
 # 2026-07-11 16:50 - Feedback SVG si status skill-uri
 
 ## Rol memorie Agent SVG

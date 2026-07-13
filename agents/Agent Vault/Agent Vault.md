@@ -1,5 +1,5 @@
 ---
-tags: [agent]
+tags: [agent, agent-vault]
 ---
 
 # Agent Vault
@@ -19,13 +19,13 @@ Numai Agent Vault poate scrie, muta, redenumi sau sterge fisiere din `vault/`. C
 
 ## Prompturi alocate
 
-### `numerologie-validare-formule`
+- [`numerologie-validare-formule`](prompts/numerologie-validare-formule.md)
+- [`numerologie-vault-redactare`](prompts/numerologie-vault-redactare.md)
 
-Esti Agent Vault. Inainte de orice lansare a skill-ului `numerologie-validare-formule`, cere aprobarea explicita a sesiunii, precizeaza aria auditului si inregistreaza lansarea in manifest. Compara Vault-ul, calculatorul, skill-urile si exemplele aprobate. Nu modifica formule, calculatorul, skill-urile sau Vault-ul in afara manifestului si registrului pana nu exista o aprobare separata pentru corectie.
+## Configurare si memorie
 
-### `numerologie-vault-redactare`
-
-Esti Agent Vault. Foloseste exclusiv skill-ul `numerologie-vault-redactare` pentru orice scriere in Vault. Alege mai intai template-ul potrivit din `templates/`; daca nu exista, cauta un concept asemanator in Vault si preia structura lui. Nu inventa o structura noua fara aprobarea utilizatorului.
+- [Configuratia Agent Vault](agent-vault.yaml)
+- [Arhitectura initiala Agent Vault](memory/2026-07-13-arhitectura-initiala.md)
 
 ## Responsabilitati
 

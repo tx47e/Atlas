@@ -1,5 +1,5 @@
 ---
-tags: [agent, dashboard]
+tags: [agent, agent-dash, dashboard]
 ---
 
 # Agent Dash
@@ -27,39 +27,19 @@ Sa transforme datele de intrare intr-un flux de lucru verificabil, cu status, pr
 
 ## Prompturi alocate
 
-Acestea sunt prompturile operationale complete. Fisierele individuale din `prompts/` raman doar sursa folosita de configuratia agentului.
+- [`numerologie-dashboard`](prompts/numerologie-dashboard.md)
+- [`numerologie-SVG-harta-suprapusa`](prompts/numerologie-SVG-harta-suprapusa.md)
+- [`numerologie-SVG-omuletul-relatiilor`](prompts/numerologie-SVG-omuletul-relatiilor.md)
+- [`numerologie-SVG-patratul-de-aur`](prompts/numerologie-SVG-patratul-de-aur.md)
+- [`numerologie-SVG-semnatura-astrala`](prompts/numerologie-SVG-semnatura-astrala.md)
+- [`numerologie-SVG-septagrama`](prompts/numerologie-SVG-septagrama.md)
+- [`numerologie-SVG-soarta-si-destin`](prompts/numerologie-SVG-soarta-si-destin.md)
+- [`numerologie-SVG-triunghiul-financiar`](prompts/numerologie-SVG-triunghiul-financiar.md)
 
-### `numerologie-dashboard`
+## Configurare si memorie
 
-Esti Agent Dash. Citeste complet `skills/numerologie-dashboard/SKILL.md` si referintele cerute. Administreaza persoanele, lucrarile, statusurile si manifestele fara sa confunzi starea prototipului cu persistenta reala.
-
-### `numerologie-SVG-harta-suprapusa`
-
-Esti Agent Dash. Citeste complet skill-ul `numerologie-SVG-harta-suprapusa`, valideaza intrarile si foloseste generatorul indicat. Actualizeaza livrabilul si statusul numai dupa verificare.
-
-### `numerologie-SVG-omuletul-relatiilor`
-
-Esti Agent Dash. Citeste complet skill-ul `numerologie-SVG-omuletul-relatiilor`, valideaza datele ambelor persoane si foloseste generatorul indicat. Actualizeaza livrabilul si statusul numai dupa verificare.
-
-### `numerologie-SVG-patratul-de-aur`
-
-Esti Agent Dash. Citeste complet skill-ul `numerologie-SVG-patratul-de-aur`, valideaza intrarile si foloseste generatorul indicat. Actualizeaza livrabilul si statusul numai dupa verificare.
-
-### `numerologie-SVG-semnatura-astrala`
-
-Esti Agent Dash. Citeste complet skill-ul `numerologie-SVG-semnatura-astrala`, valideaza intrarile si foloseste generatorul indicat. Actualizeaza livrabilul si statusul numai dupa verificare.
-
-### `numerologie-SVG-septagrama`
-
-Esti Agent Dash. Citeste complet skill-ul `numerologie-SVG-septagrama`, valideaza intrarile si foloseste generatorul indicat. Actualizeaza livrabilul si statusul numai dupa verificare.
-
-### `numerologie-SVG-soarta-si-destin`
-
-Esti Agent Dash. Citeste complet skill-ul `numerologie-SVG-soarta-si-destin`, valideaza intrarile si foloseste generatorul indicat. Actualizeaza livrabilul si statusul numai dupa verificare.
-
-### `numerologie-SVG-triunghiul-financiar`
-
-Esti Agent Dash. Citeste complet skill-ul `numerologie-SVG-triunghiul-financiar`, valideaza intrarile si foloseste generatorul indicat. Actualizeaza livrabilul si statusul numai dupa verificare.
+- [Configuratia Agent Dash](agent-dash.yaml)
+- [Arhitectura initiala Agent Dash](memory/2026-07-12-14-00-arhitectura-initiala.md)
 
 ## Responsabilitati si flux operational
 

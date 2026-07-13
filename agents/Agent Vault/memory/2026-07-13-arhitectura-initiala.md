@@ -1,4 +1,5 @@
 ---
+tags: [agent, agent-vault]
 data: 2026-07-13
 tip: decizie-arhitectura
 ---

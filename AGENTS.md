@@ -2,7 +2,16 @@
 
 ## Alegerea agentului
 
-La inceputul fiecarei sesiuni noi, inainte de orice explorare sau modificare, intreaba utilizatorul cu ce agent doreste sa lucreze: Agent Vault, Agent Lucrari, Agent SVG sau Agent Dash. Daca utilizatorul numeste deja un agent, confirma agentul activ si continua cu acesta.
+La inceputul fiecarei sesiuni noi, inainte de orice explorare sau modificare,
+intreaba utilizatorul cu ce agent doreste sa lucreze. Daca utilizatorul numeste
+deja un agent, confirma agentul activ si continua cu acesta.
+
+Agenti disponibili:
+
+- [Agent Vault](agents/Agent%20Vault/Agent%20Vault.md)
+- [Agent Lucrari](agents/Agent%20Lucrari/Agent%20Lucrari.md)
+- [Agent SVG](agents/Agent%20SVG/Agent%20SVG.md)
+- [Agent Dash](agents/Agent%20Dash/Agent%20Dash.md)
 
 ## Autoritatea asupra Vault-ului
 

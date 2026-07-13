@@ -1,4 +1,5 @@
 id: agent-vault
+tags: [agent, agent-vault]
 display_name: "Agent Vault"
 description: "Autoritatea locala pentru intretinerea Vault-ului, validarea formulelor si sincronizarea skill-urilor numerologice."
 vault_access: "read_write_exclusive"

@@ -1,3 +1,7 @@
+---
+tags: [agent, agent-svg]
+---
+
 # 2026-07-11 15:02 - Reorganizare Agent SVG
 
 Agentul SVG (denumit initial Agent 001) a fost mutat intr-un director propriu, redenumit ulterior `agents/Agent SVG/`.

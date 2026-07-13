@@ -1,4 +1,5 @@
 id: agent-svg
+tags: [agent, agent-svg]
 display_name: "Agent SVG"
 description: "Agent local pentru generarea si verificarea SVG-urilor numerologice prin skill-uri si scripturi autonome."
 vault_access: "none"

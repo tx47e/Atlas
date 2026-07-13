@@ -1,4 +1,4 @@
 interface:
   display_name: "Redactare lucrari numerologice"
-  short_description: "Redacteaza lucrari numerologice indexate"
-  default_prompt: "Use $numerologie-lucrare-redactare to redact a numerology work in Markdown."
+  short_description: "Redacteaza trei tipuri de lucrari numerologice"
+  default_prompt: "Foloseste $numerologie-lucrare-redactare pentru a selecta tipul potrivit si a redacta in Markdown o lucrare completa de examen, completa narativa sau tematica."

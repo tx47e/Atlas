@@ -1,5 +1,5 @@
 ---
-tags: [agent, prompt, skill, svg]
+tags: [agent, prompt, skill, svg, agent-svg]
 agent: Agent SVG
 skill: numerologie-SVG-triunghiul-financiar
 ---

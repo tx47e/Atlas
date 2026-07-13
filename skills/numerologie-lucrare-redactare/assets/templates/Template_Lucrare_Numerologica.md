@@ -94,7 +94,8 @@ Vezi: Datele de intrare
 - Cand lucrarea inca trebuie revizuita, fiecare element important poate primi
   un index temporar pentru feedback si urmarire.
 - Indexul este doar pentru revizie; versiunea finala livrata clientului nu
-  trebuie sa contina indexi vizibili.
+  trebuie sa contina indexi vizibili si nici capitolul temporar `Documentatia
+  si trasabilitatea lucrarii`.
 - Denumirea fisierelor foloseste forma `v{versiune}{stare}`: de exemplu
   `v1.00r` pentru versiunea 1.00 in revizie si `v1.00f` pentru versiunea 1.00
   finala. Pentru versiuni urmatoare se folosesc `v1.01r`, `v1.02r`,
@@ -541,3 +542,26 @@ si interpretarea se completeaza cu `-`.
 #### Recomandari practice
 
 #### Model de concluzie finala
+
+---
+## Capitol temporar de revizie. Documentatia si trasabilitatea lucrarii
+
+Acest capitol exista numai in variantele cu sufix `r` si se elimina integral
+din variantele finale cu sufix `f`.
+
+| Element de trasabilitate | Referinta folosita |
+| --- | --- |
+| Agent coordonator | {{agent_coordonator}} |
+| Agenti subcontractati | {{agenti_subcontractati}} |
+| Skill-uri folosite | {{skill_uri_folosite}} |
+| Template principal si resurse auxiliare | {{template_uri_folosite}} |
+| Raportul calculatorului | {{raport_calculator}} |
+| Documente metodologice consultate | {{documentatie_metodologica}} |
+| Registrul de validare si data verificarii | {{registru_validare_si_data}} |
+| SVG-uri integrate si validarea lor | {{svg_uri_si_validare}} |
+| Versiunea si data redactarii | {{versiune_si_data_redactare}} |
+
+---
+## Anexa tehnica
+
+{{anexa_tehnica}}

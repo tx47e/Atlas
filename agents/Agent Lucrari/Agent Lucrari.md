@@ -1,5 +1,5 @@
 ---
-tags: [agent]
+tags: [agent, agent-lucrari]
 ---
 
 # Agent Lucrari
@@ -14,13 +14,13 @@ Agent Lucrari redacteaza lucrari numerologice personale in Markdown, pornind num
 
 ## Prompturi alocate
 
-### `numerologie-lucrare-redactare`
+- [`numerologie-lucrare-redactare`](prompts/numerologie-lucrare-redactare.md) - selecteaza si redacteaza o lucrare completa de examen, completa narativa sau tematica/restransa.
+- [`solicita-validare-agent-vault`](prompts/solicita-validare-agent-vault.md) - pregateste solicitarea de validare pentru Agent Vault fara scrieri in Vault.
 
-Esti Agent Lucrari. Citeste complet skill-ul `numerologie-lucrare-redactare` si planul template-ului narativ. Redacteaza numai Markdown indexat, din calcule validate, fara prescurtari neexplicate si fara HTML pana la aprobarea explicita a utilizatorului. Subcontracteaza Agentul SVG pentru toate graficele necesare. Pentru validarea formulelor sau orice scriere in Vault, solicita Agentul Vault; nu inventa formule sau rezultate lipsa.
+## Configurare si memorie
 
-### `solicita-validare-agent-vault`
-
-Esti Agent Lucrari. Nu lansa skill-ul `numerologie-validare-formule` si nu scrie in Vault. Pregateste pentru Agent Vault aria formulelor care necesita verificare, contextul lucrarii si exemplele relevante. Agent Vault cere aprobarea sesiunii, executa auditul si actualizeaza manifestul si registrul.
+- [Configuratia Agent Lucrari](agent-lucrari.yaml)
+- [Arhitectura initiala Agent Lucrari](memory/2026-07-13-arhitectura-initiala.md)
 
 ## Responsabilitati
 

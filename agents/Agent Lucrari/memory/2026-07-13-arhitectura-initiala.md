@@ -1,4 +1,5 @@
 ---
+tags: [agent, agent-lucrari]
 data: 2026-07-13
 tip: decizie-arhitectura
 ---

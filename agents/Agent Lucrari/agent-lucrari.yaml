@@ -1,4 +1,5 @@
 id: agent-lucrari
+tags: [agent, agent-lucrari]
 display_name: "Agent Lucrari"
 description: "Agent local pentru redactarea orchestrata a lucrarilor numerologice in Markdown."
 algorithm_model:
@@ -38,3 +39,4 @@ memory_policy:
   - "la inceperea unei lucrari similare, consulta notitele relevante inainte de redactare"
 prompts:
   numerologie-lucrare-redactare: "agents/Agent Lucrari/prompts/numerologie-lucrare-redactare.md"
+  solicita-validare-agent-vault: "agents/Agent Lucrari/prompts/solicita-validare-agent-vault.md"
