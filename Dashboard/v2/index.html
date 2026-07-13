@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Atlas Numerologie</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div><span class="eyebrow">AGENT DASH · CENTRU DE COMANDĂ</span><h1>Atlas Numerologie</h1><p>Lucrări, cunoaștere și agenți într-un singur loc</p></div>
+    <div class="topbar-controls">
+      <div class="theme-switcher" role="group" aria-label="Alege tema dashboard-ului">
+        <button class="theme-option active" type="button" data-theme-option="current" aria-pressed="true">Tema actuală</button>
+        <button class="theme-option" type="button" data-theme-option="atlas-variant-2" aria-pressed="false">Atlas Variant 2</button>
+      </div>
+      <div class="top-actions"><a class="btn ghost" href="calculator.html">Deschide calculatorul</a><button class="btn" id="newWorkBtn">Lucrare nouă</button></div>
+    </div>
+  </header>
+  <main>
+    <section class="summary" id="summary"></section>
+    <section class="panel agents-panel">
+      <div class="section-title agents-heading"><div><span class="eyebrow">ECHIPA ATLAS</span><h2>Agenți</h2></div><div class="agent-legend"><span><i class="dot working"></i>Lucrează</span><span><i class="dot idle"></i>Idle</span><span><i class="dot blocked"></i>Blocat</span></div></div>
+      <div class="agent-grid" id="agentGrid"></div>
+    </section>
+    <section class="workspace">
+      <aside class="panel sidebar">
+        <div class="section-title"><div><span class="eyebrow">REGISTRU</span><h2>Lucrări</h2></div><span id="resultCount" class="count"></span></div>
+        <label class="search"><span class="sr-only">Caută</span><input id="searchInput" placeholder="Caută persoană sau lucrare"></label>
+        <div class="filters">
+          <select id="statusFilter" aria-label="Filtrează după status"><option value="">Toate statusurile</option></select>
+          <select id="typeFilter" aria-label="Filtrează după tip"><option value="">Toate tipurile</option></select>
+        </div>
+        <div id="workList" class="work-list"></div>
+      </aside>
+      <section class="panel detail" id="detail"></section>
+    </section>
+  </main>
+  <dialog id="workDialog">
+    <form method="dialog" id="workForm">
+      <div class="dialog-head"><div><span class="eyebrow">PREGĂTIRE</span><h2>Lucrare nouă</h2></div><button class="icon-btn" value="cancel" aria-label="Închide">×</button></div>
+      <div class="form-grid">
+        <label>Nume complet<input name="fullName" required></label>
+        <label>Data nașterii<input name="birthDate" type="date" required></label>
+        <label>Tip lucrare<select name="workType" required><option value="">Alege</option><option>Lucrare completă</option><option>Analiză individuală</option><option>Compatibilitate</option></select></label>
+        <label>Director țintă<input name="targetDirectory" placeholder="output/lucrari/AAAA-LL-ZZ-NUME" required></label>
+      </div>
+      <fieldset><legend>Livrabile solicitate</legend><div id="deliverableChoices" class="checks"></div></fieldset>
+      <p id="formError" class="error" role="alert"></p>
+      <div class="dialog-actions"><button class="btn ghost" value="cancel">Renunță</button><button class="btn" id="startWorkBtn" value="default">Începe lucrarea</button></div>
+    </form>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

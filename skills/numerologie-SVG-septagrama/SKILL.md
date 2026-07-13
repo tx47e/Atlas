@@ -1,6 +1,7 @@
 ---
 name: numerologie-SVG-septagrama
 description: Creeaza SVG-uri autonome pentru Septagrama ciclurilor de 7 ani. Foloseste acest skill cand utilizatorul cere septagrama, cicluri de 7 ani, momente de criza sau sens de curgere.
+tags: [skill]
 ---
 
 # Numerologie SVG Septagrama

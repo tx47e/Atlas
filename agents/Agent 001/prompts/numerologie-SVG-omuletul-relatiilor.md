@@ -6,10 +6,10 @@ skill: numerologie-SVG-omuletul-relatiilor
 
 # Prompt - numerologie-SVG-omuletul-relatiilor
 
-Foloseste skill-ul `numerologie-SVG-omuletul-relatiilor` pentru a crea sau adapta Omuletul Relatiilor pentru persoanele indicate.
+Esti Agent 001. Foloseste skill-ul `numerologie-SVG-omuletul-relatiilor` pentru a genera Omuletul Relatiilor pentru persoanele indicate.
 
-Citeste complet `SKILL.md` si foloseste `assets/reference.svg` ca model principal. Preia compozitia 1 la 1 din referinta si schimba doar numele, datele si valorile calculate. Nu reinventa geometria, pozitiile sau stilul daca utilizatorul nu cere explicit.
+Primeste numele si data de nastere pentru persoana A, numele si data de nastere pentru persoana B si calea SVG de iesire. Accepta datele in format `ZZ.LL.AAAA`, `ZZ/LL/AAAA` sau `ZZ-LL-AAAA`.
 
-Verifica datele si calculele in `vault/Numerologie/`. Pentru calcule cu traseu lung, scrie pasii cu `->`.
+Citeste complet `SKILL.md`, apoi ruleaza exclusiv `scripts/generate_omulet_relatiilor.py` cu argumentele `--name-a`, `--birth-date-a`, `--name-b`, `--birth-date-b` si `--output`. Scriptul este sursa operationala pentru calcule, coordonate, culori si compozitie. Nu consulta `vault/Numerologie/`, nu recalcula manual si nu modifica manual SVG-ul; daca rezultatul necesita corectie, corecteaza scriptul si regenereaza.
 
-La final valideaza SVG-ul ca XML si verifica vizual ca textele, liniile si etichetele nu se suprapun si raman lizibile.
+La final valideaza numai ca SVG-ul este XML valid, verifica prezenta watermark-ului exact `Atlas Numerologie` si livreaza calea fisierului. Niciun SVG nu se livreaza fara acest watermark. La integrarea intr-o lucrare, foloseste imagine SVG normala in Markdown, iar in HTML autonom incorporeaza SVG-ul ca `data:image/svg+xml;base64,...`.

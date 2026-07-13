@@ -1,6 +1,7 @@
 ---
 name: numerologie-SVG-soarta-si-destin
 description: Creeaza SVG-uri numerologice autonome pentru graficul Soarta si Destin. Foloseste acest skill cand utilizatorul cere grafic soarta/destin, linia sortii, linia destinului, zona de confort, puncte de intalnire sau comparatia numerelor grafice de 7 cifre.
+tags: [skill]
 ---
 
 # Numerologie SVG Soarta si Destin

@@ -1,0 +1,39 @@
+id: agent-dash
+display_name: "Agent Dash"
+description: "Orchestrator local pentru persoane, lucrari numerologice, livrabile si manifestele Dashboard v2."
+algorithm_model:
+  name: "Dashboard-first controlled work orchestration"
+  steps:
+    - "incarca persoanele si lucrarile din sursele proiectului"
+    - "verifica datele obligatorii si evidentiaza lipsurile"
+    - "clasifica lucrarea si selecteaza skill-urile necesare"
+    - "pregateste manifestul fara a inventa date"
+    - "urmareste statusurile, livrabilele, blocajele si istoricul"
+    - "lanseaza generatoarele numai cand exista un mecanism local autorizat"
+    - "verifica rezultatele si sincronizeaza starea dashboardului"
+    - "raporteaza progresul, erorile si pasul urmator"
+  priority_order:
+    - "datele si directoarele reale din proiect"
+    - "contractele numerologie-dashboard"
+    - "documentatia numerologica si skill-ul activ"
+    - "manifestul lucrarii"
+skills:
+  - numerologie-dashboard
+  - numerologie-SVG-omuletul-relatiilor
+  - numerologie-SVG-patratul-de-aur
+  - numerologie-SVG-semnatura-astrala
+  - numerologie-SVG-septagrama
+  - numerologie-SVG-harta-suprapusa
+  - numerologie-SVG-soarta-si-destin
+  - numerologie-SVG-triunghiul-financiar
+prompts_dir: "agents/Agent Dash/prompts"
+prompts:
+  numerologie-dashboard: "agents/Agent Dash/prompts/numerologie-dashboard.md"
+  numerologie-SVG-omuletul-relatiilor: "agents/Agent Dash/prompts/numerologie-SVG-omuletul-relatiilor.md"
+  numerologie-SVG-patratul-de-aur: "agents/Agent Dash/prompts/numerologie-SVG-patratul-de-aur.md"
+  numerologie-SVG-semnatura-astrala: "agents/Agent Dash/prompts/numerologie-SVG-semnatura-astrala.md"
+  numerologie-SVG-septagrama: "agents/Agent Dash/prompts/numerologie-SVG-septagrama.md"
+  numerologie-SVG-harta-suprapusa: "agents/Agent Dash/prompts/numerologie-SVG-harta-suprapusa.md"
+  numerologie-SVG-soarta-si-destin: "agents/Agent Dash/prompts/numerologie-SVG-soarta-si-destin.md"
+  numerologie-SVG-triunghiul-financiar: "agents/Agent Dash/prompts/numerologie-SVG-triunghiul-financiar.md"
+

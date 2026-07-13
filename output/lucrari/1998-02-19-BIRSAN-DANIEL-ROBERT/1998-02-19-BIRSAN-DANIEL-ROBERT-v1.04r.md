@@ -35,10 +35,10 @@ Index: BDR-19980219-v1.04r-SUB-003
 #### Vibratia interioara
 
 Index: BDR-19980219-v1.04r-P-001
-Daniel, aici ne uitam la VI, adica vibratia interioara. Ea descrie motorul tau intim: motivatia de baza, instinctul personal, felul in care te simti pe tine cand nu trebuie sa demonstrezi nimic nimanui. Daca ar fi sa folosim o analogie, VI este scanteia din camera interioara: nu se vede mereu din afara, dar ea aprinde decizia, curajul, reactia si directia ta reala.
+Daniel, in tine exista un impuls care se trezeste inainte ca ceilalti sa vada ceva la exterior. Este motivatia ta de baza, felul in care alegi atunci cand nu trebuie sa demonstrezi nimic nimanui. Seamana cu o scanteie discreta: nu se vede mereu, dar de aici pornesc curajul, reactiile si directia ta adevarata.
 
 Index: BDR-19980219-v1.04r-P-002
-Pentru tine, VI raspunde la intrebari simple, dar importante: ce ma porneste, ce ma enerveaza, ce imi da curaj, ce vreau sa aleg singur? Inainte sa vorbim despre destin, relatii sau rezultate, aici vedem energia care apasa prima data pe acceleratie.
+Aceasta parte a ta raspunde la intrebari simple, dar importante: ce te pune in miscare, ce iti da curaj, ce te irita si ce simti ca trebuie sa alegi singur? Inainte de destin, relatii sau rezultate, exista acest prim impuls care iti da pornirea.
 
 Index: BDR-19980219-v1.04r-P-003
 Pentru vibratia interioara reducem ziua ta de nastere la o singura cifra.
@@ -53,16 +53,16 @@ Index: BDR-19980219-v1.04r-P-005
 La tine, Daniel, asta inseamna ca in interior exista o nevoie puternica de autonomie. Ai nevoie sa simti ca alegerea iti apartine. Cand energia 1 este folosita matur, te ajuta sa incepi proiecte, sa te ridici repede dupa blocaje si sa iti spui clar punctul de vedere. Cand este tensionata, poate deveni graba, incapatanare, reactie defensiva sau senzatia ca trebuie sa faci totul singur.
 
 Index: BDR-19980219-v1.04r-P-006
-Pe scurt, VI 1 iti spune asa: "nu astepta mereu permisiune; invata sa pornesti, dar invata si sa conduci fara sa fortezi".
+Mesajul acestei energii este simplu: nu astepta mereu permisiunea de a porni, dar invata sa conduci lucrurile fara sa fortezi oamenii sau imprejurarile.
 
 Index: BDR-19980219-v1.04r-SUB-004
 #### Vibratia exterioara
 
 Index: BDR-19980219-v1.04r-P-007
-Aici ne uitam la VE, adica vibratia exterioara. Daca VI este camera interioara, VE este usa prin care iesi in lume. Ea arata cum te vad ceilalti la primul contact, cum reactionezi in contexte sociale si ce fel de prezenta transmiti cand intri intr-un grup, intr-o conversatie sau intr-o situatie noua.
+Felul in care esti perceput la primul contact poate fi mai bland decat forta pe care o simti in interior. Este partea din tine care iese in lume si se face vazuta in conversatii, in grupuri si in situatii noi.
 
 Index: BDR-19980219-v1.04r-P-008
-VE nu spune neaparat tot ce esti, ci forma prin care energia ta devine vizibila. Este ca ambalajul unei carti: nu contine intreaga poveste, dar creeaza prima impresie si ii invita pe ceilalti sa se apropie intr-un anumit fel.
+Prima impresie nu spune tot ce esti, dar le ofera celorlalti o poarta catre tine. La fel ca coperta unei carti, ea nu contine intreaga poveste, insa poate transmite calm, apropiere si disponibilitate pentru dialog.
 
 Index: BDR-19980219-v1.04r-P-009
 Pentru vibratia exterioara folosim luna nasterii. Luna 2 este deja redusa la o singura cifra.
@@ -77,16 +77,16 @@ Index: BDR-19980219-v1.04r-P-011
 In exterior, Daniel, oamenii pot vedea la tine o parte mai sensibila, diplomata si atenta la nuante. Chiar daca in interior ai motor de 1, in afara poti parea mai calm, mai atent, mai dispus sa asculti sau sa negociezi. Aici apare o combinatie interesanta: inauntru exista initiativa, iar in afara apare filtrul relational.
 
 Index: BDR-19980219-v1.04r-P-012
-VE 2 te ajuta sa simti oamenii, sa prinzi tensiunile subtile, sa observi cand cineva se inchide sau cand o situatie are nevoie de mai multa rabdare. Partea de echilibrat este sa nu transformi diplomatia in amanare si sa nu iti ascunzi decizia doar ca sa nu deranjezi.
+Sensibilitatea lui 2 te ajuta sa simti oamenii, sa surprinzi tensiunile subtile si sa observi cand o situatie are nevoie de mai multa rabdare. Ai grija doar ca diplomatia sa nu se transforme in amanare si sa nu iti ascunzi decizia de teama ca ai putea deranja.
 
 Index: BDR-19980219-v1.04r-SUB-005
 #### Vibratia globala
 
 Index: BDR-19980219-v1.04r-P-013
-Acest punct descrie VG, adica vibratia globala. Ea este sinteza dintre VI si VE: cum se intalneste ce simti in interior cu felul in care apari in exterior. Daca VI este motorul si VE este caroseria, VG este felul in care masina se misca efectiv pe drum.
+Cand vointa ta interioara se intalneste cu sensibilitatea pe care o arati lumii, se contureaza felul tau firesc de a merge prin viata. Initiativa si atentia fata de ceilalti nu sunt doua parti separate, ci doua forte care pot invata sa lucreze impreuna.
 
 Index: BDR-19980219-v1.04r-P-014
-VG ne arata tonul general al personalitatii, energia care apare cand interiorul si exteriorul incep sa lucreze impreuna. Uneori confirma usor celelalte vibratii, alteori arata exact zona prin care trebuie sa te traduci mai bine.
+Din aceasta intalnire se naste tonul general al personalitatii tale. Cand ceea ce simti si ceea ce arati se sustin reciproc, oamenii te inteleg mai usor, iar tu iti poti exprima mai limpede intentiile.
 
 Index: BDR-19980219-v1.04r-P-015
 Pentru vibratia globala adunam vibratia interioara cu vibratia exterioara.
@@ -98,7 +98,7 @@ Index: BDR-19980219-v1.04r-P-016
 Rezultatul este 3. Arhetipurile vibratiei 3 sunt comunicatorul, povestitorul, creatorul, artistul, omul care pune trairea in cuvinte, forma sau gest. Daca 1 porneste si 2 simte, 3 exprima.
 
 Index: BDR-19980219-v1.04r-P-017
-La tine, Daniel, VG 3 arata ca energia ta se echilibreaza prin exprimare. Nu iti ajunge doar sa vrei ceva si nici doar sa simti atmosfera; ai nevoie sa formulezi, sa spui, sa explici, sa creezi o punte prin cuvant sau prin actiune vizibila.
+La tine, Daniel, echilibrul se construieste prin exprimare. Nu iti ajunge doar sa vrei ceva sau sa simti atmosfera; ai nevoie sa formulezi, sa spui, sa explici si sa creezi o punte prin cuvant sau printr-o actiune vizibila.
 
 Index: BDR-19980219-v1.04r-P-018
 Cand nu comunici, energia se poate strange si ceilalti pot intelege gresit ce se intampla in tine. Cand exprimi constient, 3-ul devine un canal foarte bun: te ajuta sa clarifici, sa destinzi tensiuni, sa transmiti idei si sa faci oamenii sa inteleaga mai usor ce vrei.
@@ -107,10 +107,10 @@ Index: BDR-19980219-v1.04r-SUB-006
 #### Vibratia cosmica variabila
 
 Index: BDR-19980219-v1.04r-P-019
-VCV inseamna vibratia cosmica variabila. Ea vine din ultimele doua cifre ale anului de nastere si arata o nuanta mai personala a generatiei tale, o culoare de fundal care se activeaza in felul in care te raportezi la timp, rezultate, maturizare si presiunea de a construi ceva.
+Anul in care te-ai nascut adauga povestii tale o nevoie puternica de a construi ceva concret. Aceasta influenta se simte in felul in care te raportezi la timp, rezultate, maturizare si responsabilitate.
 
 Index: BDR-19980219-v1.04r-P-020
-Daca VI este motorul personal, iar VE este prezenta sociala, VCV seamana cu vremea in care conduci: nu schimba cine esti, dar influenteaza ritmul, tensiunea, prudenta si felul in care iti gestionezi resursele.
+Ea nu schimba cine esti, dar coloreaza drumul pe care mergi. Uneori iti cere ritm si fermitate, alteori prudenta, rabdare si o administrare mai atenta a resurselor tale.
 
 Index: BDR-19980219-v1.04r-P-021
 Pentru vibratia cosmica variabila folosim ultimele doua cifre ale anului tau de nastere.
@@ -122,7 +122,7 @@ Index: BDR-19980219-v1.04r-P-022
 Rezultatul este 8. Arhetipurile vibratiei 8 sunt administratorul, strategul, constructorul de rezultate, omul care invata legea consecintelor, autoritatea matura. 8-ul nu se multumeste doar cu intentii frumoase; el intreaba: ce faci concret, ce organizezi, ce ramane in urma ta?
 
 Index: BDR-19980219-v1.04r-P-023
-Prin VCV 8, Daniel, ai o chemare spre organizare, rezultate si raportare matura la responsabilitate. Aceasta energie te poate ajuta sa gestionezi bani, timp, proiecte, limite si decizii importante. Este o vibratie care cere coloana vertebrala: promisiunile trebuie sustinute prin fapte.
+Energia lui 8 aduce, Daniel, o chemare spre organizare, rezultate si o raportare matura la responsabilitate. Te poate ajuta sa gestionezi bani, timp, proiecte, limite si decizii importante. Ea iti cere coloana vertebrala si te invata ca promisiunile capata greutate atunci cand sunt sustinute prin fapte.
 
 Index: BDR-19980219-v1.04r-P-024
 In forma tensionata, 8-ul poate aduce presiune, control, frica de esec sau raportare prea dura la reusita. De aceea, pentru tine, lectia nu este doar sa obtii rezultate, ci sa inveti sa le construiesti fara sa te rigidizezi.
@@ -131,10 +131,10 @@ Index: BDR-19980219-v1.04r-SUB-007
 #### Vibratia cosmica totala
 
 Index: BDR-19980219-v1.04r-P-025
-VCT inseamna vibratia cosmica totala. Ea vine din anul complet de nastere si descrie amprenta mai larga a contextului in care ai intrat in viata. Nu este doar despre tine ca individ, ci despre fundalul simbolic al anului: ce fel de lectie generala, ce fel de atmosfera si ce fel de chemare mai larga insotesc drumul tau.
+Privit in intregime, anul nasterii descrie atmosfera mai larga in care ai venit pe lume. Este un fundal simbolic care insoteste drumul tau si te indeamna sa cauti sensul mai profund al experientelor prin care treci.
 
 Index: BDR-19980219-v1.04r-P-026
-Ca analogie, VCT este decorul piesei in care joci rolul personal. VI arata personajul din interior, VE arata cum intra pe scena, VG arata cum se misca, iar VCT arata lumina mare a scenei, atmosfera in care toate acestea se intampla.
+Imagineaza-ti aceasta influenta ca pe lumina unei scene: nu hotaraste in locul tau ce rol vei juca, dar da o anumita atmosfera intregii povesti si scoate la vedere lectiile care cer sa fie intelese.
 
 Index: BDR-19980219-v1.04r-P-027
 Pentru vibratia cosmica totala adunam toate cifrele anului complet.
@@ -149,7 +149,7 @@ Index: BDR-19980219-v1.04r-P-029
 Fundalul anului iti aduce vibratia 9, Daniel. Ea te impinge sa privesti mai larg, sa intelegi sensul experientelor si sa nu ramai blocat in detalii marunte. Poti avea o tendinta naturala de a cauta explicatii, de a lega lucrurile intre ele si de a simti ca viata trebuie sa aiba o directie mai profunda decat simpla rutina.
 
 Index: BDR-19980219-v1.04r-P-030
-In forma buna, VCT 9 iti da perspectiva, intuitie larga si capacitatea de a invata din experiente. In forma dificila, poate aduce oboseala, idealism excesiv sau tendinta de a duce prea mult pentru altii. De aceea, aici cheia este discernamantul: sa ajuti fara sa te pierzi si sa cauti sensul fara sa fugi de concret.
+Traita echilibrat, energia lui 9 iti da perspectiva, intuitie si capacitatea de a invata din experiente. Atunci cand devine apasatoare, poate aduce oboseala, idealism excesiv sau tendinta de a duce prea mult pentru altii. Cheia este discernamantul: sa ajuti fara sa te pierzi si sa cauti sensul fara sa fugi de concret.
 
 Index: BDR-19980219-v1.04r-SUB-008
 ### 1.2. Calea destinului, destinul si puntile
@@ -272,7 +272,7 @@ Index: BDR-19980219-v1.04r-SUB-014
 #### Aspecte de indreptat
 
 Index: BDR-19980219-v1.04r-P-060
-Aici ne uitam la o zona pe care tu o poti rafina. Nu vorbim despre vina sau defect, Daniel, ci despre un tipar care are nevoie de mai multa constienta. Imagineaza-ti aceasta zona ca pe un muschi: daca il folosesti impulsiv, poate crea tensiune; daca il antrenezi, devine forta, stabilitate si precizie.
+Exista in tine o zona care poate fi rafinata cu rabdare. Nu vorbim despre vina sau defect, Daniel, ci despre un tipar care are nevoie de mai multa constienta. Imagineaza-ti aceasta parte ca pe un muschi: folosita impulsiv poate crea tensiune, dar antrenata cu rabdare devine forta, stabilitate si precizie.
 
 Index: BDR-19980219-v1.04r-P-061
 Rezultatul acestei rubrici este 37. In el avem 3-ul, care tine de comunicare, expresie, spontaneitate si felul in care dai forma unei idei, si 7-ul, care tine de analiza, profunzime, observatie, introspectie si cautarea unui sens mai adanc. Arhetipic, 37 poate fi vazut ca cercetatorul care trebuie sa invete sa vorbeasca sau ca povestitorul care nu se multumeste cu suprafata lucrurilor.
@@ -1361,7 +1361,7 @@ Index: BDR-19980219-v1.04r-P-218
 Concluzia finala aduna ideile importante intr-o imagine coerenta, ca sa ramai nu doar cu cifre, ci cu o directie pe care o poti recunoaste in viata de zi cu zi.
 
 Index: BDR-19980219-v1.04r-P-219
-VI=1; VE=2; VG=3; Calea destinului=39; Destin=3; Numar de exprimare=6.
+Vibratia interioara este 1, vibratia exterioara este 2, iar energia lor impreuna este 3. Calea destinului este 39, destinul este 3, iar numarul de exprimare este 6.
 
 Index: BDR-19980219-v1.04r-P-220
 Daniel, harta ta pune la aceeasi masa initiativa lui 1, sensibilitatea relationala a lui 2 si vocea creativa a destinului 3. Ai resursele sa pornesti, sa intelegi oamenii si sa exprimi ceea ce conteaza pentru tine. Nu e nevoie sa fii perfect pentru ca aceste energii sa lucreze bine impreuna; e suficient sa le observi, sa le educi cu rabdare si sa transformi repetitiile in deprinderi care te ajuta.

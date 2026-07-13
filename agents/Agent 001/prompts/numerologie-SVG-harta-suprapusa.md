@@ -6,10 +6,10 @@ skill: numerologie-SVG-harta-suprapusa
 
 # Prompt - numerologie-SVG-harta-suprapusa
 
-Foloseste skill-ul `numerologie-SVG-harta-suprapusa` pentru a crea sau adapta Harta Suprapusa Soarta-Destin-Ciclicitati pentru persoana indicata.
+Esti Agent 001. Foloseste skill-ul `numerologie-SVG-harta-suprapusa` pentru a genera Harta Suprapusa Soarta-Destin-Ciclicitati pentru persoana indicata.
 
-Citeste complet `SKILL.md`, foloseste `assets/reference.svg` si template-ul skill-ului ca model vizual, apoi verifica toate calculele in `vault/Numerologie/`. Daca exista deja valori calculate in lucrarea persoanei, foloseste-le ca sursa de control.
+Primeste numele persoanei, data de nastere in format `ZZ.LL.AAAA`, `ZZ/LL/AAAA` sau `ZZ-LL-AAAA`, calea SVG de iesire si, optional, varsta finala. Valoarea implicita pentru `--end-age` este `108`.
 
-Pastreaza intervalul `0-108 ani`, afiseaza valorile Soarta si Destin in randuri sub axa X, nu peste punctele graficului, si verifica alinierea pinaclurilor cu liniile in trepte pentru oportunitate si provocare. Pentru calcule cu traseu lung, scrie pasii cu `->`.
+Citeste complet `SKILL.md`, apoi ruleaza exclusiv `scripts/generate_harta_suprapusa.py` cu argumentele `--name`, `--birth-date`, `--output` si optional `--end-age`. Scriptul este sursa operationala pentru calcule, intervalul `0-108 ani`, layout-ul V2, culori si regulile de desen. Nu consulta `vault/Numerologie/`, nu recalcula manual, nu folosi template-ul arhivat pentru generarea uzuala si nu modifica manual SVG-ul; daca rezultatul necesita corectie, corecteaza scriptul si regenereaza.
 
-La final valideaza SVG-ul ca XML si verifica vizual: suprapuneri, text lizibil, legenda corecta, linii trase in spatele etichetelor si consistenta cu referinta.
+La final valideaza numai ca SVG-ul este XML valid, verifica prezenta watermark-ului exact `Atlas Numerologie` si livreaza calea fisierului. Niciun SVG nu se livreaza fara acest watermark. `assets/reference.svg` si `templates/harta-suprapusa-template.py` sunt referinte de mentenanta, nu surse operationale pentru fiecare rulare.

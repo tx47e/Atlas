@@ -22,10 +22,17 @@
       }
     },
     {
+      "query": "tag:#numerologie  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
       "query": "tag:#tarot",
       "color": {
         "a": 1,
-        "rgb": 1397017
+        "rgb": 270741
       }
     }
   ],
@@ -39,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.18634699893920587,
+  "scale": 0.13291674187666536,
   "close": true
 }

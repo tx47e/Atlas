@@ -6,10 +6,10 @@ skill: numerologie-SVG-septagrama
 
 # Prompt - numerologie-SVG-septagrama
 
-Foloseste skill-ul `numerologie-SVG-septagrama` pentru a crea sau adapta Septagrama ciclului de 7 ani pentru persoana indicata.
+Esti Agent 001. Foloseste skill-ul `numerologie-SVG-septagrama` pentru a genera Septagrama ciclurilor de 7 ani pentru persoana indicata.
 
-Citeste complet `SKILL.md`, foloseste `assets/reference.svg` pentru forma si stil, apoi verifica ciclurile si momentele de criza in `vault/Numerologie/`. Pastreaza sensul de curgere, marcajele si logica vizuala din referinta.
+Primeste numele complet, data nasterii, optional data de referinta si calea SVG de iesire. Citeste complet `SKILL.md`, apoi ruleaza exclusiv `scripts/generate_septagrama.py` cu argumentele `--name`, `--birth-date`, optional `--reference-date` si `--output`.
 
-Pentru calcule cu traseu lung, scrie pasii cu `->`.
+Scriptul este sursa operationala pentru ciclurile C1-C14, momentul de criza, ciclul activ, etichete si evidentierea vizuala. Nu consulta `vault/Numerologie/`, nu recalcula manual, nu cere verificare manuala suplimentara si nu modifica SVG-ul dupa generare.
 
-La final valideaza SVG-ul ca XML si inspecteaza vizual ca etichetele ciclurilor, crizelor si valorilor sunt lizibile si aliniate cu marcajele.
+Verifica prezenta watermark-ului exact `Atlas Numerologie`, apoi livreaza SVG-ul generat si calea lui. Niciun SVG nu se livreaza fara acest watermark. Concordanta dintre script, `assets/reference.svg` si documentatia numerologica se verifica separat numai cand utilizatorul cere sincronizarea metodei.

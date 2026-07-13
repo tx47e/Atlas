@@ -1,0 +1,3143 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas Numerologie</title>
+  <style>
+    :root {
+      --bg: #f7f4ee;
+      --paper: #fffdf8;
+      --ink: #2f2922;
+      --muted: #6f675d;
+      --line: #d9cdbd;
+      --accent: #0f766e;
+      --accent-dark: #0b4f4a;
+      --gold: #b9852d;
+      --soft: #e8f3f1;
+      --warn: #fff4d8;
+      --shadow: 0 16px 42px rgba(47, 41, 34, 0.12);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.45;
+      min-height: 100vh;
+      overflow: auto;
+    }
+
+    .landscape-shell {
+      width: 100%;
+      min-height: 100vh;
+      background: var(--bg);
+      overflow: visible;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(20px, 2.25vw, 34px);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    header p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 980px;
+    }
+
+    main {
+      min-height: 100vh;
+      overflow: visible;
+      padding: clamp(14px, 2vh, 22px) clamp(14px, 2.4vw, 30px) 28px;
+    }
+
+    section {
+      max-width: none;
+      margin: 0 auto 22px;
+    }
+
+    .panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .form-panel {
+      padding: 22px;
+    }
+
+    .atlas-header-panel > .form-panel {
+      width: 100%;
+      margin: 0;
+      border: 0;
+      border-top: 1px solid var(--line);
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .dashboard-panel,
+    .dashboard-panel .dash-card,
+    .dashboard-panel .form-panel {
+      background: #f7efe3;
+    }
+
+    .atlas-header-panel {
+      background: #f7efe3;
+    }
+
+    .atlas-header-panel .toolbar {
+      border-bottom: 0;
+    }
+
+    .collapsible-panel {
+      overflow: hidden;
+    }
+
+    .collapsible-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 18px;
+      background: #f7efe3;
+      cursor: pointer;
+    }
+
+    .collapsible-header h2 {
+      margin: 0;
+    }
+
+    .collapsible-toggle {
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      min-height: 0;
+      padding: 0;
+      border-color: var(--line);
+      background: #fffaf0;
+      color: var(--accent-dark);
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .collapsible-body[hidden] {
+      display: none;
+    }
+
+    .form-panel.is-hidden {
+      display: none;
+    }
+
+    .overlay-chart-panel {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .overlay-chart-stage {
+      width: 100%;
+      overflow-x: auto;
+      padding: 12px;
+      background: #f7efe3;
+    }
+
+    .overlay-chart-stage svg {
+      display: block;
+      width: 100%;
+      min-width: 1280px;
+      height: auto;
+    }
+
+    .overlay-legend-item {
+      cursor: pointer;
+      user-select: none;
+      transition: opacity .15s ease;
+    }
+
+    .overlay-legend-item.is-off {
+      opacity: .36;
+    }
+
+    .overlay-hidden {
+      display: none;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 18px 0 10px;
+      font-size: 16px;
+      color: var(--accent-dark);
+      letter-spacing: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(170px, 1fr));
+      gap: 14px;
+    }
+
+    .person-picker {
+      display: grid;
+      grid-template-columns: auto minmax(220px, 320px) auto auto;
+      align-items: end;
+      gap: 10px;
+      margin: 0;
+    }
+
+    .person-picker label {
+      display: contents;
+    }
+
+    .person-picker label > span {
+      align-self: center;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .person-picker button {
+      min-height: 42px;
+      margin-bottom: 0;
+    }
+
+    .dashboard-person-tools {
+      display: grid;
+      align-items: center;
+      gap: 6px;
+      margin-left: auto;
+    }
+
+    .person-status {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      min-height: 16px;
+      text-align: center;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      padding: 10px 11px;
+      min-height: 42px;
+    }
+
+    textarea {
+      min-height: 84px;
+      resize: vertical;
+    }
+
+    .form-panel input,
+    .form-panel select,
+    .form-panel textarea {
+      background: #fffaf0;
+      border-color: #b9aa96;
+    }
+
+    .partner-toggle-row {
+      margin-top: 14px;
+    }
+
+    .partner-fields {
+      margin-top: 12px;
+    }
+
+    .partner-fields.is-hidden {
+      display: none;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    button {
+      border: 1px solid transparent;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-weight: 800;
+      cursor: pointer;
+      background: var(--accent);
+      color: #fff;
+    }
+
+    button.secondary {
+      background: #fff;
+      color: var(--accent-dark);
+      border-color: var(--line);
+    }
+
+    .segmented {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #f5efe4;
+    }
+
+    .segmented button {
+      background: transparent;
+      color: var(--muted);
+      border: 0;
+      padding: 5px 8px;
+      border-radius: 6px;
+      font-size: 11px;
+      line-height: 1;
+    }
+
+    .segmented button.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .control-stack {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 6px;
+    }
+
+    .control-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .control-group > span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .wellbeing-card .card-title-row {
+      align-items: center;
+      flex-wrap: nowrap;
+      gap: 8px;
+    }
+
+    .wellbeing-card h2 {
+      flex: 0 0 auto;
+      margin: 0;
+      white-space: nowrap;
+      font-size: 15px;
+    }
+
+    .wellbeing-controls {
+      flex: 1 1 auto;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      gap: 3px;
+      min-width: 0;
+    }
+
+    .wellbeing-controls .control-group {
+      gap: 3px;
+    }
+
+    .wellbeing-controls .control-group > span {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+    }
+
+    .wellbeing-controls .segmented {
+      gap: 2px;
+      padding: 2px;
+      border-radius: 6px;
+    }
+
+    .wellbeing-controls button {
+      width: 20px;
+      height: 20px;
+      min-height: 0;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      border-radius: 5px;
+    }
+
+    .filter-icon {
+      position: relative;
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+    }
+
+    .icon-bars {
+      display: grid;
+      align-items: end;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+    }
+
+    .icon-bars i {
+      display: block;
+      width: 3px;
+      border-radius: 2px;
+      background: currentColor;
+    }
+
+    .icon-bars i:nth-child(1) { height: 6px; }
+    .icon-bars i:nth-child(2) { height: 10px; }
+    .icon-bars i:nth-child(3) { height: 8px; }
+
+    .icon-pyramid::before {
+      content: "";
+      position: absolute;
+      left: 1px;
+      top: 1px;
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 11px solid currentColor;
+    }
+
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 3px);
+      grid-template-rows: repeat(3, 3px);
+      gap: 2px;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .icon-grid i,
+    .icon-dots i {
+      display: block;
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    .icon-desc::before,
+    .icon-desc::after {
+      content: "";
+      position: absolute;
+      left: 2px;
+      background: currentColor;
+      border-radius: 2px;
+    }
+
+    .icon-desc::before {
+      top: 2px;
+      width: 10px;
+      height: 3px;
+    }
+
+    .icon-desc::after {
+      top: 8px;
+      width: 6px;
+      height: 3px;
+    }
+
+    .icon-dots {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+    }
+
+    .icon-sum::before,
+    .icon-sum::after {
+      content: "";
+      position: absolute;
+      left: 2px;
+      width: 9px;
+      height: 2px;
+      border-radius: 2px;
+      background: currentColor;
+    }
+
+    .icon-sum::before {
+      top: 3px;
+      transform: rotate(28deg);
+    }
+
+    .icon-sum::after {
+      top: 8px;
+      transform: rotate(-28deg);
+    }
+
+    .icon-all::before,
+    .icon-all::after {
+      content: "";
+      position: absolute;
+      border-radius: 2px;
+      background: currentColor;
+    }
+
+    .icon-all::before {
+      left: 1px;
+      top: 2px;
+      width: 5px;
+      height: 9px;
+      opacity: 0.85;
+    }
+
+    .icon-all::after {
+      right: 1px;
+      top: 4px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+    }
+
+    .icon-vector::before,
+    .icon-vector::after {
+      content: "";
+      position: absolute;
+      background: currentColor;
+    }
+
+    .icon-vector::before {
+      left: 1px;
+      top: 6px;
+      width: 11px;
+      height: 2px;
+      transform: rotate(-28deg);
+      border-radius: 2px;
+    }
+
+    .icon-vector::after {
+      right: 1px;
+      top: 2px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      box-shadow: -9px 5px 0 currentColor;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(120px, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .metric {
+      background: var(--soft);
+      border: 1px solid #c5dfdc;
+      border-radius: 8px;
+      padding: 10px;
+      min-height: 74px;
+    }
+
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .metric strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 24px;
+      color: var(--accent-dark);
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .toolbar input {
+      max-width: 360px;
+      min-height: 38px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      overflow-y: visible;
+      max-height: none;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      min-width: 1280px;
+    }
+
+    th,
+    td {
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      padding: 10px;
+      font-size: 13px;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: #efe6d8;
+      color: var(--ink);
+      text-align: left;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    tr.group-row td {
+      background: var(--accent-dark);
+      color: #fff;
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    td:first-child,
+    th:first-child {
+      border-left: 1px solid var(--line);
+    }
+
+    tr:first-child th {
+      border-top: 1px solid var(--line);
+    }
+
+    .concept {
+      font-weight: 800;
+      color: var(--accent-dark);
+      min-width: 220px;
+    }
+
+    .calc {
+      min-width: 300px;
+    }
+
+    .result {
+      background: #fbf7ed;
+      min-width: 180px;
+      font-weight: 800;
+    }
+
+    .editable {
+      min-width: 260px;
+      background: #fff;
+    }
+
+    .editable textarea {
+      min-height: 68px;
+      border-color: #eadfce;
+      background: #fffdf9;
+      font-size: 13px;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .manual {
+      display: inline-block;
+      background: var(--warn);
+      color: #7c5615;
+      border: 1px solid #ebd59d;
+      border-radius: 999px;
+      padding: 2px 8px;
+      font-size: 11px;
+      font-weight: 800;
+      margin-top: 4px;
+    }
+
+    .matrix {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      aspect-ratio: 1 / 1;
+      width: 210px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .matrix div {
+      position: relative;
+      aspect-ratio: 1 / 1;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 7px;
+      font-weight: 800;
+      text-align: center;
+      display: grid;
+      place-items: center;
+    }
+
+    .matrix-value {
+      position: relative;
+      z-index: 1;
+    }
+
+    .matrix-optimal {
+      position: absolute;
+      left: 6px;
+      top: 5px;
+      z-index: 2;
+      color: currentColor;
+      opacity: 0.72;
+      font-size: 11px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: 0;
+      pointer-events: none;
+    }
+
+    .shape-marker {
+      position: absolute;
+      right: 6px;
+      bottom: 6px;
+      width: 16px;
+      height: 16px;
+      color: currentColor;
+      opacity: 0.88;
+      pointer-events: none;
+    }
+
+    .shape-marker.shape-1::before,
+    .shape-marker.shape-2::before,
+    .shape-marker.shape-2::after {
+      content: "";
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      border: 1.5px solid currentColor;
+      border-radius: 50%;
+      background: transparent;
+    }
+
+    .shape-marker.shape-1::before {
+      right: 3px;
+      bottom: 3px;
+    }
+
+    .shape-marker.shape-2::before {
+      left: 0;
+      top: 4px;
+      width: 6px;
+      height: 6px;
+    }
+
+    .shape-marker.shape-2::after {
+      right: 0;
+      top: 4px;
+      width: 6px;
+      height: 6px;
+    }
+
+    .shape-marker.shape-2 {
+      width: 22px;
+      right: 4px;
+    }
+
+    .shape-marker.shape-2 i {
+      position: absolute;
+      left: 8px;
+      top: 8px;
+      width: 6px;
+      height: 1.5px;
+      background: currentColor;
+      transform: rotate(0deg);
+      transform-origin: center;
+    }
+
+    .shape-marker.shape-3 {
+      width: 0;
+      height: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-bottom: 13px solid currentColor;
+      background: transparent;
+    }
+
+    .shape-marker.shape-4 {
+      width: 12px;
+      height: 12px;
+      border: 1.5px solid currentColor;
+      background: transparent;
+    }
+
+    .shape-marker.shape-many {
+      width: 12px;
+      height: 12px;
+      border: 1.5px double currentColor;
+      background: transparent;
+    }
+
+    .matrix div:nth-child(3n) {
+      border-right: 0;
+    }
+
+    .matrix div:nth-last-child(-n + 3) {
+      border-bottom: 0;
+    }
+
+    .dashboard {
+      display: grid;
+      grid-template-columns: minmax(300px, 0.95fr) minmax(320px, 1.2fr) minmax(300px, 1fr);
+      gap: 16px;
+      padding: 18px;
+    }
+
+    .dash-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      min-height: 250px;
+    }
+
+    .dash-card h2 {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    .mini-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+
+    .mini {
+      background: #f5efe4;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      min-height: 72px;
+    }
+
+    .mini span {
+      display: block;
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .mini strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 24px;
+      color: var(--accent-dark);
+    }
+
+    .calculation-list {
+      display: grid;
+      gap: 7px;
+      max-height: min(58vh, 610px);
+      overflow: auto;
+      padding-right: 2px;
+    }
+
+    .calculation-group {
+      margin-top: 4px;
+      color: var(--accent-dark);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .calculation-item {
+      display: grid;
+      grid-template-columns: 18px minmax(0, 1fr);
+      gap: 8px;
+      align-items: start;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(217, 205, 189, 0.72);
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    .calculation-index {
+      color: var(--muted);
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .calculation-name {
+      min-width: 0;
+      color: var(--ink);
+    }
+
+    .calculation-value {
+      margin-top: 3px;
+      color: var(--muted);
+      font-weight: 400;
+      overflow-wrap: anywhere;
+    }
+
+    .bars {
+      display: grid;
+      gap: 9px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 150px 1fr 42px;
+      gap: 10px;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .wellbeing-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-width: 0;
+      max-width: 100%;
+      font: inherit;
+      line-height: 1.1;
+      white-space: nowrap;
+    }
+
+    .wellbeing-label.vector-label {
+      color: var(--accent-dark);
+    }
+
+    .element-dot {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      flex: 0 0 auto;
+      border-radius: 50%;
+      border: 1px solid currentColor;
+    }
+
+    .element-dot.element-foc {
+      background: #e45745;
+      border-color: #a7332a;
+    }
+
+    .element-dot.element-pamant {
+      background: #9a6a43;
+      border-color: #684226;
+    }
+
+    .element-dot.element-apa {
+      background: #2878c7;
+      border-color: #18528f;
+    }
+
+    .element-dot.element-aer {
+      background: #a9bdcc;
+      border-color: #6f8798;
+    }
+
+    .wellbeing-legend {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 7px 10px;
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .wellbeing-legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .bar-track {
+      height: 12px;
+      background: #eee3d2;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--gold));
+      border-radius: 999px;
+    }
+
+    .matrix-elements {
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+
+    .matrix-elements .card-title-row h3 {
+      margin: 0;
+    }
+
+    .elements-temperament {
+      flex: 1 1 auto;
+      min-width: 0;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+      line-height: 1.35;
+      text-align: center;
+      overflow-wrap: anywhere;
+    }
+
+    .matrix-elements .elements-controls {
+      flex: 0 0 auto;
+    }
+
+    .matrix-elements .bars {
+      margin-top: 10px;
+    }
+
+    .element-bar-fill {
+      height: 100%;
+      border-radius: 999px;
+    }
+
+    .element-bar-fill.element-foc { background: #e45745; }
+    .element-bar-fill.element-pamant { background: #9a6a43; }
+    .element-bar-fill.element-apa { background: #2878c7; }
+    .element-bar-fill.element-aer { background: #a9bdcc; }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .pyramid {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      padding: 0;
+    }
+
+    .pyramid-level {
+      display: grid;
+      grid-template-columns: 150px 1fr 42px;
+      gap: 10px;
+      align-items: center;
+      min-height: 12px;
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .pyramid-track {
+      position: relative;
+      height: 12px;
+      background: #eee3d2;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .pyramid-fill {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--gold));
+      border-radius: 999px;
+    }
+
+    .card-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .card-title-row h2 {
+      margin: 0;
+    }
+
+    .period {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      background: #fbf7ed;
+      min-height: 96px;
+    }
+
+    .period span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .period strong {
+      display: block;
+      margin: 4px 0;
+      color: var(--accent-dark);
+    }
+
+    .matrix-large {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .matrix-large div {
+      font-size: 18px;
+    }
+
+    .matrix-compare {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      align-items: start;
+    }
+
+    .matrix-block {
+      min-width: 0;
+    }
+
+    .matrix-block h3 {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    .matrix-code {
+      margin: -4px 0 8px;
+      color: var(--accent-dark);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .matrix-block .legend {
+      margin-top: 10px;
+    }
+
+    .matrix div.element-foc {
+      background: #e45745;
+      border-color: #a7332a;
+      color: #fff7f4;
+    }
+
+    .matrix div.element-pamant {
+      background: #9a6a43;
+      border-color: #684226;
+      color: #fff8ed;
+    }
+
+    .matrix div.element-apa {
+      background: #2878c7;
+      border-color: #18528f;
+      color: #f4fbff;
+    }
+
+    .matrix div.element-aer {
+      background: #a9bdcc;
+      border-color: #6f8798;
+      color: #1f313d;
+    }
+
+    .matrix div.element-gol {
+      background: #fffdf8;
+      color: #9a9186;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 7px 10px;
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    @media (max-width: 980px) {
+      body {
+        overflow: auto;
+        display: block;
+      }
+
+      .landscape-shell {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        aspect-ratio: auto;
+        border: 0;
+      }
+
+      header {
+        position: static;
+      }
+
+      .grid,
+      .summary {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .dashboard {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 620px) {
+      .grid,
+      .summary {
+        grid-template-columns: 1fr;
+      }
+
+      .mini-grid,
+      .timeline {
+        grid-template-columns: 1fr;
+      }
+
+      .toolbar {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .dashboard-person-tools {
+        margin-left: 0;
+      }
+
+      .person-picker {
+        grid-template-columns: auto 1fr;
+      }
+
+      .person-picker button {
+        grid-column: span 1;
+      }
+
+      .toolbar input {
+        max-width: none;
+      }
+    }
+
+    @media print {
+      body {
+        display: block;
+        overflow: visible;
+      }
+
+      .landscape-shell {
+        width: auto;
+        height: auto;
+        aspect-ratio: auto;
+        border: 0;
+        box-shadow: none;
+        overflow: visible;
+      }
+
+      main {
+        overflow: visible;
+      }
+
+      header {
+        position: static;
+      }
+
+      .actions,
+      .toolbar input,
+      .no-print {
+        display: none;
+      }
+
+      .table-wrap {
+        max-height: none;
+        overflow: visible;
+      }
+
+      table {
+        min-width: 0;
+      }
+
+      textarea,
+      input,
+      select {
+        border: 0;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="landscape-shell">
+  <main>
+    <section class="panel atlas-header-panel">
+      <div class="toolbar">
+        <div>
+          <h2 style="margin:0">Atlas Numerologie</h2>
+          <div class="hint">Destinul se citește în cifre, dar se împlinește prin alegeri.</div>
+        </div>
+        <div class="dashboard-person-tools">
+          <div class="person-picker">
+            <label><span>Persoană salvată</span>
+              <select id="personSelect">
+                <option value="">Se încarcă lista...</option>
+              </select>
+            </label>
+            <button id="loadPersonBtn" class="secondary" type="button">Încarcă</button>
+            <button id="newPersonBtn" class="secondary" type="button">Persoană nouă</button>
+          </div>
+          <div class="person-status" id="personStatus"></div>
+        </div>
+      </div>
+      <section class="form-panel is-hidden" id="inputPanel">
+        <h2>Date de intrare</h2>
+        <form id="inputForm">
+          <div class="grid">
+            <label>Nume complet<input id="fullName" value="Test Exemplu" autocomplete="name"></label>
+            <label>Prenume activ<input id="activeName" value="Exemplu"></label>
+            <label>Nume de familie / neam<input id="familyName" value="Test"></label>
+            <label>Data nașterii<input id="birthDate" type="date" value="2000-01-01"></label>
+            <label>Gen<select id="gender"><option value="masculin">Masculin</option><option value="feminin">Feminin</option></select></label>
+            <label>An de referință<input id="referenceYear" type="number" value="2026" min="1900" max="2200"></label>
+            <label>Interval ani pentru tabele<input id="yearLimit" type="number" value="108" min="12" max="144"></label>
+          </div>
+          <div class="partner-toggle-row"><button id="partnerToggle" class="secondary" type="button" aria-expanded="false">Partener opțional</button></div>
+          <div class="grid partner-fields is-hidden" id="partnerFields">
+            <label>Nume complet partener<input id="partnerName" placeholder="Nume complet"></label>
+            <label>Data nașterii partener<input id="partnerBirthDate" type="date"></label>
+            <label>Tip relație<select id="partnerRelationship"><option value="iubit/a">Iubit/a</option><option value="sot/sotie">Soț/soție</option><option value="partener">Partener</option></select></label>
+          </div>
+          <h3>Note de lucru</h3>
+          <textarea id="workNotes" placeholder="Tema principală, întrebări, observații biografice, surse pentru evenimente importante."></textarea>
+          <div class="actions"><button id="calculateBtn" type="submit">Submit</button><button id="cancelInputBtn" class="secondary" type="button">Renunță</button></div>
+        </form>
+      </section>
+    </section>
+
+    <section class="panel dashboard-panel collapsible-panel">
+      <div class="collapsible-header" id="calculationsHeader">
+        <button id="calculationsToggle" class="collapsible-toggle" type="button" aria-label="Închide calculele" aria-expanded="true">-</button>
+        <h2>Calcule</h2>
+      </div>
+      <div class="collapsible-body" id="calculationsBody">
+      <div class="dashboard">
+        <!-- Formular mutat in panoul Atlas Numerologie.
+        <section class="panel form-panel is-hidden" id="inputPanel">
+          <h2>Date de intrare</h2>
+          <form id="inputForm">
+          <div class="grid">
+            <label>Nume complet
+              <input id="fullName" value="Test Exemplu" autocomplete="name">
+            </label>
+            <label>Prenume activ
+              <input id="activeName" value="Exemplu">
+            </label>
+            <label>Nume de familie / neam
+              <input id="familyName" value="Test">
+            </label>
+            <label>Data nașterii
+              <input id="birthDate" type="date" value="2000-01-01">
+            </label>
+            <label>Gen
+              <select id="gender">
+                <option value="masculin">Masculin</option>
+                <option value="feminin">Feminin</option>
+              </select>
+            </label>
+            <label>An de referință
+              <input id="referenceYear" type="number" value="2026" min="1900" max="2200">
+            </label>
+            <label>Interval ani pentru tabele
+              <input id="yearLimit" type="number" value="108" min="12" max="144">
+            </label>
+          </div>
+
+          <div class="partner-toggle-row">
+            <button id="partnerToggle" class="secondary" type="button" aria-expanded="false">Partener opțional</button>
+          </div>
+          <div class="grid partner-fields is-hidden" id="partnerFields">
+            <label>Nume complet partener
+              <input id="partnerName" placeholder="Nume complet">
+            </label>
+            <label>Data nașterii partener
+              <input id="partnerBirthDate" type="date">
+            </label>
+            <label>Tip relație
+              <select id="partnerRelationship">
+                <option value="iubit/a">Iubit/a</option>
+                <option value="sot/sotie">Soț/soție</option>
+                <option value="partener">Partener</option>
+              </select>
+            </label>
+          </div>
+
+          <h3>Note de lucru</h3>
+          <textarea id="workNotes" placeholder="Tema principala, intrebari, observatii biografice, surse pentru evenimente importante."></textarea>
+
+          <div class="actions">
+            <button id="calculateBtn" type="submit">Submit</button>
+            <button id="cancelInputBtn" class="secondary" type="button">Renunță</button>
+          </div>
+          </form>
+
+        </section>
+
+        -->
+        <div class="dash-card wellbeing-card">
+          <div class="card-title-row">
+            <h2>Scara bunăstării</h2>
+            <div class="control-stack wellbeing-controls" aria-label="Opțiuni scara bunăstării">
+              <div class="control-group">
+                <span>Vizual</span>
+                <div class="segmented">
+                  <button type="button" id="wellbeingBarsMode" class="active" aria-label="Bare" title="Bare"><span class="filter-icon icon-bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
+                  <button type="button" id="wellbeingPyramidMode" aria-label="Piramidă" title="Piramidă"><span class="filter-icon icon-pyramid" aria-hidden="true"></span></button>
+                </div>
+              </div>
+              <div class="control-group">
+                <span>Continut</span>
+                <div class="segmented">
+                  <button type="button" id="wellbeingAllMode" class="active" aria-label="Toate" title="Toate"><span class="filter-icon icon-all" aria-hidden="true"></span></button>
+                  <button type="button" id="wellbeingBoxesOnlyMode" aria-label="Doar căsuțe" title="Doar căsuțe"><span class="filter-icon icon-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
+                  <button type="button" id="wellbeingVectorsOnlyMode" aria-label="Doar vectori" title="Doar vectori"><span class="filter-icon icon-vector" aria-hidden="true"></span></button>
+                </div>
+              </div>
+              <div class="control-group">
+                <span>Sortare</span>
+                <div class="segmented">
+                  <button type="button" id="wellbeingCodeMode" aria-label="Sortare implicită" title="Sortare implicită"><span class="filter-icon icon-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
+                  <button type="button" id="wellbeingValueSortMode" class="active" aria-label="Sortare după valoare" title="Sortare după valoare"><span class="filter-icon icon-desc" aria-hidden="true"></span></button>
+                </div>
+              </div>
+              <div class="control-group">
+                <span>Măsură</span>
+                <div class="segmented">
+                  <button type="button" id="wellbeingQuantityMeasureMode" aria-label="Cantitate" title="Cantitate"><span class="filter-icon icon-dots" aria-hidden="true"><i></i><i></i><i></i></span></button>
+                  <button type="button" id="wellbeingValueMeasureMode" class="active" aria-label="Valoare" title="Valoare"><span class="filter-icon icon-sum" aria-hidden="true"></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="wellbeingVisual"></div>
+        </div>
+
+        <div class="dash-card matrix-compare-card">
+          <h2>Matrici comparate</h2>
+          <div id="dashboardMatrix"></div>
+          <div class="matrix-elements">
+            <div class="card-title-row">
+              <h3>Elemente</h3>
+              <span class="elements-temperament" id="elementsTemperament"></span>
+              <div class="control-stack wellbeing-controls elements-controls" aria-label="Optiuni elemente">
+                <div class="control-group">
+                  <span>Matrice</span>
+                  <div class="segmented">
+                    <button type="button" id="elementsBirthMatrixMode" class="active" aria-label="Matricea datei de naștere" title="Matricea datei de naștere"><span class="filter-icon icon-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
+                    <button type="button" id="elementsNameMatrixMode" aria-label="Matricea numelui" title="Matricea numelui"><span class="filter-icon icon-vector" aria-hidden="true"></span></button>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <span>Sortare</span>
+                  <div class="segmented">
+                    <button type="button" id="elementsOrderMode" class="active" aria-label="Sortare după element" title="Sortare după element"><span class="filter-icon icon-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
+                    <button type="button" id="elementsQuantityMode" aria-label="Sortare după valoare" title="Sortare după valoare"><span class="filter-icon icon-desc" aria-hidden="true"></span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bars" id="elementsBars"></div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <section class="panel overlay-chart-panel collapsible-panel">
+      <div class="collapsible-header" id="cyclesHeader">
+        <button id="cyclesToggle" class="collapsible-toggle" type="button" aria-label="Închide ciclicitățile" aria-expanded="true">-</button>
+        <h2>Ciclicități</h2>
+      </div>
+      <div class="collapsible-body" id="cyclesBody">
+        <div class="overlay-chart-stage" id="overlayChart"></div>
+      </div>
+    </section>
+  </main>
+  </div>
+
+  <script type="text/python" id="python-calculator">
+from dataclasses import dataclass
+from datetime import date
+import re
+import unicodedata
+
+LETTER_MAP = {
+    "A": 1, "J": 1, "S": 1,
+    "B": 2, "K": 2, "T": 2,
+    "C": 3, "L": 3, "U": 3,
+    "D": 4, "M": 4, "V": 4,
+    "E": 5, "N": 5, "W": 5,
+    "F": 6, "O": 6, "X": 6,
+    "G": 7, "P": 7, "Y": 7,
+    "H": 8, "Q": 8, "Z": 8,
+    "I": 9, "R": 9,
+}
+
+VOWELS = set("AEIOU")
+MENTAL = set("AEIORZ")
+PHYSICAL = set("HJNPW")
+EMOTIONAL = set("BSTX")
+INTUITIVE = set("FKQUY")
+INITIATOARE = set("AEIORZ")
+CONTINUATOARE = set("HJNPWBSTXFQYU")
+FINALIZATOARE = set("GLDMCV")
+
+
+@dataclass
+class PersonInput:
+    full_name: str
+    active_name: str
+    family_name: str
+    birth_date: date
+    gender: str = "masculin"
+    reference_year: int = 2026
+    year_limit: int = 108
+
+
+def normalize_text(value: str) -> str:
+    value = unicodedata.normalize("NFD", value or "")
+    value = "".join(ch for ch in value if unicodedata.category(ch) != "Mn")
+    return re.sub(r"[^A-Za-z ]", "", value).upper().strip()
+
+
+def letters(value: str) -> list[str]:
+    return [ch for ch in normalize_text(value).replace(" ", "") if ch]
+
+
+def digits_of(value: int) -> list[int]:
+    return [int(ch) for ch in str(abs(int(value or 0)))]
+
+
+def sum_digits_raw(value: int) -> int:
+    return sum(digits_of(value))
+
+
+def reduce_number(value: int) -> int:
+    value = abs(int(value or 0))
+    while value > 9:
+        value = sum_digits_raw(value)
+    return value
+
+
+def name_values(value: str, mode: str = "all") -> list[int]:
+    selected = []
+    for ch in letters(value):
+        if mode == "vowels" and ch not in VOWELS:
+            continue
+        if mode == "consonants" and ch in VOWELS:
+            continue
+        selected.append(LETTER_MAP.get(ch, 0))
+    return [n for n in selected if n]
+
+
+def name_sum(value: str, mode: str = "all") -> int:
+    return sum(name_values(value, mode))
+
+
+def build_matrix(numbers: list[int]) -> dict[int, list[int]]:
+    matrix = {i: [] for i in range(1, 10)}
+    for number in numbers:
+        if 1 <= number <= 9:
+            matrix[number].append(number)
+    return matrix
+
+
+def box_values(matrix: dict[int, list[int]]) -> dict[int, int]:
+    return {digit: digit * len(values) for digit, values in matrix.items()}
+
+
+def calculate_capitol_2(person: PersonInput) -> dict:
+    day = person.birth_date.day
+    month = person.birth_date.month
+    year = person.birth_date.year
+    date_digits = digits_of(day) + digits_of(month) + digits_of(year)
+    vi = reduce_number(day)
+    ve = reduce_number(month)
+    cd_raw = sum(date_digits)
+    destin = reduce_number(cd_raw)
+    matrix_digits = date_digits + digits_of(cd_raw) + digits_of(destin) + digits_of(day)
+    if day > 22:
+        matrix_digits += digits_of(day - 22)
+    matrix_digits = [n for n in matrix_digits if n > 0]
+    matrix = build_matrix(matrix_digits)
+    boxes = box_values(matrix)
+    vectors = {
+        "123 - Energie": boxes[1] + boxes[2] + boxes[3],
+        "456 - Vointa": boxes[4] + boxes[5] + boxes[6],
+        "789 - Creativitate": boxes[7] + boxes[8] + boxes[9],
+        "147 - Spiritualitate": boxes[1] + boxes[4] + boxes[7],
+        "258 - Social": boxes[2] + boxes[5] + boxes[8],
+        "369 - Bunastare materiala": boxes[3] + boxes[6] + boxes[9],
+        "159 - Cariera": boxes[1] + boxes[5] + boxes[9],
+        "357 - Scopuri": boxes[3] + boxes[5] + boxes[7],
+    }
+    expression = reduce_number(name_sum(person.full_name))
+    intimate = reduce_number(name_sum(person.full_name, "vowels"))
+    realization = reduce_number(name_sum(person.full_name, "consonants"))
+    active = reduce_number(name_sum(person.active_name))
+    hereditary_raw = name_sum(person.family_name)
+    hereditary = reduce_number(hereditary_raw)
+    lineage = hereditary_raw - 22 if hereditary_raw > 22 else hereditary_raw
+    return {
+        "vibratia_interioara": vi,
+        "vibratia_interioara_karma": day - 22 if day > 22 else day,
+        "vibratia_exterioara": ve,
+        "vibratia_exterioara_karma": month,
+        "vibratia_globala": reduce_number(vi + ve),
+        "punte_interior_exterior": abs(vi - ve),
+        "vibratia_cosmica_variabila": reduce_number(year % 100),
+        "vibratia_cosmica_totala": reduce_number(year),
+        "calea_destinului": cd_raw,
+        "calea_destinului_karma": cd_raw - 22 if cd_raw > 22 else cd_raw,
+        "destinul": destin,
+        "punte_interior_destin": abs(vi - destin),
+        "aspecte_de_indreptat": digits_of(day),
+        "solutia_aspectelor": reduce_number(sum(digits_of(day))),
+        "matrice": matrix,
+        "valoarea_casutelor": boxes,
+        "vectori": vectors,
+        "numarul_de_exprimare": expression,
+        "numarul_intim": intimate,
+        "numarul_de_realizare": realization,
+        "numarul_activ": active,
+        "numarul_ereditar": hereditary,
+        "numarul_neamului": lineage,
+        "cifra_energetica": reduce_number(destin + expression),
+        "lectii_de_viata_produs": day * month * year,
+        "soarta_destin_produs": int(f"{day:02d}{month:02d}") * year,
+    }
+  </script>
+
+  <script>
+    const letterMap = {
+      A: 1, J: 1, S: 1,
+      B: 2, K: 2, T: 2,
+      C: 3, L: 3, U: 3,
+      D: 4, M: 4, V: 4,
+      E: 5, N: 5, W: 5,
+      F: 6, O: 6, X: 6,
+      G: 7, P: 7, Y: 7,
+      H: 8, Q: 8, Z: 8,
+      I: 9, R: 9
+    };
+
+    const vowels = new Set(["A", "E", "I", "O", "U"]);
+    const mental = new Set(["A", "E", "I", "O", "R", "Z"]);
+    const physical = new Set(["H", "J", "N", "P", "W"]);
+    const emotional = new Set(["B", "S", "T", "X"]);
+    const intuitive = new Set(["F", "K", "Q", "U", "Y"]);
+    const initiatoare = new Set(["A", "E", "I", "O", "R", "Z"]);
+    const continuatoare = new Set(["H", "J", "N", "P", "W", "B", "S", "T", "X", "F", "Q", "Y", "U"]);
+    const finalizatoare = new Set(["G", "L", "D", "M", "C", "V"]);
+
+    const rows = [
+      { group: "Data nasterii", concept: "Vibratia interioara karma", method: "Ziua nasterii se pastreaza daca este intre 1 si 22; daca ziua este peste 22, se calculeaza ziua - 22.", calc: s => s.day > 22 ? `${s.day} - 22` : `${s.day}`, result: s => s.viKarma },
+      { group: "Data nasterii", concept: "Liniile de tensiune", method: "Schimbari de caracter in stres major; se noteaza succesiunea pornind de la vibratia interioara si numerele operationale ale metodei.", calc: s => `VI ${s.vi}; completare manuala pentru succesiune`, result: () => "de completat", manual: true },
+      { group: "Data nasterii", concept: "Vibratia exterioara karma", method: "Luna nasterii se citeste ca valoare karmica atunci cand luna este 11 sau 12; altfel se noteaza luna conform metodei folosite.", calc: s => `${s.month}`, result: s => s.month },
+      { group: "Data nasterii", concept: "Puntea interior - exterior", method: "Diferenta absoluta dintre vibratia interioara si vibratia exterioara.", calc: s => `|${s.vi} - ${s.ve}|`, result: s => Math.abs(s.vi - s.ve) },
+      { group: "Data nasterii", concept: "Vibratia cosmica fixa", method: "Primele doua cifre ale anului nasterii, citite ca reper fix al perioadei.", calc: s => String(s.year).slice(0, 2), result: s => s.vcf },
+      { group: "Data nasterii", concept: "Vibratia cosmica variabila", method: "Suma ultimelor doua cifre ale anului nasterii; se reduce la o singura cifra.", calc: s => `${digitsOf(s.year % 100).join(" + ")} = ${sumDigitsRaw(s.year % 100)}`, result: s => s.vcv },
+      { group: "Data nasterii", concept: "Vibratia cosmica totala", method: "Suma tuturor cifrelor anului nasterii; se reduce la o singura cifra.", calc: s => `${digitsOf(s.year).join(" + ")} = ${sumDigitsRaw(s.year)}`, result: s => s.vct },
+      { group: "Data nasterii", concept: "Calea Destinului", method: "Suma tuturor cifrelor din data completa de nastere: zi + luna + an.", calc: s => `${digitsOfDate(s).join(" + ")} = ${s.cdRaw}`, result: s => s.cdRaw },
+      { group: "Data nasterii", concept: "Calea Destinului karma", method: "Calea Destinului - 22, daca suma Caii Destinului este peste 22.", calc: s => s.cdRaw > 22 ? `${s.cdRaw} - 22` : `${s.cdRaw}`, result: s => s.cdKarma },
+      { group: "Data nasterii", concept: "Puntea interior - Destin", method: "Diferenta absoluta dintre vibratia interioara si Destin.", calc: s => `|${s.vi} - ${s.destin}|`, result: s => Math.abs(s.vi - s.destin) },
+      { group: "Data nasterii", concept: "Aspectele de indreptat", method: "Calea Destinului - 2 x prima cifra nenula din ziua nasterii.", calc: s => `${s.cdRaw} - 2 x ${firstNonZeroDigit(s.day)}`, result: s => s.aspects },
+      { group: "Data nasterii", concept: "Solutia aspectelor de indreptat", method: "Aspectele de indreptat se reduc numerologic la o singura cifra.", calc: s => reductionText(s.aspects), result: s => s.aspectsSolution },
+
+      { group: "Structura matriciala", concept: "Matricea datei de nastere", method: "Se introduc in patratul 1-9 cifrele din data de nastere si numerele operationale cerute de metoda; apoi se grupeaza pe casute.", calc: s => `Cifre folosite: ${s.matrixDigits.join(", ")}`, result: s => matrixHtml(s.matrix), html: true },
+      { group: "Structura matriciala", concept: "Numere pare / impare", method: "Se numara cifrele pare si cifrele impare din matrice; se noteaza cantitatea si distributia.", calc: s => `Pare: ${s.evenDigits.join(", ") || "-"}; impare: ${s.oddDigits.join(", ") || "-"}`, result: s => `${s.evenDigits.length} pare / ${s.oddDigits.length} impare` },
+      { group: "Structura matriciala", concept: "Valoarea casutelor", method: "Pentru fiecare casuta se inmulteste cifra casutei cu numarul de aparitii ale cifrei in casuta.", calc: s => Object.keys(s.boxValues).map(k => `${k}: ${k} x ${s.matrix[k].length}`).join("; "), result: s => Object.keys(s.boxValues).map(k => `${k}=${s.boxValues[k]}`).join("; ") },
+      { group: "Structura matriciala", concept: "Figuri geometrice", method: "Se identifica forma dupa numarul de aparitii intr-o casuta: punct, linie, triunghi, patrat etc.", calc: s => Object.keys(s.matrix).map(k => `${k}: ${shapeName(s.matrix[k].length)}`).join("; "), result: s => "vezi calcul" },
+      { group: "Structura matriciala", concept: "Elemente", method: "Se grupeaza cifrele pe elemente: foc, pamant, apa, aer, apoi se numara elementele active.", calc: s => `Foc: ${s.elements.foc}; pamant: ${s.elements.pamant}; apa: ${s.elements.apa}; aer: ${s.elements.aer}`, result: s => dominantFromObject(s.elements) },
+      { group: "Structura matriciala", concept: "Vectorii", method: "Se aduna valorile casutelor din fiecare vector: 123, 456, 789, 147, 258, 369, 159, 357.", calc: s => Object.entries(s.vectors).map(([k, v]) => `${k}=${v}`).join("; "), result: s => dominantFromObject(s.vectors) },
+      { group: "Structura matriciala", concept: "Tendinta", method: "Se identifica vectorii sparsi sau directiile repetate care creeaza orientarea generala a matricei.", calc: s => `Vectori incompleti: ${incompleteVectors(s).join(", ") || "-"}`, result: () => "de interpretat", manual: true },
+      { group: "Structura matriciala", concept: "Fixatia", method: "Se identifica vectorul plin dominant si compozitia lui: numar de elemente, casute pare, casute impare.", calc: s => fullVectors(s).join(", ") || "nu exista vector plin", result: s => fullVectors(s)[0] || "-" },
+      { group: "Structura matriciala", concept: "Caii, trasura si vizitiul", method: "Energia = vectorul 123; Vointa = vectorul 456; Solutiile = vectorul 789.", calc: s => `Energia 123=${s.vectors["123"]}; Vointa 456=${s.vectors["456"]}; Solutiile 789=${s.vectors["789"]}`, result: s => dominantFromObject({ energie: s.vectors["123"], vointa: s.vectors["456"], solutii: s.vectors["789"] }) },
+      { group: "Structura matriciala", concept: "Curgerea energiei", method: "Se urmareste traseul energiei prin casutele active si casutele conservate care primesc energie din exterior.", calc: s => `Casute libere: ${emptyBoxes(s).join(", ") || "-"}`, result: () => "de completat", manual: true },
+      { group: "Structura matriciala", concept: "Comparatia cu optimul", method: "Se compara matricea personala cu matricea optima, pe casute si vectori.", calc: () => "Matrice personala vs matrice optima", result: () => "de completat", manual: true },
+      { group: "Structura matriciala", concept: "Scara bunastarii", method: "Se ordoneaza succesiv valorile casutelor si vectorilor; casutele/vectorii lipsa se marcheaza ca trepte inexistente.", calc: s => wellbeingRows(s).map(x => `${x.name}=${x.value}`).join("; "), result: s => wellbeingRows(s).slice(0, 5).map(x => `${x.name} ${x.value}`).join("; ") },
+
+      { group: "Nume", concept: "Numarul intim", method: "Suma cifrelor corespunzatoare vocalelor din numele complet; se reduce la o singura cifra.", calc: s => `${nameValues(s.fullName, "vowels").join(" + ") || "0"} = ${nameSum(s.fullName, "vowels")}`, result: s => reduceNumber(nameSum(s.fullName, "vowels")) },
+      { group: "Nume", concept: "Numarul de realizare", method: "Suma cifrelor corespunzatoare consoanelor din numele complet; se reduce la o singura cifra.", calc: s => `${nameValues(s.fullName, "consonants").join(" + ") || "0"} = ${nameSum(s.fullName, "consonants")}`, result: s => reduceNumber(nameSum(s.fullName, "consonants")) },
+      { group: "Nume", concept: "Numarul activ", method: "Suma cifrelor corespunzatoare tuturor literelor din prenumele folosit activ sau porecla; se reduce la o singura cifra.", calc: s => `${nameValues(s.activeName).join(" + ") || "0"} = ${nameSum(s.activeName)}`, result: s => reduceNumber(nameSum(s.activeName)) },
+      { group: "Nume", concept: "Numarul ereditar", method: "Suma cifrelor corespunzatoare tuturor literelor din numele de familie; se reduce la o singura cifra.", calc: s => `${nameValues(s.familyName).join(" + ") || "0"} = ${nameSum(s.familyName)}`, result: s => reduceNumber(nameSum(s.familyName)) },
+      { group: "Nume", concept: "Numarul ereditar karmic / Neamul", method: "Suma cifrelor numelui de familie; daca rezultatul este peste 22, se calculeaza rezultat - 22.", calc: s => nameSum(s.familyName) > 22 ? `${nameSum(s.familyName)} - 22` : `${nameSum(s.familyName)}`, result: s => nameSum(s.familyName) > 22 ? nameSum(s.familyName) - 22 : nameSum(s.familyName) },
+      { group: "Nume", concept: "Cifre in exces / cifre lipsa", method: "Se compara matricea numelui cu matricea datei de nastere si se noteaza cifrele suplimentare sau absente.", calc: s => compareNameBirthMatrix(s), result: () => "vezi calcul" },
+      { group: "Nume", concept: "Cifra energetica", method: "Destinul + numarul de exprimare; se reduce la o singura cifra.", calc: s => `${s.destin} + ${reduceNumber(nameSum(s.fullName))}`, result: s => reduceNumber(s.destin + reduceNumber(nameSum(s.fullName))) },
+      { group: "Nume", concept: "Cifre intense", method: "Cifra sau cifrele care apar de cele mai multe ori in interiorul numelui.", calc: s => intenseDigits(s.fullName).join(", ") || "-", result: s => intenseDigits(s.fullName).join(", ") || "-" },
+      { group: "Nume", concept: "Primele litere, ultimele litere", method: "Se noteaza prima si ultima litera din fiecare nume/prenume analizat, cu valoarea numerologica aferenta.", calc: s => firstLastLetters(s.fullName), result: () => "vezi calcul" },
+      { group: "Nume", concept: "Primele vocale", method: "Se noteaza prima vocala din fiecare nume/prenume analizat, cu valoarea numerologica aferenta.", calc: s => firstVowels(s.fullName), result: () => "vezi calcul" },
+      { group: "Nume", concept: "Cheile de bolta", method: "Pentru numele cu numar impar de litere, se ia litera din mijloc si cifra corespunzatoare; se noteaza solutia/presiunea cand metoda le cere.", calc: s => keystoneLetters(s.fullName), result: () => "vezi calcul" },
+      { group: "Nume", concept: "Litere mentale, fizice, emotionale, intuitive", method: "Se incadreaza fiecare litera in categoria mentala, fizica, emotionala sau intuitiva si se totalizeaza pe categorii.", calc: s => categoryTotals(s.fullName, { Mentale: mental, Fizice: physical, Emotionale: emotional, Intuitive: intuitive }), result: () => "vezi calcul" },
+      { group: "Nume", concept: "Litere initiatoare, continuatoare, finalizatoare", method: "Se incadreaza fiecare litera in categoria initiatoare, continuatoare sau finalizatoare si se totalizeaza.", calc: s => categoryTotals(s.fullName, { Initiatoare: initiatoare, Continuatoare: continuatoare, Finalizatoare: finalizatoare }), result: () => "vezi calcul" },
+      { group: "Nume", concept: "Numerele temperamentului", method: "Se citesc totalurile rezultate din intersectia categoriilor de litere si se interpreteaza temperamentul dominant.", calc: s => categoryTotals(s.fullName, { Mentale: mental, Fizice: physical, Emotionale: emotional, Intuitive: intuitive }), result: () => "de interpretat", manual: true },
+      { group: "Nume", concept: "Cifrele de tensiune", method: "Se scad intre ele numerele relevante: Destin - vocale, Destin - consoane, vocale - consoane.", calc: s => tensionDigits(s), result: () => "vezi calcul" },
+
+      { group: "Ciclicitati", concept: "Ciclicitatea vibratiilor", method: "Se foloseste valoarea fiecarei vibratii ca ritm de repetitie: zile, luni sau ani, dupa natura vibratiei.", calc: s => `VI: din ${s.vi} in ${s.vi} zile; VE: din ${s.ve} in ${s.ve} luni; VCV: din ${s.vcv} in ${s.vcv} ani; CD: de la ${s.cdRaw} ani, din ${s.destin} in ${s.destin} ani`, result: () => "vezi calcul" },
+      { group: "Ciclicitati", concept: "Ciclicitatea scarii bunastarii", method: "Fiecare valoare din scara bunastarii devine ritm de fluctuatie in unitati de zi, luna sau an.", calc: s => wellbeingRows(s).map(x => `din ${x.value} in ${x.value}: ${x.name}`).join("; "), result: () => "vezi calcul" },
+      { group: "Ciclicitati", concept: "Lectiile de viata", method: "Ziua x luna x anul nasterii; cifrele produsului dau sirul lectiilor, repetat pe cicluri.", calc: s => `${s.day} x ${s.month} x ${s.year} = ${s.lifeProduct}`, result: s => digitsOf(s.lifeProduct).join(" - ") },
+      { group: "Ciclicitati", concept: "Ciclul de 7 ani", method: "Se construieste tabelul anilor de viata in cicluri de cate 7 ani, pornind de la anul nasterii.", calc: s => cyclePreview(s.year, 7, s.yearLimit), result: () => "tabel generabil" },
+      { group: "Ciclicitati", concept: "Septagrama", method: "Rubrica exista in volumul Numerologie ca reprezentare a ciclului de 7 ani; pentru dashboard se pastreaza doar calculul textual, fara diagrama.", calc: s => rangeYears(s.year, Math.ceil(s.yearLimit / 7), 7).join(", "), result: () => "sir generabil" },
+      { group: "Ciclicitati", concept: "Ciclul de 9 ani", method: "Se construieste tabelul anilor de viata in cicluri de cate 9 ani, pornind de la anul nasterii.", calc: s => cyclePreview(s.year, 9, s.yearLimit), result: () => "tabel generabil" },
+      { group: "Ciclicitati", concept: "Subcicluri", method: "Rubrica exista in structura Capitolului 2, dar algoritmul exact nu este formalizat in dashboard.", calc: () => "referinta lipsa in Capitolul 2", result: () => "de completat", manual: true },
+      { group: "Ciclicitati", concept: "Ciclul de 12 ani", method: "Se construieste tabelul anilor de viata in cicluri de cate 12 ani, pornind de la anul nasterii.", calc: s => cyclePreview(s.year, 12, s.yearLimit), result: () => "tabel generabil" },
+      { group: "Ciclicitati", concept: "Pinacluri", method: "Varsta primului pinaclu = 36 - Destin; oportunitati: zi+luna, zi+an, O1+O2, luna+an; provocari: luna-zi, zi-an, P1-P2, luna-an.", calc: s => pinnacleText(s), result: s => `P1 pana la ${36 - s.destin} ani` },
+      { group: "Ciclicitati", concept: "Ani sub neam / independenti de neam", method: "Se aseaza literele numelui peste sirul anilor, repetitiv, pentru a observa anii sub influenta numelui/neamului.", calc: s => nameYearsPreview(s), result: () => "vezi calcul" },
+      { group: "Ciclicitati", concept: "Ani importanti interiori", method: "Anul obtinut + cifra de vibratie a acelui an; rezultatul devine urmatorul an important interior.", calc: s => importantYearsInner(s.year, 12).join(", "), result: () => "sir calculat" },
+      { group: "Ciclicitati", concept: "Ani importanti exteriori", method: "Anul nasterii + suma cifrelor anului; apoi se repeta calculul cu anul obtinut.", calc: s => importantYearsOuter(s.year, 8).join(", "), result: () => "sir calculat" },
+      { group: "Ciclicitati", concept: "Ani de rascruce", method: "Se marcheaza anii aflati la intersectia liniilor soartei cu liniile destinului.", calc: () => "necesita grafic soarta/destin", result: () => "de completat", manual: true },
+      { group: "Ciclicitati", concept: "Ani de criza", method: "Se marcheaza anii din succesiunea de criza folosita de metoda, de regula ritmata la 7 ani.", calc: s => rangeYears(s.year + 4, 14, 7).join(", "), result: () => "sir calculat" },
+      { group: "Ciclicitati", concept: "Soarta si Destin", method: "Ziua+luna concatenate x anul nasterii; rezultatul se imparte pe sirul varstelor: barbat din 10 in 10 ani, femeie din 12 in 12 ani.", calc: s => fateDestinyText(s), result: s => s.gender === "masculin" ? "ritm 10 ani" : "ritm 12 ani" },
+
+      { group: "Relatii", concept: "Omuletul relatiilor", method: "Valoarea prenumelui de botez + valoarea zilei de nastere; pentru compatibilitate se adauga 3 si se reduce. In cuplu se folosesc adunarea si scaderea vibratiilor interioare.", calc: s => `${reduceNumber(nameSum(s.activeName))} + ${s.vi} + 3 = ${reduceNumber(reduceNumber(nameSum(s.activeName)) + s.vi + 3)}`, result: s => reduceNumber(reduceNumber(nameSum(s.activeName)) + s.vi + 3) },
+
+      { group: "Spirit", concept: "Inclinatii profesionale", method: "Se calculeaza arcana obstacole/ajutoare si arcana aplicabilitatii profesionale, pastrate in intervalul 1-22.", calc: s => professionalText(s), result: s => `obstacole/ajutoare ${s.professionalObstacle}; aplicabilitate ${s.professionalArcana}` },
+      { group: "Spirit", concept: "Inclinatii ezoterice", method: "Data reala de nastere se imparte la 7; prima cifra dupa virgula da codul ezoteric principal.", calc: s => esotericText(s), result: s => `cod ${s.esotericCode}` },
+      { group: "Spirit", concept: "Varsta spiritului / cod", method: "CM = 55 - Zi - (2 x Luna); varsta spiritului la nastere = (CM - 1) x 189.", calc: s => spiritText(s), result: s => `CM ${s.spiritCode}; ${s.spiritAgeAtBirth} ani` },
+      { group: "Spirit", concept: "Etapele si subetapele", method: "Zona se stabileste dupa CM, iar subetapa = ((CM - 1) mod 13) + 1.", calc: s => `CM ${s.spiritCode}; subetapa ${s.spiritSubstage}`, result: s => `${s.spiritZone}; subetapa ${s.spiritSubstage}` },
+
+      { group: "Ajutoare", concept: "Semnatura astrala", method: "CNP-ul astral se citeste ca sir de cifre pe patratul lui Pitagora; in dashboard se pastreaza traseul textual, fara SVG.", calc: s => birthMatrixCode(s), result: () => "traseu textual" },
+      { group: "Ajutoare", concept: "Directiile de succes", method: "Numarul energetic se calculeaza din vibratia cosmica variabila si gen, apoi se citesc directiile aferente.", calc: s => successDirectionsText(s), result: s => `numar energetic ${s.energyNumber}` },
+      { group: "Ajutoare", concept: "Triunghiul financiar", method: "Baza triunghiului: zi redusa, luna redusa, anul redus, destinul financiar redus.", calc: s => financialTriangleText(s), result: s => s.financialTriangle.join("") },
+      { group: "Ajutoare", concept: "Patratul de aur 3x3", method: "Ziua nasterii se introduce in casuta 4 si se continua cu +1 pe traseul 4-9-2-3-5-7-8-1-6.", calc: s => goldenSquareText(s), result: s => `centru ${s.goldenSquare[5]}; suma ${s.goldenSquareSum}` },
+
+      { group: "Concluzii", concept: "Toate notiunile grupate pe cifre si elemente", method: "Se centralizeaza toate rezultatele anterioare pe cifre si elemente dominante.", calc: () => "sinteza dupa completarea tabelului", result: () => "de completat", manual: true },
+      { group: "Concluzii", concept: "Tabelul tuturor informatiilor reunite", method: "Se reunesc rezultatele calculate in capitolul 2 intr-un tabel unic.", calc: () => "sinteza dupa completarea tabelului", result: () => "de completat", manual: true },
+      { group: "Concluzii", concept: "Graficul tuturor informatiilor reunite", method: "Se transforma tabelul informatiilor reunite intr-un grafic sintetic.", calc: () => "grafic dupa completarea tabelului", result: () => "de completat", manual: true }
+    ];
+
+    const manualValues = new Map();
+    let savedPeople = [];
+    let wellbeingMode = "bars";
+    let wellbeingContentMode = "all";
+    let wellbeingSortMode = "value";
+    let wellbeingMeasureMode = "value";
+    let elementsMatrixMode = "birth";
+    let elementsSortMode = "element";
+    let overlayRangeStart = 0;
+    let overlayRangeEnd = 108;
+    const overlayVisibility = {
+      fate: true,
+      destiny: true,
+      comfortFate: true,
+      comfortDestiny: true,
+      opportunity: true,
+      challenge: true,
+      lessons: true,
+      interior: true,
+      exterior: true,
+      cycle7: true,
+      crisis7: true,
+      cycle9: true,
+      cycle12: true,
+      pinacle: true
+    };
+    function normalizeText(value) {
+      return (value || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^A-Za-z ]/g, "")
+        .toUpperCase()
+        .trim();
+    }
+
+    function letters(value) {
+      return normalizeText(value).replace(/ /g, "").split("").filter(Boolean);
+    }
+
+    function nameParts(value) {
+      return normalizeText(value).split(/\s+/).filter(Boolean);
+    }
+
+    function digitsOf(value) {
+      return String(Math.abs(Number(value) || 0)).split("").map(Number);
+    }
+
+    function sumDigitsRaw(value) {
+      return digitsOf(value).reduce((a, b) => a + b, 0);
+    }
+
+    function reduceNumber(value) {
+      let n = Math.abs(Number(value) || 0);
+      while (n > 9) n = sumDigitsRaw(n);
+      return n;
+    }
+
+    function reductionText(value) {
+      let n = Math.abs(Number(value) || 0);
+      const parts = [n];
+      while (n > 9) {
+        n = sumDigitsRaw(n);
+        parts.push(n);
+      }
+      return parts.join(" -> ");
+    }
+
+    function parseState() {
+      const birthDateValue = document.getElementById("birthDate").value;
+      if (!birthDateValue) return null;
+      const date = new Date(document.getElementById("birthDate").value + "T00:00:00");
+      if (Number.isNaN(date.getTime())) return null;
+      const day = date.getDate();
+      const month = date.getMonth() + 1;
+      const year = date.getFullYear();
+      const state = {
+        fullName: document.getElementById("fullName").value,
+        activeName: document.getElementById("activeName").value,
+        familyName: document.getElementById("familyName").value,
+        gender: document.getElementById("gender").value,
+        referenceYear: Number(document.getElementById("referenceYear").value || new Date().getFullYear()),
+        yearLimit: Number(document.getElementById("yearLimit").value || 108),
+        day,
+        month,
+        year
+      };
+      state.vi = reduceNumber(day);
+      state.viKarma = day > 22 ? day - 22 : day;
+      state.ve = reduceNumber(month);
+      state.vg = reduceNumber(day + month);
+      state.vcf = Number(String(year).slice(0, 2));
+      state.vcv = reduceNumber(year % 100);
+      state.vct = reduceNumber(year);
+      state.cdRaw = digitsOfDate(state).reduce((a, b) => a + b, 0);
+      state.cdReduced = reduceNumber(state.cdRaw);
+      state.cdKarma = state.cdRaw > 22 ? state.cdRaw - 22 : state.cdRaw;
+      state.destin = reduceNumber(day + month + year);
+      state.aspects = state.cdRaw - (2 * firstNonZeroDigit(day));
+      state.aspectsSolution = reduceNumber(state.aspects);
+      state.lifeProduct = day * month * year;
+      state.matrixDigits = buildMatrixDigits(state);
+      state.matrix = buildMatrix(state.matrixDigits);
+      state.boxValues = boxValues(state.matrix);
+      state.evenDigits = state.matrixDigits.filter(x => x && x % 2 === 0);
+      state.oddDigits = state.matrixDigits.filter(x => x && x % 2 === 1);
+      state.elements = buildElements(state.matrix);
+      state.vectors = buildVectors(state.boxValues);
+      state.professionalObstacle = reduceArcana(state.cdRaw - 22);
+      state.professionalArcana = reduceArcana(month + sumDigitsRaw(year) - 22);
+      state.esotericCode = esotericCode(state);
+      state.spiritCode = 55 - day - (2 * month);
+      state.spiritSubstage = ((state.spiritCode - 1) % 13) + 1;
+      state.spiritAgeAtBirth = (state.spiritCode - 1) * 189;
+      state.spiritZone = spiritZone(state.spiritCode);
+      state.energyNumber = successEnergyNumber(state);
+      state.successDirections = successDirections(state.energyNumber, state.gender);
+      state.financialTriangle = financialTriangle(state);
+      state.goldenSquare = goldenSquare(state);
+      state.goldenSquareSum = state.goldenSquare[5] * 3;
+      return state;
+    }
+
+    function parsePeopleFile(text) {
+      return text
+        .split(/\r?\n/)
+        .map(line => line.trim())
+        .filter(line => line && !line.startsWith("#"))
+        .map(line => {
+          const parts = line.split("|").map(part => part.trim());
+          return {
+            label: parts[0] || parts[1] || "Persoana",
+            fullName: parts[1] || "",
+            activeName: parts[2] || "",
+            familyName: parts[3] || "",
+            birthDate: parts[4] || "",
+            gender: parts[5] || "masculin",
+            referenceYear: parts[6] || "",
+            yearLimit: parts[7] || "",
+            partnerName: parts[8] || "",
+            partnerBirthDate: parts[9] || "",
+            partnerRelationship: parts[10] || "partener"
+          };
+        })
+        .filter(person => person.fullName && person.birthDate);
+    }
+
+    function personKey(person) {
+      return `${normalizeText(person.fullName)}|${person.birthDate}`;
+    }
+
+    function personFromInputs() {
+      const fullName = document.getElementById("fullName").value.trim();
+      const birthDate = document.getElementById("birthDate").value;
+      const familyName = document.getElementById("familyName").value.trim();
+      const activeName = document.getElementById("activeName").value.trim();
+      return {
+        label: fullName || activeName || familyName || "Persoana",
+        fullName,
+        activeName,
+        familyName,
+        birthDate,
+        gender: document.getElementById("gender").value,
+        referenceYear: document.getElementById("referenceYear").value,
+        yearLimit: document.getElementById("yearLimit").value,
+        partnerName: document.getElementById("partnerName").value.trim(),
+        partnerBirthDate: document.getElementById("partnerBirthDate").value,
+        partnerRelationship: document.getElementById("partnerRelationship").value
+      };
+    }
+
+    function peopleFileText(people) {
+      const header = [
+        "# Format:",
+        "# Eticheta|Nume complet|Prenume activ|Nume familie|Data nasterii YYYY-MM-DD|Gen masculin/feminin|An referinta|Interval ani|Nume partener optional|Data nasterii partener|Tip relatie"
+      ];
+      const lines = people.map(person => [
+        person.label,
+        person.fullName,
+        person.activeName,
+        person.familyName,
+        person.birthDate,
+        person.gender,
+        person.referenceYear,
+        person.yearLimit,
+        person.partnerName,
+        person.partnerBirthDate,
+        person.partnerRelationship
+      ].map(value => String(value || "").replace(/\|/g, "/")).join("|"));
+      return header.concat(lines).join("\n") + "\n";
+    }
+
+    function setPersonStatus(message) {
+      document.getElementById("personStatus").textContent = message;
+    }
+
+    function setCollapsiblePanel(toggleId, bodyId, expanded) {
+      const toggle = document.getElementById(toggleId);
+      const body = document.getElementById(bodyId);
+      body.hidden = !expanded;
+      toggle.setAttribute("aria-expanded", String(expanded));
+      toggle.setAttribute("aria-label", `${expanded ? "Închide" : "Deschide"} ${bodyId === "calculationsBody" ? "calculele" : "ciclicitățile"}`);
+      toggle.textContent = expanded ? "-" : "+";
+    }
+
+    function showInputPanel() {
+      document.getElementById("inputPanel").classList.remove("is-hidden");
+      document.getElementById("inputPanel").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function hideInputPanel() {
+      document.getElementById("inputPanel").classList.add("is-hidden");
+    }
+
+    function setPartnerFieldsActive(active) {
+      const fields = document.getElementById("partnerFields");
+      const toggle = document.getElementById("partnerToggle");
+      fields.classList.toggle("is-hidden", !active);
+      fields.querySelectorAll("input, select").forEach(field => { field.disabled = !active; });
+      toggle.setAttribute("aria-expanded", String(active));
+      toggle.textContent = active ? "Renunță la partener" : "Partener opțional";
+    }
+
+    function clearPersonInputs() {
+      document.getElementById("fullName").value = "";
+      document.getElementById("activeName").value = "";
+      document.getElementById("familyName").value = "";
+      document.getElementById("birthDate").value = "";
+      document.getElementById("gender").value = "masculin";
+      document.getElementById("referenceYear").value = new Date().getFullYear();
+      document.getElementById("yearLimit").value = 108;
+      document.getElementById("partnerName").value = "";
+      document.getElementById("partnerBirthDate").value = "";
+      document.getElementById("partnerRelationship").value = "partener";
+      setPartnerFieldsActive(false);
+      document.getElementById("workNotes").value = "";
+    }
+
+    function upsertCurrentPerson() {
+      const person = personFromInputs();
+      if (!person.fullName || !person.birthDate) {
+        setPersonStatus("Completează numele complet și data nașterii ca să pot salva persoana.");
+        return false;
+      }
+      const key = personKey(person);
+      const existingIndex = savedPeople.findIndex(item => personKey(item) === key);
+      if (existingIndex >= 0) {
+        savedPeople[existingIndex] = person;
+        setPersonStatus("Persoana există deja în listă; am actualizat intrarea.");
+      } else {
+        savedPeople.push(person);
+        setPersonStatus("Am adăugat persoana în listă.");
+      }
+      localStorage.setItem("dashboardPersoane", peopleFileText(savedPeople));
+      renderPersonOptions(savedPeople);
+      document.getElementById("personSelect").value = String(existingIndex >= 0 ? existingIndex : savedPeople.length - 1);
+      return true;
+    }
+
+    async function savePeopleToFile() {
+      const text = peopleFileText(savedPeople);
+      if ("showSaveFilePicker" in window) {
+        try {
+          const handle = await window.showSaveFilePicker({
+            suggestedName: "persoane.txt",
+            types: [{ description: "Text", accept: { "text/plain": [".txt"] } }]
+          });
+          const writable = await handle.createWritable();
+          await writable.write(text);
+          await writable.close();
+          setPersonStatus("Lista a fost salvata in persoane.txt.");
+          return;
+        } catch (error) {
+          if (error.name === "AbortError") {
+            setPersonStatus("Lista este actualizata in browser; salvarea fisierului a fost anulata.");
+            return;
+          }
+        }
+      }
+      const blob = new Blob([text], { type: "text/plain" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "persoane.txt";
+      link.click();
+      URL.revokeObjectURL(link.href);
+      setPersonStatus("Lista a fost descarcata ca persoane.txt. Inlocuieste fisierul din director cu aceasta versiune.");
+    }
+
+    function renderPersonOptions(people, message = "Alege o persoană") {
+      const select = document.getElementById("personSelect");
+      select.innerHTML = [`<option value="">${escapeHtml(message)}</option>`]
+        .concat(people.map((person, index) => `<option value="${index}">${escapeHtml(person.label)}</option>`))
+        .join("");
+    }
+
+    function applyPerson(person) {
+      if (!person) {
+        setPersonStatus(savedPeople.length ? "Alege o persoană din listă, apoi apasă Încarcă." : "Nu există persoane disponibile în listă.");
+        return;
+      }
+      document.getElementById("fullName").value = person.fullName;
+      document.getElementById("activeName").value = person.activeName;
+      document.getElementById("familyName").value = person.familyName;
+      document.getElementById("birthDate").value = person.birthDate;
+      document.getElementById("gender").value = person.gender;
+      if (person.referenceYear) document.getElementById("referenceYear").value = person.referenceYear;
+      if (person.yearLimit) document.getElementById("yearLimit").value = person.yearLimit;
+      document.getElementById("partnerName").value = person.partnerName;
+      document.getElementById("partnerBirthDate").value = person.partnerBirthDate || "";
+      document.getElementById("partnerRelationship").value = person.partnerRelationship || "partener";
+      setPartnerFieldsActive(Boolean(person.partnerName || person.partnerBirthDate));
+      hideInputPanel();
+      renderTable();
+    }
+
+    async function loadPeople() {
+      try {
+        const response = await fetch("persoane.txt", { cache: "no-store" });
+        if (!response.ok) throw new Error("Lista nu a putut fi citita.");
+        savedPeople = parsePeopleFile(await response.text());
+        const cachedPeople = parsePeopleFile(localStorage.getItem("dashboardPersoane") || "");
+        cachedPeople.forEach(person => {
+          const key = personKey(person);
+          const existingIndex = savedPeople.findIndex(item => personKey(item) === key);
+          if (existingIndex >= 0) savedPeople[existingIndex] = person;
+          else savedPeople.push(person);
+        });
+        renderPersonOptions(savedPeople, savedPeople.length ? "Alege o persoană" : "Lista este goală");
+        setPersonStatus(savedPeople.length ? "" : "Nu exista persoane in persoane.txt.");
+      } catch (error) {
+        savedPeople = parsePeopleFile(localStorage.getItem("dashboardPersoane") || "");
+        renderPersonOptions(savedPeople, "Nu pot citi persoane.txt");
+        setPersonStatus(savedPeople.length ? "" : "Browserul nu poate citi persoane.txt direct din file://.");
+      }
+    }
+
+    function digitsOfDate(s) {
+      return [...digitsOf(s.day), ...digitsOf(s.month), ...digitsOf(s.year)];
+    }
+
+    function buildMatrixDigits(s) {
+      const n3 = s.cdRaw - (2 * firstNonZeroDigit(s.day));
+      const n4 = reduceNumber(n3);
+      return [
+        ...digitsOfDate(s),
+        s.cdRaw,
+        s.cdReduced,
+        n3,
+        n4
+      ].flatMap(digitsOf).filter(n => n > 0);
+    }
+
+    function reduceArcana(value) {
+      let n = Number(value) || 0;
+      while (n <= 0) n += 22;
+      while (n > 22) n -= 22;
+      return n;
+    }
+
+    function esotericCode(s) {
+      const compact = Number(`${s.day}${s.month}${s.year}`);
+      if (!compact) return 0;
+      const remainder = compact % 7;
+      return remainder === 0 ? 0 : Math.floor((remainder * 10) / 7);
+    }
+
+    function spiritZone(code) {
+      if (code >= 40) return "Haruri";
+      if (code >= 27) return "Material";
+      if (code >= 14) return "Ratiune";
+      if (code >= 1) return "Iubire";
+      return "Prag 0";
+    }
+
+    function successEnergyNumber(s) {
+      const raw = s.gender === "masculin" ? 10 - s.vcv : 5 + s.vcv;
+      return reduceNumber(raw);
+    }
+
+    function successDirections(number, gender) {
+      const table = {
+        1: ["SE", "S", "E", "N"],
+        2: ["NE", "NV", "V", "SV"],
+        3: ["S", "SE", "N", "E"],
+        4: ["N", "E", "S", "SE"],
+        "5m": ["NE", "NV", "V", "SV"],
+        "5f": ["SV", "V", "NV", "NE"],
+        6: ["V", "NE", "SV", "NV"],
+        7: ["NV", "SV", "NE", "V"],
+        8: ["SV", "V", "NV", "NE"],
+        9: ["E", "SE", "N", "S"]
+      };
+      const key = number === 5 ? (gender === "masculin" ? "5m" : "5f") : number;
+      const [succes, relatii, sanatate, crestere] = table[key] || ["-", "-", "-", "-"];
+      return { succes, relatii, sanatate, crestere };
+    }
+
+    function financialTriangle(s) {
+      const z = reduceNumber(s.day);
+      const l = reduceNumber(s.month);
+      const a = reduceNumber(sumDigitsRaw(s.year));
+      const d = reduceNumber(z + l + a);
+      return [z, l, a, d];
+    }
+
+    function goldenSquare(s) {
+      const order = [4, 9, 2, 3, 5, 7, 8, 1, 6];
+      const values = {};
+      order.forEach((box, index) => values[box] = s.day + index);
+      return values;
+    }
+
+    function firstNonZeroDigit(value) {
+      return digitsOf(value).find(digit => digit !== 0) || 0;
+    }
+
+    function buildMatrix(nums) {
+      const matrix = {};
+      for (let i = 1; i <= 9; i++) matrix[i] = [];
+      nums.forEach(n => {
+        if (n >= 1 && n <= 9) matrix[n].push(n);
+      });
+      return matrix;
+    }
+
+    function boxValues(matrix) {
+      const values = {};
+      Object.keys(matrix).forEach(k => values[k] = Number(k) * matrix[k].length);
+      return values;
+    }
+
+    function buildElements(matrix) {
+      return {
+        foc: matrix[1].length + matrix[5].length + matrix[9].length,
+        pamant: matrix[4].length + matrix[8].length,
+        apa: matrix[2].length + matrix[6].length,
+        aer: matrix[3].length + matrix[7].length
+      };
+    }
+
+    function buildVectors(values) {
+      const v = code => code.split("").reduce((sum, k) => sum + values[k], 0);
+      return {
+        "123": v("123"),
+        "456": v("456"),
+        "789": v("789"),
+        "147": v("147"),
+        "258": v("258"),
+        "369": v("369"),
+        "159": v("159"),
+        "357": v("357")
+      };
+    }
+
+    function matrixHtml(matrix) {
+      const order = [1, 4, 7, 2, 5, 8, 3, 6, 9];
+      return `<div class="matrix">${order.map(k => matrixCellHtml(k, matrix[k])).join("")}</div>`;
+    }
+
+    function shapeName(count) {
+      if (count === 0) return "liber";
+      if (count === 1) return "punct";
+      if (count === 2) return "linie";
+      if (count === 3) return "triunghi";
+      if (count === 4) return "patrat";
+      return `${count} aparitii`;
+    }
+
+    function dominantFromObject(obj) {
+      const entries = Object.entries(obj);
+      const max = Math.max(...entries.map(([, v]) => v));
+      return entries.filter(([, v]) => v === max).map(([k]) => k).join(", ");
+    }
+
+    function emptyBoxes(s) {
+      return Object.keys(s.matrix).filter(k => s.matrix[k].length === 0);
+    }
+
+    function fullVectors(s) {
+      return Object.keys(s.vectors).filter(code => code.split("").every(k => s.matrix[k].length > 0));
+    }
+
+    function incompleteVectors(s) {
+      return Object.keys(s.vectors).filter(code => code.split("").some(k => s.matrix[k].length === 0));
+    }
+
+    function wellbeingRows(s) {
+      const boxRows = Object.keys(s.boxValues).map(k => ({
+        type: "box",
+        code: k,
+        order: Number(k),
+        name: `Casuta ${k}`,
+        quantity: s.matrix[k].length,
+        value: s.boxValues[k]
+      }));
+      const vectorOrder = ["123", "456", "789", "147", "258", "369", "159", "357"];
+      const vectorRows = vectorOrder.map((code, index) => ({
+        type: "vector",
+        code,
+        order: 10 + index,
+        name: `Vector ${vectorLabel(code)}`,
+        quantity: code.split("").reduce((sum, digit) => sum + s.matrix[digit].length, 0),
+        value: s.vectors[code]
+      }));
+      return [...boxRows, ...vectorRows];
+    }
+
+    function sortedWellbeingRows(s) {
+      const rows = wellbeingRows(s).filter(item => {
+        if (wellbeingContentMode === "boxes") return item.type === "box";
+        if (wellbeingContentMode === "vectors") return item.type === "vector";
+        return true;
+      }).map(item => ({
+        ...item,
+        display: wellbeingMeasureMode === "quantity" ? item.quantity : item.value
+      }));
+      if (wellbeingSortMode === "value") {
+        return rows.sort((a, b) => b.display - a.display || a.order - b.order);
+      }
+      return rows.sort((a, b) => a.order - b.order);
+    }
+
+    function nameValues(value, mode = "all") {
+      return letters(value).filter(ch => {
+        if (mode === "vowels") return vowels.has(ch);
+        if (mode === "consonants") return !vowels.has(ch);
+        return true;
+      }).map(ch => letterMap[ch] || 0).filter(Boolean);
+    }
+
+    function nameSum(value, mode = "all") {
+      return nameValues(value, mode).reduce((a, b) => a + b, 0);
+    }
+
+    function expressionNumber(value) {
+      const componentTotal = nameParts(value)
+        .map(part => reduceNumber(nameSum(part)))
+        .reduce((sum, item) => sum + item, 0);
+      return reduceNumber(componentTotal);
+    }
+
+    function nameCodeDigits(value) {
+      const values = nameValues(value);
+      const expression = expressionNumber(value);
+      return [...values, ...(expression ? [expression] : [])];
+    }
+
+    function nameMatrix(value) {
+      return buildMatrix(nameCodeDigits(value));
+    }
+
+    function compareNameBirthMatrix(s) {
+      const nm = nameMatrix(s.fullName);
+      const excess = [];
+      const missing = [];
+      for (let i = 1; i <= 9; i++) {
+        if (nm[i].length > s.matrix[i].length) excess.push(i);
+        if (nm[i].length === 0 && s.matrix[i].length > 0) missing.push(i);
+      }
+      return `Exces in nume: ${excess.join(", ") || "-"}; lipsa in nume: ${missing.join(", ") || "-"}`;
+    }
+
+    function intenseDigits(value) {
+      const counts = {};
+      nameValues(value).forEach(n => counts[n] = (counts[n] || 0) + 1);
+      const entries = Object.entries(counts);
+      if (!entries.length) return [];
+      const max = Math.max(...entries.map(([, count]) => count));
+      return entries.filter(([, count]) => count === max).map(([digit]) => digit);
+    }
+
+    function firstLastLetters(value) {
+      return normalizeText(value).split(/\s+/).filter(Boolean).map(part => {
+        const first = part[0];
+        const last = part[part.length - 1];
+        return `${first}=${letterMap[first] || "-"}, ${last}=${letterMap[last] || "-"}`;
+      }).join("; ");
+    }
+
+    function firstVowels(value) {
+      return normalizeText(value).split(/\s+/).filter(Boolean).map(part => {
+        const v = part.split("").find(ch => vowels.has(ch));
+        return v ? `${v}=${letterMap[v]}` : "-";
+      }).join("; ");
+    }
+
+    function keystoneLetters(value) {
+      return normalizeText(value).split(/\s+/).filter(Boolean).map(part => {
+        if (part.length % 2 === 0) return `${part}: numar par de litere`;
+        const ch = part[Math.floor(part.length / 2)];
+        return `${part}: ${ch}=${letterMap[ch] || "-"}`;
+      }).join("; ");
+    }
+
+    function categoryTotals(value, categories) {
+      const counts = {};
+      Object.keys(categories).forEach(k => counts[k] = 0);
+      letters(value).forEach(ch => {
+        Object.entries(categories).forEach(([name, set]) => {
+          if (set.has(ch)) counts[name] += 1;
+        });
+      });
+      return Object.entries(counts).map(([k, v]) => `${k}: ${v}`).join("; ");
+    }
+
+    function tensionDigits(s) {
+      const destiny = s.destin;
+      const vowelsNumber = reduceNumber(nameSum(s.fullName, "vowels"));
+      const consonantsNumber = reduceNumber(nameSum(s.fullName, "consonants"));
+      return `Destin - vocale: |${destiny} - ${vowelsNumber}| = ${Math.abs(destiny - vowelsNumber)}; Destin - consoane: |${destiny} - ${consonantsNumber}| = ${Math.abs(destiny - consonantsNumber)}; Vocale - consoane: |${vowelsNumber} - ${consonantsNumber}| = ${Math.abs(vowelsNumber - consonantsNumber)}`;
+    }
+
+    function cyclePreview(startYear, size, limit) {
+      const first = [];
+      for (let i = 0; i < Math.min(size, limit); i++) first.push(startYear + i);
+      return `Ciclul 1: ${first.join(", ")} ...`;
+    }
+
+    function pinnacleText(s) {
+      const y = reduceNumber(s.year);
+      const o1 = reduceNumber(s.vi + s.ve);
+      const o2 = reduceNumber(s.vi + y);
+      const o3 = reduceNumber(o1 + o2);
+      const o4 = reduceNumber(s.ve + y);
+      const p1 = Math.abs(s.ve - s.vi);
+      const p2 = Math.abs(s.vi - y);
+      const p3 = Math.abs(p1 - p2);
+      const p4 = Math.abs(s.ve - y);
+      return `Varsta P1: 36 - ${s.destin} = ${36 - s.destin}; O: ${o1}, ${o2}, ${o3}, ${o4}; P: ${p1}, ${p2}, ${p3}, ${p4}`;
+    }
+
+    function nameYearsPreview(s) {
+      const chars = letters(s.fullName);
+      if (!chars.length) return "-";
+      const pairs = [];
+      for (let i = 0; i < Math.min(12, s.yearLimit); i++) pairs.push(`${s.year + i}:${chars[i % chars.length]}`);
+      return pairs.join("; ");
+    }
+
+    function importantYearsInner(start, count) {
+      const years = [];
+      let y = start;
+      for (let i = 0; i < count; i++) {
+        y = y + reduceNumber(y);
+        years.push(y);
+      }
+      return years;
+    }
+
+    function importantYearsOuter(start, count) {
+      const years = [];
+      let y = start;
+      for (let i = 0; i < count; i++) {
+        y = y + sumDigitsRaw(y);
+        years.push(y);
+      }
+      return years;
+    }
+
+    function rangeYears(start, count, step) {
+      return Array.from({ length: count }, (_, i) => start + i * step);
+    }
+
+    function fateDestinyText(s) {
+      const base = Number(`${String(s.day).padStart(2, "0")}${String(s.month).padStart(2, "0")}`);
+      const destinyBase = Number(`${String(s.day).padStart(2, "0")}${String(s.month).padStart(2, "0")}`.replace(/0/g, "1"));
+      const destinyYear = Number(String(s.year).replace(/0/g, "1"));
+      const product = base * s.year;
+      const destinyProduct = destinyBase * destinyYear;
+      const rhythm = s.gender === "masculin" ? 10 : 12;
+      return `Soarta: ${base} x ${s.year} = ${product}; Destin: ${destinyBase} x ${destinyYear} = ${destinyProduct}; ritm varste: 0, ${rhythm}, ${rhythm * 2}, ${rhythm * 3}...`;
+    }
+
+    function fateDestinyData(s) {
+      const baseText = `${String(s.day).padStart(2, "0")}${String(s.month).padStart(2, "0")}`;
+      const destinyBaseText = baseText.replace(/0/g, "1");
+      const destinyYearText = String(s.year).replace(/0/g, "1");
+      const fateNumber = String(Number(baseText) * s.year).padStart(7, "0");
+      const destinyNumber = String(Number(destinyBaseText) * Number(destinyYearText)).padStart(7, "0");
+      const fateDigits = fateNumber.split("").map(Number);
+      const destinyDigits = destinyNumber.split("").map(Number);
+      return {
+        fateNumber,
+        destinyNumber,
+        fateDigits,
+        destinyDigits,
+        comfortFate: fateDigits.reduce((a, b) => a + b, 0) / 7,
+        comfortDestiny: destinyDigits.reduce((a, b) => a + b, 0) / 7
+      };
+    }
+
+    function importantYearsAges(startYear, endYear, mode) {
+      const items = [];
+      let current = startYear;
+      while (true) {
+        const step = mode === "interior" ? reduceNumber(current) : sumDigitsRaw(current);
+        current += step;
+        if (current > endYear) break;
+        items.push({ age: current - startYear, year: current });
+      }
+      return items;
+    }
+
+    function pinacleData(s, endAge) {
+      const yearDigit = reduceNumber(s.year);
+      const opportunities = [
+        reduceNumber(s.ve + s.vi),
+        reduceNumber(s.vi + yearDigit),
+        0,
+        reduceNumber(s.ve + yearDigit)
+      ];
+      opportunities[2] = reduceNumber(opportunities[0] + opportunities[1]);
+      const challenges = [
+        Math.abs(s.vi - s.ve),
+        Math.abs(s.vi - yearDigit),
+        0,
+        Math.abs(s.ve - yearDigit)
+      ];
+      challenges[2] = Math.abs(challenges[0] - challenges[1]);
+      const p1End = 36 - s.destin;
+      const p2End = p1End + 9;
+      const p3End = p2End + 9;
+      return [
+        { start: 0, end: p1End, label: "1", opportunity: opportunities[0], challenge: challenges[0] },
+        { start: p1End + 1, end: p2End, label: "2", opportunity: opportunities[1], challenge: challenges[1] },
+        { start: p2End + 1, end: p3End, label: "3", opportunity: opportunities[2], challenge: challenges[2] },
+        { start: p3End + 1, end: endAge, label: "4", opportunity: opportunities[3], challenge: challenges[3] }
+      ];
+    }
+
+    function renderOverlayChart(s) {
+      const target = document.getElementById("overlayChart");
+      if (!target || !s) return;
+
+      const startAge = Math.max(0, Math.min(107, Math.round(overlayRangeStart)));
+      const endAge = Math.max(startAge + 1, Math.min(108, Math.round(overlayRangeEnd)));
+      const data = fateDestinyData(s);
+      const width = 1900;
+      const height = 1080;
+      const left = 270;
+      const right = 410;
+      const top = 135;
+      const chartH = 430;
+      const chartW = width - left - right;
+      const bottom = top + chartH;
+      const paper = "#f7efe3";
+      const colors = {
+        fate: "#22b14c",
+        destiny: "#ff1616",
+        orange: "#ff9800",
+        opportunity: "#8e44ad",
+        challenge: "#1f8fbf",
+        lessons: "#9fc9de",
+        interior: "#5a4fb0",
+        exterior: "#2f7f5f",
+        cycle9: "#7f2346",
+        cycle12: "#6f9fbd",
+        pinacle: "#b9a44a"
+      };
+      const x = age => left + ((age - startAge) / (endAge - startAge)) * chartW;
+      const y = value => bottom - (value / 9) * chartH;
+      const escAttr = value => escapeHtml(String(value));
+      const text = (xp, yp, value, cls = "ov-label", anchor = "start", extra = "") =>
+        `<text class="${cls}" x="${xp.toFixed(1)}" y="${yp.toFixed(1)}" text-anchor="${anchor}"${extra}>${escAttr(value)}</text>`;
+      const line = (x1, y1, x2, y2, cls, extra = "") =>
+        `<line class="${cls}" x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}"${extra}/>`;
+      const circle = (xp, yp, r, cls) => `<circle class="${cls}" cx="${xp.toFixed(1)}" cy="${yp.toFixed(1)}" r="${r}"/>`;
+      const square = (xp, yp, size, cls) => `<rect class="${cls}" x="${(xp - size / 2).toFixed(1)}" y="${(yp - size / 2).toFixed(1)}" width="${size}" height="${size}" rx="2"/>`;
+      const downTriangle = (xp, yp, size, cls) => {
+        const h = size / 2;
+        return `<polygon class="${cls}" points="${(xp - h).toFixed(1)},${(yp - h).toFixed(1)} ${(xp + h).toFixed(1)},${(yp - h).toFixed(1)} ${xp.toFixed(1)},${(yp + h).toFixed(1)}"/>`;
+      };
+      const upTriangle = (xp, yp, size, cls) => {
+        const h = size / 2;
+        return `<polygon class="${cls}" points="${(xp - h).toFixed(1)},${(yp + h).toFixed(1)} ${(xp + h).toFixed(1)},${(yp + h).toFixed(1)} ${xp.toFixed(1)},${(yp - h).toFixed(1)}"/>`;
+      };
+      const groupClass = key => overlayVisibility[key] ? "" : " overlay-hidden";
+      const ages = [...new Set([startAge, ...Array.from({ length: Math.floor((endAge - Math.ceil(startAge / 10) * 10) / 10) + 1 }, (_, i) => Math.ceil(startAge / 10) * 10 + i * 10).filter(age => age > startAge && age < endAge), endAge])];
+      const fateValues = ages.map(age => data.fateDigits[Math.floor(age / 10) % data.fateDigits.length]);
+      const destinyValues = ages.map(age => data.destinyDigits[Math.floor(age / 10) % data.destinyDigits.length]);
+      const points = values => ages.map((age, i) => `${x(age).toFixed(1)},${y(values[i]).toFixed(1)}`).join(" ");
+      const lifeDigits = String(s.lifeProduct).split("").map(Number);
+      const lessonPoints = Array.from({ length: endAge - startAge + 1 }, (_, index) => {
+        const age = startAge + index;
+        const value = lifeDigits[age % lifeDigits.length] || 0;
+        return `${x(age).toFixed(1)},${y(value).toFixed(1)}`;
+      }).join(" ");
+      const fullEndYear = s.year + 108;
+      const interior = importantYearsAges(s.year, fullEndYear, "interior").filter(item => item.age >= startAge && item.age <= endAge);
+      const exterior = importantYearsAges(s.year, fullEndYear, "exterior").filter(item => item.age >= startAge && item.age <= endAge);
+      const pinacles = pinacleData(s, 108)
+        .filter(item => item.end >= startAge && item.start <= endAge)
+        .map(item => ({ ...item, markerAge: item.start, start: Math.max(item.start, startAge), end: Math.min(item.end, endAge) }));
+      const staggerYearLabels = (items, baseY, closeGap = 3, step = 22) => {
+        const lanes = [];
+        const positions = new Map();
+        [...items].sort((a, b) => a.age - b.age).forEach(item => {
+          let laneIndex = lanes.findIndex(lastAge => item.age - lastAge > closeGap);
+          if (laneIndex === -1) {
+            laneIndex = lanes.length;
+            lanes.push(item.age);
+          } else {
+            lanes[laneIndex] = item.age;
+          }
+          positions.set(item.age, baseY + laneIndex * step);
+        });
+        return { positions, extra: Math.max(0, (lanes.length - 1) * step) };
+      };
+      const interiorLanes = staggerYearLabels(interior, bottom + 100);
+      const exteriorLanes = staggerYearLabels(exterior, bottom + 130);
+      const yearExtra = Math.max(interiorLanes.extra, exteriorLanes.extra);
+      const markerCounts = new Map();
+      const countMarker = age => markerCounts.set(age, (markerCounts.get(age) || 0) + 1);
+      interior.forEach(item => countMarker(item.age));
+      exterior.forEach(item => countMarker(item.age));
+      for (let age = 0; age <= 108; age += 7) if (age >= startAge && age <= endAge) countMarker(age);
+      for (let age = 0; age < 108; age += 9) if (age >= startAge && age <= endAge) countMarker(age);
+      for (let age = 0; age < 108; age += 12) if (age >= startAge && age <= endAge) countMarker(age);
+      pinacles.filter(item => item.markerAge >= startAge && item.markerAge <= endAge).forEach(item => countMarker(item.markerAge));
+      const sw = age => (1.4 + Math.max(0, (markerCounts.get(age) || 1) - 1) * .65).toFixed(2);
+      const rowsY = {
+        fate: bottom + 48,
+        destiny: bottom + 70,
+        interior: bottom + 100,
+        exterior: bottom + 130,
+        c7: bottom + 197 + yearExtra,
+        c9: bottom + 262 + yearExtra,
+        c12: bottom + 327 + yearExtra,
+        pinacle: bottom + 392 + yearExtra
+      };
+      const rowLabelX = left - 36;
+      const parts = [];
+
+      parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Hartă suprapusă soartă-destin-ciclicități">`);
+      parts.push(`<style>
+        .ov-bg{fill:${paper}} .ov-title{font:800 22px Arial,sans-serif;fill:#293238}.ov-subtitle{font:800 15px Arial,sans-serif;fill:#35434a}
+        .ov-label{font:700 12px Arial,sans-serif;fill:#333}.ov-axis-y{font:800 16px Arial,sans-serif;fill:#2b2119}.ov-axis-x{font:800 16px Arial,sans-serif;fill:#2b2119}
+        .ov-axis-name{font:900 14px Arial,sans-serif;fill:#2b2119}.ov-grid{stroke:#c9d0d2;stroke-width:1;stroke-dasharray:6 4}.ov-major{stroke:#aeb7bb;stroke-width:1.4}
+        .ov-axis{stroke:#111;stroke-width:3}.ov-axis-light{stroke:#111;stroke-width:2}.ov-fate-line{fill:none;stroke:${colors.fate};stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+        .ov-destiny-line{fill:none;stroke:${colors.destiny};stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.ov-fate-dot{fill:${colors.fate};stroke:#fff;stroke-width:2}
+        .ov-destiny-dot{fill:${colors.destiny};stroke:#fff;stroke-width:2}.ov-meet-dot{fill:#fff;stroke:#333;stroke-width:2.5}.ov-comfort{stroke-width:4;stroke-dasharray:18 12;opacity:.75}
+        .ov-row{font:800 16px Arial,sans-serif}.ov-value{font:900 15px Arial,sans-serif;paint-order:stroke;stroke:#fff;stroke-width:3px}.ov-green{fill:${colors.fate}}.ov-red{fill:${colors.destiny}}
+        .ov-year-link{stroke:#7a858c;stroke-width:1.5;opacity:.62;stroke-dasharray:4 4}.ov-interior-label{font:900 11px Arial,sans-serif;fill:${colors.interior};paint-order:stroke;stroke:#fff3de;stroke-width:2px}
+        .ov-exterior-label{font:900 11px Arial,sans-serif;fill:${colors.exterior};paint-order:stroke;stroke:#fff3de;stroke-width:2px}.ov-cycle7-line{stroke:${colors.orange};opacity:.42;stroke-dasharray:7 7}
+        .ov-crisis-line{stroke:${colors.orange};opacity:.64;stroke-dasharray:6 6}.ov-cycle7-triangle{fill:${colors.orange};stroke:${colors.orange};stroke-width:2}.ov-crisis-triangle{fill:none;stroke:${colors.orange};stroke-width:2}
+        .ov-triangle-number{font:900 8.5px Arial,sans-serif;fill:#fff;dominant-baseline:middle}.ov-cycle-year{font:900 10px Arial,sans-serif;paint-order:stroke;stroke:#fff3de;stroke-width:2px}
+        .ov-cycle9-line{stroke:${colors.cycle9};opacity:.42;stroke-dasharray:4 7}.ov-cycle9-square{fill:${colors.cycle9};stroke:${colors.cycle9};stroke-width:2}.ov-cycle12-line{stroke:${colors.cycle12};opacity:.52;stroke-dasharray:4 6}
+        .ov-cycle12-square{fill:${colors.cycle12};stroke:${colors.cycle12};stroke-width:2}.ov-pinacle-line{stroke:${colors.pinacle};opacity:.62;stroke-dasharray:4 6}.ov-pinacle-square{fill:${colors.pinacle};stroke:${colors.pinacle};stroke-width:2}
+        .ov-square-number{font:900 10px Arial,sans-serif;fill:#fff;dominant-baseline:middle}.ov-opportunity-line{fill:none;stroke:${colors.opportunity};stroke-width:2.4;opacity:.82}.ov-challenge-line{fill:none;stroke:${colors.challenge};stroke-width:2.4;opacity:.78}
+        .ov-lesson-line{fill:none;stroke:${colors.lessons};stroke-width:2.2;opacity:.82;stroke-linejoin:round;stroke-linecap:round}.ov-opportunity-label{font:900 10px Arial,sans-serif;fill:${colors.opportunity};paint-order:stroke;stroke:#fff;stroke-width:2px}
+        .ov-challenge-label{font:900 10px Arial,sans-serif;fill:${colors.challenge};paint-order:stroke;stroke:#fff;stroke-width:2px}.ov-legend{font:800 13px Arial,sans-serif;fill:#222}.ov-watermark{font:800 14px Arial,sans-serif;fill:#aaa}
+      </style>`);
+      parts.push(`<rect class="ov-bg" width="${width}" height="${height}"/>`);
+      parts.push(text(95, 28, "Hartă suprapusă soartă-destin-ciclicități", "ov-title"));
+      parts.push(text(width - 160, 28, (s.fullName || "-").toUpperCase(), "ov-title", "end"));
+      parts.push(text(width - 160, 52, formatBirthDate(s), "ov-subtitle", "end"));
+
+      for (let value = 0; value <= 9; value++) {
+        const yy = y(value);
+        parts.push(line(left, yy, left + chartW, yy, value === 0 || value === 9 ? "ov-grid ov-major" : "ov-grid"));
+        parts.push(text(left - 20, yy + 5, value, "ov-axis-y", "end"));
+      }
+      ages.forEach(age => {
+        const xp = x(age);
+        parts.push(line(xp, top, xp, bottom, age % 20 === 0 ? "ov-grid ov-major" : "ov-grid"));
+        parts.push(text(xp, bottom + 24, age, "ov-axis-x", "middle"));
+      });
+      parts.push(line(left, top, left, bottom, "ov-axis"));
+      parts.push(line(left, bottom, left + chartW, bottom, "ov-axis"));
+      parts.push(line(left + chartW, top, left + chartW, bottom, "ov-axis-light"));
+      parts.push(text(left + chartW + 34, bottom + 24, "Ani", "ov-axis-name"));
+      parts.push(text(left - 68, top + chartH / 2, "Vibratie", "ov-axis-name", "middle", ` transform="rotate(-90 ${(left - 68).toFixed(1)} ${(top + chartH / 2).toFixed(1)})"`));
+
+      parts.push(`<g class="chart-layer-${overlayVisibility.comfortFate ? "on" : "off"}${groupClass("comfortFate")}">${line(left, y(data.comfortFate), left + chartW, y(data.comfortFate), "ov-comfort", ` stroke="${colors.fate}"`)}</g>`);
+      parts.push(`<g class="chart-layer-${overlayVisibility.comfortDestiny ? "on" : "off"}${groupClass("comfortDestiny")}">${line(left, y(data.comfortDestiny), left + chartW, y(data.comfortDestiny), "ov-comfort", ` stroke="${colors.destiny}"`)}</g>`);
+      parts.push(`<g class="${groupClass("lessons")}"><polyline class="ov-lesson-line" points="${lessonPoints}"/></g>`);
+
+      function stepPath(key) {
+        const commands = [];
+        pinacles.forEach((p, index) => {
+          const value = key === "opportunity" ? p.opportunity : p.challenge;
+          if (index === 0) commands.push(`M ${x(p.start).toFixed(1)} ${y(value).toFixed(1)}`);
+          commands.push(`H ${x(p.end).toFixed(1)}`);
+          if (index < pinacles.length - 1) {
+            const nextValue = key === "opportunity" ? pinacles[index + 1].opportunity : pinacles[index + 1].challenge;
+            commands.push(`V ${y(nextValue).toFixed(1)}`);
+          }
+        });
+        return commands.join(" ");
+      }
+      parts.push(`<g class="${groupClass("opportunity")}"><path class="ov-opportunity-line" d="${stepPath("opportunity")}"/></g>`);
+      parts.push(`<g class="${groupClass("challenge")}"><path class="ov-challenge-line" d="${stepPath("challenge")}"/></g>`);
+
+      const cycle7Ages = Array.from({ length: Math.floor(108 / 7) + 1 }, (_, i) => i * 7).filter(age => age >= startAge && age <= endAge);
+      const crisis7Ages = Array.from({ length: Math.floor((108 - 3.5) / 7) + 1 }, (_, i) => i * 7 + 3.5).filter(age => age >= startAge && age <= endAge);
+      const cycle9Ages = Array.from({ length: Math.ceil(108 / 9) }, (_, i) => i * 9).filter(age => age >= startAge && age <= endAge);
+      const cycle12Ages = Array.from({ length: Math.ceil(108 / 12) }, (_, i) => i * 12).filter(age => age >= startAge && age <= endAge);
+      const yearLineBottom = rowsY.exterior + 18 + yearExtra;
+
+      parts.push(`<g class="${groupClass("cycle7")}">${cycle7Ages.map(age => line(x(age), top, x(age), rowsY.c7 - 12, "ov-cycle7-line", ` stroke-width="${sw(age)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("crisis7")}">${crisis7Ages.map(age => line(x(age), top, x(age), rowsY.c7 - 12, "ov-crisis-line")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle9")}">${cycle9Ages.map(age => line(x(age), top, x(age), rowsY.c9 - 12, "ov-cycle9-line", ` stroke-width="${sw(age)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle12")}">${cycle12Ages.map(age => line(x(age), top, x(age), rowsY.c12 - 12, "ov-cycle12-line", ` stroke-width="${sw(age)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("pinacle")}">${pinacles.filter(p => p.markerAge >= startAge && p.markerAge <= endAge).map(p => line(x(p.markerAge), top, x(p.markerAge), rowsY.pinacle - 12, "ov-pinacle-line", ` stroke-width="${sw(p.markerAge)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("interior")}">${interior.map(item => line(x(item.age), top, x(item.age), yearLineBottom, "ov-year-link", ` stroke-width="${sw(item.age)}"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("exterior")}">${exterior.map(item => line(x(item.age), top, x(item.age), yearLineBottom, "ov-year-link", ` stroke-width="${sw(item.age)}"`)).join("")}</g>`);
+
+      parts.push(`<g class="${groupClass("cycle7")}">${text(rowLabelX, rowsY.c7 + 5, "Ciclu 7", "ov-row", "end")}${cycle7Ages.map(age => downTriangle(x(age), rowsY.c7, 24, "ov-cycle7-triangle") + text(x(age), rowsY.c7 - 5, Math.floor(age / 7) + 1, "ov-triangle-number", "middle") + text(x(age) - 6, rowsY.c7 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.orange}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c7 - 34).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("crisis7")}">${crisis7Ages.map(age => upTriangle(x(age), rowsY.c7, 24, "ov-crisis-triangle")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle9")}">${text(rowLabelX, rowsY.c9 + 5, "Ciclu 9", "ov-row", "end")}${cycle9Ages.map(age => square(x(age), rowsY.c9, 24, "ov-cycle9-square") + text(x(age), rowsY.c9 + .5, Math.floor(age / 9) + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c9 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle9}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c9 - 34).toFixed(1)})"`)).join("")}</g>`);
+      parts.push(`<g class="${groupClass("cycle12")}">${text(rowLabelX, rowsY.c12 + 5, "Ciclu 12", "ov-row", "end")}${cycle12Ages.map(age => square(x(age), rowsY.c12, 24, "ov-cycle12-square") + text(x(age), rowsY.c12 + .5, Math.floor(age / 12) + 1, "ov-square-number", "middle") + text(x(age) - 6, rowsY.c12 - 34, s.year + age, "ov-cycle-year", "middle", ` fill="${colors.cycle12}" transform="rotate(-90 ${(x(age) - 6).toFixed(1)} ${(rowsY.c12 - 34).toFixed(1)})"`)).join("")}</g>`);
+
+      const bridgeParts = pinacles.map((p, index) => {
+        const nextStart = index < pinacles.length - 1 ? pinacles[index + 1].start : endAge;
+        const x1 = x(p.start) + 12;
+        const x2 = x(nextStart) - (index < pinacles.length - 1 ? 12 : 0);
+        const topY = rowsY.pinacle - 6;
+        const bottomY = rowsY.pinacle + 6;
+        const opportunityTop = p.opportunity >= p.challenge;
+        const oy = opportunityTop ? topY : bottomY;
+        const cy = opportunityTop ? bottomY : topY;
+        const mid = (x1 + x2) / 2;
+        return `<line x1="${x1.toFixed(1)}" y1="${oy}" x2="${x2.toFixed(1)}" y2="${oy}" stroke="${colors.opportunity}" stroke-width="2.3"/><line x1="${x1.toFixed(1)}" y1="${cy}" x2="${x2.toFixed(1)}" y2="${cy}" stroke="${colors.challenge}" stroke-width="2.3"/>${text(mid, oy + (opportunityTop ? -11 : 15), `O${p.opportunity}`, "ov-opportunity-label", "middle")}${text(mid, cy + (opportunityTop ? 15 : -11), `P${p.challenge}`, "ov-challenge-label", "middle")}`;
+      }).join("");
+      parts.push(`<g class="${groupClass("pinacle")}">${text(rowLabelX, rowsY.pinacle + 5, "Pinaclu", "ov-row", "end")}${bridgeParts}${pinacles.filter(p => p.markerAge >= startAge && p.markerAge <= endAge).map(p => square(x(p.markerAge), rowsY.pinacle, 24, "ov-pinacle-square") + text(x(p.markerAge), rowsY.pinacle + .5, p.label, "ov-square-number", "middle") + text(x(p.markerAge) - 6, rowsY.pinacle - 34, s.year + p.markerAge, "ov-cycle-year", "middle", ` fill="${colors.pinacle}" transform="rotate(-90 ${(x(p.markerAge) - 6).toFixed(1)} ${(rowsY.pinacle - 34).toFixed(1)})"`)).join("")}</g>`);
+
+      parts.push(`<g class="${groupClass("exterior")}">${text(rowLabelX, rowsY.exterior, "Ani exterior", "ov-row ov-exterior-label", "end")}${exterior.map(item => {
+        const labelY = exteriorLanes.positions.get(item.age);
+        return text(x(item.age) + 12, labelY, item.year, "ov-exterior-label", "middle", ` transform="rotate(-90 ${(x(item.age) + 12).toFixed(1)} ${labelY.toFixed(1)})"`);
+      }).join("")}</g>`);
+      parts.push(`<g class="${groupClass("interior")}">${text(rowLabelX, rowsY.interior, "Ani interior", "ov-row ov-interior-label", "end")}${interior.map(item => {
+        const labelY = interiorLanes.positions.get(item.age);
+        return text(x(item.age) - 5, labelY, item.year, "ov-interior-label", "middle", ` transform="rotate(-90 ${(x(item.age) - 5).toFixed(1)} ${labelY.toFixed(1)})"`);
+      }).join("")}</g>`);
+      parts.push(`<g class="${groupClass("fate")}"><polyline class="ov-fate-line" points="${points(fateValues)}"/>${ages.map((age, i) => circle(x(age), y(fateValues[i]), 7, "ov-fate-dot")).join("")}</g>`);
+      parts.push(`<g class="${groupClass("destiny")}"><polyline class="ov-destiny-line" points="${points(destinyValues)}"/>${ages.map((age, i) => circle(x(age), y(destinyValues[i]), 7, "ov-destiny-dot")).join("")}</g>`);
+      parts.push(text(rowLabelX, rowsY.fate, "Soarta", "ov-row ov-green", "end"));
+      parts.push(text(rowLabelX, rowsY.destiny, "Destin", "ov-row ov-red", "end"));
+      ages.slice(0, -1).forEach((age, i) => {
+        const midAge = (age + ages[i + 1]) / 2;
+        parts.push(text(x(midAge), rowsY.fate, fateValues[i], "ov-value ov-green", "middle"));
+        parts.push(text(x(midAge), rowsY.destiny, destinyValues[i], "ov-value ov-red", "middle"));
+      });
+
+      const legendX = left + chartW + 120;
+      const legendY = 390;
+      const legendItems = [
+        ["fate", colors.fate, `Soarta ${data.fateNumber}`, "line"],
+        ["destiny", colors.destiny, `Destin ${data.destinyNumber}`, "line"],
+        ["comfortFate", colors.fate, `Zona confort Soarta ${data.comfortFate.toFixed(2).replace(".", ",")}`, "dash"],
+        ["comfortDestiny", colors.destiny, `Zona confort Destin ${data.comfortDestiny.toFixed(2).replace(".", ",")}`, "dash"],
+        ["opportunity", colors.opportunity, `Oportunitate ${pinacles.map(p => p.opportunity).join("")}`, "line"],
+        ["challenge", colors.challenge, `Provocare ${pinacles.map(p => p.challenge).join("")}`, "line"],
+        ["lessons", colors.lessons, `Lectii de viata ${s.lifeProduct}`, "line"],
+        ["interior", colors.interior, "An interior", "dash"],
+        ["exterior", colors.exterior, "An exterior", "dash"],
+        ["cycle7", colors.orange, "Ciclu 7", "down"],
+        ["crisis7", colors.orange, "Criza ciclu 7", "up"],
+        ["cycle9", colors.cycle9, "Ciclu 9", "square"],
+        ["cycle12", colors.cycle12, "Ciclu 12", "square"],
+        ["pinacle", colors.pinacle, "Pinaclu", "square"]
+      ];
+      parts.push(text(legendX, legendY, "Legenda", "ov-legend"));
+      legendItems.forEach(([key, color, label, kind], i) => {
+        const yy = legendY + 24 + i * 22;
+        const offClass = overlayVisibility[key] ? "" : " is-off";
+        let symbol = "";
+        if (kind === "line" || kind === "dash") symbol = `<line x1="${legendX}" y1="${yy}" x2="${legendX + 24}" y2="${yy}" stroke="${color}" stroke-width="3"${kind === "dash" ? ' stroke-dasharray="8 5"' : ""}/>`;
+        if (kind === "down") symbol = downTriangle(legendX + 12, yy - 1, 24, "").replace('class=""', `fill="${color}" stroke="${color}" stroke-width="2"`);
+        if (kind === "up") symbol = upTriangle(legendX + 12, yy - 1, 24, "").replace('class=""', `fill="none" stroke="${color}" stroke-width="2"`);
+        if (kind === "square") symbol = `<rect x="${legendX}" y="${yy - 12}" width="24" height="24" rx="2" fill="${color}" stroke="${color}" stroke-width="2"/>`;
+        parts.push(`<g class="overlay-legend-item${offClass}" data-layer="${key}" tabindex="0" role="button" aria-pressed="${overlayVisibility[key] ? "true" : "false"}">${symbol}${text(legendX + 30, yy + 4, label, "ov-legend")}</g>`);
+      });
+      const rangeY = legendY + 24 + legendItems.length * 22 + 14;
+      parts.push(`<foreignObject x="${legendX}" y="${rangeY}" width="300" height="54"><div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:center;gap:7px;border-top:1px solid #c9c0b3;padding-top:9px;color:#222;font:800 13px Arial,sans-serif;white-space:nowrap"><span>Interval</span><input class="overlay-range-input" data-range="start" type="number" min="0" max="108" step="1" value="${startAge}" aria-label="Inceput interval" style="width:48px;height:25px;padding:2px 4px;text-align:center;border:1px solid #b9aa96;border-radius:4px;background:#fffaf0;font:800 12px Arial,sans-serif"/><span>-</span><input class="overlay-range-input" data-range="end" type="number" min="0" max="108" step="1" value="${endAge}" aria-label="Final interval" style="width:48px;height:25px;padding:2px 4px;text-align:center;border:1px solid #b9aa96;border-radius:4px;background:#fffaf0;font:800 12px Arial,sans-serif"/></div></foreignObject>`);
+
+      parts.push(text(width - 20, height - 15, "Atlas Numerologie", "ov-watermark", "end"));
+      parts.push("</svg>");
+      target.innerHTML = parts.join("");
+      target.querySelectorAll(".overlay-legend-item").forEach(item => {
+        const toggle = () => {
+          overlayVisibility[item.dataset.layer] = !overlayVisibility[item.dataset.layer];
+          renderOverlayChart(parseState());
+        };
+        item.addEventListener("click", toggle);
+        item.addEventListener("keydown", event => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            toggle();
+          }
+        });
+      });
+      const rangeStartInput = target.querySelector('[data-range="start"]');
+      const rangeEndInput = target.querySelector('[data-range="end"]');
+      [rangeStartInput, rangeEndInput].forEach(input => input.addEventListener("change", () => updateOverlayRange(rangeStartInput, rangeEndInput)));
+    }
+
+    function professionalText(s) {
+      return `Obstacole/ajutoare: ${s.cdRaw} - 22 = ${s.professionalObstacle}; aplicabilitate: ${s.month} + ${sumDigitsRaw(s.year)} - 22 = ${s.professionalArcana}`;
+    }
+
+    function esotericText(s) {
+      const compact = Number(`${s.day}${s.month}${s.year}`);
+      const quotient = Math.floor(compact / 7);
+      const remainder = compact % 7;
+      return remainder === 0
+        ? `${compact} / 7 = ${quotient} exact; cod special 0`
+        : `${compact} / 7 = ${quotient}, rest ${remainder}; prima cifra dupa virgula = ${s.esotericCode}`;
+    }
+
+    function spiritText(s) {
+      return `CM = 55 - ${s.day} - (2 x ${s.month}) = ${s.spiritCode}; varsta la nastere = (${s.spiritCode} - 1) x 189 = ${s.spiritAgeAtBirth}`;
+    }
+
+    function successDirectionsText(s) {
+      const formula = s.gender === "masculin"
+        ? `10 - ${s.vcv} = ${10 - s.vcv}`
+        : `5 + ${s.vcv} = ${5 + s.vcv}`;
+      const d = s.successDirections;
+      return `${formula}; numar energetic ${s.energyNumber}; succes ${d.succes}; relatii ${d.relatii}; sanatate ${d.sanatate}; crestere ${d.crestere}`;
+    }
+
+    function financialTriangleText(s) {
+      const [z, l, a, d] = s.financialTriangle;
+      return `Z=${z}; L=${l}; A=${a}; D=${z}+${l}+${a} -> ${d}; baza ${s.financialTriangle.join("")}`;
+    }
+
+    function goldenSquareText(s) {
+      const order = [4, 9, 2, 3, 5, 7, 8, 1, 6];
+      return order.map(box => `${box}:${s.goldenSquare[box]}`).join("; ") + `; centru ${s.goldenSquare[5]}; suma control ${s.goldenSquareSum}`;
+    }
+
+    function renderSummary(s) {
+    }
+
+    function renderDashboard(s) {
+      if (!s) return;
+      document.getElementById("dashboardMatrix").innerHTML = matrixComparisonHtml(s);
+      renderElementsVisual(s);
+      renderWellbeingVisual(s);
+      renderOverlayChart(s);
+    }
+
+    function matrixComparisonHtml(s) {
+      return `
+        <div class="matrix-compare">
+          <div class="matrix-block">
+            <h3>Data nașterii: ${formatBirthDate(s)}</h3>
+            <div class="matrix-code">${birthMatrixCode(s)}</div>
+            ${matrixHtmlLarge(s.matrix, true)}
+          </div>
+          <div class="matrix-block">
+            <h3>Nume: ${escapeHtml(s.fullName || "-")}</h3>
+            <div class="matrix-code">${nameMatrixCode(s)}</div>
+            ${matrixHtmlLarge(nameMatrix(s.fullName), true)}
+          </div>
+        </div>
+      `;
+    }
+
+    function elementCountsFromMatrix(matrix) {
+      return {
+        foc: [1, 5, 9].reduce((sum, digit) => sum + matrix[digit].length, 0),
+        pamant: [4, 8].reduce((sum, digit) => sum + matrix[digit].length, 0),
+        apa: [2, 6].reduce((sum, digit) => sum + matrix[digit].length, 0),
+        aer: [3, 7].reduce((sum, digit) => sum + matrix[digit].length, 0)
+      };
+    }
+
+    function elementTemperamentText(counts) {
+      const temperaments = { foc: "coleric", pamant: "melancolic", apa: "flegmatic", aer: "sangvin" };
+      const entries = Object.entries(counts);
+      const max = Math.max(...entries.map(([, value]) => value));
+      if (max <= 0) return "Temperament: fara elemente active";
+      const dominant = entries.filter(([, value]) => value === max).map(([element]) => element);
+      if (dominant.length === 1) {
+        return `Temperament: ${temperaments[dominant[0]]}`;
+      }
+      return `Temperament mixt: ${dominant.map(element => temperaments[element]).join("-")}`;
+    }
+
+    function renderElementsVisual(s) {
+      const matrix = elementsMatrixMode === "name" ? nameMatrix(s.fullName) : s.matrix;
+      const counts = elementCountsFromMatrix(matrix);
+      const items = [
+        { label: "Foc", value: counts.foc, className: "element-foc", order: 0 },
+        { label: "Pământ", value: counts.pamant, className: "element-pamant", order: 1 },
+        { label: "Apa", value: counts.apa, className: "element-apa", order: 2 },
+        { label: "Aer", value: counts.aer, className: "element-aer", order: 3 }
+      ];
+      const rows = elementsSortMode === "quantity"
+        ? [...items].sort((a, b) => b.value - a.value || a.order - b.order)
+        : items;
+      document.getElementById("elementsTemperament").textContent = elementTemperamentText(counts);
+      setActive("elementsBirthMatrixMode", elementsMatrixMode === "birth");
+      setActive("elementsNameMatrixMode", elementsMatrixMode === "name");
+      setActive("elementsOrderMode", elementsSortMode === "element");
+      setActive("elementsQuantityMode", elementsSortMode === "quantity");
+      const max = Math.max(1, ...rows.map(item => item.value));
+      document.getElementById("elementsBars").innerHTML = rows.map(item => {
+        const width = item.value <= 0 ? 0 : Math.max(3, Math.round((item.value / max) * 100));
+        return `<div class="bar-row"><div class="wellbeing-label"><span class="element-dot ${item.className}" aria-hidden="true"></span>${item.label}</div><div class="bar-track"><div class="element-bar-fill ${item.className}" style="width:${width}%"></div></div><strong>${item.value}</strong></div>`;
+      }).join("");
+    }
+
+    function formatBirthDate(s) {
+      return `${String(s.day).padStart(2, "0")}.${String(s.month).padStart(2, "0")}.${s.year}`;
+    }
+
+    function birthMatrixCode(s) {
+      const dayCode = String(s.day).padStart(2, "0");
+      const monthCode = String(s.month).padStart(2, "0");
+      const yearCode = String(s.year);
+      const n1 = s.cdRaw;
+      const n2 = s.destin;
+      const firstNonZeroDayDigit = digitsOf(s.day).find(digit => digit !== 0) || 0;
+      const n3 = n1 - (2 * firstNonZeroDayDigit);
+      const n4 = reduceNumber(n3);
+      return `${dayCode}.${monthCode}.${yearCode}.${n1}.${n2}.${n3}.${n4}`;
+    }
+
+    function nameMatrixCode(s) {
+      const expression = expressionNumber(s.fullName);
+      const componentCodes = nameParts(s.fullName).map(part => nameValues(part).join(""));
+      return [...componentCodes, expression].filter(Boolean).join(".");
+    }
+
+    function matrixHtmlLarge(matrix, showOptimal = false) {
+      const order = [1, 4, 7, 2, 5, 8, 3, 6, 9];
+      return `
+        <div class="matrix matrix-large">
+          ${order.map(k => matrixCellHtml(k, matrix[k], showOptimal)).join("")}
+        </div>
+      `;
+    }
+
+    function matrixCellHtml(digit, values, showOptimal = false) {
+      const count = values.length;
+      return `<div class="${elementClass(digit, count)}">${showOptimal ? optimalMatrixHintHtml(digit) : ""}<span class="matrix-value">${values.join("") || "0"}</span>${shapeMarkerHtml(count)}</div>`;
+    }
+
+    function optimalMatrixHintHtml(digit) {
+      const count = digit <= 3 ? 3 : digit <= 6 ? 2 : 1;
+      return `<span class="matrix-optimal" title="Valoare optima">${String(digit).repeat(count)}</span>`;
+    }
+
+    function shapeMarkerHtml(count) {
+      if (count <= 0) return "";
+      if (count === 2) return '<span class="shape-marker shape-2" aria-hidden="true"><i></i></span>';
+      if (count <= 4) return `<span class="shape-marker shape-${count}" aria-hidden="true"></span>`;
+      return '<span class="shape-marker shape-many" aria-hidden="true"></span>';
+    }
+
+    function elementName(digit) {
+      if (digit === 1 || digit === 5 || digit === 9) return "Foc";
+      if (digit === 4 || digit === 8) return "Pamant";
+      if (digit === 2 || digit === 6) return "Apa";
+      if (digit === 3 || digit === 7) return "Aer";
+      return "Centru";
+    }
+
+    function elementClass(digit, count) {
+      if (!count) return "element-gol";
+      if (digit === 1 || digit === 5 || digit === 9) return "element-foc";
+      if (digit === 4 || digit === 8) return "element-pamant";
+      if (digit === 2 || digit === 6) return "element-apa";
+      if (digit === 3 || digit === 7) return "element-aer";
+      return "element-gol";
+    }
+
+    function renderBars(targetId, items) {
+      const max = Math.max(1, ...items.map(([, value]) => Number(value) || 0));
+      document.getElementById(targetId).innerHTML = items.map(([label, value]) => {
+        const numericValue = Number(value) || 0;
+        const width = numericValue <= 0 ? 0 : Math.max(3, Math.round((numericValue / max) * 100));
+        return `<div class="bar-row"><div>${label}</div><div class="bar-track"><div class="bar-fill" style="width:${width}%"></div></div><strong>${value}</strong></div>`;
+      }).join("");
+    }
+
+    function setActive(id, active) {
+      const el = document.getElementById(id);
+      if (el) el.classList.toggle("active", active);
+    }
+
+    function renderWellbeingVisual(s) {
+      const rows = sortedWellbeingRows(s);
+      const container = document.getElementById("wellbeingVisual");
+      document.getElementById("wellbeingBarsMode").classList.toggle("active", wellbeingMode === "bars");
+      document.getElementById("wellbeingPyramidMode").classList.toggle("active", wellbeingMode === "pyramid");
+      setActive("wellbeingAllMode", wellbeingContentMode === "all");
+      setActive("wellbeingBoxesOnlyMode", wellbeingContentMode === "boxes");
+      setActive("wellbeingVectorsOnlyMode", wellbeingContentMode === "vectors");
+      setActive("wellbeingCodeMode", wellbeingSortMode === "code");
+      setActive("wellbeingValueSortMode", wellbeingSortMode === "value");
+      setActive("wellbeingQuantityMeasureMode", wellbeingMeasureMode === "quantity");
+      setActive("wellbeingValueMeasureMode", wellbeingMeasureMode === "value");
+
+      if (wellbeingMode === "bars") {
+        container.innerHTML = `<div class="bars" id="wellbeingBarsInner"></div>${wellbeingLegendHtml()}`;
+        renderBars("wellbeingBarsInner", rows.map(item => [wellbeingLabelHtml(item), item.display]));
+        return;
+      }
+
+      const pyramidRows = wellbeingSortMode === "value" ? [...rows].reverse() : rows;
+      const max = Math.max(1, ...pyramidRows.map(item => item.display));
+      container.innerHTML = `
+        <div class="pyramid">
+          ${pyramidRows.map(item => {
+            const width = Math.max(0, Math.round((item.display / max) * 100));
+            return `<div class="pyramid-level"><div>${wellbeingLabelHtml(item)}</div><div class="pyramid-track"><div class="pyramid-fill" style="width:${width}%"></div></div><strong>${item.display}</strong></div>`;
+          }).join("")}
+        </div>
+        ${wellbeingLegendHtml()}
+      `;
+    }
+
+    function wellbeingLabelHtml(item) {
+      if (item.type === "box") {
+        const digit = Number(item.code);
+        const className = elementClass(digit, 1);
+        return `<span class="wellbeing-label"><span class="element-dot ${className}" aria-hidden="true"></span>Căsuța ${digit}</span>`;
+      }
+      return `<span class="wellbeing-label vector-label">${item.name}</span>`;
+    }
+
+    function wellbeingLegendHtml() {
+      return elementLegendHtml("wellbeing-legend");
+    }
+
+    function elementLegendHtml(className) {
+      return `
+        <div class="${className}" aria-label="Legenda elemente">
+          <span><i class="element-dot element-foc"></i>Foc</span>
+          <span><i class="element-dot element-pamant"></i>Pământ</span>
+          <span><i class="element-dot element-apa"></i>Apa</span>
+          <span><i class="element-dot element-aer"></i>Aer</span>
+        </div>
+      `;
+    }
+
+    function vectorLabel(code) {
+      const labels = {
+        "123": "123 Energie",
+        "456": "456 Voința",
+        "789": "789 Creativitate",
+        "147": "147 Spiritualitate",
+        "258": "258 Social",
+        "369": "369 Material",
+        "159": "159 Cariera",
+        "357": "357 Scopuri"
+      };
+      return labels[code] || code;
+    }
+
+    function renderTable() {
+      const s = parseState();
+      if (!s) return;
+      renderSummary(s);
+      renderDashboard(s);
+    }
+
+    function escapeHtml(value) {
+      return value.replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[ch]));
+    }
+
+    document.getElementById("inputForm").addEventListener("submit", async event => {
+      event.preventDefault();
+      const canSave = upsertCurrentPerson();
+      renderTable();
+      if (canSave) {
+        await savePeopleToFile();
+        hideInputPanel();
+      }
+    });
+    document.getElementById("loadPersonBtn").addEventListener("click", async () => {
+      if (!savedPeople.length) await loadPeople();
+      const index = document.getElementById("personSelect").value;
+      applyPerson(savedPeople[Number(index)]);
+    });
+    document.getElementById("personSelect").addEventListener("change", event => {
+      applyPerson(savedPeople[Number(event.target.value)]);
+    });
+    document.getElementById("newPersonBtn").addEventListener("click", () => {
+      clearPersonInputs();
+      document.getElementById("personSelect").value = "";
+      setPersonStatus("");
+      showInputPanel();
+    });
+    document.getElementById("cancelInputBtn").addEventListener("click", () => {
+      hideInputPanel();
+      setPersonStatus("");
+    });
+    document.getElementById("calculationsToggle").addEventListener("click", () => {
+      const expanded = document.getElementById("calculationsToggle").getAttribute("aria-expanded") === "true";
+      setCollapsiblePanel("calculationsToggle", "calculationsBody", !expanded);
+    });
+    document.getElementById("calculationsHeader").addEventListener("click", event => {
+      if (event.target.closest("button")) return;
+      const expanded = document.getElementById("calculationsToggle").getAttribute("aria-expanded") === "true";
+      setCollapsiblePanel("calculationsToggle", "calculationsBody", !expanded);
+    });
+    document.getElementById("cyclesToggle").addEventListener("click", () => {
+      const expanded = document.getElementById("cyclesToggle").getAttribute("aria-expanded") === "true";
+      setCollapsiblePanel("cyclesToggle", "cyclesBody", !expanded);
+    });
+    document.getElementById("cyclesHeader").addEventListener("click", event => {
+      if (event.target.closest("button")) return;
+      const expanded = document.getElementById("cyclesToggle").getAttribute("aria-expanded") === "true";
+      setCollapsiblePanel("cyclesToggle", "cyclesBody", !expanded);
+    });
+    document.getElementById("partnerToggle").addEventListener("click", () => {
+      const isActive = document.getElementById("partnerToggle").getAttribute("aria-expanded") === "true";
+      setPartnerFieldsActive(!isActive);
+    });
+    document.getElementById("wellbeingBarsMode").addEventListener("click", () => {
+      wellbeingMode = "bars";
+      renderDashboard(parseState());
+    });
+    document.getElementById("wellbeingPyramidMode").addEventListener("click", () => {
+      wellbeingMode = "pyramid";
+      renderDashboard(parseState());
+    });
+    document.getElementById("wellbeingAllMode").addEventListener("click", () => {
+      wellbeingContentMode = "all";
+      renderDashboard(parseState());
+    });
+    document.getElementById("wellbeingBoxesOnlyMode").addEventListener("click", () => {
+      wellbeingContentMode = "boxes";
+      renderDashboard(parseState());
+    });
+    document.getElementById("wellbeingVectorsOnlyMode").addEventListener("click", () => {
+      wellbeingContentMode = "vectors";
+      renderDashboard(parseState());
+    });
+    document.getElementById("wellbeingCodeMode").addEventListener("click", () => {
+      wellbeingSortMode = "code";
+      renderDashboard(parseState());
+    });
+    document.getElementById("wellbeingValueSortMode").addEventListener("click", () => {
+      wellbeingSortMode = "value";
+      renderDashboard(parseState());
+    });
+    document.getElementById("wellbeingQuantityMeasureMode").addEventListener("click", () => {
+      wellbeingMeasureMode = "quantity";
+      renderDashboard(parseState());
+    });
+    document.getElementById("wellbeingValueMeasureMode").addEventListener("click", () => {
+      wellbeingMeasureMode = "value";
+      renderDashboard(parseState());
+    });
+    document.getElementById("elementsBirthMatrixMode").addEventListener("click", () => {
+      elementsMatrixMode = "birth";
+      renderDashboard(parseState());
+    });
+    document.getElementById("elementsNameMatrixMode").addEventListener("click", () => {
+      elementsMatrixMode = "name";
+      renderDashboard(parseState());
+    });
+    document.getElementById("elementsOrderMode").addEventListener("click", () => {
+      elementsSortMode = "element";
+      renderDashboard(parseState());
+    });
+    document.getElementById("elementsQuantityMode").addEventListener("click", () => {
+      elementsSortMode = "quantity";
+      renderDashboard(parseState());
+    });
+    function updateOverlayRange(startInput, endInput) {
+      const requestedStart = Number(startInput.value);
+      const requestedEnd = Number(endInput.value);
+      overlayRangeStart = Number.isFinite(requestedStart) ? requestedStart : 0;
+      overlayRangeEnd = Number.isFinite(requestedEnd) ? requestedEnd : 108;
+      overlayRangeStart = Math.max(0, Math.min(107, Math.round(overlayRangeStart)));
+      overlayRangeEnd = Math.max(overlayRangeStart + 1, Math.min(108, Math.round(overlayRangeEnd)));
+      startInput.value = overlayRangeStart;
+      endInput.value = overlayRangeEnd;
+      renderOverlayChart(parseState());
+    }
+    document.querySelectorAll("input, select, textarea#workNotes").forEach(el => {
+      el.addEventListener("change", renderTable);
+    });
+
+    setPartnerFieldsActive(false);
+    setCollapsiblePanel("calculationsToggle", "calculationsBody", true);
+    setCollapsiblePanel("cyclesToggle", "cyclesBody", true);
+    loadPeople();
+    renderTable();
+  </script>
+</body>
+</html>

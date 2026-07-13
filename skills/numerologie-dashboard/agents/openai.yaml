@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dashboard Numerologie"
+  short_description: "Administreaza persoane, lucrari si manifestele Agent Dash"
+  default_prompt: "Construieste sau verifica dashboardul numerologic si fluxul lucrarilor Agent Dash."
