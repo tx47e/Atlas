@@ -477,7 +477,7 @@ def fate_destiny_rows(row_label_x):
     fate_y = CHART_BOTTOM + 48
     destiny_y = CHART_BOTTOM + 70
     parts = [
-        text(row_label_x, fate_y, "Soartă", "row-label green-text", "end"),
+        text(row_label_x, fate_y, "Soarta", "row-label green-text", "end"),
         text(row_label_x, destiny_y, "Destin", "row-label red-text", "end"),
     ]
     for index, start_age in enumerate(intervals):
@@ -640,7 +640,7 @@ def main():
     parts.append(life_lesson_line())
     parts.append(pinacle_lines(pinacles))
     parts.append(text(LEFT + CHART_W + 34, CHART_BOTTOM + 24, "Ani", "axis-name", "start"))
-    parts.append(text(LEFT - 68, TOP + CHART_H / 2, "Vibrație", "axis-name", "middle", f' transform="rotate(-90 {LEFT - 68:.1f} {TOP + CHART_H / 2:.1f})"'))
+    parts.append(text(LEFT - 68, TOP + CHART_H / 2, "Vibratie", "axis-name", "middle", f' transform="rotate(-90 {LEFT - 68:.1f} {TOP + CHART_H / 2:.1f})"'))
 
     # Interior/exterior years above the cycle pills.
     row_label_x = LEFT - 36
@@ -704,22 +704,6 @@ def main():
     legend_y = 390
     parts.append(text(legend_x, legend_y, "Legenda", "legend", "start"))
     legend_items = [
-        (GREEN, "Soarta 3800196"),
-        (RED, "Destin 3820176"),
-        (GREEN, "Zona confort Soarta 3,86"),
-        (RED, "Zona confort Destin 3,86"),
-        (OPPORTUNITY, "Oportunitate " + "".join(str(pinacle[3]) for pinacle in pinacles)),
-        (BLUE, "Provocare " + "".join(str(pinacle[4]) for pinacle in pinacles)),
-        (LESSON, "Lecții de viață 75924"),
-        (INTERIOR_YEAR, "An interior"),
-        (EXTERIOR_YEAR, "An exterior"),
-        (ORANGE, "Ciclu 7"),
-        (ORANGE, "Criză ciclu 7"),
-        (CYCLE9, "Ciclu 9"),
-        (CYCLE12, "Ciclu 12"),
-        (PINACLE, "Pinaclu"),
-    ]
-    legend_items = [
         (GREEN, f"Soarta {DATA['fate_number']}"),
         (RED, f"Destin {DATA['destiny_number']}"),
         (GREEN, f"Zona confort Soarta {DATA['comfort_fate']:.2f}"),
@@ -744,13 +728,8 @@ def main():
             parts.append(f'<line x1="{legend_x}" y1="{yy}" x2="{legend_x + 24}" y2="{yy}" stroke="{color}" stroke-width="3"{dash}/>')
         elif label == "Criza ciclu 7":
             parts.append(f'<polygon points="{up_triangle_points(legend_x + 12, yy - 1, 24)}" fill="none" stroke="{ORANGE}" stroke-width="2"/>')
-        elif label.startswith("Lecții") or label in ("Soarta 3800196", "Destin 3820176", "Oportunitate", "Provocare", "An interior", "An exterior"):
-            dash = ' stroke-dasharray="4 4"' if label in ("An interior", "An exterior") else ""
-            parts.append(f'<line x1="{legend_x}" y1="{yy}" x2="{legend_x + 24}" y2="{yy}" stroke="{color}" stroke-width="3"{dash}/>')
         elif label == "Ciclu 7":
             parts.append(f'<polygon points="{down_triangle_points(legend_x + 12, yy - 1, 24)}" fill="{ORANGE}" stroke="{ORANGE}" stroke-width="2"/>')
-        elif label == "Criză ciclu 7":
-            parts.append(f'<polygon points="{up_triangle_points(legend_x + 12, yy - 1, 24)}" fill="none" stroke="{ORANGE}" stroke-width="2"/>')
         elif label == "Ciclu 9":
             parts.append(f'<rect x="{legend_x}" y="{yy - 12}" width="24" height="24" rx="2" fill="{CYCLE9}" stroke="{CYCLE9}" stroke-width="2"/>')
         elif label == "Ciclu 12":
