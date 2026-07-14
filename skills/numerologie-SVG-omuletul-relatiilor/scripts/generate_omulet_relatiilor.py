@@ -3,11 +3,63 @@
 from __future__ import annotations
 import argparse
 from collections import Counter
+import os
 from pathlib import Path
+import shutil
+import struct
+import subprocess
+import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 POSITIONS = {0:(318,328),1:(442,180),2:(592,328),3:(700,405),4:(610,498),5:(650,680),6:(450,625),7:(250,680),8:(285,498),9:(151,380)}
 LABEL_FONT_WEIGHT = "800"
+PNG_WIDTH = 900
+PNG_HEIGHT = 840
+
+
+def browser_executable() -> Path:
+    candidates = [
+        os.environ.get("CHROME_PATH"),
+        shutil.which("chrome"),
+        shutil.which("google-chrome"),
+        shutil.which("chromium"),
+        shutil.which("msedge"),
+        r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+        r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+        r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+        r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
+    ]
+    for candidate in candidates:
+        if candidate and Path(candidate).is_file():
+            return Path(candidate)
+    raise RuntimeError("Chrome, Chromium sau Edge nu a fost gasit pentru exportul PNG.")
+
+
+def export_png(svg_path: Path, png_path: Path) -> None:
+    png_path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix="atlas-omulet-png-") as profile:
+        command = [
+            str(browser_executable()),
+            "--headless=new",
+            "--disable-gpu",
+            "--hide-scrollbars",
+            "--force-device-scale-factor=1",
+            f"--window-size={PNG_WIDTH},{PNG_HEIGHT}",
+            f"--user-data-dir={profile}",
+            f"--screenshot={png_path.resolve()}",
+            svg_path.resolve().as_uri(),
+        ]
+        subprocess.run(command, check=True, capture_output=True, text=True)
+
+    with png_path.open("rb") as stream:
+        header = stream.read(24)
+    if header[:8] != b"\x89PNG\r\n\x1a\n" or len(header) < 24:
+        raise RuntimeError(f"Export PNG invalid: {png_path}")
+    width, height = struct.unpack(">II", header[16:24])
+    if (width, height) != (PNG_WIDTH, PNG_HEIGHT):
+        raise RuntimeError(
+            f"Dimensiuni PNG invalide: {width}x{height}; asteptat {PNG_WIDTH}x{PNG_HEIGHT}."
+        )
 
 def digits(value: str) -> list[int]:
     return [int(char) for char in value if char.isdigit()]
@@ -23,6 +75,7 @@ def main() -> int:
     parser.add_argument("--name-a", required=True); parser.add_argument("--birth-date-a", required=True)
     parser.add_argument("--name-b", required=True); parser.add_argument("--birth-date-b", required=True)
     parser.add_argument("--output", required=True, type=Path)
+    parser.add_argument("--png-output", type=Path, help="Implicit: aceeasi cale ca SVG-ul, cu extensia .png")
     args = parser.parse_args()
     left, right = Counter(digits(args.birth_date_a)), Counter(digits(args.birth_date_b))
     va, vb = reduce_day(args.birth_date_a), reduce_day(args.birth_date_b)
@@ -46,5 +99,8 @@ def main() -> int:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(svg, encoding="utf-8", newline="\n")
     print(f"Generated: {args.output}")
+    png_output = args.png_output or args.output.with_suffix(".png")
+    export_png(args.output, png_output)
+    print(f"Generated: {png_output} ({PNG_WIDTH}x{PNG_HEIGHT})")
 
 if __name__ == "__main__": main()

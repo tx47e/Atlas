@@ -291,6 +291,9 @@ Interpretare:
 
 #### 1.5.1. Matricea datei de nastere
 
+Chenarul calculului foloseste randuri distincte pentru data compacta, `N1`,
+`N2`, `N3`, `N4` si sirul complet.
+
 ```text
 {{matricea_datei_de_nastere}}
 ```
@@ -324,9 +327,10 @@ Interpretare:
 #### 1.5.6. Vectorii
 
 Nota de redactare: coloana finala se numeste `Interpretare`, nu `Descriere si
-interpretare`. Pentru fiecare vector se precizeaza daca este plin sau incomplet.
-Daca este incomplet, interpretarea numeste casuta lipsa si tema ei concreta
-din matrice.
+interpretare`. Pentru fiecare vector se precizeaza casutele prezente si lipsa,
+dominantele si contributia lor numerica, daca este plin sau incomplet si felul
+in care compozitia produce valoarea totala. Pentru un vector incomplet,
+interpretarea numeste fiecare casuta lipsa si tema ei concreta din matrice.
 
 | Vector | Denumire | Cifre | Valoare | Interpretare |
 | --- | --- | --- | --- | --- |
@@ -376,14 +380,23 @@ de sus in jos si de la stanga la dreapta; vezi
 
 #### 1.5.11. Comparatia cu optimul
 
+Compara toate cele noua casute si toti cei opt vectori. Pentru casute foloseste
+tabelul complet:
+
+| Casuta | Cantitate casuta | Valoare casuta | Cantitate optima | Valoare optima | Diferenta | Citire |
+| --- | --- | --- | --- | --- | --- | --- |
+| {{casuta_optim}} | {{cantitate_casuta}} | {{valoare_casuta}} | {{cantitate_optima}} | {{valoare_optima}} | {{diferenta_optim}} | {{citire_optim}} |
+
 {{comparatia_cu_optimul}}
 
 #### 1.5.12. Scara bunastarii
 
-Scara bunastarii se ordoneaza descrescator si include atat vectorii, cat si
-casutele. In HTML se recomanda grafic cu bare raportate la valoarea maxima
-din scara. Pentru casute se afiseaza o bulina cu elementul aferent, iar sub
-grafic se adauga legenda: Foc, Pamant, Apa, Aer.
+Scara bunastarii este subcapitol separat dupa tendinte, fixatie si analogia
+cai-trasura-vizitiu. Include exact noua casute si opt vectori, ordonate
+descrescator dupa valoare; valorile egale se grupeaza logic, iar valorile zero
+raman la baza. In HTML foloseste bare orizontale raportate la valoarea maxima.
+Pentru casute afiseaza o bulina cu elementul aferent, iar sub grafic adauga
+legenda: Foc, Pamant, Apa, Aer.
 
 | Pozitie | Denumire | Cantitate | Formula | Valoare | Interpretare |
 | --- | --- | --- | --- | --- | --- |
@@ -392,6 +405,10 @@ grafic se adauga legenda: Foc, Pamant, Apa, Aer.
 {{grafic_scara_bunastarii}}
 
 ### 1.6. Codul numerologic personal al numelui
+
+In chenarul principal, fiecare componenta a numelui ocupa un rand distinct si
+include literele, sirul numeric, suma, reducerea si codul. Codul concatenat si
+codul personal se afiseaza intr-un al doilea chenar.
 
 | Concept | Formula | Calcul | Rezultat | Interpretare |
 | --- | --- | --- | --- | --- |
@@ -505,6 +522,9 @@ In tabel, prima coloana este `Varsta`, nu pozitia ordinala. Intervalele pornesc 
 ### 1.8. Relatii
 
 #### 1.8.1. Omuletul relatiilor
+
+Integreaza PNG-ul validat de `900 x 840 px`, nu SVG-ul. In HTML autonom,
+foloseste `data:image/png;base64,...`; pastreaza SVG-ul numai ca sursa tehnica.
 
 {{omuletul_relatiilor}}
 

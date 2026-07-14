@@ -89,9 +89,16 @@ Vezi: Datele de intrare
   esentiale se includ embedded in HTML, preferabil ca `data:image/svg+xml;base64`
   atunci cand sunt folosite in `<img>`. Nu se lasa dependente obligatorii de
   fisiere SVG externe daca lucrarea trebuie sa poata fi deschisa singura.
+- Structura HTML ramane cea validata in modelul Daniel revizie:
+  `<figure><img class="embedded-svg" src="..." alt="..."><figcaption>...</figcaption></figure>`.
+  SVG-ul este redat prin elementul `<img>`; nu se adauga o copie raster daca nu
+  exista o resursa raster distincta ceruta explicit.
 - In Markdown, aceleasi grafice raman referinte curate de imagine Markdown:
   `![descriere](asset.svg)`. Nu se introduc `<figure>`, `<img>`, `<div>` sau
   alte fragmente HTML in varianta `.md`.
+- Exceptie: Omuletul Relatiilor foloseste in Markdown `asset.png`, iar in HTML
+  autonom `data:image/png;base64,...`. SVG-ul pereche ramane numai sursa tehnica
+  si nu se integreaza in lucrare. PNG-ul validat are `900 x 840 px`.
 - Interpretarile se scriu dupa notele complete ale conceptelor relevante, nu
   doar dupa listele scurte de orientare.
 - Interpretarile respecta `Tip formulare`: formal sau conversational.
@@ -347,6 +354,8 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 ### Matricea Datei de Nastere
 
 - Descriere:
+- Calcul: un singur chenar, cu randuri distincte pentru data compacta, `N1`,
+  `N2`, `N3`, `N4` si sirul complet. Nu reuni pasii intr-un paragraf continuu.
 
 ```text
 1 | 4 | 7
@@ -380,11 +389,13 @@ plin, se noteaza ca persoana nu are fixatie matriceala clara si se interpreteaza
 tendinta impreuna cu treapta cea mai inalta din scara bunastarii.
 
 
-### Vectorii matricei si scara bunastarii
+### Vectorii matricei
 
 - Tabelul vectorilor foloseste coloana `Interpretare`, nu `Descriere si interpretare`.
-- Interpretarea fiecarui vector trebuie sa spuna explicit daca vectorul este
-  plin sau incomplet.
+- Interpretarea fiecarui vector trebuie sa enumere casutele prezente si lipsa,
+  sa numeasca dominantele si contributia lor numerica, sa spuna explicit daca
+  vectorul este plin sau incomplet si sa lege aceasta compozitie de valoarea
+  totala.
 - Pentru vectorii incompleti se numeste casuta lipsa si tema ei: 4 corp,
   stabilitate si reguli; 5 centru, curaj practic si adaptare; 6 munca,
   responsabilitate afectiva si finalizare; la fel pentru orice alta casuta
@@ -393,14 +404,26 @@ tendinta impreuna cu treapta cea mai inalta din scara bunastarii.
   arata zona spre care energia se duce natural, cu talentul si riscul de exces.
 - Caii, trasura si vizitiul se interpreteaza prin compararea vectorilor 123,
   456 si 789. Se mentioneaza atat valoarea, cat si lipsurile fiecarui vector.
-- Scara bunastarii se afiseaza in ordine descrescatoare si include atat
-  vectorii, cat si casutele. In HTML se recomanda grafic cu bare raportate la
-  valoarea maxima, iar pentru casute se afiseaza o bulina de element plus
-  legenda: Foc, Pamant, Apa, Aer.
+- Comparatia cu optimul din 4.5 acopera toate cele noua casute si toti cei opt
+  vectori. Tabelul casutelor foloseste coloanele `Casuta`, `Cantitate casuta`,
+  `Valoare casuta`, `Cantitate optima`, `Valoare optima`, `Diferenta` si
+  `Citire`.
+
+### Scara bunastarii
+
+- Pastreaza acest continut ca subcapitol separat 4.6, dupa tendinte, fixatie si
+  analogia cai-trasura-vizitiu.
+- Include exact noua casute si opt vectori. Ordoneaza descrescator dupa valoare,
+  grupeaza logic valorile egale si aseaza valorile zero la baza.
+- In HTML foloseste bare orizontale raportate la valoarea maxima. Pentru casute
+  afiseaza bulina elementului si legenda Foc, Pamant, Apa, Aer.
 
 ### Matricea Numelui
 
 - Descriere:
+- Calculul codului personal: cate un rand pentru fiecare componenta a numelui,
+  cu litere, sir numeric, suma, reducere si cod. Pune codul concatenat si codul
+  personal intr-un al doilea chenar.
 
 ```text
 1 | 4 | 7

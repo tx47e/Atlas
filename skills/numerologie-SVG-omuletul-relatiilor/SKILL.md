@@ -1,20 +1,21 @@
 ---
 name: numerologie-SVG-omuletul-relatiilor
-description: Creeaza SVG-uri autonome pentru Omuletul Relatiilor, cu distributia cifrelor din doua date de nastere, sinteza relationala si geometria Vitruviana validata. Foloseste cand utilizatorul cere omuletul relatiilor, compatibilitate de cuplu sau un SVG relational numerologic.
+description: Creeaza perechi SVG si PNG pentru Omuletul Relatiilor, cu distributia cifrelor din doua date de nastere, sinteza relationala si geometria Vitruviana validata. Foloseste cand utilizatorul cere omuletul relatiilor, compatibilitate de cuplu sau o diagrama relationala numerologica.
 tags: [skill]
 ---
 
 # Omuletul Relatiilor
 
 Genereaza diagrama exclusiv cu scriptul inclus. Scriptul contine calculele,
-coordonatele validate, culorile si regulile de compozitie; nu consulta vault-ul
-sau alta documentatie la fiecare rulare.
+coordonatele validate, culorile, regulile de compozitie si exportul PNG; nu
+consulta vault-ul sau alta documentatie la fiecare rulare.
 
 ## Date de intrare
 
 - Numele si data de nastere pentru persoana A.
 - Numele si data de nastere pentru persoana B.
-- Calea SVG de iesire.
+- Calea SVG de iesire; PNG-ul este creat implicit alaturi, cu acelasi nume.
+- Optional, o cale PNG diferita prin `--png-output`.
 
 Accepta date in forma `ZZ.LL.AAAA`, `ZZ/LL/AAAA` sau `ZZ-LL-AAAA`.
 
@@ -26,11 +27,14 @@ Ruleaza generatorul din directorul skill-ului:
 python scripts/generate_omulet_relatiilor.py `
   --name-a "Nume Persoana A" --birth-date-a "06.11.1984" `
   --name-b "Nume Persoana B" --birth-date-b "12.01.1998" `
-  --output "C:\cale\omulet-relatii.svg"
+  --output "C:\cale\omulet-relatii.svg" `
+  --png-output "C:\cale\omulet-relatii.png"
 ```
 
 Foloseste runtime-ul Python configurat in spatiu daca `python` nu este disponibil
-in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regenereaza.
+in PATH. Scriptul exporta PNG-ul la `900 x 840 px` folosind Chrome, Chromium sau
+Edge in mod headless. Nu modifica manual SVG-ul sau PNG-ul dupa generare;
+corecteaza scriptul si regenereaza ambele fisiere.
 
 ## Calcul
 
@@ -46,6 +50,8 @@ in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regener
 
 - Foloseste `assets/reference.svg` drept sablon unic pentru fundalul Vitruvian,
   cerc, patrat, axe si pentagrama. Nu redesena geometria independent.
+- Foloseste `assets/reference.png` drept referinta raster validata pentru
+  rezultatul final la `900 x 840 px`.
 - Pastreaza coordonatele din `POSITIONS` in script. Eticheta `6` este pozitionata
   sub pentagrama, la mijloc, fara sa atinga linii.
 - Eticheta `7` sta sub si in exteriorul cercului, langa coltul stanga-jos al
@@ -60,8 +66,9 @@ in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regener
 
 ## Verificare
 
-Verifica numai ca SVG-ul generat este XML valid. Pentru generarea uzuala nu compara
-manual cu documentatie externa; sincronizarea cu documentatia se face separat, la cerere.
+Verifica SVG-ul ca XML valid si confirma ca PNG-ul generat are `900 x 840 px`.
+Pentru generarea uzuala nu compara manual cu documentatie externa; sincronizarea
+cu documentatia se face separat, la cerere.
 
 ```powershell
 [xml](Get-Content -Raw "C:\cale\omulet-relatii.svg") | Out-Null
@@ -69,6 +76,8 @@ manual cu documentatie externa; sincronizarea cu documentatia se face separat, l
 
 ## Includere in lucrari
 
-- In Markdown, foloseste imagine SVG normala.
-- In HTML distribuit ca fisier unic, include SVG-ul ca `data:image/svg+xml;base64,...`.
+- Pastreaza SVG-ul ca sursa tehnica editabila in directorul de livrabile.
+- In Markdown, include imaginea PNG, nu SVG-ul.
+- In HTML distribuit ca fisier unic, include PNG-ul ca `data:image/png;base64,...`,
+  nu SVG-ul.
 - Pastreaza watermark-ul `Atlas Numerologie` din referinta.

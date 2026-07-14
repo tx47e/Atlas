@@ -24,6 +24,22 @@ Inlocuieste numai datele persoanei si relatiilor, calculele validate, celulele s
 
 Nu folosi substituirea mecanica globala drept metoda de redactare. Poate fi doar o operatie auxiliara, urmata obligatoriu de auditul sectiune-cu-sectiune. Nu elimina si nu muta o componenta inaplicabila fara confirmarea explicita a utilizatorului.
 
+Pentru capitolele matriciale, aplica urmatorul contract fara comprimare:
+
+- In 4.1, afiseaza in chenar randuri distincte pentru data compacta, `N1`, `N2`, `N3`, `N4` si sirul complet.
+- Interpreteaza fiecare vector prin compozitie: casute prezente si lipsa, dominante, contributii numerice, completitudine si raportul dintre compozitie si valoarea totala.
+- In 4.5, compara separat cele noua casute si cei opt vectori cu optimul. Foloseste pentru casute coloanele `Casuta`, `Cantitate casuta`, `Valoare casuta`, `Cantitate optima`, `Valoare optima`, `Diferenta` si `Citire`.
+- Defineste fixatia numai ca vectorul plin cu valoarea cea mai mare. Interpreteaza `123` drept cai/forta de pornire, `456` drept trasura/sustinere practica si `789` drept vizitiu/directie mentala si spirituala.
+- Pastreaza 4.6 ca subcapitol separat, `Scara bunastarii`. Include exact noua casute si opt vectori, ordonate descrescator dupa valoare, cu valorile egale grupate logic si valorile zero la baza. In HTML, reda-le prin bare orizontale raportate la maxim.
+- In 5.7, afiseaza fiecare componenta a numelui pe rand separat, cu litere, sir numeric, suma, reducere si cod; pune codul concatenat si codul personal intr-un chenar separat.
+
+Pentru graficele livrabile, foloseste in HTML structura validata de modelul Daniel revizie: `<figure><img class="embedded-svg" src="..." alt="..."><figcaption>...</figcaption></figure>`. Cand HTML-ul trebuie sa fie autonom, `src` contine SVG-ul ca data URI; elementul de randare ramane `<img>`. Nu dubla un SVG cu o imagine raster daca nu exista o resursa raster distincta ceruta explicit.
+
+Exceptie obligatorie: pentru `Omuletul Relatiilor`, Agentul SVG livreaza perechea
+SVG + PNG. Pastreaza SVG-ul numai ca sursa tehnica, iar in lucrarea Markdown
+foloseste PNG-ul de `900 x 840 px`. In HTML autonom, incorporeaza acelasi PNG ca
+`data:image/png;base64,...`; nu integra SVG-ul Omuletului Relatiilor.
+
 ## Structura si stil
 
 - Pune datele generale si cuprinsul la inceput.
@@ -32,6 +48,7 @@ Nu folosi substituirea mecanica globala drept metoda de redactare. Poate fi doar
 - Elimina toate indexurile din variantele finale cu sufix `f`.
 - Pentru fiecare concept, explica ideea general, explica formula si datele folosite, afiseaza calculul, apoi interpreteaza personalizat; nu adauga subtitluri mecanice pentru aceste patru etape.
 - Scrie direct catre persoana, in ton cald, conversational-academic, clar si bogat in imagini usor de inteles.
+- Evita formulele de adresare si concluziile-tip repetate intre subcapitole. Cauta expresii recurente precum `Pentru tine`, `La tine`, `In viata de zi cu zi` si `Cheia practica`; pastreaza-le numai cand adauga sens nou si nu deschid mecanic sectiuni consecutive.
 - Scrie denumirile complete ale conceptelor; nu folosi prescurtari in vocea interpretativa.
 - Prezinta dificultatile ca teme de constientizare si pasi constructivi. Nu folosi etichete degradante, verdicte sau predictii rigide.
 - Pastreaza relatia ca lectura de compatibilitate, ritm, comunicare si constructie comuna.

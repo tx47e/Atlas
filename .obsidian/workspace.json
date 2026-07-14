@@ -6,18 +6,20 @@
       {
         "id": "3d992b1bb9b4ef0d",
         "type": "tabs",
-        "dimension": 54.35435435435435,
+        "dimension": 54.55455455455456,
         "children": [
           {
-            "id": "663d42850f621c3e",
+            "id": "d13edfdd47643e7c",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.04f.html"
+                "file": "agents/Agent Vault/Agent Vault.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Lucrare numerologica - Roman Andreea Maria - v1.04f"
+              "title": "Agent Vault"
             }
           }
         ]
@@ -25,18 +27,18 @@
       {
         "id": "9f0dc0c7aeddc05f",
         "type": "tabs",
-        "dimension": 45.64564564564565,
+        "dimension": 45.44544544544545,
         "children": [
           {
-            "id": "ddbac63307e59665",
+            "id": "1f7b235bed46f040",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.05f.html"
+                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/skills/numerologie-lucrare-redactare/assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.html"
               },
               "icon": "lucide-file",
-              "title": "Lucrare numerologica - Birsan Daniel Robert - v1.05f"
+              "title": "Birsan Daniel Robert - Lucrare numerologica v1.04r"
             }
           }
         ]
@@ -218,10 +220,23 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "663d42850f621c3e",
+  "active": "c1cd69e380e73c87",
   "lastOpenFiles": [
-    "skills/numerologie-lucrare-redactare/references/lista-control-model-final-daniel.md",
+    "temp/omulet-relatii-contract-test.png",
+    "temp/omulet-relatii-contract-test.svg",
+    "skills/numerologie-SVG-omuletul-relatiilor/assets/reference.png",
+    "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.png",
+    "skills/numerologie-lucrare-redactare/assets/templates/Template_Lucrare_Numerologica_Examen.md",
+    "skills/numerologie-lucrare-redactare/assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.md",
     "skills/numerologie-lucrare-redactare/SKILL.md",
+    "agents/Agent Lucrari/memory/2026-07-13-arhitectura-initiala.md",
+    "agents/Agent Lucrari/Agent Lucrari.md",
+    "agents/Agent Lucrari/prompts/solicita-validare-agent-vault.md",
+    "agents/Agent Lucrari/prompts/numerologie-lucrare-redactare.md",
+    "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.05f.md",
+    "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.05f.html",
+    "scripts/_build_andreea_v105_tmp.py",
+    "skills/numerologie-lucrare-redactare/references/lista-control-model-final-daniel.md",
     "skills/numerologie-lucrare-redactare/references/harta-template-uri-lucrari.md",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.04f.html",
     "scripts/_reconstruct_andreea_v104_tmp.js",
@@ -237,34 +252,21 @@
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/soarta-si-destin-roman-andreea-maria.svg",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.02f.html",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.02f.md",
-    "temp/render_andreea_html.py",
-    "temp/expand_andreea_narrative.py",
     "skills/numerologie-lucrare-redactare/assets/templates/Plan_Template_Lucrare_Numerologica_Narativa.md",
     "skills/numerologie-dashboard/references/contract-serviciu-local.md",
     "skills/numerologie-lucrare-redactare/assets/templates/Model_Lucrare_Numerologica_Finala_Daniel_Birsan.md",
-    "skills/numerologie-lucrare-redactare/assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.md",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.01f.md",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/patratul-de-aur-roman-adreea-maria.svg",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/triunghiul-financiar-roman-adreea-maria.svg",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/semnatura-astrala-roman-adreea-maria.svg",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg",
     "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ADREEA-MARIA-V1.md",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.05f.md",
-    "agents/Agent Lucrari/memory/2026-07-13-arhitectura-initiala.md",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-05-marele-preot-numarul-neamului.jpg",
     "agents/Agent Vault/memory/2026-07-13-arhitectura-initiala.md",
     "skills/numerologie-vault-redactare/SKILL.md",
     "skills/numerologie-vault-redactare/references/harta-template-uri.md",
     "skills/numerologie-vault-redactare/assets/templates/Template_Notite_Arhetip.md",
     "skills/numerologie-vault-redactare/assets/templates/Template_Notite_Sinteza.md",
-    "skills/numerologie-vault-redactare/assets/templates/Template_Notite_Subcapitol.md",
-    "skills/numerologie-vault-redactare/assets/templates/Template_Notite_Exemple_Calcul.md",
-    "skills/numerologie-vault-redactare/assets/templates/Template_Notite_Calcule.md",
-    "skills/numerologie-vault-redactare/assets/templates/Template_Notite_Concept.md",
-    "templates/Template_Notite_Sinteza.md",
-    "templates/Template_Notite_Exemple_Calcul.md",
-    "templates/Template_Notite_Concept.md",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/soarta-si-destin-birsan-daniel-robert.svg"
+    "skills/numerologie-vault-redactare/assets/templates/Template_Notite_Subcapitol.md"
   ]
 }

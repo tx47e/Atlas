@@ -205,7 +205,7 @@ Capitol separat, asezat dupa evolutia individuala, pentru ca relatia se intelege
 
 ### 8.1. Ce aduce fiecare in relatie
 
-- omuletul relatiilor;
+- omuletul relatiilor, integrat ca PNG de `900 x 840 px`, nu ca SVG;
 - cifrele dominante ale fiecaruia;
 - diferentele de ritm, initiativa, sensibilitate, exprimare si responsabilitate;
 - zonele in care se completeaza si zonele in care se pot provoca.
@@ -287,5 +287,8 @@ Contine, fara interpretari repetate:
 - Fara prescurtari neexplicate in corpul interpretativ.
 - Fiecare concept este explicat in limba cititorului inainte de a fi interpretat.
 - O informatie nu se repeta; daca revine, este folosita pentru a adauga un unghi nou.
+- Formulele de adresare sau concluzie `Pentru tine`, `La tine`, `In viata de zi
+  cu zi` si `Cheia practica` nu se folosesc ca sablon recurent. La audit se
+  verifica sa nu deschida ori sa inchida mecanic sectiuni consecutive.
 - Sincronicitatile se interpreteaza ca teme convergente, nu ca predictii rigide.
 - Relatia ramane o lectura de compatibilitate, comunicare si constructie comuna, nu un verdict.

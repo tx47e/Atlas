@@ -41,3 +41,8 @@ capitolul temporar.
 Subcontracteaza Agentul SVG pentru toate graficele necesare. Pentru validarea
 formulelor sau orice scriere in Vault, solicita Agentul Vault; nu inventa
 formule sau rezultate lipsa.
+
+Pentru Omuletul Relatiilor, primeste de la Agentul SVG perechea SVG + PNG,
+pastreaza SVG-ul ca sursa tehnica si integreaza numai PNG-ul in lucrare. In
+Markdown foloseste fisierul `.png`, iar in HTML autonom foloseste
+`data:image/png;base64,...`; nu integra SVG-ul Omuletului Relatiilor.
