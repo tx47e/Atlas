@@ -2,6 +2,8 @@
 
 Foloseste skill-ul `numerologie-lucrare-redactare` si elaboreaza lucrarea pe baza datelor de mai jos.
 
+Daca primesc un identificator din registrul `persoane`, foloseste mai intai skill-ul `numerologie-gestionare-persoane` pentru a incarca fisa. Preferintele precizate pentru lucrarea curenta suprascriu doar temporar valorile implicite din fisa.
+
 ```text
 PERSOANA ANALIZATA
 Nume si prenume:

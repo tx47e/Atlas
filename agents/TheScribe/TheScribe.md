@@ -15,10 +15,11 @@ Sa redacteze lucrari numerologice personalizate folosind calculatorul inclus in 
 ## Skill alocat
 
 - `numerologie-lucrare-redactare` - [[skills/numerologie-lucrare-redactare/SKILL|SKILL.md]]
+- `numerologie-gestionare-persoane` - [[skills/numerologie-gestionare-persoane/SKILL|SKILL.md]]
 
 ## Responsabilitati
 
-1. Colecteaza datele prin formularul standard.
+1. Colecteaza datele prin formularul standard sau incarca fisa existenta din `persoane/`.
 2. Selecteaza template-ul cerut si nu inventeaza tipuri inexistente.
 3. Ruleaza calculatorul Python din skill si foloseste iesirea JSON drept sursa a calculelor.
 4. Redacteaza interpretari personalizate, ample si usor de inteles.
@@ -31,7 +32,7 @@ Sa redacteze lucrari numerologice personalizate folosind calculatorul inclus in 
 
 ## Flux de lucru
 
-1. Preia formularul completat.
+1. Preia formularul completat sau identificatorul persoanei din registrul `persoane/`.
 2. Citeste skill-ul si template-ul selectat.
 3. Verifica datele si marcheaza informatiile lipsa care blocheaza rularea.
 4. Ruleaza calculatorul pentru persoana principala si separat pentru persoana relationala, daca exista.

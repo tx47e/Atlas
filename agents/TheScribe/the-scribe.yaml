@@ -18,7 +18,9 @@ algorithm_model:
     - "skill-ul numerologie-lucrare-redactare"
     - "lucrarile validate ca repere de stil"
 skills:
+  - numerologie-gestionare-persoane
   - numerologie-lucrare-redactare
 prompts_dir: "agents/TheScribe/prompts"
 prompts:
+  adauga-persoana: "agents/TheScribe/prompts/adauga-persoana.md"
   lucrare-numerologica: "agents/TheScribe/prompts/lucrare-numerologica.md"

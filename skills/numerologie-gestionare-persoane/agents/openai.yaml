@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gestionare persoane"
+  short_description: "Colectează și păstrează fișe numerologice"
+  default_prompt: "Folosește $numerologie-gestionare-persoane pentru a adăuga o persoană și întreabă-mă fiecare informație pe rând."
