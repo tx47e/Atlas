@@ -1,4 +1,4 @@
 interface:
-  display_name: "Redactare lucrari numerologice"
-  short_description: "Reconstruieste editorial lucrari numerologice validate"
-  default_prompt: "Foloseste $numerologie-lucrare-redactare pentru a selecta tipul lucrarii. Pentru o lucrare finala similara, reconstruieste editorial 1-la-1 dupa Daniel, pastreaza calculele matriciale pe randuri, comparatia completa cu optimul, Scara bunastarii cu 17 repere, SVG-urile prin IMG si finalizeaza auditul anti-boilerplate si de paritate sectiune-cu-sectiune."
+  display_name: "Numerologie - redactare lucrare"
+  short_description: "Redacteaza consecvent lucrari numerologice"
+  default_prompt: "Use $numerologie-lucrare-redactare to redacteaza o lucrare numerologica pe baza datelor furnizate."

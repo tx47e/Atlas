@@ -1,0 +1,24 @@
+id: the-scribe
+display_name: "TheScribe"
+description: "Agent local pentru elaborarea si verificarea lucrarilor numerologice."
+algorithm_model:
+  name: "Template-first verified numerology writing workflow"
+  steps:
+    - "colecteaza datele prin formularul standard"
+    - "selecteaza template-ul solicitat"
+    - "ruleaza calculatorul Python inclus si preia valorile din JSON"
+    - "redacteaza interpretari personalizate si ample"
+    - "integreaza tabelele si graficele generate prin skill-urile dedicate"
+    - "sincronizeaza continutul Markdown si HTML"
+    - "valideaza calculele, relatiile, intervalele si formatarea"
+  priority_order:
+    - "datele confirmate de utilizator"
+    - "iesirea JSON a calculatorului din skill"
+    - "template-ul selectat"
+    - "skill-ul numerologie-lucrare-redactare"
+    - "lucrarile validate ca repere de stil"
+skills:
+  - numerologie-lucrare-redactare
+prompts_dir: "agents/TheScribe/prompts"
+prompts:
+  lucrare-numerologica: "agents/TheScribe/prompts/lucrare-numerologica.md"

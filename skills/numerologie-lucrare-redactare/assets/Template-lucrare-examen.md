@@ -40,8 +40,8 @@ Nota de folosire:
   locale ridica versiunea minora: `v1.00` -> `v1.01`, `v1.01` -> `v1.02`.
   Mai multe modificari locale intr-o singura interventie pot ridica versiunea
   cu mai mult de `0.01`, proportional cu volumul modificarilor.
-- Pentru rubrica Fixatia, se foloseste documentul de metoda:
-  `vault/Numerologie/Fixatia.md`.
+- Pentru rubrica Fixatia, se foloseste rezultatul `fixatia` returnat de
+  `scripts/calculator_numerologic_examen.py`.
 
 ### Regula pentru varianta de revizie indexata
 
@@ -71,8 +71,7 @@ Tipuri de element:
 | P | paragraf |
 | L | lista |
 | T | tabel |
-| C | calcul sau chenar de calcul |
-| G | grafic, SVG, figura sau imagine |
+| C | calcul, chenar de calcul, figura, grafic sau SVG |
 
 Reguli de folosire:
 
@@ -328,8 +327,7 @@ pre {
 ```
 
 - In versiunea finala, se elimina toate elementele `.index`; continutul ramane
-  fara marcajul de index. Se elimina si capitolul temporar `Documentatia si
-  trasabilitatea lucrarii`.
+  fara marcajul de index.
 
 ---
 ## Date generale
@@ -544,8 +542,8 @@ din matrice.
 
 #### 1.5.8. Fixatia
 
-Nota de metoda: se identifica vectorul plin dominant conform documentului
-`vault/Numerologie/Fixatia.md`.
+Nota de metoda: se foloseste vectorul plin dominant returnat in campul
+`fixatia` de calculatorul Python inclus.
 
 Fixatia este vectorul plin cu valoarea cea mai mare. Se explica de ce este
 importanta: arata zona spre care energia se duce natural, atat ca talent, cat
@@ -556,8 +554,8 @@ exista fixatie matriceala clara.
 
 #### 1.5.9. Caii, trasura si vizitiul
 
-Nota de metoda: se citesc vectorii 1-2-3 ca `caii`, 4-5-6 ca `trasura` si
-7-8-9 ca `vizitiul`; vezi `vault/Numerologie/Caii Trasura si Vizitiul.md`.
+Nota de metoda: se folosesc valorile `caii_123`, `trasura_456` si
+`vizitiul_789` returnate de calculatorul Python inclus.
 
 Interpretarea compara cele trei coloane prin valoare si prin lipsuri:
 `caii` arata energia de pornire, `trasura` arata suportul practic/corpul
@@ -567,9 +565,9 @@ vehiculului, iar `vizitiul` arata directia mentala si spirituala.
 
 #### 1.5.10. Curgerea energiei
 
-Nota de metoda: se urmareste curgerea energiei in matricea datei de nastere,
-de sus in jos si de la stanga la dreapta; vezi
-`vault/Numerologie/Curgerea Energiei.md`.
+Nota de metoda: se foloseste campul `curgerea_energiei` returnat de
+calculatorul Python inclus. Daca statusul este `de_completat`, limita se
+semnaleaza si nu se inventeaza rezultatul.
 
 {{curgerea_energiei}}
 
@@ -733,12 +731,10 @@ recurenta.
 Ordine obligatorie pentru aceasta rubrica:
 
 1. calculele si graficul Soarta si Destin;
-2. tabelul comparativ pe intervale de varsta (`Varsta`, `Soarta`, `Destin`, `Citire`) si interpretarea aferenta graficului;
+2. tabelul comparativ al pozitiilor (`Soarta`, `Destin`, `Citire`) si interpretarea aferenta graficului;
 3. subtitlul si continutul pentru Harta suprapusa Soarta-Destin-Ciclicitati.
 
 Tabelul si interpretarea care explica graficul Soarta si Destin se pastreaza in aceasta rubrica, imediat dupa grafic. Nu se muta dupa Harta suprapusa.
-
-In tabel, prima coloana este `Varsta`, nu pozitia ordinala. Intervalele pornesc de la 0 si urmeaza pasul de lectura stabilit pentru persoana analizata: din 10 in 10 ani (`0-10`, `10-20`, `20-30` etc.) sau din 12 in 12 ani (`0-12`, `12-24`, `24-36` etc.).
 
 ### 1.8. Relatii
 
@@ -910,8 +906,8 @@ felul in care energia se simte in decizii, emotii si reactie spontana.
 
 #### 2.2.10. Fixatia
 
-Nota de metoda: interpretarea caracterului foloseste aceeasi fixatie calculata
-din matricea datei de nastere; vezi `vault/Numerologie/Fixatia.md`.
+Nota de metoda: interpretarea caracterului foloseste aceeasi fixatie returnata
+de calculator pentru matricea datei de nastere.
 
 {{fixatia_caracter}}
 
@@ -928,16 +924,15 @@ Se foloseste imaginea unui drum pe care energia il alege instinctiv.
 
 #### 2.2.13. Curgerea energiei
 
-Nota de metoda: interpretarea caracterului foloseste aceeasi curgere a energiei
-din matricea datei de nastere; vezi `vault/Numerologie/Curgerea Energiei.md`.
+Nota de metoda: interpretarea caracterului foloseste campul
+`curgerea_energiei` returnat de calculator pentru matricea datei de nastere.
 
 {{curgerea_energiei_caracter}}
 
 #### 2.2.14. Caii, trasura si vizitiul
 
-Nota de metoda: interpretarea caracterului compara caii, trasura si vizitiul
-din matricea datei de nastere; vezi
-`vault/Numerologie/Caii Trasura si Vizitiul.md`.
+Nota de metoda: interpretarea caracterului compara valorile `caii_123`,
+`trasura_456` si `vizitiul_789` returnate de calculator.
 
 {{caii_trasura_vizitiul_caracter}}
 
@@ -1287,26 +1282,3 @@ intrebari de lucru si recomandari de atitudine.
 ### 8.4. Concluzia sfatului numerologic
 
 {{concluzia_sfatului_numerologic}}
-
----
-## Capitol temporar de revizie. Documentatia si trasabilitatea lucrarii
-
-Acest capitol exista numai in variantele cu sufix `r`. Se elimina integral din
-variantele finale cu sufix `f`.
-
-| Element de trasabilitate | Referinta folosita |
-| --- | --- |
-| Agent coordonator | {{agent_coordonator}} |
-| Agenti subcontractati | {{agenti_subcontractati}} |
-| Skill-uri folosite | {{skill_uri_folosite}} |
-| Template principal si resurse auxiliare | {{template_uri_folosite}} |
-| Raportul calculatorului | {{raport_calculator}} |
-| Documente metodologice consultate | {{documentatie_metodologica}} |
-| Registrul de validare si data verificarii | {{registru_validare_si_data}} |
-| SVG-uri integrate si validarea lor | {{svg_uri_si_validare}} |
-| Versiunea si data redactarii | {{versiune_si_data_redactare}} |
-
----
-## Anexa tehnica
-
-{{anexa_tehnica}}

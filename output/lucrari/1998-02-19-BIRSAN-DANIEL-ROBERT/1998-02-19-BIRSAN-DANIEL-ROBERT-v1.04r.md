@@ -35,10 +35,10 @@ Index: BDR-19980219-v1.04r-SUB-003
 #### Vibratia interioara
 
 Index: BDR-19980219-v1.04r-P-001
-Daniel, in tine exista un impuls care se trezeste inainte ca ceilalti sa vada ceva la exterior. Este motivatia ta de baza, felul in care alegi atunci cand nu trebuie sa demonstrezi nimic nimanui. Seamana cu o scanteie discreta: nu se vede mereu, dar de aici pornesc curajul, reactiile si directia ta adevarata.
+Daniel, aici ne uitam la vibratia interioara. Ea descrie motorul tau intim: motivatia de baza, instinctul personal, felul in care te simti pe tine cand nu trebuie sa demonstrezi nimic nimanui. Daca ar fi sa folosim o analogie, vibratia interioara este scanteia din camera interioara: nu se vede mereu din afara, dar ea aprinde decizia, curajul, reactia si directia ta reala.
 
 Index: BDR-19980219-v1.04r-P-002
-Aceasta parte a ta raspunde la intrebari simple, dar importante: ce te pune in miscare, ce iti da curaj, ce te irita si ce simti ca trebuie sa alegi singur? Inainte de destin, relatii sau rezultate, exista acest prim impuls care iti da pornirea.
+Pentru tine, vibratia interioara raspunde la intrebari simple, dar importante: ce ma porneste, ce ma enerveaza, ce imi da curaj, ce vreau sa aleg singur? Inainte sa vorbim despre destin, relatii sau rezultate, aici vedem energia care apasa prima data pe acceleratie.
 
 Index: BDR-19980219-v1.04r-P-003
 Pentru vibratia interioara reducem ziua ta de nastere la o singura cifra.
@@ -53,16 +53,16 @@ Index: BDR-19980219-v1.04r-P-005
 La tine, Daniel, asta inseamna ca in interior exista o nevoie puternica de autonomie. Ai nevoie sa simti ca alegerea iti apartine. Cand energia 1 este folosita matur, te ajuta sa incepi proiecte, sa te ridici repede dupa blocaje si sa iti spui clar punctul de vedere. Cand este tensionata, poate deveni graba, incapatanare, reactie defensiva sau senzatia ca trebuie sa faci totul singur.
 
 Index: BDR-19980219-v1.04r-P-006
-Mesajul acestei energii este simplu: nu astepta mereu permisiunea de a porni, dar invata sa conduci lucrurile fara sa fortezi oamenii sau imprejurarile.
+Pe scurt, vibratia interioara 1 iti spune asa: "nu astepta mereu permisiune; invata sa pornesti, dar invata si sa conduci fara sa fortezi".
 
 Index: BDR-19980219-v1.04r-SUB-004
 #### Vibratia exterioara
 
 Index: BDR-19980219-v1.04r-P-007
-Felul in care esti perceput la primul contact poate fi mai bland decat forta pe care o simti in interior. Este partea din tine care iese in lume si se face vazuta in conversatii, in grupuri si in situatii noi.
+Aici ne uitam la vibratia exterioara. Daca vibratia interioara este camera interioara, vibratia exterioara este usa prin care iesi in lume. Ea arata cum te vad ceilalti la primul contact, cum reactionezi in contexte sociale si ce fel de prezenta transmiti cand intri intr-un grup, intr-o conversatie sau intr-o situatie noua.
 
 Index: BDR-19980219-v1.04r-P-008
-Prima impresie nu spune tot ce esti, dar le ofera celorlalti o poarta catre tine. La fel ca coperta unei carti, ea nu contine intreaga poveste, insa poate transmite calm, apropiere si disponibilitate pentru dialog.
+Vibratia exterioara nu spune neaparat tot ce esti, ci forma prin care energia ta devine vizibila. Este ca ambalajul unei carti: nu contine intreaga poveste, dar creeaza prima impresie si ii invita pe ceilalti sa se apropie intr-un anumit fel.
 
 Index: BDR-19980219-v1.04r-P-009
 Pentru vibratia exterioara folosim luna nasterii. Luna 2 este deja redusa la o singura cifra.
@@ -77,16 +77,16 @@ Index: BDR-19980219-v1.04r-P-011
 In exterior, Daniel, oamenii pot vedea la tine o parte mai sensibila, diplomata si atenta la nuante. Chiar daca in interior ai motor de 1, in afara poti parea mai calm, mai atent, mai dispus sa asculti sau sa negociezi. Aici apare o combinatie interesanta: inauntru exista initiativa, iar in afara apare filtrul relational.
 
 Index: BDR-19980219-v1.04r-P-012
-Sensibilitatea lui 2 te ajuta sa simti oamenii, sa surprinzi tensiunile subtile si sa observi cand o situatie are nevoie de mai multa rabdare. Ai grija doar ca diplomatia sa nu se transforme in amanare si sa nu iti ascunzi decizia de teama ca ai putea deranja.
+Vibratia exterioara 2 te ajuta sa simti oamenii, sa prinzi tensiunile subtile, sa observi cand cineva se inchide sau cand o situatie are nevoie de mai multa rabdare. Partea de echilibrat este sa nu transformi diplomatia in amanare si sa nu iti ascunzi decizia doar ca sa nu deranjezi.
 
 Index: BDR-19980219-v1.04r-SUB-005
 #### Vibratia globala
 
 Index: BDR-19980219-v1.04r-P-013
-Cand vointa ta interioara se intalneste cu sensibilitatea pe care o arati lumii, se contureaza felul tau firesc de a merge prin viata. Initiativa si atentia fata de ceilalti nu sunt doua parti separate, ci doua forte care pot invata sa lucreze impreuna.
+Acest punct descrie vibratia globala. Ea este sinteza dintre vibratia interioara si vibratia exterioara: cum se intalneste ce simti in interior cu felul in care apari in exterior. Daca vibratia interioara este motorul si vibratia exterioara este caroseria, vibratia globala este felul in care masina se misca efectiv pe drum.
 
 Index: BDR-19980219-v1.04r-P-014
-Din aceasta intalnire se naste tonul general al personalitatii tale. Cand ceea ce simti si ceea ce arati se sustin reciproc, oamenii te inteleg mai usor, iar tu iti poti exprima mai limpede intentiile.
+Vibratia globala arata tonul general al personalitatii, energia care apare cand interiorul si exteriorul incep sa lucreze impreuna. Uneori confirma usor celelalte vibratii, alteori arata exact zona prin care trebuie sa te traduci mai bine.
 
 Index: BDR-19980219-v1.04r-P-015
 Pentru vibratia globala adunam vibratia interioara cu vibratia exterioara.
@@ -98,7 +98,7 @@ Index: BDR-19980219-v1.04r-P-016
 Rezultatul este 3. Arhetipurile vibratiei 3 sunt comunicatorul, povestitorul, creatorul, artistul, omul care pune trairea in cuvinte, forma sau gest. Daca 1 porneste si 2 simte, 3 exprima.
 
 Index: BDR-19980219-v1.04r-P-017
-La tine, Daniel, echilibrul se construieste prin exprimare. Nu iti ajunge doar sa vrei ceva sau sa simti atmosfera; ai nevoie sa formulezi, sa spui, sa explici si sa creezi o punte prin cuvant sau printr-o actiune vizibila.
+La tine, Daniel, vibratia globala 3 arata ca energia ta se echilibreaza prin exprimare. Nu iti ajunge doar sa vrei ceva si nici doar sa simti atmosfera; ai nevoie sa formulezi, sa spui, sa explici, sa creezi o punte prin cuvant sau prin actiune vizibila.
 
 Index: BDR-19980219-v1.04r-P-018
 Cand nu comunici, energia se poate strange si ceilalti pot intelege gresit ce se intampla in tine. Cand exprimi constient, 3-ul devine un canal foarte bun: te ajuta sa clarifici, sa destinzi tensiuni, sa transmiti idei si sa faci oamenii sa inteleaga mai usor ce vrei.
@@ -107,10 +107,10 @@ Index: BDR-19980219-v1.04r-SUB-006
 #### Vibratia cosmica variabila
 
 Index: BDR-19980219-v1.04r-P-019
-Anul in care te-ai nascut adauga povestii tale o nevoie puternica de a construi ceva concret. Aceasta influenta se simte in felul in care te raportezi la timp, rezultate, maturizare si responsabilitate.
+Vibratia cosmica variabila. Ea vine din ultimele doua cifre ale anului de nastere si arata o nuanta mai personala a generatiei tale, o culoare de fundal care se activeaza in felul in care te raportezi la timp, rezultate, maturizare si presiunea de a construi ceva.
 
 Index: BDR-19980219-v1.04r-P-020
-Ea nu schimba cine esti, dar coloreaza drumul pe care mergi. Uneori iti cere ritm si fermitate, alteori prudenta, rabdare si o administrare mai atenta a resurselor tale.
+Daca vibratia interioara este motorul personal, iar vibratia exterioara este prezenta sociala, vibratia cosmica variabila seamana cu vremea in care conduci: nu schimba cine esti, dar influenteaza ritmul, tensiunea, prudenta si felul in care iti gestionezi resursele.
 
 Index: BDR-19980219-v1.04r-P-021
 Pentru vibratia cosmica variabila folosim ultimele doua cifre ale anului tau de nastere.
@@ -122,7 +122,7 @@ Index: BDR-19980219-v1.04r-P-022
 Rezultatul este 8. Arhetipurile vibratiei 8 sunt administratorul, strategul, constructorul de rezultate, omul care invata legea consecintelor, autoritatea matura. 8-ul nu se multumeste doar cu intentii frumoase; el intreaba: ce faci concret, ce organizezi, ce ramane in urma ta?
 
 Index: BDR-19980219-v1.04r-P-023
-Energia lui 8 aduce, Daniel, o chemare spre organizare, rezultate si o raportare matura la responsabilitate. Te poate ajuta sa gestionezi bani, timp, proiecte, limite si decizii importante. Ea iti cere coloana vertebrala si te invata ca promisiunile capata greutate atunci cand sunt sustinute prin fapte.
+Prin vibratia cosmica variabila 8, Daniel, ai o chemare spre organizare, rezultate si raportare matura la responsabilitate. Aceasta energie te poate ajuta sa gestionezi bani, timp, proiecte, limite si decizii importante. Este o vibratie care cere coloana vertebrala: promisiunile trebuie sustinute prin fapte.
 
 Index: BDR-19980219-v1.04r-P-024
 In forma tensionata, 8-ul poate aduce presiune, control, frica de esec sau raportare prea dura la reusita. De aceea, pentru tine, lectia nu este doar sa obtii rezultate, ci sa inveti sa le construiesti fara sa te rigidizezi.
@@ -131,10 +131,10 @@ Index: BDR-19980219-v1.04r-SUB-007
 #### Vibratia cosmica totala
 
 Index: BDR-19980219-v1.04r-P-025
-Privit in intregime, anul nasterii descrie atmosfera mai larga in care ai venit pe lume. Este un fundal simbolic care insoteste drumul tau si te indeamna sa cauti sensul mai profund al experientelor prin care treci.
+Vibratia cosmica totala. Ea vine din anul complet de nastere si descrie amprenta mai larga a contextului in care ai intrat in viata. Nu este doar despre tine ca individ, ci despre fundalul simbolic al anului: ce fel de lectie generala, ce fel de atmosfera si ce fel de chemare mai larga insotesc drumul tau.
 
 Index: BDR-19980219-v1.04r-P-026
-Imagineaza-ti aceasta influenta ca pe lumina unei scene: nu hotaraste in locul tau ce rol vei juca, dar da o anumita atmosfera intregii povesti si scoate la vedere lectiile care cer sa fie intelese.
+Ca analogie, vibratia cosmica totala este decorul piesei in care joci rolul personal. Vibratia interioara arata personajul din interior, vibratia exterioara arata cum intra pe scena, vibratia globala arata cum se misca, iar vibratia cosmica totala arata lumina mare a scenei, atmosfera in care toate acestea se intampla.
 
 Index: BDR-19980219-v1.04r-P-027
 Pentru vibratia cosmica totala adunam toate cifrele anului complet.
@@ -149,7 +149,7 @@ Index: BDR-19980219-v1.04r-P-029
 Fundalul anului iti aduce vibratia 9, Daniel. Ea te impinge sa privesti mai larg, sa intelegi sensul experientelor si sa nu ramai blocat in detalii marunte. Poti avea o tendinta naturala de a cauta explicatii, de a lega lucrurile intre ele si de a simti ca viata trebuie sa aiba o directie mai profunda decat simpla rutina.
 
 Index: BDR-19980219-v1.04r-P-030
-Traita echilibrat, energia lui 9 iti da perspectiva, intuitie si capacitatea de a invata din experiente. Atunci cand devine apasatoare, poate aduce oboseala, idealism excesiv sau tendinta de a duce prea mult pentru altii. Cheia este discernamantul: sa ajuti fara sa te pierzi si sa cauti sensul fara sa fugi de concret.
+In forma buna, vibratia cosmica totala 9 iti da perspectiva, intuitie larga si capacitatea de a invata din experiente. In forma dificila, poate aduce oboseala, idealism excesiv sau tendinta de a duce prea mult pentru altii. De aceea, aici cheia este discernamantul: sa ajuti fara sa te pierzi si sa cauti sensul fara sa fugi de concret.
 
 Index: BDR-19980219-v1.04r-SUB-008
 ### 1.2. Calea destinului, destinul si puntile
@@ -272,7 +272,7 @@ Index: BDR-19980219-v1.04r-SUB-014
 #### Aspecte de indreptat
 
 Index: BDR-19980219-v1.04r-P-060
-Exista in tine o zona care poate fi rafinata cu rabdare. Nu vorbim despre vina sau defect, Daniel, ci despre un tipar care are nevoie de mai multa constienta. Imagineaza-ti aceasta parte ca pe un muschi: folosita impulsiv poate crea tensiune, dar antrenata cu rabdare devine forta, stabilitate si precizie.
+Aici ne uitam la o zona pe care tu o poti rafina. Nu vorbim despre vina sau defect, Daniel, ci despre un tipar care are nevoie de mai multa constienta. Imagineaza-ti aceasta zona ca pe un muschi: daca il folosesti impulsiv, poate crea tensiune; daca il antrenezi, devine forta, stabilitate si precizie.
 
 Index: BDR-19980219-v1.04r-P-061
 Rezultatul acestei rubrici este 37. In el avem 3-ul, care tine de comunicare, expresie, spontaneitate si felul in care dai forma unei idei, si 7-ul, care tine de analiza, profunzime, observatie, introspectie si cautarea unui sens mai adanc. Arhetipic, 37 poate fi vazut ca cercetatorul care trebuie sa invete sa vorbeasca sau ca povestitorul care nu se multumeste cu suprafata lucrurilor.
@@ -567,27 +567,28 @@ Index: BDR-19980219-v1.04r-P-110
 Arhetipic, aceasta rubrica vorbeste despre firul de familie, scoala interioara a neamului si felul in care o mostenire poate deveni invatatura. Daca numarul ereditar arata vibratia principala a numelui de familie, numarul neamului adauga o imagine simbolica mai nuantata.
 
 Index: BDR-19980219-v1.04r-P-111
-Pentru numarul neamului pastram totalul numelui de familie si il aducem in intervalul arcanelor majore prin scaderea lui 22.
+Totalul numelui de familie este 27; reducerea 22 da 5; arcana majora asociata este 5.
 
-Index: BDR-19980219-v1.04r-C-016a
-**Calcul:** BIRSAN = B2 + I9 + R9 + S1 + A1 + N5 = 27 -> 27 - 22 = **5**
+Index: BDR-19980219-v1.04r-P-112
+Rezultatul este 5. Arhetipurile lui 5 sunt profesorul, cautatorul de libertate, omul care invata prin experienta, ghidul, reformatorul si cel care are nevoie sa inteleaga regulile ca sa le poata folosi viu, nu mecanic. Aceasta informatie se citeste ca o tema de fundal. Ea poate functiona ca resursa mostenita, dar si ca responsabilitate de transformat intr-un mod personal si constient.
 
-Index: BDR-19980219-v1.04r-T-005b
-| Arcana | Interpretare |
-| --- | --- |
-| Index: BDR-19980219-v1.04r-IMG-003<br>![Arcana 5 - Marele Preot, numarul neamului](tarot-05-marele-preot-numarul-neamului.jpg)<br>_Arcana 5 - Marele Preot. Numarul neamului_ | Index: BDR-19980219-v1.04r-P-112<br>Rezultatul este **5**, iar arcana majora asociata este **Marele Preot**. In aceasta pozitie, cartea vorbeste despre traditie, invatatura si valorile transmise prin familie. Ea sugereaza ca numele Birsan poarta simbolic o scoala a neamului: reguli, credinte, modele de autoritate si lectii primite de la cei care au venit inainte. Darul acestei mosteniri poate fi capacitatea de a invata profund, de a cauta sensul din spatele regulilor si, la maturitate, de a deveni pentru altii un reper, un profesor sau un ghid.<br><br>Index: BDR-19980219-v1.04r-P-113<br>Pentru tine, Daniel, Marele Preot nu cere supunere oarba fata de traditie. El te invita sa verifici ce principii te maturizeaza si ce reguli au ramas doar forme fara viata. Umbra arcanei 5 poate aparea ca rigiditate, conformism, teama de a iesi din tiparul familiei ori dependenta de aprobarea unei autoritati. Forma ei constructiva apare cand pastrezi intelepciunea utila, transformi experienta in practica si iti construiesti propriul sistem de valori. Astfel, mostenirea neamului nu devine o povara repetata mecanic, ci o invatatura asumata, vie si transmisa mai departe cu discernamant. |
+Index: BDR-19980219-v1.04r-P-113
+Pentru tine, Daniel, 5-ul neamului poate sugera ca in spatele numelui exista o tema legata de adaptare, invatare, schimbare si raportare la reguli. Poate fi important sa nu repeti mecanic ce ai primit, ci sa intelegi, sa alegi si sa transformi. Cand 5-ul este matur, el nu fuge de responsabilitate, ci gaseste o forma vie, flexibila si personala de a merge mai departe.
 
-Index: BDR-19980219-v1.04r-SUB-028a
-#### Codul numerologic personal al numelui
-
-Index: BDR-19980219-v1.04r-P-113b
+Index: BDR-19980219-v1.04r-P-113a
 Pentru codul numerologic personal al numelui, luam fiecare parte a numelui complet, calculam codul literelor si apoi adaugam numarul de exprimare. Calculul urmator arata traseul complet.
 
 Index: BDR-19980219-v1.04r-C-011b
-**Calcul:** BIRSAN = B2 + I9 + R9 + S1 + A1 + N5 = 27 -> 2 + 7 = 9; cod BIRSAN = 299115. DANIEL = D4 + A1 + N5 + I9 + E5 + L3 = 27 -> 2 + 7 = 9; cod DANIEL = 415953. ROBERT = R9 + O6 + B2 + E5 + R9 + T2 = 33 -> 3 + 3 = 6; cod ROBERT = 962592. Numar de exprimare = 9 + 9 + 6 = 24 -> 2 + 4 = 6.
+**Calcul:**
+BIRSAN = B2 + I9 + R9 + S1 + A1 + N5 = 27 -> 2 + 7 = 9; cod BIRSAN = 299115.
+DANIEL = D4 + A1 + N5 + I9 + E5 + L3 = 27 -> 2 + 7 = 9; cod DANIEL = 415953.
+ROBERT = R9 + O6 + B2 + E5 + R9 + T2 = 33 -> 3 + 3 = 6; cod ROBERT = 962592.
+Numar de exprimare = 9 + 9 + 6 = 24 -> 2 + 4 = 6.
 
 Index: BDR-19980219-v1.04r-C-011c
-**Calcul:** Codul literelor numelui = 299115 + 415953 + 962592 = 299115415953962592. Codul numerologic personal al numelui = codul literelor + numarul de exprimare = 299115415953962592 + 6 = 2991154159539625926
+**Calcul:**
+Codul literelor numelui = 299115 + 415953 + 962592 = 299115415953962592.
+Codul numerologic personal al numelui = codul literelor + numarul de exprimare = 299115415953962592 + 6 = 2991154159539625926
 
 Index: BDR-19980219-v1.04r-T-003c
 ```text
@@ -681,36 +682,36 @@ Index: BDR-19980219-v1.04r-T-004a
 | C14 | 2089-2095 | 91-98 | 94,5 | 2092 | al 95-lea | 7 | 1/5 | 6 | Autonomia si libertatea se inchid prin responsabilitate, blandete si asezare relationala. |
 
 Index: BDR-19980219-v1.04r-P-124a
-Daniel, acum te afli in ciclul C5, intre 28 si 35 de ani. Varful 5 aduce nevoia de miscare, libertate si schimbare, iar perechea 5/9 iti cere sa legi aceasta libertate de sens, maturitate si capacitatea de a incheia ceea ce nu te mai reprezinta. In 2029, in jurul varstei de 31,5 ani, ajungi la punctul de verificare al ciclului. Nu este un semn ca trebuie sa se intample ceva negativ, ci un moment in care viata te poate intreba foarte direct: poti sa ramai liber fara sa te risipesti, poti sa schimbi directia fara sa pierzi firul si poti sa inchizi matur ceea ce nu mai sustine drumul tau?
+Daniel se afla in ciclul C5, 28-35 ani, adica etapa varfului 5, cu perechea 5/9 si rezultat pereche 5. Momentul de criza al acestui ciclu este la 31,5 ani, in 2029, al 32-lea an de viata. Nu il citim ca eveniment negativ obligatoriu, ci ca prag de verificare: cat de liber poate ramane fara sa piarda sensul, cat de flexibil poate fi fara sa se imprastie si cat de matur poate inchide sau reorganiza ce nu mai sustine directia vietii.
 
 Index: BDR-19980219-v1.04r-P-124b
-In harta ta, septagrama se leaga direct de ceea ce am vazut deja in matrice: mintea si creativitatea au multa forta, dar functioneaza mai bine cand le dai centru, ritm si o forma concreta. Ciclul 5/9 poate trezi dorinta de schimbare, de miscare si de aer nou. Pentru tine, cheia este sa folosesti schimbarea ca metoda de crestere, nu doar ca reactie la presiune. Cand iti pui libertatea intr-o forma simpla — cateva reguli clare, alegeri asumate si lucruri duse pana la capat — energia acestui ciclu incepe sa lucreze in favoarea ta.
+Pentru harta lui, aceasta septagrama se leaga direct de lectia deja vazuta in matrice: energia mentala si creativa este puternica, dar are nevoie de centru, corp si ritm concret. Ciclul 5/9 poate aduce schimbari, dorinta de miscare, cautare de sens si nevoie de aer nou. Cheia este ca schimbarea sa fie folosita ca metoda de crestere, nu ca reactie la presiune. Daca Daniel isi pune libertatea in forma prin disciplina minima, alegeri clare si finalizari reale, energia ciclului poate curge mai bine.
 
 Index: BDR-19980219-v1.04r-SUB-033a
 #### Ciclul de 12 ani
 
 Index: BDR-19980219-v1.04r-P-124d
-Ciclul de 12 ani poate fi privit ca ritmul prin care viata iti largeste periodic orizontul. Il asociem simbolic cu Jupiter, care revine aproape o data la 12 ani in zona sa de la nastere. Pentru tine, Daniel, aceste reveniri vorbesc despre momente in care poti vedea mai departe, poti primi o oportunitate mai mare sau poti fi chemat sa cresti. Intrebarea nu este doar ce vine spre tine, ci si cat de pregatit esti sa sustii ceea ce se mareste.
+Ciclul de 12 ani se citeste prin analogia cu Jupiter. Jupiter are o orbita de aproximativ 11,86 ani, deci o data la aproape 12 ani revine pe pozitia de la nastere. In lectura simbolica, acest ritm arata intoarcerile mari ale expansiunii: oportunitati, crestere, largirea orizontului, bogatie, sansa de a primi mai mult si nevoia de a fi pregatit pentru ceea ce vine.
 
 Index: BDR-19980219-v1.04r-T-004b
 | Ciclu | Ani calendaristici | Varsta | Tema | Interpretare |
 | --- | --- | --- | --- | --- |
-| C1 | 1998-2009 | 0-12 | Formare primara | In primii ani ti-ai format baza de incredere si felul de a privi lumea prin familie, mediu si modelele apropiate. |
-| C2 | 2010-2021 | 12-24 | Explorare si autonomie | Ai inceput sa-ti largesti lumea prin invatare, oameni noi si desprinderea treptata de formele vechi, cautand libertatea si directia proprie. |
-| C3 | 2022-2033 | 24-36 | Constructie si consolidare identitara | Acesta este ciclul tau activ. Oportunitatile pot creste, dar iti cer pregatire, structura si curajul de a nu risipi ceea ce primesti. |
-| C4 | 2034-2045 | 36-48 | Expansiune si impact | La 36 de ani, ciclul de 9 ani se intalneste cu cel de 12 ani. Pentru tine poate fi o recalibrare importanta de sens, statut, misiune sau proiecte mai ample. |
-| C5 | 2046-2057 | 48-60 | Autoritate si transmitere | Ceea ce ai construit poate deveni influenta, mentorat si responsabilitate fata de ceilalti. Cresterea iti va cere masura si maturitate. |
-| C6 | 2058-2069 | 60-72 | Intelepciune aplicata | Experienta acumulata poate deveni ghidaj, sinteza si o contributie mai larga pe care o oferi mai departe. |
-| C7 | 2070-2081 | 72-84 | Sinteza si eliberare | Vei putea pastra ceea ce are sens pentru tine si elibera formele care nu-ti mai sustin cresterea interioara. |
+| C1 | 1998-2009 | 0-12 | Formare primara | Se formeaza baza de incredere, invatare si raportare la lume. Expansiunea este absorbita prin familie, mediu si primele modele de viata. |
+| C2 | 2010-2021 | 12-24 | Explorare si autonomie | Jupiter deschide orizontul prin cautare, educatie, oameni noi si desprindere treptata de forma veche. Persoana invata ce inseamna libertatea si directia proprie. |
+| C3 | 2022-2033 | 24-36 | Constructie si consolidare identitara | Ciclul activ. Oportunitatile cer pregatire, structura si curaj de crestere. Ce vine mai mare trebuie sustinut prin disciplina, alegeri clare si capacitatea de a nu risipi sansa. |
+| C4 | 2034-2045 | 36-48 | Expansiune si impact | La 36 de ani se intalnesc ciclul de 9 ani si ciclul de 12 ani. Poate aparea o recalibrare majora: sens, statut, misiune, proiecte mai ample. |
+| C5 | 2046-2057 | 48-60 | Autoritate si transmitere | Ce a fost construit poate deveni influenta, mentorat, responsabilitate sociala sau profesionala. Expansiunea cere maturitate si masura. |
+| C6 | 2058-2069 | 60-72 | Intelepciune aplicata | Experienta acumulata se poate transforma in ghidaj, sinteza si contributie mai larga. |
+| C7 | 2070-2081 | 72-84 | Sinteza si eliberare | Se pastreaza ceea ce are sens si se elibereaza formele care nu mai sustin cresterea interioara. |
 
 Index: BDR-19980219-v1.04r-P-124e
-Pentru tine, ciclul activ de 12 ani este C3, intre 24 si 36 de ani, inceput in 2022 si activ pana in 2033. La 28 de ani te afli pe pozitia 5, o faza de schimbare, mobilitate si ajustare. Nu este vorba despre miscare de dragul miscarii, ci despre pregatirea unei forme mai incapatoare de viata: proiecte mai serioase, responsabilitati, directie profesionala, relatii, bani, statut si sens personal.
+Pentru Daniel, ciclul activ de 12 ani este C3, 24-36 ani, inceput in 2022 si activ pana in 2033. La varsta de 28 ani, pozitia in ciclul de 12 ani este 5, adica o faza de schimbare, mobilitate si ajustare. Aceasta nu este doar miscare de dragul miscarii, ci pregatirea pentru o forma mai mare de viata: proiecte, responsabilitati, directie profesionala, relatii, bani, statut sau sens personal.
 
 Index: BDR-19980219-v1.04r-P-124f
-Revenirile importante pentru tine sunt in jurul varstelor de 12, 24, 36, 48 si 60 de ani, aproximativ in 2010, 2022, 2034, 2046 si 2058. La fiecare asemenea prag, viata iti poate deschide o usa: o oportunitate, o lume mai larga, o responsabilitate mai mare sau o perspectiva noua. Mesajul este simplu: atunci cand apare sansa, ai nevoie de suficienta structura interioara si discernamant ca sa poti pastra si dezvolta ceea ce primesti.
+Intoarcerile jupiteriene importante pentru el sunt in jurul varstelor 12, 24, 36, 48 si 60 de ani, adica aproximativ in 2010, 2022, 2034, 2046 si 2058. La fiecare astfel de prag, viata poate aduce o deschidere: o oportunitate, o extindere a lumii, o crestere a responsabilitatii sau o schimbare de perspectiva. Ideea centrala este pregatirea: cand vine sansa, trebuie sa existe structura interioara, discernamant si capacitatea de a sustine ceea ce se mareste.
 
 Index: BDR-19980219-v1.04r-P-125
-Priveste aceste cicluri ca pe un fundal al maturizarii tale, nu ca pe o lista de evenimente obligatorii. Ele nu iti spun exact ce se va intampla, ci iti arata cand merita sa fii mai atent la crestere, pregatire si felul in care folosesti oportunitatile.
+Aceste cicluri sunt folosite ca fundal. Ele nu spun exact ce se va intampla, ci arata ce fel de maturizare, expansiune si pregatire poate fi activa intr-o etapa.
 
 Index: BDR-19980219-v1.04r-SUB-034
 #### Pinacluri
@@ -774,7 +775,11 @@ Index: BDR-19980219-v1.04r-T-004c
 | 2046 | 48 | - | - | - |
 
 Index: BDR-19980219-v1.04r-P-129
-Daniel, in sirul tau apare o sincronizare importanta incepand cu 2025: anii interiori si cei exteriori ajung sa se activeze impreuna, iar apoi aceeasi intalnire revine din 9 in 9 ani, in 2034 si 2043. Asta inseamna ca ritmul schimbarilor tale interioare si presiunea sau oportunitatile venite din exterior intra pe aceeasi cadenta cu ciclul de 9 ani. Ceea ce se clarifica inauntrul tau nu mai ramane doar o traire privata, ci cere o alegere, o discutie, o reorganizare sau o actiune vizibila in lume. Pentru ca 2025, 2034 si 2043 pastreaza aceeasi pozitie in ritmul de 9 ani, tema nu pare intamplatoare: viata revine periodic la intrebarea daca poti exprima in exterior ceea ce ai inteles si schimbat in interior. Nu citim aceste praguri ca promisiuni de evenimente fixe, ci ca momente de aliniere, in care ai mai multa sansa sa pui in aceeasi directie gandul, decizia si realitatea concreta.
+Acesti ani se interpreteaza impreuna cu varsta, anul personal si contextul real al persoanei. Ei nu sunt promisiuni de evenimente, ci repere pentru lectura parcursului.
+
+La Daniel se vede o sincronizare importanta intre anii interiori si anii exteriori incepand cu 2025, apoi 2034 si 2043. Aceste repere sunt la distanta de 9 ani si se suprapun cu ritmul ciclurilor de 9 ani, ceea ce arata ca schimbarile interioare nu lucreaza izolat: in acele perioade, transformarile din interior sunt chemate de contexte exterioare si sunt impinse sa devina vizibile in decizii, relatii, munca si directie de viata.
+
+Interpretarea practica este ca, din 9 in 9 ani, se activeaza o fereastra de aliniere intre ce se schimba in Daniel si ce se schimba in jurul lui. Cand apare o astfel de perioada, nu este suficient sa citeasca doar starea interioara sau doar evenimentele exterioare; sensul apare din suprapunerea lor. Exteriorul confirma, preseaza sau declanseaza maturizarea interioara, iar interiorul trebuie sa raspunda prin alegeri concrete.
 
 Index: BDR-19980219-v1.04r-SUB-036
 #### Soarta si destin
@@ -800,15 +805,15 @@ Index: BDR-19980219-v1.04r-C-019c
 _Grafic Soarta si Destin pentru Birsan Daniel Robert_
 
 Index: BDR-19980219-v1.04r-T-005a
-| Varsta | Soarta | Destin | Citire |
+| Pozitie | Soarta | Destin | Citire |
 | ---: | ---: | ---: | --- |
-| 0-10 ani | 3 | 3 | Punct de intalnire: cadrul primit si directia de implinire pornesc din aceeasi nevoie de expresie si comunicare. |
-| 10-20 ani | 8 | 8 | Punct de intalnire: puterea, resursele si responsabilitatea sunt teme comune. |
-| 20-30 ani | 0 | 2 | Punct de rascruce: destinul cere relatie, sensibilitate si cooperare acolo unde soarta poate ramane goala sau pasiva. |
-| 30-40 ani | 0 | 0 | Punct comun de lucru: structura practica trebuie construita constient. |
-| 40-50 ani | 1 | 1 | Punct de intalnire: initiativa personala ramane fir comun. |
-| 50-60 ani | 9 | 7 | Punct de rascruce: soarta duce spre intensitate mentala si sens larg, iar destinul cere analiza, discernamant si interiorizare. |
-| 60-70 ani | 6 | 6 | Punct de intalnire: finalul graficului cere responsabilitate, armonie si grija fata de forma concreta a vietii. |
+| 1 | 3 | 3 | Punct de intalnire: cadrul primit si directia de implinire pornesc din aceeasi nevoie de expresie si comunicare. |
+| 2 | 8 | 8 | Punct de intalnire: puterea, resursele si responsabilitatea sunt teme comune. |
+| 3 | 0 | 2 | Punct de rascruce: destinul cere relatie, sensibilitate si cooperare acolo unde soarta poate ramane goala sau pasiva. |
+| 4 | 0 | 0 | Punct comun de lucru: structura practica trebuie construita constient. |
+| 5 | 1 | 1 | Punct de intalnire: initiativa personala ramane fir comun. |
+| 6 | 9 | 7 | Punct de rascruce: soarta duce spre intensitate mentala si sens larg, iar destinul cere analiza, discernamant si interiorizare. |
+| 7 | 6 | 6 | Punct de intalnire: finalul graficului cere responsabilitate, armonie si grija fata de forma concreta a vietii. |
 
 Index: BDR-19980219-v1.04r-P-132a
 Pentru Daniel folosim citirea pe intervale de 10 ani, deoarece data lui are predominanta impara / masculina. Cele doua linii sunt foarte apropiate si au aceeasi zona de confort, 3,86. Asta arata ca drumul primit si directia de implinire nu sunt in conflict major, dar exista doua puncte de lucru clare: la 20 de ani, unde destinul cere activarea relatiei si a sensibilitatii, si la 50 de ani, unde intensitatea lui 9 trebuie rafinata prin analiza si discernamantul lui 7.
@@ -824,6 +829,12 @@ _Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert_
 Index: BDR-19980219-v1.04r-SUB-037
 ### 1.7. Relatii
 
+Index: BDR-19980219-v1.04r-P-132b
+Analiza relationala de mai jos priveste legatura dintre **Birsan Daniel Robert** si **Roman Andreea Maria**, nascuta la **12.01.1998**. Tipul relatiei analizate este o **compatibilitate generala / relatie**, citita ca dinamica dintre doua persoane: ce aduce fiecare in relatie, unde exista sustinere naturala, unde apar diferente de ritm si ce teme trebuie lucrate constient.
+
+Index: BDR-19980219-v1.04r-P-132c
+Scopul acestei analize nu este sa dea un verdict despre relatie, ci sa arate cum poate fi inteleasa si construita mai matur. Urmarim felul in care se combina energiile celor doua date de nastere, ce potential de realizare apare impreuna, ce trebuie rezolvat in doi si ce obiceiuri relationale pot transforma atractia sau tensiunea in cooperare concreta.
+
 Index: BDR-19980219-v1.04r-SUB-038
 ### 1.7.1. Omuletul relatiilor
 
@@ -831,7 +842,7 @@ Index: BDR-19980219-v1.04r-P-133
 Daniel, aici nu ne uitam la relatie ca la un verdict, ci ca la o harta de orientare. Omuletul relatiilor iti arata ce aduci tu in legatura cu Andreea, ce aduce ea, unde va completati firesc si unde este nevoie sa fiti mai constienti unul cu celalalt. Ideea nu este sa cautam cine are dreptate, ci sa vedem cum puteti construi o relatie mai limpede, mai asezata si mai vie.
 
 Index: BDR-19980219-v1.04r-C-018
-![Omuletul relatiilor pentru Birsan Daniel Robert si Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg)
+![Omuletul relatiilor pentru Birsan Daniel Robert si Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.png)
 
 _Omuletul relatiilor pentru Birsan Daniel Robert si Roman Andreea Maria_
 
@@ -866,8 +877,9 @@ Index: BDR-19980219-v1.04r-P-141
 In aceasta metoda citim doua raspunsuri. `DA` arata aplicabilitatea profesionala, adica directia care poate fi cultivata si folosita concret. `NU` arata obstacolele, adica formele prin care energia se poate bloca daca nu este gestionata constient.
 
 Index: BDR-19980219-v1.04r-C-019d
-**Calcul:** NU / obstacole: 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39 -> 39 - 22 = 17.<br>
+**Calcul:**
 DA / aplicabilitate profesionala: luna 2 + (1 + 9 + 9 + 8) = 2 + 27 = 29 -> 29 - 22 = 7.
+NU / obstacole: 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39 -> 39 - 22 = 17.
 
 Index: BDR-19980219-v1.04r-T-005c
 | Arcana | Interpretare |
@@ -913,10 +925,10 @@ Index: BDR-19980219-v1.04r-P-148
 Codul spiritului se citeste din ziua si luna nasterii. Pentru tine, Daniel, el arata zona mare de maturizare spirituala si lectia prin care spiritul invata sa isi aseze experienta.
 
 Index: BDR-19980219-v1.04r-P-149
-Pentru calcul folosim ziua 19 si luna 2. Cautam ziua pe verticala si luna pe orizontala in tabelul rapid; aceeasi valoare se poate verifica prin formula.
+Pentru selectia Codului Spiritului folosim ziua 19 si luna 2. Cautam ziua pe verticala si luna pe orizontala in tabelul rapid; CM nu se mai calculeaza separat, ci se alege direct din intersectia celor doua coordonate.
 
 Index: BDR-19980219-v1.04r-C-021
-**Calcul:** CM = 55 - 19 - (2 x 2) = 55 - 19 - 4 = 32
+**Selectie din tabel:** ziua 19 + luna II -> CM = **32**
 
 Index: BDR-19980219-v1.04r-P-150
 In tabel, pozitia ta este la ziua 19 si luna II, unde apare codul **32**.
@@ -968,10 +980,12 @@ Index: BDR-19980219-v1.04r-T-007
 | <span class="zone-badge zone-gifts">Haruri</span> | 40-52 | 7.500-10.000 ani | intelepciune, haruri spirituale, ghidare, serviciu, intuitie |
 
 Index: BDR-19980219-v1.04r-P-152
-Subetapa se calculeaza din codul spiritului, asezand codul pe ciclul celor treisprezece lectii. Calculul de mai jos arata pozitia exacta in matricea lectiilor.
+Subetapa se stabileste dupa ce CM a fost ales din tabel. Codul Spiritului 32 se aseaza apoi pe ciclul celor treisprezece lectii, pentru a vedea pozitia exacta in matricea lectiilor.
 
 Index: BDR-19980219-v1.04r-C-022
-**Calcul explicat:** Subetapa se calculeaza din Codul Spiritului, care aici este 32. Formula folosita este `((CM - 1) mod 13) + 1`, deoarece cele treisprezece lectii se repeta ciclic: scadem 1 ca sa pornim numararea ciclului de la zero, aplicam restul impartirii la 13, apoi adaugam 1 ca sa revenim la numerotarea lectiilor de la 1 la 13.
+**Calcul explicat:** CM nu este obtinut printr-o formula separata, ci este selectat direct din tabelul T-006. Pentru Daniel, intersectia dintre ziua 19 si luna II indica **CM = 32**. Abia dupa aceasta selectie folosim CM pentru a determina subetapa.
+
+Formula subetapei este `((CM - 1) mod 13) + 1`, deoarece cele treisprezece lectii se repeta ciclic: scadem 1 ca sa pornim numararea ciclului de la zero, aplicam restul impartirii la 13, apoi adaugam 1 ca sa revenim la numerotarea lectiilor de la 1 la 13.
 
 Pentru Daniel: `32 - 1 = 31`. Impartim 31 la 13: `13 x 2 = 26`, iar restul este `31 - 26 = 5`. Revenim la scara 1-13 prin `5 + 1 = 6`. Rezultatul este **subetapa 6**.
 
@@ -1020,7 +1034,21 @@ Index: BDR-19980219-v1.04r-SUB-043
 ### 1.9. Ajutoare
 
 Index: BDR-19980219-v1.04r-P-156a
-Ajutoarele sunt instrumente simbolice de sustinere construite din harta numerologica personala. Le poti privi ca pe niste talismane: forme vizuale care nu inlocuiesc decizia sau actiunea, ci iti amintesc directia, iti aduna atentia si te ajuta sa folosesti mai constient resursele tale.
+Ajutoarele sunt instrumente simbolice de sustinere, construite pe baza hartii numerologice personale. Ele pot fi privite ca talismane: obiecte, placute, carduri, medalioane sau elemente decorative pe care se imprima o schema numerologica, cum ar fi semnatura astrala, triunghiul financiar sau patratul de aur. Rolul lor este sa functioneze ca puncte de orientare, nu ca inlocuitor pentru decizie, disciplina sau actiune concreta.
+
+Index: BDR-19980219-v1.04r-P-156b
+Un ajutor bine construit devine o ancora vizuala si energetica. El sustine alinierea cu ceea ce persoana are de facut, clarifica intentia si ajuta la organizarea atentiei. In interpretare se explica felul in care talismanul poate fi purtat, asezat in spatiul de lucru sau folosit intr-un ritual personal simplu, pentru a lega intentia de actiune si rezultat.
+
+Index: BDR-19980219-v1.04r-SUB-043a
+#### Semnatura astrala
+
+Index: BDR-19980219-v1.04r-P-156c
+Semnatura astrala iti arata traseul principal intr-o forma vizuala. La tine, Daniel, pornirea este in cifra 1, ceea ce vorbeste despre initiativa, identitate si nevoia de a-ti asuma directia. Traseul se intoarce des prin 9 si 3, deci ai o semnatura care cere sa transformi experienta acumulata in exprimare, comunicare si creatie concreta.
+
+Index: BDR-19980219-v1.04r-C-023aa
+![Semnatura astrala pentru Birsan Daniel Robert](semnatura-astrala-birsan-daniel-robert.svg)
+
+_Semnatura astrala - traseul personal al lui Daniel_
 
 Index: BDR-19980219-v1.04r-SUB-044
 #### Triunghiul financiar
@@ -1370,7 +1398,7 @@ Index: BDR-19980219-v1.04r-P-218
 Concluzia finala aduna ideile importante intr-o imagine coerenta, ca sa ramai nu doar cu cifre, ci cu o directie pe care o poti recunoaste in viata de zi cu zi.
 
 Index: BDR-19980219-v1.04r-P-219
-Vibratia interioara este 1, vibratia exterioara este 2, iar energia lor impreuna este 3. Calea destinului este 39, destinul este 3, iar numarul de exprimare este 6.
+Vibratia interioara: 1; vibratia exterioara: 2; vibratia globala: 3; calea destinului: 39; destinul: 3; numarul de exprimare: 6.
 
 Index: BDR-19980219-v1.04r-P-220
 Daniel, harta ta pune la aceeasi masa initiativa lui 1, sensibilitatea relationala a lui 2 si vocea creativa a destinului 3. Ai resursele sa pornesti, sa intelegi oamenii si sa exprimi ceea ce conteaza pentru tine. Nu e nevoie sa fii perfect pentru ca aceste energii sa lucreze bine impreuna; e suficient sa le observi, sa le educi cu rabdare si sa transformi repetitiile in deprinderi care te ajuta.
@@ -1391,4 +1419,4 @@ Index: BDR-19980219-v1.04r-CAP-010
 ## Capitolul 8. Sfatul numerologului
 
 Index: BDR-19980219-v1.04r-P-224
-Daniel, ideea cea mai importanta este sa nu privesti cifrele ca pe limite, ci ca pe repere care te ajuta sa te cunosti mai bine. Vibratia interioara 1 iti arata de unde pornește curajul personal, vibratia exterioara 2 iti arata cum il asezi in relatie cu oamenii, iar destinul 3 iti aminteste sa dai glas ideilor si experientelor tale. Traite constient, aceste energii devin alegeri mature; traite pe pilot automat, pot crea tensiune. Cheia ramane simpla si puternica: observare, disciplina blanda, comunicare sincera si incredere in pasii mici pe care ii faci consecvent.
+Daniel, ideea cea mai importanta este sa nu privesti cifrele ca pe limite, ci ca pe repere care te ajuta sa te cunosti mai bine. Vibratia interioara 1 iti arata de unde porneÈ™te curajul personal, vibratia exterioara 2 iti arata cum il asezi in relatie cu oamenii, iar destinul 3 iti aminteste sa dai glas ideilor si experientelor tale. Traite constient, aceste energii devin alegeri mature; traite pe pilot automat, pot crea tensiune. Cheia ramane simpla si puternica: observare, disciplina blanda, comunicare sincera si incredere in pasii mici pe care ii faci consecvent.
