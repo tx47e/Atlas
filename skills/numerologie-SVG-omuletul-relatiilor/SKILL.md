@@ -48,6 +48,8 @@ in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regener
 
 - Foloseste `assets/reference.svg` drept sablon unic pentru fundalul Vitruvian,
   cerc, patrat, axe si pentagrama. Nu redesena geometria independent.
+- SVG-ul trebuie sa fie opac pana la toate cele patru margini, cu fundalul bej
+  `#f4dcb6` aplicat si pe elementul radacina; nu lasa contur sau margine alba.
 - Foloseste `assets/reference-cifre-lipsa.svg` ca referinta vizuala pentru
   etichetele pozitiilor absente. Are aceleasi persoane si date ca referinta
   principala si documenteaza fiecare cifra lipsa din ambele date cu `- / -`.
