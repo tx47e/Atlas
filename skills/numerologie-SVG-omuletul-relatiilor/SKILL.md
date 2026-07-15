@@ -36,6 +36,8 @@ in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regener
 
 1. Numara cifrele brute `0-9` din fiecare data de nastere.
 2. Afiseaza la fiecare pozitie grupurile persoanei A si B, separate prin ` / `.
+   In livrarea pentru lucrare, omite pozitia cand cifra lipseste din ambele date.
+   Nu afisa `- / -` in lucrarea livrata si nu inventa valori.
 3. Reduce ziua de nastere pentru vibratia interioara a fiecarei persoane.
 4. Calculeaza realizarea impreuna: `A + B -> reducere`.
 5. Calculeaza de rezolvat impreuna: `|A - B|`.
@@ -46,8 +48,14 @@ in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regener
 
 - Foloseste `assets/reference.svg` drept sablon unic pentru fundalul Vitruvian,
   cerc, patrat, axe si pentagrama. Nu redesena geometria independent.
+- Foloseste `assets/reference-cifre-lipsa.svg` ca referinta vizuala pentru
+  etichetele pozitiilor absente. Are aceleasi persoane si date ca referinta
+  principala si documenteaza fiecare cifra lipsa din ambele date cu `- / -`.
+  Aceasta notatie apartine numai referintei, nu livrarii pentru lucrare.
 - Pastreaza coordonatele din `POSITIONS` in script. Eticheta `6` este pozitionata
   sub pentagrama, la mijloc, fara sa atinga linii.
+- Eticheta `3` este oglindita exact fata de eticheta `9` pe axa verticala
+  `x=450`: `9` sta la `(151, 380)`, iar `3` la `(749, 380)`.
 - Eticheta `7` sta sub si in exteriorul cercului, langa coltul stanga-jos al
   pentagramei; eticheta `5` este pozitionata oglindit in dreapta-jos.
 - Afiseaza valorile persoanei A cu `#0070c9`, separatorul cu `#333333` si valorile
@@ -66,6 +74,9 @@ manual cu documentatie externa; sincronizarea cu documentatia se face separat, l
 ```powershell
 [xml](Get-Content -Raw "C:\cale\omulet-relatii.svg") | Out-Null
 ```
+
+Pentru regenerarea exclusiva a referintei cu cifre lipsa, adauga argumentul
+`--show-missing-digits`. Nu folosi acest argument la generarea unei lucrari.
 
 ## PNG pentru livrare
 

@@ -11,7 +11,7 @@ import subprocess
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
-POSITIONS = {0:(318,328),1:(442,180),2:(592,328),3:(700,405),4:(610,498),5:(650,680),6:(450,625),7:(250,680),8:(285,498),9:(151,380)}
+POSITIONS = {0:(318,328),1:(442,180),2:(592,328),3:(749,380),4:(610,498),5:(650,680),6:(450,625),7:(250,680),8:(285,498),9:(151,380)}
 LABEL_FONT_WEIGHT = "800"
 PNG_WIDTH = 900
 PNG_HEIGHT = 840
@@ -76,6 +76,11 @@ def main() -> int:
     parser.add_argument("--name-b", required=True); parser.add_argument("--birth-date-b", required=True)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--png-output", type=Path, help="Implicit: aceeasi cale ca SVG-ul, cu extensia .png")
+    parser.add_argument(
+        "--show-missing-digits",
+        action="store_true",
+        help="Afiseaza - / - pentru cifrele absente la ambele persoane; folosit numai pentru referinta.",
+    )
     args = parser.parse_args()
     left, right = Counter(digits(args.birth_date_a)), Counter(digits(args.birth_date_b))
     va, vb = reduce_day(args.birth_date_a), reduce_day(args.birth_date_b)
@@ -84,7 +89,7 @@ def main() -> int:
 
     boxes = []
     for number, (x, y) in POSITIONS.items():
-        if not (left[number] or right[number]):
+        if not args.show_missing_digits and not (left[number] or right[number]):
             continue
         a = str(number) * left[number] if left[number] else "-"
         b = str(number) * right[number] if right[number] else "-"
