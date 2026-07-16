@@ -529,6 +529,11 @@ codul personal se afiseaza intr-un al doilea chenar.
 
 {{ciclul_de_7_ani}}
 
+Regula HTML: tabelul foloseste clasa dedicata `cycle-7-table`. Se reduc numai
+fontul si spatierea celulelor din antet; fontul corpului ramane neschimbat.
+Tabelul se adapteaza la latimea documentului si nu pastreaza o latime minima
+rigida care sa produca bara orizontala pe afisarea desktop obisnuita.
+
 #### 1.7.5. Ciclul de 9 ani si subciclurile
 
 {{ciclul_de_9_ani_subcicluri}}
@@ -574,6 +579,11 @@ Tabelul si interpretarea care explica graficul Soarta si Destin se pastreaza in 
 
 In tabel, prima coloana este `Varsta`, nu pozitia ordinala. Intervalele pornesc de la 0 si urmeaza pasul de lectura stabilit pentru persoana analizata: din 10 in 10 ani (`0-10`, `10-20`, `20-30` etc.) sau din 12 in 12 ani (`0-12`, `12-24`, `24-36` etc.).
 
+Interpretarea de dupa tabel se adreseaza direct persoanei, pe prenume, ca o
+discutie. Explica de ce se foloseste pasul de 10 sau 12 ani, ce spune zona de
+confort si cum se citesc varstele-cheie. Pastreaza valorile tehnice, dar evita
+deschiderile distante de tipul `Pentru [nume] folosim...`.
+
 ### 1.8. Relatii
 
 - Nume: {{nume_complet_partener}}
@@ -590,6 +600,11 @@ Integreaza PNG-ul validat de `900 x 840 px`, nu SVG-ul. In HTML autonom,
 foloseste `data:image/png;base64,...`; pastreaza SVG-ul numai ca sursa tehnica.
 
 {{omuletul_relatiilor}}
+
+Pentru fiecare grupa de indicatii asociata unei zone absente, scrie cifra
+corespunzatoare in paranteza. Explica faptul ca tema poate fi construita
+intentionat in cuplu sau sustinuta printr-un aport extern si ofera un exemplu
+practic pentru fiecare cifra absenta.
 
 ### 1.9. Spirit
 

@@ -9,7 +9,7 @@ description: Elaboreaza, adapteaza si verifica lucrari numerologice complete in 
 
 1. Colecteaza datele prin formularul din `references/formular-date.md`.
 2. Alege template-ul cerut. Pentru `examen`, foloseste `assets/Template-lucrare-examen.md`.
-3. Citeste `references/reguli-redactare.md` inainte de redactare sau revizie.
+3. Citeste [[skills/numerologie-lucrare-redactare/references/reguli-redactare|Reguli de redactare]] inainte de redactare sau revizie.
 4. Ruleaza `scripts/calculator_numerologic_examen.py` si salveaza sau pastreaza iesirea JSON ca sursa a tuturor valorilor de calcul.
 5. Pentru o relatie, ruleaza calculatorul separat si pentru a doua persoana, apoi foloseste cele doua rezultate in analiza relationala.
 6. Redacteaza mai intai continutul complet, apoi sincronizeaza varianta Markdown cu HTML-ul canonic.
@@ -67,7 +67,10 @@ python scripts/calculator_numerologic_examen.py `
 - Scrie denumirile complete ale vibratiilor. Nu folosi acronime precum `VI`, `VE`, `VG`, `VCV` sau `VCT` in text ori calcule.
 - Include datele relationale in `Date generale` atunci cand sunt furnizate, nu doar in capitolul Relatii.
 - Imediat dupa titlul capitolului `Relatii` si inainte de primul subcapitol, afiseaza numai datele persoanei cu care este analizata relatia: numele complet, data nasterii si tipul relatiei. Nu adauga interpretare in acest bloc factual.
+- Cand interpretezi cifrele sau zonele absente din Omuletul relatiilor, grupeaza indicatiile concrete si scrie cifra corespunzatoare in paranteza dupa fiecare grupa. Explica faptul ca aceste teme se construiesc intentionat in cuplu sau pot primi un aport extern prin contexte, oameni, activitati ori instrumente potrivite; adauga exemple aplicabile pentru fiecare cifra.
 - Pastreaza relatia optionala: daca datele persoanei nu precizeaza nicio relatie cu o alta persoana, omite integral capitolul `Relatii`, inclusiv intrarea lui din cuprins; nu afisa sectiuni sau campuri fictive.
+- Redacteaza interpretarile temporale Soarta-Destin conversational, ca un dialog direct cu persoana. Adreseaza-te pe prenume, explica pe intelesul ei de ce se foloseste pasul de 10 sau 12 ani, ce spune zona de confort si cum se citesc varstele-cheie. Pastreaza valorile tehnice, dar evita formularile distante de tipul `Pentru [nume] folosim...`.
+- Pentru tabelul HTML al Ciclului de 7 ani, micsoreaza numai fontul si spatierea antetului, pastreaza fontul corpului neschimbat si permite tabelului sa se adapteze la latimea documentului, fara bara orizontala pe afisarea desktop obisnuita.
 
 ## Reguli pentru calcule
 

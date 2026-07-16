@@ -1,4 +1,25 @@
+---
+titlu: Reguli de redactare
+tip: referinta-skill
+status: activa
+skill: "[[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]"
+aliases:
+  - Reguli redactare lucrari numerologice
+tags:
+  - skill
+  - numerologie
+  - redactare
+  - reguli
+Data: 2026-07-16
+meta:
+  rol: contract-editorial
+  domeniu: lucrari-numerologice
+  utilizare: obligatorie
+---
+
 # Reguli de redactare
+
+Skill parinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]
 
 ## Surse si prioritate
 
@@ -37,6 +58,9 @@ Nu consulta documentatia numerologica pentru a recalcula sau suprascrie rezultat
 - Datele generale din Markdown si HTML trebuie sa fie identice.
 - Daca exista relatie, include numele complet, prenumele activ, data, genul si tipul relatiei, in masura in care au fost furnizate.
 - In capitolul `Relatii`, imediat dupa titlul capitolului si inainte de primul subcapitol, prezinta un bloc strict factual cu numai trei campuri: numele complet al celeilalte persoane, data nasterii si tipul relatiei. Interpretarea incepe abia in subcapitole.
+- La interpretarea zonelor absente din Omuletul relatiilor, fiecare grupa de indicatii concrete este urmata de cifra corespunzatoare in paranteza, de exemplu comunicare si relationare `(3)`, stabilitate si reguli `(4)`. Explica distinct construirea intentionata in cuplu si aportul extern posibil, apoi ofera cate un exemplu practic pentru fiecare cifra absenta.
+- Interpretarea tabelului si graficului Soarta-Destin se scrie ca o discutie directa cu persoana: prenumele, explicatia pasului de lectura, zona de confort si varstele-cheie sunt legate intr-o formulare conversationala. Valorile tehnice raman exacte; se evita persoana a treia si deschiderile distante precum `Pentru [nume] folosim...`.
+- In HTML, tabelul Ciclului de 7 ani foloseste o clasa dedicata. Se reduce numai tipografia antetului; corpul isi pastreaza fontul, iar latimea minima rigida nu trebuie sa provoace bara orizontala pe desktop.
 - Daca in datele persoanei nu este declarata nicio relatie, elimina integral capitolul `Relatii` si intrarea lui din cuprins; nu genera campuri goale sau texte generice.
 - Foloseste denumiri complete pentru concepte; nu folosi prescurtari de vibratii.
 - HTML-ul final pastreaza clasele de prezentare, stilurile, tabelele si structura template-ului, dar nu pastreaza indexurile de revizie.
