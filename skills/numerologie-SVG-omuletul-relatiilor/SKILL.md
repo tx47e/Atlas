@@ -39,7 +39,7 @@ in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regener
    In livrarea pentru lucrare, omite pozitia cand cifra lipseste din ambele date.
    Nu afisa `- / -` in lucrarea livrata si nu inventa valori.
 3. Reduce ziua de nastere pentru vibratia interioara a fiecarei persoane.
-4. Calculeaza realizarea impreuna: `A + B -> reducere`.
+4. Calculeaza realizarea impreuna. Daca `A + B <= 9`, afiseaza o singura data rezultatul, in forma `A + B = rezultat`, fara sageata si fara repetarea rezultatului. Daca `A + B > 9`, afiseaza traseul complet, de exemplu `5 + 6 = 11 -> 1 + 1 = 2`.
 5. Calculeaza de rezolvat impreuna: `|A - B|`.
 6. Totalizeaza elementele: Foc `1 + 5 + 9`, Apa `2 + 6`, Aer `3 + 7`,
    Pamant `4 + 8`, Potential `0`.
@@ -67,6 +67,7 @@ in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regener
 - Dimensioneaza fiecare caseta dupa continut; nu micsora fontul pentru valori lungi.
 - Ascunde etichetele mostenite din referinta pentru a preveni dublarea lor.
 - Pastreaza antetul si sinteza elementelor in afara diagramei.
+- In antet, sageata pentru traseul de reducere apare numai cand suma realizarilor interioare este mai mare decat 9. Nu afisa forme redundante precum `1 + 3 = 4 -> 4`.
 
 ## Verificare
 

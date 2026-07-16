@@ -1,5 +1,7 @@
 # Numerologie
 
+- [[Introducere|Introducere]]
+
 ## Vibratii
 
 - [[Vibratia 0]]

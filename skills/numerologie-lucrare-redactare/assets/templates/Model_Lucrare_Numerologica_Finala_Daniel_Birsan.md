@@ -1,5 +1,4 @@
-﻿# Lucrare numerologica - Birsan Daniel Robert - v1.05f
-
+﻿# Lucrare numerologică - Bîrsan Daniel Robert
 ## Date generale
 
 - Data nasterii: 19.02.1998

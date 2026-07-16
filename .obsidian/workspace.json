@@ -6,39 +6,41 @@
       {
         "id": "3d992b1bb9b4ef0d",
         "type": "tabs",
-        "dimension": 45.8950201884253,
+        "dimension": 52.95295295295295,
         "children": [
           {
-            "id": "eceb52b5bad9ab3e",
+            "id": "d13edfdd47643e7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.04r.md",
+                "file": "vault/Numerologie/Introducere.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1998-01-12-ROMAN-ANDREEA-MARIA-v1.04r"
+              "title": "Introducere"
             }
           }
         ]
       },
       {
-        "id": "f6954f37a1e54926",
+        "id": "9f0dc0c7aeddc05f",
         "type": "tabs",
-        "dimension": 54.104979811574694,
+        "dimension": 47.047047047047045,
         "children": [
           {
-            "id": "feb5f5f6d1e19e73",
+            "id": "e9568ca6c0359609",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "file:///C:\\Users\\szami\\Documents\\Atlas/output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.04r.html"
+                "file": "vault/Numerologie/Index.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Roman Andreea Maria - Lucrare numerologica v1.04r"
+              "title": "Index"
             }
           }
         ]
@@ -116,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 518.5
   },
   "right": {
     "id": "7ae17244d167b343",
@@ -220,53 +222,53 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "eceb52b5bad9ab3e",
+  "active": "d13edfdd47643e7c",
   "lastOpenFiles": [
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.07r.md",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.07r.html",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.06r.html",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.06r.md",
-    "persoane/1998-02-19-BIRSAN-DANIEL-ROBERT/persoana.yaml",
-    "persoane/1998-02-19-BIRSAN-DANIEL-ROBERT",
-    "persoane/1998-01-12-ROMAN-ANDREEA-MARIA/persoana.yaml",
-    "persoane/1998-01-12-ROMAN-ANDREEA-MARIA",
-    "persoane/1984-11-06-SZABO-MIHAI-GABRIEL/persoana.yaml",
-    "persoane/1984-11-06-SZABO-MIHAI-GABRIEL",
-    "persoane/1984-04-17-SZABO-SABINA/persoana.yaml",
-    "persoane/1984-04-17-SZABO-SABINA",
-    "agents/TheScribe/memory/2026-07-16-arhitectura-initiala.md",
+    "vault/Numerologie/Index.md",
+    "vault/Numerologie/Introducere.md",
+    "skills/numerologie-lucrare-redactare/assets/templates/Template_Lucrare_Numerologica_Examen.md",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/triunghiul-financiar-roman-andreea-maria.svg",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/soarta-si-destin-roman-andreea-maria.svg",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/septagrama-roman-andreea-maria.svg",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/semnatura-astrala-roman-andreea-maria.svg",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/patratul-de-aur-roman-andreea-maria.svg",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.md",
+    "scripts/add_daniel_v107r_indexes.ps1",
+    "scripts/fix_daniel_v107r.ps1",
+    "skills/numerologie-lucrare-redactare/references/lista-control-model-final-daniel.md",
     "agents/TheScribe/prompts/lucrare-numerologica.md",
+    "agents/TheScribe/prompts/adauga-persoana.md",
+    "agents/TheScribe/memory/2026-07-16-arhitectura-initiala.md",
     "agents/TheScribe/TheScribe.md",
+    "agents/TheScribe/the-scribe.yaml",
+    "agents/TheScribe/prompts",
+    "agents/TheScribe/memory",
+    "agents/TheScribe",
+    "skills/numerologie-lucrare-redactare/scripts/calculator_numerologic_examen.py",
+    "skills/numerologie-lucrare-redactare/scripts",
     "skills/numerologie-lucrare-redactare/references/reguli-redactare.md",
     "skills/numerologie-lucrare-redactare/references/formular-date.md",
-    "skills/numerologie-lucrare-redactare/SKILL.md",
-    "skills/numerologie-lucrare-redactare/assets/Template-lucrare-examen.md",
-    "agents/Agent 001/Agent 001.md",
-    "agents/Agent 001/prompts/README.md",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.04r.md",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/harta-suprapusa-soarta-destin-roman-andreea-maria.svg",
+    "skills/numerologie-gestionare-persoane/scripts/test_gestioneaza_persoane.py",
+    "skills/numerologie-gestionare-persoane/scripts/gestioneaza_persoane.py",
+    "skills/numerologie-gestionare-persoane/references/schema-persoana.md",
+    "skills/numerologie-gestionare-persoane/SKILL.md",
+    "skills/numerologie-SVG-omuletul-relatiilor/assets/reference-cifre-lipsa.svg",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.png",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.07r.md",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.06r.md",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.png",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/patratul-de-aur-roman-andreea-maria.svg",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/semnatura-astrala-roman-andreea-maria.svg",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/septagrama-roman-andreea-maria.svg",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/soarta-si-destin-roman-andreea-maria.svg",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/triunghiul-financiar-roman-andreea-maria.svg",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/semnatura-astrala-birsan-daniel-robert.svg",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/triunghiul-financiar-roman-adreea-maria.svg",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ADREEA-MARIA-V1.md",
-    "vault/Numerologie/Cod Numerologic Personal.md",
-    "vault/Numerologie/Aspecte de Indreptat.md",
-    "vault/Numerologie/Lectii de Viata.md",
-    "vault/Numerologie/Matricea Datei de Nastere.md",
-    "skills/numerologie-SVG-patratul-de-aur/SKILL.md",
-    "agents/Agent 001/memory/2026-07-11-15-02-reorganizare-agent-001.md",
-    "agents/Agent 001.md",
-    "skills/numerologie-SVG-harta-suprapusa/SKILL.md",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.04r.md",
-    "vault/Numerologie/Soarta si Destin.md",
-    "Link catre capitol.md",
-    "skills/numerologie-SVG-soarta-si-destin/SKILL.md",
-    "vault/Numerologie/Aplicabilitate Profesionala.md"
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/harta-suprapusa-soarta-destin-roman-andreea-maria.svg",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.04r.md",
+    "skills/numerologie-lucrare-redactare/references/harta-template-uri-lucrari.md",
+    "agents/Agent Vault/Agent Vault.md",
+    "skills/numerologie-lucrare-redactare/assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.md",
+    "skills/numerologie-lucrare-redactare/SKILL.md",
+    "agents/Agent Lucrari/memory/2026-07-13-arhitectura-initiala.md",
+    "agents/Agent Lucrari/Agent Lucrari.md",
+    "agents/Agent Lucrari/prompts/solicita-validare-agent-vault.md",
+    "agents/Agent Lucrari/prompts/numerologie-lucrare-redactare.md",
+    "output/lucrari/1998-01-12-ROMAN-ADREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.05f.md",
+    "vault/Numerologie/Codul Spiritului.md"
   ]
 }

@@ -84,8 +84,18 @@ def main() -> int:
     args = parser.parse_args()
     left, right = Counter(digits(args.birth_date_a)), Counter(digits(args.birth_date_b))
     va, vb = reduce_day(args.birth_date_a), reduce_day(args.birth_date_b)
-    together = va + vb
-    while together > 9: together = sum(int(char) for char in str(together))
+    together_sum = va + vb
+    together = together_sum
+    while together > 9:
+        together = sum(int(char) for char in str(together))
+    if together_sum > 9:
+        reduction_step = " + ".join(str(together_sum))
+        together_display = (
+            f"{va} + {vb} = {together_sum} -&gt; "
+            f"{reduction_step} = {together}"
+        )
+    else:
+        together_display = f"{va} + {vb} = {together_sum}"
 
     boxes = []
     for number, (x, y) in POSITIONS.items():
@@ -98,7 +108,7 @@ def main() -> int:
         right_x = x + len(value) * 7 - len(b) * 7
         boxes.append(f'<rect x="{x-width/2:.1f}" y="{y-22:.1f}" width="{width:.1f}" height="44" rx="5" fill="#ffffff" stroke="#d5d5d5" stroke-width="1.5" opacity=".98"/><text x="{left_x:.1f}" y="{y+7:.1f}" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="{LABEL_FONT_WEIGHT}" fill="#0070c9">{a}</text><text x="{x:.1f}" y="{y+7:.1f}" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="{LABEL_FONT_WEIGHT}" fill="#333333"> / </text><text x="{right_x:.1f}" y="{y+7:.1f}" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="{LABEL_FONT_WEIGHT}" fill="#ff00b8">{b}</text>')
     fire = sum(left[n] + right[n] for n in (1,5,9)); water = sum(left[n] + right[n] for n in (2,6)); air = sum(left[n] + right[n] for n in (3,7)); earth = sum(left[n] + right[n] for n in (4,8)); potential = left[0] + right[0]
-    header = f'''<style>.value,.soft{{display:none}}</style><g id="generated-overlay"><rect x="0" y="0" width="900" height="116" fill="#f4dcb6" opacity=".96"/><text x="24" y="32" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#0070c9">{args.name_a} - {args.birth_date_a}</text><text x="24" y="58" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#ff00b8">{args.name_b} - {args.birth_date_b}</text><text x="560" y="32" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#4f4f4f">Realizare impreuna: {va} + {vb} = {va+vb} -&gt; {together}</text><text x="560" y="58" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#4f4f4f">De rezolvat impreuna: |{va} - {vb}| = {abs(va-vb)}</text>{''.join(boxes)}<rect x="0" y="770" width="900" height="70" fill="#f4dcb6" opacity=".96"/><text x="24" y="790" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#333333">Sinteza elemente</text><text x="24" y="814" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#555555">Foc: {fire}   Apa: {water}   Aer: {air}   Pamant: {earth}   Potential/0: {potential}</text></g><text x="880" y="825" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#aaa" font-weight="800">Atlas Numerologie</text>'''
+    header = f'''<style>.value,.soft{{display:none}}</style><g id="generated-overlay"><rect x="0" y="0" width="900" height="116" fill="#f4dcb6" opacity=".96"/><text x="24" y="32" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#0070c9">{args.name_a} - {args.birth_date_a}</text><text x="24" y="58" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#ff00b8">{args.name_b} - {args.birth_date_b}</text><text x="560" y="32" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#4f4f4f">Realizare impreuna: {together_display}</text><text x="560" y="58" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#4f4f4f">De rezolvat impreuna: |{va} - {vb}| = {abs(va-vb)}</text>{''.join(boxes)}<rect x="0" y="770" width="900" height="70" fill="#f4dcb6" opacity=".96"/><text x="24" y="790" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#333333">Sinteza elemente</text><text x="24" y="814" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#555555">Foc: {fire}   Apa: {water}   Aer: {air}   Pamant: {earth}   Potential/0: {potential}</text></g><text x="880" y="825" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#aaa" font-weight="800">Atlas Numerologie</text>'''
     svg = (ROOT / "assets" / "reference.svg").read_text(encoding="utf-8")
     svg = svg.replace("</svg>", header + "</svg>")
     args.output.parent.mkdir(parents=True, exist_ok=True)

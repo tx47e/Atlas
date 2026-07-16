@@ -33,8 +33,14 @@ Nota de folosire:
   `v1.00r`, `v1.01r`, `v2.00r` pentru revizii si `v1.00f`, `v1.01f`,
   `v2.00f` pentru variante finale. Litera `v` indica versiunea, numarul indica
   numarul versiunii, iar `r` inseamna revizie si `f` inseamna final.
+- Validarea unei revizii ca lucrare finala nu modifica numarul versiunii.
+  Conversia schimba exclusiv sufixul de stare: `v1.07r` devine `v1.07f`.
+  Varianta finala se genereaza din perechea MD + HTML a aceleiasi revizii,
+  dupa eliminarea indexurilor si a elementelor temporare specifice reviziei.
+  Nu se foloseste o varianta finala mai veche si nu se redenumeste un fisier
+  final anterior daca nu este semantic identic cu revizia validata.
 - La fiecare modificare facuta intr-o lucrare existenta, versiunea se ridica
-  inainte de livrare. Schimbarile majore de capitole, structura sau
+  inainte de livrare cat timp lucrarea ramane in revizie. Schimbarile majore de capitole, structura sau
   reorganizare ampla ridica versiunea principala: `v1.00` -> `v2.00`.
   Schimbarile de paragrafe, calcule, tabele, grafice, SVG-uri sau completari
   locale ridica versiunea minora: `v1.00` -> `v1.01`, `v1.01` -> `v1.02`.
@@ -330,6 +336,13 @@ pre {
 - In versiunea finala, se elimina toate elementele `.index`; continutul ramane
   fara marcajul de index. Se elimina si capitolul temporar `Documentatia si
   trasabilitatea lucrarii`.
+- Titlul cuprinsului este intotdeauna `Cuprins`, nu `Cuprins rapid`.
+- In varianta de revizie `r`, versiunea se afiseaza explicit in titlul lucrarii
+  si in `Date generale`, in forma `V1.07R`.
+- In varianta finala `f`, versiunea ramane numai in numele fisierului. Titlul
+  lucrarii nu contine versiunea, iar din `Date generale` se elimina campurile
+  `Versiune lucrare`, `Template de lucru`, `Stil de redactare` si
+  `Nivel de detaliere`.
 
 ---
 ## Date generale
@@ -363,6 +376,18 @@ pre {
 ## Cuprins
 
 {{cuprins_generat}}
+
+---
+## Cuvânt înainte
+
+{{introducere_cuvant_inainte}}
+
+Sursă editorială: `vault/Numerologie/Introducere.md`. Textul se așază după
+Cuprins și înainte de Capitolul 1. Se păstrează imaginea unitară a călătoriei
+și se adaptează numai formulările care trebuie aliniate conceptelor folosite în
+lucrare; nu se rescrie mecanic pentru fiecare persoană. Povestea include și
+ciclicitățile, anii importanți interiori și exteriori, ciclurile de 7, 9 și 12
+ani, Soarta și Destinul, lecțiile de viață și anul personal.
 
 ---
 ## Capitolul 1. Formule, calcule, tabele, grafice
@@ -401,6 +426,30 @@ manifestarea concreta, umbra si cheia de maturizare. La final se adauga un
 paragraf de sinteza care arata cum lucreaza impreuna VI, VE si VG.
 
 {{interpretare_vibratii}}
+
+Regula pentru interpretarea ampla a vibratiilor fundamentale: traseul de
+reducere se explica conversational numai cand calculul are o reducere
+suplimentara. Se interpreteaza direct persoanei cifrele de intrare, suma
+intermediara, cifrele reducerii si rezultatul final. Daca valoarea este deja o
+singura cifra, se trece direct la interpretarea ei, fara a mentiona ca nu
+exista traseu. Daca apare 0, se explica prudent ca nu adauga o directie
+numerica separata, dar poate deschide sau amplifica potentialul cifrei
+alaturate. La Vibratia globala se interpreteaza mereu combinatia dintre
+interior si exterior; traseul de reducere se desface separat numai cand suma
+lor depaseste 9. Arhetipurile raman permise numai la Vibratia interioara,
+Vibratia exterioara si Vibratia globala.
+
+Dupa interpretarea traseului, accentul cade pe rezultatul final. Paragrafele
+urmatoare nu reformuleaza traseul si nici nu repeta aceeasi semnificatie;
+fiecare aduce informatie noua printr-o manifestare observabila, un exemplu
+practic, o rutina aplicabila, o umbra sau un criteriu de maturizare. Volumul se
+mentine prin dezvoltare utila, nu prin reiterare.
+
+Aceasta regula nu se aplica obligatoriu la Calea Destinului, Destin sau
+Aspectele de indreptat. Puntile interior-exterior si interior-destin pastreaza
+lectura valorilor initiale si a rezultatului. La Solutia aspectelor de
+indreptat se recomanda interpretarea rezultatului, fara desfacerea ampla a
+traseului de reducere.
 
 ### 1.3. Calea destinului, destinul si puntile
 
@@ -577,10 +626,17 @@ de sus in jos si de la stanga la dreapta; vezi
 
 {{comparatia_cu_optimul}}
 
-Scara bunastarii nu este subcapitol separat: nu primeste titlu, numerotare,
-ancora sau intrare in cuprins. Se integreaza dupa comparatia cu optimul si se
-ordoneaza descrescator, incluzand atat vectorii, cat si
-casutele. In HTML se recomanda grafic cu bare raportate la valoarea maxima
+Regula de redactare pentru cititor: fiecare cod numeric este însoțit imediat
+de denumirea lui. De exemplu, `vectorul 789` se scrie `vectorul 789,
+Creativitate`, iar `diagonala 159` se scrie `diagonala 159, Carieră`. Se
+aplică aceeași regulă tuturor vectorilor și diagonalelor; codul nu rămâne
+niciodată neexplicat și cititorul nu este trimis la o secțiune anterioară.
+
+Scara bunastarii este subcapitol separat al Structurii matriciale. Primeste
+titlul numerotat `4.6. Scara bunastarii`, ancora proprie si index `SUB` in
+variantele de revizie. Se asaza dupa comparatia cu optimul si se ordoneaza
+descrescator, incluzand atat vectorii, cat si casutele. In HTML se recomanda
+grafic cu bare raportate la valoarea maxima
 din scara. Pentru casute se afiseaza o bulina cu elementul aferent, iar sub
 grafic se adauga legenda: Foc, Pamant, Apa, Aer.
 
@@ -742,19 +798,19 @@ In tabel, prima coloana este `Varsta`, nu pozitia ordinala. Intervalele pornesc 
 
 ### 1.8. Relatii
 
-Analiza relationala de mai jos priveste legatura dintre **{{nume_complet}}** si
-**{{nume_complet_partener}}**, nascuta/nascut la **{{data_nasterii_partener}}**.
-Tipul relatiei analizate este **{{tip_relatie_analizata}}**, citita ca dinamica
-dintre doua persoane: ce aduce fiecare in relatie, unde exista sustinere naturala,
-unde apar diferente de ritm si ce teme trebuie lucrate constient.
+- Nume: {{nume_complet_partener}}
+- Data nasterii: {{data_nasterii_partener}}
+- Tipul relatiei: {{tip_relatie_analizata}}
 
-Scopul acestei analize nu este sa dea un verdict despre relatie, ci sa arate cum
-poate fi inteleasa si construita mai matur. Urmarim felul in care se combina
-energiile celor doua date de nastere, ce potential de realizare apare impreuna,
-ce trebuie rezolvat in doi si ce obiceiuri relationale pot transforma atractia
-sau tensiunea in cooperare concreta.
+Acest bloc este strict factual si sta imediat dupa titlul capitolului, inainte
+de primul subcapitol. Daca nu este declarata nicio relatie in datele persoanei,
+se elimina integral capitolul `Relatii` si intrarea lui din cuprins.
 
 #### 1.8.1. Omuletul relatiilor
+
+Analiza relationala priveste felul in care se combina energiile celor doua date
+de nastere, ce potential de realizare apare impreuna, ce trebuie rezolvat in doi
+si ce obiceiuri pot transforma atractia sau tensiunea in cooperare concreta.
 
 Pentru amuletul relatiilor se pastreaza SVG-ul ca sursa editabila, dar in
 lucrarea livrata se introduce PNG-ul generat din SVG, pentru dimensiune mai
@@ -763,9 +819,9 @@ PNG-ul se poate include ca `data:image/png;base64,...` ca sa ramana fisier unic.
 
 {{omuletul_relatiilor}}
 
-Redactare obligatorie: inainte de omulet se mentioneaza persoana cu care este
-analizata relatia, tipul relatiei si ce urmareste analiza. Dupa omulet se scrie
-o interpretare conversationala: ce vine natural, ce lipseste, ce trebuie
+Redactare obligatorie: datele persoanei si tipul relatiei apar in blocul factual
+de la inceputul capitolului. Dupa omulet se scrie o interpretare
+conversationala: ce vine natural, ce lipseste, ce trebuie
 construit constient si ce obiceiuri concrete ajuta relatia.
 
 ### 1.9. Spirit
@@ -777,6 +833,11 @@ introduc imaginile arcanelor in tabel. Pentru fiecare arcana se explica
 arhetipul profesional, directia buna, obstacolul si cheia de lucru.
 
 {{inclinatii_profesionale}}
+
+Formularea trebuie să fie conversațională și explicită: `Aplicabilitatea
+profesională DA este arcana X, Nume`, urmată de direcția care poate fi
+cultivată, iar `Aplicabilitatea profesională NU este arcana Y, Nume`, urmată
+de obstacolul posibil și de pașii concreți prin care acesta este echilibrat.
 
 #### 1.9.2. Inclinatii ezoterice
 
