@@ -7,7 +7,7 @@ description: Construieste, administreaza si verifica Dashboard Numerologie pentr
 
 ## Flux obligatoriu
 
-1. Citeste [modelul de date](references/model-date.md) si [contractul serviciului](references/contract-serviciu-local.md).
+1. Citeste [[skills/numerologie-dashboard/references/model-date|Modelul de date Dashboard v2]] si [[skills/numerologie-dashboard/references/contract-serviciu-local|Contractul serviciului local]].
 2. Pastreaza `Dashboard/v1/` ca arhiva functionala; lucreaza activ numai in `Dashboard/v2/`.
 3. Trateaza `persoane.txt` si directoarele lucrarilor drept sursa de adevar modelata.
 4. Foloseste `localStorage` doar pentru starea prototipului, niciodata ca persistenta finala.
@@ -21,4 +21,3 @@ description: Construieste, administreaza si verifica Dashboard Numerologie pentr
 - Nu modifica metodele numerologice sau generatoarele SVG din acest skill.
 - Nu permite tranzitii neincluse in modelul de status.
 - Nu inventa date personale sau rezultate numerologice.
-

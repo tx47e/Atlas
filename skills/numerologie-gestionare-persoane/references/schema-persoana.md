@@ -1,4 +1,26 @@
+---
+titlu: Schema fișei unei persoane
+tip: referinta-skill
+status: activa
+skill: "[[skills/numerologie-gestionare-persoane/SKILL|numerologie-gestionare-persoane]]"
+aliases:
+  - Schema persoana
+  - Schema persoane
+tags:
+  - skill
+  - numerologie
+  - persoane
+  - schema
+Data: 2026-07-16
+meta:
+  rol: schema-date
+  domeniu: gestionare-persoane
+  utilizare: obligatorie
+---
+
 # Schema fișei unei persoane
+
+Skill părinte: [[skills/numerologie-gestionare-persoane/SKILL|numerologie-gestionare-persoane]]
 
 Fișierul canonic este `persoane/<id>/persoana.yaml`, codificat UTF-8. Schema curentă este versiunea `1`.
 

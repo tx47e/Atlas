@@ -1,4 +1,26 @@
+---
+titlu: Harta template-uri pentru lucrări numerologice
+tip: referinta-skill
+status: activa
+skill: "[[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]"
+aliases:
+  - Harta template-uri lucrări
+  - Selecție template lucrare
+tags:
+  - skill
+  - numerologie
+  - lucrare
+  - template
+Data: 2026-07-16
+meta:
+  rol: harta-template-uri
+  domeniu: redactare-lucrare
+  utilizare: obligatorie
+---
+
 # Harta template-uri pentru lucrari numerologice
+
+Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]
 
 | Tip / resursa | Template | Folosire |
 | --- | --- | --- |

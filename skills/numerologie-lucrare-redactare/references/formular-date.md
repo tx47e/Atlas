@@ -1,4 +1,26 @@
+---
+titlu: Formular de intrare
+tip: referinta-skill
+status: activa
+skill: "[[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]"
+aliases:
+  - Formular date lucrare
+  - Formular numerologie
+tags:
+  - skill
+  - numerologie
+  - lucrare
+  - formular
+Data: 2026-07-16
+meta:
+  rol: formular-intrare
+  domeniu: redactare-lucrare
+  utilizare: obligatorie
+---
+
 # Formular de intrare
+
+Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]
 
 Colecteaza urmatoarele date. Campurile marcate optional se omit cand nu se aplica.
 

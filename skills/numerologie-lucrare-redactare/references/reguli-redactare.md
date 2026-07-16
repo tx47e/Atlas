@@ -19,7 +19,7 @@ meta:
 
 # Reguli de redactare
 
-Skill parinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]
+Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]
 
 ## Surse si prioritate
 

@@ -1,4 +1,26 @@
+---
+titlu: Lista de control pentru modelul final Daniel
+tip: referinta-skill
+status: activa
+skill: "[[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]"
+aliases:
+  - Control model final Daniel
+  - Checklist model Daniel
+tags:
+  - skill
+  - numerologie
+  - lucrare
+  - control-final
+Data: 2026-07-16
+meta:
+  rol: lista-control
+  domeniu: redactare-lucrare
+  utilizare: conditionata
+---
+
 # Lista de control pentru modelul final Daniel
+
+Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]
 
 Foloseste lista impreuna cu [modelul Markdown](../assets/templates/Model_Lucrare_Numerologica_Finala_Daniel_Birsan.md) si [modelul HTML](../assets/templates/Model_Lucrare_Numerologica_Finala_Daniel_Birsan.html).
 

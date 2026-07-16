@@ -8,7 +8,7 @@ description: Colectează conversațional, validează, salvează, actualizează, 
 ## Reguli obligatorii
 
 1. Folosește `Atlas/persoane` ca registru canonic. Nu folosi `Dashboard/persoane.txt` și nu salva fișele în `output/lucrari`.
-2. Citește `references/schema-persoana.md` înainte de creare sau actualizare.
+2. Citește [[skills/numerologie-gestionare-persoane/references/schema-persoana|Schema fișei unei persoane]] înainte de creare sau actualizare.
 3. Pune o singură întrebare pe mesaj și validează răspunsul înainte de întrebarea următoare.
 4. Nu deduce genul, prenumele activ, numele anterior sau tipul relației din nume.
 5. Nu scrie nimic înainte de a afișa rezumatul complet și de a primi o confirmare explicită.

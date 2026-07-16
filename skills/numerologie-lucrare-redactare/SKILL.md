@@ -7,7 +7,7 @@ description: Elaboreaza, adapteaza si verifica lucrari numerologice complete in 
 
 ## Flux obligatoriu
 
-1. Colecteaza datele prin formularul din `references/formular-date.md`.
+1. Colecteaza datele prin [[skills/numerologie-lucrare-redactare/references/formular-date|Formularul de intrare]].
 2. Alege template-ul cerut. Pentru `examen`, foloseste `assets/Template-lucrare-examen.md`.
 3. Citeste [[skills/numerologie-lucrare-redactare/references/reguli-redactare|Reguli de redactare]] inainte de redactare sau revizie.
 4. Ruleaza `scripts/calculator_numerologic_examen.py` si salveaza sau pastreaza iesirea JSON ca sursa a tuturor valorilor de calcul.
@@ -42,6 +42,7 @@ python scripts/calculator_numerologic_examen.py `
 
 ## Selectarea template-ului
 
+- Consulta [[skills/numerologie-lucrare-redactare/references/harta-template-uri-lucrari|Harta template-urilor pentru lucrari numerologice]] inainte de alegerea structurii.
 - `examen`: foloseste template-ul inclus si toate capitolele cerute de acesta.
 - `scurt`, alte tipuri sau template-uri viitoare: foloseste fisierul dedicat numai daca exista in `assets/`. Daca nu exista, cere utilizatorului confirmarea structurii inainte de a inventa una.
 - Pastreaza fiecare template intr-un fisier distinct, cu nume de forma `Template-lucrare-{tip}.md`.
@@ -106,3 +107,5 @@ Verifica obligatoriu:
 - prezenta capitolului `Cuvant inainte` dupa Cuprins si inainte de Capitolul 1, in ambele livrabile;
 - absenta formularilor metatextuale care anunta ce se analizeaza;
 - lipsa textelor generice ramase din template.
+
+Pentru lucrarile construite dupa modelul final Daniel, aplica si [[skills/numerologie-lucrare-redactare/references/lista-control-model-final-daniel|Lista de control pentru modelul final Daniel]].
