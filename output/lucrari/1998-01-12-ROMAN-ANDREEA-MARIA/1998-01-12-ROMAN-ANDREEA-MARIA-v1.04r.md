@@ -108,7 +108,7 @@ Acest punct arata directia finala de realizare. Puntile sunt importante pentru c
 
 Formula: reducere_numerologica(calea destinului). Calcul: 3 + 1 = 4; rezultat final 4.
 
-Privit in contextul directia finala de realizare, acest rezultat vorbeste despre ordine, stabilitate, disciplina, responsabilitate si capacitatea de a construi pas cu pas. Arhetipurile destinului 4 sunt arhitectul, constructorul, administratorul, omul care ridica o casa acolo unde altul vede doar teren. Nu este vorba despre rigiditate, ci despre puterea de a da forma lucrurilor si de a face viata mai clara prin ordine.
+Privit in contextul directiei finale de realizare, acest rezultat vorbeste despre ordine, stabilitate, disciplina, responsabilitate si capacitatea de a construi pas cu pas. Destinul 4 cere puterea de a da forma lucrurilor si de a face viata mai clara prin ordine, fara ca stabilitatea sa devina rigiditate.
 
 Pentru Andreea, destinul 4 spune ca implinirea nu vine doar din intensitate, emotie sau intentie, ci din lucruri asezate. Cand isi organizeaza timpul, isi tine promisiunile, termina ce incepe si isi construieste un ritm, energia ei se linisteste si devine eficienta. Este ca si cum viata ii pune in mana un set de unelte si ii spune: ai imaginatie, ai vointa, acum fa ceva solid cu ele.
 
@@ -124,7 +124,7 @@ In practica, aceasta punte spune: nu este suficient sa stii ce simti si nici sa 
 
 #### Puntea interior - destin
 
-Acest punct arata distanta dintre motivatia profunda si directia de destin. Puntile sunt importante pentru ca ne arata unde energia curge natural si unde are nevoie de traducere constienta. Aici vedem cum interiorul 3, care are nevoie de expresie, bucurie si miscare, ajunge sa serveasca destinul 4, care cere structura, stabilitate si responsabilitate.
+Acest punct arata distanta dintre motivatia profunda si directia de destin. Puntile sunt importante pentru ca ne arata unde energia curge natural si unde are nevoie de traducere constienta. Interiorul 3, care are nevoie de expresie, bucurie si miscare, ajunge sa serveasca destinul 4, care cere structura, stabilitate si responsabilitate.
 
 Formula: valoare_absoluta(vibratie_a - vibratie_b). Calcul: |3 - 4| = 1.
 
@@ -150,7 +150,7 @@ Solutia arata cheia simplificata a aspectului de indreptat. Daca aspectul arata 
 
 Privit in contextul solutia aspectelor de indreptat, acest rezultat vorbeste despre sensibilitate, cooperare, diplomatie, rabdare si capacitatea de a crea echilibru intre oameni. Daca 29 este oglinda sensibila in care Andreea poate vedea prea multe nuante, 2-ul este mana care aseaza oglinda intr-o lumina buna. Solutia nu este sa simta mai putin, ci sa simta mai ordonat: sa verifice, sa comunice, sa nu transforme fiecare tacere intr-un raspuns si fiecare emotie intr-o poveste intreaga.
 
-Arhetipurile solutiei 2 sunt mediatorul, partenerul, ascultatorul si omul care stie sa tina doua adevaruri in aceeasi incapere fara sa le transforme imediat in conflict. Pentru Andreea, 2-ul matur inseamna blandete cu margini: poate fi calda fara sa se abandoneze, empatica fara sa preia tot, disponibila fara sa isi piarda centrul. Imaginea este a unei punti peste apa: nu opreste curentul, dar ofera un loc sigur pe unde oamenii pot trece.
+Pentru Andreea, solutia 2 inseamna blandete cu margini: poate fi calda fara sa se abandoneze, empatica fara sa preia tot si disponibila fara sa isi piarda centrul. Imaginea este a unei punti peste apa: nu opreste curentul, dar ofera un loc sigur pe unde oamenii pot trece.
 
 ### 2.5. Structura matriciala
 
@@ -211,6 +211,28 @@ Casuta dominanta este 9. Casutele lipsa sunt 5, 6 si 7. Fixatia este pe vectorul
 
 Dominantele pot fi talente, dar si zone de exces. Lipsurile pot fi compensate prin educatie, prin alegerea mediului potrivit si prin folosirea constienta a numelui. Caii arata energia de pornire, trasura arata suportul practic, iar vizitiul arata directia mentala si spirituala.
 
+Scara bunastarii ordoneaza descrescator toate valorile casutelor si ale vectorilor, fara a forma un subcapitol separat. La Andreea, varful este vectorul 789 - Creativitate (35), urmat de vectorul 159 - Cariera (31) si vectorul 369 - Bunastare materiala (30). Aceasta concentrare arata potential mental, creativ si orientat spre rezultat. La baza se afla casutele 5, 6 si 7, toate cu valoarea 0; bunastarea se consolideaza atunci cand libertatea asumata, responsabilitatea practica si increderea in propria profunzime sunt cultivate prin actiuni repetate.
+
+| Pozitie | Componenta | Valoare |
+| ---: | --- | ---: |
+| 1 | Vector 789 - Creativitate | 35 |
+| 2 | Vector 159 - Cariera | 31 |
+| 3 | Vector 369 - Bunastare materiala | 30 |
+| 4 | Casuta 9 | 27 |
+| 5 | Vector 258 - Social | 14 |
+| 6 | Vector 123 - Energie | 13 |
+| 7 | Vector 147 - Spiritualitate | 8 |
+| 8 | Casuta 8 | 8 |
+| 9 | Casuta 2 | 6 |
+| 10 | Casuta 1 | 4 |
+| 11 | Casuta 4 | 4 |
+| 12 | Vector 456 - Vointa | 4 |
+| 13 | Casuta 3 | 3 |
+| 14 | Vector 357 - Scopuri | 3 |
+| 15 | Casuta 5 | 0 |
+| 16 | Casuta 6 | 0 |
+| 17 | Casuta 7 | 0 |
+
 ### 2.6. Codul numerologic personal al numelui
 
 #### Numarul de exprimare
@@ -263,9 +285,13 @@ Privit in contextul numarul ereditar, acest rezultat vorbeste despre introspecti
 
 Numarul neamului citeste numele de familie printr-o reducere in intervalul 1-22, apropiata simbolic de limbajul arcanelor.
 
-Totalul numelui de familie este 25; reducerea 22 da 3; arcana majora asociata este 3.
+Calcul: `ROMAN = R9 + O6 + M4 + A1 + N5 = 25; 25 - 22 = 3`. Arcana majora rezultata este **3 - Imparateasa**.
 
-Aceasta informatie se citeste ca o tema de fundal. Ea poate functiona ca resursa mostenita, dar si ca responsabilitate de transformat intr-un mod personal si constient.
+| Arcana rezultata | Interpretare pentru numarul neamului |
+| --- | --- |
+| **Arcana 3 - Imparateasa** | Imparateasa vorbeste despre crestere, creativitate, hranire, frumusete, fertilitate simbolica si puterea de a transforma o idee intr-o forma vie. Pe linia familiala poate exista o capacitate mostenita de a ingriji, de a sustine, de a crea confort si de a face lucrurile sa rodeasca. Darul poate aparea prin sensibilitate estetica, generozitate, legatura cu natura, corpul si resursele concrete, precum si prin talentul de a aduna oamenii in jurul unui spatiu cald. Umbra acestei mosteniri poate lua forma supraprotectiei, a controlului exercitat prin grija, a atasamentului fata de confort, a excesului emotional sau material si a asteptarilor nerostite fata de cei apropiati. Lectia matura este sa ofere fara sa sufoce, sa creeze fara sa se epuizeze, sa primeasca la fel de firesc cum daruieste si sa transforme grija mostenita intr-o abundenta vie, asumata si aleasa constient. |
+
+Pentru Andreea, numarul neamului 3 sustine exprimarea creativa si capacitatea de a da forma lucrurilor care au ramas nerostite in familie. Mostenirea se valorifica atunci cand sensibilitatea devine creatie, grija are limite sanatoase, iar dorinta de frumos este legata de rezultate concrete si de relatii in care fiecare persoana isi pastreaza autonomia.
 
 #### Cifre intense si influente subtile ale numelui
 
@@ -362,11 +388,18 @@ In interpretare, o cifra absenta nu inseamna lipsa de iubire, ci o zona care tre
 
 #### Inclinatii profesionale
 
-Acest punct priveste felul in care energia datei de nastere poate sugera o orientare profesionala. Nu este vorba despre o meserie obligatorie, ci despre un climat interior: ce tip de provocare apare, ce fel de ajutor poate sustine persoana si in ce directie se poate organiza mai bine.
+Aplicabilitatea profesionala traduce data nasterii in doua directii complementare. Randul **DA** arata energia care poate fi cultivata si folosita concret in munca, iar randul **NU** arata obstacolul care poate bloca exprimarea profesionala atunci cand nu este gestionat constient. Rezultatele indica un climat de lucru si o cheie de maturizare, nu o meserie obligatorie.
 
-Se lucreaza cu rezultate pastrate in intervalul 1-22. Pentru aceasta persoana, calculul indica: obstacol 4, ajutor 10, directie 13.
+Calcul DA: `luna 1 + suma cifrelor anului (1 + 9 + 9 + 8) = 1 + 27 = 28; 28 - 22 = 6`.
 
-Obstacolul arata zona care poate cere efort sau maturizare; ajutorul arata resursa care poate sustine drumul; directia arata sensul in care energia poate fi orientata. Citirea ramane simbolica si trebuie corelata cu matricea, numele si experienta reala a persoanei.
+Calcul NU: `1 + 2 + 0 + 1 + 1 + 9 + 9 + 8 = 31; 31 - 22 = 9`.
+
+| Raspuns | Arcana rezultata | Interpretare profesionala |
+| --- | --- | --- |
+| **DA** | **Arcana 6 - Indragostitii** | Directia favorabila se construieste prin alegere constienta, colaborare, negociere si capacitatea de a uni oameni sau idei diferite. Andreea poate lucra bine in contexte in care relatia, comunicarea, estetica, consilierea, medierea ori decizia bazata pe valori au un rol important. Potentialul se activeaza cand isi clarifica prioritatile si alege un drum pe care il poate sustine afectiv, nu doar unul care pare corect din exterior. Cheia este sa transforme sensibilitatea relationala in cooperare matura, cu limite si responsabilitati clare. |
+| **NU** | **Arcana 9 - Ermitul** | Obstacolul poate aparea prin retragere excesiva, supragandire, perfectionism, dificultatea de a cere ajutor sau tendinta de a astepta certitudinea completa inainte de a actiona. Capacitatea de analiza si aprofundare este valoroasa, dar devine blocaj daca izoleaza persoana de echipa, de feedback si de ritmul concret al proiectelor. Cheia de lucru este alternarea perioadelor de studiu cu termene clare, expunerea treptata a ideilor si colaborarea cu oameni care respecta profunzimea fara sa incurajeze amanarea. |
+
+Impreuna, 6 si 9 descriu o profesie traita bine atunci cand profunzimea individuala este pusa in slujba unei relatii sau a unei alegeri clare. Andreea are de castigat daca nu ramane singura cu toate intrebarile, ci transforma ceea ce intelege in dialog, orientare si contributie concreta.
 
 #### Inclinatii ezoterice
 

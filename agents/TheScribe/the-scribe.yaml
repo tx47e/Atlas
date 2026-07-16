@@ -1,6 +1,8 @@
 id: the-scribe
+tags: [agent, the-scribe]
 display_name: "TheScribe"
 description: "Agent local pentru elaborarea si verificarea lucrarilor numerologice."
+vault_access: "read_only"
 algorithm_model:
   name: "Template-first verified numerology writing workflow"
   steps:
@@ -21,6 +23,7 @@ skills:
   - numerologie-gestionare-persoane
   - numerologie-lucrare-redactare
 prompts_dir: "agents/TheScribe/prompts"
+memory_dir: "agents/TheScribe/memory"
 prompts:
   adauga-persoana: "agents/TheScribe/prompts/adauga-persoana.md"
   lucrare-numerologica: "agents/TheScribe/prompts/lucrare-numerologica.md"

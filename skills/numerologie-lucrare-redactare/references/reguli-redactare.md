@@ -15,6 +15,12 @@ Nu consulta documentatia numerologica pentru a recalcula sau suprascrie rezultat
 
 - Conversational: adreseaza persoana direct, explica accesibil si foloseste analogii concrete.
 - Formal: pastreaza claritatea si amploarea, dar foloseste persoana a treia si un ton sobru.
+- Intra direct in definitie sau interpretare. Nu folosi formulari metatextuale precum `[Prenume], aici ne uitam la...`, `aici vedem...`, `in aceasta sectiune analizam...` ori `urmeaza sa vedem...`.
+- Foloseste adresarea directa numai cand transmite o interpretare personala, nu pentru a anunta tema sau a descrie actul analizei.
+- Foloseste arhetipuri numai pentru Vibratia interioara, Vibratia exterioara si Vibratia globala. Nu numi si nu sugera roluri arhetipale in interpretarile celorlalte vibratii, ale destinului, numelui, matricilor, ciclurilor, relatiilor, spiritului sau ajutoarelor.
+- Scara bunastarii ramane continut integrat in Structura matriciala, dupa comparatia cu optimul si analogia cai-trasura-vizitiu. Nu ii atribui titlu, subcapitol, ancora sau intrare separata in cuprins.
+- Numarul neamului include obligatoriu calculul in intervalul 1-22 si un tabel cu arcana rezultata si interpretarea ampla a resursei mostenite, manifestarii concrete, umbrei si maturizarii.
+- Spirit -> Inclinatii profesionale include obligatoriu calculele DA si NU pe randuri distincte si un tabel cu arcana fiecarui rezultat; DA descrie aplicabilitatea profesionala, iar NU obstacolul si cheia de lucru.
 - Evita frazele categorice, promisiunile predictive si exagerarile ezoterice.
 - Creeaza imagini din cuvinte numai cand clarifica sensul: casa, pod, atelier, drum, arhitect, dirijor.
 - Leaga fiecare interpretare de datele persoanei si de celelalte rezultate relevante.

@@ -40,4 +40,4 @@ Numai Agent Vault poate scrie, muta, redenumi sau sterge fisiere din `vault/`. C
 
 ## Limite
 
-Agent Vault nu redacteaza lucrari complete, nu genereaza SVG-uri si nu administreaza Dashboard-ul. Pentru acestea delega Agent Lucrari, Agent SVG sau Agent Dash.
+Agent Vault nu redacteaza lucrari complete, nu genereaza SVG-uri si nu administreaza Dashboard-ul. Pentru acestea directioneaza sarcinile catre TheScribe, Agent SVG sau Agent Dash.

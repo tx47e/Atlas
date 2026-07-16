@@ -8,10 +8,10 @@ algorithm_model:
   steps:
     - "incarca persoanele si lucrarile din sursele proiectului"
     - "verifica datele obligatorii si evidentiaza lipsurile"
-    - "clasifica lucrarea si selecteaza skill-urile necesare"
+    - "clasifica lucrarea si selecteaza fluxurile necesare"
     - "pregateste manifestul fara a inventa date"
     - "urmareste statusurile, livrabilele, blocajele si istoricul"
-    - "lanseaza generatoarele numai cand exista un mecanism local autorizat"
+    - "delega toate generatoarele SVG Agentului SVG si asteapta validarile lui"
     - "verifica rezultatele si sincronizeaza starea dashboardului"
     - "raporteaza progresul, erorile si pasul urmator"
   priority_order:
@@ -21,13 +21,14 @@ algorithm_model:
     - "manifestul lucrarii"
 skills:
   - numerologie-dashboard
-  - numerologie-SVG-omuletul-relatiilor
-  - numerologie-SVG-patratul-de-aur
-  - numerologie-SVG-semnatura-astrala
-  - numerologie-SVG-septagrama
-  - numerologie-SVG-harta-suprapusa
-  - numerologie-SVG-soarta-si-destin
-  - numerologie-SVG-triunghiul-financiar
+delegation_routes:
+  numerologie-SVG-omuletul-relatiilor: agent-svg
+  numerologie-SVG-patratul-de-aur: agent-svg
+  numerologie-SVG-semnatura-astrala: agent-svg
+  numerologie-SVG-septagrama: agent-svg
+  numerologie-SVG-harta-suprapusa: agent-svg
+  numerologie-SVG-soarta-si-destin: agent-svg
+  numerologie-SVG-triunghiul-financiar: agent-svg
 prompts_dir: "agents/Agent Dash/prompts"
 prompts:
   numerologie-dashboard: "agents/Agent Dash/prompts/numerologie-dashboard.md"

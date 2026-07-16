@@ -1,0 +1,32 @@
+schema_version: 1
+id: 1998-02-19-BIRSAN-DANIEL-ROBERT
+identitate:
+  nume_complet: Birsan Daniel Robert
+  nume_familie: Birsan
+  prenume: Daniel Robert
+  prenume_activ: Daniel
+  data_nasterii: '1998-02-19'
+  gen: masculin
+  nume_anterioare: []
+preferinte_lucrare:
+  template: examen
+  exprimare: conversational
+  nivel_detaliere: amplu
+  interval_ani:
+    tip: complet
+    start_varsta: 0
+    final_varsta: 108
+intrebari:
+- categorie: iubire
+  text: Care sunt lectiile si directiile importante in viata sentimentala?
+- categorie: cariera
+  text: Care sunt directiile profesionale potrivite si cum isi poate valorifica potentialul?
+relatii:
+- persoana_id: 1998-01-12-ROMAN-ANDREEA-MARIA
+  nume: Roman Andreea Maria
+  data_nasterii: '1998-01-12'
+  tip: partenera de cuplu
+  status: confirmata
+metadata:
+  created_at: '2026-07-16T13:01:40+03:00'
+  updated_at: '2026-07-16T13:01:40+03:00'

@@ -166,7 +166,7 @@ Arhetipul puntii 1 este initiatorul matur: omul care poate ramane atent la ceila
 
 Acest punct arata distanta dintre motivatia profunda si directia de destin. Puntea interior-destin vorbeste despre felul in care motorul personal ajunge sa serveasca directia mare a vietii.
 
-Ca analogie, aici vedem drumul dintre scanteie si forma finala. Arhetipurile acestei punti sunt alchimistul, mediatorul interior si constructorul de sens: partea care ia impulsul brut si il aseaza intr-o directie mai clara, mai utila si mai usor de trait.
+Ca analogie, aceasta punte este drumul dintre scanteie si forma finala. Arhetipurile ei sunt alchimistul, mediatorul interior si constructorul de sens: partea care ia impulsul brut si il aseaza intr-o directie mai clara, mai utila si mai usor de trait.
 
 Pentru puntea interior-destin calculam diferenta dintre vibratia interioara si destin.
 

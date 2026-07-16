@@ -1,3 +1,9 @@
+---
+tags: [agent, the-scribe, prompt]
+agent: TheScribe
+skill: numerologie-lucrare-redactare
+---
+
 # Prompt - lucrare numerologica
 
 Foloseste skill-ul `numerologie-lucrare-redactare` si elaboreaza lucrarea pe baza datelor de mai jos.

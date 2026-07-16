@@ -15,6 +15,12 @@ calculului/tabelelor 8.3. Tabelele primesc interpretari individuale, nu texte
 boilerplate repetate. Lista de control a modelului este obligatorie; o
 substituire mecanica fara audit de paritate nu este livrabila.
 
+Exceptie obligatorie de continut: modelul Daniel contine formulari arhetipale
+istorice. In lucrarile noi, arhetipurile se pastreaza numai la Vibratia
+interioara, Vibratia exterioara si Vibratia globala; in toate celelalte
+sectiuni, formularile respective se rescriu prin sens, manifestare, umbra si
+maturizare, fara roluri arhetipale explicite sau mascate.
+
 Firul lucrarii: **cine sunt -> ce simt -> cum ma arat -> ce am de armonizat -> incotro cresc -> cand se activeaza etapele -> cum construiesc relatiile -> ce pot aplica acum**.
 
 ## Formatul de lucru si livrare

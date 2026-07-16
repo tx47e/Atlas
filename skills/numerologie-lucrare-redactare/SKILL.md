@@ -51,7 +51,13 @@ python scripts/calculator_numerologic_examen.py `
 - Nu inventa date personale, relationale sau biografice.
 - Nu transforma numerologia intr-un verdict. Foloseste limbaj simbolic, nu afirmatii absolute.
 - Personalizeaza interpretarea prin legaturi intre rezultate, exemple concrete, analogii si imagini din cuvinte.
-- Pentru sectiunile majore, urmeaza: definitie -> metoda -> calcul -> rezultat -> imagine -> arhetip -> manifestare concreta -> umbra -> maturizare.
+- Incepe direct cu sensul conceptului sau cu interpretarea. Evita formularile metatextuale de tipul `[Prenume], aici ne uitam la...`, `aici vedem...` sau `in aceasta sectiune analizam...`.
+- Foloseste arhetipuri numai in interpretarile Vibratiei interioare, Vibratiei exterioare si Vibratiei globale.
+- Pentru cele trei vibratii permise, urmeaza: definitie -> metoda -> calcul -> rezultat -> imagine -> arhetip -> manifestare concreta -> umbra -> maturizare.
+- Pentru toate celelalte sectiuni, urmeaza: definitie -> metoda -> calcul -> rezultat -> imagine -> manifestare concreta -> umbra -> maturizare, fara arhetipuri sau roluri arhetipale mascate.
+- Integreaza Scara bunastarii in continutul Structurii matriciale, dupa tendinte, fixatie si analogia cai-trasura-vizitiu; nu ii crea titlu, subcapitol, ancora sau intrare separata in cuprins.
+- La Numarul neamului, afiseaza calculul in intervalul 1-22 si un tabel cu arcana rezultata si interpretare ampla: resursa mostenita, manifestare concreta, umbra si maturizare.
+- La Spirit -> Inclinatii profesionale, afiseaza separat calculele DA si NU si un tabel cu arcana fiecarui rezultat. DA explica aplicabilitatea profesionala, iar NU explica obstacolul si cheia de lucru.
 - Scrie denumirile complete ale vibratiilor. Nu folosi acronime precum `VI`, `VE`, `VG`, `VCV` sau `VCT` in text ori calcule.
 - Include datele relationale in `Date generale` atunci cand sunt furnizate, nu doar in capitolul Relatii.
 - Pastreaza relatia optionala: daca nu exista, omite sectiunea fara campuri fictive.
@@ -82,7 +88,9 @@ Verifica obligatoriu:
 - datele relatiei in Date generale si in capitolul Relatii;
 - toate calculele si reducerile fata de iesirea JSON a calculatorului;
 - absenta acronimelor de vibratii;
+- prezenta arhetipurilor numai la Vibratia interioara, Vibratia exterioara si Vibratia globala;
 - rezultatele complete marcate in chenare;
 - intervalul de ani cerut;
 - consistenta intre Markdown, HTML, tabele si grafice;
+- absenta formularilor metatextuale care anunta ce se analizeaza;
 - lipsa textelor generice ramase din template.

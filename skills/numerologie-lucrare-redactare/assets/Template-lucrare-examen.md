@@ -88,7 +88,7 @@ Reguli de folosire:
 - Interpretarile se redacteaza in stilul lucrarii Daniel v1.04r: cald,
   explicativ si imagistic, nu tehnic sau mecanic. Pentru fiecare interpretare
   majora se includ, dupa caz, definitia ideii, o analogie usor de vizualizat,
-  arhetipul vibratiei, manifestarea concreta in viata, umbra/tensiunea si cheia
+  arhetipul numai pentru Vibratia interioara, Vibratia exterioara si Vibratia globala, manifestarea concreta in viata, umbra/tensiunea si cheia
   de maturizare.
 - Se evita repetitia de tip sablon, de exemplu formule recurente precum
   "Privit in contextul..." sau paragrafe care schimba doar cifra. Fiecare text
@@ -169,7 +169,7 @@ Fiecare subcapitol interpretativ se construieste in aceasta ordine:
    foloseste o analogie concreta, ca cititorul sa poata vedea conceptul:
    izvor, usa, casa, atelier, biblioteca, drum, pod, harta, busola, oglinda,
    radacina, schelet, haina simbolica.
-4. **Arhetip**: se numesc arhetipurile vibratiei sau ale numarului. Exemplu:
+4. **Arhetip, numai pentru Vibratia interioara, Vibratia exterioara si Vibratia globala**: se numesc arhetipurile vibratiei. Exemplu:
    pentru 4: arhitectul, constructorul, administratorul; pentru 7:
    cercetatorul, observatorul, initiatul, ermitul.
 5. **Manifestare concreta**: se descrie cum poate aparea in viata de zi cu zi,
@@ -182,13 +182,13 @@ Fiecare subcapitol interpretativ se construieste in aceasta ordine:
 Formula minima pentru o interpretare majora este:
 
 ```text
-Ce este conceptul -> Calculul -> Imaginea -> Arhetipul -> Cum se vede in viata
+Ce este conceptul -> Calculul -> Imaginea -> Arhetipul doar pentru VI/VE/VG -> Cum se vede in viata
 -> Umbra -> Cheia de maturizare
 ```
 
 Nu se accepta interpretari formate doar din sinonime ale cifrei. Un paragraf de
 tipul "numarul 4 inseamna ordine, stabilitate si disciplina" este incomplet daca
-nu explica imaginea, arhetipul, manifestarea, umbra si cheia practica pentru
+nu explica imaginea, manifestarea, umbra si cheia practica pentru
 persoana analizata.
 
 ### Rolul fiecarui capitol in redactare
@@ -229,8 +229,9 @@ persoana analizata.
   firesc. Nu se repeta numele in fiecare paragraf.
 - Se alterneaza frazele scurte cu fraze explicative. Nu se foloseste acelasi
   inceput de paragraf de mai multe ori la rand.
-- Fiecare cifra importanta primeste cel putin o imagine si un arhetip in
-  capitolul in care este interpretata major.
+- Fiecare cifra importanta primeste cel putin o imagine in capitolul in care
+  este interpretata major. Arhetipul se adauga numai la Vibratia interioara,
+  Vibratia exterioara si Vibratia globala.
 - Cand doua energii sunt comparate, se foloseste o imagine de relatie intre ele:
   doua camere ale aceleiasi case, un pod intre doua maluri, caii si vizitiul,
   radacina si coroana, harta si drumul.
@@ -426,7 +427,7 @@ rubrica se scriu minimum doua paragrafe dupa calcul:
   constructie. Textul trebuie sa arate cum se formeaza destinul, nu doar cifra
   la care ajunge.
 - **Destinul**: se formuleaza ca directie de maturizare si implinire, nu ca
-  verdict. Include arhetipurile cifrei, manifestarea concreta in viata si
+  verdict. Include manifestarea concreta in viata si
   imaginea principala a drumului. Exemplu de constructie: "Destinul X nu cere
   doar..., ci invata persoana sa...".
 - **Puntea interior - exterior**: descrie cele doua capete ale puntii: ce
@@ -476,7 +477,7 @@ coopereaza sau cum se reaseaza energia, in functie de cifra solutiei.
 
 Se includ obligatoriu:
 
-- arhetipurile cifrei solutiei;
+- sensul practic al cifrei solutiei, fara arhetipuri;
 - o imagine concreta, de exemplu oglinda asezata in lumina, instrument acordat,
   pod peste apa, busola, cheie, atelier;
 - diferenta dintre forma imatura si forma matura a solutiei;
@@ -575,9 +576,9 @@ semnaleaza si nu se inventeaza rezultatul.
 
 {{comparatia_cu_optimul}}
 
-#### 1.5.12. Scara bunastarii
-
-Scara bunastarii se ordoneaza descrescator si include atat vectorii, cat si
+Scara bunastarii nu este subcapitol separat: nu primeste titlu, numerotare,
+ancora sau intrare in cuprins. Se integreaza dupa comparatia cu optimul si se
+ordoneaza descrescator, incluzand atat vectorii, cat si
 casutele. In HTML se recomanda grafic cu bare raportate la valoarea maxima
 din scara. Pentru casute se afiseaza o bulina cu elementul aferent, iar sub
 grafic se adauga legenda: Foc, Pamant, Apa, Aer.
@@ -622,8 +623,8 @@ Redactare obligatorie pentru nume: numarul de exprimare este "haina simbolica"
 prin care persoana intra in lume; numarul intim este respiratia interioara a
 numelui; numarul de realizare este scheletul prin care numele devine concret;
 numarul activ este usa prenumelui folosit; numarul ereditar este mostenirea de
-familie; numarul neamului este radacina arhetipala. Fiecare interpretare include
-arhetip, manifestare, umbra si cheie de maturizare.
+familie; numarul neamului este radacina simbolica. Fiecare interpretare include
+manifestare, umbra si cheie de maturizare, fara arhetipuri.
 
 #### 1.6.1. Cifre in exces / cifre lipsa
 
@@ -770,7 +771,7 @@ construit constient si ce obiceiuri concrete ajuta relatia.
 
 Redactare obligatorie: se afiseaza calculul pe doua randuri, DA si NU. Se
 introduc imaginile arcanelor in tabel. Pentru fiecare arcana se explica
-arhetipul profesional, directia buna, obstacolul si cheia de lucru.
+semnificatia profesionala, directia buna, obstacolul si cheia de lucru.
 
 {{inclinatii_profesionale}}
 
@@ -1037,8 +1038,6 @@ construita si ce comportament nou se poate forma.
 
 {{transformare_aspecte_de_indreptat_solutie}}
 
-### 3.9. Scara bunastarii
-
 {{transformare_scara_bunastarii}}
 
 ### 3.10. Lectiile de viata
@@ -1087,7 +1086,7 @@ incepe sa devina cand foloseste constient energia.
 ## Capitolul 4. Destinul
 
 Regula capitolului: destinul se scrie ca directie de realizare, nu ca verdict.
-Fiecare sectiune leaga cifra de un arhetip si de un drum concret. Se explica
+Fiecare sectiune leaga cifra de un drum concret, fara arhetipuri. Se explica
 mereu dialogul dintre destin, nume, caracter si perioadele vietii.
 
 Pentru Capitolul 4 se foloseste stilul amplu al lucrarii Daniel v1.04r. Fiecare
@@ -1099,8 +1098,8 @@ indreptat.
 
 ### 4.1. Vibratia Destinului
 
-Redactare obligatorie: include definitia destinului, calculul, arhetipurile
-cifrei destinului, imaginea centrala, manifestarea concreta, umbra si cheia de
+Redactare obligatorie: include definitia destinului, calculul,
+imaginea centrala, manifestarea concreta, umbra si cheia de
 maturizare. Se mentioneaza explicit cum se leaga calea destinului de cifra
 redusa.
 

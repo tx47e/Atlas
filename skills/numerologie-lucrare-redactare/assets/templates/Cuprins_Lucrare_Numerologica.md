@@ -38,7 +38,6 @@
 - Caii,Trăsură și vizitiu
 - Curgerea energiei
 - Comparația cu optimul
-- Scara bunăstării
 
 ### 2.3. Codul numerologic personal al numelui
 - Numărul de exprimare
@@ -104,7 +103,6 @@
 - Analiză calitativă și cantitativă
 - Polarități (masculin/feminin, activ/pasiv)
 - Vectori și fixații
-- Scara bunăstării
 - Curgerea energiei
 
 ### 3.3. Influențe spirituale

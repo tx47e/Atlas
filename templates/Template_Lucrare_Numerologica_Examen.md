@@ -577,9 +577,9 @@ de sus in jos si de la stanga la dreapta; vezi
 
 {{comparatia_cu_optimul}}
 
-#### 1.5.12. Scara bunastarii
-
-Scara bunastarii se ordoneaza descrescator si include atat vectorii, cat si
+Scara bunastarii nu este subcapitol separat: nu primeste titlu, numerotare,
+ancora sau intrare in cuprins. Se integreaza dupa comparatia cu optimul si se
+ordoneaza descrescator, incluzand atat vectorii, cat si
 casutele. In HTML se recomanda grafic cu bare raportate la valoarea maxima
 din scara. Pentru casute se afiseaza o bulina cu elementul aferent, iar sub
 grafic se adauga legenda: Foc, Pamant, Apa, Aer.
@@ -1041,8 +1041,6 @@ construita si ce comportament nou se poate forma.
 ### 3.8. Aspecte de indreptat si solutia
 
 {{transformare_aspecte_de_indreptat_solutie}}
-
-### 3.9. Scara bunastarii
 
 {{transformare_scara_bunastarii}}
 

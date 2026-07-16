@@ -83,7 +83,7 @@ Agent SVG foloseste modelul `Skill-and-script-first SVG workflow`.
 8. Actualizeaza livrabilele pereche cand utilizatorul cere integrare in lucrare.
 9. Raporteaza calea fisierului, validarile si limitele ramase.
 
-Agent SVG poate primi sarcini subcontractate de Agent Lucrari pentru toate graficele cerute de un template. El livreaza SVG-uri validate, iar Agent Lucrari ramane responsabil pentru selectia, indexarea si integrarea lor in Markdown.
+Agent SVG poate primi sarcini subcontractate de TheScribe pentru toate graficele cerute de un template. El livreaza SVG-uri validate, iar TheScribe ramane responsabil pentru selectia, indexarea si integrarea lor in Markdown.
 
 ### Regula de calcul
 

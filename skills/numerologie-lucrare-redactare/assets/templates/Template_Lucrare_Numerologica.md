@@ -409,10 +409,8 @@ tendinta impreuna cu treapta cea mai inalta din scara bunastarii.
   `Valoare casuta`, `Cantitate optima`, `Valoare optima`, `Diferenta` si
   `Citire`.
 
-### Scara bunastarii
-
-- Pastreaza acest continut ca subcapitol separat 4.6, dupa tendinte, fixatie si
-  analogia cai-trasura-vizitiu.
+- Integreaza Scara bunastarii fara titlu, subcapitol, ancora sau intrare in
+  cuprins, dupa tendinte, fixatie si analogia cai-trasura-vizitiu.
 - Include exact noua casute si opt vectori. Ordoneaza descrescator dupa valoare,
   grupeaza logic valorile egale si aseaza valorile zero la baza.
 - In HTML foloseste bare orizontale raportate la valoarea maxima. Pentru casute

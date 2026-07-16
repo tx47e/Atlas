@@ -1,3 +1,9 @@
+---
+tags: [agent, the-scribe, prompt]
+agent: TheScribe
+skill: numerologie-gestionare-persoane
+---
+
 # Prompt - adaugă persoană
 
 Folosește skill-ul `numerologie-gestionare-persoane` pentru a adăuga o persoană în registrul `persoane` din rădăcina Atlas.

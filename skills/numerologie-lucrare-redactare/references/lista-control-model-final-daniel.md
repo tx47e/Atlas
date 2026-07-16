@@ -23,7 +23,8 @@ Foloseste lista impreuna cu [modelul Markdown](../assets/templates/Model_Lucrare
 - [ ] Fiecare vector precizeaza casutele prezente si lipsa, dominantele, contributiile numerice, completitudinea si legatura dintre compozitie si valoare.
 - [ ] 4.5 contine tabelul casutelor cu coloanele Casuta, Cantitate casuta, Valoare casuta, Cantitate optima, Valoare optima, Diferenta si Citire, plus comparatia cu optimul pentru toate cele noua casute si toti cei opt vectori.
 - [ ] Fixatia este numai vectorul plin cu valoarea cea mai mare; analogia identifica 123 drept cai, 456 drept trasura si 789 drept vizitiu si le interpreteaza comparativ.
-- [ ] 4.6 este subcapitol separat, Scara bunastarii, cu exact noua casute si opt vectori, bare orizontale in ordine descrescatoare, egalitati grupate logic si valorile zero la baza.
+- [ ] Scara bunastarii este integrata fara titlu sau subcapitol separat dupa comparatia cu optimul, cu exact noua casute si opt vectori, bare orizontale in ordine descrescatoare, egalitati grupate logic si valorile zero la baza.
+- [ ] Numarul neamului contine calculul in intervalul 1-22 si tabelul cu arcana rezultata, resursa mostenita, manifestarea concreta, umbra si maturizarea.
 - [ ] 5.1-5.6 au descriere, calcul si interpretare personalizata.
 - [ ] 5.7 contine matricea colorata a codului numelui, simboluri, optim si numerotarea casutelor; fiecare componenta a numelui are rand propriu cu litere, sir numeric, suma, reducere si cod, iar codurile finale stau intr-un chenar separat.
 - [ ] 6.1-6.5 pastreaza descrierea, calculul, tabelul si interpretarea.
@@ -31,7 +32,7 @@ Foloseste lista impreuna cu [modelul Markdown](../assets/templates/Model_Lucrare
 - [ ] 6.6 respecta exact ordinea descriere, calcul, tabel, interpretare.
 - [ ] 6.7-6.8 pastreaza tabelele, figurile, legendele si sinteza.
 - [ ] 7.1 explica amplu lipsurile, zonele comune, tema de rezolvat si realizarea comuna.
-- [ ] 8.1 afiseaza cele doua calcule pe randuri separate.
+- [ ] 8.1 afiseaza calculele DA si NU pe randuri separate si tabelul cu arcanele rezultate, aplicabilitatea profesionala, obstacolul si cheia de lucru.
 - [ ] 8.2 separa prima operatie si interpretarea ei de a doua operatie, interpretarea ei si recomandari; rezultatul dupa virgula este rosu ca in model.
 - [ ] 8.3 explica amplu calculul, coloreaza casutele si reproduce tabelul subetapelor.
 - [ ] 9.1-9.2 pastreaza descrierile, calculele, figurile si interpretarile.

@@ -1,0 +1,30 @@
+schema_version: 1
+id: 1984-11-06-SZABO-MIHAI-GABRIEL
+identitate:
+  nume_complet: Szabo Mihai Gabriel
+  nume_familie: Szabo
+  prenume: Mihai Gabriel
+  prenume_activ: Mihai
+  data_nasterii: '1984-11-06'
+  gen: masculin
+  nume_anterioare: []
+preferinte_lucrare:
+  template: examen
+  exprimare: conversational
+  nivel_detaliere: amplu
+  interval_ani:
+    tip: complet
+    start_varsta: 0
+    final_varsta: 108
+intrebari:
+- categorie: cariera
+  text: Care sunt directiile potrivite pentru cariera si business?
+relatii:
+- persoana_id: 1984-04-17-SZABO-SABINA
+  nume: Szabo Sabina
+  data_nasterii: '1984-04-17'
+  tip: sotie
+  status: confirmata
+metadata:
+  created_at: '2026-07-16T12:52:24+03:00'
+  updated_at: '2026-07-16T12:52:24+03:00'

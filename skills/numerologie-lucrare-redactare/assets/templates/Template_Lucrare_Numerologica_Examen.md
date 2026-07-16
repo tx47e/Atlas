@@ -389,9 +389,8 @@ tabelul complet:
 
 {{comparatia_cu_optimul}}
 
-#### 1.5.12. Scara bunastarii
-
-Scara bunastarii este subcapitol separat dupa tendinte, fixatie si analogia
+Scara bunastarii nu este subcapitol separat: nu primeste titlu, numerotare,
+ancora sau intrare in cuprins. Se integreaza dupa tendinte, fixatie si analogia
 cai-trasura-vizitiu. Include exact noua casute si opt vectori, ordonate
 descrescator dupa valoare; valorile egale se grupeaza logic, iar valorile zero
 raman la baza. In HTML foloseste bare orizontale raportate la valoarea maxima.
@@ -752,8 +751,6 @@ din matricea datei de nastere; vezi
 ### 3.8. Aspecte de indreptat si solutia
 
 {{transformare_aspecte_de_indreptat_solutie}}
-
-### 3.9. Scara bunastarii
 
 {{transformare_scara_bunastarii}}
 

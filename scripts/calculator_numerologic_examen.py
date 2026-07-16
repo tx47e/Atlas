@@ -656,17 +656,16 @@ def soarta_si_destin(data_nasterii: date) -> dict[str, Any]:
 
 
 def inclinatii_profesionale(data_nasterii: date) -> dict[str, Any]:
-    zi = reducere_numerologica(data_nasterii.day).rezultat
-    luna = reducere_numerologica(data_nasterii.month).rezultat
-    an = reducere_numerologica(sum(cifre(data_nasterii.year))).rezultat
-    obstacol = reducere_arcane(zi + luna)
-    ajutor = reducere_arcane(luna + an)
-    directie = reducere_arcane(zi + luna + an)
+    suma_cifre_an = sum(cifre(data_nasterii.year))
+    suma_cifre_data = sum(int(cifra) for cifra in data_compacta(data_nasterii))
+    da = reducere_arcane(data_nasterii.month + suma_cifre_an)
+    nu = reducere_arcane(suma_cifre_data)
     return {
-        "formula_operationala": "rezultate pastrate in intervalul 1-22",
-        "obstacol": obstacol,
-        "ajutor": ajutor,
-        "directie": directie,
+        "formula_operationala": "DA = luna + suma cifrelor anului; NU = suma tuturor cifrelor datei; rezultate pastrate in intervalul 1-22",
+        "da": da,
+        "nu": nu,
+        "calcul_da": f"{data_nasterii.month} + {suma_cifre_an} = {data_nasterii.month + suma_cifre_an} -> {da}",
+        "calcul_nu": f"{suma_cifre_data} -> {nu}",
     }
 
 
