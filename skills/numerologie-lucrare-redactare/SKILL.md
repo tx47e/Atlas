@@ -43,9 +43,19 @@ python scripts/calculator_numerologic_examen.py `
 ## Selectarea template-ului
 
 - Consulta [[skills/numerologie-lucrare-redactare/references/harta-template-uri-lucrari|Harta template-urilor pentru lucrari numerologice]] inainte de alegerea structurii.
+- Solicita alegerea explicita a unuia dintre tipurile disponibile: `scurt` sau `examen`. Nu deduce tipul doar din nivelul de detaliere.
 - `examen`: foloseste template-ul inclus si toate capitolele cerute de acesta.
-- `scurt`, alte tipuri sau template-uri viitoare: foloseste fisierul dedicat numai daca exista in `assets/`. Daca nu exista, cere utilizatorului confirmarea structurii inainte de a inventa una.
-- Pastreaza fiecare template intr-un fisier distinct, cu nume de forma `Template-lucrare-{tip}.md`.
+- `scurt`: foloseste obligatoriu perechea `assets/templates/Template_Lucrare_Numerologica_Scurt.md` si `assets/templates/Template_Lucrare_Numerologica_Scurt.html`.
+- Pentru un tip viitor, foloseste fisierul dedicat numai daca este inregistrat in harta template-urilor; altfel cere confirmare inainte de a inventa o structura.
+- Pastreaza fiecare template intr-o pereche distincta Markdown-HTML si mentine copiile din `templates/` si `assets/templates/` identice.
+
+### Contractul template-ului `scurt`
+
+- Pastreaza ordinea capitolelor din template: Vibratia interioara, Vibratia exterioara, Destinul, Matrita numerologica, Numele, Oportunitati si provocari, Soarta si Destinul, Lectiile de viata, Relatii conditionale si Concluzii.
+- In Matrita numerologica, reda patratul 3x3 in ordinea `1-4-7 / 2-5-8 / 3-6-9`, cu repetitii, reper optim, culori si simboluri dupa modelul `BDR-19980219-v1.07r-G-001`.
+- Reda ca tabele editabile cele doua coduri ale numelui, anii interiori, anii exteriori, ciclul de 7 ani, ciclul de 9 ani si lectiile de viata; nu folosi capturi raster pentru aceste tabele.
+- Pentru orice arcana numita, selecteaza imaginea corespunzatoare din `vault/tarot/imagini`, foloseste embed Obsidian in Markdown si data URI in HTML autonom.
+- Daca exista date relationale, insereaza capitolul `Relatii` intre `Lectiile de viata` si `Concluzii`, genereaza Omuletul relatiilor prin The Cartographer si interpreteaza contributiile, elementele, rezultatul comun, tema de rezolvat si zonele absente. Daca nu exista relatie, elimina integral capitolul si intrarea din Cuprins si pastreaza Concluziile drept Capitolul 9.
 
 ## Reguli de continut
 

@@ -22,6 +22,13 @@ Sa redacteze lucrari numerologice personalizate folosind calculatorul inclus in 
 - [`adauga-persoana`](prompts/adauga-persoana.md)
 - [`lucrare-numerologica`](prompts/lucrare-numerologica.md)
 
+## Template-uri disponibile
+
+- `scurt` — [Markdown](../../templates/Template_Lucrare_Numerologica_Scurt.md) · [HTML](../../templates/Template_Lucrare_Numerologica_Scurt.html)
+- `examen` — [Template de examen](../../templates/Template_Lucrare_Numerologica_Examen.md)
+
+Selectia tipului este obligatorie in promptul de creare a lucrarii si trebuie sa fie exact `scurt` sau `examen`.
+
 ## Configurare si memorie
 
 - [Configuratia The Scribe](the-scribe.yaml)
@@ -30,7 +37,7 @@ Sa redacteze lucrari numerologice personalizate folosind calculatorul inclus in 
 ## Responsabilitati
 
 1. Colecteaza datele prin formularul standard sau incarca fisa existenta din `persoane/`.
-2. Selecteaza template-ul cerut si nu inventeaza tipuri inexistente.
+2. Solicita si aplica selectia explicita `scurt` sau `examen`; nu inventeaza tipuri inexistente si nu confunda template-ul cu nivelul de detaliere.
 3. Ruleaza calculatorul Python din skill si foloseste iesirea JSON drept sursa a calculelor.
 4. Redacteaza interpretari personalizate, ample si usor de inteles.
 5. Solicita agentului The Cartographer graficele necesare si asteapta livrabilele validate.

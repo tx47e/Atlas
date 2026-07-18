@@ -19,7 +19,7 @@ Nume anterior: [optional]
 Gen: M / F
 
 LUCRARE
-Template: examen / scurt / alt tip disponibil
+Tip template (selectie obligatorie): scurt / examen
 Exprimare: conversational / formal
 Nivel de detaliere: scurt / mediu / amplu
 Intrebare principala: cariera / iubire / bani / faima / alta intrebare
@@ -32,6 +32,8 @@ Data nasterii:
 Gen: M / F
 Tipul relatiei:
 ```
+
+Nu incepe lucrarea pana cand `Tip template` nu contine exact `scurt` sau `examen`; daca lipseste, solicita selectia. Pentru `scurt`, foloseste perechea `Template_Lucrare_Numerologica_Scurt.md` + `.html`. Pentru `examen`, foloseste template-ul de examen si modelul editorial corespunzator starii lucrarii.
 
 Verifica datele inainte de calcul. Ruleaza `scripts/calculator_numerologic_examen.py` din skill pentru persoana analizata si separat pentru persoana relationala, daca exista. Foloseste iesirea JSON drept sursa a calculelor. Nu inventa informatii lipsa. Livreaza perechea Markdown-HTML si aplica toate regulile template-ului selectat.
 
