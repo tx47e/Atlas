@@ -65,7 +65,7 @@ h4 { margin: 28px 0 12px; color: var(--deep); font-size: 18px; }
 p { margin: 0 0 16px; }
 p, li, td, th, .matrix-main, .matrix-geom { overflow-wrap: anywhere; word-break: break-word; }
 .index { margin: 18px 0 1px; color: #6b6258; font: 11px/1.3 Arial, sans-serif; letter-spacing: .04em; }
-.index + p, .index + .table-wrap { margin-top: 2px; }
+.index + p, .index + .table-wrap, .index + .calc-box { margin-top: 2px; }
 .index-heading { margin-top: 34px; }
 .toc {
   display: grid;
@@ -102,6 +102,12 @@ table { width: 100%; border-collapse: collapse; background: #fff; }
 th, td { padding: 10px 11px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
 th { background: #dcebed; color: var(--deep); font-family: Arial, sans-serif; }
 tbody tr:nth-child(even) { background: rgba(247, 239, 227, .45); }
+.polarities-wrap { border: 0; box-shadow: none; border-radius: 0; overflow: visible; }
+.polarities-table { min-width: 0; background: transparent; }
+.polarities-table th, .polarities-table td { border: 0; background: transparent !important; color: var(--ink); padding: 10px 14px; }
+.polarities-table th { width: 31%; font: 700 14px/1.35 Georgia, serif; letter-spacing: 0; text-align: right; vertical-align: middle; }
+.polarities-table tbody tr, .polarities-table tbody tr:nth-child(even), .polarities-table tbody tr:hover { background: transparent; }
+.polarities-table tbody tr:first-child th, .polarities-table tbody tr:first-child td, .polarities-table tbody tr:nth-child(2) th, .polarities-table tbody tr:nth-child(2) td { border-bottom: 1px solid var(--line) !important; }
 .total-row { font-weight: 700; background: #edf5f5 !important; }
 .active-year { background: #fff1a8; font-weight: 700; }
 .cycle-start { color: #068b45; font-weight: 700; }
@@ -137,6 +143,29 @@ tbody tr:nth-child(even) { background: rgba(247, 239, 227, .45); }
 .element-apa { background: var(--water); }
 .element-aer { background: var(--air); }
 .element-pamant { background: var(--earth); }
+.tarot-profile-wrap { border: 0; border-radius: 0; box-shadow: none; overflow: visible; }
+.tarot-profile-table { min-width: 0; background: transparent; }
+.tarot-profile-table td { border: 0; background: transparent !important; padding: 10px 14px; }
+.tarot-profile-table tr, .tarot-profile-table tr:nth-child(even), .tarot-profile-table tr:hover { background: transparent; }
+.tarot-profile-table td:last-child { vertical-align: middle; }
+.index + .element-bars { margin-top: 2px; }
+.element-bars { margin: 18px 0 28px; max-width: 720px; }
+.element-analysis { display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1fr); column-gap: 28px; row-gap: 2px; align-items: start; margin: 2px 0 18px; }
+.element-indexes { display: contents; }
+.element-indexes .index { margin-top: 0; }
+.element-analysis .element-bars { max-width: none; margin: 0; }
+.element-definitions { list-style: disc; margin: 0; padding-left: 1.3em; }
+.element-definitions li { min-height: 66px; margin: 0; display: list-item; padding-top: 18px; }
+.parity-chart { margin: 4px 0 12px; max-width: 720px; }
+.parity-chart-total { margin-bottom: 4px; font-size: 13px; color: var(--muted); }
+.parity-chart-bar { display: flex; height: 34px; overflow: hidden; border: 1px solid rgba(11, 43, 44, .18); border-radius: 6px; background: rgba(11, 43, 44, .1); }
+.parity-chart-bar span { display: flex; align-items: center; justify-content: center; min-width: 0; padding: 0 8px; font-size: 13px; white-space: nowrap; }
+.parity-odd { background: var(--fire); color: var(--deep); }
+.parity-even { background: var(--water); color: var(--deep); border-left: 1px solid rgba(11, 43, 44, .18); }
+.element-bar { margin: 12px 0; }
+.element-bar-label { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 4px; font-weight: 700; }
+.element-bar-track { height: 22px; background: rgba(11, 43, 44, .1); border: 1px solid rgba(11, 43, 44, .18); border-radius: 6px; overflow: hidden; }
+.element-bar-fill { display: block; height: 100%; border-radius: 5px; }
 figure { margin: 24px auto 32px; text-align: center; }
 .embedded-svg, .tarot-image { display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 6px; }
 .tarot-image { max-height: 560px; }
@@ -150,6 +179,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   .meta-list, .relation-facts { columns: 1; }
   .matrix-grid { grid-template-columns: repeat(3, minmax(92px, 1fr)); overflow-x: auto; }
   th, td { padding: 8px; }
+  .element-analysis { grid-template-columns: 1fr; gap: 16px; }
 }
 @media print {
   body { background: #fff; font-size: 11pt; }
@@ -204,31 +234,35 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <h3 id="1-1-definitie-si-calcul">1.1. Definiție și calcul</h3>
 <p>{{definitie_vibratie_interioara_si_metoda}}</p>
 <div class="index">Index: {{cod_lucrare}}-C-001</div>
-<div class="calc-box">{{calcul_vibratie_interioara}} → <strong>{{vibratie_interioara}}</strong></div>
+<div class="calc-box">Ziua din data de naștere = {{calcul_vibratie_interioara}}</div>
 <h3 id="1-2-caracterul">1.2. Caracterul</h3><p>{{interpretare_caracter}}</p>
 <h3 id="1-3-dorintele">1.3. Dorințele</h3><p>{{interpretare_dorinte}}</p>
 <h3 id="1-4-motivatia">1.4. Motivația</h3><p>{{interpretare_motivatie}}</p>
 <h3 id="1-5-teama">1.5. Teama</h3><p>{{interpretare_teama}}</p>
 <h3 id="1-6-polaritati-si-maturizare">1.6. Polarități și maturizare</h3>
 <div class="index">Index: {{cod_lucrare}}-T-009</div>
-<div class="table-wrap"><table><thead><tr><th>Polaritate constructivă</th><th>Polaritate de conștientizat</th><th>Direcție de maturizare</th></tr></thead><tbody><tr><td>{{polaritate_plus}}</td><td>{{polaritate_minus}}</td><td>{{directie_maturizare}}</td></tr></tbody></table></div>
+<div class="table-wrap polarities-wrap"><table class="polarities-table"><tbody>
+<tr><th scope="row">Polarități pozitive</th><td><ul>{{lumina_vibratie_bulleturi_html}}</ul></td></tr>
+<tr><th scope="row">Polarități negative</th><td><ul>{{umbra_vibratie_bulleturi_html}}</ul></td></tr>
+<tr><th scope="row">Direcții de dezvoltare</th><td><ul>{{directii_dezvoltare_bulleturi_html}}</ul></td></tr>
+</tbody></table></div>
 <h3 id="1-7-tarot">1.7. Tarot</h3>
 <div class="index">Index: {{cod_lucrare}}-T-010</div>
-<div class="table-wrap"><table><thead><tr><th>Arcana</th><th>Denumire</th><th>Resursă</th><th>Manifestare</th><th>Umbră</th><th>Maturizare</th></tr></thead><tbody><tr><td>{{numar_arcana_vibratie}}</td><td>{{nume_arcana_vibratie}}</td><td>{{resursa_arcana_vibratie}}</td><td>{{manifestare_arcana_vibratie}}</td><td>{{umbra_arcana_vibratie}}</td><td>{{maturizare_arcana_vibratie}}</td></tr></tbody></table></div>
-<div class="index">Index: {{cod_lucrare}}-G-001</div>
-<figure><img class="tarot-image" src="{{arcana_vibratie_data_uri}}" alt="Arcana {{numar_arcana_vibratie}} — {{nume_arcana_vibratie}}"><figcaption>Arcana {{numar_arcana_vibratie}} — {{nume_arcana_vibratie}}</figcaption></figure>
+<div class="table-wrap tarot-profile-wrap"><table class="tarot-profile-table"><tbody>
+<tr><td><div class="index">Index: {{cod_lucrare}}-G-001</div><img class="tarot-image tarot-table-image" src="{{arcana_vibratie_data_uri}}" alt="Arcana {{numar_arcana_vibratie}} — {{nume_arcana_vibratie}}" width="190"><div><em>Arcana <strong>{{numar_arcana_vibratie}}</strong> — {{nume_arcana_vibratie}}</em></div></td><td><ul><li><strong>Resursă:</strong> {{resursa_arcana_vibratie}}</li><li><strong>Manifestare:</strong> {{manifestare_arcana_vibratie}}</li><li><strong>Umbră:</strong> {{umbra_arcana_vibratie}}</li><li><strong>Maturizare:</strong> {{maturizare_arcana_vibratie}}</li></ul></td></tr>
+</tbody></table></div>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-006</div>
 <h2 id="capitolul-2-vibratia-exterioara">Capitolul 2. Vibrația exterioară — Rolul social</h2>
-<h3 id="2-1-definitie-si-calcul">2.1. Definiție și calcul</h3><p>{{definitie_vibratie_exterioara_si_metoda}}</p>
-<div class="calc-box">{{calcul_vibratie_exterioara}} → <strong>{{vibratie_exterioara}}</strong></div>
+<h3 id="2-1-definitie">2.1. Definiție</h3><p>{{definitie_vibratie_exterioara_si_metoda}}</p>
+<div class="calc-box">Luna din data de naștere = {{calcul_vibratie_exterioara}}</div>
 <h3 id="2-2-caracterul-social">2.2. Caracterul social</h3><p>{{interpretare_caracter_social}}</p>
 <h3 id="2-3-interior-si-exterior">2.3. Interior și exterior</h3><p>{{interpretare_dialog_interior_exterior}}</p>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-007</div>
 <h2 id="capitolul-3-destinul">Capitolul 3. Destinul — Muntele de urcat</h2>
 <h3 id="3-1-definitie-si-calcul">3.1. Definiție și calcul</h3><p>{{definitie_destin_si_metoda}}</p>
-<div class="calc-box">{{calcul_destin}} → <strong>{{destin}}</strong></div>
+<div class="calc-box">Toate cifrele adunate din data de naștere = {{calcul_destin}}</div>
 <h3 id="3-2-interpretare">3.2. Interpretare</h3><p>{{interpretare_destin_manifestare_umbra_maturizare}}</p>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-008</div>
@@ -250,24 +284,21 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   <div class="matrix-cell element-apa"><div class="matrix-number">6</div><div class="matrix-main">{{cifre_6}}</div><div class="matrix-opt">optim 66</div><div class="matrix-geom {{clasa_absent_6}}">{{geometrie_svg_6}}</div></div>
   <div class="matrix-cell element-foc"><div class="matrix-number">9</div><div class="matrix-main">{{cifre_9}}</div><div class="matrix-opt">optim 9</div><div class="matrix-geom {{clasa_absent_9}}">{{geometrie_svg_9}}</div></div>
 </div>
-<h3 id="4-2-casutele-matricei">4.2. Căsuțele matricei</h3>
-<div class="index">Index: {{cod_lucrare}}-T-011</div>
-<div class="table-wrap"><table><thead><tr><th>Căsuța</th><th>Cifre</th><th>Cantitate</th><th>Valoare</th><th>Reper optim</th><th>Interpretare</th></tr></thead><tbody>
-<tr><td>1</td><td>{{cifre_1}}</td><td>{{cantitate_1}}</td><td>{{valoare_1}}</td><td>111</td><td>{{interpretare_1}}</td></tr>
-<tr><td>2</td><td>{{cifre_2}}</td><td>{{cantitate_2}}</td><td>{{valoare_2}}</td><td>222</td><td>{{interpretare_2}}</td></tr>
-<tr><td>3</td><td>{{cifre_3}}</td><td>{{cantitate_3}}</td><td>{{valoare_3}}</td><td>333</td><td>{{interpretare_3}}</td></tr>
-<tr><td>4</td><td>{{cifre_4}}</td><td>{{cantitate_4}}</td><td>{{valoare_4}}</td><td>44</td><td>{{interpretare_4}}</td></tr>
-<tr><td>5</td><td>{{cifre_5}}</td><td>{{cantitate_5}}</td><td>{{valoare_5}}</td><td>55</td><td>{{interpretare_5}}</td></tr>
-<tr><td>6</td><td>{{cifre_6}}</td><td>{{cantitate_6}}</td><td>{{valoare_6}}</td><td>66</td><td>{{interpretare_6}}</td></tr>
-<tr><td>7</td><td>{{cifre_7}}</td><td>{{cantitate_7}}</td><td>{{valoare_7}}</td><td>7</td><td>{{interpretare_7}}</td></tr>
-<tr><td>8</td><td>{{cifre_8}}</td><td>{{cantitate_8}}</td><td>{{valoare_8}}</td><td>8</td><td>{{interpretare_8}}</td></tr>
-<tr><td>9</td><td>{{cifre_9}}</td><td>{{cantitate_9}}</td><td>{{valoare_9}}</td><td>9</td><td>{{interpretare_9}}</td></tr>
-</tbody></table></div>
-<h3 id="4-3-elemente">4.3. Elemente</h3>
-<div class="index">Index: {{cod_lucrare}}-T-012</div>
-<div class="table-wrap"><table><thead><tr><th>Element</th><th>Cifre</th><th>Total</th><th>Interpretare</th></tr></thead><tbody><tr><td>Foc</td><td>1 + 5 + 9</td><td>{{total_foc}}</td><td>{{interpretare_foc}}</td></tr><tr><td>Apă</td><td>2 + 6</td><td>{{total_apa}}</td><td>{{interpretare_apa}}</td></tr><tr><td>Aer</td><td>3 + 7</td><td>{{total_aer}}</td><td>{{interpretare_aer}}</td></tr><tr><td>Pământ</td><td>4 + 8</td><td>{{total_pamant}}</td><td>{{interpretare_pamant}}</td></tr></tbody></table></div>
-<h3 id="4-4-masculin-feminin-daruri-nevoi">4.4. Masculin și feminin. Daruri și nevoi</h3><p>{{interpretare_par_impar_masculin_feminin}}</p><p>{{interpretare_daruri_nevoi}}</p>
-<h3 id="4-5-fixatia">4.5. Fixația</h3><p>{{calcul_si_interpretare_fixatie}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_1}}</div><p><strong>Căsuța 1.</strong> {{interpretare_1_fata_de_optim}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_2}}</div><p><strong>Căsuța 2.</strong> {{interpretare_2_fata_de_optim}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_3}}</div><p><strong>Căsuța 3.</strong> {{interpretare_3_fata_de_optim}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_4}}</div><p><strong>Căsuța 4.</strong> {{interpretare_4_fata_de_optim}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_5}}</div><p><strong>Căsuța 5.</strong> {{interpretare_5_fata_de_optim}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_6}}</div><p><strong>Căsuța 6.</strong> {{interpretare_6_fata_de_optim}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_7}}</div><p><strong>Căsuța 7.</strong> {{interpretare_7_fata_de_optim}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_8}}</div><p><strong>Căsuța 8.</strong> {{interpretare_8_fata_de_optim}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_9}}</div><p><strong>Căsuța 9.</strong> {{interpretare_9_fata_de_optim}}</p>
+<h3 id="4-3-elemente-si-temperament">4.3. Elemente și temperament</h3>
+<div class="element-analysis"><div class="element-indexes"><span class="index">Index: {{cod_lucrare}}-T-012</span><span class="index">Index: {{cod_lucrare}}-P-{{index_definitii_elemente}}</span></div><div class="element-chart"><div class="element-bars" role="img" aria-label="Distribuția elementelor"><div class="element-bar"><div class="element-bar-label"><span>Foc</span><strong>{{total_foc}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-foc" style="width:{{procent_foc}}%"></span></div></div><div class="element-bar"><div class="element-bar-label"><span>Pământ</span><strong>{{total_pamant}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-pamant" style="width:{{procent_pamant}}%"></span></div></div><div class="element-bar"><div class="element-bar-label"><span>Aer</span><strong>{{total_aer}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-aer" style="width:{{procent_aer}}%"></span></div></div><div class="element-bar"><div class="element-bar-label"><span>Apă</span><strong>{{total_apa}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-apa" style="width:{{procent_apa}}%"></span></div></div></div></div><ul class="element-definitions"><li><strong>Focul</strong> este {{definitie_foc}}.</li><li><strong>Pământul</strong> este {{definitie_pamant}}.</li><li><strong>Aerul</strong> este {{definitie_aer}}.</li><li><strong>Apa</strong> este {{definitie_apa}}.</li></ul></div>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_temperament}}</div><p>{{interpretare_temperament_din_elemente}}</p>
+<div class="index">Index: {{cod_lucrare}}-SUB-016</div><h3 id="4-4-masculin-feminin">4.4. Masculin și feminin</h3><div class="index">Index: {{cod_lucrare}}-P-{{index_par_impar}}</div><div class="parity-chart" role="img" aria-label="Raportul cifrelor impare și pare"><div class="parity-chart-total">Total: <strong>{{total_cifre_matrice}}</strong> cifre</div><div class="parity-chart-bar"><span class="parity-odd" style="width:{{procent_impare}}%"><strong>Impare · {{total_impare}}</strong></span><span class="parity-even" style="width:{{procent_pare}}%"><strong>Pare · {{total_pare}}</strong></span></div></div><p>{{interpretare_par_impar_masculin_feminin}}</p><div class="index">Index: {{cod_lucrare}}-SUB-017</div><h3 id="4-5-daruri-si-nevoi">4.5. Daruri și nevoi</h3><div class="index">Index: {{cod_lucrare}}-P-{{index_daruri_nevoi}}</div><p>{{interpretare_daruri_nevoi}}</p><div class="index">Index: {{cod_lucrare}}-SUB-017a</div><h3 id="4-6-scara-bunastarii">4.6. Scara bunăstării</h3><div class="index">Index: {{cod_lucrare}}-G-{{index_scara_bunastarii}}</div>{{grafic_scara_bunastarii_html}}
+{{bloc_fixatie_conditionala_html}}
+{{bloc_tendinta_conditionala_html}}
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-009</div>
 <h2 id="capitolul-5-numele">Capitolul 5. Numele — Eu și neamul</h2>

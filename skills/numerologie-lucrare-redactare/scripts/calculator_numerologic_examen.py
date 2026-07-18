@@ -290,6 +290,7 @@ def calculeaza_vectori(casute: dict[str, dict[str, Any]]) -> dict[str, Any]:
         vectori[cod] = {
             "denumire": denumire,
             "cifre": cantitate,
+            "cantitate": sum(casute[cifra]["cantitate"] for cifra in cifre_vector),
             "valoare": valoare,
             "este_plin": all(casute[cifra]["cantitate"] > 0 for cifra in cifre_vector),
         }
@@ -306,19 +307,23 @@ def figuri_geometrice(casute: dict[str, dict[str, Any]]) -> dict[str, Any]:
 
 
 def tendinte(casute: dict[str, dict[str, Any]]) -> dict[str, Any]:
-    maxim = max(info["valoare"] for info in casute.values())
-    dominante = [cifra for cifra, info in casute.items() if info["valoare"] == maxim and maxim > 0]
-    lipsa = [cifra for cifra, info in casute.items() if info["cantitate"] == 0]
-    return {"casute_dominante": dominante, "casute_lipsa": lipsa}
+    diagonale = ("159", "357")
+    pline = {cod: sum(casute[cifra]["cantitate"] for cifra in cod) for cod in diagonale if all(casute[cifra]["cantitate"] > 0 for cifra in cod)}
+    if not pline:
+        return {"rezultat": None, "observatie": "Nu exista vector diagonal plin; nu exista tendinta matriceala clara."}
+    maxim = max(pline.values())
+    return {"vectori_dominanti": [cod for cod, cantitate in pline.items() if cantitate == maxim], "cantitate": maxim}
 
 
 def fixatia(vectori: dict[str, Any]) -> dict[str, Any]:
-    plini = {cod: info for cod, info in vectori.items() if info["este_plin"]}
+    # Fixația se stabilește exclusiv pe rândurile orizontale ale matricei.
+    vectori_orizontali = ("147", "258", "369")
+    plini = {cod: vectori[cod] for cod in vectori_orizontali if vectori[cod]["este_plin"]}
     if not plini:
-        return {"rezultat": None, "observatie": "Nu exista vector plin dominant."}
-    maxim = max(info["valoare"] for info in plini.values())
-    dominante = [cod for cod, info in plini.items() if info["valoare"] == maxim]
-    return {"vectori_dominanti": dominante, "valoare": maxim}
+        return {"rezultat": None, "observatie": "Nu exista vector orizontal plin; nu exista fixatie matriceala clara."}
+    maxim = max(info["cantitate"] for info in plini.values())
+    dominante = [cod for cod, info in plini.items() if info["cantitate"] == maxim]
+    return {"vectori_dominanti": dominante, "cantitate": maxim}
 
 
 def comparatie_cu_optimul(casute: dict[str, dict[str, Any]]) -> dict[str, Any]:

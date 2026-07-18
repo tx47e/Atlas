@@ -60,7 +60,7 @@ Index: {{cod_lucrare}}-P-002
 
 Index: {{cod_lucrare}}-C-001
 > [!example] Calcul
-> {{calcul_vibratie_interioara}} → **{{vibratie_interioara}}**
+> Ziua din data de naștere = {{calcul_vibratie_interioara}}
 
 Index: {{cod_lucrare}}-SUB-002
 ### 1.2. Caracterul
@@ -86,34 +86,35 @@ Index: {{cod_lucrare}}-SUB-006
 ### 1.6. Polarități și maturizare
 
 Index: {{cod_lucrare}}-T-009
-| Polaritate constructivă | Polaritate de conștientizat | Direcție de maturizare |
-| --- | --- | --- |
-| {{polaritate_plus}} | {{polaritate_minus}} | {{directie_maturizare}} |
+<table class="polarities-table">
+<tbody>
+<tr><th scope="row">Polarități pozitive</th><td><ul>{{lumina_vibratie_bulleturi_html}}</ul></td></tr>
+<tr><th scope="row">Polarități negative</th><td><ul>{{umbra_vibratie_bulleturi_html}}</ul></td></tr>
+<tr><th scope="row">Direcții de dezvoltare</th><td><ul>{{directii_dezvoltare_bulleturi_html}}</ul></td></tr>
+</tbody>
+</table>
 
 Index: {{cod_lucrare}}-SUB-007
 ### 1.7. Tarot
 
 Index: {{cod_lucrare}}-T-010
-| Arcana | Denumire | Resursă | Manifestare | Umbră | Maturizare |
-| ---: | --- | --- | --- | --- | --- |
-| {{numar_arcana_vibratie}} | {{nume_arcana_vibratie}} | {{resursa_arcana_vibratie}} | {{manifestare_arcana_vibratie}} | {{umbra_arcana_vibratie}} | {{maturizare_arcana_vibratie}} |
-
-Index: {{cod_lucrare}}-G-001
-![[vault/tarot/imagini/{{fisier_arcana_vibratie}}]]
-
-_Arcana {{numar_arcana_vibratie}} — {{nume_arcana_vibratie}}_
+<table>
+<tbody>
+<tr><td><div>Index: {{cod_lucrare}}-G-001</div><img src="{{fisier_arcana_vibratie}}" alt="Arcana {{numar_arcana_vibratie}} — {{nume_arcana_vibratie}}" width="190"><div><em>Arcana <strong>{{numar_arcana_vibratie}}</strong> — {{nume_arcana_vibratie}}</em></div></td><td><ul><li><strong>Resursă:</strong> {{resursa_arcana_vibratie}}</li><li><strong>Manifestare:</strong> {{manifestare_arcana_vibratie}}</li><li><strong>Umbră:</strong> {{umbra_arcana_vibratie}}</li><li><strong>Maturizare:</strong> {{maturizare_arcana_vibratie}}</li></ul></td></tr>
+</tbody>
+</table>
 
 Index: {{cod_lucrare}}-CAP-006
 ## Capitolul 2. Vibrația exterioară — Rolul social
 
 Index: {{cod_lucrare}}-SUB-008
-### 2.1. Definiție și calcul
+### 2.1. Definiție
 
 {{definitie_vibratie_exterioara_si_metoda}}
 
 Index: {{cod_lucrare}}-C-002
 > [!example] Calcul
-> {{calcul_vibratie_exterioara}} → **{{vibratie_exterioara}}**
+> Luna din data de naștere = {{calcul_vibratie_exterioara}}
 
 Index: {{cod_lucrare}}-SUB-009
 ### 2.2. Caracterul social
@@ -135,7 +136,7 @@ Index: {{cod_lucrare}}-SUB-011
 
 Index: {{cod_lucrare}}-C-003
 > [!example] Calcul
-> {{calcul_destin}} → **{{destin}}**
+> Toate cifrele adunate din data de naștere = {{calcul_destin}}
 
 Index: {{cod_lucrare}}-SUB-012
 ### 3.2. Interpretare
@@ -168,44 +169,83 @@ Index: {{cod_lucrare}}-G-002
 > [!important] Model matriceal
 > Păstrează ordinea `1–4–7 / 2–5–8 / 3–6–9`, culorile elementelor și reperul optim. Pentru o cifră folosește un cerc; pentru exact două cifre folosește două cercuri unite printr-o linie care se oprește la contur și nu intră în cercuri; pentru exact trei cifre folosește un triunghi. Căsuțele fără cifre afișează `—` și starea `absent`.
 
-Index: {{cod_lucrare}}-SUB-014
-### 4.2. Căsuțele matricei
+Index: {{cod_lucrare}}-P-{{index_casuta_1}}
+**Căsuța 1.** {{interpretare_1_fata_de_optim}}
 
-Index: {{cod_lucrare}}-T-011
-| Căsuța | Cifre | Cantitate | Valoare | Reper optim | Interpretare |
-| ---: | --- | ---: | ---: | --- | --- |
-| 1 | {{cifre_1}} | {{cantitate_1}} | {{valoare_1}} | 111 | {{interpretare_1}} |
-| 2 | {{cifre_2}} | {{cantitate_2}} | {{valoare_2}} | 222 | {{interpretare_2}} |
-| 3 | {{cifre_3}} | {{cantitate_3}} | {{valoare_3}} | 333 | {{interpretare_3}} |
-| 4 | {{cifre_4}} | {{cantitate_4}} | {{valoare_4}} | 44 | {{interpretare_4}} |
-| 5 | {{cifre_5}} | {{cantitate_5}} | {{valoare_5}} | 55 | {{interpretare_5}} |
-| 6 | {{cifre_6}} | {{cantitate_6}} | {{valoare_6}} | 66 | {{interpretare_6}} |
-| 7 | {{cifre_7}} | {{cantitate_7}} | {{valoare_7}} | 7 | {{interpretare_7}} |
-| 8 | {{cifre_8}} | {{cantitate_8}} | {{valoare_8}} | 8 | {{interpretare_8}} |
-| 9 | {{cifre_9}} | {{cantitate_9}} | {{valoare_9}} | 9 | {{interpretare_9}} |
+Index: {{cod_lucrare}}-P-{{index_casuta_2}}
+**Căsuța 2.** {{interpretare_2_fata_de_optim}}
+
+Index: {{cod_lucrare}}-P-{{index_casuta_3}}
+**Căsuța 3.** {{interpretare_3_fata_de_optim}}
+
+Index: {{cod_lucrare}}-P-{{index_casuta_4}}
+**Căsuța 4.** {{interpretare_4_fata_de_optim}}
+
+Index: {{cod_lucrare}}-P-{{index_casuta_5}}
+**Căsuța 5.** {{interpretare_5_fata_de_optim}}
+
+Index: {{cod_lucrare}}-P-{{index_casuta_6}}
+**Căsuța 6.** {{interpretare_6_fata_de_optim}}
+
+Index: {{cod_lucrare}}-P-{{index_casuta_7}}
+**Căsuța 7.** {{interpretare_7_fata_de_optim}}
+
+Index: {{cod_lucrare}}-P-{{index_casuta_8}}
+**Căsuța 8.** {{interpretare_8_fata_de_optim}}
+
+Index: {{cod_lucrare}}-P-{{index_casuta_9}}
+**Căsuța 9.** {{interpretare_9_fata_de_optim}}
 
 Index: {{cod_lucrare}}-SUB-015
-### 4.3. Elemente
+### 4.3. Elemente și temperament
 
-Index: {{cod_lucrare}}-T-012
-| Element | Cifre | Total | Interpretare |
-| --- | --- | ---: | --- |
-| Foc | 1 + 5 + 9 | {{total_foc}} | {{interpretare_foc}} |
-| Apă | 2 + 6 | {{total_apa}} | {{interpretare_apa}} |
-| Aer | 3 + 7 | {{total_aer}} | {{interpretare_aer}} |
-| Pământ | 4 + 8 | {{total_pamant}} | {{interpretare_pamant}} |
+<div class="element-analysis">
+<div class="element-indexes"><span>Index: {{cod_lucrare}}-T-012</span><span>Index: {{cod_lucrare}}-P-{{index_definitii_elemente}}</span></div>
+<div class="element-chart">
+<div class="element-bars" role="img" aria-label="Distribuția elementelor">
+<div class="element-bar"><div class="element-bar-label"><span>Foc</span><strong>{{total_foc}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-foc" style="width:{{procent_foc}}%"></span></div></div>
+<div class="element-bar"><div class="element-bar-label"><span>Pământ</span><strong>{{total_pamant}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-pamant" style="width:{{procent_pamant}}%"></span></div></div>
+<div class="element-bar"><div class="element-bar-label"><span>Aer</span><strong>{{total_aer}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-aer" style="width:{{procent_aer}}%"></span></div></div>
+<div class="element-bar"><div class="element-bar-label"><span>Apă</span><strong>{{total_apa}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-apa" style="width:{{procent_apa}}%"></span></div></div>
+</div>
+
+<ul class="element-definitions">
+<li><strong>Focul</strong> este {{definitie_foc}}.</li>
+<li><strong>Pământul</strong> este {{definitie_pamant}}.</li>
+<li><strong>Aerul</strong> este {{definitie_aer}}.</li>
+<li><strong>Apa</strong> este {{definitie_apa}}.</li>
+</ul>
+</div>
+</div>
+
+Index: {{cod_lucrare}}-P-{{index_temperament}}
+{{interpretare_temperament_din_elemente}}
 
 Index: {{cod_lucrare}}-SUB-016
-### 4.4. Masculin și feminin. Daruri și nevoi
+### 4.4. Masculin și feminin
 
+Index: {{cod_lucrare}}-P-{{index_par_impar}}
+<div class="parity-chart" role="img" aria-label="Raportul cifrelor impare și pare">
+<div class="parity-chart-total">Total: <strong>{{total_cifre_matrice}}</strong> cifre</div>
+<div class="parity-chart-bar"><span class="parity-odd" style="width:{{procent_impare}}%"><strong>Impare · {{total_impare}}</strong></span><span class="parity-even" style="width:{{procent_pare}}%"><strong>Pare · {{total_pare}}</strong></span></div>
+</div>
 {{interpretare_par_impar_masculin_feminin}}
 
+Index: {{cod_lucrare}}-SUB-017
+### 4.5. Daruri și nevoi
+
+Index: {{cod_lucrare}}-P-{{index_daruri_nevoi}}
 {{interpretare_daruri_nevoi}}
 
-Index: {{cod_lucrare}}-SUB-017
-### 4.5. Fixația
+Index: {{cod_lucrare}}-SUB-017a
+### 4.6. Scara bunăstării
 
-{{calcul_si_interpretare_fixatie}}
+Index: {{cod_lucrare}}-G-{{index_scara_bunastarii}}
+{{grafic_scara_bunastarii}}
+
+{{bloc_fixatie_conditionala}}
+
+{{bloc_tendinta_conditionala}}
 
 Index: {{cod_lucrare}}-CAP-009
 ## Capitolul 5. Numele — Eu și neamul

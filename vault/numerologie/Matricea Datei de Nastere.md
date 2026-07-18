@@ -71,6 +71,10 @@ Frecventa se citeste astfel:
 - trei aparitii indica o prezenta mai stabila si moderata a temei;
 - peste trei aparitii arata accent puternic sau supraincarcare.
 
+### Daruri si nevoi
+
+Darurile si nevoile se interpreteaza numai pentru casutele care contin cel putin doua cifre. Darul este resursa accentuata a casutei, iar nevoia este ceea ce aceeasi energie are nevoie sa primeasca si sa manifeste matur. Casutele cu o singura cifra se citesc ca potential disponibil, iar cele absente ca directii de dezvoltare; ele nu intra in lectura darurilor si nevoilor.
+
 In aceasta metoda se cauta, de regula, o frecventa impara pentru ca energia sa
 fie mai putin oscilanta. Frecventele pare pot arata alternanta, tensiune sau
 nevoie de reglare constienta a temei.

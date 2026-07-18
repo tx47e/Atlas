@@ -6,7 +6,7 @@
       {
         "id": "3d992b1bb9b4ef0d",
         "type": "tabs",
-        "dimension": 48.60771861260381,
+        "dimension": 54.61651196873474,
         "children": [
           {
             "id": "9feb7f91176e4318",
@@ -25,21 +25,50 @@
       {
         "id": "9f0dc0c7aeddc05f",
         "type": "tabs",
-        "dimension": 51.39228138739619,
+        "dimension": 45.383488031265266,
         "children": [
           {
             "id": "d72253a6f5c4dfbd",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Micu (Ivan) Ana Maria 05.09.1983.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Micu (Ivan) Ana Maria 05.09.1983"
+            }
+          },
+          {
+            "id": "49824fb8eb400c41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/Numerologie/Pinacluri - Oportunitati si Provocari.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pinacluri - Oportunitati si Provocari"
+            }
+          },
+          {
+            "id": "4803d4b8a4368fae",
+            "type": "leaf",
+            "state": {
               "type": "surfing-view",
               "state": {
-                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.07r.html"
+                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.07r.html#capitolul-6-ciclicitatile"
               },
               "icon": "lucide-file",
               "title": "Lucrare numerologică - Bîrsan Daniel Robert - V1.07R"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,6 +249,19 @@
   },
   "active": "9feb7f91176e4318",
   "lastOpenFiles": [
+    "vault/Numerologie/Pinacluri - Oportunitati si Provocari.md",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/harta-suprapusa-soarta-destin-birsan-daniel-robert.svg",
+    "vault/Numerologie/Numarul Neamului.md",
+    "Micu (Ivan) Ana Maria 05.09.1983.md",
+    "vault/Numerologie/Numarul Activ.md",
+    "vault/Numerologie/Numarul de Exprimare.md",
+    "vault/Numerologie/Numarul Ereditar.md",
+    "vault/Numerologie/Vibratia 9.md",
+    "vault/Numerologie/Vibratia 2.md",
+    "vault/Numerologie/Tendinta.md",
+    "vault/Numerologie/Matricea Datei de Nastere.md",
+    "vault/Numerologie/Vibratie Exterioara.md",
+    "vault/Numerologie/Vibratia 1.md",
     "2",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00r.html",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00r.md",
@@ -235,7 +277,6 @@
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-05-marele-preot-numarul-neamului.jpg",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/septagrama-birsan-daniel-robert.svg",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/semnatura-astrala-birsan-daniel-robert.svg",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/patratul-de-aur-birsan-daniel-robert.svg",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-v1.04r.md",
     "planuri/Istoric.md",
     "agents/The Scribe/The Scribe.md",
@@ -248,23 +289,10 @@
     "planuri/implementat/2026-07-18-template-numerologic-scurt-the-scribe.md",
     "planuri/implementat",
     "vault/Numerologie/Istoric Rulari Validare Formule.md",
-    "skills/numerologie-lucrare-redactare/assets/Template-lucrare-scurta.md",
-    "skills/numerologie-lucrare-redactare/assets/Template-lucrare-examen.md",
-    "skills/numerologie-lucrare-redactare/references/harta-template-uri-lucrari.md",
-    "Micu (Ivan) Ana Maria 05.09.1983.md",
     "debug.log",
     "skills/numerologie-lucrare-redactare/assets/templates/Template_Lucrare_Numerologica_Scurt.html",
     "templates/Template_Lucrare_Numerologica_Scurt.html",
-    "skills/numerologie-lucrare-redactare/assets/templates/Template_Lucrare_Numerologica_Scurt.md",
-    "templates/Template_Lucrare_Numerologica_Scurt.md",
-    "agents/The Scribe/memory/2026-07-16-arhitectura-initiala.md",
-    "planuri/2026-07-18-template-numerologic-scurt-the-scribe.md",
-    "skills/numerologie-lucrare-redactare/SKILL.md",
     "temp/lucrare finalizate/Chibulcutean Tamara_Lucrare Examen.pdf",
-    "planuri",
-    "scripts/test_n2_regresie.py",
-    "agents/The Cartographer/prompts/numerologie-SVG-triunghiul-financiar.md",
-    "agents/The Cartographer/prompts/numerologie-SVG-soarta-si-destin.md",
-    "agents/The Cartographer/prompts/numerologie-SVG-semnatura-astrala.md"
+    "planuri"
   ]
 }

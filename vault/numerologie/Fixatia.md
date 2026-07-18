@@ -15,7 +15,7 @@ depinde de: Matricea Datei de Nastere, Scara Bunastarii
 ---
 ## Descriere
 
-Fixatia este vectorul plin dominant din [[Matricea Datei de Nastere]], citit in
+Fixatia este vectorul orizontal plin dominant din [[Matricea Datei de Nastere]], citit in
 legatura directa cu [[Scara Bunastarii]]. Ea arata directia pe care omul tinde sa
 se fixeze interior: locul unde energia matricei se aduna, se repeta si devine
 un mod principal de orientare.
@@ -40,17 +40,18 @@ Se folosesc cei 8 vectori ai scarii bunastarii:
 | 159 | Cariera |
 | 357 | Scopuri |
 
-Un vector poate deveni fixatie numai daca este plin, adica toate cele trei
-casute ale lui sunt prezente in matrice.
+Poate deveni fixatie numai un vector orizontal plin: `147`, `258` sau `369`.
+Toate cele trei casute ale lui trebuie sa fie prezente in matrice. Vectorii
+verticali si diagonali nu stabilesc fixatia.
 
 ```text
 vector plin = fiecare dintre cele 3 casute are cel putin o cifra
 ```
 
-Valoarea vectorului se calculeaza prin suma valorilor celor trei casute:
+Pentru stabilirea fixației se calculeaza cantitatea totala de cifre din cele trei casute:
 
 ```text
-valoare_vector = valoare(casuta_a) + valoare(casuta_b) + valoare(casuta_c)
+cantitate_vector = cantitate(casuta_a) + cantitate(casuta_b) + cantitate(casuta_c)
 ```
 
 ---
@@ -59,8 +60,8 @@ valoare_vector = valoare(casuta_a) + valoare(casuta_b) + valoare(casuta_c)
 1. Se construieste patratul lui Pitagora al datei de nastere.
 2. Se calculeaza valorile celor 9 casute.
 3. Se calculeaza valorile celor 8 vectori.
-4. Se pastreaza doar vectorii plini.
-5. Dintre vectorii plini, se alege vectorul cu valoarea cea mai mare.
+4. Se pastreaza doar vectorii orizontali plini: `147`, `258`, `369`.
+5. Dintre vectorii orizontali plini, se alege vectorul cu cea mai mare cantitate de cifre.
 6. Se noteaza compozitia vectorului: cifrele din cele trei casute, numarul total
    de elemente, cate casute pare si cate casute impare contine.
 
@@ -68,7 +69,7 @@ Formula scurta pentru raport:
 
 ```text
 Fixatia: V[vector] ([casuta_a], [casuta_b], [casuta_c]) =
-[valoare_vector], [numar_elemente] elemente, [casute_pare] casute pare,
+[numar_elemente] elemente, [casute_pare] casute pare,
 [casute_impare] casute impare, vector plin.
 ```
 
@@ -77,13 +78,11 @@ Fixatia: V[vector] ([casuta_a], [casuta_b], [casuta_c]) =
 
 Daca exista mai multi vectori plini, se aplica in ordine:
 
-1. Are prioritate vectorul plin cu valoarea cea mai mare.
-2. Daca valorile sunt egale, se compara numarul total de elemente din vector.
-3. Daca si numarul de elemente este egal, se citesc impreuna ca fixatii duble
+1. Are prioritate vectorul orizontal plin cu cel mai mare numar total de elemente.
+2. Daca numarul de elemente este egal, se citesc impreuna ca fixatii duble
    sau asociate.
-4. Daca nu exista niciun vector plin, se noteaza ca persoana nu are fixatie
-   matriceala clara; in acest caz se analizeaza tendinta si treapta cea mai
-   inalta din scara bunastarii.
+3. Daca nu exista niciun vector orizontal plin, nu se introduce rubrica Fixatia
+   in lucrare; se poate analiza separat treapta cea mai inalta din scara bunastarii.
 
 ---
 ## Ce se interpreteaza
@@ -193,6 +192,6 @@ poate transforma ideile in intelegere si directie.
 
 - Fixatia se calculeaza din matricea datei de nastere, nu din matricea numelui.
 - Matricea numelui poate sustine sau tensiona fixatia, dar nu o inlocuieste.
-- Un vector foarte valoros, dar incomplet, nu este fixatie; el poate fi tendinta
+- Un vector vertical, diagonal sau incomplet, oricat de valoros ar fi, nu este fixatie; el poate fi tendinta
   sau treapta importanta pe scara bunastarii.
 - O fixatie trebuie formulata ca potential de constientizare, nu ca verdict.

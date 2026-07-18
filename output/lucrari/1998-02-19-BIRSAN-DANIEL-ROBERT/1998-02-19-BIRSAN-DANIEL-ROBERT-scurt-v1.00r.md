@@ -48,20 +48,20 @@ Index: BDR-19980219-v1.00r-CAP-005
 ## Capitolul 1. Vibrația interioară — Cine ești tu?
 
 Index: BDR-19980219-v1.00r-SUB-001
-### 1.1. Definiție și calcul
+### 1.1. Definiție
 
 Index: BDR-19980219-v1.00r-P-006
-Vibrația interioară pornește din ziua nașterii și descrie nucleul tău: impulsul spontan, dorința de fond și felul în care începi lucrurile când nu joci niciun rol.
+Daniel, vibrația interioară vorbește despre desăvârșirea caracterului și descrie natura ta lăuntrică: cine ești când nu te vede nimeni și nu trebuie să răspunzi așteptărilor din exterior. Ea arată cum primești și interpretezi ceea ce vine către tine, ce îți dorești cu adevărat, ce simți și cum înveți. De aici pornesc motivațiile și reacțiile tale autentice. Cunoscând această vibrație, îți poți recunoaște mai ușor punctele forte, slăbiciunile și direcțiile în care ai nevoie să te dezvolți.
 
 Index: BDR-19980219-v1.00r-C-001
 > [!example] Calcul
-> 19 → 1 + 9 = 10 → 1 + 0 = **1**
+> Ziua din data de naștere = **19** → 1 + 9 = **10** → 1 + 0 = **1**
 
 Index: BDR-19980219-v1.00r-SUB-002
 ### 1.2. Caracterul
 
 Index: BDR-19980219-v1.00r-P-007
-Daniel, rezultatul final este 1: inițiativă, autonomie și nevoie de direcție proprie. Traseul spune însă mai mult. Unul aduce pornirea, iar nouă aduce experiența și imaginea largă; împreună formează 10, pragul dintre încheiere și un nou început. În 10, unu pornește, iar zero îi mărește potențialul fără să îi dea singur direcție. De aceea, forța ta crește atunci când alegi clar înainte să accelerezi.
+Daniel, tu ai vibrația interioară **1**: inițiativă, autonomie și nevoie de direcție proprie. Traseul spune însă mai mult. **1** aduce pornirea, iar **9** aduce experiența și imaginea largă; împreună formează **10**, pragul dintre încheiere și un nou început. În **10**, **1** pornește, iar **0** reprezintă totul și nimicul: poate mări potențialul lui **1** sau îl poate anula atunci când energia nu primește o direcție clară. De aceea, forța ta crește atunci când alegi limpede înainte să accelerezi.
 
 Index: BDR-19980219-v1.00r-SUB-003
 ### 1.3. Dorințele
@@ -79,53 +79,101 @@ Index: BDR-19980219-v1.00r-SUB-005
 ### 1.5. Teama
 
 Index: BDR-19980219-v1.00r-P-010
-Umbra lui 1 este teama de dependență, control sau pierderea autonomiei. Ea poate produce grabă ori încăpățânare. Antidotul nu este renunțarea la inițiativă, ci verificarea: „Am decis limpede sau doar reacționez?”
+Umbra lui **1** este teama de dependență, control sau pierderea autonomiei. Ea poate produce grabă ori încăpățânare. Antidotul nu este renunțarea la inițiativă, ci verificarea: „Am decis limpede sau doar reacționez?”
 
 Index: BDR-19980219-v1.00r-SUB-006
 ### 1.6. Polarități și maturizare
 
 Index: BDR-19980219-v1.00r-T-009
-| Polaritate constructivă | Polaritate de conștientizat | Direcție de maturizare |
-| --- | --- | --- |
-| Inițiativă, curaj, autonomie | grabă, izolare, rigiditate | începe clar, cere ajutor când este util și du lucrul până la capăt |
+<table class="polarities-table">
+<tbody>
+<tr>
+<th scope="row">Polarități pozitive</th>
+<td>
+<ul>
+<li>autonomie și încredere în propriile forțe;</li>
+<li>capacitate de leadership și inițiativă;</li>
+<li>orientare spre soluții;</li>
+<li>dorință de a inova și de a deschide drumuri;</li>
+<li>puterea de a merge mai departe după un eșec.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Polarități negative</th>
+<td>
+<ul>
+<li>tendința de a controla totul;</li>
+<li>dificultatea de a colabora și de a primi ajutor;</li>
+<li>impulsivitate și nerăbdare;</li>
+<li>orgoliu defensiv și rigiditate;</li>
+<li>teama ascunsă de a părea slab sau dependent.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Direcții de dezvoltare</th>
+<td>
+<ul>
+<li>asumă proiecte personale cu obiective clare;</li>
+<li>exersează delegarea și colaborarea;</li>
+<li>cultivă răbdarea în procesele de grup;</li>
+<li>acceptă feedbackul și sprijinul unui mentor;</li>
+<li>observă diferența dintre curaj și impulsivitate.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 Index: BDR-19980219-v1.00r-SUB-007
 ### 1.7. Tarot
 
 Index: BDR-19980219-v1.00r-T-010
-| Arcana | Denumire | Resursă | Manifestare | Umbră | Maturizare |
-| ---: | --- | --- | --- | --- | --- |
-| 1 | Magicianul | voință și instrumente disponibile | inițiază și transformă ideea în acțiune | manipulează ori începe fără să finalizeze | folosește puterea cu intenție și responsabilitate |
-
-Index: BDR-19980219-v1.00r-G-001
-![[tarot-01-magicianul-vibratia-interioara.jpg]]
-
-_Arcana 1 — Magicianul_
+<table>
+<tbody>
+<tr>
+<td>
+<div>Index: BDR-19980219-v1.00r-G-001</div>
+<img src="tarot-01-magicianul-vibratia-interioara.jpg" alt="Arcana 1 — Magicianul" width="190">
+<div><em>Arcana <strong>1</strong> — Magicianul</em></div>
+</td>
+<td>
+<ul>
+<li><strong>Resursă:</strong> ai voința, claritatea și instrumentele necesare pentru a transforma intenția într-un început concret.</li>
+<li><strong>Manifestare:</strong> inițiezi, formulezi direcții și transformi ideea în acțiune, fără să aștepți ca toate condițiile să fie perfecte.</li>
+<li><strong>Umbră:</strong> poți încerca să controlezi totul, să respingi feedbackul sau să începi impulsiv fără să duci lucrurile până la capăt.</li>
+<li><strong>Maturizare:</strong> îți folosești puterea cu intenție și responsabilitate, păstrând inițiativa fără să anulezi colaborarea și realitatea celorlalți.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 Index: BDR-19980219-v1.00r-CAP-006
 ## Capitolul 2. Vibrația exterioară — Rolul social
 
 Index: BDR-19980219-v1.00r-SUB-008
-### 2.1. Definiție și calcul
+### 2.1. Definiție
 
 Index: BDR-19980219-v1.00r-P-011
-Vibrația exterioară pornește din luna nașterii și descrie felul în care intri în contact cu lumea. Februarie oferă direct cifra 2, fără o etapă suplimentară de reducere.
+Vibrația exterioară descrie felul în care te manifești în lume: prezența, comportamentul vizibil, imaginea socială și modul în care ceilalți îți pot percepe energia. Dacă [[Vibrație Interioară|vibrația interioară]] arată dinamica ta privată, vibrația exterioară arată forma prin care aceasta devine vizibilă în relații, contexte sociale și situații concrete. Ea nu spune totul despre caracter, dar indică stilul tău de apariție, reacția spontană în exterior și felul în care îți proiectezi energia. Citește-o ca pe o poartă de contact cu lumea: poate confirma vibrația interioară sau poate crea un contrast între ceea ce trăiești înăuntru și ceea ce observă ceilalți.
 
 Index: BDR-19980219-v1.00r-C-002
 > [!example] Calcul
-> 2 → **2**
+> Luna din data de naștere = **2**
 
 Index: BDR-19980219-v1.00r-SUB-009
 ### 2.2. Caracterul social
 
 Index: BDR-19980219-v1.00r-P-012
-În exterior, poți fi perceput ca atent, receptiv și capabil să simți atmosfera dintre oameni. Doiul caută cooperarea, ritmul comun și cuvântul potrivit, dar are nevoie să nu transforme sensibilitatea în ezitare.
+Vibrația exterioară **2** se vede prin atenție, receptivitate și capacitatea de a simți atmosfera dintre oameni. În contexte sociale, ceilalți pot observa diplomație, cooperare și grijă pentru ritmul comun. Sensibilitatea devine o resursă când te ajută să alegi cuvântul potrivit, dar are nevoie de limite clare ca să nu se transforme în ezitare sau adaptare excesivă.
 
 Index: BDR-19980219-v1.00r-SUB-010
 ### 2.3. Interior și exterior
 
 Index: BDR-19980219-v1.00r-P-013
-Dacă unul tău interior spune „eu pornesc”, doiul exterior răspunde „hai că te ajut”. Aici este una dintre cheile tale: autonomia nu trebuie să lupte cu relația. Poți lua inițiativa și, în același timp, să inviți omul potrivit lângă tine. Practic, formulează întâi direcția, apoi întreabă clar cine și cum poate contribui.
+Daniel, dacă în interior ești **1**, la exterior oamenii te pot percepe ca pe un **2**. Înăuntru există impulsul de a porni, de a decide și de a urma o direcție proprie; în exterior poți apărea mai atent, cooperant și dispus să ajuți. Asta nu înseamnă că una dintre vibrații o anulează pe cealaltă. **1** îți dă inițiativa, iar **2** te ajută să o exprimi fără să pierzi legătura cu oamenii. Practic, poți spune clar „eu pornesc”, apoi să adaugi firesc „hai că te ajut” sau „hai să construim împreună”.
 
 Index: BDR-19980219-v1.00r-CAP-007
 ## Capitolul 3. Destinul — Muntele de urcat
@@ -138,13 +186,13 @@ Destinul sintetizează data completă și arată o direcție de maturizare, nu u
 
 Index: BDR-19980219-v1.00r-C-003
 > [!example] Calcul
-> 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39 → 3 + 9 = **12** → 1 + 2 = **3**
+> Toate cifrele adunate din data de naștere = 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = **39** → 3 + 9 = **12** → 1 + 2 = **3**
 
 Index: BDR-19980219-v1.00r-SUB-012
 ### 3.2. Interpretare
 
 Index: BDR-19980219-v1.00r-P-015
-Daniel, rezultatul intermediar 12 arată că direcția ta se construiește prin întâlnirea dintre 1 și 2: unul pornește, formulează intenția și își asumă inițiativa, iar doiul răspunde „hai că te ajut”, aducând cooperare, sensibilitate și atenție la ritmul celuilalt. Lecția lui 12 este să nu alegi între autonomie și colaborare, ci să le pui la lucru împreună. Când reducem 1 + 2, ajungem la rezultatul final 3, iar această combinație capătă voce, expresie și creativitate. Destinul 3 te cheamă să comunici, să creezi, să explici și să aduci mișcare acolo unde lucrurile au devenit rigide. Umbra poate fi dispersia sau promisiunea fără continuare; maturizarea apare când ideea primește termen, formă și un rezultat vizibil. În practică, pornește de la o intenție clară, cere contribuția potrivită și încheie ciclul prezentând concret ceea ce ai creat.
+Daniel, rezultatul intermediar **12** arată că direcția ta se construiește prin întâlnirea dintre **1** și **2**: **1** pornește, formulează intenția și își asumă inițiativa, iar **2** răspunde „hai că te ajut”, aducând cooperare, sensibilitate și atenție la ritmul celuilalt. Lecția lui **12** este să nu alegi între autonomie și colaborare, ci să le pui la lucru împreună. Când reducem **1 + 2**, ajungem la rezultatul final **3**, iar această combinație capătă voce, expresie și creativitate. Destinul **3** te cheamă să comunici, să creezi, să explici și să aduci mișcare acolo unde lucrurile au devenit rigide. Umbra poate fi dispersia sau promisiunea fără continuare; maturizarea apare când ideea primește formă. În practică, pornește de la o intenție clară, cere contribuția potrivită și încheie ciclul prezentând concret ceea ce ai creat.
 
 Index: BDR-19980219-v1.00r-CAP-008
 ## Capitolul 4. Matrița numerologică — Pătratul lui Pitagora
@@ -153,7 +201,7 @@ Index: BDR-19980219-v1.00r-SUB-013
 ### 4.1. Matricea datei de naștere
 
 Index: BDR-19980219-v1.00r-P-016
-Matricea combină cifrele datei cu cele patru numere de lucru. Ea arată distribuția resurselor, nu o listă de calități absolute.
+Matricea pornește de la cifrele datei de naștere și de la cele patru numere de lucru. Ea arată ce energii îți sunt deja la îndemână și unde ai nevoie de aport din experiență, relații sau exercițiu. Privind pătratul tău, vei observa că unele căsuțe sunt pline, iar altele goale: cele pline indică resurse ușor de accesat, iar cele goale arată direcții care se construiesc conștient. Cele **9** căsuțe pot fi privite ca nouă computere energetice, sau sfere de inteligență: Căsuța **1** — inteligența psihică; Căsuța **2** — inteligența emoțională; Căsuța **3** — inteligența prelucrării informațiilor; Căsuța **4** — inteligența corporală; Căsuța **5** — inteligența intuitivă; Căsuța **6** — inteligența pragmatismului; Căsuța **7** — inteligența spirituală; Căsuța **8** — inteligența puterii și inteligența socială; Căsuța **9** — inteligența mentală. Fiecare sferă înseamnă mult mai mult decât această scurtă descriere; important este să îți folosești conștient resursele și să construiești echilibrat zonele mai puțin active.
 
 Index: BDR-19980219-v1.00r-C-004
 > [!example] Calcul
@@ -170,47 +218,81 @@ Index: BDR-19980219-v1.00r-G-002
 | **2 — Apă** · 22 · optim `222` · ○—○ | **5 — Foc** · — · optim `55` · absent | **8 — Pământ** · 8 · optim `8` · ○ |
 | **3 — Aer** · 33 · optim `333` · ○—○ | **6 — Apă** · — · optim `66` · absent | **9 — Foc** · 9999 · optim `9` · □ |
 
-Index: BDR-19980219-v1.00r-SUB-014
-### 4.2. Căsuțele matricei
+Index: BDR-19980219-v1.00r-P-035
+**Căsuța 1.** Reprezintă psihicul, caracterul, ego-ul, spiritul de inițiativă, pionieratul, independența, unicitatea, calitatea de conducător și individualitatea. Ai **4** apariții față de optimul de **3**, deci energia este activă și disponibilă peste reper, dar nu în exces. Ai un motor puternic de pornire; cheia este să îl folosești fără să transformi hotărârea în presiune sau rigiditate.
 
-Index: BDR-19980219-v1.00r-T-011
-| Căsuța | Cifre | Cantitate | Valoare | Reper optim | Interpretare |
-| ---: | --- | ---: | ---: | --- | --- |
-| 1 | 1111 | 4 | 4 | 111 | Voință și inițiativă puternice; verifică dialogul înainte de a transforma hotărârea în rigiditate. |
-| 2 | 22 | 2 | 4 | 222 | Sensibilitate prezentă și capacitate de cooperare; ai nevoie de limite emoționale clare. |
-| 3 | 33 | 2 | 6 | 333 | Exprimare și curiozitate active; ideile cresc când sunt ordonate și duse în practică. |
-| 4 | — | 0 | 0 | 44 | Căsuță absentă: disciplina și rutina se construiesc conștient, prin pași mici și constanți. |
-| 5 | — | 0 | 0 | 55 | Căsuță absentă: centrul, măsura și adaptarea se exersează prin pauză, verificare și alegere. |
-| 6 | — | 0 | 0 | 66 | Căsuță absentă: continuitatea practică și grija pentru corp se susțin prin obiceiuri repetabile. |
-| 7 | 7 | 1 | 7 | 7 | Introspecție și discernământ disponibile; timpul de liniște te ajută să alegi mai limpede. |
-| 8 | 8 | 1 | 8 | 8 | Simț al responsabilității și al rezultatului; puterea funcționează sănătos când rămâne echitabilă. |
-| 9 | 9999 | 4 | 36 | 9 | Memorie, viziune și activitate mentală foarte intense; selectarea priorităților previne suprasolicitarea. |
+Index: BDR-19980219-v1.00r-P-036
+**Căsuța 2.** Reprezintă emoțiile, trăirile, comunicarea, bioenergia, spiritul de colaborare și parteneriatul. Ai **2** apariții, sub optimul de **3**, iar această energie se construiește și prin aport extern. Relațiile sigure, dialogul și limitele clare te ajută să primești și să exprimi emoțiile fără să le porți singur.
+
+Index: BDR-19980219-v1.00r-P-037
+**Căsuța 3.** Evidențiază capacitatea omului de a crea și a menține relații, networking-ul, curiozitatea celui care cercetează, face sinteza informațiilor și le oferă celorlalți, precum și acțiunile eficiente, concentrate pe rezultat, spiritul entuziast și bucuria de a trăi exprimată deschis. Ai **2** apariții față de optimul de **3**, astfel că această energie are nevoie de exercițiu. Conversațiile sincere, oamenii diferiți și contexte în care îți spui ideile îți completează această resursă.
+
+Index: BDR-19980219-v1.00r-P-038
+**Căsuța 4.** Reprezintă corpul fizic, sănătatea corpului, spiritul practic, orientarea spre rezultate concrete, organizarea, cadrul, trăinicia, statornicia și temeinicia. Căsuța este absentă față de optimul de **2**, iar această energie cere aport extern conștient: mișcare, somn, hrană regulată și rutină. Corpul devine aliat când îi oferi consecvență, nu doar când îi ceri să țină pasul cu mintea.
+
+Index: BDR-19980219-v1.00r-P-039
+**Căsuța 5.** Reprezintă libertatea, stima de sine, imunitatea sistemică, nonconformismul — ieșirea din pătrat — spiritul de aventură, oportunismul și curajul. Căsuța este absentă față de optimul de **2**, iar această energie se construiește prin pauze, observarea semnalelor subtile și verificarea deciziilor înainte de acțiune.
+
+Index: BDR-19980219-v1.00r-P-040
+**Căsuța 6.** Reprezintă iubirea ca ocrotire, instinctele, arta, realismul și pragmatismul. Lipsa cifrei **6** din Pătratul lui Pitagora poate vorbi despre o manifestare oscilantă sau extremistă în raport cu sexualitatea, pragmatismul, oportunitățile, banii, familia și echilibrul. Aportul extern se construiește prin organizare, responsabilități clare și obiceiuri repetabile care transformă intenția în rezultat.
+
+Index: BDR-19980219-v1.00r-P-041
+**Căsuța 7.** Reprezintă capacitatea omului de a observa, de a analiza, de a studia și de a experimenta, de a găsi cele mai bune soluții și de a face legătura dintre știință și duh. Este energia omului vizionar și a înțeleptului. Ai exact **1** apariție, adică optimul acestei căsuțe; folosește timpul de liniște ca să alegi limpede, nu ca să te retragi din contactul cu lumea.
+
+Index: BDR-19980219-v1.00r-P-042
+**Căsuța 8.** Reprezintă puterea, responsabilitatea, spiritul de sacrificiu, elitismul, măiestria — performanța — ambiția, succesul în afaceri și în poziții de putere, precum și patriotismul. Ai exact **1** apariție, adică optimul acestei căsuțe. Această energie te ajută să gestionezi responsabilitatea și rezultatul, atât timp cât rămâi echitabil și nu preiei mai mult decât îți aparține.
+
+Index: BDR-19980219-v1.00r-P-043
+**Căsuța 9.** Reprezintă inteligența, compasiunea, altruismul, finalizarea, transformarea, înnoirea, adaptarea, orientarea către idealuri înalte, învățarea și predarea cunoștințelor la nivel superior. Ai **4** apariții față de optimul de **1**, deci energia mentală este în exces. Memoria, analiza și viziunea sunt foarte intense; selectează prioritățile și creează pauze, ca mintea să rămână un instrument, nu o sursă de suprasolicitare.
 
 Index: BDR-19980219-v1.00r-SUB-015
-### 4.3. Elemente
+### 4.3. Elemente și temperament
 
-Index: BDR-19980219-v1.00r-T-012
-| Element | Cifre | Total | Interpretare |
-| --- | --- | ---: | --- |
-| Foc | 1 + 5 + 9 | 40 | Inițiativa și mintea sunt dominante; energia cere focalizare. |
-| Apă | 2 + 6 | 4 | Sensibilitatea există, dar trebuie protejată prin limite. |
-| Aer | 3 + 7 | 13 | Ideile și analiza se susțin reciproc. |
-| Pământ | 4 + 8 | 8 | Rezultatul este posibil, însă rutina trebuie construită intenționat. |
+<div class="element-analysis">
+<div class="element-indexes"><span>Index: BDR-19980219-v1.00r-T-012</span><span>Index: BDR-19980219-v1.00r-P-044</span></div>
+<div class="element-chart">
+<div class="element-bars" role="img" aria-label="Distribuția elementelor: Foc 8, Pământ 1, Aer 3, Apă 2">
+<div class="element-bar"><div class="element-bar-label"><span>Foc</span><strong>8</strong></div><div class="element-bar-track"><span class="element-bar-fill element-foc" style="width:100%"></span></div></div>
+<div class="element-bar"><div class="element-bar-label"><span>Pământ</span><strong>1</strong></div><div class="element-bar-track"><span class="element-bar-fill element-pamant" style="width:12.5%"></span></div></div>
+<div class="element-bar"><div class="element-bar-label"><span>Aer</span><strong>3</strong></div><div class="element-bar-track"><span class="element-bar-fill element-aer" style="width:37.5%"></span></div></div>
+<div class="element-bar"><div class="element-bar-label"><span>Apă</span><strong>2</strong></div><div class="element-bar-track"><span class="element-bar-fill element-apa" style="width:25%"></span></div></div>
+</div>
+</div>
+
+<ul class="element-definitions">
+<li><strong>Focul</strong> este esența vieții, a duhului și a spiritului care animă și activează.</li>
+<li><strong>Pământul</strong> este esența materiei dense, a solidarității și a fertilității; hrănește și dă formă.</li>
+<li><strong>Aerul</strong> este esența inteligenței conceptuale, care eliberează și stimulează.</li>
+<li><strong>Apa</strong> este esența emoțiilor și a fecundității; face lucrurile maleabile și flexibile și susține acumularea.</li>
+</ul>
+</div>
+
+Index: BDR-19980219-v1.00r-P-045
+Temperamentul tău predominant este **coleric**, deoarece **Focul** are totalul cel mai mare: **8** apariții, față de Aer cu **3**, Apă cu **2** și Pământ cu **1**. Asta se vede prin inițiativă, reacție rapidă și nevoia de a porni lucrurile. Ca energia ta să rămână constructivă, dă-i o direcție clară și susține-o prin ritm, pauze și colaborare.
+</div>
 
 Index: BDR-19980219-v1.00r-SUB-016
-### 4.4. Masculin și feminin. Daruri și nevoi
+### 4.4. Masculin și feminin
 
 Index: BDR-19980219-v1.00r-P-017
-Matricea are 11 apariții impare și 3 pare. Energia de inițiere, proiectare și decizie este mai puternică decât energia de receptare și stabilizare. Daniel, asta nu înseamnă că trebuie să fii permanent „în atac”, ci că ai nevoie să înveți deliberat pauza, cooperarea și ritmul corpului.
+<div class="parity-chart" role="img" aria-label="Din totalul de 14 cifre, 11 sunt impare și 3 sunt pare.">
+<div class="parity-chart-total">Total: <strong>14</strong> cifre</div>
+<div class="parity-chart-bar"><span class="parity-odd" style="width:78.57%"><strong>Impare · 11</strong></span><span class="parity-even" style="width:21.43%"><strong>Pare · 3</strong></span></div>
+</div>
 
-Index: BDR-19980219-v1.00r-P-018
-Darurile evidente sunt mintea, memoria, inițiativa și creativitatea. Nevoile de construit se văd în 4, 5 și 6: ordine practică, centru și continuitate. O agendă simplă, un buget actualizat săptămânal și o rutină fizică realistă fac mai mult pentru echilibru decât încă o idee bună lăsată neterminată.
+Matricea are **11** apariții impare și **3** pare. Cifrele pare susțin capacitatea de a primi și de a da mai departe; când devin foarte numeroase, pot aduce și indecizie. La tine ele există, dar nu domină: energia de inițiere, proiectare și decizie este mai puternică decât energia de receptare și stabilizare. Daniel, asta nu înseamnă că trebuie să fii permanent „în atac”, ci că ai nevoie să înveți deliberat pauza, cooperarea și ritmul corpului.
 
 Index: BDR-19980219-v1.00r-SUB-017
-### 4.5. Fixația
+### 4.5. Daruri și nevoi
 
-Index: BDR-19980219-v1.00r-P-019
-Fixația se află pe vectorul **789 — creativitate**, cu valoarea 51. Ai tendința de a privi situațiile prin idei, viziune și posibilități. Resursa este inventivitatea; riscul este să rămâi în scenarii. Întrebarea practică este: „Ce formă concretă îi dau ideii astăzi?”
+Index: BDR-19980219-v1.00r-P-018
+Darurile și nevoile se citesc numai din căsuțele cu cel puțin **2** cifre. La tine, acestea sunt **1**, **2**, **3** și **9**. Ca daruri, ele susțin inițiativa, sensibilitatea relațională, exprimarea și forța mentală. Ca nevoi, aceleași energii cer autonomie pentru **1**, siguranță emoțională și cooperare pentru **2**, dialog și relații vii pentru **3**, respectiv sens, învățare și un orizont mai înalt pentru **9**. Căsuțele cu o singură cifră și cele goale nu intră în lectura darurilor și nevoilor; ele se citesc separat, prin potențialul disponibil sau direcția de dezvoltare.
+
+Index: BDR-19980219-v1.00r-SUB-017a
+### 4.6. Scara bunăstării
+
+Index: BDR-19980219-v1.00r-G-004
+<div class="wellbeing-chart" role="img" aria-label="Scara bunăstării: vectori și căsuțe"><div class="wellbeing-group"><strong>Vectori</strong><div>789 Creativitate <span style="width:100%"></span><b>51</b></div><div>369 Bunăstare materială <span style="width:82%"></span><b>42</b></div><div>159 Carieră <span style="width:78%"></span><b>40</b></div><div>123 Energie <span style="width:27%"></span><b>14</b></div><div>357 Scopuri <span style="width:25%"></span><b>13</b></div><div>258 Social <span style="width:24%"></span><b>12</b></div><div>147 Spiritualitate <span style="width:22%"></span><b>11</b></div><div>456 Voință <span style="width:0%"></span><b>0</b></div></div><div class="wellbeing-group"><strong>Căsuțe</strong><div>9 <span style="width:71%"></span><b>36</b></div><div>8 <span style="width:16%"></span><b>8</b></div><div>7 <span style="width:14%"></span><b>7</b></div><div>3 <span style="width:12%"></span><b>6</b></div><div>1 <span style="width:8%"></span><b>4</b></div><div>2 <span style="width:8%"></span><b>4</b></div><div>4, 5, 6 <span style="width:0%"></span><b>0</b></div></div></div>
 
 Index: BDR-19980219-v1.00r-CAP-009
 ## Capitolul 5. Numele — Eu și neamul
@@ -223,57 +305,60 @@ Index: BDR-19980219-v1.00r-C-008
 > Bîrsan = 27 → 2 + 7 = **9**
 
 Index: BDR-19980219-v1.00r-P-020
-Numărul ereditar 9 aduce o memorie de neam legată de sens, finalizare și responsabilitate. Păstrează înțelepciunea utilă, dar nu purta automat fiecare povară a trecutului.
+Numărul ereditar **9** aduce o memorie de neam legată de sens, finalizare și responsabilitate. Păstrează înțelepciunea utilă, dar nu purta automat fiecare povară a trecutului.
 
 Index: BDR-19980219-v1.00r-SUB-019
 ### 5.2. Numărul activ
+
+Index: BDR-19980219-v1.00r-P-020a
+Numărul activ este influența directă a numelui folosit zi de zi asupra comportamentului curent. El arată ce energie aduce numele în reacțiile tale obișnuite, în felul în care intri într-un context și în impresia pe care o susții prin acțiunile repetate.
 
 Index: BDR-19980219-v1.00r-C-009
 > [!example] Calcul
 > Daniel = 27 → 2 + 7 = **9**
 
 Index: BDR-19980219-v1.00r-P-021
-În viața cotidiană intri prin perspectiva lui 9: cauți contextul și înțelesul. Arată-le oamenilor și prezența afectivă, nu doar concluzia matură.
+Daniel, Numărul tău activ este **9** și îți aduce un aport de viziune, compasiune, capacitate de sinteză și orientare către sens. În comportamentul de zi cu zi, poți vedea imaginea de ansamblu, poți înțelege ușor mai multe puncte de vedere și poți transforma experiența în concluzii utile pentru ceilalți. Resursa lui **9** este maturitatea de a încheia, de a ierta și de a ridica discuția deasupra interesului imediat. Defectele apar când devii prea detașat, moralizator sau dezamăgit de ritmul oamenilor: poți cere mult, poți evita detaliile concrete ori poți închide o etapă înainte ca ceilalți să fi înțeles ce se întâmplă. Păstrează viziunea mare, dar spune clar ce ai nevoie și ce pas concret urmează.
 
 Index: BDR-19980219-v1.00r-SUB-020
 ### 5.3. Numărul de realizare
+
+Index: BDR-19980219-v1.00r-P-021a
+Numărul de realizare este asociat cu Vibrația exterioară: ambele arată impresia pe care o lași asupra celorlalți, manierele, comportamentul vizibil și felul în care energia ta devine recognoscibilă în lume. Acest număr poate amplifica realizările concrete sau le poate frâna atunci când este trăit prin umbra sa.
 
 Index: BDR-19980219-v1.00r-C-010
 > [!example] Calcul
 > Consoanele = 51 → 5 + 1 = **6**
 
 Index: BDR-19980219-v1.00r-P-022
-Rezultatele vin prin grijă, organizare și capacitatea de a stabiliza. Ajută fără să preiei viața altuia și construiește fără să cari singur întreaga construcție.
+Daniel, Numărul tău de realizare este **6**, iar ceilalți te pot percepe ca pe o persoană pragmatică, responsabilă, atentă la oameni și capabilă să creeze ordine, confort și siguranță. În forma lui matură, **6** te ajută să îți asumi un rol de sprijin, să duci lucrurile până la capăt și să transformi o intenție bună într-un rezultat concret. Umbra apare când responsabilitatea devine povară: poți prelua prea mult, poți încerca să salvezi oameni care nu ți-au cerut ajutorul sau poți controla în numele armoniei. Acolo se poate frâna realizarea ta, pentru că energia se consumă în grija față de toate problemele, nu în alegerea lucrului esențial.
+
+Index: BDR-19980219-v1.00r-P-022a
+Vibrația exterioară **2** și Numărul de realizare **6** se împletesc armonios: ambele susțin colaborarea, armonia, tactul și grija față de relații. **2** îți dă capacitatea de a asculta, de a simți ritmul celuilalt și de a negocia fără să rupi legătura; **6** aduce maturitatea de a organiza, de a proteja și de a așeza lucrurile într-o formă stabilă. Împreună, te pot face un bun mediator, coordonator sau om de încredere într-o echipă. Ai grijă însă la indecizia lui **2** și la perfecționismul ori supracontrolul lui **6**: nu amâna o decizie de teamă să nu superi și nu transforma colaborarea într-o obligație de a purta totul singur. Cere contribuții clare, pune limite blânde și lasă rezultatele să confirme ceea ce spui.
 
 Index: BDR-19980219-v1.00r-SUB-021
-### 5.4. Numărul neamului
+### 5.4. Numărul ereditar karmic
+
+Index: BDR-19980219-v1.00r-P-022b
+Numărul ereditar karmic arată o memorie simbolică a neamului și felul în care poți continua conștient resursele lui, fără să preiei automat limitele sau poverile transmise.
 
 Index: BDR-19980219-v1.00r-C-005
 > [!example] Calcul în intervalul 1–22
 > Bîrsan = 27 → 27 − 22 = **5**
 
 Index: BDR-19980219-v1.00r-T-013
-| Arcana | Denumire | Resursă moștenită | Manifestare | Umbră | Maturizare |
-| ---: | --- | --- | --- | --- | --- |
-| 5 | Marele Preot | tradiție, învățătură, valori | transformă experiența în reper | rigiditate și conformism | verifică tradiția și păstrează principiile vii |
+<table class="tarot-profile-table"><tbody><tr><td>Index: BDR-19980219-v1.00r-G-003<br>![[tarot-05-marele-preot-numarul-neamului.jpg]]<br><em>Arcana <strong>5</strong> — Marele Preot</em></td><td><ul><li><strong>Resursă moștenită:</strong> tradiție, învățătură și valori.</li><li><strong>Manifestare:</strong> transformă experiența în reper.</li><li><strong>Umbră:</strong> rigiditate și conformism.</li><li><strong>Maturizare:</strong> verifică tradiția și păstrează principiile vii.</li></ul></td></tr></tbody></table>
 
-Index: BDR-19980219-v1.00r-G-003
-![[tarot-05-marele-preot-numarul-neamului.jpg]]
+Index: BDR-19980219-v1.00r-P-022c
+Daniel, Numărul tău ereditar karmic este **5**. În lectura simbolică, el vorbește despre un neam al faraonilor, al păstrătorilor de cunoaștere, ordine și ritual. Arhetipul Marelui Preot amintește de oameni care comunicau direct cu zeii, primeau învățătură și o transmiteau mai departe prin reguli, inițieri și practici ezoterice. Dacă vrei să fii susținut de această energie, cultivă mai departe partea vie a acestui neam: învață cu seriozitate, respectă valorile care au sens, caută cunoașterea spirituală fără să o transformi în spectacol și ajută-i pe ceilalți să găsească un reper.
 
-_Arcana 5 — Marele Preot_
+Index: BDR-19980219-v1.00r-P-022d
+Umbra lui **5** este rigiditatea: poți confunda tradiția cu adevărul absolut, poți deveni moralizator sau poți aștepta validarea unei autorități înainte să îți asumi propria voce. Maturizarea apare când păstrezi esența — respectul pentru cunoaștere, etică și transmitere — dar verifici mereu dacă o regulă servește viața de acum. Astfel, Marele Preot nu devine o cușcă a trecutului, ci un pod între înțelepciunea moștenită și alegerile tale concrete.
 
 Index: BDR-19980219-v1.00r-SUB-022
 ### 5.5. Codul numerologic al numelui
 
 #### Numele actual — Bîrsan Daniel Robert
-
-Index: BDR-19980219-v1.00r-T-001
-| Nume | Mentale | Fizice | Emoționale | Intuitive | Total |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Inițiatoare | 0 | 0 | 1 | 0 | **1** |
-| Continuatoare | 3 | 5 | 3 | 5 | **16** |
-| Finalizatoare | 0 | 0 | 1 | 0 | **1** |
-| **Total** | **3** | **5** | **5** | **5** | **18** |
 
 Index: BDR-19980219-v1.00r-C-011
 > [!example] Calcul
@@ -289,6 +374,9 @@ Structura arată o intrare și o încheiere emoționale, în timp ce corpul nume
 Index: BDR-19980219-v1.00r-SUB-023
 ### 5.6. Numărul de exprimare
 
+Index: BDR-19980219-v1.00r-P-023a
+Numărul de exprimare reprezintă personalitatea ta, cheia către ceea ce poți deveni. El contribuie la formarea personalității tale și arată felul în care resursele din nume se pot reuni într-o expresie matură.
+
 Index: BDR-19980219-v1.00r-C-012
 > [!example] Calcul
 > Bîrsan = 27 → **9**  
@@ -297,10 +385,16 @@ Index: BDR-19980219-v1.00r-C-012
 > Numărul de exprimare = 9 + 9 + 6 = 24 → 2 + 4 = **6**
 
 Index: BDR-19980219-v1.00r-P-024
-Șasele exprimării întărește tema grijii, echilibrului și responsabilității. Forma matură nu este sacrificiul, ci capacitatea de a crea ordine caldă, limite sănătoase și un rezultat în care oamenii se pot baza pe tine.
+Daniel, Numărul de exprimare **6** te susține să obții succese remarcabile în activități politice și în roluri publice în care contează responsabilitatea față de oameni. Poți ajunge în posturi importante în stat, iar lumea așteaptă de la tine mai multe acțiuni decât cuvinte: rezultate vizibile, decizii echilibrate și capacitatea de a pune ordine acolo unde ceilalți văd doar interese diferite. Pentru tine, familia, căminul, pragmatismul și armonia nu sunt teme secundare, ci repere prin care îți verifici alegerile.
+
+Index: BDR-19980219-v1.00r-P-024a
+Este important să armonizezi Numărul de exprimare **6** cu Destinul **3**. **6** vrea să protejeze, să organizeze și să stabilizeze; **3** vrea să comunice, să creeze și să facă ideile ușor de înțeles. Când lucrează împreună, nu rămâi doar omul care rezolvă problemele, ci devii omul care le explică limpede, mobilizează oameni și transformă grija într-un proiect concret. Ai grijă ca **6** să nu devină povară sau control, iar **3** să nu rămână doar promisiune: spune ce urmează să faci, alege o formă practică și du lucrul până la capăt. Așa, vocea Destinului **3** dă expresie responsabilității lui **6**, iar responsabilitatea lui **6** oferă stabilitate creativității lui **3**.
 
 Index: BDR-19980219-v1.00r-CAP-010
 ## Capitolul 6. Oportunități și provocări
+
+Index: BDR-19980219-v1.00r-P-024b
+De-a lungul vieții, treci prin patru oportunități și patru provocări, structurate în tabelul de mai jos. Oportunitatea arată direcția pe care viața o poate deschide, iar provocarea arată lecția care îți cere maturizare ca să poți folosi acea direcție în mod constructiv.
 
 Index: BDR-19980219-v1.00r-T-003
 | Etapă | Interval | Oportunitate | Provocare | Interpretare |
@@ -310,6 +404,18 @@ Index: BDR-19980219-v1.00r-T-003
 | 3 | 43-51 ani | 4 | 7 | Construcția pas cu pas este favorizată; provocarea 7 cere încredere, analiză și timp interior. |
 | 4 | 52+ ani | 2 | 7 | Cooperarea și diplomația devin resurse; provocarea 7 păstrează lecția discernământului și a profunzimii. |
 
+Index: BDR-19980219-v1.00r-P-024c
+**Până la 33 de ani**, Oportunitatea **3** îți deschide comunicarea, creativitatea, imaginația și posibilitatea de a urca pe scara socială prin oameni, idei și un cerc larg de prieteni. Provocarea **1** te pune însă în situații în care trebuie să te descurci singur, să îți câștigi independența și să înveți leadershipul. Nu aștepta mereu confirmare: exprimă-te, dar asumă și primul pas.
+
+Index: BDR-19980219-v1.00r-P-024d
+**Între 34 și 42 de ani**, Oportunitatea **1** te cheamă către poziții de conducere, inițiativă, originalitate și întărirea capacității psihice. Provocarea **8** aduce lecții despre responsabilitate, autoritate, putere de sacrificiu, respect pentru karmă și pentru consecințele puterii. Pot apărea și contexte de luptă pentru influență; cheia este să conduci ferm, fără să transformi autoritatea în control.
+
+Index: BDR-19980219-v1.00r-P-024e
+**Între 43 și 51 de ani**, Oportunitatea **4** îți cere muncă susținută, atenție la corpul fizic și capacitatea de a materializa mai ușor ceea ce ai pregătit. Provocarea **7** te învață să apreciezi singurătatea, solitudinea, studiul, analiza și legătura dintre cunoaștere și spirit. Ea poate aduce retragere, îndoială sau tendința de a te izola; maturizarea înseamnă să transformi timpul singur în claritate, nu în separare. Această oportunitate se întinde pe toată viața: cunoaște calitățile lui **4** și învinge defectele lui **7** prin disciplină, răbdare și încredere.
+
+Index: BDR-19980219-v1.00r-P-024f
+**După 52 de ani**, Oportunitatea **2** te așază în contexte de cooperare, empatie, prietenie și diplomație. Viața te poate pune în situații în care să apropii oameni, să înveți pe alții empatia și să construiești relații bazate pe încredere. Provocarea **7** rămâne activă: păstrează profunzimea și discernământul, dar nu te retrage din legături atunci când ai ceva valoros de oferit.
+
 Index: BDR-19980219-v1.00r-CAP-011
 ## Capitolul 7. Soarta și Destinul — Drumul
 
@@ -317,7 +423,7 @@ Index: BDR-19980219-v1.00r-SUB-024
 ### 7.1. Soarta și Destinul
 
 Index: BDR-19980219-v1.00r-P-025
-Soarta descrie cadrul primit, iar destinul grafic arată direcția în care potențialul latent este activat. Cele două linii au aceeași zonă de confort, 3,86, și se despart mai clar la intervalele 20–30 și 50–60 de ani. Nu sunt verdicte: sunt puncte unde merită să verifici dacă trăirea și construcția merg împreună.
+Daniel, zona de confort îți arată locul în care te simți cel mai bine, unde energia ta curge firesc și unde poți simți mai ușor bucurie și împlinire. La tine, această zonă are vibrația **3**: te simți în elementul tău când poți fi creativ, când ai mai multe domenii în care să te exprimi și să te extinzi, când glumești, comunici și lași ideile să circule. Îți priește să cunoști multă lume, să fii înconjurat de oameni și să urci în cercuri sociale în care poți aduce energie, optimism și o perspectivă personală. Pe scurt, confortul tău nu este izolarea, ci spațiul viu în care ai oameni, dialog, mișcare și libertatea de a te face remarcat prin ceea ce creezi și transmiți.
 
 Index: BDR-19980219-v1.00r-C-006
 > [!example] Sinteză
@@ -404,7 +510,7 @@ Index: BDR-19980219-v1.00r-T-007
 | C13 · vârsta 108–108 | **2106 (3)** | — | — | — | — | — | — | — | **—** |
 
 Index: BDR-19980219-v1.00r-P-027
-Numărul din paranteză este anul personal. Ritmul merge de la 1, început și inițiativă, până la 9, bilanț și încheiere. În 2026, Daniel se află în anul personal 4: construcție, ordine, buget și consecvență; exact genul de structură care poate echilibra matricea.
+Numărul din paranteză este anul personal. Ritmul merge de la **1**, început și inițiativă, până la **9**, bilanț și încheiere. În 2026, Daniel se află în anul personal **4**: construcție, ordine, buget și consecvență; exact genul de structură care poate echilibra matricea.
 
 Index: BDR-19980219-v1.00r-CAP-012
 ## Capitolul 8. Lecțiile de viață
@@ -436,7 +542,7 @@ Index: BDR-19980219-v1.00r-T-008
 | 106–108 | 106 (2103) | 107 (2104) | 108 (2105) | — | — |
 
 Index: BDR-19980219-v1.00r-P-028
-Șirul **7–5–9–2–4** revine ciclic. Profunzimea discuțiilor și înțelepciunea (7) sunt urmate de libertate, excursii și nonconformitate (5), apoi de sens și încheiere (9), relație și cooperare (2), iar la final de stabilitate concretă, casă și reguli (4). Nu sunt evenimente obligatorii, ci teme pe care le poți recunoaște și lucra conștient.
+Șirul **7–5–9–2–4** revine ciclic. Profunzimea discuțiilor și înțelepciunea (**7**) sunt urmate de libertate, excursii și nonconformitate (**5**), apoi de sens și încheiere (**9**), relație și cooperare (**2**), iar la final de stabilitate concretă, casă și reguli (**4**). Nu sunt evenimente obligatorii, ci teme pe care le poți recunoaște și lucra conștient.
 
 Index: BDR-19980219-v1.00r-CAP-013
 ## Capitolul 9. Relații
@@ -465,16 +571,16 @@ Index: BDR-19980219-v1.00r-C-007
 > De rezolvat împreună: |1 − 3| = **2**
 
 Index: BDR-19980219-v1.00r-P-030
-Tu aduci inițiativa lui 1, iar Andreea aduce expresia lui 3. Împreună, 4 cere să transformați ideile în stabilitate, reguli și planuri concrete. Lecția 2 spune că felul în care ascultați, negociați și vă ajutați contează la fel de mult ca rezultatul.
+Tu aduci inițiativa lui **1**, iar Andreea aduce expresia lui **3**. Împreună, **4** cere să transformați ideile în stabilitate, reguli și planuri concrete. Lecția **2** spune că felul în care ascultați, negociați și vă ajutați contează la fel de mult ca rezultatul.
 
 Index: BDR-19980219-v1.00r-P-031
-Zonele comune sunt puternice în Foc și susțin inițiativa, ideile și intensitatea. Apa există și cere exprimare emoțională clară. Comunicarea directă și relațiile (3), stabilitatea concretă, casa și regulile (4), excursiile, nonconformitatea și libertatea (5), armonia, sexul și familia (6), precum și profunzimea discuțiilor și înțelepciunea (7) trebuie privite distinct. Când o zonă lipsește, nu înseamnă că relația nu o poate avea; înseamnă că ea trebuie construită intenționat sau susținută printr-un aport extern: o rutină comună, un buget, un proiect, un terapeut, un mentor ori un context care vă ajută să exersați acea energie.
+Zonele comune sunt puternice în Foc și susțin inițiativa, ideile și intensitatea. Apa există și cere exprimare emoțională clară. Comunicarea directă și relațiile (**3**), stabilitatea concretă, casa și regulile (**4**), excursiile, nonconformitatea și libertatea (**5**), armonia, sexul și familia (**6**), precum și profunzimea discuțiilor și înțelepciunea (**7**) trebuie privite distinct. Când o zonă lipsește, nu înseamnă că relația nu o poate avea; înseamnă că ea trebuie construită intenționat sau susținută printr-un aport extern: o rutină comună, un buget, un proiect, un terapeut, un mentor ori un context care vă ajută să exersați acea energie.
 
 Index: BDR-19980219-v1.00r-CAP-014
 ## Capitolul 10. Concluzii
 
 Index: BDR-19980219-v1.00r-P-032
-Daniel, harta scurtă arată un om care pornește prin 1, se întâlnește cu lumea prin 2 și are de construit expresia matură a lui 3. Mintea și creativitatea sunt puternice, iar numele adaugă responsabilitatea lui 6 și perspectiva repetată a lui 9. Tocmai de aceea, progresul tău nu depinde de încă o idee, ci de forma simplă pe care i-o dai: termen, buget, rutină și încheiere.
+Daniel, harta scurtă arată un om care pornește prin **1**, se întâlnește cu lumea prin **2** și are de construit expresia matură a lui **3**. Mintea și creativitatea sunt puternice, iar numele adaugă responsabilitatea lui **6** și perspectiva repetată a lui **9**. Tocmai de aceea, progresul tău nu depinde de încă o idee, ci de forma simplă pe care i-o dai: termen, buget, rutină și încheiere.
 
 Index: BDR-19980219-v1.00r-P-033
 În perioada actuală, tema practică este să unești libertatea cu structura. În carieră și bani, verifică săptămânal trei lucruri: ce produce valoare, ce consumă fără rezultat și care este următoarea acțiune măsurabilă. În relație, inițiativa ta funcționează cel mai bine când nu vine singură, ci spune: „eu pornesc, hai că mă ajuți”.

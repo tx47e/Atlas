@@ -548,9 +548,9 @@ din matrice.
 Nota de metoda: se foloseste vectorul plin dominant returnat in campul
 `fixatia` de calculatorul Python inclus.
 
-Fixatia este vectorul plin cu valoarea cea mai mare. Se explica de ce este
+Fixatia este vectorul orizontal plin cu cea mai mare cantitate de cifre. Se explica de ce este
 importanta: arata zona spre care energia se duce natural, atat ca talent, cat
-si ca risc de exces. Daca nu exista vector plin, se mentioneaza explicit ca nu
+si ca risc de exces. Daca nu exista vector orizontal plin, se mentioneaza explicit ca nu
 exista fixatie matriceala clara.
 
 {{fixatia}}

@@ -184,13 +184,14 @@ Evită agățarea de trecut, tendinta de a te agăța de relații care s-au term
 
 ## 4. Matrita Numerologica - Patratul lui Pitaroga
 
-### Casuta 1
 
 Dacă te uiți în pătratul datei tale de naștere, vei observa ca unele căsute sunt pline și altele goale. în baza codului tău numerologic putem vedea care este structura ta nativă. Suntem alcătuiți din 9 computere energetice  sau sfere de inteligență, care ne arată potențialul nostru nativ, calitățile suficiente pentru a ne îndeplini destinul nostru.
 
 Cele 9 sfere de inteligență - o scurta descriere, ele insemnănd mult mai mult de atât : Căsuța 1 = avem inteligența psihică; Căsuța 2 – inteligența emoțională; Căsuța 3 – inteligența  prelucrării informațiilor ; Căsuța 4 – inteligența corporală; Căsuța 5 – inteligența intuitivă; Căsuța 6 –inteligența pragmatismului; Căsuța 7 – inteligența spirituală; Căsuța 8 – inteligența puterii, socială și Căsuța 9 – inteligența mentală.
 
 Important este să manifestăm la maxim potențialul nostru nativ cu care am venit și pe cât posibil să înfrânăm defectele care inevitabil vin la pachet cu calitățile.
+
+### Casuta 1
 
 Căsuţa cifrei 1 reprezintă: psihicul, caracterul, ego-ul, spiritul de iniţiativă, pionieratul, independenţa, unicitatea, calitatea de conducător, individualitatea. În căsuța lui 1, avem o aparție a  cifrei 1 ceea ce ne poate arăta că psihicul tau este foarte individual. Te temi destul de mult de viitor, dar nici în prezent nu stai prea bine, pentru că psihicul tău este slab. Psihicul tău nu își dorește confruntări cu altii sub nicio formă – da-mi o pace, ca-ți dau zece. Poți atinge succese remarcabile în medii mai blânde unde nu ai prea mulți șefi, pentru că nu îți place ideea de a avea un șef. Tinzi să nu fii prea deschisă la colaborari , să nu permiți oamenilor să pătrundă în lumea ta interioară și dorești să reusești totul de una singură.
 
