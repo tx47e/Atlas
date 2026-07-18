@@ -342,6 +342,10 @@ Interpretare:
 
 Chenarul calculului foloseste randuri distincte pentru data compacta, `N1`,
 `N2`, `N3`, `N4` si sirul complet.
+Pentru matrice, `N2` este suma cifrelor lui `N1`, aplicata exact o singura data.
+Un rezultat cu doua cifre se pastreaza: `N1 = 39` produce `N2 = 12`, nu `3`.
+Pentru matrice, `N4` este suma cifrelor lui `N3`, aplicata exact o singura data.
+Un rezultat cu doua cifre se pastreaza: `N3 = 37` produce `N4 = 10`, nu `1`.
 
 ```text
 {{matricea_datei_de_nastere}}
@@ -462,8 +466,9 @@ legenda: Foc, Pamant, Apa, Aer.
 ### 1.6. Codul numerologic personal al numelui
 
 In chenarul principal, fiecare componenta a numelui ocupa un rand distinct si
-include literele, sirul numeric, suma, reducerea si codul. Codul concatenat si
-codul personal se afiseaza intr-un al doilea chenar.
+include literele, sirul numeric, suma, reducerea si codul, iar numarul de
+exprimare ocupa ultimul rand distinct. Al doilea chenar are exact doua randuri:
+codul literelor numelui si codul numerologic personal al numelui.
 
 | Concept | Formula | Calcul | Rezultat | Interpretare |
 | --- | --- | --- | --- | --- |
@@ -616,6 +621,10 @@ Formularea trebuie să fie conversațională și explicită: `Aplicabilitatea
 profesională DA este arcana X, Nume`, urmată de direcția care poate fi
 cultivată, iar `Aplicabilitatea profesională NU este arcana Y, Nume`, urmată
 de obstacolul posibil și de pașii concreți prin care acesta este echilibrat.
+Oriunde este numită sau interpretată o arcană într-un tabel ori paragraf,
+imaginea acelei arcane trebuie să apară în același subcapitol. Dacă arcana este
+reluată în alt subcapitol, imaginea se reutilizează acolo și primește indexul
+corespunzător în varianta de revizie.
 
 #### 1.9.2. Inclinatii ezoterice
 

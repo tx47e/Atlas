@@ -23,7 +23,8 @@ Ea arata distributia energiei native pe noua pozitii: caracter, energie, expresi
 
 Se preia [[Cod Numerologic Personal]] deja calculat si se transpun cifrele lui
 in matrice. Nu se recalculeaza aici numerele de lucru; acestea apartin rubricii
-[[Cod Numerologic Personal]].
+[[Cod Numerologic Personal]]. In calculul codului, N2 si N4 se obtin prin suma
+cifrelor valorii precedente aplicata exact o singura data.
 
 Regula de transpunere:
 
@@ -173,6 +174,31 @@ mixt, flegmatic-melancolic. Aceasta arata o baza emotionala, receptiva si
 adaptabila, combinata cu nevoie de concret, responsabilitate si organizare.
 Focul si Aerul sunt prezente egal, dar mai discret, ceea ce arata ca initiativa,
 expresia si perspectiva mentala trebuie sustinute constient.
+
+### Exemplul Daniel
+
+Pentru data `19.02.1998`, numerele de lucru confirmate sunt:
+
+```text
+N1 = 39
+N2 = 3 + 9 = 12
+N3 = 39 - (2 x 1) = 37
+N4 = 3 + 7 = 10
+```
+
+Codul folosit pentru transpunere este:
+
+```text
+19021998 + 39 + 12 + 37 + 10
+```
+
+Zero nu se introduce in matrice. Frecventele rezultate sunt:
+
+```text
+1111 |    | 7
+22   |    | 8
+33   |    | 9999
+```
 
 ---
 ## Observatii

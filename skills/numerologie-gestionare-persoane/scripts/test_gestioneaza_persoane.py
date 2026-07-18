@@ -55,8 +55,24 @@ class RegistryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             result = MODULE.normalize_profile(profile(), Path(temp))
         self.assertEqual(result["schema_version"], 1)
+        self.assertIsNone(result["identitate"]["ora_nasterii"])
         self.assertEqual(result["preferinte_lucrare"]["interval_ani"]["final_varsta"], 108)
         self.assertEqual(result["relatii"][0]["status"], "provizorie")
+
+    def test_birth_time_is_optional_and_normalized(self):
+        value = profile()
+        value["identitate"]["ora_nasterii"] = "07:05"
+        with tempfile.TemporaryDirectory() as temp:
+            result = MODULE.normalize_profile(value, Path(temp))
+        self.assertEqual(result["identitate"]["ora_nasterii"], "07:05")
+
+    def test_invalid_birth_time_is_rejected(self):
+        for invalid in ("7:05", "24:00", "12:60", "dimineața"):
+            value = profile()
+            value["identitate"]["ora_nasterii"] = invalid
+            with self.subTest(invalid=invalid), tempfile.TemporaryDirectory() as temp:
+                with self.assertRaises(MODULE.ValidationError):
+                    MODULE.normalize_profile(value, Path(temp))
 
     def test_future_birth_date_is_rejected(self):
         future = f"{date.today().year + 1}-01-01"

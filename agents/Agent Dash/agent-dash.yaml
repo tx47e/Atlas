@@ -11,7 +11,7 @@ algorithm_model:
     - "clasifica lucrarea si selecteaza fluxurile necesare"
     - "pregateste manifestul fara a inventa date"
     - "urmareste statusurile, livrabilele, blocajele si istoricul"
-    - "delega toate generatoarele SVG Agentului SVG si asteapta validarile lui"
+    - "delega toate generatoarele SVG agentului The Cartographer si asteapta validarile lui"
     - "verifica rezultatele si sincronizeaza starea dashboardului"
     - "raporteaza progresul, erorile si pasul urmator"
   priority_order:
@@ -22,13 +22,13 @@ algorithm_model:
 skills:
   - numerologie-dashboard
 delegation_routes:
-  numerologie-SVG-omuletul-relatiilor: agent-svg
-  numerologie-SVG-patratul-de-aur: agent-svg
-  numerologie-SVG-semnatura-astrala: agent-svg
-  numerologie-SVG-septagrama: agent-svg
-  numerologie-SVG-harta-suprapusa: agent-svg
-  numerologie-SVG-soarta-si-destin: agent-svg
-  numerologie-SVG-triunghiul-financiar: agent-svg
+  numerologie-SVG-omuletul-relatiilor: the-cartographer
+  numerologie-SVG-patratul-de-aur: the-cartographer
+  numerologie-SVG-semnatura-astrala: the-cartographer
+  numerologie-SVG-septagrama: the-cartographer
+  numerologie-SVG-harta-suprapusa: the-cartographer
+  numerologie-SVG-soarta-si-destin: the-cartographer
+  numerologie-SVG-triunghiul-financiar: the-cartographer
 prompts_dir: "agents/Agent Dash/prompts"
 prompts:
   numerologie-dashboard: "agents/Agent Dash/prompts/numerologie-dashboard.md"

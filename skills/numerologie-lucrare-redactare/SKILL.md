@@ -10,10 +10,10 @@ description: Elaboreaza, adapteaza si verifica lucrari numerologice complete in 
 1. Colecteaza datele prin [[skills/numerologie-lucrare-redactare/references/formular-date|Formularul de intrare]].
 2. Alege template-ul cerut. Pentru `examen`, foloseste `assets/Template-lucrare-examen.md`.
 3. Citeste [[skills/numerologie-lucrare-redactare/references/reguli-redactare|Reguli de redactare]] inainte de redactare sau revizie.
-4. Ruleaza `scripts/calculator_numerologic_examen.py` si salveaza sau pastreaza iesirea JSON ca sursa a tuturor valorilor de calcul.
+4. Ruleaza `scripts/calculator_numerologic_examen.py` si salveaza sau pastreaza iesirea JSON ca sursa a tuturor valorilor de calcul. Pentru matricea datei de nastere, `N2` este suma cifrelor lui `N1`, iar `N4` este suma cifrelor lui `N3`; fiecare insumare se executa exact o singura data. Pentru Daniel: `N1 = 39 -> N2 = 12` si `N3 = 37 -> N4 = 10`; nu continua cu `1 + 2 = 3` sau `1 + 0 = 1`.
 5. Pentru o relatie, ruleaza calculatorul separat si pentru a doua persoana, apoi foloseste cele doua rezultate in analiza relationala.
 6. Redacteaza mai intai continutul complet, apoi sincronizeaza varianta Markdown cu HTML-ul canonic.
-7. Genereaza graficele prin skill-urile SVG dedicate, folosind valorile returnate de calculator.
+7. Solicita agentului The Cartographer graficele necesare; acesta foloseste skill-urile SVG dedicate si valorile returnate de calculator. The Scribe integreaza numai livrabilele validate.
 8. Valideaza numele, datele, relatiile, intervalele de ani, imaginile si consistenta MD-HTML.
 
 ## Rularea calculatorului
@@ -53,16 +53,19 @@ python scripts/calculator_numerologic_examen.py `
 - Nu transforma numerologia intr-un verdict. Foloseste limbaj simbolic, nu afirmatii absolute.
 - Personalizeaza interpretarea prin legaturi intre rezultate, exemple concrete, analogii si imagini din cuvinte.
 - Include capitolul `Cuvant inainte` imediat dupa Cuprins si inainte de Capitolul 1. Foloseste ca sursa reutilizabila `vault/Numerologie/Introducere.md`, pastreaza imaginea unitara a calatoriei si modifica textul numai cand este necesara alinierea la conceptele lucrarii. Textul cuprinde si ciclicitatile, anii importanti interiori si exteriori, ciclurile de 7, 9 si 12 ani, Soarta si Destinul, lectiile de viata si anul personal, integrate narativ, nu enumerate tehnic.
+- In livrabilul Markdown, scrie toate trimiterile din Cuprins catre capitole si subcapitole ca wikilinkuri Obsidian, in forma `[[#Titlul exact al sectiunii|Eticheta din Cuprins]]`. Tinta trebuie sa reproduca exact heading-ul, inclusiv diacriticele si punctuatia; nu folosi forma Markdown `[Eticheta](#ancora)`. In livrabilul HTML, reda aceleasi trimiteri prin ancore HTML normale, `<a href="#id-sectiune">Eticheta</a>`; nu copia wikilinkurile Obsidian in HTML.
 - Incepe direct cu sensul conceptului sau cu interpretarea. Evita formularile metatextuale de tipul `[Prenume], aici ne uitam la...`, `aici vedem...` sau `in aceasta sectiune analizam...`.
 - Foloseste arhetipuri numai in interpretarile Vibratiei interioare, Vibratiei exterioare si Vibratiei globale.
 - Pentru cele trei vibratii permise, urmeaza: definitie -> metoda -> calcul -> interpretarea conversationala a traseului de reducere, numai daca exista o reducere suplimentara -> rezultat -> imagine -> arhetip -> manifestare concreta -> umbra -> maturizare.
 - Pentru vibratiile fundamentale, interpreteaza traseul numai cand calculul are una sau mai multe trepte reale de reducere. Explica direct persoanei sensul cifrelor de intrare, suma intermediara, cifrele reducerii si felul in care aceste straturi se regasesc in rezultatul final. Daca valoarea este deja o singura cifra, prezinta direct interpretarea ei, fara sa mentionezi ca nu exista traseu. Daca apare 0, explica prudent ca nu adauga o directie numerica separata, dar poate deschide sau amplifica potentialul cifrei alaturate.
 - Pastreaza volumul amplu fara sa repeti sensul traseului in paragrafele urmatoare. Dupa traseu, pune accentul pe rezultatul final; fiecare paragraf ulterior trebuie sa aduca o functie distincta: manifestare observabila, exemplu practic, rutina aplicabila, umbra sau criteriu de maturizare. Daca un paragraf doar reformuleaza traseul ori rezultatul, rescrie-l ca aplicatie concreta.
 - La Vibratia globala, interpreteaza intotdeauna dialogul dintre Vibratia interioara si Vibratia exterioara. Numeste acest calcul traseu de reducere si desface suma intermediara numai daca rezultatul adunarii depaseste 9; de exemplu, `9 + 9 = 18 -> 1 + 8 = 9`.
-- Nu aplica obligatoriu interpretarea traseului de reducere la Calea Destinului, Destin sau Aspectele de indreptat. Puntile interior-exterior si interior-destin se interpreteaza prin valorile initiale si rezultat, conform structurii existente. La Solutia aspectelor de indreptat este recomandata interpretarea rezultatului, nu desfacerea ampla a traseului.
+- Nu aplica obligatoriu interpretarea traseului de reducere la Calea Destinului, Destin sau Aspectele de indreptat. Puntile interior-exterior si interior-destin se interpreteaza prin valorile initiale si rezultat, conform structurii existente. La Solutia aspectelor de indreptat, insumeaza cifrele Aspectelor exact o singura data si pastreaza rezultatul compus (`37 -> 10`, nu `1`); este recomandata interpretarea rezultatului, nu desfacerea ampla a traseului.
 - Pentru toate celelalte sectiuni, urmeaza: definitie -> metoda -> calcul -> rezultat -> imagine -> manifestare concreta -> umbra -> maturizare, fara arhetipuri sau roluri arhetipale mascate.
 - Pastreaza `Scara bunastarii` ca subcapitol separat al Structurii matriciale, imediat dupa tendinte, fixatie si analogia cai-trasura-vizitiu. Foloseste titlul numerotat `4.6. Scara bunastarii`, ancora proprie si index `SUB` in variantele de revizie.
 - La Numarul neamului, afiseaza calculul in intervalul 1-22 si un tabel cu arcana rezultata si interpretare ampla: resursa mostenita, manifestare concreta, umbra si maturizare.
+- Oriunde o arcana este numita sau interpretata intr-un tabel ori paragraf, afiseaza si imaginea arcanei in acelasi subcapitol. Daca aceeasi arcana este reluata intr-un alt subcapitol, reutilizeaza imaginea acolo; nu considera suficienta imaginea aparuta anterior in alta sectiune. In variantele de revizie, indexeaza tabelul sau figura care contine imaginea.
+- La Codul numerologic personal al numelui, pune fiecare componenta a numelui pe rand separat, apoi numarul de exprimare pe un rand distinct. In chenarul de sinteza, afiseaza exact doua randuri: codul literelor numelui si codul numerologic personal al numelui.
 - La Spirit -> Inclinatii profesionale, afiseaza separat calculele DA si NU si un tabel cu arcana fiecarui rezultat. Formuleaza conversational si explicit `Aplicabilitatea profesionala DA este arcana X, Nume`, apoi explica directia cultivabila; pentru negativ foloseste `Aplicabilitatea profesionala NU este arcana Y, Nume` si explica obstacolul si cheia de lucru in pasi concreti.
 - Cand folosesti coduri de vectori sau diagonale, scrie imediat si denumirea lor pentru cititor (de exemplu `vectorul 789, Creativitate` si `diagonala 159, Cariera`); nu lasa codul numeric neexplicat si nu obliga cititorul sa revina la o sectiune anterioara.
 - Scrie denumirile complete ale vibratiilor. Nu folosi acronime precum `VI`, `VE`, `VG`, `VCV` sau `VCT` in text ori calcule.
@@ -105,6 +108,7 @@ Verifica obligatoriu:
 - intervalul de ani cerut;
 - consistenta intre Markdown, HTML, tabele si grafice;
 - prezenta capitolului `Cuvant inainte` dupa Cuprins si inainte de Capitolul 1, in ambele livrabile;
+- fiecare wikilink din Cuprinsul Markdown indica exact un heading existent, nu au ramas trimiteri interne de forma `[Eticheta](#ancora)`, iar Cuprinsul HTML foloseste ancore `<a href="#...">` valide;
 - absenta formularilor metatextuale care anunta ce se analizeaza;
 - lipsa textelor generice ramase din template.
 

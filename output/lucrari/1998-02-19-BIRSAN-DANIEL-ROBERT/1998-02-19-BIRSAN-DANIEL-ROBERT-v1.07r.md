@@ -1,4 +1,4 @@
-﻿Index: BDR-19980219-v1.07r-CAP-001
+Index: BDR-19980219-v1.07r-CAP-001
 # Lucrare numerologică - Bîrsan Daniel Robert - V1.07R
 
 Index: BDR-19980219-v1.07r-CAP-002
@@ -40,17 +40,17 @@ Index: BDR-19980219-v1.07r-CAP-003
 ## Cuprins
 
 Index: BDR-19980219-v1.07r-L-004
-0. [Cuvânt înainte](#cuvant-inainte)
-1. [Vibrațiile fundamentale](#capitolul-1-vibratiile-fundamentale)
-2. [Calea destinului, destinul și punțile](#capitolul-2-calea-destinului-destinul-si-puntile)
-3. [Aspecte de îndreptat](#capitolul-3-aspecte-de-indreptat)
-4. [Structura matriceală](#capitolul-4-structura-matriciala)
-5. [Codul numerologic personal al numelui](#capitolul-5-codul-numerologic-personal-al-numelui)
-6. [Ciclicitățile](#capitolul-6-ciclicitatile)
-7. [Relații](#capitolul-7-relatii)
-8. [Spirit](#capitolul-8-spirit)
-9. [Ajutoare](#capitolul-9-ajutoare)
-10. [Răspunsuri la întrebările persoanei](#raspunsuri-la-intrebarile-persoanei)
+0. [[#Cuvânt înainte|Cuvânt înainte]]
+1. [[#Capitolul 1. Vibrațiile fundamentale|Vibrațiile fundamentale]]
+2. [[#Capitolul 2. Calea destinului, destinul și punțile|Calea destinului, destinul și punțile]]
+3. [[#Capitolul 3. Aspecte de îndreptat|Aspecte de îndreptat]]
+4. [[#Capitolul 4. Structura matriceală|Structura matriceală]]
+5. [[#Capitolul 5. Codul numerologic personal al numelui|Codul numerologic personal al numelui]]
+6. [[#Capitolul 6. Ciclicitățile|Ciclicitățile]]
+7. [[#Capitolul 7. Relații|Relații]]
+8. [[#Capitolul 8. Spirit|Spirit]]
+9. [[#Capitolul 9. Ajutoare|Ajutoare]]
+10. [[#Răspunsuri la întrebările persoanei|Răspunsuri la întrebările persoanei]]
 
 Index: BDR-19980219-v1.07r-CAP-003a
 ## Cuvânt înainte
@@ -383,22 +383,22 @@ Index: BDR-19980219-v1.07r-SUB-013
 ### 3.2. Solutia aspectelor de îndreptat
 
 Index: BDR-19980219-v1.07r-P-075
-Solutia arată cheia simplificata a aspectului de îndreptat. Dacă aspectul arată tensiunea, solutia arată direcția de echilibrare. În cazul tau, 37 se reduce la 1, ceea ce înseamnă ca iesirea din blocaj vine prin asumare, decizie, inițiativă și claritate personală.
+Soluția arată cum poți transforma aspectul de îndreptat într-o direcție folositoare. În cazul tău, Daniel, 37 conduce la 10 printr-o singură însumare. Rezultatul păstrează inițiativa lui 1, dar o așază lângă 0, care deschide spațiu, amplifică posibilitățile și îți amintește că nu fiecare pas poate fi controlat dinainte.
 
 Index: BDR-19980219-v1.07r-P-076
-Este ca și cum 37 îți pune întrebarea "înțelegi ce se intampla în tine?", iar 1 îți spune "bine, acum alege și mergi într-o direcție". Solutia nu este să forțezi lucrurile, ci să nu ramai blocat în analiză. Când simti ca ai intors o problema pe toate partile, 1-ul te cheama să faci pasul urmator: să spui ce vrei, să incepi, să trasezi o limita sau să iei o decizie.
+Este ca și cum 37 te întreabă „ai înțeles ce se întâmplă în tine?”, iar 10 continuă: „acum observă momentul potrivit și schimbă direcția în mod conștient”. Soluția nu este să forțezi lucrurile și nici să rămâi blocat în analiză. Este să recunoști când un ciclu și-a spus povestea, să alegi primul pas și să lași loc pentru răspunsul realității.
 
 Index: BDR-19980219-v1.07r-P-077
-Pentru solutie reducem rezultatul obținut la o singura cifra.
+Pentru soluție însumăm cifrele rezultatului 37 exact o singură dată și păstrăm valoarea compusă obținută.
 
 Index: BDR-19980219-v1.07r-P-078
-**Calcul:** 3 + 7 = 10 -> 1 + 0 = 1
+**Calcul:** 3 + 7 = `10`
 
 Index: BDR-19980219-v1.07r-P-079
-Solutia vine prin 1: Daniel, ai nevoie să îți asumi decizia și să nu astepti mereu ca exteriorul să confirme ce simti deja. Când alegi limpede, energia se strange și devine direcție. Practic, asta poate insemna să formulezi mai repede o intentie, să spui "asta aleg", să incepi un proiect inainte să ai toate garantiile sau să îți sustii punctul de vedere fără să il transformi într-o lupta.
+Soluția vine prin 10: ai nevoie să îți asumi decizia, dar și să observi oportunitatea care apare atunci când contextul se schimbă. Practic, după ce ai analizat o problemă, formulează schimbarea dorită, alege o acțiune mică și verificabilă, apoi privește ce se întâmplă. Poți începe un proiect fără toate garanțiile, poți deschide o conversație dificilă sau poți schimba o rutină care nu te mai ajută, fără să transformi inițiativa în control rigid.
 
 Index: BDR-19980219-v1.07r-P-080
-Forma matură a solutiei 1 activeaza conducerea interioară și capacitatea de a lua inițiativă fără rigiditate. Când aceasta solutie este folosită matur, 37 nu mai rămâne o spirala de ganduri, ci devine înțelegere aplicată. Analizezi, înțelegi, apoi alegi. Asta este cheia: nu doar profunzime, ci profunzime care se transforma în acțiune.
+Forma matură a soluției 10 unește conducerea interioară cu adaptarea. Când o folosești conștient, 37 nu mai rămâne o spirală de gânduri, ci devine înțelegere aplicată: analizezi, recunoști punctul de cotitură, alegi și ajustezi. Cheia ta nu este doar profunzimea, ci profunzimea care știe când să se transforme în acțiune și când să lase loc unei posibilități noi.
 
 Index: BDR-19980219-v1.07r-CAP-007
 ## Capitolul 4. Structura matriceală
@@ -413,13 +413,19 @@ Index: BDR-19980219-v1.07r-P-082
 Pentru matrice pornim de la data de naștere și construim, pe rand, N1, N2, N3 și N4. La final, data compacta împreună cu aceste patru valori formeaza șirul complet, adica numărul logic al persoanei.
 
 Index: BDR-19980219-v1.07r-P-083
-**Calcul:** Data nașterii 19.02.1998 -> data compacta 19021998 -> N1 = 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39 -> N2 = 3 + 9 = 12 -> 1 + 2 = 3 -> N3 = 39 - (2 x 1) = 37 -> N4 = 3 + 7 = 10 -> 1 + 0 = 1 -> sir complet / număr logic = 19021998 + 39 + 3 + 37 + 1 = 19021998393371
+**Calcul:**<br>
+Data nașterii 19.02.1998 -> data compactă `19021998`<br>
+N1 = 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = `39`<br>
+N2 = 3 + 9 = `12` (o singură însumare a cifrelor lui N1)<br>
+N3 = 39 - (2 x 1) = `37`<br>
+N4 = 3 + 7 = `10` (o singură însumare a cifrelor lui N3)<br>
+Șir complet / număr logic = 19021998 + 39 + 12 + 37 + 10 = `1902199839123710`
 
 Index: BDR-19980219-v1.07r-C-001
 ```text
-1: 111  / optim 111 / triunghi | 4: - / optim 44 / absent | 7: 7    / optim 7 / cerc
-2: 2    / optim 222 / cerc     | 5: - / optim 55 / absent | 8: 8    / optim 8 / cerc
-3: 333  / optim 333 / triunghi | 6: - / optim 66 / absent | 9: 9999 / optim 9 / patrat
+1: 1111 / optim 111 / pătrat   | 4: - / optim 44 / absent | 7: 7    / optim 7 / cerc
+2: 22   / optim 222 / triunghi | 5: - / optim 55 / absent | 8: 8    / optim 8 / cerc
+3: 33   / optim 333 / triunghi | 6: - / optim 66 / absent | 9: 9999 / optim 9 / pătrat
 ```
 
 
@@ -432,9 +438,9 @@ Index: BDR-19980219-v1.07r-SUB-015
 Index: BDR-19980219-v1.07r-T-001
 | Căsuța | Cifre | Valoare | Descriere | Calcul și interpretare |
 | --- | --- | ---: | --- | --- |
-| 1 | 111 | 3 | identitatea, vointa, caracterul și modul în care persoana își afirma prezenta | Căsuța este prezenta. Vibrația 1, asociata cu autonomie, vointa, curajul inceputului și nevoia de a lua decizii proprii. Cantitatea 3 arată cat de accesibila este aceasta energie. |
-| 2 | 2 | 2 | energia emotionala, empatia, sensibilitatea relațională și vitalitatea subtila | Căsuța este prezenta. Vibrația 2, asociata cu sensibilitate, cooperare, diplomatie, răbdare și capacitatea de a crea echilibru intre oameni. Cantitatea 1 arată cat de accesibila este aceasta energie. |
-| 3 | 333 | 9 | expresia, comunicarea, talentul, bucuria și felul în care îți pui trairile în forma | Căsuța este prezenta. Vibrația 3, asociata cu comunicare, creativitate, bucurie, spontaneitate și talentul de a da forma trairilor prin cuvânt sau gest. Cantitatea 3 arată cat de accesibila este aceasta energie. |
+| 1 | 1111 | 4 | identitatea, voința, caracterul și modul în care persoana își afirmă prezența | Ai patru cifre 1, cu una peste reperul optim. Inițiativa, autonomia și nevoia de a decide sunt foarte accesibile. Folosită matur, această forță te ajută să pornești și să susții direcții proprii; dusă la exces, poate deveni rigiditate, control sau dificultatea de a primi ajutor. Practic, păstrează hotărârea, dar lasă loc dialogului înaintea deciziilor importante. |
+| 2 | 22 | 4 | energia emoțională, empatia, sensibilitatea relațională și vitalitatea subtilă | Cele două cifre 2 îți oferă mai multă receptivitate, cooperare și atenție față de oameni decât arăta calculul anterior. Energia este prezentă, deși rămâne sub reperul optim de trei apariții. Te ajută să simți contextul și să lucrezi în tandem, iar pentru echilibru ai nevoie să spui clar ce simți și să nu transformi disponibilitatea în suprasolicitare. |
+| 3 | 33 | 6 | expresia, comunicarea, talentul, bucuria și felul în care îți pui trăirile în formă | Cele două cifre 3 arată o expresie creativă reală, dar mai selectivă decât sugera varianta anterioară. Poți formula idei și da formă experiențelor, însă comunicarea câștigă când este exersată și dusă până la capăt. O rutină utilă este să transformi zilnic o idee într-un mesaj, o notă, un exemplu sau un rezultat concret. |
 | 4 | - | 0 | corpul, disciplina, sanatatea practica, ordinea și stabilitatea concretă | Căsuța este absența. Vibrația 4, asociata cu ordine, stabilitate, disciplina, responsabilitate și capacitatea de a construi pas cu pas. Cantitatea 0 arată cat de accesibila este aceasta energie. |
 | 5 | - | 0 | centrul, curajul, libertatea, intuitia practica și capacitatea de adaptare | Căsuța este absența. Vibrația 5, asociata cu miscare, schimbare, curaj, adaptare și nevoia de experiența directa. Cantitatea 0 arată cat de accesibila este aceasta energie. |
 | 6 | - | 0 | munca, familia, responsabilitatea, grija și felul în care te implici afectiv | Căsuța este absența. Vibrația 6, asociata cu Iubire, grija, familie, responsabilitate afectiva, estetica și dorinta de echilibru. Cantitatea 0 arată cat de accesibila este aceasta energie. |
@@ -449,10 +455,10 @@ Index: BDR-19980219-v1.07r-P-085
 Cifrele pare sunt asociate cu receptivitatea, relația și construcția prin cooperare. Cifrele impare sunt asociate cu inițiativă, expresia și miscarea directa.
 
 Index: BDR-19980219-v1.07r-P-086
-Total cifre pare = 2; total cifre impare = 11.
+Total cifre pare = 3; total cifre impare = 11.
 
 Index: BDR-19980219-v1.07r-P-087
-Raportul dintre pare și impare îți arată felul în care alternezi intre a primi, a observa și a actiona. Dacă balanța înclină mai mult într-o direcție, nu este o problema de corectat cu forță, ci un indiciu blând: acolo merita să aduci mai multa prezenta și alegere conștientă.
+Raportul rămâne orientat puternic spre cifrele impare: inițiativa, expresia și mișcarea directă pornesc repede. Cele trei cifre pare aduc însă un sprijin relațional mai consistent decât în calculul anterior. Pentru tine, Daniel, echilibrul se construiește când lași sensibilitatea să participe la decizie: pornești, dar verifici și impactul asupra oamenilor, resurselor și ritmului tău.
 
 Index: BDR-19980219-v1.07r-SUB-017
 ### 4.4. Vectorii matricei
@@ -460,14 +466,14 @@ Index: BDR-19980219-v1.07r-SUB-017
 Index: BDR-19980219-v1.07r-T-002
 | Vector | Denumire | Cifre | Valoare | Interpretare |
 | --- | --- | --- | ---: | --- |
-| 123 | Energie | 1112333 | 14 | Vector plin. Energia de pornire exista și poate fi folosită coerent: identitatea 1, sensibilitatea 2 și exprimarea 3 se leaga intre ele. Daniel poate porni lucruri, poate simti contextul și poate comunica impulsul initial, cu conditia să nu arda energia prea repede. |
+| 123 | Energie | 11112233 | 14 | Vector plin. Energia de pornire există și poate fi folosită coerent: patru cifre 1 dau inițiativă, două cifre 2 aduc cooperare, iar cele două cifre 3 susțin exprimarea. Daniel poate porni lucruri și îi poate coopta pe ceilalți, cu condiția să nu transforme hotărârea în grabă sau control. |
 | 456 | Vointa | - | 0 | Vector complet lipsa. Aici lipsesc 4, 5 și 6: corpul, regulile, centrul, curajul practic, munca și responsabilitatea afectiva. Interpretarea nu este lipsa de vointa, ci nevoie de antrenament conștient: program, disciplina, rutină corporala, limite și asumarea lucrurilor facute pas cu pas. |
 | 789 | Creativitate | 789999 | 51 | Vector plin și cel mai puternic vector al matricei. 7 aduce analiză și intuitie, 8 organizare și raportare la rezultat, iar 9 viziune ampla și memorie. Aici apare fixatia: mintea, sensul și imaginea de ansamblu pot domina restul hartii. |
-| 147 | Spiritualitate | 1117 | 10 | Vector incomplet prin lipsa lui 4. Identitatea 1 și intuitia 7 exista, dar corpul, stabilitatea, regulile și disciplina concretă trebuie cultivate. Spiritualitatea devine mai utila când este asezata în practici simple, repetabile, nu doar în intelegeri interioare. |
-| 258 | Social | 28 | 10 | Vector incomplet prin lipsa lui 5. Sensibilitatea 2 și organizarea 8 exista, dar centrul personal, curajul de adaptare și libertatea asumata trebuie intarite. În relații, Daniel poate simti și poate administra situatii, dar are nevoie să ramana prezent în propriul centru. |
-| 369 | Bunastare materială | 3339999 | 45 | Vector incomplet prin lipsa lui 6. Comunicarea 3 și viziunea 9 sunt foarte puternice, deci ideile pot produce valoare, dar lipsa lui 6 cere responsabilitate practica, continuitate, grija fata de munca și finalizare. Bunastarea creste când inspiratia este legata de serviciu concret. |
-| 159 | Carieră | 1119999 | 39 | Vector incomplet prin lipsa lui 5. Identitatea 1 și viziunea 9 dau direcție, ambitie și imagine mare, dar centrul 5 cere curaj de adaptare, flexibilitate și contact cu experiența directa. Carieră se așază mai bine când Daniel nu rămâne doar în idee, ci testeaza, ajusteaza și se expune. |
-| 357 | Scopuri | 3337 | 16 | Vector incomplet prin lipsa lui 5. Exprimarea 3 și intuitia 7 pot da scopuri inspirate, dar fără 5 poate lipsi centrul de decizie care transforma chemarea în miscare. Scopurile au nevoie de curaj practic, experiment și asumarea drumului chiar inainte ca totul să fie perfect clar. |
+| 147 | Spiritualitate | 11117 | 11 | Vector incomplet prin lipsa lui 4. Forța identității este mai mare decât arăta calculul anterior, iar intuiția 7 oferă orientare interioară. Tocmai de aceea, înțelegerile tale au nevoie de o ancoră practică: un ritual simplu, un program și o acțiune verificabilă transformă convingerea în experiență trăită. |
+| 258 | Social | 228 | 12 | Vector incomplet prin lipsa lui 5. Cele două cifre 2 întăresc sensibilitatea și cooperarea, iar 8 aduce organizare și raportare la rezultat. Poți înțelege mai bine oamenii și poți administra relațiile, dar ai nevoie să păstrezi un centru personal clar, astfel încât ajutorul oferit să nu însemne renunțarea la propriile limite. |
+| 369 | Bunăstare materială | 339999 | 42 | Vector incomplet prin lipsa lui 6. Cele două cifre 3 susțin comunicarea și creativitatea, iar cele patru cifre 9 dau viziune și capacitate de sinteză. Ideile pot produce valoare, însă bunăstarea crește când alegi puține direcții, le transformi în servicii concrete și le urmărești până la final. |
+| 159 | Carieră | 11119999 | 40 | Vector incomplet prin lipsa lui 5. Cele patru cifre 1 și cele patru cifre 9 formează o combinație puternică între inițiativă și viziune. Poți vedea departe și poți porni singur, dar progresul profesional cere testare, adaptare și contact cu realitatea pieței, nu doar certitudinea unei idei bune. |
+| 357 | Scopuri | 337 | 13 | Vector incomplet prin lipsa lui 5. Exprimarea 3 și intuiția 7 pot formula scopuri cu sens, într-o energie mai concentrată decât indica varianta anterioară. Alege un obiectiv, descrie primul rezultat observabil și fă un experiment scurt; așa, chemarea capătă direcție fără să aștepți claritate perfectă. |
 
 Index: BDR-19980219-v1.07r-SUB-018
 ### 4.5. Tendinte, fixatie și caii-trasura-vizitiul
@@ -481,9 +487,9 @@ Comparatia cu optimul adaugă reperul de echilibru. Matricea optima folosită ca
 Index: BDR-19980219-v1.07r-T-003
 | Căsuța | Cantitate<br>personală | Valoare<br>personală | Cantitate<br>optima | Valoare<br>optima | Diferenta | Citire |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| 1 | 3 | 3 | 3 | 3 | 0 | Identitatea și inițiativă sunt la optim: poti porni, decide și ocupa un loc propriu. |
-| 2 | 1 | 2 | 3 | 6 | -4 | Sensibilitatea exista, dar are nevoie de exercitiu relațional, răbdare și ascultare conștientă. |
-| 3 | 3 | 9 | 3 | 9 | 0 | Exprimarea este la optim: comunicarea, creativitatea și adaptarea pot curge firesc. |
+| 1 | 4 | 4 | 3 | 3 | +1 | Identitatea și inițiativa sunt peste reperul optim: poți porni și decide ferm, iar echilibrul vine când lași loc cooperării și revizuirii. |
+| 2 | 2 | 4 | 3 | 6 | -2 | Sensibilitatea și cooperarea sunt mai disponibile decât în calculul anterior; mai au nevoie de ascultare conștientă, limite și exprimarea directă a nevoilor. |
+| 3 | 2 | 6 | 3 | 9 | -3 | Comunicarea și creativitatea sunt prezente, dar se dezvoltă prin exercițiu, consecvență și transformarea ideilor în forme finite. |
 | 4 | 0 | 0 | 2 | 8 | -8 | Lipseste baza practica: corp, ordine, program, disciplina și stabilitate. |
 | 5 | 0 | 0 | 2 | 10 | -10 | Lipseste centrul de reglaj: curaj practic, libertate asumata, prezenta în experiența directa. |
 | 6 | 0 | 0 | 2 | 12 | -12 | Lipseste sustinerea afectiv-practica: responsabilitate, grija, continuitate și finalizare. |
@@ -492,7 +498,7 @@ Index: BDR-19980219-v1.07r-T-003
 | 9 | 4 | 36 | 1 | 9 | +27 | Zona de viziune, memorie și sens este mult peste optim; poate deveni talent major, dar și suprasolicitare mentala. |
 
 Index: BDR-19980219-v1.07r-P-090
-Pe linii, prima linie `1-4-7` are 10 fata de optimul 18, a doua linie `2-5-8` are 10 fata de optimul 24, iar a treia linie `3-6-9` are 45 fata de optimul 30. Asta arată ca energia se strange puternic în zona de exprimare, rezultat și sens, dar are nevoie de 4, 5 și 6 ca să nu ramana doar în minte, inspiratie sau analiză.
+Pe linii, prima linie `1-4-7` are 11 față de optimul 18, a doua linie `2-5-8` are 12 față de optimul 24, iar a treia linie `3-6-9` are 42 față de optimul 30. Corecția arată o bază ceva mai puternică în identitate și relație și o expresie mai puțin supradimensionată decât părea inițial. Totuși, energia rămâne concentrată în viziune și sens și are nevoie de 4, 5 și 6 pentru a coborî în corp, ritm, responsabilitate și finalizare.
 
 Index: BDR-19980219-v1.07r-P-091
 Pe coloane, coloana `1-2-3` are 14 fata de optimul 18, coloana `4-5-6` are 0 fata de optimul 30, iar coloana `7-8-9` are 51 fata de optimul 24. Aici se vede cel mai clar lectia curgerii energiei: pornirea exista, vizitiul mental-spiritual este foarte puternic, dar trasura practica lipseste. Ca energia să curga, Daniel are nevoie să alimenteze conștient coloana 4-5-6 prin rutină, corp, limite, exercitiu, responsabilitate și finalizare concretă.
@@ -504,7 +510,7 @@ Index: BDR-19980219-v1.07r-P-093
 Fixatia este vectorul plin cu valoarea cea mai mare. În cazul tau, Daniel, fixatia este pe vectorul 789, Creativitate, cu valoarea 51. Este importanta pentru ca arată zona în care energia se duce aproape natural: intuitie, analiză, organizare, memorie, viziune și înțelegerea imaginii mari. Partea buna este ca poti vedea rapid sensul unei situatii. Partea de lucrat este să nu ramai blocat doar în minte, observatie sau concluzii, ci să cobori înțelegerea în corp, program, munca și decizii concrete.
 
 Index: BDR-19980219-v1.07r-P-094
-În analogia cai, trasura și vizitiu, caii sunt vectorul 123 și arată forță de pornire. La tine, caii au valoarea 14 și sunt plini: exista combustibil, inițiativă, sensibilitate și exprimare. Trasura este vectorul 456 și arată suportul practic, corpul vehiculului, disciplina și capacitatea de a duce greutatea drumului. Aici valoarea este 0, pentru ca lipsesc 4, 5 și 6; de aceea, energia de pornire are nevoie de structura, rutină și responsabilitate ca să nu ramana doar impuls. Vizitiul este vectorul 789 și arată direcția mentala și spirituala. Cu valoarea 51, vizitiul este foarte puternic: mintea vede departe, dar trebuie să conduca blând caii și să nu uite ca trasura are nevoie de intretinere.
+În analogia cai, trăsură și vizitiu, caii sunt vectorul 123 și arată forța de pornire. La tine, caii au valoarea 14 și sunt plini: cele patru cifre 1 dau impuls și autonomie, cele două cifre 2 spun „hai că te ajut”, iar cele două cifre 3 ajută energia să fie exprimată. Trăsura este vectorul 456 și arată suportul practic, corpul vehiculului, disciplina și capacitatea de a duce greutatea drumului. Aici valoarea este 0, pentru că lipsesc 4, 5 și 6; de aceea, energia de pornire are nevoie de structură, rutină și responsabilitate ca să nu rămână doar impuls. Vizitiul este vectorul 789 și arată direcția mentală și spirituală. Cu valoarea 51, vizitiul este foarte puternic: mintea vede departe, dar trebuie să conducă blând caii și să nu uite că trăsura are nevoie de întreținere.
 
 Index: BDR-19980219-v1.07r-SUB-018a
 ### 4.6. Scara bunăstării
@@ -516,18 +522,18 @@ Index: BDR-19980219-v1.07r-T-004
 | Treaptă | Tip | Valoare |
 | --- | --- | ---: |
 | Vector 789 - Creativitate | Vector | 51 |
-| Vector 369 - Bunastare materială | Vector | 45 |
-| Vector 159 - Carieră | Vector | 39 |
+| Vector 369 - Bunăstare materială | Vector | 42 |
+| Vector 159 - Carieră | Vector | 40 |
 | Căsuța 9 - Foc | Căsuța | 36 |
-| Vector 357 - Scopuri | Vector | 16 |
 | Vector 123 - Energie | Vector | 14 |
-| Vector 147 - Spiritualitate | Vector | 10 |
-| Vector 258 - Social | Vector | 10 |
-| Căsuța 3 - Aer | Căsuța | 9 |
+| Vector 357 - Scopuri | Vector | 13 |
+| Vector 258 - Social | Vector | 12 |
+| Vector 147 - Spiritualitate | Vector | 11 |
 | Căsuța 8 - Pamant | Căsuța | 8 |
 | Căsuța 7 - Aer | Căsuța | 7 |
-| Căsuța 1 - Foc | Căsuța | 3 |
-| Căsuța 2 - Apa | Căsuța | 2 |
+| Căsuța 3 - Aer | Căsuța | 6 |
+| Căsuța 1 - Foc | Căsuța | 4 |
+| Căsuța 2 - Apa | Căsuța | 4 |
 | Vector 456 - Vointa | Vector | 0 |
 | Căsuța 4 - Pamant | Căsuța | 0 |
 | Căsuța 5 - Foc | Căsuța | 0 |
@@ -676,11 +682,17 @@ Index: BDR-19980219-v1.07r-SUB-025
 Index: BDR-19980219-v1.07r-P-133
 Pentru codul numerologic personal al numelui, luam fiecare parte a numelui complet, calculam codul literelor și apoi adăugăm numărul de exprimare. Calculul urmator arată traseul complet.
 
-Index: BDR-19980219-v1.07r-P-134
-**Calcul:** Bîrsan = B2 + I9 + R9 + S1 + A1 + N5 = 27 -> 2 + 7 = 9; cod Bîrsan = 299115. DANIEL = D4 + A1 + N5 + I9 + E5 + L3 = 27 -> 2 + 7 = 9; cod DANIEL = 415953. ROBERT = R9 + O6 + B2 + E5 + R9 + T2 = 33 -> 3 + 3 = 6; cod ROBERT = 962592. Număr de exprimare = 9 + 9 + 6 = 24 -> 2 + 4 = 6.
+Index: BDR-19980219-v1.07r-C-019
+**Calcul:**<br>
+Bîrsan = B2 + I9 + R9 + S1 + A1 + N5 = 27 -> 2 + 7 = **9**; cod Bîrsan = **299115**.<br>
+Daniel = D4 + A1 + N5 + I9 + E5 + L3 = 27 -> 2 + 7 = **9**; cod Daniel = **415953**.<br>
+Robert = R9 + O6 + B2 + E5 + R9 + T2 = 33 -> 3 + 3 = **6**; cod Robert = **962592**.<br>
+Număr de exprimare = 9 + 9 + 6 = 24 -> 2 + 4 = **6**.
 
-Index: BDR-19980219-v1.07r-P-135
-**Calcul:** Codul literelor numelui = 299115 + 415953 + 962592 = 299115415953962592. Codul numerologic personal al numelui = codul literelor + numărul de exprimare = 299115415953962592 + 6 = 2991154159539625926
+Index: BDR-19980219-v1.07r-C-020
+**Calcul:**<br>
+Codul literelor numelui = Bîrsan 299115 + Daniel 415953 + Robert 962592 = **299115415953962592**.<br>
+Codul numerologic personal al numelui = codul literelor + numărul de exprimare = 299115415953962592 + 6 = **2991154159539625926**.
 
 Index: BDR-19980219-v1.07r-C-002
 ```text
@@ -1129,13 +1141,13 @@ Index: BDR-19980219-v1.07r-SUB-039
 ### 9.1. Semnătura astrală
 
 Index: BDR-19980219-v1.07r-P-199
-Semnătura astrală redă traseul personal într-o formă vizuală. Pentru Daniel, pornirea în cifra 1 vorbește despre inițiativă, identitate și asumarea direcției, iar revenirile prin 9 și 3 leagă experiența acumulată de exprimare, comunicare și creație concretă.
+Semnătura astrală redă traseul personal într-o formă vizuală. Pentru Daniel, pornirea în cifra 1 vorbește despre inițiativă, identitate și asumarea direcției. Traseul revine puternic prin 9, dar include acum corect și secvența 1-2: autonomia nu lucrează singură, ci învață să primească sprijin, să coopereze și apoi să transforme înțelegerea în exprimare și acțiune concretă.
 
 Index: BDR-19980219-v1.07r-P-200
 Pentru acest ajutor folosim data nașterii, codul numeric personal și codul numerologic personal. Cifra 0 rămâne în codul numeric, dar nu are o căsuță în pătratul 1-9 și nu se trasează ca punct. Legăturile repetate sunt îngroșate, deoarece indică trasee pe care energia revine insistent.
 
 Index: BDR-19980219-v1.07r-P-201
-`19021998 + 39 + 3 + 37 + 1 = 19021998393371; fără 0 în pătratul 1-9: 1 -> 9 -> 2 -> 1 -> 1 -> 9 -> 9 -> 8 -> 3 -> 9 -> 3 -> 3 -> 7 -> 1; Destin: 3`
+`19021998 + 39 + 12 + 37 + 10 = 1902199839123710; fără 0 în pătratul 1-9: 1 -> 9 -> 2 -> 1 -> 1 -> 9 -> 9 -> 8 -> 3 -> 9 -> 1 -> 2 -> 3 -> 7 -> 1; Destin: 3; multiplicare: 3 rotiri`
 
 Index: BDR-19980219-v1.07r-G-005
 ![Semnătura astrală pentru Bîrsan Daniel Robert](semnatura-astrala-birsan-daniel-robert.svg)
@@ -1143,7 +1155,7 @@ Index: BDR-19980219-v1.07r-G-005
 _Semnătura astrală - traseul personal al lui Daniel_
 
 Index: BDR-19980219-v1.07r-P-202
-Semnătura îl îndeamnă pe Daniel să transforme înțelegerea în gest, mesaj și acțiune vizibilă. Cifra 1 cere pornire și asumare, 9 cere perspectiva de ansamblu, iar 3 cere ca experiența să capete o formă exprimată și utilă.
+Semnătura îl îndeamnă pe Daniel să transforme înțelegerea în gest, mesaj și acțiune vizibilă. Cifra 1 cere pornire și asumare, 9 cere perspectiva de ansamblu, 2 adaugă cooperare și receptivitate, iar 3 cere ca experiența să capete o formă exprimată și utilă.
 
 Index: BDR-19980219-v1.07r-SUB-040
 ### 9.2. Triunghiul financiar
@@ -1196,12 +1208,17 @@ Index: BDR-19980219-v1.07r-SUB-043
 ### Carieră
 
 Index: BDR-19980219-v1.07r-P-178
-Direcția profesională combină comunicarea și creativitatea destinului 3 cu forța de analiză și viziunea matricei. Când spun **vectorul 789**, mă refer la vectorul de **Creativitate**: el are valoarea 51 și este dominant, ceea ce arată capacitatea de a vedea ansamblul, de a înțelege tipare și de a formula o strategie. **Diagonala 159** este diagonala de **Carieră**, cu valoarea 39; ea leagă inițiativa, centrul personal și viziunea despre rezultat. Împreună, aceste două repere susțin roluri în care Daniel poate înțelege repede situația, poate organiza ideile și poate transmite o direcție clară. Numărul de exprimare 6 adaugă responsabilitate, orientare spre calitate și capacitatea de a crea ordine pentru oameni.
+Direcția profesională combină comunicarea și creativitatea destinului 3 cu forța de analiză și viziunea matricei. Când spun **vectorul 789**, mă refer la vectorul de **Creativitate**: el are valoarea 51 și este dominant, ceea ce arată capacitatea de a vedea ansamblul, de a înțelege tipare și de a formula o strategie. **Diagonala 159** este diagonala de **Carieră**, cu valoarea 40; ea leagă inițiativa, centrul personal și viziunea despre rezultat. Împreună, aceste două repere susțin roluri în care Daniel poate înțelege repede situația, poate organiza ideile și poate transmite o direcție clară. Numărul de exprimare 6 adaugă responsabilitate, orientare spre calitate și capacitatea de a crea ordine pentru oameni.
 
 Index: BDR-19980219-v1.07r-P-179
 **Aplicabilitatea profesională DA** este **arcana 7, Carul**. Pentru tine, Daniel, această arcană vorbește despre direcție, mișcare și capacitatea de a ține mai multe forțe pe același drum. Îți pot veni bine proiectele dinamice, managementul, vânzările consultative, strategia, logistica, antreprenoriatul și coordonarea echipelor, mai ales acolo unde trebuie să transformi comunicarea în rezultat. Întrebarea practică este: „Care este direcția și ce pas concret fac acum?”
 
 **Aplicabilitatea profesională NU** este **arcana 17, Steaua**. Aici nu spunem că inspirația sau visul sunt greșite; îți arătăm ce se poate transforma în obstacol dacă rămâne doar la nivel de ideal, așteptare sau căutare a contextului perfect. Folosește viziunea Stelei ca sursă de sens, dar coboar-o în program, decizie, termen și acțiune vizibilă.
+
+Index: BDR-19980219-v1.07r-T-016
+| Aplicabilitate profesională DA | Aplicabilitate profesională NU |
+| --- | --- |
+| ![Arcana 7 - Carul, aplicabilitate profesională](tarot-07-carul-aplicabilitate-profesionala.jpg)<br>_Arcana 7 - Carul. Direcția profesională de cultivat_ | ![Arcana 17 - Steaua, obstacole profesionale](tarot-17-steaua-obstacole-profesionale.jpg)<br>_Arcana 17 - Steaua. Obstacolul profesional de echilibrat_ |
 
 Index: BDR-19980219-v1.07r-P-214
 Potențialul se valorifica printr-o regula simpla: fiecare idee importanta trebuie tradusă într-un termen, un responsabil și un rezultat măsurabil. Absența vectorului practic 4-5-6 arată nevoia de rutină, disciplina corporala, procese și finalizare. Când viziunea lui 9, exprimarea lui 3 și direcția Carului sunt sustinute de structura zilnică, Daniel poate transforma înțelegerea largă în conducere aplicată și rezultate stabile.

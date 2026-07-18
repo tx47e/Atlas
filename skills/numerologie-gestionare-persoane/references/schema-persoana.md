@@ -33,6 +33,7 @@ identitate:
   prenume: Andreea Maria
   prenume_activ: Andreea
   data_nasterii: '1998-01-12'
+  ora_nasterii: '14:30'
   gen: feminin
   nume_anterioare: []
 preferinte_lucrare:
@@ -61,6 +62,7 @@ metadata:
 
 - `id`: generat de script din data nașterii și numele complet; uppercase ASCII cu separator `-`.
 - `data_nasterii`: dată ISO validă, care nu este în viitor.
+- `ora_nasterii`: câmp opțional; oră validă în format de 24 de ore `HH:MM`, păstrată ca text, sau `null` dacă ora nu este cunoscută. Nu se deduce.
 - `gen`: `masculin` sau `feminin`.
 - `template`: numele unui template existent; implicit `examen`.
 - `exprimare`: `conversational` sau `formal`.

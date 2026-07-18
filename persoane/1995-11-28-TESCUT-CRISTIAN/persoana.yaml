@@ -1,0 +1,25 @@
+schema_version: 1
+id: 1995-11-28-TESCUT-CRISTIAN
+identitate:
+  nume_complet: Tescut Cristian
+  nume_familie: Tescut
+  prenume: Cristian
+  prenume_activ: Cristi
+  data_nasterii: '1995-11-28'
+  gen: masculin
+  nume_anterioare: []
+preferinte_lucrare:
+  template: examen
+  exprimare: conversational
+  nivel_detaliere: amplu
+  interval_ani:
+    tip: complet
+    start_varsta: 0
+    final_varsta: 108
+intrebari:
+- categorie: carieră și bani
+  text: Cum pot dobândi mai mulți bani?
+relatii: []
+metadata:
+  created_at: '2026-07-17T14:55:05+03:00'
+  updated_at: '2026-07-17T14:55:05+03:00'

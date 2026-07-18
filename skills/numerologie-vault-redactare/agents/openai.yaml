@@ -1,4 +1,4 @@
 interface:
   display_name: "Redactare Vault numerologie"
   short_description: "Scrie note Vault din template-uri aprobate"
-  default_prompt: "Use $numerologie-vault-redactare through Agent Vault to create or update a numerology vault note."
+  default_prompt: "Use $numerologie-vault-redactare through The Lore Keeper to create or update a numerology vault note."

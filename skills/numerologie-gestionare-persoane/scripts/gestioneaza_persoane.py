@@ -87,6 +87,15 @@ def iso_date(value: Any, field: str, *, required: bool = True) -> str | None:
     return parsed.isoformat()
 
 
+def optional_birth_time(value: Any, field: str = "identitate.ora_nasterii") -> str | None:
+    if value in (None, ""):
+        return None
+    raw = str(value).strip()
+    if not re.fullmatch(r"(?:[01]\d|2[0-3]):[0-5]\d", raw):
+        fail(f"{field} trebuie să fie o oră validă în format HH:MM sau null.")
+    return raw
+
+
 def person_id(birth_date: Any, full_name: Any) -> str:
     birth = iso_date(birth_date, "identitate.data_nasterii")
     name = clean_text(full_name, "identitate.nume_complet")
@@ -224,6 +233,7 @@ def normalize_profile(raw: Any, registry: Path) -> dict[str, Any]:
             "prenume": clean_text(identity.get("prenume"), "identitate.prenume"),
             "prenume_activ": clean_text(identity.get("prenume_activ"), "identitate.prenume_activ"),
             "data_nasterii": birth_date,
+            "ora_nasterii": optional_birth_time(identity.get("ora_nasterii")),
             "gen": gender,
             "nume_anterioare": string_list(identity.get("nume_anterioare"), "identitate.nume_anterioare"),
         },

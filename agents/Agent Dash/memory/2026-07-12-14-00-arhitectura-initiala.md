@@ -9,5 +9,5 @@ tags: [agent, agent-dash]
 - Sursa de adevar modelata este formata din `persoane.txt` si directoarele lucrarilor.
 - `localStorage` este doar persistenta prototipului.
 - Butonul de pornire produce un manifest exportabil; nu creeaza directoare si nu executa agenti.
-- Agent Dash are `numerologie-dashboard` si ruteaza toate cele sapte fluxuri SVG catre Agent SVG.
+- Agent Dash are `numerologie-dashboard` si ruteaza toate cele sapte fluxuri SVG catre The Cartographer.
 - Decizie explicita: toate dezvoltarile viitoare ale dashboardului se fac exclusiv in `Dashboard/v2/`; `Dashboard/v1/` ramane arhiva nemodificata.

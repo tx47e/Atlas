@@ -20,6 +20,8 @@ Accepta date in forma `ZZ.LL.AAAA`, `ZZ/LL/AAAA` sau `ZZ-LL-AAAA`.
 
 ## Generare
 
+Inainte de generare, cauta intotdeauna in directoarele de livrabile un SVG existent pentru aceeasi pereche, in ambele ordini ale numelor. Daca numele si datele de nastere coincid, reutilizeaza SVG-ul existent sau copiaza-l in directorul persoanei curente cu numele adaptat; nu regenera aceeasi diagrama de cuplu.
+
 Ruleaza generatorul din directorul skill-ului:
 
 ```powershell

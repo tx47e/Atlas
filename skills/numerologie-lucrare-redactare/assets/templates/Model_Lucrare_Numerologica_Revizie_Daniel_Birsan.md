@@ -293,7 +293,7 @@ Index: BDR-19980219-v1.04r-SUB-015
 #### Solutia aspectelor de indreptat
 
 Index: BDR-19980219-v1.04r-P-065
-Solutia arata cheia simplificata a aspectului de indreptat. Daca aspectul arata tensiunea, solutia arata directia de echilibrare. In cazul tau, 37 se reduce la 1, ceea ce inseamna ca iesirea din blocaj vine prin asumare, decizie, initiativa si claritate personala.
+Solutia arata cum poti transforma aspectul de indreptat intr-o directie folositoare. In cazul tau, 37 conduce la 10 printr-o singura insumare. Rezultatul pastreaza initiativa lui 1, dar o asaza langa 0, care deschide spatiu, amplifica posibilitatile si iti aminteste ca nu fiecare pas poate fi controlat dinainte.
 
 Index: BDR-19980219-v1.04r-P-066
 Este ca si cum 37 iti pune intrebarea "intelegi ce se intampla in tine?", iar 1 iti spune "bine, acum alege si mergi intr-o directie". Solutia nu este sa fortezi lucrurile, ci sa nu ramai blocat in analiza. Cand simti ca ai intors o problema pe toate partile, 1-ul te cheama sa faci pasul urmator: sa spui ce vrei, sa incepi, sa trasezi o limita sau sa iei o decizie.
@@ -302,10 +302,10 @@ Index: BDR-19980219-v1.04r-P-067
 Pentru solutie reducem rezultatul obtinut la o singura cifra.
 
 Index: BDR-19980219-v1.04r-C-011
-**Calcul:** 3 + 7 = 10 -> 1 + 0 = 1
+**Calcul:** 3 + 7 = 10
 
 Index: BDR-19980219-v1.04r-P-068
-Solutia vine prin 1: Daniel, ai nevoie sa iti asumi decizia si sa nu astepti mereu ca exteriorul sa confirme ce simti deja. Cand alegi limpede, energia se strange si devine directie. Practic, asta poate insemna sa formulezi mai repede o intentie, sa spui "asta aleg", sa incepi un proiect inainte sa ai toate garantiile sau sa iti sustii punctul de vedere fara sa il transformi intr-o lupta.
+Solutia vine prin 10: Daniel, ai nevoie sa iti asumi decizia, dar si sa observi oportunitatea care apare cand contextul se schimba. Dupa ce ai analizat o problema, formuleaza schimbarea dorita, alege o actiune mica si verificabila, apoi priveste ce se intampla. Astfel, initiativa ramane vie fara sa devina control rigid.
 
 Index: BDR-19980219-v1.04r-P-069
 Arhetipul solutiei 1 este liderul interior: partea din tine care poate lua initiativa fara sa devina rigida. Cand aceasta solutie este folosita matur, 37 nu mai ramane o spirala de ganduri, ci devine intelegere aplicata. Analizezi, intelegi, apoi alegi. Asta este cheia: nu doar profunzime, ci profunzime care se transforma in actiune.
@@ -323,7 +323,7 @@ Index: BDR-19980219-v1.04r-P-071
 Pentru matrice pornim de la data de nastere si construim, pe rand, N1, N2, N3 si N4. La final, data compacta impreuna cu aceste patru valori formeaza sirul complet, adica numarul logic al persoanei.
 
 Index: BDR-19980219-v1.04r-C-011a
-**Calcul:** Data nasterii 19.02.1998 -> data compacta 19021998 -> N1 = 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39 -> N2 = 3 + 9 = 12 -> 1 + 2 = 3 -> N3 = 39 - (2 x 1) = 37 -> N4 = 3 + 7 = 10 -> 1 + 0 = 1 -> sir complet / numar logic = 19021998 + 39 + 3 + 37 + 1 = 19021998393371
+**Calcul:** Data nasterii 19.02.1998 -> data compacta 19021998 -> N1 = 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39 -> N2 = 3 + 9 = 12 (o singura insumare) -> N3 = 39 - (2 x 1) = 37 -> N4 = 3 + 7 = 10 (o singura insumare) -> sir complet / numar logic = 19021998 + 39 + 12 + 37 + 10 = 1902199839123710
 
 Index: BDR-19980219-v1.04r-T-001
 ```text
@@ -1159,7 +1159,7 @@ Index: BDR-19980219-v1.04r-P-186
 Pentru aspectele de indreptat pornim de la formula specifica acestei rubrici, apoi reducem rezultatul pana la cifra care arata directia de corectare.
 
 Index: BDR-19980219-v1.04r-C-028
-**Calcul:** 39 - 2 x 1 = 37 -> 3 + 7 = 10 -> 1 + 0 = 1
+**Calcul:** 39 - 2 x 1 = 37 -> 3 + 7 = 10
 
 Index: BDR-19980219-v1.04r-P-187
 Solutia prin 1 arata ca echilibrarea se face prin autonomie, vointa, curajul inceputului si nevoia de a lua decizii proprii. Cu alte cuvinte, persoana nu trebuie sa se lupte cu tema, ci sa invete sa o conduca altfel.
@@ -1316,7 +1316,7 @@ Index: BDR-19980219-v1.04r-P-212
 Pentru acest ajutor folosim data nasterii, codul numeric personal si codul numerologic personal. Din ele obtinem CNP-ul astral, iar traseul se deseneaza pe centrele casutelor din patratul lui Pitagora. Cifra 0 ramane in codul numeric, dar nu are casuta in patratul 1-9, deci nu se traseaza ca punct. Cand aceeasi legatura apare de mai multe ori, linia se ingroasa, pentru ca repetitia arata o zona prin care energia revine insistent. Destinul arata de cate ori se multiplica forma.
 
 Index: BDR-19980219-v1.04r-C-034
-**Calcul:** 19021998 + 39 + 3 + 37 + 1 = 19021998393371 -> fara 0 in patratul 1-9: 1 -> 9 -> 2 -> 1 -> 1 -> 9 -> 9 -> 8 -> 3 -> 9 -> 3 -> 3 -> 7 -> 1 -> Destin: 3
+**Calcul:** 19021998 + 39 + 12 + 37 + 10 = 1902199839123710 -> fara 0 in patratul 1-9: 1 -> 9 -> 2 -> 1 -> 1 -> 9 -> 9 -> 8 -> 3 -> 9 -> 1 -> 2 -> 3 -> 7 -> 1 -> Destin: 3
 
 Index: BDR-19980219-v1.04r-C-035
 ![Semnatura astrala pentru Birsan Daniel Robert](semnatura-astrala-birsan-daniel-robert.svg)

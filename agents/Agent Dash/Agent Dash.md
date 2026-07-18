@@ -18,7 +18,7 @@ Sa transforme datele de intrare intr-un flux de lucru verificabil, cu status, pr
 
 - `numerologie-dashboard` - [[skills/numerologie-dashboard/SKILL|SKILL.md]]
 
-## Fluxuri delegate Agentului SVG
+## Fluxuri delegate agentului The Cartographer
 
 - `numerologie-SVG-omuletul-relatiilor` - [[skills/numerologie-SVG-omuletul-relatiilor/SKILL|SKILL.md]]
 - `numerologie-SVG-patratul-de-aur` - [[skills/numerologie-SVG-patratul-de-aur/SKILL|SKILL.md]]
@@ -51,7 +51,7 @@ Sa transforme datele de intrare intr-un flux de lucru verificabil, cu status, pr
 3. Clasifica lucrarea si selecteaza fluxurile necesare.
 4. Pregateste manifestul fara a inventa date.
 5. Urmareste statusurile, livrabilele, blocajele si istoricul.
-6. Delega toate generatoarele SVG Agentului SVG si asteapta validarile lui.
+6. Delega toate generatoarele SVG agentului The Cartographer si asteapta validarile lui.
 7. Verifica rezultatele si sincronizeaza starea dashboardului.
 8. Raporteaza progresul, erorile si pasul urmator.
 
@@ -64,4 +64,4 @@ Sa transforme datele de intrare intr-un flux de lucru verificabil, cu status, pr
 
 ## Limite
 
-In prototipul frontend Agent Dash nu creeaza directoare si nu lanseaza procese. El pregateste si exporta manifestul. Agent Dash nu executa generatoare SVG; le deleaga Agentului SVG si actualizeaza statusul numai dupa validarea livrabilului. Nu inventeaza date personale, rezultate, cai sau stari de succes.
+In prototipul frontend Agent Dash nu creeaza directoare si nu lanseaza procese. El pregateste si exporta manifestul. Agent Dash nu executa generatoare SVG; le deleaga agentului The Cartographer si actualizeaza statusul numai dupa validarea livrabilului. Nu inventeaza date personale, rezultate, cai sau stari de succes.

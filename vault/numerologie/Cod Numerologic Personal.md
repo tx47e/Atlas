@@ -35,10 +35,26 @@ Se calculeaza patru numere de lucru:
 
 ```text
 N1 = suma tuturor cifrelor datei
-N2 = reducerea numerologica a lui N1
+N2 = suma cifrelor lui N1, calculata exact o singura data
 N3 = N1 - 2 x prima cifra nenula din ziua nasterii
-N4 = reducerea numerologica a lui N3
+N4 = suma cifrelor lui N3, calculata exact o singura data
 ```
+
+Pentru `N2` si `N4`, insumarea cifrelor valorii precedente se executa exact o
+singura data, chiar daca rezultatul are doua cifre. Nu se continua reducerea
+pana la obtinerea unei singure cifre.
+
+Exemplu de regula:
+
+```text
+N1 = 39
+N2 = 3 + 9 = 12
+N3 = 37
+N4 = 3 + 7 = 10
+```
+
+In acest caz, `N2` ramane `12`, iar `N4` ramane `10`; nu se continua cu
+`1 + 2 = 3`, respectiv cu `1 + 0 = 1`.
 
 Codul numerologic personal este:
 
@@ -92,10 +108,41 @@ Matrice:
 33  | 6  | 9
 ```
 
+### Exemplul Daniel
+
+Data:
+
+```text
+19.02.1998
+```
+
+Numere de lucru:
+
+```text
+N1 = 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39
+N2 = 3 + 9 = 12
+N3 = 39 - (2 x 1) = 37
+N4 = 3 + 7 = 10
+```
+
+Cod numerologic personal:
+
+```text
+19021998 39 12 37 10
+```
+
+Forma punctata:
+
+```text
+19.02.1998.39.12.37.10
+```
+
 ---
 ## Observatii
 
 - Codul numeric personal nu se interpreteaza separat de matrice.
 - Cifra 0 ramane in cod, dar nu se introduce in matrice.
+- N2 se obtine printr-o singura insumare a cifrelor lui N1 si poate ramane un numar format din doua cifre.
+- N4 se obtine printr-o singura insumare a cifrelor lui N3 si poate ramane un numar format din doua cifre.
 - Prima cifra folosita la N3 este prima cifra nenula din ziua nasterii.
 - Daca nota pare redundanta, se poate sterge si se pastreaza doar explicatia din [[Matricea Datei de Nastere]].

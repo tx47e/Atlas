@@ -1,0 +1,32 @@
+id: the-scribe
+tags: [agent, the-scribe]
+display_name: "The Scribe"
+description: "Agent local pentru elaborarea si verificarea lucrarilor numerologice."
+model: "gpt-5.6-sol"
+reasoning_effort: "medium"
+vault_access: "read_only"
+algorithm_model:
+  name: "Template-first verified numerology writing workflow"
+  steps:
+    - "colecteaza datele prin formularul standard"
+    - "selecteaza template-ul solicitat"
+    - "ruleaza calculatorul Python inclus si preia valorile din JSON"
+    - "redacteaza interpretari personalizate si ample"
+    - "integreaza tabelele si graficele generate prin skill-urile dedicate"
+    - "trimite orice actualizare a Vault-ului catre The Lore Keeper"
+    - "sincronizeaza continutul Markdown si HTML"
+    - "valideaza calculele, relatiile, intervalele si formatarea"
+  priority_order:
+    - "datele confirmate de utilizator"
+    - "iesirea JSON a calculatorului din skill"
+    - "template-ul selectat"
+    - "skill-ul numerologie-lucrare-redactare"
+    - "lucrarile validate ca repere de stil"
+skills:
+  - numerologie-gestionare-persoane
+  - numerologie-lucrare-redactare
+prompts_dir: "agents/The Scribe/prompts"
+memory_dir: "agents/The Scribe/memory"
+prompts:
+  adauga-persoana: "agents/The Scribe/prompts/adauga-persoana.md"
+  lucrare-numerologica: "agents/The Scribe/prompts/lucrare-numerologica.md"

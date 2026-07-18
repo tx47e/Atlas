@@ -1,13 +1,13 @@
 ---
 name: numerologie-vault-redactare
-description: Creeaza sau actualizeaza note in vault/Numerologie folosind structura celui mai apropiat concept existent, ales dupa taguri, titlu, tip, scop si sectiuni. Foloseste exclusiv prin Agent Vault cand se documenteaza un concept, calcul, exemplu, arhetip, subcapitol sau sinteza numerologica.
+description: Creeaza sau actualizeaza note in vault/Numerologie folosind structura celui mai apropiat concept existent, ales dupa taguri, titlu, tip, scop si sectiuni. Foloseste exclusiv prin The Lore Keeper cand se documenteaza un concept, calcul, exemplu, arhetip, subcapitol sau sinteza numerologica.
 ---
 
 # Redactare Vault numerologie
 
 ## Regula de autoritate
 
-Ruleaza acest skill exclusiv prin Agent Vault. Agent Vault este singurul care poate scrie in `vault/`.
+Ruleaza acest skill exclusiv prin The Lore Keeper. The Lore Keeper este singurul care poate scrie in `vault/`.
 
 ## Flux
 
@@ -24,6 +24,6 @@ Ruleaza acest skill exclusiv prin Agent Vault. Agent Vault este singurul care po
 - Nu exista template-uri locale pentru notitele Vault; foloseste intotdeauna metoda de fallback bazata pe cel mai apropiat precedent relevant.
 - Nu inventa un format nou cand exista un precedent relevant.
 - Nu modifica o nota existenta fara a-i pastra metadatele si structura valida, cu exceptia unei schimbari aprobate explicit.
-- Pentru formule, verifica registrul de validare. Daca formula este neconfirmata, documenteaza limita sau solicita auditul Agentului Vault.
+- Pentru formule, verifica registrul de validare. Daca formula este neconfirmata, documenteaza limita sau solicita auditul agentului The Lore Keeper.
 - Nu folosi acest skill pentru lucrari personale sau livrabile; template-urile
-  lor apartin skill-ului `numerologie-lucrare-redactare` si Agentului Lucrari.
+  lor apartin skill-ului `numerologie-lucrare-redactare` si agentului The Scribe.

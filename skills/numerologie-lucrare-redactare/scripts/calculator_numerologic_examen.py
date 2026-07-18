@@ -67,6 +67,13 @@ def reducere_numerologica(numar: int) -> TraseuReducere:
     return TraseuReducere(intrare=numar, pasi=pasi, rezultat=curent)
 
 
+def reducere_o_singura_data(numar: int) -> TraseuReducere:
+    componente = cifre(abs(numar))
+    rezultat = sum(componente)
+    pas = f"{' + '.join(map(str, componente))} = {rezultat}"
+    return TraseuReducere(intrare=numar, pasi=[pas], rezultat=rezultat)
+
+
 def reducere_22(numar: int) -> dict[str, Any]:
     pasi = []
     curent = numar
@@ -205,8 +212,8 @@ def vibratii(data_nasterii: date) -> dict[str, Any]:
             "rezultat": aspecte,
         },
         "solutia_aspectelor_de_indreptat": {
-            "formula": "reducere_numerologica(aspecte de indreptat)",
-            "calcul": asdict(reducere_numerologica(aspecte)),
+            "formula": "insumarea cifrelor o singura data (aspecte de indreptat)",
+            "calcul": asdict(reducere_o_singura_data(aspecte)),
         },
     }
 
@@ -223,9 +230,9 @@ def punte(a: int, b: int) -> dict[str, Any]:
 def matrice_data_nasterii(data_nasterii: date) -> dict[str, Any]:
     data = data_compacta(data_nasterii)
     n1 = sum(cifre(data))
-    n2 = reducere_numerologica(n1).rezultat
+    n2 = reducere_o_singura_data(n1).rezultat
     n3 = n1 - 2 * prima_cifra_nenula(data_nasterii.day)
-    n4 = reducere_numerologica(n3).rezultat
+    n4 = reducere_o_singura_data(n3).rezultat
     sir = data + str(n1) + str(n2) + str(n3) + str(n4)
     return construieste_matrice(
         [int(cifra) for cifra in sir if cifra.isdigit() and cifra != "0"],

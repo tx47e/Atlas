@@ -1,4 +1,4 @@
 interface:
   display_name: "Validare formule numerologice"
   short_description: "Verifica formulele fata de sursele aprobate"
-  default_prompt: "Use $numerologie-validare-formule through Agent Vault to audit numerology formulas before use."
+  default_prompt: "Use $numerologie-validare-formule through The Lore Keeper to audit numerology formulas before use."

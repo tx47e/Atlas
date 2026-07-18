@@ -356,6 +356,10 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 - Descriere:
 - Calcul: un singur chenar, cu randuri distincte pentru data compacta, `N1`,
   `N2`, `N3`, `N4` si sirul complet. Nu reuni pasii intr-un paragraf continuu.
+- Pentru matrice, calculeaza `N2` printr-o singura insumare a cifrelor lui
+  `N1`; pastreaza rezultatul cu doua cifre (`39 -> 12`, nu `39 -> 12 -> 3`).
+- Calculeaza `N4` printr-o singura insumare a cifrelor lui `N3`; pastreaza
+  rezultatul cu doua cifre (`37 -> 10`, nu `37 -> 10 -> 1`).
 
 ```text
 1 | 4 | 7

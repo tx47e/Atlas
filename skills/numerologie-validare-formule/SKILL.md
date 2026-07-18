@@ -1,13 +1,13 @@
 ---
 name: numerologie-validare-formule
-description: Verifica si inventariaza formulele numerologice din Vault, calculatorul agregat, skill-uri si lucrari aprobate. Foloseste exclusiv prin Agent Vault cand o formula trebuie confirmata, lipseste din calculator, difera intre surse sau trebuie pregatita pentru utilizare in lucrari numerologice.
+description: Verifica si inventariaza formulele numerologice din Vault, calculatorul agregat, skill-uri si lucrari aprobate. Foloseste exclusiv prin The Lore Keeper cand o formula trebuie confirmata, lipseste din calculator, difera intre surse sau trebuie pregatita pentru utilizare in lucrari numerologice.
 ---
 
 # Validare formule numerologice
 
 ## Aprobarea obligatorie de lansare
 
-Ruleaza acest skill exclusiv prin Agent Vault. Solicita aprobarea explicita a utilizatorului sau a agentului/sesiunii care deleaga lucrarea inainte de a incepe orice rulare, inclusiv una numai de citire. Spune clar aria verificarii si ca rezultatul poate identifica diferente care necesita modificari ulterioare.
+Ruleaza acest skill exclusiv prin The Lore Keeper. Solicita aprobarea explicita a utilizatorului sau a agentului/sesiunii care deleaga lucrarea inainte de a incepe orice rulare, inclusiv una numai de citire. Spune clar aria verificarii si ca rezultatul poate identifica diferente care necesita modificari ulterioare.
 
 Nu modifica calculatorul, template-urile, skill-urile sau generatoarele SVG in cadrul aceleiasi rulari de audit. Singurele scrieri permise fara o aprobare separata pentru corectii sunt intrarea append-only din manifest si actualizarea constatarii din registrul formulelor. Livreaza mai intai constatarile si propunerea de sincronizare; orice corectie de formula necesita o aprobare separata.
 
