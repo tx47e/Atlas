@@ -1,15 +1,21 @@
 id: the-scribe
 tags: [agent, the-scribe]
 display_name: "The Scribe"
+icon: "🪶"
+icon_name: "quill"
+color: "#2F80ED"
+color_name: "albastru"
 description: "Agent local pentru elaborarea si verificarea lucrarilor numerologice."
 model: "gpt-5.6-sol"
 reasoning_effort: "medium"
 vault_access: "read_only"
 templates:
   scurt:
+    primary: "skills/numerologie-lucrare-redactare/assets/Template-lucrare-scurta.md"
     markdown: "templates/Template_Lucrare_Numerologica_Scurt.md"
     html: "templates/Template_Lucrare_Numerologica_Scurt.html"
   examen:
+    primary: "skills/numerologie-lucrare-redactare/assets/Template-lucrare-examen.md"
     markdown: "templates/Template_Lucrare_Numerologica_Examen.md"
 algorithm_model:
   name: "Template-first verified numerology writing workflow"
@@ -19,7 +25,7 @@ algorithm_model:
     - "incarca perechea canonica a template-ului selectat"
     - "ruleaza calculatorul Python inclus si preia valorile din JSON"
     - "redacteaza interpretari personalizate si ample"
-    - "integreaza tabelele si graficele generate prin skill-urile dedicate"
+    - "integreaza tabelele si graficele, elimina duplicatele fara rol si incorporeaza toate imaginile in HTML"
     - "trimite orice actualizare a Vault-ului catre The Lore Keeper"
     - "sincronizeaza continutul Markdown si HTML"
     - "valideaza calculele, relatiile, intervalele si formatarea"

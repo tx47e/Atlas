@@ -424,8 +424,8 @@ N4 = 3 + 7 = `10` (o singură însumare a cifrelor lui N3)<br>
 Index: BDR-19980219-v1.07r-C-001
 ```text
 1: 1111 / optim 111 / pătrat   | 4: - / optim 44 / absent | 7: 7    / optim 7 / cerc
-2: 22   / optim 222 / triunghi | 5: - / optim 55 / absent | 8: 8    / optim 8 / cerc
-3: 33   / optim 333 / triunghi | 6: - / optim 66 / absent | 9: 9999 / optim 9 / pătrat
+2: 22   / optim 222 / două cercuri legate | 5: - / optim 55 / absent | 8: 8    / optim 8 / cerc
+3: 33   / optim 333 / două cercuri legate | 6: - / optim 66 / absent | 9: 9999 / optim 9 / pătrat
 ```
 
 
@@ -941,7 +941,7 @@ Index: BDR-19980219-v1.07r-P-164
 Relația dintre Daniel și Andreea este citita ca harta de orientare, nu ca verdict. Omuletul relatiilor descrie contributia fiecăruia, zonele de completare fireasca și aspectele care cer mai multa conștientă reciproca. Scopul este construirea unei legaturi mai limpezi, mai asezate și mai vii, nu stabilirea celui care are dreptate.
 
 Index: BDR-19980219-v1.07r-G-004
-![Omuletul relatiilor pentru Bîrsan Daniel Robert și Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg)
+![Omulețul relațiilor pentru Bîrsan Daniel Robert și Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.png)
 
 _Omuletul relatiilor pentru Bîrsan Daniel Robert și Roman Andreea Maria_
 

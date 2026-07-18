@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="template-key" content="scurt">
-<title>Lucrare numerologică — {{nume_complet}} — {{versiune}}</title>
+<title>{{nume_complet}} — {{data_nasterii}}</title>
 <style>
 :root {
   --deep: #0b2b2c;
@@ -64,7 +64,8 @@ h3 { margin: 36px 0 16px; color: var(--teal); font-size: 23px; }
 h4 { margin: 28px 0 12px; color: var(--deep); font-size: 18px; }
 p { margin: 0 0 16px; }
 p, li, td, th, .matrix-main, .matrix-geom { overflow-wrap: anywhere; word-break: break-word; }
-.index { margin: 18px 0 5px; color: #6b6258; font: 11px/1.3 Arial, sans-serif; letter-spacing: .04em; }
+.index { margin: 18px 0 1px; color: #6b6258; font: 11px/1.3 Arial, sans-serif; letter-spacing: .04em; }
+.index + p, .index + .table-wrap { margin-top: 2px; }
 .index-heading { margin-top: 34px; }
 .toc {
   display: grid;
@@ -127,7 +128,7 @@ tbody tr:nth-child(even) { background: rgba(247, 239, 227, .45); }
 .matrix-opt { position: absolute; left: 10px; bottom: 8px; opacity: .72; font: 500 11px/1 Arial, sans-serif; }
 .matrix-geom { position: absolute; right: 10px; bottom: 7px; width: 34px; height: 26px; overflow: hidden; }
 .matrix-geom svg { width: 100%; height: 100%; display: block; }
-.matrix-geom circle, .matrix-geom polygon, .matrix-geom rect {
+.matrix-geom circle, .matrix-geom line, .matrix-geom polygon, .matrix-geom rect {
   fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round;
 }
 .matrix-geom circle { fill: rgba(255, 250, 243, .48); }
@@ -169,7 +170,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <aside class="template-note template-controls"><strong>Contract:</strong> înlocuiește toate câmpurile <code>{{...}}</code>, elimină blocurile condiționale neaplicabile și păstrează paritatea cu Markdown-ul. În finală elimină indexurile și trasabilitatea.</aside>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-001</div>
-<h1 id="lucrare-numerologica">Lucrare numerologică — {{nume_complet}} — {{versiune}}</h1>
+<h1 id="persoana-analizata">{{nume_complet}} — {{data_nasterii}}</h1>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-002</div>
 <h2 id="date-generale">Date generale</h2>
@@ -186,7 +187,6 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <h2 id="cuprins">Cuprins</h2>
 <nav class="toc">
   <div class="toc-title">Cuprins</div>
-  <a href="#cuvant-inainte">0. Cuvânt înainte</a>
   <a href="#capitolul-1-vibratia-interioara">1. Vibrația interioară — Cine ești tu?</a>
   <a href="#capitolul-2-vibratia-exterioara">2. Vibrația exterioară — Rolul social</a>
   <a href="#capitolul-3-destinul">3. Destinul — Muntele de urcat</a>
@@ -199,11 +199,6 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   <a href="#capitolul-10-concluzii">10. Concluzii</a>
 </nav>
 
-<div class="index index-heading">Index: {{cod_lucrare}}-CAP-004</div>
-<h2 id="cuvant-inainte">Cuvânt înainte</h2>
-<div class="index">Index: {{cod_lucrare}}-P-001</div>
-<p>{{text_cuvant_inainte_din_vault_numerologie_introducere}}</p>
-
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-005</div>
 <h2 id="capitolul-1-vibratia-interioara">Capitolul 1. Vibrația interioară — Cine ești tu?</h2>
 <h3 id="1-1-definitie-si-calcul">1.1. Definiție și calcul</h3>
@@ -215,8 +210,10 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <h3 id="1-4-motivatia">1.4. Motivația</h3><p>{{interpretare_motivatie}}</p>
 <h3 id="1-5-teama">1.5. Teama</h3><p>{{interpretare_teama}}</p>
 <h3 id="1-6-polaritati-si-maturizare">1.6. Polarități și maturizare</h3>
+<div class="index">Index: {{cod_lucrare}}-T-009</div>
 <div class="table-wrap"><table><thead><tr><th>Polaritate constructivă</th><th>Polaritate de conștientizat</th><th>Direcție de maturizare</th></tr></thead><tbody><tr><td>{{polaritate_plus}}</td><td>{{polaritate_minus}}</td><td>{{directie_maturizare}}</td></tr></tbody></table></div>
 <h3 id="1-7-tarot">1.7. Tarot</h3>
+<div class="index">Index: {{cod_lucrare}}-T-010</div>
 <div class="table-wrap"><table><thead><tr><th>Arcana</th><th>Denumire</th><th>Resursă</th><th>Manifestare</th><th>Umbră</th><th>Maturizare</th></tr></thead><tbody><tr><td>{{numar_arcana_vibratie}}</td><td>{{nume_arcana_vibratie}}</td><td>{{resursa_arcana_vibratie}}</td><td>{{manifestare_arcana_vibratie}}</td><td>{{umbra_arcana_vibratie}}</td><td>{{maturizare_arcana_vibratie}}</td></tr></tbody></table></div>
 <div class="index">Index: {{cod_lucrare}}-G-001</div>
 <figure><img class="tarot-image" src="{{arcana_vibratie_data_uri}}" alt="Arcana {{numar_arcana_vibratie}} — {{nume_arcana_vibratie}}"><figcaption>Arcana {{numar_arcana_vibratie}} — {{nume_arcana_vibratie}}</figcaption></figure>
@@ -241,6 +238,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <div class="index">Index: {{cod_lucrare}}-C-004</div>
 <div class="calc-box">Data compactă: <strong>{{data_compacta}}</strong><br>N1 = <strong>{{N1}}</strong><br>N2 = <strong>{{N2_o_singura_insumare}}</strong><br>N3 = <strong>{{N3}}</strong><br>N4 = <strong>{{N4_o_singura_insumare}}</strong><br>Șir complet / număr logic = <strong>{{sir_complet}}</strong></div>
 <div class="index">Index: {{cod_lucrare}}-G-002</div>
+<!-- Regula simbolurilor: o cifră = cerc; exact două cifre = două cercuri unite printr-o linie oprită la contur; exact trei cifre = triunghi. -->
 <div class="matrix-grid" aria-label="Matrița numerologică 3 pe 3">
   <div class="matrix-cell element-foc"><div class="matrix-number">1</div><div class="matrix-main">{{cifre_1}}</div><div class="matrix-opt">optim 111</div><div class="matrix-geom {{clasa_absent_1}}">{{geometrie_svg_1}}</div></div>
   <div class="matrix-cell element-pamant"><div class="matrix-number">4</div><div class="matrix-main">{{cifre_4}}</div><div class="matrix-opt">optim 44</div><div class="matrix-geom {{clasa_absent_4}}">{{geometrie_svg_4}}</div></div>
@@ -253,6 +251,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   <div class="matrix-cell element-foc"><div class="matrix-number">9</div><div class="matrix-main">{{cifre_9}}</div><div class="matrix-opt">optim 9</div><div class="matrix-geom {{clasa_absent_9}}">{{geometrie_svg_9}}</div></div>
 </div>
 <h3 id="4-2-casutele-matricei">4.2. Căsuțele matricei</h3>
+<div class="index">Index: {{cod_lucrare}}-T-011</div>
 <div class="table-wrap"><table><thead><tr><th>Căsuța</th><th>Cifre</th><th>Cantitate</th><th>Valoare</th><th>Reper optim</th><th>Interpretare</th></tr></thead><tbody>
 <tr><td>1</td><td>{{cifre_1}}</td><td>{{cantitate_1}}</td><td>{{valoare_1}}</td><td>111</td><td>{{interpretare_1}}</td></tr>
 <tr><td>2</td><td>{{cifre_2}}</td><td>{{cantitate_2}}</td><td>{{valoare_2}}</td><td>222</td><td>{{interpretare_2}}</td></tr>
@@ -265,6 +264,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <tr><td>9</td><td>{{cifre_9}}</td><td>{{cantitate_9}}</td><td>{{valoare_9}}</td><td>9</td><td>{{interpretare_9}}</td></tr>
 </tbody></table></div>
 <h3 id="4-3-elemente">4.3. Elemente</h3>
+<div class="index">Index: {{cod_lucrare}}-T-012</div>
 <div class="table-wrap"><table><thead><tr><th>Element</th><th>Cifre</th><th>Total</th><th>Interpretare</th></tr></thead><tbody><tr><td>Foc</td><td>1 + 5 + 9</td><td>{{total_foc}}</td><td>{{interpretare_foc}}</td></tr><tr><td>Apă</td><td>2 + 6</td><td>{{total_apa}}</td><td>{{interpretare_apa}}</td></tr><tr><td>Aer</td><td>3 + 7</td><td>{{total_aer}}</td><td>{{interpretare_aer}}</td></tr><tr><td>Pământ</td><td>4 + 8</td><td>{{total_pamant}}</td><td>{{interpretare_pamant}}</td></tr></tbody></table></div>
 <h3 id="4-4-masculin-feminin-daruri-nevoi">4.4. Masculin și feminin. Daruri și nevoi</h3><p>{{interpretare_par_impar_masculin_feminin}}</p><p>{{interpretare_daruri_nevoi}}</p>
 <h3 id="4-5-fixatia">4.5. Fixația</h3><p>{{calcul_si_interpretare_fixatie}}</p>
@@ -276,6 +276,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <h3 id="5-3-numarul-de-realizare">5.3. Numărul de realizare</h3><p>{{calcul_si_interpretare_numar_realizare}}</p>
 <h3 id="5-4-numarul-neamului">5.4. Numărul neamului</h3>
 <div class="calc-box">{{calcul_numar_neam}} → <strong>{{numar_arcana_neam}}</strong></div>
+<div class="index">Index: {{cod_lucrare}}-T-013</div>
 <div class="table-wrap"><table><thead><tr><th>Arcana</th><th>Denumire</th><th>Resursă moștenită</th><th>Manifestare</th><th>Umbră</th><th>Maturizare</th></tr></thead><tbody><tr><td>{{numar_arcana_neam}}</td><td>{{nume_arcana_neam}}</td><td>{{resursa_arcana_neam}}</td><td>{{manifestare_arcana_neam}}</td><td>{{umbra_arcana_neam}}</td><td>{{maturizare_arcana_neam}}</td></tr></tbody></table></div>
 <figure><img class="tarot-image" src="{{arcana_neam_data_uri}}" alt="Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}"><figcaption>Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}</figcaption></figure>
 <h3 id="5-5-codul-numerologic-al-numelui">5.5. Codul numerologic al numelui</h3>
@@ -300,6 +301,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-010</div>
 <h2 id="capitolul-6-oportunitati-si-provocari">Capitolul 6. Oportunități și provocări</h2>
+<div class="index">Index: {{cod_lucrare}}-T-003</div>
 <div class="table-wrap"><table><thead><tr><th>Etapă</th><th>Interval</th><th>Oportunitate</th><th>Provocare</th><th>Interpretare</th></tr></thead><tbody><tr><td>{{etapa_1}}</td><td>{{interval_1}}</td><td>{{oportunitate_1}}</td><td>{{provocare_1}}</td><td>{{interpretare_etapa_1}}</td></tr><tr><td>{{etapa_2}}</td><td>{{interval_2}}</td><td>{{oportunitate_2}}</td><td>{{provocare_2}}</td><td>{{interpretare_etapa_2}}</td></tr><tr><td>{{etapa_3}}</td><td>{{interval_3}}</td><td>{{oportunitate_3}}</td><td>{{provocare_3}}</td><td>{{interpretare_etapa_3}}</td></tr><tr><td>{{etapa_4}}</td><td>{{interval_4}}</td><td>{{oportunitate_4}}</td><td>{{provocare_4}}</td><td>{{interpretare_etapa_4}}</td></tr></tbody></table></div>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-011</div>
@@ -312,13 +314,16 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <div class="index">Index: {{cod_lucrare}}-T-005</div>
 <div class="table-wrap"><table><thead><tr><th>Ani exteriori</th><th>Reper activ</th><th>Interpretare</th></tr></thead><tbody><tr><td>{{an_exterior_1}}</td><td>{{da_nu}}</td><td>{{interpretare_an_exterior_1}}</td></tr><tr><td>{{an_exterior_2}}</td><td>{{da_nu}}</td><td>{{interpretare_an_exterior_2}}</td></tr>{{randuri_ani_exteriori_html}}</tbody></table></div>
 <h3 id="7-3-ciclul-de-7-ani">7.3. Ciclul de 7 ani</h3>
+<div class="index">Index: {{cod_lucrare}}-T-006</div>
 <div class="table-wrap"><table class="cycle-7-table"><thead><tr><th>Ciclu</th><th>Anul 1</th><th>Anul 2</th><th>Anul 3</th><th>Anul 4</th><th>Anul 5</th><th>Anul 6</th><th>Anul 7</th><th>Interpretare</th></tr></thead><tbody><tr><td>{{ciclu_7_1}}</td><td>{{an1}}</td><td>{{an2}}</td><td>{{an3}}</td><td class="active-year">{{an4_reper}}</td><td>{{an5}}</td><td>{{an6}}</td><td>{{an7}}</td><td>{{interpretare_ciclu_7_1}}</td></tr>{{randuri_ciclu_7_html}}</tbody></table></div>
 <h3 id="7-4-ciclul-de-9-ani">7.4. Ciclul de 9 ani</h3>
+<div class="index">Index: {{cod_lucrare}}-T-007</div>
 <div class="table-wrap"><table><thead><tr><th>Ciclu</th><th>Anul 1 — început</th><th>Anul 2</th><th>Anul 3</th><th>Anul 4</th><th>Anul 5</th><th>Anul 6</th><th>Anul 7</th><th>Anul 8</th><th>Anul 9 — încheiere</th></tr></thead><tbody><tr><td>{{ciclu_9_1}}</td><td class="cycle-start">{{an_inceput}}</td><td>{{an2}}</td><td>{{an3}}</td><td>{{an4}}</td><td>{{an5}}</td><td>{{an6}}</td><td>{{an7}}</td><td>{{an8}}</td><td class="cycle-end">{{an_final}}</td></tr>{{randuri_ciclu_9_html}}</tbody></table></div>
 <p>{{interpretare_ciclu_9_si_an_personal}}</p>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-012</div>
 <h2 id="capitolul-8-lectiile-de-viata">Capitolul 8. Lecțiile de viață</h2>
+<div class="index">Index: {{cod_lucrare}}-T-008</div>
 <div class="table-wrap"><table><thead><tr><th>An / interval</th><th>Lecția 1 — {{lectia_1}}</th><th>Lecția 2 — {{lectia_2}}</th><th>Lecția 3 — {{lectia_3}}</th><th>Lecția 4 — {{lectia_4}}</th><th>Lecția 5 — {{lectia_5}}</th></tr></thead><tbody><tr><td>{{rand_lectii_1}}</td><td>{{an_l1}}</td><td>{{an_l2}}</td><td>{{an_l3}}</td><td class="active-year">{{an_l4}}</td><td>{{an_l5}}</td></tr>{{randuri_lectii_html}}</tbody></table></div>
 <p>{{interpretare_lectii_de_viata}}</p>
 
@@ -342,6 +347,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <section class="conditional" data-template-condition="revizie">
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-015</div>
 <h2 id="documentatia-si-trasabilitatea-lucrarii">Documentația și trasabilitatea lucrării</h2>
+<div class="index">Index: {{cod_lucrare}}-T-014</div>
 <div class="table-wrap"><table><thead><tr><th>Resursă</th><th>Valoare</th></tr></thead><tbody><tr><td>Agent coordonator</td><td>The Scribe</td></tr><tr><td>Agenți subcontractați</td><td>{{agenti_subcontractati}}</td></tr><tr><td>Skill-uri</td><td>{{skilluri_folosite}}</td></tr><tr><td>Template</td><td>scurt — Template_Lucrare_Numerologica_Scurt.md + .html</td></tr><tr><td>Raport calculator</td><td>{{cale_raport_json}}</td></tr><tr><td>Registru și data validării</td><td>{{registru_si_data}}</td></tr><tr><td>SVG-uri integrate</td><td>{{svg_uri_integrate}}</td></tr><tr><td>Versiune și data redactării</td><td>{{versiune}} — {{data_lucrarii}}</td></tr></tbody></table></div>
 </section>
 <section class="template-controls">

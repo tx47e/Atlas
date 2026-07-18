@@ -11,6 +11,8 @@ tags:
 
 Acest registru este lista operationala pentru `scripts/calculator_numerologic_examen.py`. O formula nu devine sursa de calcul pentru lucrari noi pana cand nu are statutul `confirmata`.
 
+Rularile de audit si modificarile de statut sunt consemnate cronologic in [[Istoric Rulari Validare Formule|istoricul validarilor de formule]].
+
 | Domeniu | Formula / rezultat | Script agregat | Sursa documentara | Exemplu aprobat | Statut | Actiune urmatoare |
 | --- | --- | --- | --- | --- | --- | --- |
 | Aspecte de indreptat | Solutia = suma cifrelor aspectelor de indreptat, aplicata exact o singura data | foloseste `reducere_numerologica(aspecte)`, care reduce repetat pana la o cifra | `Aspecte de Indreptat.md` cere in prezent reducere la o singura cifra si contrazice regula confirmata de utilizator | Daniel: 37 -> 10, nu 1; Andreea: 29 -> 11, nu 2; exemplul Vault 17 -> 8 nu distinge metodele | neconforma | Dupa aprobare separata, corecteaza Vault-ul, calculatorul agregat si copia din skill, testele, template-urile si lucrarile Daniel/Andreea in perechi Markdown/HTML. |

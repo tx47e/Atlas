@@ -1,4 +1,31 @@
+---
+titlu: Template numerologic scurt pentru The Scribe
+tip: plan
+status: implementat
+Data: 2026-07-18
+aliases:
+  - Plan template scurt The Scribe
+  - Template numerologic scurt implementat
+tags:
+  - plan
+  - implementat
+  - numerologie
+  - redactare
+  - template
+  - the-scribe
+agent: "[[agents/The Scribe/The Scribe|The Scribe]]"
+skill: "[[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]"
+---
+
 # Template numerologic „scurt” pentru The Scribe
+
+## Cuprins
+
+- [[#Rezumat|Rezumat]]
+- [[#Modificări|Modificări]]
+- [[#Interfețe|Interfețe]]
+- [[#Verificare și criterii de acceptare|Verificare și criterii de acceptare]]
+- [[#Presupuneri adoptate|Presupuneri adoptate]]
 
 ## Rezumat
 

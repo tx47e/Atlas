@@ -489,6 +489,8 @@ Se includ obligatoriu:
 
 #### 1.5.1. Matricea datei de nastere
 
+Regula simbolurilor este comuna template-urilor `scurt` si `examen`: o cifra se reprezinta printr-un cerc; exact doua cifre se reprezinta prin doua cercuri unite de o linie care se opreste la contur si nu intra in cercuri; exact trei cifre se reprezinta printr-un triunghi.
+
 ```text
 {{matricea_datei_de_nastere}}
 ```

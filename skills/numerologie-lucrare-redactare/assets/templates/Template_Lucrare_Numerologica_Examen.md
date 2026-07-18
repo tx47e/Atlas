@@ -340,6 +340,8 @@ Interpretare:
 
 #### 1.5.1. Matricea datei de nastere
 
+Regula simbolurilor este comuna template-urilor `scurt` si `examen`: o cifra se reprezinta printr-un cerc; exact doua cifre se reprezinta prin doua cercuri unite de o linie care se opreste la contur si nu intra in cercuri; exact trei cifre se reprezinta printr-un triunghi.
+
 Chenarul calculului foloseste randuri distincte pentru data compacta, `N1`,
 `N2`, `N3`, `N4` si sirul complet.
 Pentru matrice, `N2` este suma cifrelor lui `N1`, aplicata exact o singura data.

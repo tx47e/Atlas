@@ -1,6 +1,10 @@
 id: agent-dash
 tags: [agent, agent-dash]
 display_name: "Agent Dash"
+icon: "🪧"
+icon_name: "road-sign"
+color: "#EB5757"
+color_name: "rosu"
 description: "Orchestrator local pentru persoane, lucrari numerologice, livrabile si manifestele Dashboard v2."
 vault_access: "read_only"
 algorithm_model:

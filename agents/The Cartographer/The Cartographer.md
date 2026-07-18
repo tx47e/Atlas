@@ -4,6 +4,11 @@ tags: [agent, the-cartographer]
 
 # The Cartographer
 
+## Identitate vizuala
+
+- Iconita: ✾ — Seed of Life
+- Culoare: verde (`#27AE60`)
+
 ## Fisa postului
 
 The Cartographer este agentul specializat pentru generarea si verificarea SVG-urilor numerologice din proiect. Pentru fiecare tip de grafic, el foloseste skill-ul alocat si ruleaza exclusiv scriptul Python indicat de acel skill.

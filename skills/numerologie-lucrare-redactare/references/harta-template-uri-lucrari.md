@@ -25,8 +25,7 @@ Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare
 | Tip / resursa | Template | Folosire |
 | --- | --- | --- |
 | Lucrare completa de examen | [Template_Lucrare_Numerologica_Examen.md](../assets/templates/Template_Lucrare_Numerologica_Examen.md) | Sursa canonica pentru structura completa, calcule, tabele, grafice, reguli de revizie si verificarea integralitatii. |
-| Lucrare scurta | [Markdown](../assets/templates/Template_Lucrare_Numerologica_Scurt.md) · [HTML](../assets/templates/Template_Lucrare_Numerologica_Scurt.html) | Pereche canonica pentru cheia `scurt`: noua capitole de baza, tabele editabile, Tarot dinamic, matrice 3x3 si capitol relational optional cu Omuletul relatiilor. |
-| Lucrare completa narativa | [Plan_Template_Lucrare_Numerologica_Narativa.md](../assets/templates/Plan_Template_Lucrare_Numerologica_Narativa.md) | Conduce firul editorial, tonul si ordinea lecturii. Se verifica in paralel cu template-ul complet de examen. |
+| Lucrare scurta | [Template principal](../assets/Template-lucrare-scurta.md) · [Markdown canonic](../assets/templates/Template_Lucrare_Numerologica_Scurt.md) · [HTML canonic](../assets/templates/Template_Lucrare_Numerologica_Scurt.html) | Resursa principala si perechea canonica pentru cheia `scurt`: incepe direct cu Capitolul 1 dupa Cuprins, fara `Cuvant inainte`; include tabele editabile, Tarot dinamic, matrice 3x3 si capitol relational optional cu Omuletul relatiilor. |
 | Lucrare tematica sau restransa | [Template_Lucrare_Numerologica.md](../assets/templates/Template_Lucrare_Numerologica.md) | Se foloseste pentru o analiza mai scurta, un set limitat de teme sau capitole individuale. |
 | Lista de control | [Cuprins_Lucrare_Numerologica.md](../assets/templates/Cuprins_Lucrare_Numerologica.md) | Inventar extins pentru alegerea capitolelor si verificarea acoperirii notiunilor. Nu este template de redactare de sine statator. |
 | Model editorial de revizie | [Markdown](../assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.md) · [HTML](../assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.html) | Pereche editoriala `v1.04r`: Markdown-ul conduce continutul, iar HTML-ul arata prezentarea publicata si redarea indexurilor. Sursa istorica nu contine capitolul de trasabilitate; la o revizie noua, adauga-l obligatoriu conform `SKILL.md` si template-ului general. |
@@ -37,9 +36,6 @@ Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare
 - Alege `lucrare completa de examen` cand se cere structura integrala sau o
   lucrare de examen.
 - Alege `lucrare scurta` numai cand formularul sau utilizatorul selecteaza explicit cheia `scurt`; nu confunda tipul template-ului cu nivelul de detaliere.
-- Alege `lucrare completa narativa` cand se cere o lectura ampla, calda si
-  orientata spre parcursul persoanei. Planul narativ conduce redactarea, iar
-  template-ul de examen ramane controlul tehnic.
 - Alege `lucrare tematica sau restransa` cand cererea acopera doar anumite
   concepte, o perioada sau un capitol.
 - Daca scopul nu permite alegerea fara schimbarea substantiala a structurii,
@@ -55,3 +51,7 @@ Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare
 
 Template-ul istoric din `temp/lucrare finalizate/` nu este resursa activa si nu
 se foloseste pentru o lucrare noua.
+
+## Planuri neimplementate
+
+- [Planul pentru lucrarea numerologica narativa](../../../planuri/2026-07-18-plan-template-lucrare-numerologica-narativa.md) este pastrat pentru dezvoltare viitoare. Nu este template activ si nu poate fi selectat in promptul The Scribe; tipurile implementate sunt `scurt` si `examen`.

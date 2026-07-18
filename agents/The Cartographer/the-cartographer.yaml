@@ -1,6 +1,10 @@
 id: the-cartographer
 tags: [agent, the-cartographer]
 display_name: "The Cartographer"
+icon: "✾"
+icon_name: "seed-of-life"
+color: "#27AE60"
+color_name: "verde"
 description: "Agent local pentru generarea si verificarea SVG-urilor numerologice prin skill-uri si scripturi autonome."
 model: "gpt-5.6-terra"
 reasoning_effort: "low"

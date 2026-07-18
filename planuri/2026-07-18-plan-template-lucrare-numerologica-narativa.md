@@ -1,8 +1,43 @@
+---
+titlu: Plan template lucrare numerologica narativa
+tip: plan
+status: neimplementat
+Data: 2026-07-18
+aliases:
+  - Plan lucrare numerologica narativa
+  - Template narativ neimplementat
+tags:
+  - plan
+  - numerologie
+  - redactare
+  - template
+  - narativ
+agent: "[[agents/The Scribe/The Scribe|The Scribe]]"
+skill: "[[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare-redactare]]"
+---
+
 # Plan - Template lucrare numerologica narativa
 
 ## Scop
 
 Lucrarea se citeste ca un parcurs despre om, nu ca o lista de calcule. Fiecare informatie numerologica apare o singura data in interpretarea principala, in locul in care raspunde cel mai bine la o intrebare fireasca a cititorului. Formulele, tabelele complete si graficele de lucru se muta in anexa tehnica.
+
+Pentru o lucrare finala similara modelului Daniel Birsan, planul narativ nu
+autorizeaza schimbarea schemei validate. Se copiaza 1-la-1 modelul Markdown +
+HTML si se completeaza pe campuri, pastrand formatarea, capitolele, tabelele,
+matricele colorate cu simboluri/optim/numerotare, chenarele, ordinea interna si
+amploarea interpretarilor. Se verifica explicit descrierea inainte de 2.1,
+ordinea 6.6, interpretarea ampla 7.1, calculele pe doua randuri la 8.1,
+separarea operatiilor la 8.2, evidentierea rosie dupa virgula si structura
+calculului/tabelelor 8.3. Tabelele primesc interpretari individuale, nu texte
+boilerplate repetate. Lista de control a modelului este obligatorie; o
+substituire mecanica fara audit de paritate nu este livrabila.
+
+Exceptie obligatorie de continut: modelul Daniel contine formulari arhetipale
+istorice. In lucrarile noi, arhetipurile se pastreaza numai la Vibratia
+interioara, Vibratia exterioara si Vibratia globala; in toate celelalte
+sectiuni, formularile respective se rescriu prin sens, manifestare, umbra si
+maturizare, fara roluri arhetipale explicite sau mascate.
 
 Firul lucrarii: **cine sunt -> ce simt -> cum ma arat -> ce am de armonizat -> incotro cresc -> cand se activeaza etapele -> cum construiesc relatiile -> ce pot aplica acum**.
 
@@ -16,24 +51,24 @@ Firul lucrarii: **cine sunt -> ce simt -> cum ma arat -> ce am de armonizat -> i
 
 Imediat dupa datele generale se introduce un cuprins cu linkuri interne catre fiecare capitol si subcapitol. Cuprinsul afiseaza numai structura de lectura, fara formule, tabele sau anexe interne.
 
-1. Portretul de inceput
-2. Lumea interioara
-3. Prezenta in lume
-4. Punti, tensiuni si transformare
-5. Directia de destin
-6. Evolutia prin timp si harta sincronicitatilor
-   - 6.1. Etapele mari
-   - 6.2. Matricea sincronicitatilor
-7. Dimensiunea spirituala
-   - 7.1. Deschiderea catre ezoterism si cautarea sensului
-   - 7.2. Codul spiritului, varsta spiritului, etapele si subetapele
-8. Relatia de cuplu
-   - 8.1. Ce aduce fiecare in relatie
-   - 8.2. Compatibilitati si diferente
-   - 8.3. Sincronicitati de cuplu
-9. Resurse si directii practice
-10. Incheiere
-11. Anexa tehnica
+1. [[#1. Portretul de inceput|Portretul de inceput]]
+2. [[#2. Lumea interioara|Lumea interioara]]
+3. [[#3. Prezenta in lume|Prezenta in lume]]
+4. [[#4. Punti, tensiuni si transformare|Punti, tensiuni si transformare]]
+5. [[#5. Directia de destin|Directia de destin]]
+6. [[#6. Evolutia prin timp si harta sincronicitatilor|Evolutia prin timp si harta sincronicitatilor]]
+   - [[#6.1. Etapele mari|6.1. Etapele mari]]
+   - [[#6.2. Matricea sincronicitatilor|6.2. Matricea sincronicitatilor]]
+7. [[#7. Dimensiunea spirituala|Dimensiunea spirituala]]
+   - [[#7.1. Deschiderea catre ezoterism si cautarea sensului|7.1. Deschiderea catre ezoterism si cautarea sensului]]
+   - [[#7.2. Codul spiritului, varsta spiritului, etapele si subetapele|7.2. Codul spiritului, varsta spiritului, etapele si subetapele]]
+8. [[#8. Relatia de cuplu - Daniel si Roman Andreea Maria|Relatia de cuplu]]
+   - [[#8.1. Ce aduce fiecare in relatie|8.1. Ce aduce fiecare in relatie]]
+   - [[#8.2. Compatibilitati si diferente|8.2. Compatibilitati si diferente]]
+   - [[#8.3. Sincronicitati de cuplu|8.3. Sincronicitati de cuplu]]
+9. [[#9. Resurse si directii practice|Resurse si directii practice]]
+10. [[#10. Incheiere|Incheiere]]
+11. [[#Anexa tehnica|Anexa tehnica]]
 
 ## Regula de construire a fiecarui element
 
@@ -194,7 +229,7 @@ Capitol separat, asezat dupa evolutia individuala, pentru ca relatia se intelege
 
 ### 8.1. Ce aduce fiecare in relatie
 
-- omuletul relatiilor;
+- omuletul relatiilor, integrat ca PNG de `900 x 840 px`, nu ca SVG;
 - cifrele dominante ale fiecaruia;
 - diferentele de ritm, initiativa, sensibilitate, exprimare si responsabilitate;
 - zonele in care se completeaza si zonele in care se pot provoca.
@@ -276,5 +311,8 @@ Contine, fara interpretari repetate:
 - Fara prescurtari neexplicate in corpul interpretativ.
 - Fiecare concept este explicat in limba cititorului inainte de a fi interpretat.
 - O informatie nu se repeta; daca revine, este folosita pentru a adauga un unghi nou.
+- Formulele de adresare sau concluzie `Pentru tine`, `La tine`, `In viata de zi
+  cu zi` si `Cheia practica` nu se folosesc ca sablon recurent. La audit se
+  verifica sa nu deschida ori sa inchida mecanic sectiuni consecutive.
 - Sincronicitatile se interpreteaza ca teme convergente, nu ca predictii rigide.
 - Relatia ramane o lectura de compatibilitate, comunicare si constructie comuna, nu un verdict.

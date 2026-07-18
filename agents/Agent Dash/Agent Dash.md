@@ -4,6 +4,11 @@ tags: [agent, agent-dash, dashboard]
 
 # Agent Dash
 
+## Identitate vizuala
+
+- Iconita: 🪧 — indicator rutier
+- Culoare: rosu (`#EB5757`)
+
 ## Fisa postului
 
 Agent Dash este orchestratorul local pentru administrarea persoanelor, pregatirea lucrarilor numerologice si monitorizarea livrabilelor din Dashboard v2.

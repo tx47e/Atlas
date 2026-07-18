@@ -1,0 +1,26 @@
+{
+  "persoana_A": "Bîrsan Daniel Robert",
+  "persoana_B": "Roman Andreea Maria",
+  "data_A": "1998-02-19",
+  "data_B": "1998-01-12",
+  "calculator_A_relatii": {
+    "omuletul_relatiilor": {
+      "status": "de_completat",
+      "observatie": "Necesita datele celei de-a doua persoane."
+    }
+  },
+  "calculator_B": {
+    "omuletul_relatiilor": {
+      "status": "de_completat",
+      "observatie": "Necesita datele celei de-a doua persoane."
+    }
+  },
+  "validare_svg": {
+    "agent": "The Cartographer",
+    "status": "validat",
+    "realizare_impreuna": "1 + 3 = 4",
+    "de_rezolvat_impreuna": "|1 - 3| = 2",
+    "watermark": "Atlas Numerologie"
+  }
+}
+

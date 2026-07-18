@@ -52,6 +52,10 @@ Nu consulta documentatia numerologica pentru a recalcula sau suprascrie rezultat
 
 ## Consecventa documentului
 
+- Pentru fiecare grafic, inventariaza fisierele disponibile si referintele din Markdown si HTML inainte de integrare. Nu pastra doua formate fara rol: ramane livrabilul folosit de lucrare, iar copia redundanta si nereferentiata se sterge dupa ce confirmi ca nu este sursa canonica unica sau intrare necesara pentru regenerare.
+- Pentru un SVG vectorial pur, foloseste fisierul relativ ca imagine Obsidian in Markdown si incorporeaza continutul in HTML autonom prin `data:image/svg+xml;base64,...`, intr-un element `<img>` cu text alternativ si legenda unde structura lucrarii o cere.
+- Daca SVG-ul contine elemente `<image>`, referinte raster sau imagini codificate in interior, nu il folosi ca imagine finala a lucrarii. Pastreaza SVG-ul numai daca are un rol tehnic explicit si foloseste PNG-ul validat in Markdown; in HTML autonom incorporeaza acelasi PNG prin `data:image/png;base64,...`.
+- HTML-ul livrat trebuie sa fie autonom: nicio imagine folosita de lucrare nu ramane cu `src` relativ. Verifica prin decodare ca fiecare data URI este valid si corespunde fisierului livrat.
 - Include `Cuvant inainte` dupa Cuprins si inainte de Capitolul 1, folosind textul reutilizabil din `vault/Numerologie/Introducere.md`. In lucrare, acesta este singurul titlu afisat pentru sectiune.
 - Pastreaza metafora calatoriei si imaginea din cuvinte care leaga conceptele intr-o harta usor de urmarit. Modifica selectiv numai formularile care trebuie corectate sau aliniate metodologic; nu rescrie textul fara nevoie.
 - Integreaza in aceeasi poveste ciclicitatile, anii importanti interiori si exteriori, ciclurile de 7, 9 si 12 ani, Soarta si Destinul, lectiile de viata si anul personal. Nu le transforma intr-o enumerare tehnica.

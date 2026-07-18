@@ -33,8 +33,10 @@ Gen: M / F
 Tipul relatiei:
 ```
 
-Nu incepe lucrarea pana cand `Tip template` nu contine exact `scurt` sau `examen`; daca lipseste, solicita selectia. Pentru `scurt`, foloseste perechea `Template_Lucrare_Numerologica_Scurt.md` + `.html`. Pentru `examen`, foloseste template-ul de examen si modelul editorial corespunzator starii lucrarii.
+Nu incepe lucrarea pana cand `Tip template` nu contine exact `scurt` sau `examen`; daca lipseste, solicita selectia. Pentru `scurt`, citeste mai intai `skills/numerologie-lucrare-redactare/assets/Template-lucrare-scurta.md`, apoi foloseste perechea `Template_Lucrare_Numerologica_Scurt.md` + `.html`. Pentru `examen`, foloseste `skills/numerologie-lucrare-redactare/assets/Template-lucrare-examen.md` si modelul editorial corespunzator starii lucrarii.
 
 Verifica datele inainte de calcul. Ruleaza `scripts/calculator_numerologic_examen.py` din skill pentru persoana analizata si separat pentru persoana relationala, daca exista. Foloseste iesirea JSON drept sursa a calculelor. Nu inventa informatii lipsa. Livreaza perechea Markdown-HTML si aplica toate regulile template-ului selectat.
+
+La integrarea graficelor, aplica obligatoriu regula din `references/reguli-redactare.md`: elimina formatele redundante fara rol, incorporeaza SVG-urile vectoriale in HTML ca data URI, foloseste PNG pentru SVG-urile care contin imagini raster si nu lasa niciun `src` relativ in HTML-ul final.
 
 The Scribe are acces numai pentru citire la `vault/`. Daca lucrarea necesita documentarea sau corectarea unui concept ori a unei formule in Vault, trimite solicitarea exclusiv catre The Lore Keeper si foloseste aceasta denumire in toate rapoartele.
