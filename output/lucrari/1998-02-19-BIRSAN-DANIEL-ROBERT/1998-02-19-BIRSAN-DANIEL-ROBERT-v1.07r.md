@@ -468,7 +468,7 @@ Index: BDR-19980219-v1.07r-T-002
 | --- | --- | --- | ---: | --- |
 | 123 | Energie | 11112233 | 14 | Vector plin. Energia de pornire există și poate fi folosită coerent: patru cifre 1 dau inițiativă, două cifre 2 aduc cooperare, iar cele două cifre 3 susțin exprimarea. Daniel poate porni lucruri și îi poate coopta pe ceilalți, cu condiția să nu transforme hotărârea în grabă sau control. |
 | 456 | Vointa | - | 0 | Vector complet lipsa. Aici lipsesc 4, 5 și 6: corpul, regulile, centrul, curajul practic, munca și responsabilitatea afectiva. Interpretarea nu este lipsa de vointa, ci nevoie de antrenament conștient: program, disciplina, rutină corporala, limite și asumarea lucrurilor facute pas cu pas. |
-| 789 | Creativitate | 789999 | 51 | Vector plin și cel mai puternic vector al matricei. 7 aduce analiză și intuitie, 8 organizare și raportare la rezultat, iar 9 viziune ampla și memorie. Aici apare fixatia: mintea, sensul și imaginea de ansamblu pot domina restul hartii. |
+| 789 | Creativitate | 789999 | 51 | Vector plin și cel mai puternic vector al matricei. 7 aduce analiză și intuitie, 8 organizare și raportare la rezultat, iar 9 viziune ampla și memorie. Mintea, sensul și imaginea de ansamblu pot domina restul hartii. |
 | 147 | Spiritualitate | 11117 | 11 | Vector incomplet prin lipsa lui 4. Forța identității este mai mare decât arăta calculul anterior, iar intuiția 7 oferă orientare interioară. Tocmai de aceea, înțelegerile tale au nevoie de o ancoră practică: un ritual simplu, un program și o acțiune verificabilă transformă convingerea în experiență trăită. |
 | 258 | Social | 228 | 12 | Vector incomplet prin lipsa lui 5. Cele două cifre 2 întăresc sensibilitatea și cooperarea, iar 8 aduce organizare și raportare la rezultat. Poți înțelege mai bine oamenii și poți administra relațiile, dar ai nevoie să păstrezi un centru personal clar, astfel încât ajutorul oferit să nu însemne renunțarea la propriile limite. |
 | 369 | Bunăstare materială | 339999 | 42 | Vector incomplet prin lipsa lui 6. Cele două cifre 3 susțin comunicarea și creativitatea, iar cele patru cifre 9 dau viziune și capacitate de sinteză. Ideile pot produce valoare, însă bunăstarea crește când alegi puține direcții, le transformi în servicii concrete și le urmărești până la final. |
@@ -476,7 +476,7 @@ Index: BDR-19980219-v1.07r-T-002
 | 357 | Scopuri | 337 | 13 | Vector incomplet prin lipsa lui 5. Exprimarea 3 și intuiția 7 pot formula scopuri cu sens, într-o energie mai concentrată decât indica varianta anterioară. Alege un obiectiv, descrie primul rezultat observabil și fă un experiment scurt; așa, chemarea capătă direcție fără să aștepți claritate perfectă. |
 
 Index: BDR-19980219-v1.07r-SUB-018
-### 4.5. Tendinte, fixatie și caii-trasura-vizitiul
+### 4.5. Comparația cu optimul și caii-trasura-vizitiul
 
 Index: BDR-19980219-v1.07r-P-088
 Aceasta lectura strange dinamica matricei: dominantele, lipsurile și felul în care energia se misca prin vectorii de baza.
@@ -505,9 +505,6 @@ Pe coloane, coloana `1-2-3` are 14 fata de optimul 18, coloana `4-5-6` are 0 fat
 
 Index: BDR-19980219-v1.07r-P-092
 Căsuța dominanta este 9, cu valoarea 36. Căsuțele lipsa sunt 4, 5 și 6, adica zona de corp, stabilitate, centru, curaj practic, munca și responsabilitate afectiva. Aceste lipsuri nu anuleaza potențialul, dar arată unde energia trebuie educata prin obiceiuri, limite și acțiuni repetate.
-
-Index: BDR-19980219-v1.07r-P-093
-Fixatia este vectorul plin cu valoarea cea mai mare. În cazul tau, Daniel, fixatia este pe vectorul 789, Creativitate, cu valoarea 51. Este importanta pentru ca arată zona în care energia se duce aproape natural: intuitie, analiză, organizare, memorie, viziune și înțelegerea imaginii mari. Partea buna este ca poti vedea rapid sensul unei situatii. Partea de lucrat este să nu ramai blocat doar în minte, observatie sau concluzii, ci să cobori înțelegerea în corp, program, munca și decizii concrete.
 
 Index: BDR-19980219-v1.07r-P-094
 În analogia cai, trăsură și vizitiu, caii sunt vectorul 123 și arată forța de pornire. La tine, caii au valoarea 14 și sunt plini: cele patru cifre 1 dau impuls și autonomie, cele două cifre 2 spun „hai că te ajut”, iar cele două cifre 3 ajută energia să fie exprimată. Trăsura este vectorul 456 și arată suportul practic, corpul vehiculului, disciplina și capacitatea de a duce greutatea drumului. Aici valoarea este 0, pentru că lipsesc 4, 5 și 6; de aceea, energia de pornire are nevoie de structură, rutină și responsabilitate ca să nu rămână doar impuls. Vizitiul este vectorul 789 și arată direcția mentală și spirituală. Cu valoarea 51, vizitiul este foarte puternic: mintea vede departe, dar trebuie să conducă blând caii și să nu uite că trăsura are nevoie de întreținere.

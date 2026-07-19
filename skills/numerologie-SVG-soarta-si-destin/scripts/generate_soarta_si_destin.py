@@ -13,7 +13,7 @@ from pathlib import Path
 
 WIDTH, HEIGHT = 1200, 720
 CHART_X, CHART_Y, CHART_W, CHART_H = 95, 130, 735, 400
-PAPER, FATE, DESTINY = "#f4e5d4", "#bf6b2c", "#116466"
+PAPER, FATE, DESTINY = "#fff8e8", "#bf6b2c", "#116466"
 
 
 @dataclass(frozen=True)

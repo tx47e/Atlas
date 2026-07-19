@@ -25,6 +25,7 @@ Sa creeze reprezentari SVG numerologice clare, corecte si reutilizabile, folosin
 - `numerologie-SVG-septagrama` - [[skills/numerologie-SVG-septagrama/SKILL|SKILL.md]]
 - `numerologie-SVG-harta-suprapusa` - [[skills/numerologie-SVG-harta-suprapusa/SKILL|SKILL.md]]
 - `numerologie-SVG-soarta-si-destin` - [[skills/numerologie-SVG-soarta-si-destin/SKILL|SKILL.md]]
+- `numerologie-SVG-scara-bunastarii` - [[skills/numerologie-SVG-scara-bunastarii/SKILL|SKILL.md]]
 - `numerologie-SVG-triunghiul-financiar` - [[skills/numerologie-SVG-triunghiul-financiar/SKILL|SKILL.md]]
 
 ## Prompturi alocate
@@ -35,6 +36,7 @@ Sa creeze reprezentari SVG numerologice clare, corecte si reutilizabile, folosin
 - [`numerologie-SVG-semnatura-astrala`](prompts/numerologie-SVG-semnatura-astrala.md)
 - [`numerologie-SVG-septagrama`](prompts/numerologie-SVG-septagrama.md)
 - [`numerologie-SVG-soarta-si-destin`](prompts/numerologie-SVG-soarta-si-destin.md)
+- [`numerologie-SVG-scara-bunastarii`](prompts/numerologie-SVG-scara-bunastarii.md)
 - [`numerologie-SVG-triunghiul-financiar`](prompts/numerologie-SVG-triunghiul-financiar.md)
 
 ## Configurare si memorie

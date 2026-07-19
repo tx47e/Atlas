@@ -1,7 +1,6 @@
 ---
 name: numerologie-SVG-soarta-si-destin
 description: Creeaza SVG-uri numerologice autonome pentru graficul Soarta si Destin. Foloseste acest skill cand utilizatorul cere grafic soarta/destin, linia sortii, linia destinului, zona de confort, puncte de intalnire sau comparatia numerelor grafice de 7 cifre.
-tags: [skill]
 ---
 
 # Numerologie SVG Soarta si Destin
@@ -46,6 +45,11 @@ Verifica separat, doar cand este programata o actualizare a metodei, concordanta
 
 - Include watermark-ul `Atlas Numerologie` in coltul dreapta jos al panzei SVG.
 - Foloseste `font-family="Arial, Helvetica, sans-serif"`, `font-size="14"`, `fill="#aaa"`, `font-weight="800"`, `text-anchor="end"`.
+
+## Fundal si integrare vizuala
+
+- Foloseste pentru panza fundalul crem deschis `#fff8e8`, identic cu fundalul graficului Scara bunastarii din template-ul scurt.
+- Pastreaza conturul auriu, raza de `5px` si umbra discreta la nivelul elementului `img` din lucrare; nu dubla chenarul in interiorul SVG-ului.
 
 ## Reference
 

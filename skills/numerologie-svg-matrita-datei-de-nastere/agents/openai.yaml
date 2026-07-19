@@ -1,0 +1,5 @@
+interface:
+  display_name: "Matrita datei de nastere"
+  short_description: "Genereaza matricea numerologica a datei"
+  default_prompt: "Foloseste $numerologie-svg-matrita-datei-de-nastere pentru a genera matricea SVG din data de nastere."
+

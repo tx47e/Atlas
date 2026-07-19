@@ -34,6 +34,7 @@ skills:
   - numerologie-SVG-septagrama
   - numerologie-SVG-harta-suprapusa
   - numerologie-SVG-soarta-si-destin
+  - numerologie-SVG-scara-bunastarii
   - numerologie-SVG-triunghiul-financiar
 prompts_dir: "agents/The Cartographer/prompts"
 prompts:
@@ -43,4 +44,5 @@ prompts:
   numerologie-SVG-septagrama: "agents/The Cartographer/prompts/numerologie-SVG-septagrama.md"
   numerologie-SVG-harta-suprapusa: "agents/The Cartographer/prompts/numerologie-SVG-harta-suprapusa.md"
   numerologie-SVG-soarta-si-destin: "agents/The Cartographer/prompts/numerologie-SVG-soarta-si-destin.md"
+  numerologie-SVG-scara-bunastarii: "agents/The Cartographer/prompts/numerologie-SVG-scara-bunastarii.md"
   numerologie-SVG-triunghiul-financiar: "agents/The Cartographer/prompts/numerologie-SVG-triunghiul-financiar.md"

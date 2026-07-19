@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
   <title>Soarta si destin - Birsan Daniel Robert</title>
   <defs><style>
-.paper{fill:#f4e5d4}.axis{stroke:#2d2d2d;stroke-width:2}.grid{stroke:#cdbda7;stroke-width:1;opacity:.75}
+.paper{fill:#fff8e8}.axis{stroke:#2d2d2d;stroke-width:2}.grid{stroke:#cdbda7;stroke-width:1;opacity:.75}
 .comfort-fate{stroke:#bf6b2c;stroke-width:2.5;stroke-dasharray:9 7}.comfort-destiny{stroke:#116466;stroke-width:2.5;stroke-dasharray:4 6}
 .fate{fill:none;stroke:#bf6b2c;stroke-width:5;stroke-linejoin:round;stroke-linecap:round}.destiny{fill:none;stroke:#116466;stroke-width:5;stroke-linejoin:round;stroke-linecap:round}
-.fate-dot{fill:#bf6b2c;stroke:#f4e5d4;stroke-width:3}.destiny-dot{fill:#116466;stroke:#f4e5d4;stroke-width:3}.meet-dot{fill:#2d2d2d;stroke:#f4e5d4;stroke-width:3}
+.fate-dot{fill:#bf6b2c;stroke:#fff8e8;stroke-width:3}.destiny-dot{fill:#116466;stroke:#fff8e8;stroke-width:3}.meet-dot{fill:#2d2d2d;stroke:#fff8e8;stroke-width:3}
 .title{font-family:Arial,Helvetica,sans-serif;font-size:30px;font-weight:800;fill:#242424}.subtitle{font-family:Arial,Helvetica,sans-serif;font-size:17px;font-weight:700;fill:#555}.label{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#333}.small{font-family:Arial,Helvetica,sans-serif;font-size:13px;fill:#555}.value{font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:800;fill:#111;text-anchor:middle}.legend{font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:800;fill:#222}
   </style></defs>
   <rect class="paper" width="1200" height="720"/>

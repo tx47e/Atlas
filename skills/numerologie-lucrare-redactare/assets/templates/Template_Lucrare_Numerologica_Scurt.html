@@ -118,15 +118,16 @@ tbody tr:nth-child(even) { background: rgba(247, 239, 227, .45); }
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   max-width: 560px;
-  margin: 22px 0 30px;
+  margin: 22px auto 30px;
 }
 .matrix-cell {
   position: relative;
   min-height: 126px;
   padding: 12px;
   overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 6px;
+  border: 1px solid var(--sand);
+  border-radius: 5px;
+  box-shadow: 0 4px 16px rgba(6, 68, 77, .18);
   min-width: 0;
 }
 .matrix-number { position: absolute; top: 8px; left: 10px; font: 400 12px/1 Arial, sans-serif; }
@@ -144,6 +145,7 @@ tbody tr:nth-child(even) { background: rgba(247, 239, 227, .45); }
 .element-aer { background: var(--air); }
 .element-pamant { background: var(--earth); }
 .tarot-profile-wrap { border: 0; border-radius: 0; box-shadow: none; overflow: visible; }
+.tarot-image-caption { text-align: center; margin-top: 4px; }
 .tarot-profile-table { min-width: 0; background: transparent; }
 .tarot-profile-table td { border: 0; background: transparent !important; padding: 10px 14px; }
 .tarot-profile-table tr, .tarot-profile-table tr:nth-child(even), .tarot-profile-table tr:hover { background: transparent; }

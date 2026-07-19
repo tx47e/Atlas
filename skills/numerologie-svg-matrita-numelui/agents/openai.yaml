@@ -1,0 +1,4 @@
+interface:
+  display_name: "Matrita numelui"
+  short_description: "Genereaza matricea numerologica a numelui"
+  default_prompt: "Foloseste $numerologie-svg-matrita-numelui pentru a genera matricea SVG a numelui."
