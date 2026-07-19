@@ -51,6 +51,7 @@ python scripts/calculator_numerologic_examen.py `
 
 ### Contractul template-ului `scurt`
 
+- Redacteaza integral template-ul `scurt` in ton conversational, de la primul capitol pana la concluzii. Adreseaza-te direct persoanei, foloseste prenumele activ si mentine persoana a doua singular in definitii, explicatii, interpretari, introduceri de tabele si grafice, cicluri si recomandari. Nu alterna cu ton formal, impersonal sau persoana a treia; sunt exceptate numai datele factuale, etichetele, titlurile si calculele.
 - Dupa `Cuprins`, incepe direct cu `Capitolul 1. Vibratia interioara`. Nu include capitolul `Cuvant inainte`, text introductiv echivalent, index asociat sau trimitere in Cuprins.
 - Pastreaza ordinea capitolelor din template: Vibratia interioara, Vibratia exterioara, Destinul, Matrita numerologica, Numele, Pinacluri: Oportunitati si provocari, Ciclicitati, Relatii conditionale si Concluzii. In `Capitolul 7. Ciclicitati`, pastreaza strict subordinea: Soarta si Destinul, Anii importanti, Lectiile de viata, Ciclul de 7 ani, Ciclul de 9 ani, Ciclul de 12 ani.
 - In Matrita numerologica, reda patratul 3x3 in ordinea `1-4-7 / 2-5-8 / 3-6-9`, cu repetitii, reper optim, culori si simboluri dupa modelul `BDR-19980219-v1.07r-G-001`.

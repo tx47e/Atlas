@@ -33,15 +33,16 @@ Index: BDR-19980219-v1.00r-CAP-003
 ## Cuprins
 
 Index: BDR-19980219-v1.00r-L-002
-1. [[#Capitolul 1. Vibrația interioară — Cine ești tu?|Vibrația interioară — Cine ești tu?]]
-2. [[#Capitolul 2. Vibrația exterioară — Rolul social|Vibrația exterioară — Rolul social]]
-3. [[#Capitolul 3. Destinul — Muntele de urcat|Destinul — Muntele de urcat]]
-4. [[#Capitolul 4. Matrița numerologică — Pătratul lui Pitagora|Matrița numerologică — Pătratul lui Pitagora]]
-5. [[#Capitolul 5. Numele — Eu și neamul|Numele — Eu și neamul]]
-6. [[#Capitolul 6. Pinacluri: Oportunități și provocări|Pinacluri: Oportunități și provocări]]
-7. [[#Capitolul 7. Ciclicități|Ciclicități]]
-8. [[#Capitolul 8. Relații|Relații]]
-9. [[#Capitolul 9. Concluzii|Concluzii]]
+1. Vibrația interioară — Cine ești tu?
+2. Vibrația exterioară — Rolul social
+3. Destinul — Muntele de urcat
+4. Matrița numerologică — Pătratul lui Pitagora
+5. Numele — Eu și neamul
+6. Pinacluri: Oportunități și provocări
+7. Ciclicități
+8. Relații
+9. Aplicabilitate profesională
+10. Concluzii
 
 Index: BDR-19980219-v1.00r-CAP-005
 ## Capitolul 1. Vibrația interioară — Cine ești tu?
@@ -156,7 +157,7 @@ Index: BDR-19980219-v1.00r-SUB-008
 ### 2.1. Definiție
 
 Index: BDR-19980219-v1.00r-P-011
-Vibrația exterioară descrie felul în care te manifești în lume: prezența, comportamentul vizibil, imaginea socială și modul în care ceilalți îți pot percepe energia. Dacă [[Vibrație Interioară|vibrația interioară]] arată dinamica ta privată, vibrația exterioară arată forma prin care aceasta devine vizibilă în relații, contexte sociale și situații concrete. Ea nu spune totul despre caracter, dar indică stilul tău de apariție, reacția spontană în exterior și felul în care îți proiectezi energia. Citește-o ca pe o poartă de contact cu lumea: poate confirma vibrația interioară sau poate crea un contrast între ceea ce trăiești înăuntru și ceea ce observă ceilalți.
+Vibrația exterioară descrie felul în care te manifești în lume: prezența, comportamentul vizibil, imaginea socială și modul în care ceilalți îți pot percepe energia. Dacă vibrația interioară arată dinamica ta privată, vibrația exterioară arată forma prin care aceasta devine vizibilă în relații, contexte sociale și situații concrete. Ea nu spune totul despre caracter, dar indică stilul tău de apariție, reacția spontană în exterior și felul în care îți proiectezi energia. Citește-o ca pe o poartă de contact cu lumea: poate confirma vibrația interioară sau poate crea un contrast între ceea ce trăiești înăuntru și ceea ce observă ceilalți.
 
 Index: BDR-19980219-v1.00r-C-002
 > [!example] Calcul
@@ -365,7 +366,7 @@ Index: BDR-19980219-v1.00r-C-005
 > Bîrsan = 27 → 27 − 22 = **5**
 
 Index: BDR-19980219-v1.00r-T-013
-<table class="tarot-profile-table"><tbody><tr><td>Index: BDR-19980219-v1.00r-G-003<br>![[tarot-05-marele-preot-numarul-neamului.jpg]]<div class="tarot-image-caption" style="text-align:center"><em>Arcana <strong>5</strong> — Marele Preot</em></div></td><td><ul><li><strong>Resursă moștenită:</strong> tradiție, învățătură și valori.</li><li><strong>Manifestare:</strong> transformă experiența în reper.</li><li><strong>Umbră:</strong> rigiditate și conformism.</li><li><strong>Maturizare:</strong> verifică tradiția și păstrează principiile vii.</li></ul></td></tr></tbody></table>
+<table class="tarot-profile-table"><tbody><tr><td>Index: BDR-19980219-v1.00r-G-003<br>![Arcana 5 — Marele Preot](tarot-05-marele-preot-numarul-neamului.jpg)<div class="tarot-image-caption" style="text-align:center"><em>Arcana <strong>5</strong> — Marele Preot</em></div></td><td><ul><li><strong>Resursă moștenită:</strong> tradiție, învățătură și valori.</li><li><strong>Manifestare:</strong> transformă experiența în reper.</li><li><strong>Umbră:</strong> rigiditate și conformism.</li><li><strong>Maturizare:</strong> verifică tradiția și păstrează principiile vii.</li></ul></td></tr></tbody></table>
 
 Index: BDR-19980219-v1.00r-P-022c
 Daniel, Numărul tău ereditar karmic este **5**. În lectura simbolică, el vorbește despre un neam al faraonilor, al păstrătorilor de cunoaștere, ordine și ritual. Arhetipul Marelui Preot amintește de oameni care comunicau direct cu zeii, primeau învățătură și o transmiteau mai departe prin reguli, inițieri și practici ezoterice. Dacă vrei să fii susținut de această energie, cultivă mai departe partea vie a acestui neam: învață cu seriozitate, respectă valorile care au sens, caută cunoașterea spirituală fără să o transformi în spectacol și ajută-i pe ceilalți să găsească un reper.
@@ -552,46 +553,58 @@ Index: BDR-19980219-v1.00r-P-028a
 Index: BDR-19980219-v1.00r-SUB-026
 ### 7.4. Ciclul de 7 ani
 
-Index: BDR-19980219-v1.00r-T-006
-| Ciclu | Anul 1 | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Interpretare |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| C1 · vârsta 0–6 | 1998 | 1999 | 2000 | **2001** | 2002 | 2003 | 2004 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C2 · vârsta 7–13 | 2005 | 2006 | 2007 | **2008** | 2009 | 2010 | 2011 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C3 · vârsta 14–20 | 2012 | 2013 | 2014 | **2015** | 2016 | 2017 | 2018 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C4 · vârsta 21–27 | 2019 | 2020 | 2021 | **2022** | 2023 | 2024 | 2025 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C5 · vârsta 28–34 | 2026 | 2027 | 2028 | **2029** | 2030 | 2031 | 2032 | Ciclul activ la redactare: schimbare și mobilitate, susținute de reguli simple și consecvență. |
-| C6 · vârsta 35–41 | 2033 | 2034 | 2035 | **2036** | 2037 | 2038 | 2039 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C7 · vârsta 42–48 | 2040 | 2041 | 2042 | **2043** | 2044 | 2045 | 2046 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C8 · vârsta 49–55 | 2047 | 2048 | 2049 | **2050** | 2051 | 2052 | 2053 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C9 · vârsta 56–62 | 2054 | 2055 | 2056 | **2057** | 2058 | 2059 | 2060 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C10 · vârsta 63–69 | 2061 | 2062 | 2063 | **2064** | 2065 | 2066 | 2067 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C11 · vârsta 70–76 | 2068 | 2069 | 2070 | **2071** | 2072 | 2073 | 2074 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
+Index: BDR-19980219-v1.00r-P-028b
+Ciclul de 7 ani este un ritm secundar de maturizare, construit pe pragurile de vârstă **7**, **14**, **21**, **28** și **35**. El adaugă o lectură a etapelor prin care omul își formează structura interioară, raportarea la limite, disciplina, responsabilitatea și relația cu timpul. Acest ciclu are o corelație simbolico-astronomică importantă cu mișcarea lui Saturn. Saturn finalizează o orbită completă în jurul Soarelui în aproximativ 29,46 ani; împărțită în 4 faze majore, această durată produce segmente de aproximativ 7,36 ani. De aici poate fi înțeleasă baza saturniană a ciclului de 7 ani: fiecare segment marchează o etapă de testare, creștere, consolidare și asumare. În limbaj astrologic, Saturn este asociat cu timpul, disciplina, structura, karma, maturizarea și verificările vieții. De aceea, ciclul de 7 ani poate fi citit ca o succesiune de praguri saturniene, în care omul este invitat să observe ce a construit, ce trebuie corectat și ce formă interioară devine suficient de solidă pentru etapa următoare. Reprezentarea grafică a acestui ciclu este Septagrama, unde fiecare vârf marchează un moment de criză la jumătatea unui segment de 7 ani și include un „Rezultat pereche”.
+
+Index: BDR-19980219-v1.00r-G-007
+![Septagrama ciclurilor de 7 ani pentru Bîrsan Daniel Robert](septagrama-birsan-daniel-robert.svg)
+
+_Septagrama ciclurilor de 7 ani — ciclul activ este evidențiat cu verde._
+
+Index: BDR-19980219-v1.00r-P-028c
+Daniel, în **2026** intri în **Ciclul 5**, care acoperă intervalul 2026–2032 și vârsta de 28–35 de ani. Prima jumătate, de la 28 la 31,5 ani, îți cere să verifici ce structură ai construit până acum: ce responsabilități îți aparțin, ce reguli te susțin și unde libertatea are nevoie de disciplină ca să producă rezultate. Pragul central apare în **2029**, la 31,5 ani. Nu trebuie privit ca un verdict, ci ca un punct de verificare: ceea ce funcționează poate fi consolidat, iar ceea ce este instabil cere corectare înainte de a merge mai departe. Rezultatul pereche **5/12** leagă mișcarea, schimbarea și nevoia de libertate de răbdare, schimbarea perspectivei și asumare; pentru tine, cheia este să nu confunzi progresul cu graba. În a doua jumătate a ciclului, dintre 31,5 și 35 de ani, experiențele și alegerile făcute până la pragul din 2029 trebuie transformate într-o formă mai matură: un ritm de lucru stabil, limite clare, responsabilități asumate și proiecte care pot rezista în timp.
 
 Index: BDR-19980219-v1.00r-SUB-027
 ### 7.5. Ciclul de 9 ani
 
+Index: BDR-19980219-v1.00r-P-028d
+Ciclul de 9 ani descrie succesiunea anilor personali **1–9**. Fiecare an personal începe la ziua și luna nașterii și se încheie la următoarea aniversare, nu la 1 ianuarie.
+
+Index: BDR-19980219-v1.00r-P-028e
+Ciclul de 9 ani poate fi înțeles ca un ritm natural de creștere și transformare. Nu este o predicție rigidă și nu spune că într-un anumit an trebuie să se întâmple ceva anume, ci indică tema principală prin care omul este invitat să se cunoască mai bine.
+
+Index: BDR-19980219-v1.00r-P-028g
+- **Anul 1:** nou început, succes, centrare pe sine, leadership.
+- **Anul 2:** cauză–efect, parteneriat, comunicare, cooperare.
+- **Anul 3:** experiență, acțiune, cercetare, relaționare, interacțiune.
+- **Anul 4:** stabilitate, casă, familie, lege, ordine, corp.
+- **Anul 5:** schimbare, libertate, călătorii, ieșire din tipare.
+- **Anul 6:** iubire, căsătorie, grijă, responsabilitate relațională.
+- **Anul 7:** cunoaștere, lumină, proiecte, inspirație, introspecție.
+- **Anul 8:** răsplată, putere, bani, faimă, consecințe.
+- **Anul 9:** renaștere, analiză, reorganizare, reinventare, final, închidere.
+
 Index: BDR-19980219-v1.00r-T-007
-| Ciclu | Anul 1 — început | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Anul 8 | Anul 9 — încheiere |
+| Ciclu (vârstă) | Anul 1 — început | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Anul 8 | Anul 9 — încheiere |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| C1 · vârsta 0–8 | **1998 (3)** | 1999 (4) | 2000 (5) | 2001 (6) | 2002 (7) | 2003 (8) | 2004 (9) | 2005 (1) | **2006 (2)** |
-| C2 · vârsta 9–17 | **2007 (3)** | 2008 (4) | 2009 (5) | 2010 (6) | 2011 (7) | 2012 (8) | 2013 (9) | 2014 (1) | **2015 (2)** |
-| C3 · vârsta 18–26 | **2016 (3)** | 2017 (4) | 2018 (5) | 2019 (6) | 2020 (7) | 2021 (8) | 2022 (9) | 2023 (1) | **2024 (2)** |
-| C4 · vârsta 27–35 | **2025 (3)** | 2026 (4) | 2027 (5) | 2028 (6) | 2029 (7) | 2030 (8) | 2031 (9) | 2032 (1) | **2033 (2)** |
-| C5 · vârsta 36–44 | **2034 (3)** | 2035 (4) | 2036 (5) | 2037 (6) | 2038 (7) | 2039 (8) | 2040 (9) | 2041 (1) | **2042 (2)** |
-| C6 · vârsta 45–53 | **2043 (3)** | 2044 (4) | 2045 (5) | 2046 (6) | 2047 (7) | 2048 (8) | 2049 (9) | 2050 (1) | **2051 (2)** |
-| C7 · vârsta 54–62 | **2052 (3)** | 2053 (4) | 2054 (5) | 2055 (6) | 2056 (7) | 2057 (8) | 2058 (9) | 2059 (1) | **2060 (2)** |
-| C8 · vârsta 63–71 | **2061 (3)** | 2062 (4) | 2063 (5) | 2064 (6) | 2065 (7) | 2066 (8) | 2067 (9) | 2068 (1) | **2069 (2)** |
-| C9 · vârsta 72–80 | **2070 (3)** | 2071 (4) | 2072 (5) | 2073 (6) | 2074 (7) | 2075 (8) | 2076 (9) | 2077 (1) | **2078 (2)** |
-| C10 · vârsta 81–89 | **2079 (3)** | 2080 (4) | 2081 (5) | 2082 (6) | 2083 (7) | 2084 (8) | 2085 (9) | 2086 (1) | **2087 (2)** |
-| C11 · vârsta 90–98 | **2088 (3)** | 2089 (4) | 2090 (5) | 2091 (6) | 2092 (7) | 2093 (8) | 2094 (9) | 2095 (1) | **2096 (2)** |
-| C12 · vârsta 99–107 | **2097 (3)** | 2098 (4) | 2099 (5) | 2100 (6) | 2101 (7) | 2102 (8) | 2103 (9) | 2104 (1) | **2105 (2)** |
-| C13 · vârsta 108–108 | **2106 (3)** | — | — | — | — | — | — | — | **—** |
+| C1 (0–8) | **1998** | 1999 | 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | **2006** |
+| C2 (9–17) | **2007** | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | **2015** |
+| C3 (18–26) | **2016** | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | **2024** |
+| C4 (27–35) | **2025** | <span style="color: #b3261e; font-weight: 700;">2026</span> | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | **2033** |
+| C5 (36–44) | **2034** | 2035 | 2036 | 2037 | 2038 | 2039 | 2040 | 2041 | **2042** |
+| C6 (45–53) | **2043** | 2044 | 2045 | 2046 | 2047 | 2048 | 2049 | 2050 | **2051** |
+| C7 (54–62) | **2052** | 2053 | 2054 | 2055 | 2056 | 2057 | 2058 | 2059 | **2060** |
+| C8 (63–71) | **2061** | 2062 | 2063 | 2064 | 2065 | 2066 | 2067 | 2068 | **2069** |
+| C9 (72–80) | **2070** | 2071 | 2072 | 2073 | 2074 | 2075 | 2076 | 2077 | **2078** |
 
 Index: BDR-19980219-v1.00r-P-027
-Numărul din paranteză este anul personal. Ritmul merge de la **1**, început și inițiativă, până la **9**, bilanț și încheiere. În 2026, Daniel se află în anul personal **4**: construcție, ordine, buget și consecvență; exact genul de structură care poate echilibra matricea.
+Daniel, anul evidențiat cu roșu arată poziția ta actuală în acest ciclu. În 2026 te afli în ciclul **4**, o etapă care vorbește despre consolidare: să pui ordine în program, să îți organizezi bugetul, să lucrezi consecvent și să construiești o fundație stabilă. În interiorul acestui ciclu, te afli în **Anul 2**, care aduce parteneriate, comunicare și cooperare. Pentru tine, perioada cere să îmbini structura cu deschiderea către ceilalți: să nu construiești totul singur, ci să alegi oamenii potriviți, să asculți, să negociezi și să transformi colaborările în rezultate durabile.
 
 Index: BDR-19980219-v1.00r-SUB-027a
 ### 7.6. Ciclul de 12 ani
+
+Index: BDR-19980219-v1.00r-P-027b
+Ciclul de 12 ani poate fi privit ca un ciclu de expansiune, învățare și repoziționare în lume. Simbolic, el poate fi asociat cu mișcarea lui Jupiter, care are o revoluție de aproximativ 11,86 ani. Dacă ciclul de 9 ani este ritmul închiderilor și renașterilor, ciclul de 12 ani este ritmul creșterii conștiinței prin experiență și oportunități. Ciclul de 12 ani ajută la detectarea marilor ferestre de oportunitate. Anii multipli de 12 pot susține schimbări de carieră, mutări, lansări de proiecte, expansiune financiară, dezvoltare spirituală sau repoziționări sociale și profesionale.
 
 Index: BDR-19980219-v1.00r-T-015
 | Ciclu | Interval calendaristic | Vârste | Citire |
@@ -602,10 +615,6 @@ Index: BDR-19980219-v1.00r-T-015
 | C4 | 2034–2045 | 36–47 | Consolidarea unei forme de viață mai ample și mai stabile. |
 | C5 | 2046–2057 | 48–59 | Recalibrarea sensului și valorificarea experienței acumulate. |
 | C6 | 2058–2069 | 60–71 | Transmitere, maturitate și influență exercitată cu discernământ. |
-| C7 | 2070–2081 | 72–83 | Simplificare, selecție și apropiere de ceea ce are valoare reală. |
-| C8 | 2082–2093 | 84–95 | Integrarea experienței și păstrarea reperelor esențiale. |
-| C9 | 2094–2105 | 96–107 | Încheierea unui ciclu amplu și transmiterea moștenirii personale. |
-| C10 | 2106 | 108 | Deschiderea unui nou prag de doisprezece ani. |
 
 Index: BDR-19980219-v1.00r-P-027a
 Daniel, ciclul de 12 ani arată etapele largi în care viața îți extinde orizontul. În 2026 te afli în al treilea ciclu, cel dintre 2022 și 2033, iar accentul cade pe mișcare, adaptare și transformarea oportunităților în direcții concrete. Este o perioadă potrivită să dai o formă mai încăpătoare proiectelor, carierei, relațiilor și modului în care îți administrezi resursele.
@@ -652,7 +661,30 @@ Index: BDR-19980219-v1.00r-P-031
 Zonele **3**, **4**, **5**, **6** și **7** nu apar în diagramă pe baza cifrelor brute din cele două date de naștere. Asta nu înseamnă că relația nu are șanse sau că aceste experiențe vă sunt interzise, ci că ele nu se activează automat și trebuie construite intenționat ori susținute printr-un aport extern: contexte, oameni, activități sau instrumente potrivite. Aveți de cultivat comunicarea directă, exprimarea nevoilor și relaționarea prin cuvânt (**3**); stabilitatea concretă, casa, regulile, programul și angajamentele respectate (**4**); excursiile, noutatea, nonconformitatea, libertatea și spațiul personal sănătos (**5**); armonia, sexualitatea, tandrețea, grija și familia (**6**); profunzimea discuțiilor, reflecția, răbdarea de a înțelege și înțelepciunea extrasă din experiențe (**7**). Practic, puteți programa săptămânal o conversație sinceră (**3**), puteți stabili un calendar comun, un buget sau reguli simple ale casei (**4**), puteți introduce periodic o excursie, o activitate nouă și timp individual fără vinovăție (**5**), puteți proteja apropierea afectivă, intimitatea și ritualurile de familie (**6**), iar pentru profunzime puteți purta discuții fără grabă, puteți învăța împreună sau puteți cere perspectiva unei persoane competente când vă blocați (**7**). Astfel, ceea ce nu vine automat nu rămâne un gol, ci devine un spațiu pe care îl puteți construi împreună, cu răbdare, repetiție și sprijinul potrivit.
 
 Index: BDR-19980219-v1.00r-CAP-014
-## Capitolul 9. Concluzii
+## Capitolul 9. Aplicabilitate profesională
+
+Index: BDR-19980219-v1.00r-SUB-029
+### 9.1. Aplicabilitate profesională
+
+Index: BDR-19980219-v1.00r-P-035
+Aplicabilitatea profesională traduce data nașterii în zona muncii, carierei și colaborărilor. Ea nu impune o meserie, ci conturează direcția de lucru: energia pe care o poți folosi mai natural, ritmul profesional potrivit și obstacolul care merită recunoscut înainte să devină blocaj.
+
+Index: BDR-19980219-v1.00r-P-036
+În această metodă citim două răspunsuri. **DA** arată direcția profesională care poate fi cultivată și folosită concret. **NU** arată obstacolul, adică forma prin care energia se poate bloca dacă nu este gestionată conștient.
+
+Index: BDR-19980219-v1.00r-P-046
+> [!example] Calcul aplicabilitate profesională
+> **NU / obstacole:** 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = **39** → 39 − 22 = **17**<br>
+> **DA / aplicabilitate profesională:** luna **2** + (1 + 9 + 9 + 8) = 2 + 27 = **29** → 29 − 22 = **7**
+
+Index: BDR-19980219-v1.00r-T-016
+| Aplicabilitate profesională DA | Aplicabilitate profesională NU |
+| --- | --- |
+| ![Arcana 7 — Carul, aplicabilitate profesională](tarot-07-carul-aplicabilitate-profesionala.jpg)<br>_Arcana 7 — Carul. Direcția profesională de cultivat_ | ![Arcana 17 — Steaua, obstacole profesionale](tarot-17-steaua-obstacole-profesionale.jpg)<br>_Arcana 17 — Steaua. Obstacolul profesional de echilibrat_ |
+| **Index: BDR-19980219-v1.00r-P-047**<br>Pentru tine, Daniel, direcția profesională are nevoie de mișcare și de capacitatea de a ține mai multe forțe pe același drum. Îți pot veni bine proiectele dinamice, managementul, vânzările consultative, strategia, logistica, antreprenoriatul și coordonarea echipelor, mai ales acolo unde trebuie să transformi comunicarea în rezultat. Întrebarea practică este: „Care este direcția și ce pas concret fac acum?” | **Index: BDR-19980219-v1.00r-P-048**<br>Aici nu spunem că inspirația sau visul sunt greșite; îți arătăm ce se poate transforma în obstacol dacă rămâne doar la nivel de ideal, așteptare sau căutare a contextului perfect. Folosește viziunea ca sursă de sens, dar coboar-o în program, decizie, termen și acțiune vizibilă. |
+
+Index: BDR-19980219-v1.00r-CAP-015
+## Capitolul 10. Concluzii
 
 Index: BDR-19980219-v1.00r-P-032
 Daniel, harta scurtă arată un om care pornește prin **1**, se întâlnește cu lumea prin **2** și are de construit expresia matură a lui **3**. Mintea și creativitatea sunt puternice, iar numele adaugă responsabilitatea lui **6** și perspectiva repetată a lui **9**. Tocmai de aceea, progresul tău nu depinde de încă o idee, ci de forma simplă pe care i-o dai: termen, buget, rutină și încheiere.
@@ -663,7 +695,7 @@ Index: BDR-19980219-v1.00r-P-033
 Index: BDR-19980219-v1.00r-P-034
 Folosește această lucrare ca instrument de observație, nu ca predicție rigidă. Când te regăsești într-o formulare, caută și un exemplu concret; când nu te regăsești, verifică dacă energia este latentă, suprasolicitată sau pur și simplu aleasă diferit.
 
-Index: BDR-19980219-v1.00r-CAP-015
+Index: BDR-19980219-v1.00r-CAP-016
 ## Documentația și trasabilitatea lucrării
 
 Index: BDR-19980219-v1.00r-T-014
@@ -675,5 +707,5 @@ Index: BDR-19980219-v1.00r-T-014
 | Template | `scurt` — `Template_Lucrare_Numerologica_Scurt.md` + `.html` |
 | Raport calculator | `1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00r-calculator.json` |
 | Registru formule și data validării | `vault/Numerologie/Registru formule.md` — 18.07.2026 |
-| SVG-uri integrate | Omulețul relațiilor; Soarta și Destinul |
+| SVG-uri integrate | G-002 Matrița datei de naștere; G-002a Matrița numelui; G-004 Scara bunăstării; G-005 Soarta și Destinul; G-006 Omulețul relațiilor; G-007 Septagrama ciclurilor de 7 ani |
 | Versiune și data redactării | V1.00R — 18.07.2026 |

@@ -35,6 +35,7 @@ Nu consulta documentatia numerologica pentru a recalcula sau suprascrie rezultat
 ## Stil
 
 - Conversational: adreseaza persoana direct, explica accesibil si foloseste analogii concrete.
+- Pentru template-ul `scurt`, foloseste exclusiv formularea conversationala in tot continutul narativ. Pastreaza adresarea la persoana a doua singular si prenumele activ de sus pana jos; formuleaza inclusiv definitiile, explicatiile metodelor, introducerile tabelelor si graficelor, ciclurile si concluziile ca o discutie cu cititorul. Nu trece la persoana a treia, ton impersonal sau registru formal intre sectiuni. Datele generale, titlurile, etichetele, calculele si valorile din tabele pot ramane factuale.
 - Formal: pastreaza claritatea si amploarea, dar foloseste persoana a treia si un ton sobru.
 - Intra direct in definitie sau interpretare. Nu folosi formulari metatextuale precum `[Prenume], aici ne uitam la...`, `aici vedem...`, `in aceasta sectiune analizam...` ori `urmeaza sa vedem...`.
 - Foloseste adresarea directa numai cand transmite o interpretare personala, nu pentru a anunta tema sau a descrie actul analizei.

@@ -32,17 +32,17 @@ Pozitia in ciclu este anul personal din ciclul curent.
 ---
 ## Interpretare generala
 
-| An personal | Directie de interpretare |
-| ---: | --- |
-| 1 | nou inceput, succes, centrare pe sine, leadership |
-| 2 | cauza-efect, parteneriat, comunicare, cooperare |
-| 3 | experienta, actiune, cercetare, relationare |
-| 4 | stabilitate, casa, familie, lege, ordine |
-| 5 | schimbare, libertate, calatorii, iesire din tipare |
-| 6 | iubire, casatorie, grija, responsabilitate relationala |
-| 7 | cunoastere, lumina, proiecte, inspiratie |
-| 8 | rasplata, putere, bani, faima, consecinte |
-| 9 | renastere, analiza, reorganizare, reinventare |
+| An personal | Directie de interpretare                               |
+| ----------: | ------------------------------------------------------ |
+|           1 | nou inceput, succes, centrare pe sine, leadership      |
+|           2 | cauza-efect, parteneriat, comunicare, cooperare        |
+|           3 | experienta, actiune, cercetare, relationare            |
+|           4 | stabilitate, casa, familie, lege, ordine               |
+|           5 | schimbare, libertate, calatorii, iesire din tipare     |
+|           6 | iubire, casatorie, grija, responsabilitate relationala |
+|           7 | cunoastere, lumina, proiecte, inspiratie               |
+|           8 | rasplata, putere, bani, faima, consecinte              |
+|           9 | renastere, analiza, reorganizare, reinventare          |
 
 Pentru cititor, acest ciclu poate deveni o busola. El nu ii spune exact ce se va intampla, ci il ajuta sa inteleaga mai bine ce tip de energie este prezenta intr-o anumita etapa a vietii si cum poate colabora mai constient cu ea.
 

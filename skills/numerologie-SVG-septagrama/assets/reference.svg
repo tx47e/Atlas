@@ -6,7 +6,7 @@
       <path d="M0,0 L0,9 L10.5,4.5 z" fill="#ff9800"/>
     </marker>
     <style>
-      .bg { fill: #fff; }
+      .bg { fill: #f7efe3; }
       .star { fill: none; stroke: #3f3f3f; stroke-width: 5.6; stroke-linejoin: round; stroke-linecap: round; }
       .flow { fill: none; stroke: #ff9800; stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; marker-end: url(#arrow-orange); }
       .node { fill: #ff9800; }
@@ -18,7 +18,7 @@
       .orange { fill: #ff9800; font-weight: 800; }
       .green { fill: #00b000; font-weight: 800; text-decoration: underline; }
       .muted { fill: #666; }
-      .label-bg { fill: #fff; opacity: 0.92; }
+      .label-bg { fill: #f7efe3; opacity: 0.92; }
       .foot { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #aaa; font-weight: 800; }
     </style>
   </defs>
