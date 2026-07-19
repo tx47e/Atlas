@@ -38,11 +38,10 @@ Index: BDR-19980219-v1.00r-L-002
 3. [[#Capitolul 3. Destinul — Muntele de urcat|Destinul — Muntele de urcat]]
 4. [[#Capitolul 4. Matrița numerologică — Pătratul lui Pitagora|Matrița numerologică — Pătratul lui Pitagora]]
 5. [[#Capitolul 5. Numele — Eu și neamul|Numele — Eu și neamul]]
-6. [[#Capitolul 6. Oportunități și provocări|Oportunități și provocări]]
-7. [[#Capitolul 7. Soarta și Destinul — Drumul|Soarta și Destinul — Drumul]]
-8. [[#Capitolul 8. Lecțiile de viață|Lecțiile de viață]]
-9. [[#Capitolul 9. Relații|Relații]]
-10. [[#Capitolul 10. Concluzii|Concluzii]]
+6. [[#Capitolul 6. Pinacluri: Oportunități și provocări|Pinacluri: Oportunități și provocări]]
+7. [[#Capitolul 7. Ciclicități|Ciclicități]]
+8. [[#Capitolul 8. Relații|Relații]]
+9. [[#Capitolul 9. Concluzii|Concluzii]]
 
 Index: BDR-19980219-v1.00r-CAP-005
 ## Capitolul 1. Vibrația interioară — Cine ești tu?
@@ -444,36 +443,36 @@ Index: BDR-19980219-v1.00r-P-023d
 Dacă punem alături pătratul datei de naștere și pătratul numelui tău, observăm că numele te susține să inițiezi, să fii original și să îți asumi rolul de lider prin **1**; să colaborezi, să construiești parteneriate și să manifești empatie și emoție prin **2**; să fii creativ și să comunici prin **3**; precum și să folosești puterea mentală pentru a te transforma și pentru a-i ajuta pe alții să se transforme prin **9**, asemenea păsării Phoenix. În schimb, energiile **4**, **5** și **6** apar numai în matricea numelui. De aceea, numele îți poate crea impresia că organizarea și disciplina lui **4**, curajul și încrederea lui **5**, respectiv pragmatismul și orientarea spre familie ale lui **6** îți sunt deja naturale. Matricea datei nu le susține însă nativ, astfel că nu te poți baza pe ele ca pe niște resurse spontane și constante; ele au nevoie de efort conștient și de sprijin exterior pentru a putea fi manifestate.
 
 Index: BDR-19980219-v1.00r-CAP-010
-## Capitolul 6. Oportunități și provocări
+## Capitolul 6. Pinacluri: Oportunități și provocări
 
 Index: BDR-19980219-v1.00r-P-024b
-De-a lungul vieții, treci prin patru oportunități și patru provocări, structurate în tabelul de mai jos. Oportunitatea arată direcția pe care viața o poate deschide, iar provocarea arată lecția care îți cere maturizare ca să poți folosi acea direcție în mod constructiv.
+De-a lungul vieții, treci prin patru pinacluri, fiecare cu propria oportunitate și propria provocare, structurate în tabelul de mai jos. Oportunitatea arată direcția pe care viața o poate deschide, iar provocarea arată lecția care îți cere maturizare ca să poți folosi acea direcție în mod constructiv.
 
 Index: BDR-19980219-v1.00r-T-003
-| Etapă | Interval | Oportunitate | Provocare | Interpretare |
+| Pinaclu | Interval | Oportunitate | Provocare | Interpretare |
 | --- | --- | ---: | ---: | --- |
-| 1 | 0-33 ani | 3 | 1 | Comunicarea și creativitatea sunt oportunitatea; provocarea este să te afirmi fără grabă sau izolare. |
-| 2 | 34-42 ani | 1 | 8 | Autonomia devine oportunitate, iar provocarea 8 cere administrarea matură a banilor, puterii și responsabilității. |
-| 3 | 43-51 ani | 4 | 7 | Construcția pas cu pas este favorizată; provocarea 7 cere încredere, analiză și timp interior. |
+| 1 | 0–33 ani | 3 | 1 | Comunicarea și creativitatea sunt oportunitatea; provocarea este să te afirmi fără grabă sau izolare. |
+| 2 | 34–42 ani | 1 | 8 | Autonomia devine oportunitate, iar provocarea 8 cere administrarea matură a banilor, puterii și responsabilității. |
+| 3 | 43–51 ani | 4 | 7 | Construcția pas cu pas este favorizată; provocarea 7 cere încredere, analiză și timp interior. |
 | 4 | 52+ ani | 2 | 7 | Cooperarea și diplomația devin resurse; provocarea 7 păstrează lecția discernământului și a profunzimii. |
 
 Index: BDR-19980219-v1.00r-P-024c
-**Până la 33 de ani**, Oportunitatea **3** îți deschide comunicarea, creativitatea, imaginația și posibilitatea de a urca pe scara socială prin oameni, idei și un cerc larg de prieteni. Provocarea **1** te pune însă în situații în care trebuie să te descurci singur, să îți câștigi independența și să înveți leadershipul. Nu aștepta mereu confirmare: exprimă-te, dar asumă și primul pas.
+**Pinaclul 1: până la 33 de ani**, Oportunitatea **3** îți deschide comunicarea, creativitatea, imaginația și posibilitatea de a urca pe scara socială prin oameni, idei și un cerc larg de prieteni. Provocarea **1** te pune însă în situații în care trebuie să te descurci singur, să îți câștigi independența și să înveți leadershipul. Nu aștepta mereu confirmare: exprimă-te, dar asumă și primul pas.
 
 Index: BDR-19980219-v1.00r-P-024d
-**Între 34 și 42 de ani**, Oportunitatea **1** te cheamă către poziții de conducere, inițiativă, originalitate și întărirea capacității psihice. Provocarea **8** aduce lecții despre responsabilitate, autoritate, putere de sacrificiu, respect pentru karmă și pentru consecințele puterii. Pot apărea și contexte de luptă pentru influență; cheia este să conduci ferm, fără să transformi autoritatea în control.
+**Pinaclul 2: între 34 și 42 de ani**, Oportunitatea **1** te cheamă către poziții de conducere, inițiativă, originalitate și întărirea capacității psihice. Provocarea **8** aduce lecții despre responsabilitate, autoritate, putere de sacrificiu, respect pentru karmă și pentru consecințele puterii. Pot apărea și contexte de luptă pentru influență; cheia este să conduci ferm, fără să transformi autoritatea în control.
 
 Index: BDR-19980219-v1.00r-P-024e
-**Între 43 și 51 de ani**, Oportunitatea **4** îți cere muncă susținută, atenție la corpul fizic și capacitatea de a materializa mai ușor ceea ce ai pregătit. Provocarea **7** te învață să apreciezi singurătatea, solitudinea, studiul, analiza și legătura dintre cunoaștere și spirit. Ea poate aduce retragere, îndoială sau tendința de a te izola; maturizarea înseamnă să transformi timpul singur în claritate, nu în separare. Această oportunitate se întinde pe toată viața: cunoaște calitățile lui **4** și învinge defectele lui **7** prin disciplină, răbdare și încredere.
+**Pinaclul 3: între 43 și 51 de ani**, Oportunitatea **4** îți cere muncă susținută, atenție la corpul fizic și capacitatea de a materializa mai ușor ceea ce ai pregătit. Provocarea **7** te învață să apreciezi singurătatea, solitudinea, studiul, analiza și legătura dintre cunoaștere și spirit. Ea poate aduce retragere, îndoială sau tendința de a te izola; maturizarea înseamnă să transformi timpul singur în claritate, nu în separare. Această oportunitate se întinde pe toată viața: cunoaște calitățile lui **4** și învinge defectele lui **7** prin disciplină, răbdare și încredere.
 
 Index: BDR-19980219-v1.00r-P-024f
-**După 52 de ani**, Oportunitatea **2** te așază în contexte de cooperare, empatie, prietenie și diplomație. Viața te poate pune în situații în care să apropii oameni, să înveți pe alții empatia și să construiești relații bazate pe încredere. Provocarea **7** rămâne activă: păstrează profunzimea și discernământul, dar nu te retrage din legături atunci când ai ceva valoros de oferit.
+**Pinaclul 4: după 52 de ani**, Oportunitatea **2** te așază în contexte de cooperare, empatie, prietenie și diplomație. Viața te poate pune în situații în care să apropii oameni, să înveți pe alții empatia și să construiești relații bazate pe încredere. Provocarea **7** rămâne activă: păstrează profunzimea și discernământul, dar nu te retrage din legături atunci când ai ceva valoros de oferit.
 
 Index: BDR-19980219-v1.00r-P-024g
-Daniel, tu te afli acum în etapa **1**, în care ai Oportunitatea **3** și Provocarea **1**. Prin această combinație, ai de învățat să îți câștigi independența și, în același timp, să urci pe scara socială prin comunicare, creativitate și colaborare. Ai un potențial important de „alpinist social”: poți ajunge în cercuri tot mai largi și poți deveni un lider care se remarcă prin idei originale și prin felul în care îi apropie pe oameni. Lecția ta este să conduci fără ego, să îți păstrezi originalitatea și să transformi vizibilitatea într-o contribuție reală.
+Daniel, tu te afli acum în Pinaclul **1**, în care ai Oportunitatea **3** și Provocarea **1**. Prin această combinație, ai de învățat să îți câștigi independența și, în același timp, să urci pe scara socială prin comunicare, creativitate și colaborare. Ai un potențial important de „alpinist social”: poți ajunge în cercuri tot mai largi și poți deveni un lider care se remarcă prin idei originale și prin felul în care îi apropie pe oameni. Lecția ta este să conduci fără ego, să îți păstrezi originalitatea și să transformi vizibilitatea într-o contribuție reală.
 
 Index: BDR-19980219-v1.00r-CAP-011
-## Capitolul 7. Soarta și Destinul — Drumul
+## Capitolul 7. Ciclicități
 
 Index: BDR-19980219-v1.00r-SUB-024
 ### 7.1. Soarta și Destinul
@@ -504,39 +503,54 @@ Index: BDR-19980219-v1.00r-P-025d
 Index: BDR-19980219-v1.00r-SUB-025
 ### 7.2. Anii importanți
 
-Index: BDR-19980219-v1.00r-T-004
-| Ani interiori | Reper activ | Interpretare |
-| ---: | --- | --- |
-| 2007 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2016 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2025 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2034 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2043 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2052 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2061 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2070 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2079 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2088 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2097 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
-| 2106 | Da | Schimbarea pornește dinăuntru: valori, dorințe și decizii cer reașezare. |
+Index: BDR-19980219-v1.00r-P-026a
+**Anii importanți interiori** marchează momente în care schimbarea pornește mai ales din interiorul persoanei: decizii, maturizări, conștientizări, schimbări de perspectivă, nevoi sufletești sau transformări personale care apoi pot modifica viața din afară.
 
-Index: BDR-19980219-v1.00r-T-005
-| Ani exteriori | Reper activ | Interpretare |
-| ---: | --- | --- |
-| 2025 | Da | Contextul exterior aduce o solicitare, o oportunitate sau o responsabilitate vizibilă. |
-| 2034 | Da | Contextul exterior aduce o solicitare, o oportunitate sau o responsabilitate vizibilă. |
-| 2043 | Da | Contextul exterior aduce o solicitare, o oportunitate sau o responsabilitate vizibilă. |
-| 2052 | Da | Contextul exterior aduce o solicitare, o oportunitate sau o responsabilitate vizibilă. |
-| 2061 | Da | Contextul exterior aduce o solicitare, o oportunitate sau o responsabilitate vizibilă. |
-| 2070 | Da | Contextul exterior aduce o solicitare, o oportunitate sau o responsabilitate vizibilă. |
-| 2079 | Da | Contextul exterior aduce o solicitare, o oportunitate sau o responsabilitate vizibilă. |
-| 2097 | Da | Contextul exterior aduce o solicitare, o oportunitate sau o responsabilitate vizibilă. |
+Index: BDR-19980219-v1.00r-P-026b
+**Șirul anilor importanți interiori:** 2007 → 2016 → 2025 → 2034 → 2043 → 2052 → 2061 → 2070 → 2079 → 2088 → 2097 → 2106.
 
-Index: BDR-19980219-v1.00r-P-026
-Când același an apare în ambele liste, ceea ce se schimbă în tine cere și un răspuns concret în exterior. Pentru Daniel, această suprapunere începe în 2025 și revine periodic.
+Index: BDR-19980219-v1.00r-P-026c
+**Anii importanți exteriori** marchează momente în care schimbarea vine mai ales din afara persoanei: contexte, oameni, evenimente, oportunități, pierderi, mutări, presiuni sau situații care cer reacție și adaptare.
+
+Index: BDR-19980219-v1.00r-P-026d
+**Șirul anilor importanți exteriori:** 2025 → 2034 → 2043 → 2052 → 2061 → 2070 → 2079 → 2097.
+
+Index: BDR-19980219-v1.00r-P-026e
+Daniel, când același an apare în ambele șiruri, schimbarea pe care o simți în interior cere și un răspuns concret în viața din afară. Prima astfel de suprapunere este în 2025, iar apoi ritmul revine periodic. În acești ani, fii atent atât la ceea ce se maturizează în tine, cât și la situațiile care îți cer să alegi, să reacționezi sau să schimbi ceva concret.
+
+Index: BDR-19980219-v1.00r-SUB-025a
+### 7.3. Lecțiile de viață
+
+Index: BDR-19980219-v1.00r-P-028
+Daniel, șirul lecțiilor **7–5–9–2–4** se repetă de-a lungul vieții. Fiecare lecție învățată devine o piatră de temelie pentru următoarea, iar fiecare revenire a șirului îți întărește caracterul și îți oferă ocazia să aplici mai matur ceea ce ai înțeles deja.
+
+- **7** — profunzimea discuțiilor, studiul, răbdarea de a observa și înțelepciunea extrasă din experiențe;
+- **5** — libertatea, excursiile, schimbarea, nonconformitatea și curajul de a ieși din tiparele care te limitează;
+- **9** — sensul, transformarea, încheierea unei etape și orientarea către idealuri mai înalte;
+- **2** — relația, cooperarea, empatia, ascultarea și capacitatea de a-i face loc celuilalt;
+- **4** — stabilitatea concretă, casa, regulile, organizarea și construirea unei forme durabile.
+
+Index: BDR-19980219-v1.00r-T-008
+| Vârstă | Lecția 1 — <strong style="font-size: 1.15em; font-weight: 700;">7</strong> | Lecția 2 — <strong style="font-size: 1.15em; font-weight: 700;">5</strong> | Lecția 3 — <strong style="font-size: 1.15em; font-weight: 700;">9</strong> | Lecția 4 — <strong style="font-size: 1.15em; font-weight: 700;">2</strong> | Lecția 5 — <strong style="font-size: 1.15em; font-weight: 700;">4</strong> |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 1–5 | 1998 | 1999 | 2000 | 2001 | 2002 |
+| 6–10 | 2003 | 2004 | 2005 | 2006 | 2007 |
+| 11–15 | 2008 | 2009 | 2010 | 2011 | 2012 |
+| 16–20 | 2013 | 2014 | 2015 | 2016 | 2017 |
+| 21–25 | 2018 | 2019 | 2020 | 2021 | 2022 |
+| 26–30 | 2023 | 2024 | 2025 | <span style="color: #b3261e;">2026</span> | 2027 |
+| 31–35 | 2028 | 2029 | 2030 | 2031 | 2032 |
+| 36–40 | 2033 | 2034 | 2035 | 2036 | 2037 |
+| 41–45 | 2038 | 2039 | 2040 | 2041 | 2042 |
+| 46–50 | 2043 | 2044 | 2045 | 2046 | 2047 |
+| 51–55 | 2048 | 2049 | 2050 | 2051 | 2052 |
+| 56–60 | 2053 | 2054 | 2055 | 2056 | 2057 |
+
+Index: BDR-19980219-v1.00r-P-028a
+În **2026**, Daniel, lecția ta este **2**: relația, cooperarea, răbdarea, ascultarea și finețea cu care îi faci loc celuilalt. Nu este un an în care să forțezi totul singur; este un an în care rezultatele cresc atunci când ceri feedback, formulezi întrebări clare și construiești acorduri reale. Lecția **2** se întâlnește cu anul personal **4**, așa că sensibilitatea și cooperarea au nevoie de formă concretă: program, responsabilități împărțite, promisiuni respectate și pași mici repetați. Când unești aceste două energii, relațiile devin mai stabile, iar ceea ce construiești împreună poate rezista în timp.
 
 Index: BDR-19980219-v1.00r-SUB-026
-### 7.3. Ciclul de 7 ani
+### 7.4. Ciclul de 7 ani
 
 Index: BDR-19980219-v1.00r-T-006
 | Ciclu | Anul 1 | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Interpretare |
@@ -552,14 +566,9 @@ Index: BDR-19980219-v1.00r-T-006
 | C9 · vârsta 56–62 | 2054 | 2055 | 2056 | **2057** | 2058 | 2059 | 2060 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
 | C10 · vârsta 63–69 | 2061 | 2062 | 2063 | **2064** | 2065 | 2066 | 2067 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
 | C11 · vârsta 70–76 | 2068 | 2069 | 2070 | **2071** | 2072 | 2073 | 2074 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C12 · vârsta 77–83 | 2075 | 2076 | 2077 | **2078** | 2079 | 2080 | 2081 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C13 · vârsta 84–90 | 2082 | 2083 | 2084 | **2085** | 2086 | 2087 | 2088 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C14 · vârsta 91–97 | 2089 | 2090 | 2091 | **2092** | 2093 | 2094 | 2095 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C15 · vârsta 98–104 | 2096 | 2097 | 2098 | **2099** | 2100 | 2101 | 2102 | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
-| C16 · vârsta 105–108 | 2103 | 2104 | 2105 | **2106** | — | — | — | Prag de șapte ani: observă ce se maturizează și ce structură trebuie consolidată. |
 
 Index: BDR-19980219-v1.00r-SUB-027
-### 7.4. Ciclul de 9 ani
+### 7.5. Ciclul de 9 ani
 
 Index: BDR-19980219-v1.00r-T-007
 | Ciclu | Anul 1 — început | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Anul 8 | Anul 9 — încheiere |
@@ -581,40 +590,28 @@ Index: BDR-19980219-v1.00r-T-007
 Index: BDR-19980219-v1.00r-P-027
 Numărul din paranteză este anul personal. Ritmul merge de la **1**, început și inițiativă, până la **9**, bilanț și încheiere. În 2026, Daniel se află în anul personal **4**: construcție, ordine, buget și consecvență; exact genul de structură care poate echilibra matricea.
 
-Index: BDR-19980219-v1.00r-CAP-012
-## Capitolul 8. Lecțiile de viață
+Index: BDR-19980219-v1.00r-SUB-027a
+### 7.6. Ciclul de 12 ani
 
-Index: BDR-19980219-v1.00r-T-008
-| An / interval | Lecția 1 — 7 | Lecția 2 — 5 | Lecția 3 — 9 | Lecția 4 — 2 | Lecția 5 — 4 |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| 1–5 | 1 (1998) | 2 (1999) | 3 (2000) | 4 (2001) | 5 (2002) |
-| 6–10 | 6 (2003) | 7 (2004) | 8 (2005) | 9 (2006) | 10 (2007) |
-| 11–15 | 11 (2008) | 12 (2009) | 13 (2010) | 14 (2011) | 15 (2012) |
-| 16–20 | 16 (2013) | 17 (2014) | 18 (2015) | 19 (2016) | 20 (2017) |
-| 21–25 | 21 (2018) | 22 (2019) | 23 (2020) | 24 (2021) | 25 (2022) |
-| 26–30 | 26 (2023) | 27 (2024) | 28 (2025) | 29 (2026) | 30 (2027) |
-| 31–35 | 31 (2028) | 32 (2029) | 33 (2030) | 34 (2031) | 35 (2032) |
-| 36–40 | 36 (2033) | 37 (2034) | 38 (2035) | 39 (2036) | 40 (2037) |
-| 41–45 | 41 (2038) | 42 (2039) | 43 (2040) | 44 (2041) | 45 (2042) |
-| 46–50 | 46 (2043) | 47 (2044) | 48 (2045) | 49 (2046) | 50 (2047) |
-| 51–55 | 51 (2048) | 52 (2049) | 53 (2050) | 54 (2051) | 55 (2052) |
-| 56–60 | 56 (2053) | 57 (2054) | 58 (2055) | 59 (2056) | 60 (2057) |
-| 61–65 | 61 (2058) | 62 (2059) | 63 (2060) | 64 (2061) | 65 (2062) |
-| 66–70 | 66 (2063) | 67 (2064) | 68 (2065) | 69 (2066) | 70 (2067) |
-| 71–75 | 71 (2068) | 72 (2069) | 73 (2070) | 74 (2071) | 75 (2072) |
-| 76–80 | 76 (2073) | 77 (2074) | 78 (2075) | 79 (2076) | 80 (2077) |
-| 81–85 | 81 (2078) | 82 (2079) | 83 (2080) | 84 (2081) | 85 (2082) |
-| 86–90 | 86 (2083) | 87 (2084) | 88 (2085) | 89 (2086) | 90 (2087) |
-| 91–95 | 91 (2088) | 92 (2089) | 93 (2090) | 94 (2091) | 95 (2092) |
-| 96–100 | 96 (2093) | 97 (2094) | 98 (2095) | 99 (2096) | 100 (2097) |
-| 101–105 | 101 (2098) | 102 (2099) | 103 (2100) | 104 (2101) | 105 (2102) |
-| 106–108 | 106 (2103) | 107 (2104) | 108 (2105) | — | — |
+Index: BDR-19980219-v1.00r-T-015
+| Ciclu | Interval calendaristic | Vârste | Citire |
+| --- | --- | ---: | --- |
+| C1 | 1998–2009 | 0–11 | Formarea primelor repere și lărgirea treptată a lumii personale. |
+| C2 | 2010–2021 | 12–23 | Explorare, desprindere și definirea direcției proprii. |
+| **C3 — activ** | **2022–2033** | **24–35** | Extindere prin alegeri, experiențe și responsabilități asumate. |
+| C4 | 2034–2045 | 36–47 | Consolidarea unei forme de viață mai ample și mai stabile. |
+| C5 | 2046–2057 | 48–59 | Recalibrarea sensului și valorificarea experienței acumulate. |
+| C6 | 2058–2069 | 60–71 | Transmitere, maturitate și influență exercitată cu discernământ. |
+| C7 | 2070–2081 | 72–83 | Simplificare, selecție și apropiere de ceea ce are valoare reală. |
+| C8 | 2082–2093 | 84–95 | Integrarea experienței și păstrarea reperelor esențiale. |
+| C9 | 2094–2105 | 96–107 | Încheierea unui ciclu amplu și transmiterea moștenirii personale. |
+| C10 | 2106 | 108 | Deschiderea unui nou prag de doisprezece ani. |
 
-Index: BDR-19980219-v1.00r-P-028
-Șirul **7–5–9–2–4** revine ciclic. Profunzimea discuțiilor și înțelepciunea (**7**) sunt urmate de libertate, excursii și nonconformitate (**5**), apoi de sens și încheiere (**9**), relație și cooperare (**2**), iar la final de stabilitate concretă, casă și reguli (**4**). Nu sunt evenimente obligatorii, ci teme pe care le poți recunoaște și lucra conștient.
+Index: BDR-19980219-v1.00r-P-027a
+Daniel, ciclul de 12 ani arată etapele largi în care viața îți extinde orizontul. În 2026 te afli în al treilea ciclu, cel dintre 2022 și 2033, iar accentul cade pe mișcare, adaptare și transformarea oportunităților în direcții concrete. Este o perioadă potrivită să dai o formă mai încăpătoare proiectelor, carierei, relațiilor și modului în care îți administrezi resursele.
 
 Index: BDR-19980219-v1.00r-CAP-013
-## Capitolul 9. Relații
+## Capitolul 8. Relații
 
 Index: BDR-19980219-v1.00r-L-003
 - Nume: Roman Andreea Maria
@@ -624,7 +621,7 @@ Index: BDR-19980219-v1.00r-L-003
 - Tipul relației: parteneră
 
 Index: BDR-19980219-v1.00r-SUB-028
-### 9.1. Omulețul relațiilor
+### 8.1. Omulețul relațiilor
 
 Index: BDR-19980219-v1.00r-P-029
 Daniel, această hartă nu dă un verdict despre relație. Ea arată ce aduce fiecare, ce se întâlnește firesc și ce trebuie construit împreună.
@@ -655,7 +652,7 @@ Index: BDR-19980219-v1.00r-P-031
 Zonele **3**, **4**, **5**, **6** și **7** nu apar în diagramă pe baza cifrelor brute din cele două date de naștere. Asta nu înseamnă că relația nu are șanse sau că aceste experiențe vă sunt interzise, ci că ele nu se activează automat și trebuie construite intenționat ori susținute printr-un aport extern: contexte, oameni, activități sau instrumente potrivite. Aveți de cultivat comunicarea directă, exprimarea nevoilor și relaționarea prin cuvânt (**3**); stabilitatea concretă, casa, regulile, programul și angajamentele respectate (**4**); excursiile, noutatea, nonconformitatea, libertatea și spațiul personal sănătos (**5**); armonia, sexualitatea, tandrețea, grija și familia (**6**); profunzimea discuțiilor, reflecția, răbdarea de a înțelege și înțelepciunea extrasă din experiențe (**7**). Practic, puteți programa săptămânal o conversație sinceră (**3**), puteți stabili un calendar comun, un buget sau reguli simple ale casei (**4**), puteți introduce periodic o excursie, o activitate nouă și timp individual fără vinovăție (**5**), puteți proteja apropierea afectivă, intimitatea și ritualurile de familie (**6**), iar pentru profunzime puteți purta discuții fără grabă, puteți învăța împreună sau puteți cere perspectiva unei persoane competente când vă blocați (**7**). Astfel, ceea ce nu vine automat nu rămâne un gol, ci devine un spațiu pe care îl puteți construi împreună, cu răbdare, repetiție și sprijinul potrivit.
 
 Index: BDR-19980219-v1.00r-CAP-014
-## Capitolul 10. Concluzii
+## Capitolul 9. Concluzii
 
 Index: BDR-19980219-v1.00r-P-032
 Daniel, harta scurtă arată un om care pornește prin **1**, se întâlnește cu lumea prin **2** și are de construit expresia matură a lui **3**. Mintea și creativitatea sunt puternice, iar numele adaugă responsabilitatea lui **6** și perspectiva repetată a lui **9**. Tocmai de aceea, progresul tău nu depinde de încă o idee, ci de forma simplă pe care i-o dai: termen, buget, rutină și încheiere.

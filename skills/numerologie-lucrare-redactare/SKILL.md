@@ -52,11 +52,11 @@ python scripts/calculator_numerologic_examen.py `
 ### Contractul template-ului `scurt`
 
 - Dupa `Cuprins`, incepe direct cu `Capitolul 1. Vibratia interioara`. Nu include capitolul `Cuvant inainte`, text introductiv echivalent, index asociat sau trimitere in Cuprins.
-- Pastreaza ordinea capitolelor din template: Vibratia interioara, Vibratia exterioara, Destinul, Matrita numerologica, Numele, Oportunitati si provocari, Soarta si Destinul, Lectiile de viata, Relatii conditionale si Concluzii.
+- Pastreaza ordinea capitolelor din template: Vibratia interioara, Vibratia exterioara, Destinul, Matrita numerologica, Numele, Pinacluri: Oportunitati si provocari, Ciclicitati, Relatii conditionale si Concluzii. In `Capitolul 7. Ciclicitati`, pastreaza strict subordinea: Soarta si Destinul, Anii importanti, Lectiile de viata, Ciclul de 7 ani, Ciclul de 9 ani, Ciclul de 12 ani.
 - In Matrita numerologica, reda patratul 3x3 in ordinea `1-4-7 / 2-5-8 / 3-6-9`, cu repetitii, reper optim, culori si simboluri dupa modelul `BDR-19980219-v1.07r-G-001`.
-- Reda ca tabele editabile cele doua coduri ale numelui, anii interiori, anii exteriori, ciclul de 7 ani, ciclul de 9 ani si lectiile de viata; nu folosi capturi raster pentru aceste tabele.
+- Reda ca tabele editabile cele doua coduri ale numelui, lectiile de viata si ciclurile de 7, 9 si 12 ani; nu folosi capturi raster pentru aceste tabele. Anii importanti interiori si exteriori se prezinta separat: definitia fiecarui tip intr-un paragraf indexat, urmata de sirul complet al anilor calculati intr-un al doilea paragraf indexat, fara tabel.
 - Pentru orice arcana numita, selecteaza imaginea corespunzatoare din `vault/tarot/imagini`, foloseste embed Obsidian in Markdown si data URI in HTML autonom.
-- Daca exista date relationale, insereaza capitolul `Relatii` intre `Lectiile de viata` si `Concluzii`, genereaza Omuletul relatiilor prin The Cartographer si interpreteaza contributiile, elementele, rezultatul comun, tema de rezolvat si zonele absente. Daca nu exista relatie, elimina integral capitolul si intrarea din Cuprins si pastreaza Concluziile drept Capitolul 9.
+- Daca exista date relationale, insereaza `Capitolul 8. Relatii` intre `Ciclicitati` si `Concluzii`, genereaza Omuletul relatiilor prin The Cartographer si interpreteaza contributiile, elementele, rezultatul comun, tema de rezolvat si zonele absente. Daca nu exista relatie, elimina integral capitolul si intrarea din Cuprins si renumeroteaza Concluziile drept Capitolul 8.
 
 ## Reguli de continut
 
@@ -109,6 +109,7 @@ python scripts/calculator_numerologic_examen.py `
 - Cand interpretezi cifrele sau zonele absente din Omuletul relatiilor, grupeaza indicatiile concrete si scrie cifra corespunzatoare in paranteza dupa fiecare grupa. Explica faptul ca aceste teme se construiesc intentionat in cuplu sau pot primi un aport extern prin contexte, oameni, activitati ori instrumente potrivite; adauga exemple aplicabile pentru fiecare cifra.
 - Pastreaza relatia optionala: daca datele persoanei nu precizeaza nicio relatie cu o alta persoana, omite integral capitolul `Relatii`, inclusiv intrarea lui din cuprins; nu afisa sectiuni sau campuri fictive.
 - Redacteaza interpretarile temporale Soarta-Destin conversational, ca un dialog direct cu persoana. Adreseaza-te pe prenume, explica pe intelesul ei de ce se foloseste pasul de 10 sau 12 ani, ce spune zona de confort si cum se citesc varstele-cheie. Pastreaza valorile tehnice, dar evita formularile distante de tipul `Pentru [nume] folosim...`.
+- In template-ul `scurt`, numeste Capitolul 6 `Pinacluri: Oportunitati si provocari`. Prima coloana a tabelului se numeste `Pinaclu`, iar randurile sunt `Pinaclul 1` pana la `Pinaclul 4`, nu etape. Dupa tabel, fiecare descriere incepe explicit cu `Pinaclul N: intervalul de varsta`, folosind intervalul exact returnat de calculator; nu modifica manual limitele si nu crea suprapuneri intre pinacluri.
 - Pentru tabelul HTML al Ciclului de 7 ani, micsoreaza numai fontul si spatierea antetului, pastreaza fontul corpului neschimbat si permite tabelului sa se adapteze la latimea documentului, fara bara orizontala pe afisarea desktop obisnuita.
 
 ## Reguli pentru calcule

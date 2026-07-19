@@ -32,7 +32,7 @@ Index: {{cod_lucrare}}-L-001
 - Versiune: {{versiune}}
 
 > [!info] Relație opțională
-> Dacă sunt furnizate date relaționale, adaugă aici numele complet, prenumele activ, data nașterii, genul și tipul relației. Dacă lipsesc, elimină integral acest callout, Capitolul 9 și intrarea lui din Cuprins; Concluziile devin Capitolul 9.
+> Dacă sunt furnizate date relaționale, adaugă aici numele complet, prenumele activ, data nașterii, genul și tipul relației. Dacă lipsesc, elimină integral acest callout, Capitolul 8 și intrarea lui din Cuprins; Concluziile devin Capitolul 8.
 
 Index: {{cod_lucrare}}-CAP-003
 ## Cuprins
@@ -43,11 +43,10 @@ Index: {{cod_lucrare}}-L-002
 3. [[#Capitolul 3. Destinul — Muntele de urcat|Destinul — Muntele de urcat]]
 4. [[#Capitolul 4. Matrița numerologică — Pătratul lui Pitagora|Matrița numerologică — Pătratul lui Pitagora]]
 5. [[#Capitolul 5. Numele — Eu și neamul|Numele — Eu și neamul]]
-6. [[#Capitolul 6. Oportunități și provocări|Oportunități și provocări]]
-7. [[#Capitolul 7. Soarta și Destinul — Drumul|Soarta și Destinul — Drumul]]
-8. [[#Capitolul 8. Lecțiile de viață|Lecțiile de viață]]
-9. [[#Capitolul 9. Relații|Relații]] — numai dacă există date relaționale
-10. [[#Capitolul 10. Concluzii|Concluzii]]
+6. [[#Capitolul 6. Pinacluri: Oportunități și provocări|Pinacluri: Oportunități și provocări]]
+7. [[#Capitolul 7. Ciclicități|Ciclicități]]
+8. [[#Capitolul 8. Relații|Relații]] — numai dacă există date relaționale
+9. [[#Capitolul 9. Concluzii|Concluzii]]
 
 Index: {{cod_lucrare}}-CAP-005
 ## Capitolul 1. Vibrația interioară — Cine ești tu?
@@ -316,18 +315,33 @@ Index: {{cod_lucrare}}-SUB-023
 {{calcul_si_interpretare_numar_exprimare}}
 
 Index: {{cod_lucrare}}-CAP-010
-## Capitolul 6. Oportunități și provocări
+## Capitolul 6. Pinacluri: Oportunități și provocări
+
+Index: {{cod_lucrare}}-P-024b
+De-a lungul vieții, treci prin patru pinacluri, fiecare cu propria oportunitate și propria provocare. Oportunitatea arată direcția pe care viața o poate deschide, iar provocarea arată lecția care îți cere maturizare pentru a folosi constructiv acea direcție.
 
 Index: {{cod_lucrare}}-T-003
-| Etapă | Interval | Oportunitate | Provocare | Interpretare |
+| Pinaclu | Interval | Oportunitate | Provocare | Interpretare |
 | --- | --- | ---: | ---: | --- |
-| {{etapa_1}} | {{interval_1}} | {{oportunitate_1}} | {{provocare_1}} | {{interpretare_etapa_1}} |
-| {{etapa_2}} | {{interval_2}} | {{oportunitate_2}} | {{provocare_2}} | {{interpretare_etapa_2}} |
-| {{etapa_3}} | {{interval_3}} | {{oportunitate_3}} | {{provocare_3}} | {{interpretare_etapa_3}} |
-| {{etapa_4}} | {{interval_4}} | {{oportunitate_4}} | {{provocare_4}} | {{interpretare_etapa_4}} |
+| 1 | {{interval_1}} | {{oportunitate_1}} | {{provocare_1}} | {{interpretare_tabel_pinaclu_1}} |
+| 2 | {{interval_2}} | {{oportunitate_2}} | {{provocare_2}} | {{interpretare_tabel_pinaclu_2}} |
+| 3 | {{interval_3}} | {{oportunitate_3}} | {{provocare_3}} | {{interpretare_tabel_pinaclu_3}} |
+| 4 | {{interval_4}} | {{oportunitate_4}} | {{provocare_4}} | {{interpretare_tabel_pinaclu_4}} |
+
+Index: {{cod_lucrare}}-P-024c
+**Pinaclul 1: {{formulare_interval_pinaclu_1}}**, {{interpretare_pinaclu_1}}
+
+Index: {{cod_lucrare}}-P-024d
+**Pinaclul 2: {{formulare_interval_pinaclu_2}}**, {{interpretare_pinaclu_2}}
+
+Index: {{cod_lucrare}}-P-024e
+**Pinaclul 3: {{formulare_interval_pinaclu_3}}**, {{interpretare_pinaclu_3}}
+
+Index: {{cod_lucrare}}-P-024f
+**Pinaclul 4: {{formulare_interval_pinaclu_4}}**, {{interpretare_pinaclu_4}}
 
 Index: {{cod_lucrare}}-CAP-011
-## Capitolul 7. Soarta și Destinul — Drumul
+## Capitolul 7. Ciclicități
 
 Index: {{cod_lucrare}}-SUB-024
 ### 7.1. Soarta și Destinul
@@ -342,22 +356,31 @@ Index: {{cod_lucrare}}-C-006
 Index: {{cod_lucrare}}-SUB-025
 ### 7.2. Anii importanți
 
-Index: {{cod_lucrare}}-T-004
-| Ani interiori | Reper activ | Interpretare |
-| ---: | --- | --- |
-| {{an_interior_1}} | {{da_nu}} | {{interpretare_an_interior_1}} |
-| {{an_interior_2}} | {{da_nu}} | {{interpretare_an_interior_2}} |
-| {{adauga_randuri_din_calculator}} |  |  |
+Index: {{cod_lucrare}}-P-026a
+**Anii importanți interiori** marchează momente în care schimbarea pornește mai ales din interiorul persoanei: decizii, maturizări, conștientizări, schimbări de perspectivă, nevoi sufletești sau transformări personale care apoi pot modifica viața din afară.
 
-Index: {{cod_lucrare}}-T-005
-| Ani exteriori | Reper activ | Interpretare |
-| ---: | --- | --- |
-| {{an_exterior_1}} | {{da_nu}} | {{interpretare_an_exterior_1}} |
-| {{an_exterior_2}} | {{da_nu}} | {{interpretare_an_exterior_2}} |
-| {{adauga_randuri_din_calculator}} |  |  |
+Index: {{cod_lucrare}}-P-026b
+**Șirul anilor importanți interiori:** {{sir_ani_importanti_interiori}}.
+
+Index: {{cod_lucrare}}-P-026c
+**Anii importanți exteriori** marchează momente în care schimbarea vine mai ales din afara persoanei: contexte, oameni, evenimente, oportunități, pierderi, mutări, presiuni sau situații care cer reacție și adaptare.
+
+Index: {{cod_lucrare}}-P-026d
+**Șirul anilor importanți exteriori:** {{sir_ani_importanti_exteriori}}.
+
+Index: {{cod_lucrare}}-SUB-025a
+### 7.3. Lecțiile de viață
+
+Index: {{cod_lucrare}}-T-008
+| Vârstă | Lecția 1 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_1}}</strong> | Lecția 2 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_2}}</strong> | Lecția 3 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_3}}</strong> | Lecția 4 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_4}}</strong> | Lecția 5 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_5}}</strong> |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| {{rand_lectii_1}} | {{an_l1}} | {{an_l2}} | {{an_l3}} | {{an_l4}} | {{an_l5}} |
+| {{adauga_randuri_pentru_interval}} |  |  |  |  |  |
+
+{{interpretare_lectii_de_viata}}
 
 Index: {{cod_lucrare}}-SUB-026
-### 7.3. Ciclul de 7 ani
+### 7.4. Ciclul de 7 ani
 
 Index: {{cod_lucrare}}-T-006
 | Ciclu | Anul 1 | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Interpretare |
@@ -366,7 +389,7 @@ Index: {{cod_lucrare}}-T-006
 | {{adauga_randuri_pentru_interval}} |  |  |  |  |  |  |  |  |
 
 Index: {{cod_lucrare}}-SUB-027
-### 7.4. Ciclul de 9 ani
+### 7.5. Ciclul de 9 ani
 
 Index: {{cod_lucrare}}-T-007
 | Ciclu | Anul 1 — început | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Anul 8 | Anul 9 — încheiere |
@@ -376,22 +399,22 @@ Index: {{cod_lucrare}}-T-007
 
 {{interpretare_ciclu_9_si_an_personal}}
 
-Index: {{cod_lucrare}}-CAP-012
-## Capitolul 8. Lecțiile de viață
+Index: {{cod_lucrare}}-SUB-027a
+### 7.6. Ciclul de 12 ani
 
-Index: {{cod_lucrare}}-T-008
-| An / interval | Lecția 1 — {{lectia_1}} | Lecția 2 — {{lectia_2}} | Lecția 3 — {{lectia_3}} | Lecția 4 — {{lectia_4}} | Lecția 5 — {{lectia_5}} |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| {{rand_lectii_1}} | {{an_l1}} | {{an_l2}} | {{an_l3}} | {{an_l4}} | {{an_l5}} |
-| {{adauga_randuri_pentru_interval}} |  |  |  |  |  |
+Index: {{cod_lucrare}}-T-015
+| Ciclu | Interval calendaristic | Vârste | Citire |
+| --- | --- | ---: | --- |
+| {{ciclu_12_1}} | {{interval_calendaristic_12_1}} | {{varste_12_1}} | {{interpretare_ciclu_12_1}} |
+| {{adauga_randuri_ciclu_12_pentru_interval}} |  |  |  |
 
-{{interpretare_lectii_de_viata}}
+{{interpretare_ciclu_12}}
 
 > [!info] Capitol condițional
-> Păstrează Capitolul 9 numai dacă există datele celei de-a doua persoane. Altfel elimină-l împreună cu intrarea din Cuprins și renumerotează Concluziile ca Capitolul 9.
+> Păstrează Capitolul 8 numai dacă există datele celei de-a doua persoane. Altfel elimină-l împreună cu intrarea din Cuprins și renumerotează Concluziile ca Capitolul 8.
 
 Index: {{cod_lucrare}}-CAP-013
-## Capitolul 9. Relații
+## Capitolul 8. Relații
 
 Index: {{cod_lucrare}}-L-003
 - Nume: {{nume_persoana_relationala}}
@@ -399,7 +422,7 @@ Index: {{cod_lucrare}}-L-003
 - Tipul relației: {{tip_relatie}}
 
 Index: {{cod_lucrare}}-SUB-028
-### 9.1. Omulețul relațiilor
+### 8.1. Omulețul relațiilor
 
 {{introducere_relatie_ca_harta_nu_verdict}}
 
@@ -424,12 +447,12 @@ Index: {{cod_lucrare}}-C-007
 {{interpretare_zone_absente_cu_cifra_in_paranteza_constructie_intentionata_aport_extern_si_exemple}}
 
 Index: {{cod_lucrare}}-CAP-014
-## Capitolul 10. Concluzii
+## Capitolul 9. Concluzii
 
 {{sinteza_finala_personalizata_fara_repetitii_sau_predictii_rigide}}
 
 > [!info] Renumerotare fără relație
-> Dacă nu există date relaționale, titlul devine `Capitolul 9. Concluzii`, iar ținta din Cuprins se actualizează identic.
+> Dacă nu există date relaționale, titlul devine `Capitolul 8. Concluzii`, iar ținta din Cuprins se actualizează identic.
 
 Index: {{cod_lucrare}}-CAP-015
 ## Documentația și trasabilitatea lucrării

@@ -16,10 +16,14 @@ depinde de: Datele de intrare
 ---
 ## Descriere
 
-Anii importanti interiori si exteriori marcheaza doua tipuri de praguri:
+Anii importanti interiori marcheaza momente in care schimbarea porneste mai
+ales din interiorul persoanei: decizii, maturizari, constientizari, schimbari de
+perspectiva, nevoi sufletesti sau transformari personale care apoi pot modifica
+viata din afara.
 
-- ani importanti interiori, in care schimbarea porneste mai ales din interior;
-- ani importanti exteriori, in care schimbarea vine mai ales prin contexte, oameni, evenimente sau roluri vizibile.
+Anii importanti exteriori marcheaza momente in care schimbarea vine mai ales
+din afara persoanei: contexte, oameni, evenimente, oportunitati, pierderi,
+mutari, presiuni sau situatii care cer reactie si adaptare.
 
 Aceste calcule nu promit evenimente obligatorii. Ele arata ani in care poate creste presiunea de maturizare, clarificare, reactie sau adaptare.
 
