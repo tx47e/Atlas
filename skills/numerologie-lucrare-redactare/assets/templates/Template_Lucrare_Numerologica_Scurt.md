@@ -38,15 +38,16 @@ Index: {{cod_lucrare}}-CAP-003
 ## Cuprins
 
 Index: {{cod_lucrare}}-L-002
-1. [[#Capitolul 1. Vibrația interioară — Cine ești tu?|Vibrația interioară — Cine ești tu?]]
-2. [[#Capitolul 2. Vibrația exterioară — Rolul social|Vibrația exterioară — Rolul social]]
-3. [[#Capitolul 3. Destinul — Muntele de urcat|Destinul — Muntele de urcat]]
-4. [[#Capitolul 4. Matrița numerologică — Pătratul lui Pitagora|Matrița numerologică — Pătratul lui Pitagora]]
-5. [[#Capitolul 5. Numele — Eu și neamul|Numele — Eu și neamul]]
-6. [[#Capitolul 6. Pinacluri: Oportunități și provocări|Pinacluri: Oportunități și provocări]]
-7. [[#Capitolul 7. Ciclicități|Ciclicități]]
-8. [[#Capitolul 8. Relații|Relații]] — numai dacă există date relaționale
-9. [[#Capitolul 9. Concluzii|Concluzii]]
+1. Vibrația interioară — Cine ești tu?
+2. Vibrația exterioară — Rolul social
+3. Destinul — Muntele de urcat
+4. Matrița numerologică — Pătratul lui Pitagora
+5. Numele — Eu și neamul
+6. Pinacluri: Oportunități și provocări
+7. Ciclicități
+8. Relații — numai dacă există date relaționale
+9. Aplicabilitate profesională — numai dacă există date relaționale
+10. Concluzii
 
 Index: {{cod_lucrare}}-CAP-005
 ## Capitolul 1. Vibrația interioară — Cine ești tu?
@@ -277,7 +278,7 @@ Index: {{cod_lucrare}}-T-013
 | {{numar_arcana_neam}} | {{nume_arcana_neam}} | {{resursa_arcana_neam}} | {{manifestare_arcana_neam}} | {{umbra_arcana_neam}} | {{maturizare_arcana_neam}} |
 
 Index: {{cod_lucrare}}-G-003
-![[vault/tarot/imagini/{{fisier_arcana_neam}}]]
+![Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}](vault/tarot/imagini/{{fisier_arcana_neam}})
 
 _Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}_
 
@@ -447,14 +448,34 @@ Index: {{cod_lucrare}}-C-007
 {{interpretare_zone_absente_cu_cifra_in_paranteza_constructie_intentionata_aport_extern_si_exemple}}
 
 Index: {{cod_lucrare}}-CAP-014
-## Capitolul 9. Concluzii
+## Capitolul 9. Aplicabilitate profesională
+
+Index: {{cod_lucrare}}-SUB-029
+### 9.1. Aplicabilitate profesională
+
+Index: {{cod_lucrare}}-P-035
+{{descriere_aplicabilitate_profesionala}}
+
+Index: {{cod_lucrare}}-P-046
+> [!example] Calcul aplicabilitate profesională
+> {{calcul_aplicabilitate_nu}}
+> {{calcul_aplicabilitate_da}}
+
+Index: {{cod_lucrare}}-T-016
+| Aplicabilitate profesională DA | Aplicabilitate profesională NU |
+| --- | --- |
+| ![Arcana {{numar_arcana_da}} — {{nume_arcana_da}}]({{arcana_da_fisier}})  \n_Arcana {{numar_arcana_da}} — {{nume_arcana_da}}_ | ![Arcana {{numar_arcana_nu}} — {{nume_arcana_nu}}]({{arcana_nu_fisier}})  \n_Arcana {{numar_arcana_nu}} — {{nume_arcana_nu}}_ |
+| **Index: {{cod_lucrare}}-P-047**  \n{{interpretare_aplicabilitate_da}} | **Index: {{cod_lucrare}}-P-048**  \n{{interpretare_aplicabilitate_nu}} |
+
+Index: {{cod_lucrare}}-CAP-015
+## Capitolul 10. Concluzii
 
 {{sinteza_finala_personalizata_fara_repetitii_sau_predictii_rigide}}
 
 > [!info] Renumerotare fără relație
 > Dacă nu există date relaționale, titlul devine `Capitolul 8. Concluzii`, iar ținta din Cuprins se actualizează identic.
 
-Index: {{cod_lucrare}}-CAP-015
+Index: {{cod_lucrare}}-CAP-016
 ## Documentația și trasabilitatea lucrării
 
 > [!warning] Numai pentru revizie
@@ -477,7 +498,7 @@ Index: {{cod_lucrare}}-T-014
 - [ ] Câmpul `Template` este exact `scurt`.
 - [ ] Toate calculele provin din raportul JSON validat.
 - [ ] Markdown-ul și HTML-ul au același conținut semantic.
-- [ ] Cuprinsul Markdown folosește numai wikilinkuri către heading-uri exacte.
+- [ ] Cuprinsul Markdown folosește text simplu, fără wikilinkuri Obsidian.
 - [ ] Cele șapte tabele provenite din imaginile-model sunt tabele editabile.
 - [ ] Matricea 3×3 respectă modelul `BDR-19980219-v1.07r-G-001`.
 - [ ] Fiecare arcană numită are imagine în același subcapitol.

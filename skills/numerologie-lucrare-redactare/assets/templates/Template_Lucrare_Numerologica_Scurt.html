@@ -228,7 +228,8 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   <a href="#capitolul-6-pinacluri-oportunitati-si-provocari">6. Pinacluri: Oportunități și provocări</a>
   <a href="#capitolul-7-ciclicitati">7. Ciclicități</a>
   <a data-template-condition="relatie" href="#capitolul-8-relatii">8. Relații</a>
-  <a href="#capitolul-9-concluzii" data-template-without-relation="8. Concluzii|capitolul-8-concluzii">9. Concluzii</a>
+  <a data-template-condition="relatie" href="#capitolul-9-aplicabilitate-profesionala">9. Aplicabilitate profesională</a>
+  <a href="#capitolul-10-concluzii" data-template-without-relation="8. Concluzii|capitolul-8-concluzii">10. Concluzii</a>
 </nav>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-005</div>
@@ -369,7 +370,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <p>{{interpretare_ciclu_9_si_an_personal}}</p>
 <h3 id="7-6-ciclul-de-12-ani">7.6. Ciclul de 12 ani</h3>
 <div class="index">Index: {{cod_lucrare}}-T-015</div>
-<div class="table-wrap"><table><thead><tr><th>Ciclu</th><th>Interval calendaristic</th><th>Vârste</th><th>Citire</th></tr></thead><tbody>{{randuri_ciclu_12_html}}</tbody></table></div>
+<div class="table-wrap"><table class="twelve-year-table" style="width:100%;table-layout:fixed"><colgroup><col style="width:10%"><col style="width:20%"><col style="width:12%"><col style="width:58%"></colgroup><thead><tr><th>Ciclu</th><th>Interval calendaristic</th><th>Vârste</th><th>Citire</th></tr></thead><tbody>{{randuri_ciclu_12_html}}</tbody></table></div>
 <p>{{interpretare_ciclu_12}}</p>
 
 <section class="conditional" data-template-condition="relatie">
@@ -386,11 +387,23 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 </section>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-014</div>
-<h2 id="capitolul-9-concluzii" data-template-without-relation="Capitolul 8. Concluzii|capitolul-8-concluzii">Capitolul 9. Concluzii</h2>
+<h2 id="capitolul-9-aplicabilitate-profesionala">Capitolul 9. Aplicabilitate profesională</h2>
+<div class="index">Index: {{cod_lucrare}}-SUB-029</div>
+<h3 id="9-1-aplicabilitate-profesionala">9.1. Aplicabilitate profesională</h3>
+<div class="index">Index: {{cod_lucrare}}-P-035</div><p>{{descriere_aplicabilitate_profesionala}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-046</div>
+<div class="calc-box">{{calcul_aplicabilitate_nu}}<br>{{calcul_aplicabilitate_da}}</div>
+<div class="index">Index: {{cod_lucrare}}-T-016</div>
+<div class="table-wrap"><table class="professional-applicability-table" style="width:100%;table-layout:fixed"><colgroup><col style="width:50%"><col style="width:50%"></colgroup><tbody>
+<tr><td><img class="tarot-image tarot-table-image" src="{{arcana_da_data_uri}}" alt="Arcana {{numar_arcana_da}} — {{nume_arcana_da}}"><div><em>Arcana <strong>{{numar_arcana_da}}</strong> — {{nume_arcana_da}}</em></div></td><td><img class="tarot-image tarot-table-image" src="{{arcana_nu_data_uri}}" alt="Arcana {{numar_arcana_nu}} — {{nume_arcana_nu}}"><div><em>Arcana <strong>{{numar_arcana_nu}}</strong> — {{nume_arcana_nu}}</em></div></td></tr>
+<tr><td><div class="index">Index: {{cod_lucrare}}-P-047</div>{{interpretare_aplicabilitate_da}}</td><td><div class="index">Index: {{cod_lucrare}}-P-048</div>{{interpretare_aplicabilitate_nu}}</td></tr>
+</tbody></table></div>
+<div class="index index-heading">Index: {{cod_lucrare}}-CAP-015</div>
+<h2 id="capitolul-10-concluzii" data-template-without-relation="Capitolul 8. Concluzii|capitolul-8-concluzii">Capitolul 10. Concluzii</h2>
 <p>{{sinteza_finala_personalizata_fara_repetitii_sau_predictii_rigide}}</p>
 
 <section class="conditional" data-template-condition="revizie">
-<div class="index index-heading">Index: {{cod_lucrare}}-CAP-015</div>
+<div class="index index-heading">Index: {{cod_lucrare}}-CAP-016</div>
 <h2 id="documentatia-si-trasabilitatea-lucrarii">Documentația și trasabilitatea lucrării</h2>
 <div class="index">Index: {{cod_lucrare}}-T-014</div>
 <div class="table-wrap"><table><thead><tr><th>Resursă</th><th>Valoare</th></tr></thead><tbody><tr><td>Agent coordonator</td><td>The Scribe</td></tr><tr><td>Agenți subcontractați</td><td>{{agenti_subcontractati}}</td></tr><tr><td>Skill-uri</td><td>{{skilluri_folosite}}</td></tr><tr><td>Template</td><td>scurt — Template_Lucrare_Numerologica_Scurt.md + .html</td></tr><tr><td>Raport calculator</td><td>{{cale_raport_json}}</td></tr><tr><td>Registru și data validării</td><td>{{registru_si_data}}</td></tr><tr><td>SVG-uri integrate</td><td>{{svg_uri_integrate}}</td></tr><tr><td>Versiune și data redactării</td><td>{{versiune}} — {{data_lucrarii}}</td></tr></tbody></table></div>

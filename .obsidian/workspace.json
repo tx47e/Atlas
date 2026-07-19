@@ -6,7 +6,7 @@
       {
         "id": "3d992b1bb9b4ef0d",
         "type": "tabs",
-        "dimension": 49.952696310312206,
+        "dimension": 56.244087038789026,
         "children": [
           {
             "id": "9aa5ea0533240c1e",
@@ -25,7 +25,7 @@
       {
         "id": "9f0dc0c7aeddc05f",
         "type": "tabs",
-        "dimension": 50.047303689687794,
+        "dimension": 43.755912961210974,
         "children": [
           {
             "id": "d72253a6f5c4dfbd",
@@ -235,6 +235,8 @@
   },
   "active": "9aa5ea0533240c1e",
   "lastOpenFiles": [
+    "skills/numerologie-lucrare-redactare/assets/Template-lucrare-scurta.md",
+    "skills/numerologie-lucrare-redactare/assets/Template-lucrare-examen.md",
     "vault/Numerologie/Ciclul de 12 Ani.md",
     "vault/Numerologie/Ciclul de 7 Ani.md",
     "vault/Numerologie/Ciclul de 9 Ani.md",
@@ -273,7 +275,6 @@
     "vault/Numerologie/Vibratia 2.md",
     "vault/Numerologie/Tendinta.md",
     "vault/Numerologie/Matricea Datei de Nastere.md",
-    "vault/Numerologie/Vibratie Exterioara.md",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/soarta-si-destin-birsan-daniel-robert.svg",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-01-magicianul-vibratia-interioara.jpg",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg",

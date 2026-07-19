@@ -57,7 +57,7 @@ python scripts/calculator_numerologic_examen.py `
 - In Matrita numerologica, reda patratul 3x3 in ordinea `1-4-7 / 2-5-8 / 3-6-9`, cu repetitii, reper optim, culori si simboluri dupa modelul `BDR-19980219-v1.07r-G-001`.
 - Reda ca tabele editabile cele doua coduri ale numelui, lectiile de viata si ciclurile de 7, 9 si 12 ani; nu folosi capturi raster pentru aceste tabele. Anii importanti interiori si exteriori se prezinta separat: definitia fiecarui tip intr-un paragraf indexat, urmata de sirul complet al anilor calculati intr-un al doilea paragraf indexat, fara tabel.
 - Pentru orice arcana numita, selecteaza imaginea corespunzatoare din `vault/tarot/imagini`, foloseste embed Obsidian in Markdown si data URI in HTML autonom.
-- Daca exista date relationale, insereaza `Capitolul 8. Relatii` intre `Ciclicitati` si `Concluzii`, genereaza Omuletul relatiilor prin The Cartographer si interpreteaza contributiile, elementele, rezultatul comun, tema de rezolvat si zonele absente. Daca nu exista relatie, elimina integral capitolul si intrarea din Cuprins si renumeroteaza Concluziile drept Capitolul 8.
+- Daca exista date relationale, insereaza `Capitolul 8. Relatii`, apoi `Capitolul 9. Aplicabilitate profesionala`, intre `Ciclicitati` si `Concluzii`. Genereaza Omuletul relatiilor prin The Cartographer si interpreteaza contributiile, elementele, rezultatul comun, tema de rezolvat si zonele absente. Capitolul de aplicabilitate contine descrierea, calculul DA/NU intr-un singur chenar si tabelul `T-016` cu imaginile arcanelor si interpretarile in celulele corespunzatoare, sub fiecare imagine. Daca nu exista relatie, elimina integral relatia si aplicabilitatea si renumeroteaza Concluziile drept Capitolul 8.
 
 ## Reguli de continut
 
@@ -65,7 +65,7 @@ python scripts/calculator_numerologic_examen.py `
 - Nu transforma numerologia intr-un verdict. Foloseste limbaj simbolic, nu afirmatii absolute.
 - Personalizeaza interpretarea prin legaturi intre rezultate, exemple concrete, analogii si imagini din cuvinte.
 - Pentru template-urile care cer explicit introducerea, include capitolul `Cuvant inainte` imediat dupa Cuprins si foloseste ca sursa reutilizabila `vault/Numerologie/Introducere.md`. Aceasta regula nu se aplica template-ului `scurt`, care omite integral capitolul si intrarea lui din Cuprins.
-- In livrabilul Markdown, scrie toate trimiterile din Cuprins catre capitole si subcapitole ca wikilinkuri Obsidian, in forma `[[#Titlul exact al sectiunii|Eticheta din Cuprins]]`. Tinta trebuie sa reproduca exact heading-ul, inclusiv diacriticele si punctuatia; nu folosi forma Markdown `[Eticheta](#ancora)`. In livrabilul HTML, reda aceleasi trimiteri prin ancore HTML normale, `<a href="#id-sectiune">Eticheta</a>`; nu copia wikilinkurile Obsidian in HTML.
+- In livrabilele Markdown nu pastra wikilinkuri Obsidian in Cuprins sau in textul lucrarii; foloseste etichete text simple. In HTML, foloseste ancore HTML pentru Cuprins si incorporeaza toate SVG-urile si imaginile ca data URI; nu livra referinte externe sau cai relative pentru resurse vizuale.
 - Incepe direct cu sensul conceptului sau cu interpretarea. Evita formularile metatextuale de tipul `[Prenume], aici ne uitam la...`, `aici vedem...` sau `in aceasta sectiune analizam...`.
 - Foloseste arhetipuri numai in interpretarile Vibratiei interioare, Vibratiei exterioare si Vibratiei globale.
 - Pentru cele trei vibratii permise, urmeaza: definitie -> metoda -> calcul -> interpretarea conversationala a traseului de reducere, numai daca exista o reducere suplimentara -> rezultat -> imagine -> arhetip -> manifestare concreta -> umbra -> maturizare.
@@ -99,7 +99,8 @@ python scripts/calculator_numerologic_examen.py `
 - La Numarul neamului, afiseaza calculul in intervalul 1-22 si un tabel cu arcana rezultata si interpretare ampla: resursa mostenita, manifestare concreta, umbra si maturizare.
 - Oriunde o arcana este numita sau interpretata intr-un tabel ori paragraf, afiseaza si imaginea arcanei in acelasi subcapitol. Daca aceeasi arcana este reluata intr-un alt subcapitol, reutilizeaza imaginea acolo; nu considera suficienta imaginea aparuta anterior in alta sectiune. In variantele de revizie, indexeaza tabelul sau figura care contine imaginea.
 - La Codul numerologic personal al numelui, pune fiecare componenta a numelui pe rand separat, apoi numarul de exprimare pe un rand distinct. In chenarul de sinteza, afiseaza exact doua randuri: codul literelor numelui si codul numerologic personal al numelui.
-- La Spirit -> Inclinatii profesionale, afiseaza separat calculele DA si NU si un tabel cu arcana fiecarui rezultat. Formuleaza conversational si explicit `Aplicabilitatea profesionala DA este arcana X, Nume`, apoi explica directia cultivabila; pentru negativ foloseste `Aplicabilitatea profesionala NU este arcana Y, Nume` si explica obstacolul si cheia de lucru in pasi concreti.
+- La Aplicabilitate profesionala, afiseaza separat calculele DA si NU in acelasi chenar si un tabel cu coloane egale pentru fiecare rezultat. Pune imaginea arcanei pe primul rand, iar interpretarea conversationala, cu index propriu, pe randul imediat urmator si in coloana corespunzatoare. Nu repeta formula sau rezultatul la inceputul interpretarii; intra direct in sensul arcanei si in aplicarea profesionala.
+- Pentru T-015, foloseste in HTML un tabel cu primele trei coloane inguste si coloana `Citire` larga (reper 10% / 20% / 12% / 58%). Pentru T-016, pastreaza cele doua coloane la 50% / 50%.
 - Cand folosesti coduri de vectori sau diagonale, scrie imediat si denumirea lor pentru cititor (de exemplu `vectorul 789, Creativitate` si `diagonala 159, Cariera`); nu lasa codul numeric neexplicat si nu obliga cititorul sa revina la o sectiune anterioara.
 - Scrie denumirile complete ale vibratiilor. Nu folosi acronime precum `VI`, `VE`, `VG`, `VCV` sau `VCT` in text ori calcule.
 - In textul narativ, scrie valorile numerologice cu cifre, nu cu litere, si evidentiaza-le cu bold: `**1**`, `**0**`, `**10**`. Aplica regula tuturor vibratiilor, rezultatelor, etapelor de reducere si cifrelor interpretate; nu transforma anii calendaristici, varstele sau numerotarea structurala in bold.
@@ -149,7 +150,7 @@ Verifica obligatoriu:
 - un singur livrabil grafic activ pentru fiecare figura, fara copii redundante nereferentiate;
 - SVG-urile vectoriale sunt incorporate ca data URI in HTML, SVG-urile cu continut raster sunt livrate vizual ca PNG, iar HTML-ul nu contine surse relative pentru imagini;
 - pentru template-ul `scurt`, absenta completa a capitolului `Cuvant inainte`, a indexurilor lui si a trimiterii din Cuprins; pentru template-urile care il cer explicit, prezenta lui dupa Cuprins si inainte de Capitolul 1;
-- fiecare wikilink din Cuprinsul Markdown indica exact un heading existent, nu au ramas trimiteri interne de forma `[Eticheta](#ancora)`, iar Cuprinsul HTML foloseste ancore `<a href="#...">` valide;
+- Cuprinsul Markdown nu contine wikilinkuri sau trimiteri interne necerute, iar Cuprinsul HTML foloseste ancore `<a href="#...">` valide; toate SVG-urile si imaginile din HTML sunt incorporate ca data URI;
 - absenta formularilor metatextuale care anunta ce se analizeaza;
 - lipsa textelor generice ramase din template.
 
