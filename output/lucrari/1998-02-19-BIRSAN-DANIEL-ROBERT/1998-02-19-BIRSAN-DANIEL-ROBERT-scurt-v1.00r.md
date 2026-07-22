@@ -38,11 +38,12 @@ Index: BDR-19980219-v1.00r-L-002
 3. Destinul — Muntele de urcat
 4. Matrița numerologică — Pătratul lui Pitagora
 5. Numele — Eu și neamul
-6. Pinacluri: Oportunități și provocări
-7. Ciclicități
-8. Relații
-9. Aplicabilitate profesională
-10. Concluzii
+6. Spirit și karmă — Lecții și direcții de maturizare
+7. Pinacluri: Oportunități și provocări
+8. Ciclicități
+9. Relații
+10. Aplicabilitate profesională
+11. Concluzii
 
 Index: BDR-19980219-v1.00r-CAP-005
 ## Capitolul 1. Vibrația interioară — Cine ești tu?
@@ -175,6 +176,16 @@ Index: BDR-19980219-v1.00r-SUB-010
 Index: BDR-19980219-v1.00r-P-013
 Daniel, dacă în interior ești **1**, la exterior oamenii te pot percepe ca pe un **2**. Înăuntru există impulsul de a porni, de a decide și de a urma o direcție proprie; în exterior poți apărea mai atent, cooperant și dispus să ajuți. Asta nu înseamnă că una dintre vibrații o anulează pe cealaltă. **1** îți dă inițiativa, iar **2** te ajută să o exprimi fără să pierzi legătura cu oamenii. Practic, poți spune clar „eu pornesc”, apoi să adaugi firesc „hai că te ajut” sau „hai să construim împreună”.
 
+Index: BDR-19980219-v1.00r-P-013a
+Puntea dintre interior și exterior arată distanța dintre ceea ce ești și simți în spațiul tău lăuntric și felul în care această energie devine vizibilă în relația cu lumea. Ea nu anulează niciuna dintre vibrații, ci indică ajustarea necesară pentru ca interiorul și exteriorul să poată lucra împreună. Pentru tine, Daniel, puntea arată cât de ușor poate inițiativa lui **1** să se exprime prin sensibilitatea și cooperarea lui **2**.
+
+Index: BDR-19980219-v1.00r-C-002a
+> [!example] Calculul punții interior–exterior
+> |**1** − **2**| = **1**
+
+Index: BDR-19980219-v1.00r-P-013b
+Rezultatul **1** arată că între nucleul tău interior și imaginea proiectată în exterior există o diferență mică, dar importantă: tu pornești din inițiativă și autonomie, iar ceilalți te pot întâlni mai întâi prin cooperare și atenție. Autenticitatea este cheia acestei punți. Când ceea ce spui și ceea ce faci pornesc dintr-o direcție asumată, cei din jur te pot privi și accepta ca pe un lider, fără ezitare și fără dubii. Cu cât îți exprimi mai clar intențiile și păstrezi loc pentru dialog, cu atât deschizi calea și transformi pornirea personală într-o influență pozitivă asupra celor din jur.
+
 Index: BDR-19980219-v1.00r-CAP-007
 ## Capitolul 3. Destinul — Muntele de urcat
 
@@ -201,7 +212,19 @@ Index: BDR-19980219-v1.00r-SUB-013
 ### 4.1. Matricea datei de naștere
 
 Index: BDR-19980219-v1.00r-P-016
-Matricea pornește de la cifrele datei de naștere și de la cele patru numere de lucru. Ea arată ce energii îți sunt deja la îndemână și unde ai nevoie de aport din experiență, relații sau exercițiu. Privind pătratul tău, vei observa că unele căsuțe sunt pline, iar altele goale: cele pline indică resurse ușor de accesat, iar cele goale arată direcții care se construiesc conștient. Cele **9** căsuțe pot fi privite ca nouă computere energetice, sau sfere de inteligență: Căsuța **1** — inteligența psihică; Căsuța **2** — inteligența emoțională; Căsuța **3** — inteligența prelucrării informațiilor; Căsuța **4** — inteligența corporală; Căsuța **5** — inteligența intuitivă; Căsuța **6** — inteligența pragmatismului; Căsuța **7** — inteligența spirituală; Căsuța **8** — inteligența puterii și inteligența socială; Căsuța **9** — inteligența mentală. Fiecare sferă înseamnă mult mai mult decât această scurtă descriere; important este să îți folosești conștient resursele și să construiești echilibrat zonele mai puțin active.
+Matricea pornește de la cifrele datei de naștere și de la cele patru numere de lucru. Ea arată ce energii îți sunt deja la îndemână și unde ai nevoie de aport din experiență, relații sau exercițiu. Privind pătratul tău, vei observa că unele căsuțe sunt pline, iar altele goale: cele pline indică resurse ușor de accesat, iar cele goale arată direcții care se construiesc conștient. Cele **9** căsuțe pot fi privite ca nouă computere energetice sau sfere de inteligență:
+
+- **Căsuța 1** — inteligența psihică;
+- **Căsuța 2** — inteligența emoțională;
+- **Căsuța 3** — inteligența prelucrării informațiilor;
+- **Căsuța 4** — inteligența corporală;
+- **Căsuța 5** — inteligența intuitivă;
+- **Căsuța 6** — inteligența pragmatismului;
+- **Căsuța 7** — inteligența spirituală;
+- **Căsuța 8** — inteligența puterii și inteligența socială;
+- **Căsuța 9** — inteligența mentală.
+
+Fiecare sferă înseamnă mult mai mult decât această scurtă descriere; important este să îți folosești conștient resursele și să construiești echilibrat zonele mai puțin active.
 
 Index: BDR-19980219-v1.00r-C-004
 > [!example] Calcul
@@ -220,9 +243,6 @@ Index: BDR-19980219-v1.00r-G-002
 
 Index: BDR-19980219-v1.00r-P-035
 **Căsuța 1.** Reprezintă psihicul, caracterul, ego-ul, spiritul de inițiativă, pionieratul, independența, unicitatea, calitatea de conducător și individualitatea. Ai **4** apariții față de optimul de **3**, deci energia este activă și disponibilă peste reper, dar nu în exces. Ai un motor puternic de pornire; cheia este să îl folosești fără să transformi hotărârea în presiune sau rigiditate.
-
-Index: BDR-19980219-v1.00r-P-036
-**Căsuța 2.** Reprezintă emoțiile, trăirile, comunicarea, bioenergia, spiritul de colaborare și parteneriatul. Ai **2** apariții, sub optimul de **3**, iar această energie se construiește și prin aport extern. Relațiile sigure, dialogul și limitele clare te ajută să primești și să exprimi emoțiile fără să le porți singur.
 
 Index: BDR-19980219-v1.00r-P-037
 **Căsuța 3.** Evidențiază capacitatea omului de a crea și a menține relații, networking-ul, curiozitatea celui care cercetează, face sinteza informațiilor și le oferă celorlalți, precum și acțiunile eficiente, concentrate pe rezultat, spiritul entuziast și bucuria de a trăi exprimată deschis. Ai **2** apariții față de optimul de **3**, astfel că această energie are nevoie de exercițiu. Conversațiile sincere, oamenii diferiți și contexte în care îți spui ideile îți completează această resursă.
@@ -248,7 +268,7 @@ Index: BDR-19980219-v1.00r-P-043
 Index: BDR-19980219-v1.00r-SUB-015
 ### 4.3. Elemente și temperament
 
-<div class="element-analysis">
+<div class="element-analysis framed-panel">
 <div class="element-indexes"><span>Index: BDR-19980219-v1.00r-T-012</span><span>Index: BDR-19980219-v1.00r-P-044</span></div>
 <div class="element-chart">
 <div class="element-bars" role="img" aria-label="Distribuția elementelor: Foc 8, Pământ 1, Aer 3, Apă 2">
@@ -275,7 +295,7 @@ Index: BDR-19980219-v1.00r-SUB-016
 ### 4.4. Masculin și feminin
 
 Index: BDR-19980219-v1.00r-P-017
-<div class="parity-chart" role="img" aria-label="Din totalul de 14 cifre, 11 sunt impare și 3 sunt pare.">
+<div class="parity-chart framed-panel" style="width:100%;max-width:none" role="img" aria-label="Din totalul de 14 cifre, 11 sunt impare și 3 sunt pare.">
 <div class="parity-chart-total">Total: <strong>14</strong> cifre</div>
 <div class="parity-chart-bar"><span class="parity-odd" style="width:78.57%"><strong>Impare · 11</strong></span><span class="parity-even" style="width:21.43%"><strong>Pare · 3</strong></span></div>
 </div>
@@ -443,8 +463,206 @@ Prin **9**, numele îți amplifică puterea mentală, capacitatea de a înțeleg
 Index: BDR-19980219-v1.00r-P-023d
 Dacă punem alături pătratul datei de naștere și pătratul numelui tău, observăm că numele te susține să inițiezi, să fii original și să îți asumi rolul de lider prin **1**; să colaborezi, să construiești parteneriate și să manifești empatie și emoție prin **2**; să fii creativ și să comunici prin **3**; precum și să folosești puterea mentală pentru a te transforma și pentru a-i ajuta pe alții să se transforme prin **9**, asemenea păsării Phoenix. În schimb, energiile **4**, **5** și **6** apar numai în matricea numelui. De aceea, numele îți poate crea impresia că organizarea și disciplina lui **4**, curajul și încrederea lui **5**, respectiv pragmatismul și orientarea spre familie ale lui **6** îți sunt deja naturale. Matricea datei nu le susține însă nativ, astfel că nu te poți baza pe ele ca pe niște resurse spontane și constante; ele au nevoie de efort conștient și de sprijin exterior pentru a putea fi manifestate.
 
+Index: BDR-19980219-v1.00r-CAP-007b
+## Capitolul 6. Spirit și karmă — Lecții și direcții de maturizare
+
+Index: BDR-19980219-v1.00r-SUB-038
+### 6.1. Codul Spiritului și vârsta Spiritului
+
+Index: BDR-19980219-v1.00r-P-182
+Codul Spiritului se citește din ziua și luna nașterii. Pentru tine, Daniel, el arată zona mare de maturizare spirituală și lecția prin care spiritul învață să își așeze experiența.
+
+Index: BDR-19980219-v1.00r-P-183
+Pentru calcul folosim ziua **19** și luna **2**. Căutăm ziua pe verticală și luna pe orizontală în tabelul rapid; aceeași valoare se poate verifica prin formulă.
+
+Index: BDR-19980219-v1.00r-C-003b
+> [!example] Calcul
+> Codul Spiritului = 55 - **19** - (**2** × **2**) = 55 - 19 - 4 = **32**
+
+Index: BDR-19980219-v1.00r-P-185
+În tabel, poziția ta este la ziua **19** și luna **II**, unde apare codul **32**.
+
+Index: BDR-19980219-v1.00r-T-017
+| Ziua | I | II | III | IV | V | VI | VII | VIII | IX | X | XI | XII |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 | <span class="spirit-zone-gifts">52</span> | <span class="spirit-zone-gifts">50</span> | <span class="spirit-zone-gifts">48</span> | <span class="spirit-zone-gifts">46</span> | <span class="spirit-zone-gifts">44</span> | <span class="spirit-zone-gifts">42</span> | <span class="spirit-zone-gifts">40</span> | <span class="spirit-zone-material">38</span> | <span class="spirit-zone-material">36</span> | <span class="spirit-zone-material">34</span> | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> |
+| 2 | <span class="spirit-zone-gifts">51</span> | <span class="spirit-zone-gifts">49</span> | <span class="spirit-zone-gifts">47</span> | <span class="spirit-zone-gifts">45</span> | <span class="spirit-zone-gifts">43</span> | <span class="spirit-zone-gifts">41</span> | <span class="spirit-zone-material">39</span> | <span class="spirit-zone-material">37</span> | <span class="spirit-zone-material">35</span> | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> |
+| 3 | <span class="spirit-zone-gifts">50</span> | <span class="spirit-zone-gifts">48</span> | <span class="spirit-zone-gifts">46</span> | <span class="spirit-zone-gifts">44</span> | <span class="spirit-zone-gifts">42</span> | <span class="spirit-zone-gifts">40</span> | <span class="spirit-zone-material">38</span> | <span class="spirit-zone-material">36</span> | <span class="spirit-zone-material">34</span> | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> |
+| 4 | <span class="spirit-zone-gifts">49</span> | <span class="spirit-zone-gifts">47</span> | <span class="spirit-zone-gifts">45</span> | <span class="spirit-zone-gifts">43</span> | <span class="spirit-zone-gifts">41</span> | <span class="spirit-zone-material">39</span> | <span class="spirit-zone-material">37</span> | <span class="spirit-zone-material">35</span> | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> |
+| 5 | <span class="spirit-zone-gifts">48</span> | <span class="spirit-zone-gifts">46</span> | <span class="spirit-zone-gifts">44</span> | <span class="spirit-zone-gifts">42</span> | <span class="spirit-zone-gifts">40</span> | <span class="spirit-zone-material">38</span> | <span class="spirit-zone-material">36</span> | <span class="spirit-zone-material">34</span> | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> |
+| 6 | <span class="spirit-zone-gifts">47</span> | <span class="spirit-zone-gifts">45</span> | <span class="spirit-zone-gifts">43</span> | <span class="spirit-zone-gifts">41</span> | <span class="spirit-zone-material">39</span> | <span class="spirit-zone-material">37</span> | <span class="spirit-zone-material">35</span> | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> |
+| 7 | <span class="spirit-zone-gifts">46</span> | <span class="spirit-zone-gifts">44</span> | <span class="spirit-zone-gifts">42</span> | <span class="spirit-zone-gifts">40</span> | <span class="spirit-zone-material">38</span> | <span class="spirit-zone-material">36</span> | <span class="spirit-zone-material">34</span> | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> |
+| 8 | <span class="spirit-zone-gifts">45</span> | <span class="spirit-zone-gifts">43</span> | <span class="spirit-zone-gifts">41</span> | <span class="spirit-zone-material">39</span> | <span class="spirit-zone-material">37</span> | <span class="spirit-zone-material">35</span> | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> |
+| 9 | <span class="spirit-zone-gifts">44</span> | <span class="spirit-zone-gifts">42</span> | <span class="spirit-zone-gifts">40</span> | <span class="spirit-zone-material">38</span> | <span class="spirit-zone-material">36</span> | <span class="spirit-zone-material">34</span> | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> |
+| 10 | <span class="spirit-zone-gifts">43</span> | <span class="spirit-zone-gifts">41</span> | <span class="spirit-zone-material">39</span> | <span class="spirit-zone-material">37</span> | <span class="spirit-zone-material">35</span> | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> |
+| 11 | <span class="spirit-zone-gifts">42</span> | <span class="spirit-zone-gifts">40</span> | <span class="spirit-zone-material">38</span> | <span class="spirit-zone-material">36</span> | <span class="spirit-zone-material">34</span> | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> | <span class="spirit-zone-reason">20</span> |
+| 12 | <span class="spirit-zone-gifts">41</span> | <span class="spirit-zone-material">39</span> | <span class="spirit-zone-material">37</span> | <span class="spirit-zone-material">35</span> | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> | <span class="spirit-zone-reason">19</span> |
+| 13 | <span class="spirit-zone-gifts">40</span> | <span class="spirit-zone-material">38</span> | <span class="spirit-zone-material">36</span> | <span class="spirit-zone-material">34</span> | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> | <span class="spirit-zone-reason">20</span> | <span class="spirit-zone-reason">18</span> |
+| 14 | <span class="spirit-zone-material">39</span> | <span class="spirit-zone-material">37</span> | <span class="spirit-zone-material">35</span> | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> |
+| 15 | <span class="spirit-zone-material">38</span> | <span class="spirit-zone-material">36</span> | <span class="spirit-zone-material">34</span> | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> | <span class="spirit-zone-reason">20</span> | <span class="spirit-zone-reason">18</span> | <span class="spirit-zone-reason">16</span> |
+| 16 | <span class="spirit-zone-material">37</span> | <span class="spirit-zone-material">35</span> | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> | <span class="spirit-zone-reason">15</span> |
+| 17 | <span class="spirit-zone-material">36</span> | <span class="spirit-zone-material">34</span> | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> | <span class="spirit-zone-reason">20</span> | <span class="spirit-zone-reason">18</span> | <span class="spirit-zone-reason">16</span> | <span class="spirit-zone-reason">14</span> |
+| 18 | <span class="spirit-zone-material">35</span> | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> | <span class="spirit-zone-reason">15</span> | <span class="spirit-zone-love">13</span> |
+| 19 | <span class="spirit-zone-material">34</span> | <span class="spirit-cell-highlight">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> | <span class="spirit-zone-reason">20</span> | <span class="spirit-zone-reason">18</span> | <span class="spirit-zone-reason">16</span> | <span class="spirit-zone-reason">14</span> | <span class="spirit-zone-love">12</span> |
+| 20 | <span class="spirit-zone-material">33</span> | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> | <span class="spirit-zone-reason">15</span> | <span class="spirit-zone-love">13</span> | <span class="spirit-zone-love">11</span> |
+| 21 | <span class="spirit-zone-material">32</span> | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> | <span class="spirit-zone-reason">20</span> | <span class="spirit-zone-reason">18</span> | <span class="spirit-zone-reason">16</span> | <span class="spirit-zone-reason">14</span> | <span class="spirit-zone-love">12</span> | <span class="spirit-zone-love">10</span> |
+| 22 | <span class="spirit-zone-material">31</span> | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> | <span class="spirit-zone-reason">15</span> | <span class="spirit-zone-love">13</span> | <span class="spirit-zone-love">11</span> | <span class="spirit-zone-love">9</span> |
+| 23 | <span class="spirit-zone-material">30</span> | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> | <span class="spirit-zone-reason">20</span> | <span class="spirit-zone-reason">18</span> | <span class="spirit-zone-reason">16</span> | <span class="spirit-zone-reason">14</span> | <span class="spirit-zone-love">12</span> | <span class="spirit-zone-love">10</span> | <span class="spirit-zone-love">8</span> |
+| 24 | <span class="spirit-zone-material">29</span> | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> | <span class="spirit-zone-reason">15</span> | <span class="spirit-zone-love">13</span> | <span class="spirit-zone-love">11</span> | <span class="spirit-zone-love">9</span> | <span class="spirit-zone-love">7</span> |
+| 25 | <span class="spirit-zone-material">28</span> | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> | <span class="spirit-zone-reason">20</span> | <span class="spirit-zone-reason">18</span> | <span class="spirit-zone-reason">16</span> | <span class="spirit-zone-reason">14</span> | <span class="spirit-zone-love">12</span> | <span class="spirit-zone-love">10</span> | <span class="spirit-zone-love">8</span> | <span class="spirit-zone-love">6</span> |
+| 26 | <span class="spirit-zone-material">27</span> | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> | <span class="spirit-zone-reason">15</span> | <span class="spirit-zone-love">13</span> | <span class="spirit-zone-love">11</span> | <span class="spirit-zone-love">9</span> | <span class="spirit-zone-love">7</span> | <span class="spirit-zone-love">5</span> |
+| 27 | <span class="spirit-zone-reason">26</span> | <span class="spirit-zone-reason">24</span> | <span class="spirit-zone-reason">22</span> | <span class="spirit-zone-reason">20</span> | <span class="spirit-zone-reason">18</span> | <span class="spirit-zone-reason">16</span> | <span class="spirit-zone-reason">14</span> | <span class="spirit-zone-love">12</span> | <span class="spirit-zone-love">10</span> | <span class="spirit-zone-love">8</span> | <span class="spirit-zone-love">6</span> | <span class="spirit-zone-love">4</span> |
+| 28 | <span class="spirit-zone-reason">25</span> | <span class="spirit-zone-reason">23</span> | <span class="spirit-zone-reason">21</span> | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> | <span class="spirit-zone-reason">15</span> | <span class="spirit-zone-love">13</span> | <span class="spirit-zone-love">11</span> | <span class="spirit-zone-love">9</span> | <span class="spirit-zone-love">7</span> | <span class="spirit-zone-love">5</span> | <span class="spirit-zone-love">3</span> |
+| 29 | <span class="spirit-zone-reason">24</span> |  | <span class="spirit-zone-reason">20</span> | <span class="spirit-zone-reason">18</span> | <span class="spirit-zone-reason">16</span> | <span class="spirit-zone-reason">14</span> | <span class="spirit-zone-love">12</span> | <span class="spirit-zone-love">10</span> | <span class="spirit-zone-love">8</span> | <span class="spirit-zone-love">6</span> | <span class="spirit-zone-love">4</span> | <span class="spirit-zone-love">2</span> |
+| 30 | <span class="spirit-zone-reason">23</span> |  | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> | <span class="spirit-zone-reason">15</span> | <span class="spirit-zone-love">13</span> | <span class="spirit-zone-love">11</span> | <span class="spirit-zone-love">9</span> | <span class="spirit-zone-love">7</span> | <span class="spirit-zone-love">5</span> | <span class="spirit-zone-love">3</span> | <span class="spirit-zone-love">1</span> |
+| 31 | <span class="spirit-zone-reason">22</span> |  | <span class="spirit-zone-reason">18</span> |  | <span class="spirit-zone-reason">14</span> |  | <span class="spirit-zone-love">10</span> | <span class="spirit-zone-love">8</span> |  | <span class="spirit-zone-love">4</span> |  | <span class="spirit-zone-love">0</span> |
+
+Index: BDR-19980219-v1.00r-P-186
+Codul **32** intră în zona **Material**, adică o etapă în care spiritul învață prin construcție, responsabilitate, rezultate, resurse și felul în care energia interioară devine ceva concret în lume.
+
+Index: BDR-19980219-v1.00r-T-018
+| Zona | Interval cod | Nivel simbolic | Teme principale |
+| --- | --- | --- | --- |
+| <span class="zone-badge zone-love">Iubire</span> | 1-13 | 0-2.500 ani | relații, emoții, atașamente, compasiune, vulnerabilitate |
+| <span class="zone-badge zone-reason">Rațiune</span> | 14-26 | 2.500-5.000 ani | logică, discernământ, structură, analiză, minte |
+| <span class="zone-badge zone-material">Material</span> | 27-39 | 5.000-7.500 ani | bani, construcție, putere, manifestare, responsabilitate |
+| <span class="zone-badge zone-gifts">Haruri</span> | 40-52 | 7.500-10.000 ani | înțelepciune, haruri spirituale, ghidare, serviciu, intuiție |
+
+Index: BDR-19980219-v1.00r-P-187
+Subetapa se calculează din codul Spiritului, așezând codul pe ciclul celor treisprezece lecții. Calculul de mai jos arată poziția exactă în matricea lecțiilor.
+
+Index: BDR-19980219-v1.00r-P-188
+**Calcul explicat:** Subetapa se calculează din Codul Spiritului, care aici este 32. Formula folosită este `((CM - 1) mod 13) + 1`, deoarece cele treisprezece lecții se repetă ciclic: scădem 1 ca să pornim numărarea ciclului de la zero, aplicăm restul împărțirii la 13, apoi adăugăm 1 ca să revenim la numerotarea lecțiilor de la 1 la 13.
+
+Index: BDR-19980219-v1.00r-P-189
+Pentru Daniel: `32 - 1 = 31`. Împărțim 31 la 13: `13 × 2 = 26`, iar restul este `31 - 26 = 5`. Revenim la scara 1-13 prin `5 + 1 = 6`. Rezultatul este **subetapa 6**.
+
+Index: BDR-19980219-v1.00r-C-003c
+> [!example] Calcul
+> ((32 - 1) mod 13) + 1 = (31 mod 13) + 1 = 5 + 1 = **6**
+
+Index: BDR-19980219-v1.00r-P-191
+Matricea lecțiilor arată cum sunt organizate cele treisprezece subetape ale Codului Spiritului. Ele sunt împărțite în patru etape mari: înțelegere și stabilizare, experimentare și manifestare, finalizare și orientare către ceilalți, apoi examenul de integrare.
+
+Index: BDR-19980219-v1.00r-T-019
+<table class="stage-table">
+<colgroup><col style="width:7%"><col style="width:22%"><col style="width:8%"><col style="width:18%"><col style="width:45%"></colgroup>
+<thead><tr><th>Etapă</th><th>Descriere etapă</th><th>Subetapă</th><th>Lecție</th><th>Descriere subetapă</th></tr></thead>
+<tbody>
+<tr class="stage-love"><td rowspan="4">1</td><td rowspan="4">Înțelegere și stabilizare</td><td>1</td><td>Început de cale</td><td>Înțeleg cine sunt și ce am de făcut pe pământ.</td></tr>
+<tr class="stage-love"><td>2</td><td>Interacțiune</td><td>Înțeleg cine sunt și ce am de făcut în raport cu alte persoane.</td></tr>
+<tr class="stage-love"><td>3</td><td>Căutarea echilibrului</td><td>Înțeleg echilibrul dintre centru și margini, dintre apropiere și mișcare.</td></tr>
+<tr class="stage-love"><td>4</td><td>Stabilitate</td><td>Stabilizez tot ce am înțeles până acum.</td></tr>
+<tr class="stage-reason"><td rowspan="4">2</td><td rowspan="4">Experimentare și manifestare</td><td>5</td><td>Schimbare</td><td>Experimentez și învăț ce a rămas de lucrat, dar altfel decât până acum.</td></tr>
+<tr class="stage-reason current-row"><td>6</td><td>Prelucrarea karmei</td><td>Balansez, prelucrez ce am acumulat și creez teren stabil pentru o nouă etapă.</td></tr>
+<tr class="stage-reason"><td>7</td><td>Depășirea obstacolelor</td><td>Sunt pregătit pentru experiențe mai intense și învăț să nu fug de ele.</td></tr>
+<tr class="stage-reason"><td>8</td><td>Succesul</td><td>Culeg roadele a ceea ce am învățat și mă manifest responsabil.</td></tr>
+<tr class="stage-material"><td rowspan="4">3</td><td rowspan="4">Finalizare și orientare către ceilalți</td><td>9</td><td>Finalizarea</td><td>Închei ce ține de mine, ca să pot privi dincolo de mine.</td></tr>
+<tr class="stage-material"><td>10</td><td>Norocul</td><td>Învăț să primesc, să colaborez și să las viața să mă așeze în contexte potrivite.</td></tr>
+<tr class="stage-material"><td>11</td><td>Slujirea</td><td>Îi slujesc pe alții prin experiența și maturitatea acumulată.</td></tr>
+<tr class="stage-material"><td>12</td><td>Sacrificiul</td><td>Învăț diferența dintre dăruire conștientă și pierdere de sine.</td></tr>
+<tr class="stage-gifts"><td>4</td><td>Examen</td><td>13</td><td>Examenul</td><td>Integrez lecția și trec spre un nivel nou de înțelegere.</td></tr>
+</tbody>
+</table>
+
+Index: BDR-19980219-v1.00r-P-192
+Pentru tine, Daniel, subetapa **6** se numește **Prelucrarea karmei**. Asta înseamnă că tema centrală nu este să fugi de responsabilități, ci să le așezi corect: ce îți aparține, ce ai preluat de la familie, ce duci pentru alții și unde trebuie să creezi un teren mai stabil pentru următoarea etapă. Este o lecție de echilibrare, rafinare și maturizare prin lucruri concrete.
+
+Index: BDR-19980219-v1.00r-P-193
+Vârsta Spiritului arată simbolic experiența acumulată până la naștere și apoi experiența actualizată cu vârsta biologică.
+
+Index: BDR-19980219-v1.00r-P-194
+**Calcul explicat:** Vârsta Spiritului la naștere se calculează din Codul Spiritului. Fiecare treaptă de cod reprezintă simbolic 189 de ani de experiență spirituală, iar formula folosită în metodă este `(CM × 189) - 189`. Se scade 189 la final deoarece primul cod reprezintă baza de pornire a ciclului; astfel, calculul arată experiența acumulată până la intrarea în viața actuală.
+
+Index: BDR-19980219-v1.00r-P-195
+Pentru Daniel: `32 × 189 = 6.048`, apoi `6.048 - 189 = 5.859`. Aceasta este **Vârsta Spiritului la naștere: 5.859 ani**. Pentru vârsta actuală se adaugă vârsta biologică din momentul lucrării: `5.859 + 28 = 5.887`.
+
+Index: BDR-19980219-v1.00r-C-003d
+> [!example] Calcul
+> Vârsta la naștere = (32 × 189) - 189 = 6.048 - 189 = **5.859 ani**
+>
+> Vârsta actuală = 5.859 + 28 = **5.887 ani**
+
+Index: BDR-19980219-v1.00r-P-197
+Ghidarea practică este simplă: când apare presiune materială, profesională, familială sau relațională, nu o trata ca pe o piedică, ci ca pe locul în care ai ceva de ordonat. Pentru codul **32**, progresul vine când transformi haosul în structură, emoțiile în decizii mature și responsabilitățile în alegeri asumate.
+
+Index: BDR-19980219-v1.00r-SUB-007a
+### 6.2. Karma din ziua de naștere
+
+Index: BDR-19980219-v1.00r-P-009a
+Karma din ziua de naștere arată programul karmic indicat de ziua calendaristică în care te-ai născut. Ziua se păstrează între **1** și **31**, fără reducere la o singură cifră, iar interpretarea se face prin Arcana Majoră corespunzătoare și prin trecerea de la umbra ei la o calitate folosită conștient. Procentul indicat de metodă arată orientativ cât din această temă este considerat deja împlinit; nu este o notă morală și nici o măsură exactă a valorii personale.
+
+Index: BDR-19980219-v1.00r-C-001a
+> [!example] Calcul
+> Ziua nașterii = **19**
+>
+> Arcana karmică = **19 — Soarele**
+>
+> Intervalul 10–19 = karma împlinită **spre 80%**
+
+Index: BDR-19980219-v1.00r-G-001a
+![Arcana 19 — Soarele, karma din ziua de naștere](tarot-19-soarele-karma-zilei.jpg)
+
+_Arcana **19** — Soarele. Karma din ziua de naștere_
+
+Index: BDR-19980219-v1.00r-P-009b
+Daniel, **Soarele** este legat de modul în care îți manifești puterea personală, succesul, recunoașterea și relația cu propriul ego. Lecția principală este să găsești echilibrul dintre strălucirea individuală și contribuția pe care o aduci celor din jur. Când integrezi armonios această energie, inspiri prin exemplu, conduci cu generozitate și îți folosești succesul pentru a crea valoare și pentru ceilalți. Puterea ta nu mai are nevoie să ocupe tot spațiul, pentru că devine suficient de sigură încât să deschidă drumuri și să îi ajute și pe ceilalți să crească.
+
+Index: BDR-19980219-v1.00r-P-009b1
+În forma sa dezechilibrată, karma **19** poate aduce orgoliu, dorință excesivă de validare, nevoia permanentă de a fi în centrul atenției sau tendința de a confunda succesul exterior cu împlinirea interioară. Pot apărea lecții legate de autoritate, de relația cu figura paternă ori de dificultatea de a colabora atunci când simți că trebuie să demonstrezi singur ce poți. Uneori, o reușită poate fi urmată de o corecție de direcție care îți amintește să păstrezi modestia, măsura și contactul cu oamenii; aceasta este o posibilă manifestare simbolică a temei, nu o predicție obligatorie.
+
+Index: BDR-19980219-v1.00r-P-009b2
+Cheia evoluției este să cultivi recunoștința, responsabilitatea și generozitatea. Soarele autentic nu luminează doar pentru sine, ci oferă căldură și lumină tuturor. Când îți pui talentele și realizările în slujba unui scop mai înalt, energia karmică a Arcanei **19** poate deveni o sursă de împlinire, prosperitate și influență pozitivă asupra celor din jur. Indicația „spre **80%**” arată că această temă se află într-o zonă avansată de împlinire, dar nu că este încheiată: rafinarea rămasă înseamnă să strălucești fără să orbești și să conduci fără să micșorezi locul celorlalți.
+
+Index: BDR-19980219-v1.00r-SUB-010a
+### 6.3. Karma din luna de naștere
+
+Index: BDR-19980219-v1.00r-P-013c
+Karma din luna de naștere arată datoria socială, familială sau personală legată de luna în care te-ai născut. Luna se păstrează ca număr între **1** și **12**, fără reducere, și indică o direcție de maturizare în raport cu familia, neamul, locul de origine sau propria persoană. Această karmă nu vorbește despre vină, ci despre o responsabilitate pe care o poți transforma în relații mai sănătoase și în alegeri mai conștiente.
+
+Index: BDR-19980219-v1.00r-C-002b
+> [!example] Calcul
+> Luna nașterii = **2**
+>
+> Karma lunii = **karma bunătății, bunicilor și femeilor**
+
+Index: BDR-19980219-v1.00r-P-013d
+Daniel, luna **2** îți cere să cultivi bunătatea, empatia și ajutorul oferit cu discernământ, mai ales în raport cu bunicii, femeile din familie și persoanele vulnerabile. Lecția nu este să preiei toate poverile lor, ci să fii prezent, să asculți și să ajuți într-o formă care păstrează demnitatea ambelor părți. Umbra poate apărea când confunzi bunătatea cu sacrificiul fără limite, când eviți un adevăr ca să nu superi sau când aștepți recunoștință pentru sprijinul oferit. Maturizarea acestei karme înseamnă să spui „te ajut” fără să te abandonezi pe tine: oferi grijă, dar păstrezi limite clare și îi lași celuilalt propria responsabilitate.
+
+Index: BDR-19980219-v1.00r-SUB-012a
+### 6.4. Karma din Calea Destinului
+
+Index: BDR-19980219-v1.00r-P-015a
+Karma din Calea Destinului arată ritmul karmic al vieții și felul în care se pot manifesta șansele, obstacolele și ajutoarele de-a lungul drumului. Calculul pornește de la toate cifrele datei de naștere, dar rezultatul se păstrează neredus complet. Astfel, nu citim numai Destinul final **3**, ci și amprenta compusă **39**, deoarece ea păstrează nuanța karmică pe care reducerea ar pierde-o.
+
+Index: BDR-19980219-v1.00r-C-003a
+> [!example] Calcul
+> 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = **39**
+>
+> Karma din Calea Destinului = **39**
+>
+> Intervalul 30–39 = categoria karmică **3**
+
+Index: BDR-19980219-v1.00r-P-015b
+Daniel, categoria karmică **3** vorbește despre influență, relaționare și transmiterea înțelepciunii, iar valoarea exactă **39** adaugă o minte puternică și profundă. Ai capacitatea de a vedea legături pe care alții le observă mai târziu, de a formula idei cu greutate și de a influența prin cuvânt, exemplu sau cunoaștere. Frâna indicată de această valoare este invidia: poate fi propria comparație cu reușitele altora sau presiunea oamenilor care se simt provocați de profunzimea și vizibilitatea ta. Lecția nu este să te ascunzi, ci să transformi comparația în învățare și să îți folosești influența fără superioritate. Când comunici limpede, împarți cunoașterea și lași rezultatele să vorbească, karma **39** susține matur Destinul **3**: vocea ta nu doar atrage atenția, ci transmite ceva folositor.
+
+Index: BDR-19980219-v1.00r-SUB-012b
+### 6.5. Concluzie: direcția de lucru
+
+Index: BDR-19980219-v1.00r-P-015c
+Daniel, Codul Spiritului **32**, zona Material și subetapa **6 — Prelucrarea karmei** formează cadrul mare al acestui capitol. Vârsta simbolică a Spiritului, **5.887 de ani**, se află în intervalul Material, ceea ce sugerează că maturizarea ta trece prin construcție, responsabilitate, administrarea resurselor și transformarea experienței în rezultate vizibile. Karmele **19**, **2** și **39** arată ce ai de ordonat în acest cadru: puterea personală și relația cu succesul, felul în care ajuți și colaborezi, respectiv modul în care îți transformi mintea și influența într-un mesaj folositor.
+
+Index: BDR-19980219-v1.00r-P-015d
+Karma **19** reactivează simbolic energiile **1** și **9**. Vibrația interioară **1** și cele **4** apariții ale lui **1** din matrice îți dau pornire și inițiativă, iar cele **4** apariții ale lui **9** aduc viziune, profunzime și nevoia de sens. Codul Spiritului **32** îți cere însă ca această forță să nu rămână numai vizibilitate, orgoliu sau promisiune, ci să capete formă. Direcția matură este să conduci prin exemplu, să transformi succesul într-o construcție utilă și să verifici nu doar dacă ai fost remarcat, ci și ce valoare concretă rămâne în urma ta.
+
+Index: BDR-19980219-v1.00r-P-015e
+Karma lunii **2** coincide cu Vibrația exterioară **2**, iar Căsuța **2** conține `22`, sub reperul `222`. Sensibilitatea și cooperarea există, dar nu se reglează singure în orice situație. Subetapa **6** îți cere să prelucrezi tocmai acest tip de acumulare: să separi ce îți aparține de ceea ce ai preluat de la familie sau de la ceilalți, să ajuți fără să te abandonezi și să construiești relații în care responsabilitatea este împărțită. Practic, întreabă înainte să presupui, spune clar ce poți oferi și stabilește de la început limita până la care te implici.
+
+Index: BDR-19980219-v1.00r-P-015f
+Karma **39** coincide exact cu suma inițială a datei tale și cu numărul de lucru `N1`, iar categoria karmică **3** coincide cu Destinul final **3**. În matrice, energia lui **9** este mult mai abundentă decât reperul, în timp ce energia lui **3** are nevoie de exercițiu. De aceea, principala ta direcție este să cobori ideea din minte în formă: mesaj clar, termen, buget, responsabilitate și rezultat verificabil. Înaintea unei decizii importante, parcurge patru întrebări: „Ce vreau să construiesc?”, „Pe cine trebuie să ascult sau să implic?”, „Care este următorul pas concret?” și „Ce folos rămâne pentru mine și pentru ceilalți?”. Acesta este firul comun dintre Spirit și karmă: **1** pornește, **2** cooperează, **3** exprimă, **9** oferă sens, iar **32** le cere tuturor să devină o construcție reală.
+
 Index: BDR-19980219-v1.00r-CAP-010
-## Capitolul 6. Pinacluri: Oportunități și provocări
+## Capitolul 7. Pinacluri: Oportunități și provocări
 
 Index: BDR-19980219-v1.00r-P-024b
 De-a lungul vieții, treci prin patru pinacluri, fiecare cu propria oportunitate și propria provocare, structurate în tabelul de mai jos. Oportunitatea arată direcția pe care viața o poate deschide, iar provocarea arată lecția care îți cere maturizare ca să poți folosi acea direcție în mod constructiv.
@@ -473,10 +691,10 @@ Index: BDR-19980219-v1.00r-P-024g
 Daniel, tu te afli acum în Pinaclul **1**, în care ai Oportunitatea **3** și Provocarea **1**. Prin această combinație, ai de învățat să îți câștigi independența și, în același timp, să urci pe scara socială prin comunicare, creativitate și colaborare. Ai un potențial important de „alpinist social”: poți ajunge în cercuri tot mai largi și poți deveni un lider care se remarcă prin idei originale și prin felul în care îi apropie pe oameni. Lecția ta este să conduci fără ego, să îți păstrezi originalitatea și să transformi vizibilitatea într-o contribuție reală.
 
 Index: BDR-19980219-v1.00r-CAP-011
-## Capitolul 7. Ciclicități
+## Capitolul 8. Ciclicități
 
 Index: BDR-19980219-v1.00r-SUB-024
-### 7.1. Soarta și Destinul
+### 8.1. Soarta și Destinul
 
 Index: BDR-19980219-v1.00r-P-025
 Daniel, zona de confort îți arată locul în care te simți cel mai bine, unde energia ta curge firesc și unde poți simți mai ușor bucurie și împlinire. La tine, această zonă are vibrația **3**: te simți în elementul tău când poți fi creativ, când ai mai multe domenii în care să te exprimi și să te extinzi, când glumești, comunici și lași ideile să circule. Îți priește să cunoști multă lume, să fii înconjurat de oameni și să urci în cercuri sociale în care poți aduce energie, optimism și o perspectivă personală. Pe scurt, confortul tău nu este izolarea, ci spațiul viu în care ai oameni, dialog, mișcare și libertatea de a te face remarcat prin ceea ce creezi și transmiți.
@@ -502,7 +720,7 @@ Index: BDR-19980219-v1.00r-P-025d
 **Oportunitatea 3** îți cere să comunici, să creezi, să îți exprimi ideile și să fii deschis către oameni și experiențe noi. **Provocarea 1** te învață să ai încredere în tine, să iei inițiativa și să nu aștepți ca altcineva să decidă în locul tău. Sfatul perioadei este simplu: ieși din apatie, exprimă-te, acționează cu curaj și profită de oportunități, deoarece în vibrația **0** viitorul este modelat în mare măsură de alegerile pe care le faci în prezent.
 
 Index: BDR-19980219-v1.00r-SUB-025
-### 7.2. Anii importanți
+### 8.2. Anii importanți
 
 Index: BDR-19980219-v1.00r-P-026a
 **Anii importanți interiori** marchează momente în care schimbarea pornește mai ales din interiorul persoanei: decizii, maturizări, conștientizări, schimbări de perspectivă, nevoi sufletești sau transformări personale care apoi pot modifica viața din afară.
@@ -520,7 +738,7 @@ Index: BDR-19980219-v1.00r-P-026e
 Daniel, când același an apare în ambele șiruri, schimbarea pe care o simți în interior cere și un răspuns concret în viața din afară. Prima astfel de suprapunere este în 2025, iar apoi ritmul revine periodic. În acești ani, fii atent atât la ceea ce se maturizează în tine, cât și la situațiile care îți cer să alegi, să reacționezi sau să schimbi ceva concret.
 
 Index: BDR-19980219-v1.00r-SUB-025a
-### 7.3. Lecțiile de viață
+### 8.3. Lecțiile de viață
 
 Index: BDR-19980219-v1.00r-P-028
 Daniel, șirul lecțiilor **7–5–9–2–4** se repetă de-a lungul vieții. Fiecare lecție învățată devine o piatră de temelie pentru următoarea, iar fiecare revenire a șirului îți întărește caracterul și îți oferă ocazia să aplici mai matur ceea ce ai înțeles deja.
@@ -551,7 +769,7 @@ Index: BDR-19980219-v1.00r-P-028a
 În **2026**, Daniel, lecția ta este **2**: relația, cooperarea, răbdarea, ascultarea și finețea cu care îi faci loc celuilalt. Nu este un an în care să forțezi totul singur; este un an în care rezultatele cresc atunci când ceri feedback, formulezi întrebări clare și construiești acorduri reale. Lecția **2** se întâlnește cu anul personal **4**, așa că sensibilitatea și cooperarea au nevoie de formă concretă: program, responsabilități împărțite, promisiuni respectate și pași mici repetați. Când unești aceste două energii, relațiile devin mai stabile, iar ceea ce construiești împreună poate rezista în timp.
 
 Index: BDR-19980219-v1.00r-SUB-026
-### 7.4. Ciclul de 7 ani
+### 8.4. Ciclul de 7 ani
 
 Index: BDR-19980219-v1.00r-P-028b
 Ciclul de 7 ani este un ritm secundar de maturizare, construit pe pragurile de vârstă **7**, **14**, **21**, **28** și **35**. El adaugă o lectură a etapelor prin care omul își formează structura interioară, raportarea la limite, disciplina, responsabilitatea și relația cu timpul. Acest ciclu are o corelație simbolico-astronomică importantă cu mișcarea lui Saturn. Saturn finalizează o orbită completă în jurul Soarelui în aproximativ 29,46 ani; împărțită în 4 faze majore, această durată produce segmente de aproximativ 7,36 ani. De aici poate fi înțeleasă baza saturniană a ciclului de 7 ani: fiecare segment marchează o etapă de testare, creștere, consolidare și asumare. În limbaj astrologic, Saturn este asociat cu timpul, disciplina, structura, karma, maturizarea și verificările vieții. De aceea, ciclul de 7 ani poate fi citit ca o succesiune de praguri saturniene, în care omul este invitat să observe ce a construit, ce trebuie corectat și ce formă interioară devine suficient de solidă pentru etapa următoare. Reprezentarea grafică a acestui ciclu este Septagrama, unde fiecare vârf marchează un moment de criză la jumătatea unui segment de 7 ani și include un „Rezultat pereche”.
@@ -565,7 +783,7 @@ Index: BDR-19980219-v1.00r-P-028c
 Daniel, în **2026** intri în **Ciclul 5**, care acoperă intervalul 2026–2032 și vârsta de 28–35 de ani. Prima jumătate, de la 28 la 31,5 ani, îți cere să verifici ce structură ai construit până acum: ce responsabilități îți aparțin, ce reguli te susțin și unde libertatea are nevoie de disciplină ca să producă rezultate. Pragul central apare în **2029**, la 31,5 ani. Nu trebuie privit ca un verdict, ci ca un punct de verificare: ceea ce funcționează poate fi consolidat, iar ceea ce este instabil cere corectare înainte de a merge mai departe. Rezultatul pereche **5/12** leagă mișcarea, schimbarea și nevoia de libertate de răbdare, schimbarea perspectivei și asumare; pentru tine, cheia este să nu confunzi progresul cu graba. În a doua jumătate a ciclului, dintre 31,5 și 35 de ani, experiențele și alegerile făcute până la pragul din 2029 trebuie transformate într-o formă mai matură: un ritm de lucru stabil, limite clare, responsabilități asumate și proiecte care pot rezista în timp.
 
 Index: BDR-19980219-v1.00r-SUB-027
-### 7.5. Ciclul de 9 ani
+### 8.5. Ciclul de 9 ani
 
 Index: BDR-19980219-v1.00r-P-028d
 Ciclul de 9 ani descrie succesiunea anilor personali **1–9**. Fiecare an personal începe la ziua și luna nașterii și se încheie la următoarea aniversare, nu la 1 ianuarie.
@@ -601,7 +819,7 @@ Index: BDR-19980219-v1.00r-P-027
 Daniel, anul evidențiat cu roșu arată poziția ta actuală în acest ciclu. În 2026 te afli în ciclul **4**, o etapă care vorbește despre consolidare: să pui ordine în program, să îți organizezi bugetul, să lucrezi consecvent și să construiești o fundație stabilă. În interiorul acestui ciclu, te afli în **Anul 2**, care aduce parteneriate, comunicare și cooperare. Pentru tine, perioada cere să îmbini structura cu deschiderea către ceilalți: să nu construiești totul singur, ci să alegi oamenii potriviți, să asculți, să negociezi și să transformi colaborările în rezultate durabile.
 
 Index: BDR-19980219-v1.00r-SUB-027a
-### 7.6. Ciclul de 12 ani
+### 8.6. Ciclul de 12 ani
 
 Index: BDR-19980219-v1.00r-P-027b
 Ciclul de 12 ani poate fi privit ca un ciclu de expansiune, învățare și repoziționare în lume. Simbolic, el poate fi asociat cu mișcarea lui Jupiter, care are o revoluție de aproximativ 11,86 ani. Dacă ciclul de 9 ani este ritmul închiderilor și renașterilor, ciclul de 12 ani este ritmul creșterii conștiinței prin experiență și oportunități. Ciclul de 12 ani ajută la detectarea marilor ferestre de oportunitate. Anii multipli de 12 pot susține schimbări de carieră, mutări, lansări de proiecte, expansiune financiară, dezvoltare spirituală sau repoziționări sociale și profesionale.
@@ -611,7 +829,7 @@ Index: BDR-19980219-v1.00r-T-015
 | --- | --- | ---: | --- |
 | C1 | 1998–2009 | 0–11 | Formarea primelor repere și lărgirea treptată a lumii personale. |
 | C2 | 2010–2021 | 12–23 | Explorare, desprindere și definirea direcției proprii. |
-| **C3 — activ** | **2022–2033** | **24–35** | Extindere prin alegeri, experiențe și responsabilități asumate. |
+| <span style="color: #b3261e; font-weight: 700;">**C3 — activ**</span> | <span style="color: #b3261e; font-weight: 700;">**2022–2033**</span> | <span style="color: #b3261e; font-weight: 700;">**24–35**</span> | <span style="color: #b3261e; font-weight: 700;">Extindere prin alegeri, experiențe și responsabilități asumate.</span> |
 | C4 | 2034–2045 | 36–47 | Consolidarea unei forme de viață mai ample și mai stabile. |
 | C5 | 2046–2057 | 48–59 | Recalibrarea sensului și valorificarea experienței acumulate. |
 | C6 | 2058–2069 | 60–71 | Transmitere, maturitate și influență exercitată cu discernământ. |
@@ -620,7 +838,7 @@ Index: BDR-19980219-v1.00r-P-027a
 Daniel, ciclul de 12 ani arată etapele largi în care viața îți extinde orizontul. În 2026 te afli în al treilea ciclu, cel dintre 2022 și 2033, iar accentul cade pe mișcare, adaptare și transformarea oportunităților în direcții concrete. Este o perioadă potrivită să dai o formă mai încăpătoare proiectelor, carierei, relațiilor și modului în care îți administrezi resursele.
 
 Index: BDR-19980219-v1.00r-CAP-013
-## Capitolul 8. Relații
+## Capitolul 9. Relații
 
 Index: BDR-19980219-v1.00r-L-003
 - Nume: Roman Andreea Maria
@@ -630,7 +848,7 @@ Index: BDR-19980219-v1.00r-L-003
 - Tipul relației: parteneră
 
 Index: BDR-19980219-v1.00r-SUB-028
-### 8.1. Omulețul relațiilor
+### 9.1. Omulețul relațiilor
 
 Index: BDR-19980219-v1.00r-P-029
 Daniel, această hartă nu dă un verdict despre relație. Ea arată ce aduce fiecare, ce se întâlnește firesc și ce trebuie construit împreună.
@@ -661,16 +879,13 @@ Index: BDR-19980219-v1.00r-P-031
 Zonele **3**, **4**, **5**, **6** și **7** nu apar în diagramă pe baza cifrelor brute din cele două date de naștere. Asta nu înseamnă că relația nu are șanse sau că aceste experiențe vă sunt interzise, ci că ele nu se activează automat și trebuie construite intenționat ori susținute printr-un aport extern: contexte, oameni, activități sau instrumente potrivite. Aveți de cultivat comunicarea directă, exprimarea nevoilor și relaționarea prin cuvânt (**3**); stabilitatea concretă, casa, regulile, programul și angajamentele respectate (**4**); excursiile, noutatea, nonconformitatea, libertatea și spațiul personal sănătos (**5**); armonia, sexualitatea, tandrețea, grija și familia (**6**); profunzimea discuțiilor, reflecția, răbdarea de a înțelege și înțelepciunea extrasă din experiențe (**7**). Practic, puteți programa săptămânal o conversație sinceră (**3**), puteți stabili un calendar comun, un buget sau reguli simple ale casei (**4**), puteți introduce periodic o excursie, o activitate nouă și timp individual fără vinovăție (**5**), puteți proteja apropierea afectivă, intimitatea și ritualurile de familie (**6**), iar pentru profunzime puteți crea momente de introspecție și repaus: să încetiniți ritmul, să priviți cu sinceritate ce trăiți și să lăsați înțelepciunea să se așeze înainte de a trage concluzii (**7**). Astfel, ceea ce nu vine automat nu rămâne un gol, ci devine un spațiu pe care îl puteți construi împreună, cu răbdare, repetiție și sprijinul potrivit.
 
 Index: BDR-19980219-v1.00r-CAP-014
-## Capitolul 9. Aplicabilitate profesională
+## Capitolul 10. Aplicabilitate profesională
 
 Index: BDR-19980219-v1.00r-SUB-029
-### 9.1. Aplicabilitate profesională
+### 10.1. Aplicabilitate profesională
 
 Index: BDR-19980219-v1.00r-P-035
 Aplicabilitatea profesională traduce data nașterii în zona muncii, carierei și colaborărilor. Ea nu impune o meserie, ci conturează direcția de lucru: energia pe care o poți folosi mai natural, ritmul profesional potrivit și obstacolul care merită recunoscut înainte să devină blocaj.
-
-Index: BDR-19980219-v1.00r-P-036
-În această metodă citim două răspunsuri. **DA** arată direcția profesională care poate fi cultivată și folosită concret. **NU** arată obstacolul, adică forma prin care energia se poate bloca dacă nu este gestionată conștient.
 
 Index: BDR-19980219-v1.00r-P-046
 > [!example] Calcul aplicabilitate profesională
@@ -681,10 +896,10 @@ Index: BDR-19980219-v1.00r-T-016
 | Aplicabilitate profesională DA | Aplicabilitate profesională NU |
 | --- | --- |
 | ![Arcana 7 — Carul, aplicabilitate profesională](tarot-07-carul-aplicabilitate-profesionala.jpg)<br>_Arcana 7 — Carul. Direcția profesională de cultivat_ | ![Arcana 17 — Steaua, obstacole profesionale](tarot-17-steaua-obstacole-profesionale.jpg)<br>_Arcana 17 — Steaua. Obstacolul profesional de echilibrat_ |
-| **Index: BDR-19980219-v1.00r-P-047**<br>Pentru tine, Daniel, direcția profesională are nevoie de mișcare și de capacitatea de a ține mai multe forțe pe același drum. Îți pot veni bine proiectele dinamice, managementul, vânzările consultative, strategia, logistica, antreprenoriatul și coordonarea echipelor, mai ales acolo unde trebuie să transformi comunicarea în rezultat. Întrebarea practică este: „Care este direcția și ce pas concret fac acum?” | **Index: BDR-19980219-v1.00r-P-048**<br>Aici nu spunem că inspirația sau visul sunt greșite; îți arătăm ce se poate transforma în obstacol dacă rămâne doar la nivel de ideal, așteptare sau căutare a contextului perfect. Folosește viziunea ca sursă de sens, dar coboar-o în program, decizie, termen și acțiune vizibilă. |
+| **Index: BDR-19980219-v1.00r-P-047**<br>Carul simbolizează ambiția, determinarea și capacitatea de a transforma obiectivele în rezultate concrete. În plan profesional, această energie te susține atunci când îți asumi responsabilități, iei inițiativa și nu te retragi în fața provocărilor. Ai voință, spirit competitiv și capacitatea de a rămâne concentrat chiar și în situații dificile, mobilizând resurse și oameni pentru atingerea unui scop comun.<br><br>Carul favorizează domeniile dinamice, în care sunt necesare decizii rapide, leadership și perseverență: management, antreprenoriat, vânzări, logistică, transport, armată, poliție, sport, inginerie, coordonarea proiectelor sau orice activitate în care organizarea și asumarea responsabilității sunt esențiale. Poți da cel mai bun randament atunci când ai obiective clare, autonomie și posibilitatea de a conduce sau de a influența direcția unei echipe.<br><br>Cheia succesului acestei arcane este echilibrul dintre voință și autocontrol. Adevărata victorie nu vine din forță sau grabă, ci din disciplină, strategie și consecvență. Atunci când îți canalizezi energia în mod matur, poți deveni un lider respectat, capabil să depășești obstacolele și să transformi provocările în oportunități de dezvoltare și succes profesional. | **Index: BDR-19980219-v1.00r-P-048**<br>Când Steaua apare ca obstacol în carieră, ea nu indică lipsa talentului, ci dificultatea de a transforma talentul în rezultate concrete. Ai idei, inspirație și potențial, însă poți rămâne blocat în planuri, idealuri sau în așteptarea momentului perfect. Uneori îți subestimezi valoarea, eviți să te afirmi sau renunți prea repede când realitatea nu corespunde așteptărilor.<br><br>Un alt blocaj poate fi perfecționismul și nevoia de validare din partea celorlalți. Dacă aprecierea nu apare imediat, motivația poate scădea și poți abandona proiecte valoroase înainte ca ele să se maturizeze. Steaua poate arăta și tendința de a visa mult și de a acționa prea puțin, lăsând oportunități importante să treacă.<br><br>Lecția acestei arcane este să transformi inspirația în disciplină și perseverență. Succesul profesional nu apare doar prin talent sau viziune, ci prin pași constanți, asumare și încredere în propriile capacități. Când renunți la căutarea perfecțiunii și începi să construiești consecvent, Steaua își dezvăluie adevărata forță: capacitatea de a inspira, de a crea și de a deveni un reper pentru ceilalți. Obstacolul devine astfel cea mai mare oportunitate de dezvoltare profesională. |
 
 Index: BDR-19980219-v1.00r-CAP-015
-## Capitolul 10. Concluzii
+## Capitolul 11. Concluzii
 
 Index: BDR-19980219-v1.00r-P-032
 Daniel, harta scurtă arată un om care pornește prin **1**, se întâlnește cu lumea prin **2** și are de construit expresia matură a lui **3**. Mintea și creativitatea sunt puternice, iar numele adaugă responsabilitatea lui **6** și perspectiva repetată a lui **9**. Tocmai de aceea, progresul tău nu depinde de încă o idee, ci de forma simplă pe care i-o dai: termen, buget, rutină și încheiere.

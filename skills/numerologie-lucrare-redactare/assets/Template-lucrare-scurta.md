@@ -124,7 +124,18 @@ Index: {{cod_lucrare}}-SUB-009
 Index: {{cod_lucrare}}-SUB-010
 ### 2.3. Interior și exterior
 
+Index: {{cod_lucrare}}-P-{{index_dialog_interior_exterior}}
 {{interpretare_dialog_interior_exterior}}
+
+Index: {{cod_lucrare}}-P-{{index_definitie_punte_interior_exterior}}
+{{definitie_punte_interior_exterior_ca_distanta_si_ajustare}}
+
+Index: {{cod_lucrare}}-C-{{index_calcul_punte_interior_exterior}}
+> [!example] Calculul punții interior–exterior
+> |**{{vibratie_interioara}}** − **{{vibratie_exterioara}}**| = **{{punte_interior_exterior}}**
+
+Index: {{cod_lucrare}}-P-{{index_interpretare_punte_interior_exterior}}
+{{interpretare_punte_interior_exterior_autenticitate_coerenta_rol_asumat}}
 
 Index: {{cod_lucrare}}-CAP-007
 ## Capitolul 3. Destinul — Muntele de urcat
@@ -149,7 +160,18 @@ Index: {{cod_lucrare}}-CAP-008
 Index: {{cod_lucrare}}-SUB-013
 ### 4.1. Matricea datei de naștere
 
+Index: {{cod_lucrare}}-P-{{index_introducere_matrice}}
 {{definitie_matrice_si_metoda}}
+
+- **Căsuța 1** — inteligența psihică;
+- **Căsuța 2** — inteligența emoțională;
+- **Căsuța 3** — inteligența prelucrării informațiilor;
+- **Căsuța 4** — inteligența corporală;
+- **Căsuța 5** — inteligența intuitivă;
+- **Căsuța 6** — inteligența pragmatismului;
+- **Căsuța 7** — inteligența spirituală;
+- **Căsuța 8** — inteligența puterii și inteligența socială;
+- **Căsuța 9** — inteligența mentală.
 
 Index: {{cod_lucrare}}-C-004
 > [!example] Calcul
@@ -199,7 +221,7 @@ Index: {{cod_lucrare}}-P-{{index_casuta_9}}
 Index: {{cod_lucrare}}-SUB-015
 ### 4.3. Elemente și temperament
 
-<div class="element-analysis">
+<div class="element-analysis framed-panel">
 <div class="element-indexes"><span>Index: {{cod_lucrare}}-T-012</span><span>Index: {{cod_lucrare}}-P-{{index_definitii_elemente}}</span></div>
 <div class="element-chart">
 <div class="element-bars" role="img" aria-label="Distribuția elementelor">
@@ -225,7 +247,7 @@ Index: {{cod_lucrare}}-SUB-016
 ### 4.4. Masculin și feminin
 
 Index: {{cod_lucrare}}-P-{{index_par_impar}}
-<div class="parity-chart" role="img" aria-label="Raportul cifrelor impare și pare">
+<div class="parity-chart framed-panel" style="width:100%;max-width:none" role="img" aria-label="Raportul cifrelor impare și pare">
 <div class="parity-chart-total">Total: <strong>{{total_cifre_matrice}}</strong> cifre</div>
 <div class="parity-chart-bar"><span class="parity-odd" style="width:{{procent_impare}}%"><strong>Impare · {{total_impare}}</strong></span><span class="parity-even" style="width:{{procent_pare}}%"><strong>Pare · {{total_pare}}</strong></span></div>
 </div>
@@ -251,69 +273,76 @@ Index: {{cod_lucrare}}-CAP-009
 ## Capitolul 5. Numele — Eu și neamul
 
 Index: {{cod_lucrare}}-SUB-018
-### 5.1. Numărul ereditar
-
-{{calcul_si_interpretare_numar_ereditar}}
-
-Index: {{cod_lucrare}}-SUB-019
-### 5.2. Numărul activ
+### 5.1. Numărul activ
 
 {{calcul_si_interpretare_numar_activ}}
 
-Index: {{cod_lucrare}}-SUB-020
-### 5.3. Numărul de realizare
+Index: {{cod_lucrare}}-SUB-019
+### 5.2. Numărul intim
 
-{{calcul_si_interpretare_numar_realizare}}
+{{definitie_calcul_si_interpretare_numar_intim_din_vocale}}
+
+Index: {{cod_lucrare}}-SUB-020
+### 5.3. Numărul ereditar
+
+{{calcul_si_interpretare_numar_ereditar}}
 
 Index: {{cod_lucrare}}-SUB-021
-### 5.4. Numărul neamului
+### 5.4. Numărul ereditar karmic
+
+Index: {{cod_lucrare}}-P-{{index_definitie_numar_ereditar_karmic}}
+{{definitie_numar_ereditar_karmic}}
 
 Index: {{cod_lucrare}}-C-005
 > [!example] Calcul în intervalul 1–22
 > {{calcul_numar_neam}} → **{{numar_arcana_neam}}**
 
 Index: {{cod_lucrare}}-T-013
-| Arcana | Denumire | Resursă moștenită | Manifestare | Umbră | Maturizare |
-| ---: | --- | --- | --- | --- | --- |
-| {{numar_arcana_neam}} | {{nume_arcana_neam}} | {{resursa_arcana_neam}} | {{manifestare_arcana_neam}} | {{umbra_arcana_neam}} | {{maturizare_arcana_neam}} |
+<table class="tarot-profile-table"><tbody><tr><td><div>Index: {{cod_lucrare}}-G-003</div><img src="vault/tarot/imagini/{{fisier_arcana_neam}}" alt="Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}" width="190"><div class="tarot-image-caption"><em>Arcana <strong>{{numar_arcana_neam}}</strong> — {{nume_arcana_neam}}</em></div></td><td><ul><li><strong>Resursă moștenită:</strong> {{resursa_arcana_neam}}</li><li><strong>Manifestare:</strong> {{manifestare_arcana_neam}}</li><li><strong>Umbră:</strong> {{umbra_arcana_neam}}</li><li><strong>Maturizare:</strong> {{maturizare_arcana_neam}}</li></ul></td></tr></tbody></table>
 
-Index: {{cod_lucrare}}-G-003
-![Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}](vault/tarot/imagini/{{fisier_arcana_neam}})
+Index: {{cod_lucrare}}-P-{{index_interpretare_numar_ereditar_karmic}}
+{{interpretare_numar_ereditar_karmic_si_arcana}}
 
-_Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}_
+Index: {{cod_lucrare}}-P-{{index_umbra_numar_ereditar_karmic}}
+{{umbra_si_maturizare_numar_ereditar_karmic}}
 
 Index: {{cod_lucrare}}-SUB-022
-### 5.5. Codul numerologic al numelui
+### 5.5. Numărul de realizare
 
-#### Numele actual — {{nume_actual}}
-
-Index: {{cod_lucrare}}-T-001
-| Nume | Mentale | Fizice | Emoționale | Intuitive | Total |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Inițiatoare | {{actual_initiatoare_mental}} | {{actual_initiatoare_fizic}} | {{actual_initiatoare_emotional}} | {{actual_initiatoare_intuitiv}} | **{{actual_total_initiatoare}}** |
-| Continuatoare | {{actual_continuatoare_mental}} | {{actual_continuatoare_fizic}} | {{actual_continuatoare_emotional}} | {{actual_continuatoare_intuitiv}} | **{{actual_total_continuatoare}}** |
-| Finalizatoare | {{actual_finalizatoare_mental}} | {{actual_finalizatoare_fizic}} | {{actual_finalizatoare_emotional}} | {{actual_finalizatoare_intuitiv}} | **{{actual_total_finalizatoare}}** |
-| **Total** | **{{actual_total_mental}}** | **{{actual_total_fizic}}** | **{{actual_total_emotional}}** | **{{actual_total_intuitiv}}** | **{{actual_total_general}}** |
-
-> [!info] Bloc condițional — nume anterior
-> Păstrează următorul tabel și comparația numai dacă persoana are nume anterior.
-
-#### Numele anterior — {{nume_anterior}}
-
-Index: {{cod_lucrare}}-T-002
-| Nume | Mentale | Fizice | Emoționale | Intuitive | Total |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Inițiatoare | {{anterior_initiatoare_mental}} | {{anterior_initiatoare_fizic}} | {{anterior_initiatoare_emotional}} | {{anterior_initiatoare_intuitiv}} | **{{anterior_total_initiatoare}}** |
-| Continuatoare | {{anterior_continuatoare_mental}} | {{anterior_continuatoare_fizic}} | {{anterior_continuatoare_emotional}} | {{anterior_continuatoare_intuitiv}} | **{{anterior_total_continuatoare}}** |
-| Finalizatoare | {{anterior_finalizatoare_mental}} | {{anterior_finalizatoare_fizic}} | {{anterior_finalizatoare_emotional}} | {{anterior_finalizatoare_intuitiv}} | **{{anterior_total_finalizatoare}}** |
-| **Total** | **{{anterior_total_mental}}** | **{{anterior_total_fizic}}** | **{{anterior_total_emotional}}** | **{{anterior_total_intuitiv}}** | **{{anterior_total_general}}** |
-
-{{interpretare_cod_nume_si_comparatie_conditionala}}
+{{calcul_si_interpretare_numar_realizare_si_legatura_cu_vibratia_exterioara}}
 
 Index: {{cod_lucrare}}-SUB-023
 ### 5.6. Numărul de exprimare
 
-{{calcul_si_interpretare_numar_exprimare}}
+{{calcul_si_interpretare_numar_exprimare_si_armonizare_cu_destinul}}
+
+Index: {{cod_lucrare}}-SUB-023a
+### 5.7. Codul numerologic al numelui
+
+#### Numele actual — {{nume_actual}}
+
+Index: {{cod_lucrare}}-C-{{index_calcul_cod_nume}}
+> [!example] Calcul
+> {{calcul_cod_litere_componenta_1}}
+>
+> {{calcul_cod_litere_componenta_2}}
+>
+> {{calcul_cod_litere_componenta_3}}
+>
+> Codul literelor numelui = **{{cod_litere_nume}}**
+>
+> Codul numerologic personal al numelui = **{{cod_numerologic_personal_nume}}**
+
+Index: {{cod_lucrare}}-G-002a
+{{matrice_comparativa_data_si_nume}}
+
+Index: {{cod_lucrare}}-P-{{index_comparatie_data_nume}}
+{{interpretare_comparatie_data_nume_resurse_comune}}
+
+Index: {{cod_lucrare}}-P-{{index_comparatie_data_nume_aport}}
+{{interpretare_energii_doar_in_nume_ca_impresie_si_aport_extern}}
+
+{{bloc_nume_anterior_conditional}}
 
 Index: {{cod_lucrare}}-CAP-010
 ## Capitolul 6. Pinacluri: Oportunități și provocări
@@ -408,6 +437,9 @@ Index: {{cod_lucrare}}-T-015
 | --- | --- | ---: | --- |
 | {{ciclu_12_1}} | {{interval_calendaristic_12_1}} | {{varste_12_1}} | {{interpretare_ciclu_12_1}} |
 | {{adauga_randuri_ciclu_12_pentru_interval}} |  |  |  |
+
+> [!important] Ciclul activ
+> Marchează cu roșu și bold toate celulele rândului care conține data curentă. În HTML, aplică rândului clasa `active-cycle`.
 
 {{interpretare_ciclu_12}}
 
@@ -505,5 +537,8 @@ Index: {{cod_lucrare}}-T-014
 - [ ] Capitolul Relații este inclus numai când există date relaționale.
 - [ ] Aplicabilitatea profesională este inclusă numai împreună cu Relațiile, iar T-016 are calcul unic, imagini și interpretări pe coloane egale.
 - [ ] HTML-ul livrează toate SVG-urile și imaginile incorporate ca data URI.
+- [ ] Subcapitolul Interior și exterior conține dialogul, definiția punții, calculul absolut în chenar și interpretarea autenticității.
+- [ ] Capitolul 5 respectă ordinea Activ, Intim, Ereditar, Ereditar karmic, Realizare, Exprimare, Codul numelui.
+- [ ] Ciclul activ din T-015 este marcat cu roșu și bold, iar diacriticele sunt UTF-8 fără mojibake.
 - [ ] SVG-ul Omulețului relațiilor este valid, are watermark `Atlas Numerologie` și nu a fost editat manual.
 - [ ] Nu există date, ani, interpretări sau resurse rămase de la persoana-model.

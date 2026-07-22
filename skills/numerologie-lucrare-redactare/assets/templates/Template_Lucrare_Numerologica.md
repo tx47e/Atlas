@@ -278,9 +278,9 @@ care cere relansare, asumare si transformarea potentialului in actiune clara.
 ### Karma din Ziua Nasterii
 
 - Descriere:
-- Calcul:
+- Calcul: `zi = {{zi_nastere}} -> arcana {{karma_zi_arcana}}`
 - Arcana karmica:
-- Nivel karma implinita:
+- Nivel karma implinita: `{{karma_zi_procent}}`
 - Interpretare:
 
 ### Karma din Luna Nasterii

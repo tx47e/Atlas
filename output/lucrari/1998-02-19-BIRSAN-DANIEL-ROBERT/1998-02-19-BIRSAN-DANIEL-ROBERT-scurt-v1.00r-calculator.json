@@ -22,8 +22,9 @@
         }
       },
       "vibratia_interioara_karmica": {
-        "status": "de_completat",
-        "observatie": "Trebuie validata regula de karma pentru zi in versiunea finala."
+        "zi": 19,
+        "arcana": 19,
+        "procent": "spre 80%"
       },
       "linii_de_tensiune": {
         "status": "de_completat",
@@ -2827,4 +2828,3 @@
     }
   }
 }
-

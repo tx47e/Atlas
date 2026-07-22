@@ -20,8 +20,19 @@ Interpretarea se face prin [[tarot/Index|Arcanele Majore]] si prin trecerea de l
 ## Formula de calcul
 
 ```text
-karma_zilei_de_nastere = ziua nasterii
+functie karma_zilei_de_nastere(zi):
+  arcana = 0 daca zi == 22 altfel ((zi - 1) % 22) + 1
+  procent =:
+    1-9   -> "spre 100%"
+    10-19 -> "spre 80%"
+    20-29 -> "spre 60%"
+    30-31 -> "spre 40%"
+  return { zi, arcana, procent }
 ```
+
+Formula pastreaza ziua calendaristica in rezultat. Numai arcana este proiectata
+in intervalul `0-21`, iar procentul este ales din intervalul zilei, nu din
+valoarea arcanei.
 
 ### Asociere cu Arcanele Majore
 
@@ -51,30 +62,30 @@ karma_zilei_de_nastere = ziua nasterii
 ---
 ## Interpretare generala
 
-| Karma | Zile | Arcana | Cheie de lucru |
-| --- | --- | --- | --- |
-| 1 | 1, 23 | [[1-Magicianul|Magicianul]] | lider, concentrare, transformarea orgoliului |
-| 2 | 2, 24 | [[2-Marea Preoteasa|Marea Preoteasa]] | bunatate, ajutor, diplomatie, altruism |
-| 3 | 3, 25 | [[3-Imparateasa|Imparateasa]] | talente, expresie creativa, harnicie |
-| 4 | 4, 26 | [[4-Imparatul|Imparatul]] | profesionalism, lege, generozitate, cumpatare |
-| 5 | 5, 27 | [[5-Marele Preot|Marele Preot]] | smerenie, intelepciune practica |
-| 6 | 6, 28 | [[6-Indragostitii|Indragostitii]] | familie, fidelitate, alegere matura |
-| 7 | 7, 29 | [[7-Carul|Carul]] | stiinta, cercetare, credinta, intelect |
-| 8 | 8, 30 | [[8-Puterea|Puterea]] | putere interioara, control, responsabilitate |
-| 9 | 9, 31 | [[9-Ermitul|Ermitul]] | cunoastere pusa in slujba celorlalti |
-| 10 | 10 | [[10-Roata Norocului|Roata Norocului]] | folosirea corecta a oportunitatilor |
-| 11 | 11 | [[11-Dreptatea|Dreptatea]] | corectitudine, lege cauza-efect, responsabilitate |
-| 12 | 12 | [[12-Spanzuratul|Spanzuratul]] | bunatate, sacrificiu, iluminare |
-| 13 | 13 | [[13-Moartea|Moartea]] | transformare, eliberare, renastere |
-| 14 | 14 | [[14-Cumpatarea|Cumpatarea]] | masura, echilibru, recunostinta |
-| 15 | 15 | [[15-Diavolul|Diavolul]] | cunoastere folosita corect |
-| 16 | 16 | [[16-Turnul|Turnul]] | constructie, impacare, bunastare comuna |
-| 17 | 17 | [[17-Steaua|Steaua]] | smerenie, stralucire meritata |
-| 18 | 18 | [[18-Luna|Luna]] | onestitate, intuitie, creativitate folositoare |
-| 19 | 19 | [[19-Soarele|Soarele]] | inspiratie, libertate, putere responsabila |
-| 20 | 20 | [[20-Judecata|Judecata]] | apararea neamului, culturii si traditiei |
-| 21 | 21 | [[21-Lumea|Lumea]] | apararea patriei si valorilor nationale |
-| 22 | 22 | Nebunul | libertate, relatia cu copiii, incredere in drum |
+| Karma | Zile  | Arcana             | Cheie de lucru                                    |
+| ----- | ----- | ------------------ | ------------------------------------------------- |
+| 1     | 1, 23 | 1-Magicianul       | lider, concentrare, transformarea orgoliului      |
+| 2     | 2, 24 | 2-Marea Preoteasa  | bunatate, ajutor, diplomatie, altruism            |
+| 3     | 3, 25 | 3-Imparateasa      | talente, expresie creativa, harnicie              |
+| 4     | 4, 26 | 4-Imparatul        | profesionalism, lege, generozitate, cumpatare     |
+| 5     | 5, 27 | 5-Marele Preot     | smerenie, intelepciune practica                   |
+| 6     | 6, 28 | 6-Indragostitii    | familie, fidelitate, alegere matura               |
+| 7     | 7, 29 | 7-Carul            | stiinta, cercetare, credinta, intelect            |
+| 8     | 8, 30 | 8-Puterea          | putere interioara, control, responsabilitate      |
+| 9     | 9, 31 | 9-Ermitul          | cunoastere pusa in slujba celorlalti              |
+| 10    | 10    | 10-Roata Norocului | folosirea corecta a oportunitatilor               |
+| 11    | 11    | 11-Dreptatea       | corectitudine, lege cauza-efect, responsabilitate |
+| 12    | 12    | 12-Spanzuratul     | bunatate, sacrificiu, iluminare                   |
+| 13    | 13    | 13-Moartea         | transformare, eliberare, renastere                |
+| 14    | 14    | 14-Cumpatarea      | masura, echilibru, recunostinta                   |
+| 15    | 15    | 15-Diavolul        | cunoastere folosita corect                        |
+| 16    | 16    | 16-Turnul          | constructie, impacare, bunastare comuna           |
+| 17    | 17    | 17-Steaua          | smerenie, stralucire meritata                     |
+| 18    | 18    | 18-Luna            | onestitate, intuitie, creativitate folositoare    |
+| 19    | 19    | 19-Soarele         | inspiratie, libertate, putere responsabila        |
+| 20    | 20    | 20-Judecata        | apararea neamului, culturii si traditiei          |
+| 21    | 21    | 21-Lumea           | apararea patriei si valorilor nationale           |
+| 22    | 22    | 0-Nebunul          | libertate, relatia cu copiii, incredere in drum   |
 
 ---
 ## Exemplu de calcul

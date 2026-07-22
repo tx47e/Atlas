@@ -110,6 +110,7 @@ tbody tr:nth-child(even) { background: rgba(247, 239, 227, .45); }
 .polarities-table tbody tr:first-child th, .polarities-table tbody tr:first-child td, .polarities-table tbody tr:nth-child(2) th, .polarities-table tbody tr:nth-child(2) td { border-bottom: 1px solid var(--line) !important; }
 .total-row { font-weight: 700; background: #edf5f5 !important; }
 .active-year { background: #fff1a8; font-weight: 700; }
+.active-cycle, .active-cycle td { color: #b42318; font-weight: 700; }
 .cycle-start { color: #068b45; font-weight: 700; }
 .cycle-end { color: #d92020; font-weight: 700; }
 .cycle-7-table th { padding: 7px 6px; font-size: 12px; white-space: normal; }
@@ -152,13 +153,13 @@ tbody tr:nth-child(even) { background: rgba(247, 239, 227, .45); }
 .tarot-profile-table td:last-child { vertical-align: middle; }
 .index + .element-bars { margin-top: 2px; }
 .element-bars { margin: 18px 0 28px; max-width: 720px; }
-.element-analysis { display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1fr); column-gap: 28px; row-gap: 2px; align-items: start; margin: 2px 0 18px; }
+.element-analysis { display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1fr); column-gap: 28px; row-gap: 2px; align-items: start; margin: 2px 0 18px; padding: 16px; background: var(--paper); border: 1px solid var(--sand); border-radius: 5px; box-shadow: 0 4px 16px rgba(6, 68, 77, .18); }
 .element-indexes { display: contents; }
 .element-indexes .index { margin-top: 0; }
 .element-analysis .element-bars { max-width: none; margin: 0; }
 .element-definitions { list-style: disc; margin: 0; padding-left: 1.3em; }
 .element-definitions li { min-height: 66px; margin: 0; display: list-item; padding-top: 18px; }
-.parity-chart { margin: 4px 0 12px; max-width: 720px; }
+.parity-chart { width: 100%; max-width: none; margin: 4px 0 12px; padding: 16px; background: var(--paper); border: 1px solid var(--sand); border-radius: 5px; box-shadow: 0 4px 16px rgba(6, 68, 77, .18); }
 .parity-chart-total { margin-bottom: 4px; font-size: 13px; color: var(--muted); }
 .parity-chart-bar { display: flex; height: 34px; overflow: hidden; border: 1px solid rgba(11, 43, 44, .18); border-radius: 6px; background: rgba(11, 43, 44, .1); }
 .parity-chart-bar span { display: flex; align-items: center; justify-content: center; min-width: 0; padding: 0 8px; font-size: 13px; white-space: nowrap; }
@@ -260,7 +261,11 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <h3 id="2-1-definitie">2.1. Definiție</h3><p>{{definitie_vibratie_exterioara_si_metoda}}</p>
 <div class="calc-box">Luna din data de naștere = {{calcul_vibratie_exterioara}}</div>
 <h3 id="2-2-caracterul-social">2.2. Caracterul social</h3><p>{{interpretare_caracter_social}}</p>
-<h3 id="2-3-interior-si-exterior">2.3. Interior și exterior</h3><p>{{interpretare_dialog_interior_exterior}}</p>
+<h3 id="2-3-interior-si-exterior">2.3. Interior și exterior</h3>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_dialog_interior_exterior}}</div><p>{{interpretare_dialog_interior_exterior}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_definitie_punte_interior_exterior}}</div><p>{{definitie_punte_interior_exterior_ca_distanta_si_ajustare}}</p>
+<div class="index">Index: {{cod_lucrare}}-C-{{index_calcul_punte_interior_exterior}}</div><div class="calc-box">|<strong>{{vibratie_interioara}}</strong> − <strong>{{vibratie_exterioara}}</strong>| = <strong>{{punte_interior_exterior}}</strong></div>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_interpretare_punte_interior_exterior}}</div><p>{{interpretare_punte_interior_exterior_autenticitate_coerenta_rol_asumat}}</p>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-007</div>
 <h2 id="capitolul-3-destinul">Capitolul 3. Destinul — Muntele de urcat</h2>
@@ -271,7 +276,18 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-008</div>
 <h2 id="capitolul-4-matrita-numerologica">Capitolul 4. Matrița numerologică — Pătratul lui Pitagora</h2>
 <h3 id="4-1-matricea-datei-de-nastere">4.1. Matricea datei de naștere</h3>
-<p>{{definitie_matrice_si_metoda}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_introducere_matrice}}</div><p>{{definitie_matrice_si_metoda}}</p>
+<ul>
+  <li><strong>Căsuța 1</strong> — inteligența psihică;</li>
+  <li><strong>Căsuța 2</strong> — inteligența emoțională;</li>
+  <li><strong>Căsuța 3</strong> — inteligența prelucrării informațiilor;</li>
+  <li><strong>Căsuța 4</strong> — inteligența corporală;</li>
+  <li><strong>Căsuța 5</strong> — inteligența intuitivă;</li>
+  <li><strong>Căsuța 6</strong> — inteligența pragmatismului;</li>
+  <li><strong>Căsuța 7</strong> — inteligența spirituală;</li>
+  <li><strong>Căsuța 8</strong> — inteligența puterii și inteligența socială;</li>
+  <li><strong>Căsuța 9</strong> — inteligența mentală.</li>
+</ul>
 <div class="index">Index: {{cod_lucrare}}-C-004</div>
 <div class="calc-box">Data compactă: <strong>{{data_compacta}}</strong><br>N1 = <strong>{{N1}}</strong><br>N2 = <strong>{{N2_o_singura_insumare}}</strong><br>N3 = <strong>{{N3}}</strong><br>N4 = <strong>{{N4_o_singura_insumare}}</strong><br>Șir complet / număr logic = <strong>{{sir_complet}}</strong></div>
 <div class="index">Index: {{cod_lucrare}}-G-002</div>
@@ -305,34 +321,26 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-009</div>
 <h2 id="capitolul-5-numele">Capitolul 5. Numele — Eu și neamul</h2>
-<h3 id="5-1-numarul-ereditar">5.1. Numărul ereditar</h3><p>{{calcul_si_interpretare_numar_ereditar}}</p>
-<h3 id="5-2-numarul-activ">5.2. Numărul activ</h3><p>{{calcul_si_interpretare_numar_activ}}</p>
-<h3 id="5-3-numarul-de-realizare">5.3. Numărul de realizare</h3><p>{{calcul_si_interpretare_numar_realizare}}</p>
-<h3 id="5-4-numarul-neamului">5.4. Numărul neamului</h3>
-<div class="calc-box">{{calcul_numar_neam}} → <strong>{{numar_arcana_neam}}</strong></div>
+<h3 id="5-1-numarul-activ">5.1. Numărul activ</h3><p>{{calcul_si_interpretare_numar_activ}}</p>
+<h3 id="5-2-numarul-intim">5.2. Numărul intim</h3><p>{{definitie_calcul_si_interpretare_numar_intim_din_vocale}}</p>
+<h3 id="5-3-numarul-ereditar">5.3. Numărul ereditar</h3><p>{{calcul_si_interpretare_numar_ereditar}}</p>
+<h3 id="5-4-numarul-ereditar-karmic">5.4. Numărul ereditar karmic</h3>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_definitie_numar_ereditar_karmic}}</div><p>{{definitie_numar_ereditar_karmic}}</p>
+<div class="index">Index: {{cod_lucrare}}-C-005</div><div class="calc-box">{{calcul_numar_neam}} → <strong>{{numar_arcana_neam}}</strong></div>
 <div class="index">Index: {{cod_lucrare}}-T-013</div>
-<div class="table-wrap"><table><thead><tr><th>Arcana</th><th>Denumire</th><th>Resursă moștenită</th><th>Manifestare</th><th>Umbră</th><th>Maturizare</th></tr></thead><tbody><tr><td>{{numar_arcana_neam}}</td><td>{{nume_arcana_neam}}</td><td>{{resursa_arcana_neam}}</td><td>{{manifestare_arcana_neam}}</td><td>{{umbra_arcana_neam}}</td><td>{{maturizare_arcana_neam}}</td></tr></tbody></table></div>
-<figure><img class="tarot-image" src="{{arcana_neam_data_uri}}" alt="Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}"><figcaption>Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}</figcaption></figure>
-<h3 id="5-5-codul-numerologic-al-numelui">5.5. Codul numerologic al numelui</h3>
+<div class="table-wrap tarot-profile-wrap"><table class="tarot-profile-table"><tbody><tr><td><div class="index">Index: {{cod_lucrare}}-G-003</div><img class="tarot-image tarot-table-image" src="{{arcana_neam_data_uri}}" alt="Arcana {{numar_arcana_neam}} — {{nume_arcana_neam}}" width="190"><div class="tarot-image-caption"><em>Arcana <strong>{{numar_arcana_neam}}</strong> — {{nume_arcana_neam}}</em></div></td><td><ul><li><strong>Resursă moștenită:</strong> {{resursa_arcana_neam}}</li><li><strong>Manifestare:</strong> {{manifestare_arcana_neam}}</li><li><strong>Umbră:</strong> {{umbra_arcana_neam}}</li><li><strong>Maturizare:</strong> {{maturizare_arcana_neam}}</li></ul></td></tr></tbody></table></div>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_interpretare_numar_ereditar_karmic}}</div><p>{{interpretare_numar_ereditar_karmic_si_arcana}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_umbra_numar_ereditar_karmic}}</div><p>{{umbra_si_maturizare_numar_ereditar_karmic}}</p>
+<h3 id="5-5-numarul-de-realizare">5.5. Numărul de realizare</h3><p>{{calcul_si_interpretare_numar_realizare_si_legatura_cu_vibratia_exterioara}}</p>
+<h3 id="5-6-numarul-de-exprimare">5.6. Numărul de exprimare</h3><p>{{calcul_si_interpretare_numar_exprimare_si_armonizare_cu_destinul}}</p>
+<h3 id="5-7-codul-numerologic-al-numelui">5.7. Codul numerologic al numelui</h3>
 <h4>Numele actual — {{nume_actual}}</h4>
-<div class="index">Index: {{cod_lucrare}}-T-001</div>
-<div class="table-wrap"><table><thead><tr><th>Nume</th><th>Mentale</th><th>Fizice</th><th>Emoționale</th><th>Intuitive</th><th>Total</th></tr></thead><tbody>
-<tr><td>Inițiatoare</td><td>{{actual_initiatoare_mental}}</td><td>{{actual_initiatoare_fizic}}</td><td>{{actual_initiatoare_emotional}}</td><td>{{actual_initiatoare_intuitiv}}</td><td><strong>{{actual_total_initiatoare}}</strong></td></tr>
-<tr><td>Continuatoare</td><td>{{actual_continuatoare_mental}}</td><td>{{actual_continuatoare_fizic}}</td><td>{{actual_continuatoare_emotional}}</td><td>{{actual_continuatoare_intuitiv}}</td><td><strong>{{actual_total_continuatoare}}</strong></td></tr>
-<tr><td>Finalizatoare</td><td>{{actual_finalizatoare_mental}}</td><td>{{actual_finalizatoare_fizic}}</td><td>{{actual_finalizatoare_emotional}}</td><td>{{actual_finalizatoare_intuitiv}}</td><td><strong>{{actual_total_finalizatoare}}</strong></td></tr>
-<tr class="total-row"><td>Total</td><td>{{actual_total_mental}}</td><td>{{actual_total_fizic}}</td><td>{{actual_total_emotional}}</td><td>{{actual_total_intuitiv}}</td><td>{{actual_total_general}}</td></tr>
-</tbody></table></div>
-<section class="conditional" data-template-condition="nume-anterior"><h4>Numele anterior — {{nume_anterior}}</h4>
-<div class="index">Index: {{cod_lucrare}}-T-002</div>
-<div class="table-wrap"><table><thead><tr><th>Nume</th><th>Mentale</th><th>Fizice</th><th>Emoționale</th><th>Intuitive</th><th>Total</th></tr></thead><tbody>
-<tr><td>Inițiatoare</td><td>{{anterior_initiatoare_mental}}</td><td>{{anterior_initiatoare_fizic}}</td><td>{{anterior_initiatoare_emotional}}</td><td>{{anterior_initiatoare_intuitiv}}</td><td><strong>{{anterior_total_initiatoare}}</strong></td></tr>
-<tr><td>Continuatoare</td><td>{{anterior_continuatoare_mental}}</td><td>{{anterior_continuatoare_fizic}}</td><td>{{anterior_continuatoare_emotional}}</td><td>{{anterior_continuatoare_intuitiv}}</td><td><strong>{{anterior_total_continuatoare}}</strong></td></tr>
-<tr><td>Finalizatoare</td><td>{{anterior_finalizatoare_mental}}</td><td>{{anterior_finalizatoare_fizic}}</td><td>{{anterior_finalizatoare_emotional}}</td><td>{{anterior_finalizatoare_intuitiv}}</td><td><strong>{{anterior_total_finalizatoare}}</strong></td></tr>
-<tr class="total-row"><td>Total</td><td>{{anterior_total_mental}}</td><td>{{anterior_total_fizic}}</td><td>{{anterior_total_emotional}}</td><td>{{anterior_total_intuitiv}}</td><td>{{anterior_total_general}}</td></tr>
-</tbody></table></div></section>
-<p>{{interpretare_cod_nume_si_comparatie_conditionala}}</p>
-<h3 id="5-6-numarul-de-exprimare">5.6. Numărul de exprimare</h3><p>{{calcul_si_interpretare_numar_exprimare}}</p>
-
+<div class="index">Index: {{cod_lucrare}}-C-{{index_calcul_cod_nume}}</div>
+<div class="calc-box">{{calcul_cod_litere_componenta_1}}<br>{{calcul_cod_litere_componenta_2}}<br>{{calcul_cod_litere_componenta_3}}<br>Codul literelor numelui = <strong>{{cod_litere_nume}}</strong><br>Codul numerologic personal al numelui = <strong>{{cod_numerologic_personal_nume}}</strong></div>
+<div class="index">Index: {{cod_lucrare}}-G-002a</div>{{matrice_comparativa_data_si_nume_html}}
+<div class="index">Index: {{cod_lucrare}}-P-{{index_comparatie_data_nume}}</div><p>{{interpretare_comparatie_data_nume_resurse_comune}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_comparatie_data_nume_aport}}</div><p>{{interpretare_energii_doar_in_nume_ca_impresie_si_aport_extern}}</p>
+{{bloc_nume_anterior_conditional_html}}
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-010</div>
 <h2 id="capitolul-6-pinacluri-oportunitati-si-provocari">Capitolul 6. Pinacluri: Oportunități și provocări</h2>
 <div class="index">Index: {{cod_lucrare}}-P-024b</div>
@@ -370,6 +378,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <p>{{interpretare_ciclu_9_si_an_personal}}</p>
 <h3 id="7-6-ciclul-de-12-ani">7.6. Ciclul de 12 ani</h3>
 <div class="index">Index: {{cod_lucrare}}-T-015</div>
+<!-- Aplică class="active-cycle" rândului care conține data curentă. -->
 <div class="table-wrap"><table class="twelve-year-table" style="width:100%;table-layout:fixed"><colgroup><col style="width:10%"><col style="width:20%"><col style="width:12%"><col style="width:58%"></colgroup><thead><tr><th>Ciclu</th><th>Interval calendaristic</th><th>Vârste</th><th>Citire</th></tr></thead><tbody>{{randuri_ciclu_12_html}}</tbody></table></div>
 <p>{{interpretare_ciclu_12}}</p>
 

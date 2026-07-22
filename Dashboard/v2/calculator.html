@@ -1678,7 +1678,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     const finalizatoare = new Set(["G", "L", "D", "M", "C", "V"]);
 
     const rows = [
-      { group: "Data nasterii", concept: "Vibratia interioara karma", method: "Ziua nasterii se pastreaza daca este intre 1 si 22; daca ziua este peste 22, se calculeaza ziua - 22.", calc: s => s.day > 22 ? `${s.day} - 22` : `${s.day}`, result: s => s.viKarma },
+      { group: "Data nasterii", concept: "Vibratia interioara karma", method: "Arcana este 0 pentru ziua 22; pentru restul zilelor se foloseste formula ((ziua - 1) % 22) + 1. Procentul se stabileste din intervalul zilei.", calc: s => `zi ${s.day} -> arcana ${s.viKarma}; ${s.viKarmaPercent}`, result: s => `Arcana ${s.viKarma}; ${s.viKarmaPercent}` },
       { group: "Data nasterii", concept: "Liniile de tensiune", method: "Schimbari de caracter in stres major; se noteaza succesiunea pornind de la vibratia interioara si numerele operationale ale metodei.", calc: s => `VI ${s.vi}; completare manuala pentru succesiune`, result: () => "de completat", manual: true },
       { group: "Data nasterii", concept: "Vibratia exterioara karma", method: "Luna nasterii se citeste ca valoare karmica atunci cand luna este 11 sau 12; altfel se noteaza luna conform metodei folosite.", calc: s => `${s.month}`, result: s => s.month },
       { group: "Data nasterii", concept: "Puntea interior - exterior", method: "Diferenta absoluta dintre vibratia interioara si vibratia exterioara.", calc: s => `|${s.vi} - ${s.ve}|`, result: s => Math.abs(s.vi - s.ve) },
@@ -1840,7 +1840,8 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         year
       };
       state.vi = reduceNumber(day);
-      state.viKarma = day > 22 ? day - 22 : day;
+      state.viKarma = day === 22 ? 0 : ((day - 1) % 22) + 1;
+      state.viKarmaPercent = day <= 9 ? "spre 100%" : day <= 19 ? "spre 80%" : day <= 29 ? "spre 60%" : "spre 40%";
       state.ve = reduceNumber(month);
       state.vg = reduceNumber(day + month);
       state.vcf = Number(String(year).slice(0, 2));

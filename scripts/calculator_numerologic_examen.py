@@ -140,6 +140,21 @@ def prima_cifra_nenula(numar: int) -> int:
     return 0
 
 
+def karma_zilei_de_nastere(zi: int) -> dict[str, Any]:
+    if not 1 <= zi <= 31:
+        raise ValueError("Ziua nasterii trebuie sa fie intre 1 si 31.")
+    arcana = 0 if zi == 22 else ((zi - 1) % 22) + 1
+    if zi <= 9:
+        procent = "spre 100%"
+    elif zi <= 19:
+        procent = "spre 80%"
+    elif zi <= 29:
+        procent = "spre 60%"
+    else:
+        procent = "spre 40%"
+    return {"zi": zi, "arcana": arcana, "procent": procent}
+
+
 def vibratii(data_nasterii: date) -> dict[str, Any]:
     zi = data_nasterii.day
     luna = data_nasterii.month
@@ -157,10 +172,7 @@ def vibratii(data_nasterii: date) -> dict[str, Any]:
             "formula": "reducere_numerologica(ziua nasterii)",
             "calcul": asdict(zi_redusa),
         },
-        "vibratia_interioara_karmica": {
-            "status": "de_completat",
-            "observatie": "Trebuie validata regula de karma pentru zi in versiunea finala.",
-        },
+        "vibratia_interioara_karmica": karma_zilei_de_nastere(zi),
         "linii_de_tensiune": {
             "status": "de_completat",
             "observatie": "Rubrica exista in cuprins, dar formula operationala trebuie confirmata.",
