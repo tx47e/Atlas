@@ -54,60 +54,60 @@
     <!-- Edge labels follow the septagram edges and sit just beside the line, toward the nearest star point. -->
     <g class="edge">
       <g transform="translate(816.6 235.1) rotate(77.1)" text-anchor="middle">
-        <text x="0" y="-8">0 - 3,5 ani</text>
-        <text x="0" y="8">49 - 52,5 ani</text>
-      </g>
-      <g transform="translate(925.9 714.1) rotate(77.1)" text-anchor="middle">
         <text x="0" y="-8">3,5 - 7 ani</text>
         <text x="0" y="8">52,5 - 56 ani</text>
       </g>
-      <g transform="translate(814.6 770.7) rotate(51.4)" text-anchor="middle">
-        <text x="0" y="-8">7 - 10,5 ani</text>
-        <text x="0" y="8">56 - 59,5 ani</text>
-      </g>
-      <g transform="translate(508.2 386.5) rotate(51.4)" text-anchor="middle">
-        <text x="0" y="-8">10,5 - 14 ani</text>
-        <text x="0" y="8">59,5 - 63 ani</text>
-      </g>
-      <g transform="translate(588.1 290.6) rotate(25.7)" text-anchor="middle">
-        <text x="0" y="-8">14 - 17,5 ani</text>
-        <text x="0" y="8">63 - 66,5 ani</text>
-      </g>
-      <g transform="translate(1030.9 503.8) rotate(25.7)" text-anchor="middle">
-        <text x="0" y="-8">17,5 - 21 ani</text>
-        <text x="0" y="8">66,5 - 70 ani</text>
-      </g>
-      <g transform="translate(1005.7 626.1) rotate(0.0)" text-anchor="middle">
+      <g transform="translate(925.9 714.1) rotate(77.1)" text-anchor="middle">
         <text x="0" y="-8">21 - 24,5 ani</text>
         <text x="0" y="8">70 - 73,5 ani</text>
       </g>
-      <g transform="translate(514.3 626.1) rotate(0.0)" text-anchor="middle">
+      <g transform="translate(814.6 770.7) rotate(51.4)" text-anchor="middle">
         <text x="0" y="-8">24,5 - 28 ani</text>
         <text x="0" y="8">73,5 - 77 ani</text>
       </g>
-      <g transform="translate(489.1 503.8) rotate(-25.7)" text-anchor="middle">
-        <text x="0" y="-8">28 - 31,5 ani</text>
-        <text x="0" y="8">77 - 80,5 ani</text>
-      </g>
-      <g transform="translate(931.9 290.6) rotate(-25.7)" text-anchor="middle">
-        <text x="0" y="-8">31,5 - 35 ani</text>
-        <text x="0" y="8">80,5 - 84 ani</text>
-      </g>
-      <g transform="translate(1011.8 386.5) rotate(-51.4)" text-anchor="middle">
-        <text x="0" y="-8">35 - 38,5 ani</text>
-        <text x="0" y="8">84,5 - 87,5 ani</text>
-      </g>
-      <g transform="translate(705.4 770.7) rotate(-51.4)" text-anchor="middle">
-        <text x="0" y="-8">38,5 - 42 ani</text>
-        <text x="0" y="8">87,5 - 91 ani</text>
-      </g>
-      <g transform="translate(594.1 714.1) rotate(-77.1)" text-anchor="middle">
+      <g transform="translate(508.2 386.5) rotate(51.4)" text-anchor="middle">
         <text x="0" y="-8">42 - 45,5 ani</text>
         <text x="0" y="8">91 - 94,5 ani</text>
       </g>
-      <g transform="translate(703.4 235.1) rotate(-77.1)" text-anchor="middle">
+      <g transform="translate(588.1 290.6) rotate(25.7)" text-anchor="middle">
         <text x="0" y="-8">45,5 - 49 ani</text>
         <text x="0" y="8">94,5 - 98 ani</text>
+      </g>
+      <g transform="translate(1030.9 503.8) rotate(25.7)" text-anchor="middle">
+        <text x="0" y="-8">14 - 17,5 ani</text>
+        <text x="0" y="8">63 - 66,5 ani</text>
+      </g>
+      <g transform="translate(1005.7 626.1) rotate(0.0)" text-anchor="middle">
+        <text x="0" y="-8">17,5 - 21 ani</text>
+        <text x="0" y="8">66,5 - 70 ani</text>
+      </g>
+      <g transform="translate(514.3 626.1) rotate(0.0)" text-anchor="middle">
+        <text x="0" y="-8">35 - 38,5 ani</text>
+        <text x="0" y="8">84 - 87,5 ani</text>
+      </g>
+      <g transform="translate(489.1 503.8) rotate(-25.7)" text-anchor="middle">
+        <text x="0" y="-8">38,5 - 42 ani</text>
+        <text x="0" y="8">87,5 - 91 ani</text>
+      </g>
+      <g transform="translate(931.9 290.6) rotate(-25.7)" text-anchor="middle">
+        <text x="0" y="-8">7 - 10,5 ani</text>
+        <text x="0" y="8">56 - 59,5 ani</text>
+      </g>
+      <g transform="translate(1011.8 386.5) rotate(-51.4)" text-anchor="middle">
+        <text x="0" y="-8">10,5 - 14 ani</text>
+        <text x="0" y="8">59,5 - 63 ani</text>
+      </g>
+      <g transform="translate(705.4 770.7) rotate(-51.4)" text-anchor="middle">
+        <text x="0" y="-8">28 - 31,5 ani</text>
+        <text x="0" y="8">77 - 80,5 ani</text>
+      </g>
+      <g transform="translate(594.1 714.1) rotate(-77.1)" text-anchor="middle">
+        <text x="0" y="-8">31,5 - 35 ani</text>
+        <text x="0" y="8">80,5 - 84 ani</text>
+      </g>
+      <g transform="translate(703.4 235.1) rotate(-77.1)" text-anchor="middle">
+        <text x="0" y="-8">0 - 3,5 ani</text>
+        <text x="0" y="8">49 - 52,5 ani</text>
       </g>
     </g>
   </g>

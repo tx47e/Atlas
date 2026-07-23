@@ -62,7 +62,7 @@ Index: BDR-19980219-v1.00r-SUB-002
 ### 1.2. Caracterul
 
 Index: BDR-19980219-v1.00r-P-007
-Daniel, tu ai vibrația interioară **1**: inițiativă, autonomie și nevoie de direcție proprie. Traseul spune însă mai mult. **1** aduce pornirea, iar **9** aduce experiența și imaginea largă; împreună formează **10**, pragul dintre încheiere și un nou început. În **10**, **1** pornește, iar **0** reprezintă totul și nimicul: poate mări potențialul lui **1** sau îl poate anula atunci când energia nu primește o direcție clară. De aceea, forța ta crește atunci când alegi limpede înainte să accelerezi.
+Daniel, tu ai vibrația interioară **1**: inițiativă, autonomie și nevoie de direcție proprie. Arhetipal, această energie te așază în rolul Pionierului, Inițiatorului și Liderului. Vrei să fii primul, să deschizi drumul, să ieși în față, să alegi singur direcția și să fii recunoscut pentru ceea ce pornești. Ai nevoie să simți că acțiunea îți aparține și că nu urmezi pur și simplu traseul stabilit de altcineva. Traseul spune însă mai mult. **1** aduce pornirea, iar **9** aduce experiența și imaginea largă; împreună formează **10**, pragul dintre încheiere și un nou început. În **10**, **1** pornește, iar **0** reprezintă totul și nimicul: poate mări potențialul lui **1** sau îl poate anula atunci când energia nu primește o direcție clară. Maturizarea acestui arhetip apare când îți asumi conducerea fără să o transformi în grabă, orgoliu sau nevoie de control: alegi limpede, deschizi calea prin exemplu și le permiți și celorlalți să contribuie.
 
 Index: BDR-19980219-v1.00r-SUB-003
 ### 1.3. Dorințele
@@ -130,6 +130,12 @@ Index: BDR-19980219-v1.00r-T-009
 Index: BDR-19980219-v1.00r-SUB-007
 ### 1.7. Tarot
 
+Index: BDR-19980219-v1.00r-P-010a
+Vibrația interioară **1** este asociată cu Arcana Majoră **1 — Magicianul**. Daniel, această imagine îți arată cum energia inițiativei poate coborî din intenție în faptă: ai impulsul de a porni, de a alege direcția și de a folosi resursele pe care le ai la îndemână. Cartea nu adaugă un rezultat nou, ci oferă o reprezentare simbolică a felului în care îți poți manifesta matur vibrația: cu voință, claritate și responsabilitate, fără să transformi autonomia în control sau graba de a începe în abandonarea lucrurilor pe parcurs.
+
+Index: BDR-19980219-v1.00r-P-010b
+În imagine, Magicianul îndreaptă o mână către cer și cealaltă către pământ, arătând că înțelege principiul „ce este sus este și jos, ce este înăuntru este și în afară”. Pe masa lui se află simbolurile celor **4** elemente: bagheta pentru Foc, cupa pentru Apă, spada pentru Aer și moneda pentru Pământ. El le poate combina și poate comuta între ele, trecând de la inspirație la emoție, de la gândire la acțiune concretă, în funcție de ceea ce vrea să creeze. Pentru tine, Daniel, imaginea spune că potențialul nu stă în lipsa sau căutarea instrumentelor, ci în alegerea și folosirea lor conștientă: ceea ce gândești și pornești în interior are nevoie să capete o formă coerentă și vizibilă în exterior.
+
 Index: BDR-19980219-v1.00r-T-010
 <table>
 <tbody>
@@ -165,10 +171,10 @@ Index: BDR-19980219-v1.00r-C-002
 > Luna din data de naștere = **2**
 
 Index: BDR-19980219-v1.00r-SUB-009
-### 2.2. Caracterul social
+### 2.2. Rolul social
 
 Index: BDR-19980219-v1.00r-P-012
-Vibrația exterioară **2** se vede prin atenție, receptivitate și capacitatea de a simți atmosfera dintre oameni. În contexte sociale, ceilalți pot observa diplomație, cooperare și grijă pentru ritmul comun. Sensibilitatea devine o resursă când te ajută să alegi cuvântul potrivit, dar are nevoie de limite clare ca să nu se transforme în ezitare sau adaptare excesivă.
+Fiind născut în luna februarie, tu ai rolul social al Diplomatului, specific vibrației exterioare **2**. Pentru a avea succes în societate, ai nevoie să pui accent pe colaborare, comunicare și empatie, să ai grijă de celălalt și să cauți soluții în care lucrurile se construiesc în **2**, nu numai prin efort individual. Această energie te face mai maleabil, receptiv și capabil să înțelegi punctul de vedere al celui din fața ta. De multe ori, te poți descoperi pe tine prin relațiile pe care le construiești, pentru că **2** te învață să vezi în celălalt o oglindă a propriilor trăiri. Diplomația ta devine o adevărată resursă atunci când apropii oamenii fără să renunți la propria poziție și când cooperezi fără să lași empatia să se transforme în ezitare sau adaptare excesivă.
 
 Index: BDR-19980219-v1.00r-SUB-010
 ### 2.3. Interior și exterior
@@ -242,28 +248,31 @@ Index: BDR-19980219-v1.00r-G-002
 | **3 — Aer** · 33 · optim `333` · ○—○ | **6 — Apă** · — · optim `66` · absent | **9 — Foc** · 9999 · optim `9` · □ |
 
 Index: BDR-19980219-v1.00r-P-035
-**Căsuța 1.** Reprezintă psihicul, caracterul, ego-ul, spiritul de inițiativă, pionieratul, independența, unicitatea, calitatea de conducător și individualitatea. Ai **4** apariții față de optimul de **3**, deci energia este activă și disponibilă peste reper, dar nu în exces. Ai un motor puternic de pornire; cheia este să îl folosești fără să transformi hotărârea în presiune sau rigiditate.
+**Căsuța 1.** Ai **4** apariții în căsuța cifrei **1**. Asta arată despre tine potențialul unui psihic foarte puternic, capabil să susțină multe idei și să lucreze inclusiv în medii cu un nivel ridicat de stres. Ai calități bune de leadership: poți prelua inițiativa, poți conduce și poți menține direcția atunci când ceilalți au nevoie de un reper. În polaritatea negativă, poți ajunge însă să vrei ca toate lucrurile să se facă după tine. Atunci poți fi perceput, între ghilimele, ca un „mic dictator”: rigid, încăpățânat, inflexibil și mai puțin dispus să ții cont de părerile celorlalți. Maturizarea acestei energii înseamnă să rămâi ferm în direcție, dar deschis la dialog, astfel încât puterea psihică și autoritatea ta să îi mobilizeze pe oameni, nu să îi limiteze.
+
+Index: BDR-19980219-v1.00r-P-036
+**Căsuța 2.** Reprezintă emoțiile, trăirile, comunicarea, bioenergia, spiritul de colaborare și parteneriatul. Ai **2** apariții în căsuța cifrei **2**. Sensibilitatea și capacitatea de a lucra cu celălalt sunt prezente, dar au nevoie de aport extern și exercițiu pentru a rămâne stabile. Fiind un număr par de apariții, energia poate circula în ambele sensuri: poți primi și poți da mai departe sprijin emoțional, însă în anumite situații poate apărea indecizia. Pentru tine, maturizarea acestei căsuțe înseamnă să numești clar ceea ce simți, să întrebi direct ce are nevoie celălalt și să alegi după dialog, fără să rămâi blocat între două variante.
 
 Index: BDR-19980219-v1.00r-P-037
-**Căsuța 3.** Evidențiază capacitatea omului de a crea și a menține relații, networking-ul, curiozitatea celui care cercetează, face sinteza informațiilor și le oferă celorlalți, precum și acțiunile eficiente, concentrate pe rezultat, spiritul entuziast și bucuria de a trăi exprimată deschis. Ai **2** apariții față de optimul de **3**, astfel că această energie are nevoie de exercițiu. Conversațiile sincere, oamenii diferiți și contexte în care îți spui ideile îți completează această resursă.
+**Căsuța 3.** Ai **2** apariții în căsuța cifrei **3**, ceea ce arată că ești capabil atât să primești informația, cât și să o prelucrezi și să o dai mai departe într-o formă accesibilă celorlalți. Poți avea abilități foarte bune de mentor sau dascăl, mai ales atunci când faci legătura dintre idei, extragi esența și o explici clar. Cele **2** apariții pot aduce însă și nehotărâre în raport cu informația: poți acumula foarte mult, poți oscila între mai multe interpretări sau poți amâna alegerea unei direcții. Pentru a echilibra această energie, te ajută să selectezi informațiile esențiale, să le organizezi și să hotărăști ce merită aplicat sau transmis. Altfel, există riscul să te împrăștii în prea multe direcții și să risipești energia înainte ca ideile să devină rezultate. Cu cât îți ordonezi mai bine informația și iei decizii mai ferme, cu atât această căsuță îți susține mai puternic comunicarea, relațiile și capacitatea de a-i ghida pe ceilalți.
 
 Index: BDR-19980219-v1.00r-P-038
-**Căsuța 4.** Reprezintă corpul fizic, sănătatea corpului, spiritul practic, orientarea spre rezultate concrete, organizarea, cadrul, trăinicia, statornicia și temeinicia. Căsuța este absentă față de optimul de **2**, iar această energie cere aport extern conștient: mișcare, somn, hrană regulată și rutină. Corpul devine aliat când îi oferi consecvență, nu doar când îi ceri să țină pasul cu mintea.
+**Căsuța 4.** Reprezintă corpul fizic, sănătatea, spiritul practic, orientarea spre rezultate concrete, organizarea, cadrul, trăinicia, statornicia și temeinicia. În matricea ta nu ai nicio apariție în căsuța cifrei **4**, ceea ce arată că această energie este conservată: nu o poți accesa întotdeauna când dorești și în aceeași măsură. Pot exista perioade în care te simți foarte sănătos și rezistent, dar și momente în care chiar o răceală ușoară te poate solicita mai mult decât te-ai aștepta. Energia poate oscila între „foarte mult” și „foarte puțin”, iar aceeași alternanță se poate vedea în organizare, disciplină și consecvență. Pentru a echilibra această căsuță, te ajută să ai planuri clare, un program stabil și obiceiuri pe care le respecți chiar și atunci când nu simți presiunea imediată a rezultatului. Acordă atenție constantă sănătății, somnului și alimentației și introdu mișcarea sau sportul în rutina ta, într-un ritm regulat și potrivit corpului tău.
 
 Index: BDR-19980219-v1.00r-P-039
-**Căsuța 5.** Reprezintă libertatea, stima de sine, imunitatea sistemică, nonconformismul — ieșirea din pătrat — spiritul de aventură, oportunismul și curajul. Căsuța este absentă față de optimul de **2**, iar această energie se construiește prin pauze, observarea semnalelor subtile și verificarea deciziilor înainte de acțiune.
+**Căsuța 5.** Reprezintă libertatea, stima de sine, imunitatea sistemică, nonconformismul — ieșirea din pătrat — spiritul de aventură, oportunismul și curajul. În matricea ta nu ai nicio apariție în căsuța cifrei **5**, ceea ce arată că această energie este conservată și poate fi activată prin factori externi. Aceștia pot fi oamenii care te susțin să îți construiești încrederea în tine sau conjuncturile care te provoacă să îți depășești limitele, să ieși din tipare și să îți ridici stima de sine. De-a lungul vieții, te ajută să încerci roluri diferite și să intri conștient în contexte în care îți exersezi curajul, libertatea de alegere și capacitatea de adaptare. Este la fel de important să te înconjori de oameni care îți recunosc potențialul și te încurajează să crești, nu de persoane care îți micșorează încrederea. Cu cât îți alegi mai bine mediul și experiențele, cu atât energia lui **5** te ajută să ieși din „pătrat” și să îți construiești o libertate autentică, susținută de încredere în tine.
 
 Index: BDR-19980219-v1.00r-P-040
-**Căsuța 6.** Reprezintă iubirea ca ocrotire, instinctele, arta, realismul și pragmatismul. Lipsa cifrei **6** din Pătratul lui Pitagora poate vorbi despre o manifestare oscilantă sau extremistă în raport cu sexualitatea, pragmatismul, oportunitățile, banii, familia și echilibrul. Aportul extern se construiește prin organizare, responsabilități clare și obiceiuri repetabile care transformă intenția în rezultat.
+**Căsuța 6.** Reprezintă iubirea ca ocrotire, instinctele, arta, realismul și pragmatismul. Nu ai nicio apariție în căsuța cifrei **6**. Lipsa acestei cifre din Pătratul lui Pitagora poate vorbi despre o manifestare oscilantă sau extremistă în raport cu sexualitatea, pragmatismul, oportunitățile, banii, familia și echilibrul. Aportul extern se construiește prin organizare, responsabilități clare și obiceiuri repetabile care transformă intenția în rezultat.
 
 Index: BDR-19980219-v1.00r-P-041
-**Căsuța 7.** Reprezintă capacitatea omului de a observa, de a analiza, de a studia și de a experimenta, de a găsi cele mai bune soluții și de a face legătura dintre știință și duh. Este energia omului vizionar și a înțeleptului. Ai exact **1** apariție, adică optimul acestei căsuțe; folosește timpul de liniște ca să alegi limpede, nu ca să te retragi din contactul cu lumea.
+**Căsuța 7.** Reprezintă capacitatea omului de a observa, de a analiza, de a studia și de a experimenta, de a găsi cele mai bune soluții și de a face legătura dintre știință și duh. Este energia omului vizionar și a înțeleptului. Ai **1** apariție în căsuța cifrei **7**. Folosește timpul de liniște ca să alegi limpede, nu ca să te retragi din contactul cu lumea.
 
 Index: BDR-19980219-v1.00r-P-042
-**Căsuța 8.** Reprezintă puterea, responsabilitatea, spiritul de sacrificiu, elitismul, măiestria — performanța — ambiția, succesul în afaceri și în poziții de putere, precum și patriotismul. Ai exact **1** apariție, adică optimul acestei căsuțe. Această energie te ajută să gestionezi responsabilitatea și rezultatul, atât timp cât rămâi echitabil și nu preiei mai mult decât îți aparține.
+**Căsuța 8.** Reprezintă puterea, responsabilitatea, spiritul de sacrificiu, elitismul, măiestria — performanța — ambiția, succesul în afaceri și în poziții de putere, precum și patriotismul. Ai **1** apariție în căsuța cifrei **8**. Această energie te ajută să gestionezi responsabilitatea și rezultatul, atât timp cât rămâi echitabil și nu preiei mai mult decât îți aparține.
 
 Index: BDR-19980219-v1.00r-P-043
-**Căsuța 9.** Reprezintă inteligența, compasiunea, altruismul, finalizarea, transformarea, înnoirea, adaptarea, orientarea către idealuri înalte, învățarea și predarea cunoștințelor la nivel superior. Ai **4** apariții față de optimul de **1**, deci energia mentală este în exces. Memoria, analiza și viziunea sunt foarte intense; selectează prioritățile și creează pauze, ca mintea să rămână un instrument, nu o sursă de suprasolicitare.
+**Căsuța 9.** Reprezintă inteligența, compasiunea, altruismul, finalizarea, transformarea, înnoirea, adaptarea, orientarea către idealuri înalte, învățarea și predarea cunoștințelor la nivel superior. Ai **4** apariții în căsuța cifrei **9**. Memoria, analiza și viziunea sunt foarte intense; selectează prioritățile și creează pauze, ca mintea să rămână un instrument, nu o sursă de suprasolicitare.
 
 Index: BDR-19980219-v1.00r-SUB-015
 ### 4.3. Elemente și temperament
@@ -312,7 +321,7 @@ Index: BDR-19980219-v1.00r-SUB-017a
 ### 4.6. Scara bunăstării
 
 Index: BDR-19980219-v1.00r-P-019
-Scara bunastarii pune în ordine descrescatoare valorile vectorilor și ale casutelor. Ea arată unde exista acumulare mare de energie și unde apar trepte slabe sau absente. În lectura ta, varful este vectorul 789, urmat de 369 și 159, deci mintea, viziunea, exprimarea și orientarea spre rezultat sunt foarte active. La baza apar 456 și căsuțele 4, 5 și 6 cu valoare 0, ceea ce confirma aceeasi lecție: bunastarea creste când energia mentala și creativa este sprijinita de corp, disciplina, centru și responsabilitate concretă.
+Scara bunăstării îți arată ce te poate face fericit și împlinit în această viață. La tine, cea mai înaltă treaptă este vectorul **789, Creativitate**: te bucură să găsești soluții inovatoare la probleme, să gândești liber și să ieși din șabloanele rigide. Pentru ca această bunăstare creativă să se manifeste la nivelul ei cel mai înalt, are nevoie de sprijinul vectorului **369, Bunăstare materială**. Cu alte cuvinte, ideile tale cresc atunci când reușești să le dai o formă concretă, să acumulezi resurse și să păstrezi ordine și disciplină în obiceiurile și deprinderile tale. Bunăstarea materială se sprijină, la rândul ei, pe vectorul **159, Carieră**: ai nevoie să construiești o direcție profesională prin care valoarea ta să devină vizibilă și utilă. Cariera ta este susținută de căsuța **9**, adică de mental, viziune și capacitatea de transformare. Pentru ca această forță mentală să rămână clară și productivă, este important să îți dozezi vectorul **123, Energie**, încărcându-te echilibrat cu energie psihică, emoțională și expresivă. Traseul tău este, așadar, unul coerent: îți îngrijești energia, îți întărești mentalul, îți construiești cariera, creezi stabilitate materială, iar din această bază îți poți exprima pe deplin creativitatea.
 
 Index: BDR-19980219-v1.00r-G-004
 <div class="wellbeing-chart" aria-label="Scara bunastarii">
@@ -472,13 +481,6 @@ Index: BDR-19980219-v1.00r-SUB-038
 Index: BDR-19980219-v1.00r-P-182
 Codul Spiritului se citește din ziua și luna nașterii. Pentru tine, Daniel, el arată zona mare de maturizare spirituală și lecția prin care spiritul învață să își așeze experiența.
 
-Index: BDR-19980219-v1.00r-P-183
-Pentru calcul folosim ziua **19** și luna **2**. Căutăm ziua pe verticală și luna pe orizontală în tabelul rapid; aceeași valoare se poate verifica prin formulă.
-
-Index: BDR-19980219-v1.00r-C-003b
-> [!example] Calcul
-> Codul Spiritului = 55 - **19** - (**2** × **2**) = 55 - 19 - 4 = **32**
-
 Index: BDR-19980219-v1.00r-P-185
 În tabel, poziția ta este la ziua **19** și luna **II**, unde apare codul **32**.
 
@@ -518,7 +520,7 @@ Index: BDR-19980219-v1.00r-T-017
 | 31 | <span class="spirit-zone-reason">22</span> |  | <span class="spirit-zone-reason">18</span> |  | <span class="spirit-zone-reason">14</span> |  | <span class="spirit-zone-love">10</span> | <span class="spirit-zone-love">8</span> |  | <span class="spirit-zone-love">4</span> |  | <span class="spirit-zone-love">0</span> |
 
 Index: BDR-19980219-v1.00r-P-186
-Codul **32** intră în zona **Material**, adică o etapă în care spiritul învață prin construcție, responsabilitate, rezultate, resurse și felul în care energia interioară devine ceva concret în lume.
+Daniel, tu ai codul **32**, iar acesta arată că spiritul tău a venit să învețe în zona **Materială**. Este o etapă în care spiritul evoluează prin construcție, responsabilitate, rezultate și administrarea resurselor. Aici înveți cum energia ta interioară și resursele de care dispui pot fi transformate în ceva concret, vizibil și folositor în lume. Pe scurt, spiritul tău a venit să experimenteze în această viață tot ceea ce ține de planul material și să dea formă practică potențialului pe care îl porți în interior.
 
 Index: BDR-19980219-v1.00r-T-018
 | Zona | Interval cod | Nivel simbolic | Teme principale |
@@ -527,22 +529,6 @@ Index: BDR-19980219-v1.00r-T-018
 | <span class="zone-badge zone-reason">Rațiune</span> | 14-26 | 2.500-5.000 ani | logică, discernământ, structură, analiză, minte |
 | <span class="zone-badge zone-material">Material</span> | 27-39 | 5.000-7.500 ani | bani, construcție, putere, manifestare, responsabilitate |
 | <span class="zone-badge zone-gifts">Haruri</span> | 40-52 | 7.500-10.000 ani | înțelepciune, haruri spirituale, ghidare, serviciu, intuiție |
-
-Index: BDR-19980219-v1.00r-P-187
-Subetapa se calculează din codul Spiritului, așezând codul pe ciclul celor treisprezece lecții. Calculul de mai jos arată poziția exactă în matricea lecțiilor.
-
-Index: BDR-19980219-v1.00r-P-188
-**Calcul explicat:** Subetapa se calculează din Codul Spiritului, care aici este 32. Formula folosită este `((CM - 1) mod 13) + 1`, deoarece cele treisprezece lecții se repetă ciclic: scădem 1 ca să pornim numărarea ciclului de la zero, aplicăm restul împărțirii la 13, apoi adăugăm 1 ca să revenim la numerotarea lecțiilor de la 1 la 13.
-
-Index: BDR-19980219-v1.00r-P-189
-Pentru Daniel: `32 - 1 = 31`. Împărțim 31 la 13: `13 × 2 = 26`, iar restul este `31 - 26 = 5`. Revenim la scara 1-13 prin `5 + 1 = 6`. Rezultatul este **subetapa 6**.
-
-Index: BDR-19980219-v1.00r-C-003c
-> [!example] Calcul
-> ((32 - 1) mod 13) + 1 = (31 mod 13) + 1 = 5 + 1 = **6**
-
-Index: BDR-19980219-v1.00r-P-191
-Matricea lecțiilor arată cum sunt organizate cele treisprezece subetape ale Codului Spiritului. Ele sunt împărțite în patru etape mari: înțelegere și stabilizare, experimentare și manifestare, finalizare și orientare către ceilalți, apoi examenul de integrare.
 
 Index: BDR-19980219-v1.00r-T-019
 <table class="stage-table">
@@ -571,12 +557,6 @@ Pentru tine, Daniel, subetapa **6** se numește **Prelucrarea karmei**. Asta în
 Index: BDR-19980219-v1.00r-P-193
 Vârsta Spiritului arată simbolic experiența acumulată până la naștere și apoi experiența actualizată cu vârsta biologică.
 
-Index: BDR-19980219-v1.00r-P-194
-**Calcul explicat:** Vârsta Spiritului la naștere se calculează din Codul Spiritului. Fiecare treaptă de cod reprezintă simbolic 189 de ani de experiență spirituală, iar formula folosită în metodă este `(CM × 189) - 189`. Se scade 189 la final deoarece primul cod reprezintă baza de pornire a ciclului; astfel, calculul arată experiența acumulată până la intrarea în viața actuală.
-
-Index: BDR-19980219-v1.00r-P-195
-Pentru Daniel: `32 × 189 = 6.048`, apoi `6.048 - 189 = 5.859`. Aceasta este **Vârsta Spiritului la naștere: 5.859 ani**. Pentru vârsta actuală se adaugă vârsta biologică din momentul lucrării: `5.859 + 28 = 5.887`.
-
 Index: BDR-19980219-v1.00r-C-003d
 > [!example] Calcul
 > Vârsta la naștere = (32 × 189) - 189 = 6.048 - 189 = **5.859 ani**
@@ -590,7 +570,7 @@ Index: BDR-19980219-v1.00r-SUB-007a
 ### 6.2. Karma din ziua de naștere
 
 Index: BDR-19980219-v1.00r-P-009a
-Karma din ziua de naștere arată programul karmic indicat de ziua calendaristică în care te-ai născut. Ziua se păstrează între **1** și **31**, fără reducere la o singură cifră, iar interpretarea se face prin Arcana Majoră corespunzătoare și prin trecerea de la umbra ei la o calitate folosită conștient. Procentul indicat de metodă arată orientativ cât din această temă este considerat deja împlinit; nu este o notă morală și nici o măsură exactă a valorii personale.
+În lectura numerologică, ziua de naștere ne arată încărcătura karmică pe care o aducem din alte vieți. Este important să ții cont de această latură ascunsă a naturii tale, deoarece ea tinde să se manifeste și în viața actuală. Așadar, Daniel, fiind născut în ziua de **19**, te afli în intervalul **10–19**. Conform acestei metode, asta înseamnă că într-o viață anterioară ți-ai îndeplinit karma spre **80%**. Ziua ta de naștere este reprezentată de Arcana **19 — Soarele**.
 
 Index: BDR-19980219-v1.00r-C-001a
 > [!example] Calcul
@@ -644,22 +624,13 @@ Index: BDR-19980219-v1.00r-C-003a
 > Intervalul 30–39 = categoria karmică **3**
 
 Index: BDR-19980219-v1.00r-P-015b
-Daniel, categoria karmică **3** vorbește despre influență, relaționare și transmiterea înțelepciunii, iar valoarea exactă **39** adaugă o minte puternică și profundă. Ai capacitatea de a vedea legături pe care alții le observă mai târziu, de a formula idei cu greutate și de a influența prin cuvânt, exemplu sau cunoaștere. Frâna indicată de această valoare este invidia: poate fi propria comparație cu reușitele altora sau presiunea oamenilor care se simt provocați de profunzimea și vizibilitatea ta. Lecția nu este să te ascunzi, ci să transformi comparația în învățare și să îți folosești influența fără superioritate. Când comunici limpede, împarți cunoașterea și lași rezultatele să vorbească, karma **39** susține matur Destinul **3**: vocea ta nu doar atrage atenția, ci transmite ceva folositor.
+**Numărul minții.** Daniel, ești un om foarte inteligent, cu o gândire puternică și profundă. Poți ajunge foarte departe prin capacitatea ta de a înțelege, de a face legături și de a transforma informația în cunoaștere. În această lectură karmică, frâna ta poate fi invidia față de oamenii care îți seamănă sau care, într-un anumit domeniu, au ajuns mai departe decât tine. Când lași comparația să devină invidie, ea îți „ascute sabia karmei”: îți consumă energia, îți tulbură judecata și poate favoriza stresul, autosabotajul sau refugiul în obiceiuri distructive, precum jocurile de noroc, alcoolul ori alte substanțe. Aceste consecințe nu sunt inevitabile; ele reprezintă un avertisment simbolic despre felul în care o emoție necontrolată îți poate devia potențialul. Nu-i invidia pe cei mai buni, ci observă-i, admiră-le munca și învață de la ei, pentru că și ei au fost cândva la început. Elimină invidia din viața ta sub toate formele și transformă comparația în inspirație. În plan simbolic, această karmă păstrează și imaginea unei vieți anterioare consumate prin jocuri de noroc, patimi și risipirea timpului fără o construcție adevărată. Tocmai de aceea, lecția ta actuală este să alegi luciditatea, disciplina și creația: să folosești mintea pe care o ai pentru a construi, nu pentru a te compara.
 
 Index: BDR-19980219-v1.00r-SUB-012b
 ### 6.5. Concluzie: direcția de lucru
 
 Index: BDR-19980219-v1.00r-P-015c
 Daniel, Codul Spiritului **32**, zona Material și subetapa **6 — Prelucrarea karmei** formează cadrul mare al acestui capitol. Vârsta simbolică a Spiritului, **5.887 de ani**, se află în intervalul Material, ceea ce sugerează că maturizarea ta trece prin construcție, responsabilitate, administrarea resurselor și transformarea experienței în rezultate vizibile. Karmele **19**, **2** și **39** arată ce ai de ordonat în acest cadru: puterea personală și relația cu succesul, felul în care ajuți și colaborezi, respectiv modul în care îți transformi mintea și influența într-un mesaj folositor.
-
-Index: BDR-19980219-v1.00r-P-015d
-Karma **19** reactivează simbolic energiile **1** și **9**. Vibrația interioară **1** și cele **4** apariții ale lui **1** din matrice îți dau pornire și inițiativă, iar cele **4** apariții ale lui **9** aduc viziune, profunzime și nevoia de sens. Codul Spiritului **32** îți cere însă ca această forță să nu rămână numai vizibilitate, orgoliu sau promisiune, ci să capete formă. Direcția matură este să conduci prin exemplu, să transformi succesul într-o construcție utilă și să verifici nu doar dacă ai fost remarcat, ci și ce valoare concretă rămâne în urma ta.
-
-Index: BDR-19980219-v1.00r-P-015e
-Karma lunii **2** coincide cu Vibrația exterioară **2**, iar Căsuța **2** conține `22`, sub reperul `222`. Sensibilitatea și cooperarea există, dar nu se reglează singure în orice situație. Subetapa **6** îți cere să prelucrezi tocmai acest tip de acumulare: să separi ce îți aparține de ceea ce ai preluat de la familie sau de la ceilalți, să ajuți fără să te abandonezi și să construiești relații în care responsabilitatea este împărțită. Practic, întreabă înainte să presupui, spune clar ce poți oferi și stabilește de la început limita până la care te implici.
-
-Index: BDR-19980219-v1.00r-P-015f
-Karma **39** coincide exact cu suma inițială a datei tale și cu numărul de lucru `N1`, iar categoria karmică **3** coincide cu Destinul final **3**. În matrice, energia lui **9** este mult mai abundentă decât reperul, în timp ce energia lui **3** are nevoie de exercițiu. De aceea, principala ta direcție este să cobori ideea din minte în formă: mesaj clar, termen, buget, responsabilitate și rezultat verificabil. Înaintea unei decizii importante, parcurge patru întrebări: „Ce vreau să construiesc?”, „Pe cine trebuie să ascult sau să implic?”, „Care este următorul pas concret?” și „Ce folos rămâne pentru mine și pentru ceilalți?”. Acesta este firul comun dintre Spirit și karmă: **1** pornește, **2** cooperează, **3** exprimă, **9** oferă sens, iar **32** le cere tuturor să devină o construcție reală.
 
 Index: BDR-19980219-v1.00r-CAP-010
 ## Capitolul 7. Pinacluri: Oportunități și provocări
@@ -884,7 +855,7 @@ Index: BDR-19980219-v1.00r-CAP-014
 Index: BDR-19980219-v1.00r-SUB-029
 ### 10.1. Aplicabilitate profesională
 
-Index: BDR-19980219-v1.00r-P-035
+Index: BDR-19980219-v1.00r-P-046a
 Aplicabilitatea profesională traduce data nașterii în zona muncii, carierei și colaborărilor. Ea nu impune o meserie, ci conturează direcția de lucru: energia pe care o poți folosi mai natural, ritmul profesional potrivit și obstacolul care merită recunoscut înainte să devină blocaj.
 
 Index: BDR-19980219-v1.00r-P-046
@@ -901,14 +872,62 @@ Index: BDR-19980219-v1.00r-T-016
 Index: BDR-19980219-v1.00r-CAP-015
 ## Capitolul 11. Concluzii
 
+Index: BDR-19980219-v1.00r-SUB-029a
+### 11.1. Harta suprapusă
+
+Index: BDR-19980219-v1.00r-P-031a
+Harta suprapusă reunește Soarta și Destinul cu zona de confort, anii importanți și ciclurile de **7**, **9** și **12** ani. Ea te ajută să observi unde se întâlnesc schimbările interioare cu evenimentele exterioare și în ce perioade mai multe ritmuri susțin aceeași direcție.
+
+Index: BDR-19980219-v1.00r-G-008
+![Harta suprapusă Soartă–Destin și ciclicități pentru Bîrsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert.svg)
+
+Index: BDR-19980219-v1.00r-SUB-030
+### 11.2. Carieră și bani
+
 Index: BDR-19980219-v1.00r-P-032
-Daniel, harta scurtă arată un om care pornește prin **1**, se întâlnește cu lumea prin **2** și are de construit expresia matură a lui **3**. Mintea și creativitatea sunt puternice, iar numele adaugă responsabilitatea lui **6** și perspectiva repetată a lui **9**. Tocmai de aceea, progresul tău nu depinde de încă o idee, ci de forma simplă pe care i-o dai: termen, buget, rutină și încheiere.
+Daniel, în carieră ești autentic atunci când inițiativa Vibrației interioare **1** se vede în exterior prin cooperarea și diplomația Vibrației exterioare **2**, iar Destinul **3** transformă ideea într-un mesaj pe care oamenii îl pot înțelege și urma. Numele adaugă responsabilitatea lui **6** și perspectiva repetată a lui **9**, iar Scara bunăstării confirmă multă energie în vectorul **789, Creativitate**, vectorul **369, Bunăstare materială**, și diagonala **159, Carieră**. Resursa ta este să vezi direcția, să formulezi și să mobilizezi. Partea de construit se află în energiile **4**, **5** și **6**: organizare, măsură, pragmatism, buget și continuitate. De aceea, progresul tău nu depinde de încă o idee, ci de forma simplă pe care i-o dai: termen, responsabil, buget, rutină și încheiere.
+
+Index: BDR-19980219-v1.00r-P-032a
+În intervalul actual, **19.02.2026–18.02.2027**, te afli în Ciclul **4** de 9 ani, în Anul **2** al acestui ciclu, cu vibrația anuală **4** și Lecția **2**. Ciclul de 7 ani **5** abia începe, Ciclul de 12 ani **3** continuă expansiunea, iar Pinaclul **1** îți oferă Oportunitatea **3** și Provocarea **1**. Pe graficul Soartă–Destin ești la **0 / 0**, sub zona de confort, ceea ce poate crea senzația de stagnare sau lipsă de direcție. Nu este momentul să aștepți ca impulsul să apară singur. Este o fereastră de pregătire: pune ordine în program și bani, alege colaboratorii potriviți, testează ideile la scară mică și construiește sistemul care va putea susține o creștere ulterioară.
+
+Index: BDR-19980219-v1.00r-T-020
+| Fereastră | Suprapunerea principală | Utilizare profesională |
+| --- | --- | --- |
+| **19.02.2026–18.02.2027** | Ciclul de 9 ani: C4, Anul **2**; vibrația anuală **4**; Lecția **2**; Ciclul de 7 ani **5**; Ciclul de 12 ani **3**; Soartă–Destin **0 / 0** | Pregătire, structură, buget, colaborări și validarea unei direcții. Nu forța rezultatul final; construiește mecanismul care îl poate produce. |
+| **Pragul din 2029** | Centrul Ciclului de 7 ani **5**; nevoie de verificare înaintea perioadelor materiale mai puternice | Punct de bilanț și posibilă schimbare de direcție. Păstrează ce funcționează, oprește risipa și corectează proiectele care nu au fundație. |
+| **19.02.2030–18.02.2031** | Vibrația anuală **8**; Anul **6** al ciclului de 9 ani; Lecția **9**; după pragul din 2029; Oportunitatea **3**, Provocarea **1**; Soartă–Destin **1 / 1** | Cea mai apropiată fereastră puternică pentru bani, negociere, promovare și autoritate. Rezultatul cere inițiativă și finalizarea proiectelor fără valoare. |
+| **19.02.2032–18.02.2033** | Anul **8** al ciclului de 9 ani; vibrația anuală **1**; Lecția **4**; Pinaclul **2** cu Oportunitatea **1** și Provocarea **8**; Soartă–Destin **6 / 6** | Lansare, schimbare de rol sau afacere. Este o fereastră puternică pentru inițiativă, cu condiția să existe disciplină și maturitate financiară. |
+| **19.02.2034–18.02.2035** | Începe un nou ciclu de 9 ani și Ciclul de 12 ani **4**; vibrația anuală **3**; Lecția **5**; Soartă–Destin **8 / 8**; an important interior și exterior | Repoziționare majoră, expansiune și putere materială. Este punctul cel mai dens, dar cere adaptare și folosirea responsabilă a autorității. |
+| **19.02.2039–18.02.2040** | Vibrația anuală **8**; Anul **6**; Lecția **5**; Ciclul de 12 ani **4**; Soartă–Destin **6 / 6** | Consolidare, venit, funcție de conducere și valorificarea unei structuri construite anterior. Schimbarea trebuie legată de responsabilitate pe termen lung. |
+
+Index: BDR-19980219-v1.00r-P-032b
+Răsturnarea de situație nu trebuie citită ca un eveniment inevitabil. Pentru tine, primul prag care cere pregătire este **2029**: ceea ce nu are structură poate deveni greu de susținut, iar ceea ce funcționează poate trece la un nivel superior. Al doilea punct este **2034**, când se schimbă simultan ritmul ciclului de 9 ani și cadrul ciclului de 12 ani, iar Soarta și Destinul ajung la **8 / 8**. Abordarea potrivită este cea a Carului: obiectiv clar, strategie, ritm și autocontrol. Umbra Stelei îți cere să nu aștepți momentul perfect și să nu confunzi inspirația cu rezultatul. Verifică săptămânal ce produce valoare, ce consumă fără rezultat și care este următoarea acțiune măsurabilă.
+
+Index: BDR-19980219-v1.00r-SUB-031
+### 11.3. Iubire și relația cu Andreea
 
 Index: BDR-19980219-v1.00r-P-033
-În perioada actuală, tema practică este să unești libertatea cu structura. În carieră și bani, verifică săptămânal trei lucruri: ce produce valoare, ce consumă fără rezultat și care este următoarea acțiune măsurabilă. În relație, inițiativa ta funcționează cel mai bine când nu vine singură, ci spune: „eu pornesc, hai că mă ajuți”.
+În iubire, autenticitatea ta apare când nu alegi între forța lui **1** și sensibilitatea lui **2**. În interior ai nevoie să știi ce vrei și încotro mergi; în exterior ai capacitatea de a asculta, de a coopera și de a simți ritmul relației. Puntea **1** dintre interior și exterior îți cere coerență: spune clar ce simți și ce intenționezi, apoi lasă-i Andreei loc real să răspundă. Nu te micșora pentru a evita un conflict, dar nici nu transforma direcția personală într-o decizie luată pentru amândoi. Așa poți fi perceput și acceptat ca un om hotărât, fără ca hotărârea ta să devină presiune.
+
+Index: BDR-19980219-v1.00r-P-033a
+În relația cu Andreea, rezultatul comun **4** cere construcție: reguli, stabilitate, timp protejat, buget, casă și angajamente respectate. Tema de rezolvat împreună este **2**, deci legătura se maturizează prin răbdare, întrebări simple și responsabilitate împărțită. Tu aduci mai mult din perspectiva lui **9**, iar Andreea aduce pornirea lui **1**. Diferența poate deveni motor dacă tu nu rămâi numai în analiză, iar ea nu este lăsată să poarte singură inițiativa. Întrebările utile sunt: „Ce ai simțit?”, „De ce ai nevoie?”, „Ce alegem împreună?” și „Cine își asumă fiecare pas?”.
+
+Index: BDR-19980219-v1.00r-P-033b
+Perioada **19.02.2026–18.02.2027** este deja relațională: Anul **2** al ciclului de 9 ani, Lecția **2** și vibrația anuală **4** pun împreună cooperarea și structura. Totuși, Soarta și Destinul sunt la **0 / 0**, sub zona de confort, iar Ciclul de 7 ani **5** abia începe. De aceea, prezentul este mai potrivit pentru clarificarea relației decât pentru o hotărâre luată din teamă sau grabă. Discutați programul, banii, spațiul personal, familia, locuința și felul în care reparați un conflict. Ceea ce așezați acum devine fundația după care puteți evalua matur fereastra următoare.
+
+Index: BDR-19980219-v1.00r-T-021
+| Fereastră | Suprapunerea principală | Sens relațional |
+| --- | --- | --- |
+| **19.02.2026–18.02.2027** | Anul **2** al ciclului de 9 ani; vibrația anuală **4**; Lecția **2**; Soartă–Destin **0 / 0** | Clarificare, reguli comune și observarea modului în care funcționați în realitate. Este o etapă de fundație, nu o obligație de oficializare. |
+| **19.02.2028–18.02.2029** | Vibrația anuală **6**; Anul **4**; Destin **2**; Oportunitatea **3**, Provocarea **1**; înaintea pragului din 2029 | Cea mai apropiată fereastră favorabilă pentru căsătorie, familie și cămin, dacă relația este deja matură și decizia este asumată de amândoi. |
+| **19.02.2033–18.02.2034** | Vibrația anuală **2**; Anul **9**; Lecția **7**; începutul Ciclului de 7 ani **6**; Soartă–Destin **3 / 3** | Clarificare și alegere matură. Poate susține oficializarea unei relații consolidate, după închiderea neclarităților sau etapelor vechi. |
+| **19.02.2037–18.02.2038** | Vibrația anuală **6**; Anul **4**; Lecția **4**; după pragul din 2036; Ciclul de 12 ani **4** | Fereastră puternică pentru stabilitate, casă și familie. Este mai matură structural, dar cere discuții clare despre bani, putere și responsabilități. |
+
+Index: BDR-19980219-v1.00r-P-033c
+Cu Andreea, pregătirea practică poate fi simplă. O dată pe săptămână, aveți o conversație fără telefoane despre starea relației; o dată pe lună, verificați bugetul, programul și un obiectiv comun; periodic, păstrați atât o experiență nouă împreună, cât și timp individual fără vinovăție. Când apare tensiunea, nu încerca să o rezolvi numai prin concluzie. Spune mai întâi ce ai simțit, întreabă ce a trăit ea și abia apoi decideți pasul. Pentru tine, formula matură nu este „eu hotărăsc”, ci „eu spun limpede ce vreau, te ascult și construim o alegere pe care o putem susține”.
 
 Index: BDR-19980219-v1.00r-P-034
-Folosește această lucrare ca instrument de observație, nu ca predicție rigidă. Când te regăsești într-o formulare, caută și un exemplu concret; când nu te regăsești, verifică dacă energia este latentă, suprasolicitată sau pur și simplu aleasă diferit.
+Ferestrele de mai sus nu promit bani, schimbări profesionale sau căsătorie. Ele arată momente în care mai multe ritmuri simbolice se întâlnesc și pot susține o anumită direcție. Folosește-le ca repere de pregătire: observă contextul real, calitatea relației, resursele disponibile și consecințele unei decizii. Când interiorul tău **1** alege limpede, exteriorul **2** ascultă și cooperează, iar Destinul **3** exprimă și duce ideea către oameni, harta devine utilă nu pentru că decide în locul tău, ci pentru că te ajută să alegi mai conștient.
 
 Index: BDR-19980219-v1.00r-CAP-016
 ## Documentația și trasabilitatea lucrării
@@ -922,5 +941,5 @@ Index: BDR-19980219-v1.00r-T-014
 | Template | `scurt` — `Template_Lucrare_Numerologica_Scurt.md` + `.html` |
 | Raport calculator | `1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00r-calculator.json` |
 | Registru formule și data validării | `vault/Numerologie/Registru formule.md` — 18.07.2026 |
-| SVG-uri integrate | G-002 Matrița datei de naștere; G-002a Matrița numelui; G-004 Scara bunăstării; G-005 Soarta și Destinul; G-006 Omulețul relațiilor; G-007 Septagrama ciclurilor de 7 ani |
+| SVG-uri integrate | G-002 Matrița datei de naștere; G-002a Matrița numelui; G-004 Scara bunăstării; G-005 Soarta și Destinul; G-006 Omulețul relațiilor; G-007 Septagrama ciclurilor de 7 ani; G-008 Harta suprapusă Soartă–Destin și ciclicități |
 | Versiune și data redactării | V1.00R — 18.07.2026 |

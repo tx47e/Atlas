@@ -12,6 +12,7 @@ tags: [skill]
 - Scriptul primeste numele, data nasterii, data de referinta si calea SVG-ului de iesire.
 - Scriptul calculeaza ciclurile C1-C14, anul momentului de criza si ciclul activ pe baza varstei implinite la data de referinta.
 - Varfurile septagramei sunt etichetate permanent in ordinea `1/8`, `2/9`, `3/10`, `4/11`, `5/12`, `6/13`, `7/14`.
+- Fiecare ciclu de 7 ani incepe in coltul interior dinaintea varfului sau numerotat, ajunge la momentul de criza pe varful exterior si se termina in urmatorul colt interior. Prima jumatate a intervalului se eticheteaza pe segmentul de intrare, iar a doua jumatate pe segmentul de iesire.
 - Marcheaza cu verde intregul bloc al ciclului activ: eticheta ciclului si randul lui descriptiv. Toate celelalte cicluri raman in stil normal.
 - Nu consulta `vault/Numerologie/` si nu cere verificare manuala suplimentara la fiecare rulare.
 
