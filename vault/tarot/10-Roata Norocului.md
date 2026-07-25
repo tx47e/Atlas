@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/10-Wheel of Fortune.jpg]]
+![[10-Wheel of Fortune.jpg]]
 
 ### Esenta
 - Roata Norocului este arhetipul ciclurilor, al schimbarii si al destinului in miscare. Ea arata ca viata nu este statica si ca unele porti se deschid prin ritm, nu prin control. In lumina, aduce sansa, oportunitate si sincronizare; in umbra, poate indica instabilitate, repetarea lectiilor sau dependenta de hazard.

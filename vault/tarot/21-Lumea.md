@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/21-The World.jpg]]
+![[21-The World.jpg]]
 
 ### Esenta
 - Lumea este arhetipul implinirii, integrarii si finalizarii unui ciclu initiatic. Ea arata momentul in care lectiile separate se unesc intr-o intelegere vie. In lumina, aduce maiestrie, apartenenta si incununare; in umbra, poate indica un ciclu neincheiat sau dificultatea de a trece la etapa urmatoare.

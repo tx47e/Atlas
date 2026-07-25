@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/02-The High Priestess.jpg]]
+![[02-The High Priestess.jpg]]
 
 ### Esenta
 - Marea Preoteasa este arhetipul cunoasterii tacute, al intuitiei si al misterului care nu se reveleaza prin fortare. Ea pazeste pragul dintre constient si subconstient, dintre ceea ce poate fi spus si ceea ce trebuie simtit. In lumina, aduce receptivitate si profunzime; in umbra, poate indica secretomanie, pasivitate sau ruperea de realitatea concreta.

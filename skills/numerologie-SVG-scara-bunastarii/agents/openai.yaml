@@ -1,4 +1,4 @@
 interface:
-  display_name: "Scara Bunastarii SVG"
+  display_name: "SVG - Scara Bunastarii"
   short_description: "Genereaza Scara Bunastarii numerologica"
   default_prompt: "Use $numerologie-SVG-scara-bunastarii to generate a validated Scara Bunastarii SVG for a person."

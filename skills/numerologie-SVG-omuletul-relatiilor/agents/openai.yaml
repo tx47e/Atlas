@@ -1,4 +1,4 @@
 interface:
-  display_name: "numerologie-SVG-omuletul-relatiilor"
+  display_name: "SVG - Omuletul Relatiilor"
   short_description: "Skill local pentru SVG numerologic"
   default_prompt: "Foloseste skill-ul local pentru a crea sau adapta SVG-ul numerologic."

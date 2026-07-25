@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/18-The Moon.jpg]]
+![[18-The Moon.jpg]]
 
 ### Esenta
 - Luna este arhetipul subconstientului, visului, fricii si imaginatiei. Ea lumineaza indirect si arata zonele in care proiectiile pot parea realitate. In lumina, aduce sensibilitate, inspiratie si acces la straturi profunde; in umbra, confuzie, anxietate si iluzie.

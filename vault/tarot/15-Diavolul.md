@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/15-The Devil.jpg]]
+![[15-The Devil.jpg]]
 
 ### Esenta
 - Diavolul este arhetipul materiei, dorintei, instinctului si al lanturilor pe care omul le accepta uneori fara sa le mai vada. El scoate la suprafata dependente, frici, compulsii si contracte psihice cu propria umbra. In lumina, aduce luciditate asupra instinctului; in umbra, captivitate, atasament si autoinselare.

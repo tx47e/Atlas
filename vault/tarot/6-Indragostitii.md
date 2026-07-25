@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/06-The Lovers.jpg]]
+![[06-The Lovers.jpg]]
 
 ### Esenta
 - Indragostitii sunt arhetipul alegerii facute din aliniere interioara. Cartea vorbeste despre iubire, atractie si complementaritate, dar mai profund despre valorile care decid directia vietii. In lumina, aduce armonie si sinceritate; in umbra, poate arata indecizie, ispita sau ruptura dintre dorinta si adevar.

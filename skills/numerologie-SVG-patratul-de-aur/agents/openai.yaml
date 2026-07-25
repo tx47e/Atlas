@@ -1,4 +1,4 @@
 interface:
-  display_name: "Patratul de Aur"
+  display_name: "SVG - Patratul de Aur"
   short_description: "Genereaza Patratul de Aur numerologic"
   default_prompt: "Foloseste $numerologie-SVG-patratul-de-aur pentru a genera Patratul de Aur din nume si data de nastere."

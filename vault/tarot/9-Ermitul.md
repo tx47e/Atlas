@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/09-The Hermit.jpg]]
+![[09-The Hermit.jpg]]
 
 ### Esenta
 - Ermitul este arhetipul cautatorului interior, al retragerii necesare pentru a gasi adevarul propriu. El lumineaza doar urmatorul pas, nu intregul drum, si cere rabdare cu procesul de maturizare. In lumina, aduce intelepciune si discernamant; in umbra, poate deveni izolare, raceala sau evitare a vietii.

@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/13-Death.jpg]]
+![[13-Death.jpg]]
 
 ### Esenta
 - Moartea este arhetipul transformarii radicale, al incheierii unei forme si al eliberarii energiei blocate in trecut. Ea nu vorbeste doar despre sfarsit, ci despre curatarea necesara pentru renastere. In lumina, aduce desprindere si regenerare; in umbra, poate arata frica, atasament sau refuzul de a lasa ceva sa se termine.

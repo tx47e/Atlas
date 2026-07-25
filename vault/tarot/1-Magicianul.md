@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/01-The Magician.jpg]]
+![[01-The Magician.jpg]]
 
 ### Esenta
 - Magicianul este arhetipul vointei focalizate si al puterii de a transforma ideea in forma. El reuneste resursele celor patru elemente si le pune in slujba unei intentii clare. In lumina, indica talent, prezenta si capacitate de manifestare; in umbra, poate arata manipulare, risipa de energie sau folosirea inteligentei fara etica.

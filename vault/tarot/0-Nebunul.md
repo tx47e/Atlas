@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/00-The Fool.jpg]]
+![[00-The Fool.jpg]]
 
 ### Esenta
 - Nebunul este arhetipul inceputului pur, al pasului facut inainte ca mintea sa aiba toate garantiile. El vorbeste despre incredere, libertate, curajul de a porni si disponibilitatea de a invata direct din drum. In lumina, aduce prospetime si deschidere; in umbra, poate deveni imprudenta, fuga de responsabilitate sau refuzul de a vedea consecintele.

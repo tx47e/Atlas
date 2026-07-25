@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/05-The Hierrophant.jpg]]
+![[05-The Hierrophant.jpg]]
 
 ### Esenta
 - Marele Preot este arhetipul traditiei, invataturii si transmiterii unei cai spirituale sau morale. El leaga experienta personala de un sistem de valori, de un ritual sau de o comunitate. In lumina, aduce ghidaj si intelepciune; in umbra, poate indica dogma, conformism sau dependenta de validarea unei autoritati.

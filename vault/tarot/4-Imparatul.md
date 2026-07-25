@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/04-The Emperor.jpg]]
+![[04-The Emperor.jpg]]
 
 ### Esenta
 - Imparatul este arhetipul structurii, autoritatii si responsabilitatii asumate. El stabileste limite, construieste reguli si transforma impulsul in ordine functionala. In lumina, ofera stabilitate, protectie si strategie; in umbra, poate deveni rigiditate, dominare sau frica de vulnerabilitate.

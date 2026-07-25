@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/08-Strenght.jpg]]
+![[08-Strenght.jpg]]
 
 ### Esenta
 - Puterea este arhetipul puterii blande, al curajului care nu are nevoie sa domine. Ea arata imblanzirea instinctului prin prezenta, rabdare si iubire constienta. In lumina, aduce autocontrol, compasiune si rezistenta interioara; in umbra, poate indica furie reprimata, slabiciune mascata sau impulsivitate.

@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/12-The Hanged Man.jpg]]
+![[12-The Hanged Man.jpg]]
 
 ### Esenta
 - Spanzuratul este arhetipul suspendarii, al sacrificiului constient si al schimbarii de perspectiva. El nu indica neaparat infrangere, ci o oprire necesara pentru ca vechiul mod de a vedea sa se dizolve. In lumina, aduce acceptare si revelatie; in umbra, poate deveni victimizare, amanare sau blocaj incapatanat.

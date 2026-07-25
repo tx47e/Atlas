@@ -11,12 +11,12 @@ Ruleaza acest skill exclusiv prin The Lore Keeper. Solicita aprobarea explicita 
 
 Nu modifica calculatorul, template-urile, skill-urile sau generatoarele SVG in cadrul aceleiasi rulari de audit. Singurele scrieri permise fara o aprobare separata pentru corectii sunt intrarea append-only din manifest si actualizarea constatarii din registrul formulelor. Livreaza mai intai constatarile si propunerea de sincronizare; orice corectie de formula necesita o aprobare separata.
 
-Pastreaza istoricul in `vault/Numerologie/Istoric Rulari Validare Formule.md`. Creeaza cate o intrare pentru fiecare lansare aprobata, pentru fiecare rulare anulata si pentru fiecare rulare blocata din lipsa aprobarii.
+Pastreaza istoricul in `vault/Audit/Istoric Rulari Validare Formule.md`. Creeaza cate o intrare pentru fiecare lansare aprobata, pentru fiecare rulare anulata si pentru fiecare rulare blocata din lipsa aprobarii.
 
 ## Flux
 
 1. Cere si inregistreaza aprobarea de lansare in manifestul de rulare.
-2. Citeste `vault/Numerologie/Registru Validare Formule.md`.
+2. Citeste `vault/Audit/Registru Validare Formule.md`.
 3. Extrage formula, pasi, limite si exemple din documentatia relevanta din `vault/Numerologie/`.
 4. Compara cu `scripts/calculator_numerologic_examen.py`, skill-urile SVG si cel putin o lucrare aprobata, daca exista.
 5. Marcheaza formula `confirmata` numai cand sursa, implementarea si exemplul concorda.

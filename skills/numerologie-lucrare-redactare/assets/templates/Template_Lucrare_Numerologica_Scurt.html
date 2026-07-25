@@ -193,6 +193,22 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   a { color: inherit; text-decoration: none; }
 }
 .lesson-number{font-size:1.15em;font-weight:700}
+.spirit-code-wrap{overflow-x:hidden}
+.spirit-code-table{width:100%;min-width:0;table-layout:fixed}
+.spirit-code-table th,.spirit-code-table td{padding:5px 3px;text-align:center;white-space:nowrap}
+.spirit-code-table td>span{display:block;margin:-5px -3px;padding:5px 3px;text-align:center;font-weight:700}
+.spirit-zone-love,.zone-love{background:#b8d9e7!important}
+.spirit-zone-reason,.zone-reason{background:#fffaf3!important}
+.spirit-zone-material,.zone-material{background:#d8c1a2!important}
+.spirit-zone-gifts,.zone-gifts{background:#e6b4a9!important}
+.spirit-cell-highlight{background:var(--teal)!important;color:#fff;font-weight:900!important;box-shadow:inset 0 0 0 2px var(--gold)}
+.spirit-zones-table td.zone-cell{padding:0;text-align:center;vertical-align:middle}
+.spirit-zones-table .zone-badge{display:block;width:100%;padding:10px 6px;box-sizing:border-box;background:transparent;font-weight:800}
+.stage-table{width:100%;table-layout:fixed}
+.stage-table th,.stage-table td{vertical-align:middle;padding:10px}
+.stage-table td:first-child,.stage-table td:nth-child(3){text-align:center}
+.stage-table .current-row td{background:#dcc39b!important;font-weight:700}
+@media(max-width:760px){.spirit-code-table th,.spirit-code-table td{padding:4px 1px;font-size:8px}.spirit-code-table td>span{margin:-4px -1px;padding:4px 1px}}
 </style>
 </head>
 <body>
@@ -226,11 +242,12 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   <a href="#capitolul-3-destinul">3. Destinul — Muntele de urcat</a>
   <a href="#capitolul-4-matrita-numerologica">4. Matrița numerologică — Pătratul lui Pitagora</a>
   <a href="#capitolul-5-numele">5. Numele — Eu și neamul</a>
-  <a href="#capitolul-6-pinacluri-oportunitati-si-provocari">6. Pinacluri: Oportunități și provocări</a>
-  <a href="#capitolul-7-ciclicitati">7. Ciclicități</a>
-  <a data-template-condition="relatie" href="#capitolul-8-relatii">8. Relații</a>
-  <a data-template-condition="relatie" href="#capitolul-9-aplicabilitate-profesionala">9. Aplicabilitate profesională</a>
-  <a href="#capitolul-10-concluzii" data-template-without-relation="8. Concluzii|capitolul-8-concluzii">10. Concluzii</a>
+  <a href="#capitolul-6-spirit-si-karma">6. Spirit și karmă — Lecții și direcții de maturizare</a>
+  <a href="#capitolul-7-pinacluri-oportunitati-si-provocari">7. Pinacluri: Oportunități și provocări</a>
+  <a href="#capitolul-8-ciclicitati">8. Ciclicități</a>
+  <a data-template-condition="relatie" href="#capitolul-9-relatii">9. Relații</a>
+  <a data-template-condition="relatie" href="#capitolul-10-aplicabilitate-profesionala">10. Aplicabilitate profesională</a>
+  <a href="#capitolul-11-concluzii" data-template-without-relation="9. Concluzii|capitolul-9-concluzii">11. Concluzii</a>
 </nav>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-005</div>
@@ -303,19 +320,19 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   <div class="matrix-cell element-apa"><div class="matrix-number">6</div><div class="matrix-main">{{cifre_6}}</div><div class="matrix-opt">optim 66</div><div class="matrix-geom {{clasa_absent_6}}">{{geometrie_svg_6}}</div></div>
   <div class="matrix-cell element-foc"><div class="matrix-number">9</div><div class="matrix-main">{{cifre_9}}</div><div class="matrix-opt">optim 9</div><div class="matrix-geom {{clasa_absent_9}}">{{geometrie_svg_9}}</div></div>
 </div>
-<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_1}}</div><p><strong>Căsuța 1.</strong> {{interpretare_1_fata_de_optim}}</p>
-<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_2}}</div><p><strong>Căsuța 2.</strong> {{interpretare_2_fata_de_optim}}</p>
-<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_3}}</div><p><strong>Căsuța 3.</strong> {{interpretare_3_fata_de_optim}}</p>
-<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_4}}</div><p><strong>Căsuța 4.</strong> {{interpretare_4_fata_de_optim}}</p>
-<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_5}}</div><p><strong>Căsuța 5.</strong> {{interpretare_5_fata_de_optim}}</p>
-<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_6}}</div><p><strong>Căsuța 6.</strong> {{interpretare_6_fata_de_optim}}</p>
-<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_7}}</div><p><strong>Căsuța 7.</strong> {{interpretare_7_fata_de_optim}}</p>
-<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_8}}</div><p><strong>Căsuța 8.</strong> {{interpretare_8_fata_de_optim}}</p>
-<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_9}}</div><p><strong>Căsuța 9.</strong> {{interpretare_9_fata_de_optim}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_1}}</div><p><strong>Căsuța 1.</strong> {{interpretare_casuta_1_dupa_numar_aparitii}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_2}}</div><p><strong>Căsuța 2.</strong> {{interpretare_casuta_2_dupa_numar_aparitii}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_3}}</div><p><strong>Căsuța 3.</strong> {{interpretare_casuta_3_dupa_numar_aparitii}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_4}}</div><p><strong>Căsuța 4.</strong> {{interpretare_casuta_4_dupa_numar_aparitii_sau_energie_conservata}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_5}}</div><p><strong>Căsuța 5.</strong> {{interpretare_casuta_5_dupa_numar_aparitii_sau_energie_conservata}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_6}}</div><p><strong>Căsuța 6.</strong> {{interpretare_casuta_6_dupa_numar_aparitii}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_7}}</div><p><strong>Căsuța 7.</strong> {{interpretare_casuta_7_dupa_numar_aparitii}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_8}}</div><p><strong>Căsuța 8.</strong> {{interpretare_casuta_8_dupa_numar_aparitii}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_casuta_9}}</div><p><strong>Căsuța 9.</strong> {{interpretare_casuta_9_dupa_numar_aparitii}}</p>
 <h3 id="4-3-elemente-si-temperament">4.3. Elemente și temperament</h3>
 <div class="element-analysis"><div class="element-indexes"><span class="index">Index: {{cod_lucrare}}-T-012</span><span class="index">Index: {{cod_lucrare}}-P-{{index_definitii_elemente}}</span></div><div class="element-chart"><div class="element-bars" role="img" aria-label="Distribuția elementelor"><div class="element-bar"><div class="element-bar-label"><span>Foc</span><strong>{{total_foc}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-foc" style="width:{{procent_foc}}%"></span></div></div><div class="element-bar"><div class="element-bar-label"><span>Pământ</span><strong>{{total_pamant}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-pamant" style="width:{{procent_pamant}}%"></span></div></div><div class="element-bar"><div class="element-bar-label"><span>Aer</span><strong>{{total_aer}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-aer" style="width:{{procent_aer}}%"></span></div></div><div class="element-bar"><div class="element-bar-label"><span>Apă</span><strong>{{total_apa}}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-apa" style="width:{{procent_apa}}%"></span></div></div></div></div><ul class="element-definitions"><li><strong>Focul</strong> este {{definitie_foc}}.</li><li><strong>Pământul</strong> este {{definitie_pamant}}.</li><li><strong>Aerul</strong> este {{definitie_aer}}.</li><li><strong>Apa</strong> este {{definitie_apa}}.</li></ul></div>
 <div class="index">Index: {{cod_lucrare}}-P-{{index_temperament}}</div><p>{{interpretare_temperament_din_elemente}}</p>
-<div class="index">Index: {{cod_lucrare}}-SUB-016</div><h3 id="4-4-masculin-feminin">4.4. Masculin și feminin</h3><div class="index">Index: {{cod_lucrare}}-P-{{index_par_impar}}</div><div class="parity-chart" role="img" aria-label="Raportul cifrelor impare și pare"><div class="parity-chart-total">Total: <strong>{{total_cifre_matrice}}</strong> cifre</div><div class="parity-chart-bar"><span class="parity-odd" style="width:{{procent_impare}}%"><strong>Impare · {{total_impare}}</strong></span><span class="parity-even" style="width:{{procent_pare}}%"><strong>Pare · {{total_pare}}</strong></span></div></div><p>{{interpretare_par_impar_masculin_feminin}}</p><div class="index">Index: {{cod_lucrare}}-SUB-017</div><h3 id="4-5-daruri-si-nevoi">4.5. Daruri și nevoi</h3><div class="index">Index: {{cod_lucrare}}-P-{{index_daruri_nevoi}}</div><p>{{interpretare_daruri_nevoi}}</p><div class="index">Index: {{cod_lucrare}}-SUB-017a</div><h3 id="4-6-scara-bunastarii">4.6. Scara bunăstării</h3><div class="index">Index: {{cod_lucrare}}-G-{{index_scara_bunastarii}}</div>{{grafic_scara_bunastarii_html}}
+<div class="index">Index: {{cod_lucrare}}-SUB-016</div><h3 id="4-4-masculin-feminin">4.4. Masculin și feminin</h3><div class="index">Index: {{cod_lucrare}}-P-{{index_par_impar}}</div><div class="parity-chart" role="img" aria-label="Raportul cifrelor impare și pare"><div class="parity-chart-total">Total: <strong>{{total_cifre_matrice}}</strong> cifre</div><div class="parity-chart-bar"><span class="parity-odd" style="width:{{procent_impare}}%"><strong>Impare · {{total_impare}}</strong></span><span class="parity-even" style="width:{{procent_pare}}%"><strong>Pare · {{total_pare}}</strong></span></div></div><p>{{interpretare_par_impar_masculin_feminin}}</p><div class="index">Index: {{cod_lucrare}}-SUB-017</div><h3 id="4-5-daruri-si-nevoi">4.5. Daruri și nevoi</h3><div class="index">Index: {{cod_lucrare}}-P-{{index_daruri_nevoi}}</div><p>{{interpretare_daruri_nevoi}}</p><div class="index">Index: {{cod_lucrare}}-SUB-017a</div><h3 id="4-6-scara-bunastarii">4.6. Scara bunăstării</h3><div class="index">Index: {{cod_lucrare}}-P-{{index_interpretare_scara_bunastarii}}</div><p>{{interpretare_conversationala_lant_scara_bunastarii}}</p><div class="index">Index: {{cod_lucrare}}-G-{{index_scara_bunastarii}}</div>{{grafic_scara_bunastarii_html}}
 {{bloc_fixatie_conditionala_html}}
 {{bloc_tendinta_conditionala_html}}
 
@@ -342,7 +359,55 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <div class="index">Index: {{cod_lucrare}}-P-{{index_comparatie_data_nume_aport}}</div><p>{{interpretare_energii_doar_in_nume_ca_impresie_si_aport_extern}}</p>
 {{bloc_nume_anterior_conditional_html}}
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-010</div>
-<h2 id="capitolul-6-pinacluri-oportunitati-si-provocari">Capitolul 6. Pinacluri: Oportunități și provocări</h2>
+<h2 id="capitolul-6-spirit-si-karma">Capitolul 6. Spirit și karmă — Lecții și direcții de maturizare</h2>
+<div class="index">Index: {{cod_lucrare}}-SUB-023b</div>
+<h3 id="6-1-codul-spiritului-si-varsta-spiritului">6.1. Codul Spiritului și vârsta Spiritului</h3>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_definitie_cod_spirit}}</div><p>{{definitie_conversationala_cod_spirit}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_pozitie_cod_spirit}}</div><p>În tabel, poziția ta este la ziua <strong>{{zi_nastere}}</strong> și luna <strong>{{luna_romana}}</strong>, unde apare codul <strong>{{cod_spirit}}</strong>.</p>
+<div class="index">Index: {{cod_lucrare}}-T-017</div>
+<div class="table-wrap spirit-code-wrap">{{tabel_cod_spirit_zi_luna_html}}</div>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_interpretare_cod_spirit}}</div><p>{{interpretare_cod_spirit_si_zona_fara_repetarea_formulei}}</p>
+<div class="index">Index: {{cod_lucrare}}-T-018</div>
+<div class="table-wrap"><table class="spirit-zones-table"><thead><tr><th>Zona</th><th>Interval cod</th><th>Nivel simbolic</th><th>Teme principale</th></tr></thead><tbody>
+<tr><td class="zone-cell zone-love"><span class="zone-badge">Iubire</span></td><td>1–13</td><td>0–2.500 ani</td><td>relații, emoții, atașamente, compasiune, vulnerabilitate</td></tr>
+<tr><td class="zone-cell zone-reason"><span class="zone-badge">Rațiune</span></td><td>14–26</td><td>2.500–5.000 ani</td><td>logică, discernământ, structură, analiză, minte</td></tr>
+<tr><td class="zone-cell zone-material"><span class="zone-badge">Material</span></td><td>27–39</td><td>5.000–7.500 ani</td><td>bani, construcție, putere, manifestare, responsabilitate</td></tr>
+<tr><td class="zone-cell zone-gifts"><span class="zone-badge">Haruri</span></td><td>40–52</td><td>7.500–10.000 ani</td><td>înțelepciune, haruri spirituale, ghidare, serviciu, intuiție</td></tr>
+</tbody></table></div>
+<div class="index">Index: {{cod_lucrare}}-T-019</div>
+<div class="table-wrap">{{tabel_etape_si_subetape_spirit_html}}</div>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_interpretare_subetapa_spirit}}</div><p>{{interpretare_conversationala_subetapa_spirit}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_definitie_varsta_spirit}}</div><p>{{definitie_concisa_varsta_spirit}}</p>
+<div class="index">Index: {{cod_lucrare}}-C-{{index_calcul_varsta_spirit}}</div><div class="calc-box">Vârsta la naștere = ({{cod_spirit}} × 189) - 189 = <strong>{{varsta_spirit_la_nastere}}</strong><br>Vârsta actuală = {{varsta_spirit_la_nastere}} + {{varsta_biologica}} = <strong>{{varsta_spirit_actuala}}</strong></div>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_ghidare_practica_spirit}}</div><p>{{ghidare_practica_spirit_fara_repetarea_calculului}}</p>
+
+<div class="index">Index: {{cod_lucrare}}-SUB-023c</div>
+<h3 id="6-2-karma-din-ziua-de-nastere">6.2. Karma din ziua de naștere</h3>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_definitie_karma_zi}}</div><p>{{interpretare_conversationala_karma_zi_interval_procent_si_arcana}}</p>
+<div class="index">Index: {{cod_lucrare}}-C-{{index_calcul_karma_zi}}</div><div class="calc-box">Ziua nașterii = <strong>{{zi_nastere}}</strong><br>Arcana karmică = <strong>{{arcana_karma_zi}} — {{nume_arcana_karma_zi}}</strong><br>Intervalul {{interval_karma_zi}} = karma împlinită <strong>{{procent_karma_zi}}</strong></div>
+<div class="index">Index: {{cod_lucrare}}-G-{{index_arcana_karma_zi}}</div><figure><img class="tarot-image" src="{{arcana_karma_zi_data_uri}}" alt="Arcana {{arcana_karma_zi}} — {{nume_arcana_karma_zi}}, karma din ziua de naștere"><figcaption>Arcana <strong>{{arcana_karma_zi}}</strong> — {{nume_arcana_karma_zi}}. Karma din ziua de naștere</figcaption></figure>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_resursa_karma_zi}}</div><p>{{resursa_si_manifestare_karma_zi}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_umbra_karma_zi}}</div><p>{{umbra_karma_zi_ca_posibilitate_nu_predictie}}</p>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_maturizare_karma_zi}}</div><p>{{maturizare_karma_zi}}</p>
+
+<div class="index">Index: {{cod_lucrare}}-SUB-023d</div>
+<h3 id="6-3-karma-din-luna-de-nastere">6.3. Karma din luna de naștere</h3>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_definitie_karma_luna}}</div><p>{{definitie_conversationala_karma_luna}}</p>
+<div class="index">Index: {{cod_lucrare}}-C-{{index_calcul_karma_luna}}</div><div class="calc-box">Luna nașterii = <strong>{{luna_nastere}}</strong><br>Karma lunii = <strong>{{denumire_karma_luna}}</strong></div>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_interpretare_karma_luna}}</div><p>{{interpretare_karma_luna_resursa_umbra_limite_si_maturizare}}</p>
+
+<div class="index">Index: {{cod_lucrare}}-SUB-023e</div>
+<h3 id="6-4-karma-din-calea-destinului">6.4. Karma din Calea Destinului</h3>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_definitie_karma_calea_destinului}}</div><p>{{definitie_karma_calea_destinului_si_suma_compusa}}</p>
+<div class="index">Index: {{cod_lucrare}}-C-{{index_calcul_karma_calea_destinului}}</div><div class="calc-box">{{calcul_suma_cifrelor_datei}} = <strong>{{karma_calea_destinului}}</strong><br>Karma din Calea Destinului = <strong>{{karma_calea_destinului}}</strong><br>Intervalul {{interval_karma_calea_destinului}} = categoria karmică <strong>{{categoria_karma_calea_destinului}}</strong></div>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_interpretare_karma_calea_destinului}}</div><p>{{interpretare_karma_calea_destinului_cu_directie_speciala_pentru_39_numarul_mintii}}</p>
+
+<div class="index">Index: {{cod_lucrare}}-SUB-023f</div>
+<h3 id="6-5-concluzie-directia-de-lucru">6.5. Concluzie: direcția de lucru</h3>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_concluzie_spirit_karma}}</div><p>{{concluzie_unica_spirit_zona_subetapa_varsta_si_trei_karme}}</p>
+
+<div class="index index-heading">Index: {{cod_lucrare}}-CAP-011</div>
+<h2 id="capitolul-7-pinacluri-oportunitati-si-provocari">Capitolul 7. Pinacluri: Oportunități și provocări</h2>
 <div class="index">Index: {{cod_lucrare}}-P-024b</div>
 <p>De-a lungul vieții, treci prin patru pinacluri, fiecare cu propria oportunitate și propria provocare. Oportunitatea arată direcția pe care viața o poate deschide, iar provocarea arată lecția care îți cere maturizare pentru a folosi constructiv acea direcție.</p>
 <div class="index">Index: {{cod_lucrare}}-T-003</div>
@@ -352,11 +417,11 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <div class="index">Index: {{cod_lucrare}}-P-024e</div><p><strong>Pinaclul 3: {{formulare_interval_pinaclu_3}}</strong>, {{interpretare_pinaclu_3}}</p>
 <div class="index">Index: {{cod_lucrare}}-P-024f</div><p><strong>Pinaclul 4: {{formulare_interval_pinaclu_4}}</strong>, {{interpretare_pinaclu_4}}</p>
 
-<div class="index index-heading">Index: {{cod_lucrare}}-CAP-011</div>
-<h2 id="capitolul-7-ciclicitati">Capitolul 7. Ciclicități</h2>
-<h3 id="7-1-soarta-si-destinul">7.1. Soarta și Destinul</h3><p>{{definitie_metoda_si_interpretare_soarta_destin}}</p>
+<div class="index index-heading">Index: {{cod_lucrare}}-CAP-012</div>
+<h2 id="capitolul-8-ciclicitati">Capitolul 8. Ciclicități</h2>
+<h3 id="8-1-soarta-si-destinul">8.1. Soarta și Destinul</h3><p>{{definitie_metoda_si_interpretare_soarta_destin}}</p>
 <div class="calc-box">Soartă: <strong>{{sir_soarta}}</strong><br>Destin: <strong>{{sir_destin}}</strong></div>
-<h3 id="7-2-anii-importanti">7.2. Anii importanți</h3>
+<h3 id="8-2-anii-importanti">8.2. Anii importanți</h3>
 <div class="index">Index: {{cod_lucrare}}-P-026a</div>
 <p><strong>Anii importanți interiori</strong> marchează momente în care schimbarea pornește mai ales din interiorul persoanei: decizii, maturizări, conștientizări, schimbări de perspectivă, nevoi sufletești sau transformări personale care apoi pot modifica viața din afară.</p>
 <div class="index">Index: {{cod_lucrare}}-P-026b</div>
@@ -365,18 +430,18 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <p><strong>Anii importanți exteriori</strong> marchează momente în care schimbarea vine mai ales din afara persoanei: contexte, oameni, evenimente, oportunități, pierderi, mutări, presiuni sau situații care cer reacție și adaptare.</p>
 <div class="index">Index: {{cod_lucrare}}-P-026d</div>
 <p><strong>Șirul anilor importanți exteriori:</strong> {{sir_ani_importanti_exteriori}}.</p>
-<h3 id="7-3-lectiile-de-viata">7.3. Lecțiile de viață</h3>
+<h3 id="8-3-lectiile-de-viata">8.3. Lecțiile de viață</h3>
 <div class="index">Index: {{cod_lucrare}}-T-008</div>
 <div class="table-wrap"><table><thead><tr><th>Vârstă</th><th>Lecția 1 — <strong class="lesson-number">{{lectia_1}}</strong></th><th>Lecția 2 — <strong class="lesson-number">{{lectia_2}}</strong></th><th>Lecția 3 — <strong class="lesson-number">{{lectia_3}}</strong></th><th>Lecția 4 — <strong class="lesson-number">{{lectia_4}}</strong></th><th>Lecția 5 — <strong class="lesson-number">{{lectia_5}}</strong></th></tr></thead><tbody><tr><td>{{rand_lectii_1}}</td><td>{{an_l1}}</td><td>{{an_l2}}</td><td>{{an_l3}}</td><td class="active-year">{{an_l4}}</td><td>{{an_l5}}</td></tr>{{randuri_lectii_html}}</tbody></table></div>
 <p>{{interpretare_lectii_de_viata}}</p>
-<h3 id="7-4-ciclul-de-7-ani">7.4. Ciclul de 7 ani</h3>
+<h3 id="8-4-ciclul-de-7-ani">8.4. Ciclul de 7 ani</h3>
 <div class="index">Index: {{cod_lucrare}}-T-006</div>
 <div class="table-wrap"><table class="cycle-7-table"><thead><tr><th>Ciclu</th><th>Anul 1</th><th>Anul 2</th><th>Anul 3</th><th>Anul 4</th><th>Anul 5</th><th>Anul 6</th><th>Anul 7</th><th>Interpretare</th></tr></thead><tbody><tr><td>{{ciclu_7_1}}</td><td>{{an1}}</td><td>{{an2}}</td><td>{{an3}}</td><td class="active-year">{{an4_reper}}</td><td>{{an5}}</td><td>{{an6}}</td><td>{{an7}}</td><td>{{interpretare_ciclu_7_1}}</td></tr>{{randuri_ciclu_7_html}}</tbody></table></div>
-<h3 id="7-5-ciclul-de-9-ani">7.5. Ciclul de 9 ani</h3>
+<h3 id="8-5-ciclul-de-9-ani">8.5. Ciclul de 9 ani</h3>
 <div class="index">Index: {{cod_lucrare}}-T-007</div>
 <div class="table-wrap"><table><thead><tr><th>Ciclu</th><th>Anul 1 — început</th><th>Anul 2</th><th>Anul 3</th><th>Anul 4</th><th>Anul 5</th><th>Anul 6</th><th>Anul 7</th><th>Anul 8</th><th>Anul 9 — încheiere</th></tr></thead><tbody><tr><td>{{ciclu_9_1}}</td><td class="cycle-start">{{an_inceput}}</td><td>{{an2}}</td><td>{{an3}}</td><td>{{an4}}</td><td>{{an5}}</td><td>{{an6}}</td><td>{{an7}}</td><td>{{an8}}</td><td class="cycle-end">{{an_final}}</td></tr>{{randuri_ciclu_9_html}}</tbody></table></div>
 <p>{{interpretare_ciclu_9_si_an_personal}}</p>
-<h3 id="7-6-ciclul-de-12-ani">7.6. Ciclul de 12 ani</h3>
+<h3 id="8-6-ciclul-de-12-ani">8.6. Ciclul de 12 ani</h3>
 <div class="index">Index: {{cod_lucrare}}-T-015</div>
 <!-- Aplică class="active-cycle" rândului care conține data curentă. -->
 <div class="table-wrap"><table class="twelve-year-table" style="width:100%;table-layout:fixed"><colgroup><col style="width:10%"><col style="width:20%"><col style="width:12%"><col style="width:58%"></colgroup><thead><tr><th>Ciclu</th><th>Interval calendaristic</th><th>Vârste</th><th>Citire</th></tr></thead><tbody>{{randuri_ciclu_12_html}}</tbody></table></div>
@@ -384,9 +449,9 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 
 <section class="conditional" data-template-condition="relatie">
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-013</div>
-<h2 id="capitolul-8-relatii">Capitolul 8. Relații</h2>
+<h2 id="capitolul-9-relatii">Capitolul 9. Relații</h2>
 <ul class="relation-facts"><li>Nume: {{nume_persoana_relationala}}</li><li>Data nașterii: {{data_nasterii_persoana_relationala}}</li><li>Tipul relației: {{tip_relatie}}</li></ul>
-<h3 id="8-1-omuletul-relatiilor">8.1. Omulețul relațiilor</h3>
+<h3 id="9-1-omuletul-relatiilor">9.1. Omulețul relațiilor</h3>
 <p>{{introducere_relatie_ca_harta_nu_verdict}}</p>
 <div class="index">Index: {{cod_lucrare}}-G-004</div>
 <figure class="svg-figure"><img class="embedded-svg" src="{{omulet_relatii_data_uri}}" alt="Omulețul relațiilor pentru {{nume_complet}} și {{nume_persoana_relationala}}"><figcaption>Omulețul relațiilor pentru {{nume_complet}} și {{nume_persoana_relationala}}</figcaption></figure>
@@ -396,9 +461,9 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 </section>
 
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-014</div>
-<h2 id="capitolul-9-aplicabilitate-profesionala">Capitolul 9. Aplicabilitate profesională</h2>
+<h2 id="capitolul-10-aplicabilitate-profesionala">Capitolul 10. Aplicabilitate profesională</h2>
 <div class="index">Index: {{cod_lucrare}}-SUB-029</div>
-<h3 id="9-1-aplicabilitate-profesionala">9.1. Aplicabilitate profesională</h3>
+<h3 id="10-1-aplicabilitate-profesionala">10.1. Aplicabilitate profesională</h3>
 <div class="index">Index: {{cod_lucrare}}-P-035</div><p>{{descriere_aplicabilitate_profesionala}}</p>
 <div class="index">Index: {{cod_lucrare}}-P-046</div>
 <div class="calc-box">{{calcul_aplicabilitate_nu}}<br>{{calcul_aplicabilitate_da}}</div>
@@ -408,8 +473,17 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <tr><td><div class="index">Index: {{cod_lucrare}}-P-047</div>{{interpretare_aplicabilitate_da}}</td><td><div class="index">Index: {{cod_lucrare}}-P-048</div>{{interpretare_aplicabilitate_nu}}</td></tr>
 </tbody></table></div>
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-015</div>
-<h2 id="capitolul-10-concluzii" data-template-without-relation="Capitolul 8. Concluzii|capitolul-8-concluzii">Capitolul 10. Concluzii</h2>
-<p>{{sinteza_finala_personalizata_fara_repetitii_sau_predictii_rigide}}</p>
+<h2 id="capitolul-11-concluzii" data-template-without-relation="Capitolul 9. Concluzii|capitolul-9-concluzii">Capitolul 11. Concluzii</h2>
+<div class="index">Index: {{cod_lucrare}}-SUB-{{index_sub_harta_suprapusa}}</div>
+<h3 id="11-1-harta-suprapusa">11.1. Harta suprapusă</h3>
+<div class="index">Index: {{cod_lucrare}}-P-{{index_descriere_harta_suprapusa}}</div><p>{{descriere_harta_suprapusa_maxim_trei_randuri}}</p>
+<div class="index">Index: {{cod_lucrare}}-G-{{index_harta_suprapusa}}</div><figure class="svg-figure"><img class="embedded-svg" src="{{harta_suprapusa_data_uri}}" alt="Harta suprapusă pentru {{nume_complet}}"><figcaption>Harta suprapusă pentru {{nume_complet}}</figcaption></figure>
+<div class="index">Index: {{cod_lucrare}}-SUB-{{index_sub_cariera_bani}}</div>
+<h3 id="11-2-cariera-si-bani">11.2. Carieră și bani</h3>
+{{concluzie_cariera_bani_din_harta_suprapusa_si_ferestre_temporale_html_cu_indexuri}}
+<div class="index">Index: {{cod_lucrare}}-SUB-{{index_sub_iubire_relatii}}</div>
+<h3 id="11-3-iubire-si-relatii">11.3. Iubire și relații</h3>
+{{concluzie_iubire_relatii_din_harta_suprapusa_si_ferestre_temporale_html_cu_indexuri}}
 
 <section class="conditional" data-template-condition="revizie">
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-016</div>
@@ -426,9 +500,13 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   <li>Cuprinsul și ancorele indică heading-uri existente și unice.</li>
   <li>Cele șapte tabele-model sunt editabile, nu imagini.</li>
   <li>Matricea are exact nouă căsuțe în ordinea 1–4–7 / 2–5–8 / 3–6–9.</li>
+  <li>Paragrafele Căsuțelor 1–9 spun numărul de apariții, fără comparația verbală cu optimul; absența este energie conservată.</li>
+  <li>Scara bunăstării are paragraf interpretativ indexat înaintea graficului și explică lanțul dintre trepte.</li>
+  <li>Capitolul 6 reunește Spiritul și cele trei karme, fără explicații intermediare redundante, și are o singură concluzie.</li>
   <li>Fiecare arcană numită are imagine în același subcapitol.</li>
   <li>Relația este inclusă numai când există date relaționale.</li>
   <li>SVG-ul Omulețului relațiilor este valid și conține watermark-ul Atlas Numerologie.</li>
+  <li>Concluziile includ Harta suprapusă, Carieră și bani, apoi Iubire și relații.</li>
   <li>Nu există date sau interpretări rămase de la persoana-model.</li>
 </ul>
 </section>

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Harta Suprapusa"
+  display_name: "SVG - Harta Suprapusa"
   short_description: "Genereaza harta Soarta-Destin completa"
   default_prompt: "Foloseste $numerologie-SVG-harta-suprapusa pentru a genera harta suprapusa din nume si data de nastere."

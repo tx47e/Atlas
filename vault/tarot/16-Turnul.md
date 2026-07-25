@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/16-The Tower.jpg]]
+![[16-The Tower.jpg]]
 
 ### Esenta
 - Turnul este arhetipul revelatiei bruste si al prabusirii structurilor false. El intervine acolo unde adevarul a fost amanat prea mult sau unde orgoliul a ridicat ziduri instabile. In lumina, elibereaza si trezeste; in umbra, poate fi trait ca soc, pierdere si dezorientare.

@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/14-Temperance.jpg]]
+![[14-Temperance.jpg]]
 
 ### Esenta
 - Cumpatarea este arhetipul alchimiei interioare, al echilibrarii fortelor si al vindecarii prin ritm. Ea amesteca elemente diferite pana cand apare o formula mai rafinata. In lumina, aduce armonie, rabdare si integrare; in umbra, poate indica exces, dispersie sau graba de a obtine rezultatul.

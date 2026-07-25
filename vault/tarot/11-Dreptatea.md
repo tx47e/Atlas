@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/11-Justice.jpg]]
+![[11-Justice.jpg]]
 
 ### Esenta
 - Dreptatea este arhetipul echilibrului, adevarului si consecintelor. Ea cantareste faptele, intentiile si responsabilitatea, fara dramatism si fara indulgenta falsa. In lumina, aduce claritate, corectitudine si reparatie; in umbra, poate arata nedreptate, negare sau judecata rigida.

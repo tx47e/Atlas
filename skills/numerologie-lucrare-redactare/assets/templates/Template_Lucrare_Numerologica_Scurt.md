@@ -32,7 +32,7 @@ Index: {{cod_lucrare}}-L-001
 - Versiune: {{versiune}}
 
 > [!info] Relație opțională
-> Dacă sunt furnizate date relaționale, adaugă aici numele complet, prenumele activ, data nașterii, genul și tipul relației. Dacă lipsesc, elimină integral acest callout, Capitolul 8 și intrarea lui din Cuprins; Concluziile devin Capitolul 8.
+> Dacă sunt furnizate date relaționale, adaugă aici numele complet, prenumele activ, data nașterii, genul și tipul relației. Dacă lipsesc, elimină integral acest callout, Capitolele 9 și 10 și intrările lor din Cuprins; Concluziile devin Capitolul 9.
 
 Index: {{cod_lucrare}}-CAP-003
 ## Cuprins
@@ -43,11 +43,12 @@ Index: {{cod_lucrare}}-L-002
 3. Destinul — Muntele de urcat
 4. Matrița numerologică — Pătratul lui Pitagora
 5. Numele — Eu și neamul
-6. Pinacluri: Oportunități și provocări
-7. Ciclicități
-8. Relații — numai dacă există date relaționale
-9. Aplicabilitate profesională — numai dacă există date relaționale
-10. Concluzii
+6. Spirit și karmă — Lecții și direcții de maturizare
+7. Pinacluri: Oportunități și provocări
+8. Ciclicități
+9. Relații — numai dacă există date relaționale
+10. Aplicabilitate profesională — numai dacă există date relaționale
+11. Concluzii
 
 Index: {{cod_lucrare}}-CAP-005
 ## Capitolul 1. Vibrația interioară — Cine ești tu?
@@ -192,31 +193,31 @@ Index: {{cod_lucrare}}-G-002
 > Păstrează ordinea `1–4–7 / 2–5–8 / 3–6–9`, culorile elementelor și reperul optim. Pentru o cifră folosește un cerc; pentru exact două cifre folosește două cercuri unite printr-o linie care se oprește la contur și nu intră în cercuri; pentru exact trei cifre folosește un triunghi. Căsuțele fără cifre afișează `—` și starea `absent`.
 
 Index: {{cod_lucrare}}-P-{{index_casuta_1}}
-**Căsuța 1.** {{interpretare_1_fata_de_optim}}
+**Căsuța 1.** {{interpretare_casuta_1_dupa_numar_aparitii}}
 
 Index: {{cod_lucrare}}-P-{{index_casuta_2}}
-**Căsuța 2.** {{interpretare_2_fata_de_optim}}
+**Căsuța 2.** {{interpretare_casuta_2_dupa_numar_aparitii}}
 
 Index: {{cod_lucrare}}-P-{{index_casuta_3}}
-**Căsuța 3.** {{interpretare_3_fata_de_optim}}
+**Căsuța 3.** {{interpretare_casuta_3_dupa_numar_aparitii}}
 
 Index: {{cod_lucrare}}-P-{{index_casuta_4}}
-**Căsuța 4.** {{interpretare_4_fata_de_optim}}
+**Căsuța 4.** {{interpretare_casuta_4_dupa_numar_aparitii_sau_energie_conservata}}
 
 Index: {{cod_lucrare}}-P-{{index_casuta_5}}
-**Căsuța 5.** {{interpretare_5_fata_de_optim}}
+**Căsuța 5.** {{interpretare_casuta_5_dupa_numar_aparitii_sau_energie_conservata}}
 
 Index: {{cod_lucrare}}-P-{{index_casuta_6}}
-**Căsuța 6.** {{interpretare_6_fata_de_optim}}
+**Căsuța 6.** {{interpretare_casuta_6_dupa_numar_aparitii}}
 
 Index: {{cod_lucrare}}-P-{{index_casuta_7}}
-**Căsuța 7.** {{interpretare_7_fata_de_optim}}
+**Căsuța 7.** {{interpretare_casuta_7_dupa_numar_aparitii}}
 
 Index: {{cod_lucrare}}-P-{{index_casuta_8}}
-**Căsuța 8.** {{interpretare_8_fata_de_optim}}
+**Căsuța 8.** {{interpretare_casuta_8_dupa_numar_aparitii}}
 
 Index: {{cod_lucrare}}-P-{{index_casuta_9}}
-**Căsuța 9.** {{interpretare_9_fata_de_optim}}
+**Căsuța 9.** {{interpretare_casuta_9_dupa_numar_aparitii}}
 
 Index: {{cod_lucrare}}-SUB-015
 ### 4.3. Elemente și temperament
@@ -261,6 +262,9 @@ Index: {{cod_lucrare}}-P-{{index_daruri_nevoi}}
 
 Index: {{cod_lucrare}}-SUB-017a
 ### 4.6. Scara bunăstării
+
+Index: {{cod_lucrare}}-P-{{index_interpretare_scara_bunastarii}}
+{{interpretare_conversationala_lant_scara_bunastarii}}
 
 Index: {{cod_lucrare}}-G-{{index_scara_bunastarii}}
 {{grafic_scara_bunastarii}}
@@ -345,7 +349,117 @@ Index: {{cod_lucrare}}-P-{{index_comparatie_data_nume_aport}}
 {{bloc_nume_anterior_conditional}}
 
 Index: {{cod_lucrare}}-CAP-010
-## Capitolul 6. Pinacluri: Oportunități și provocări
+## Capitolul 6. Spirit și karmă — Lecții și direcții de maturizare
+
+Index: {{cod_lucrare}}-SUB-023b
+### 6.1. Codul Spiritului și vârsta Spiritului
+
+Index: {{cod_lucrare}}-P-{{index_definitie_cod_spirit}}
+{{definitie_conversationala_cod_spirit}}
+
+Index: {{cod_lucrare}}-P-{{index_pozitie_cod_spirit}}
+În tabel, poziția ta este la ziua **{{zi_nastere}}** și luna **{{luna_romana}}**, unde apare codul **{{cod_spirit}}**.
+
+Index: {{cod_lucrare}}-T-017
+{{tabel_cod_spirit_zi_luna_markdown}}
+
+Index: {{cod_lucrare}}-P-{{index_interpretare_cod_spirit}}
+{{interpretare_cod_spirit_si_zona_fara_repetarea_formulei}}
+
+Index: {{cod_lucrare}}-T-018
+| Zona | Interval cod | Nivel simbolic | Teme principale |
+| --- | --- | --- | --- |
+| Iubire | 1–13 | 0–2.500 ani | relații, emoții, atașamente, compasiune, vulnerabilitate |
+| Rațiune | 14–26 | 2.500–5.000 ani | logică, discernământ, structură, analiză, minte |
+| Material | 27–39 | 5.000–7.500 ani | bani, construcție, putere, manifestare, responsabilitate |
+| Haruri | 40–52 | 7.500–10.000 ani | înțelepciune, haruri spirituale, ghidare, serviciu, intuiție |
+
+Index: {{cod_lucrare}}-T-019
+{{tabel_etape_si_subetape_spirit_markdown}}
+
+Index: {{cod_lucrare}}-P-{{index_interpretare_subetapa_spirit}}
+{{interpretare_conversationala_subetapa_spirit}}
+
+Index: {{cod_lucrare}}-P-{{index_definitie_varsta_spirit}}
+{{definitie_concisa_varsta_spirit}}
+
+Index: {{cod_lucrare}}-C-{{index_calcul_varsta_spirit}}
+> [!example] Calcul
+> Vârsta la naștere = ({{cod_spirit}} × 189) - 189 = **{{varsta_spirit_la_nastere}}**
+>
+> Vârsta actuală = {{varsta_spirit_la_nastere}} + {{varsta_biologica}} = **{{varsta_spirit_actuala}}**
+
+Index: {{cod_lucrare}}-P-{{index_ghidare_practica_spirit}}
+{{ghidare_practica_spirit_fara_repetarea_calculului}}
+
+Index: {{cod_lucrare}}-SUB-023c
+### 6.2. Karma din ziua de naștere
+
+Index: {{cod_lucrare}}-P-{{index_definitie_karma_zi}}
+{{interpretare_conversationala_karma_zi_interval_procent_si_arcana}}
+
+Index: {{cod_lucrare}}-C-{{index_calcul_karma_zi}}
+> [!example] Calcul
+> Ziua nașterii = **{{zi_nastere}}**
+>
+> Arcana karmică = **{{arcana_karma_zi}} — {{nume_arcana_karma_zi}}**
+>
+> Intervalul {{interval_karma_zi}} = karma împlinită **{{procent_karma_zi}}**
+
+Index: {{cod_lucrare}}-G-{{index_arcana_karma_zi}}
+![Arcana {{arcana_karma_zi}} — {{nume_arcana_karma_zi}}, karma din ziua de naștere]({{fisier_arcana_karma_zi}})
+
+_Arcana **{{arcana_karma_zi}}** — {{nume_arcana_karma_zi}}. Karma din ziua de naștere_
+
+Index: {{cod_lucrare}}-P-{{index_resursa_karma_zi}}
+{{resursa_si_manifestare_karma_zi}}
+
+Index: {{cod_lucrare}}-P-{{index_umbra_karma_zi}}
+{{umbra_karma_zi_ca_posibilitate_nu_predictie}}
+
+Index: {{cod_lucrare}}-P-{{index_maturizare_karma_zi}}
+{{maturizare_karma_zi}}
+
+Index: {{cod_lucrare}}-SUB-023d
+### 6.3. Karma din luna de naștere
+
+Index: {{cod_lucrare}}-P-{{index_definitie_karma_luna}}
+{{definitie_conversationala_karma_luna}}
+
+Index: {{cod_lucrare}}-C-{{index_calcul_karma_luna}}
+> [!example] Calcul
+> Luna nașterii = **{{luna_nastere}}**
+>
+> Karma lunii = **{{denumire_karma_luna}}**
+
+Index: {{cod_lucrare}}-P-{{index_interpretare_karma_luna}}
+{{interpretare_karma_luna_resursa_umbra_limite_si_maturizare}}
+
+Index: {{cod_lucrare}}-SUB-023e
+### 6.4. Karma din Calea Destinului
+
+Index: {{cod_lucrare}}-P-{{index_definitie_karma_calea_destinului}}
+{{definitie_karma_calea_destinului_si_suma_compusa}}
+
+Index: {{cod_lucrare}}-C-{{index_calcul_karma_calea_destinului}}
+> [!example] Calcul
+> {{calcul_suma_cifrelor_datei}} = **{{karma_calea_destinului}}**
+>
+> Karma din Calea Destinului = **{{karma_calea_destinului}}**
+>
+> Intervalul {{interval_karma_calea_destinului}} = categoria karmică **{{categoria_karma_calea_destinului}}**
+
+Index: {{cod_lucrare}}-P-{{index_interpretare_karma_calea_destinului}}
+{{interpretare_karma_calea_destinului_cu_directie_speciala_pentru_39_numarul_mintii}}
+
+Index: {{cod_lucrare}}-SUB-023f
+### 6.5. Concluzie: direcția de lucru
+
+Index: {{cod_lucrare}}-P-{{index_concluzie_spirit_karma}}
+{{concluzie_unica_spirit_zona_subetapa_varsta_si_trei_karme}}
+
+Index: {{cod_lucrare}}-CAP-011
+## Capitolul 7. Pinacluri: Oportunități și provocări
 
 Index: {{cod_lucrare}}-P-024b
 De-a lungul vieții, treci prin patru pinacluri, fiecare cu propria oportunitate și propria provocare. Oportunitatea arată direcția pe care viața o poate deschide, iar provocarea arată lecția care îți cere maturizare pentru a folosi constructiv acea direcție.
@@ -370,11 +484,11 @@ Index: {{cod_lucrare}}-P-024e
 Index: {{cod_lucrare}}-P-024f
 **Pinaclul 4: {{formulare_interval_pinaclu_4}}**, {{interpretare_pinaclu_4}}
 
-Index: {{cod_lucrare}}-CAP-011
-## Capitolul 7. Ciclicități
+Index: {{cod_lucrare}}-CAP-012
+## Capitolul 8. Ciclicități
 
 Index: {{cod_lucrare}}-SUB-024
-### 7.1. Soarta și Destinul
+### 8.1. Soarta și Destinul
 
 {{definitie_metoda_si_interpretare_soarta_destin}}
 
@@ -384,7 +498,7 @@ Index: {{cod_lucrare}}-C-006
 > Destin: **{{sir_destin}}**
 
 Index: {{cod_lucrare}}-SUB-025
-### 7.2. Anii importanți
+### 8.2. Anii importanți
 
 Index: {{cod_lucrare}}-P-026a
 **Anii importanți interiori** marchează momente în care schimbarea pornește mai ales din interiorul persoanei: decizii, maturizări, conștientizări, schimbări de perspectivă, nevoi sufletești sau transformări personale care apoi pot modifica viața din afară.
@@ -399,7 +513,7 @@ Index: {{cod_lucrare}}-P-026d
 **Șirul anilor importanți exteriori:** {{sir_ani_importanti_exteriori}}.
 
 Index: {{cod_lucrare}}-SUB-025a
-### 7.3. Lecțiile de viață
+### 8.3. Lecțiile de viață
 
 Index: {{cod_lucrare}}-T-008
 | Vârstă | Lecția 1 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_1}}</strong> | Lecția 2 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_2}}</strong> | Lecția 3 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_3}}</strong> | Lecția 4 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_4}}</strong> | Lecția 5 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_5}}</strong> |
@@ -410,7 +524,7 @@ Index: {{cod_lucrare}}-T-008
 {{interpretare_lectii_de_viata}}
 
 Index: {{cod_lucrare}}-SUB-026
-### 7.4. Ciclul de 7 ani
+### 8.4. Ciclul de 7 ani
 
 Index: {{cod_lucrare}}-T-006
 | Ciclu | Anul 1 | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Interpretare |
@@ -419,7 +533,7 @@ Index: {{cod_lucrare}}-T-006
 | {{adauga_randuri_pentru_interval}} |  |  |  |  |  |  |  |  |
 
 Index: {{cod_lucrare}}-SUB-027
-### 7.5. Ciclul de 9 ani
+### 8.5. Ciclul de 9 ani
 
 Index: {{cod_lucrare}}-T-007
 | Ciclu | Anul 1 — început | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Anul 8 | Anul 9 — încheiere |
@@ -430,7 +544,7 @@ Index: {{cod_lucrare}}-T-007
 {{interpretare_ciclu_9_si_an_personal}}
 
 Index: {{cod_lucrare}}-SUB-027a
-### 7.6. Ciclul de 12 ani
+### 8.6. Ciclul de 12 ani
 
 Index: {{cod_lucrare}}-T-015
 | Ciclu | Interval calendaristic | Vârste | Citire |
@@ -444,10 +558,10 @@ Index: {{cod_lucrare}}-T-015
 {{interpretare_ciclu_12}}
 
 > [!info] Capitol condițional
-> Păstrează Capitolul 8 numai dacă există datele celei de-a doua persoane. Altfel elimină-l împreună cu intrarea din Cuprins și renumerotează Concluziile ca Capitolul 8.
+> Păstrează Capitolele 9 și 10 numai dacă există datele celei de-a doua persoane. Altfel elimină-le împreună cu intrările din Cuprins și renumerotează Concluziile ca Capitolul 9.
 
 Index: {{cod_lucrare}}-CAP-013
-## Capitolul 8. Relații
+## Capitolul 9. Relații
 
 Index: {{cod_lucrare}}-L-003
 - Nume: {{nume_persoana_relationala}}
@@ -455,7 +569,7 @@ Index: {{cod_lucrare}}-L-003
 - Tipul relației: {{tip_relatie}}
 
 Index: {{cod_lucrare}}-SUB-028
-### 8.1. Omulețul relațiilor
+### 9.1. Omulețul relațiilor
 
 {{introducere_relatie_ca_harta_nu_verdict}}
 
@@ -480,10 +594,10 @@ Index: {{cod_lucrare}}-C-007
 {{interpretare_zone_absente_cu_cifra_in_paranteza_constructie_intentionata_aport_extern_si_exemple}}
 
 Index: {{cod_lucrare}}-CAP-014
-## Capitolul 9. Aplicabilitate profesională
+## Capitolul 10. Aplicabilitate profesională
 
 Index: {{cod_lucrare}}-SUB-029
-### 9.1. Aplicabilitate profesională
+### 10.1. Aplicabilitate profesională
 
 Index: {{cod_lucrare}}-P-035
 {{descriere_aplicabilitate_profesionala}}
@@ -500,12 +614,29 @@ Index: {{cod_lucrare}}-T-016
 | **Index: {{cod_lucrare}}-P-047**  \n{{interpretare_aplicabilitate_da}} | **Index: {{cod_lucrare}}-P-048**  \n{{interpretare_aplicabilitate_nu}} |
 
 Index: {{cod_lucrare}}-CAP-015
-## Capitolul 10. Concluzii
+## Capitolul 11. Concluzii
 
-{{sinteza_finala_personalizata_fara_repetitii_sau_predictii_rigide}}
+Index: {{cod_lucrare}}-SUB-{{index_sub_harta_suprapusa}}
+### 11.1. Harta suprapusă
+
+Index: {{cod_lucrare}}-P-{{index_descriere_harta_suprapusa}}
+{{descriere_harta_suprapusa_maxim_trei_randuri}}
+
+Index: {{cod_lucrare}}-G-{{index_harta_suprapusa}}
+![Harta suprapusă pentru {{nume_complet}}]({{fisier_harta_suprapusa}}.svg)
+
+Index: {{cod_lucrare}}-SUB-{{index_sub_cariera_bani}}
+### 11.2. Carieră și bani
+
+{{concluzie_cariera_bani_din_harta_suprapusa_si_ferestre_temporale_cu_paragrafe_indexate}}
+
+Index: {{cod_lucrare}}-SUB-{{index_sub_iubire_relatii}}
+### 11.3. Iubire și relații
+
+{{concluzie_iubire_relatii_din_harta_suprapusa_si_ferestre_temporale_cu_paragrafe_indexate}}
 
 > [!info] Renumerotare fără relație
-> Dacă nu există date relaționale, titlul devine `Capitolul 8. Concluzii`, iar ținta din Cuprins se actualizează identic.
+> Dacă nu există date relaționale, titlul devine `Capitolul 9. Concluzii`, iar ținta din Cuprins se actualizează identic. Subcapitolul `Iubire și relații` rămâne general și nu inventează un partener.
 
 Index: {{cod_lucrare}}-CAP-016
 ## Documentația și trasabilitatea lucrării
@@ -533,6 +664,9 @@ Index: {{cod_lucrare}}-T-014
 - [ ] Cuprinsul Markdown folosește text simplu, fără wikilinkuri Obsidian.
 - [ ] Cele șapte tabele provenite din imaginile-model sunt tabele editabile.
 - [ ] Matricea 3×3 respectă modelul `BDR-19980219-v1.07r-G-001`.
+- [ ] Paragrafele Căsuțelor 1-9 spun numărul de apariții și sensul energiei, fără comparația verbală cu optimul; absența este formulată ca energie conservată.
+- [ ] Scara bunăstării are paragraf interpretativ indexat înaintea graficului și explică lanțul de sprijin dintre trepte.
+- [ ] Capitolul 6 reunește Spiritul și cele trei karme, fără calcule ori explicații intermediare redundante, și se încheie cu o singură concluzie.
 - [ ] Fiecare arcană numită are imagine în același subcapitol.
 - [ ] Capitolul Relații este inclus numai când există date relaționale.
 - [ ] Aplicabilitatea profesională este inclusă numai împreună cu Relațiile, iar T-016 are calcul unic, imagini și interpretări pe coloane egale.
@@ -540,5 +674,6 @@ Index: {{cod_lucrare}}-T-014
 - [ ] Subcapitolul Interior și exterior conține dialogul, definiția punții, calculul absolut în chenar și interpretarea autenticității.
 - [ ] Capitolul 5 respectă ordinea Activ, Intim, Ereditar, Ereditar karmic, Realizare, Exprimare, Codul numelui.
 - [ ] Ciclul activ din T-015 este marcat cu roșu și bold, iar diacriticele sunt UTF-8 fără mojibake.
+- [ ] Concluziile includ Harta suprapusă, Carieră și bani, apoi Iubire și relații.
 - [ ] SVG-ul Omulețului relațiilor este valid, are watermark `Atlas Numerologie` și nu a fost editat manual.
 - [ ] Nu există date, ani, interpretări sau resurse rămase de la persoana-model.

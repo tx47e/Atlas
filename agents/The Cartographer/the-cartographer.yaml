@@ -36,6 +36,8 @@ skills:
   - numerologie-SVG-soarta-si-destin
   - numerologie-SVG-scara-bunastarii
   - numerologie-SVG-triunghiul-financiar
+  - numerologie-SVG-matrita-datei-de-nastere
+  - numerologie-SVG-matrita-numelui
 prompts_dir: "agents/The Cartographer/prompts"
 prompts:
   numerologie-SVG-omuletul-relatiilor: "agents/The Cartographer/prompts/numerologie-SVG-omuletul-relatiilor.md"
@@ -46,3 +48,5 @@ prompts:
   numerologie-SVG-soarta-si-destin: "agents/The Cartographer/prompts/numerologie-SVG-soarta-si-destin.md"
   numerologie-SVG-scara-bunastarii: "agents/The Cartographer/prompts/numerologie-SVG-scara-bunastarii.md"
   numerologie-SVG-triunghiul-financiar: "agents/The Cartographer/prompts/numerologie-SVG-triunghiul-financiar.md"
+  numerologie-SVG-matrita-datei-de-nastere: "agents/The Cartographer/prompts/numerologie-SVG-matrita-datei-de-nastere.md"
+  numerologie-SVG-matrita-numelui: "agents/The Cartographer/prompts/numerologie-SVG-matrita-numelui.md"

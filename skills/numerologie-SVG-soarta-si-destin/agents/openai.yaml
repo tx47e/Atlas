@@ -1,4 +1,4 @@
 interface:
-  display_name: "numerologie-SVG-soarta-si-destin"
+  display_name: "SVG - Soarta si Destin"
   short_description: "Genereaza autonom graficul SVG Soarta si Destin"
   default_prompt: "Ruleaza scriptul autonom al skill-ului pentru a genera SVG-ul Soarta si Destin din nume si data nasterii."

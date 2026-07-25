@@ -33,6 +33,8 @@ delegation_routes:
   numerologie-SVG-harta-suprapusa: the-cartographer
   numerologie-SVG-soarta-si-destin: the-cartographer
   numerologie-SVG-triunghiul-financiar: the-cartographer
+  numerologie-SVG-matrita-datei-de-nastere: the-cartographer
+  numerologie-SVG-matrita-numelui: the-cartographer
 prompts_dir: "agents/Agent Dash/prompts"
 prompts:
   numerologie-dashboard: "agents/Agent Dash/prompts/numerologie-dashboard.md"
@@ -43,3 +45,5 @@ prompts:
   numerologie-SVG-harta-suprapusa: "agents/Agent Dash/prompts/numerologie-SVG-harta-suprapusa.md"
   numerologie-SVG-soarta-si-destin: "agents/Agent Dash/prompts/numerologie-SVG-soarta-si-destin.md"
   numerologie-SVG-triunghiul-financiar: "agents/Agent Dash/prompts/numerologie-SVG-triunghiul-financiar.md"
+  numerologie-SVG-matrita-datei-de-nastere: "agents/Agent Dash/prompts/numerologie-SVG-matrita-datei-de-nastere.md"
+  numerologie-SVG-matrita-numelui: "agents/Agent Dash/prompts/numerologie-SVG-matrita-numelui.md"

@@ -36,9 +36,13 @@ Scriptul calculeaza:
 Z = ziua nasterii redusa la o cifra
 L = luna nasterii redusa la o cifra
 A = anul nasterii redus la o cifra
-D = Z + L + A, redus la o cifra
+D = cifra de interpretare a Destinului = Z + L + A, redus la o cifra
 Triunghiul financiar = ZLAD
 ```
+
+Destinul compus se calculeaza separat prin reducerea o singura data a Caii
+Destinului. Triunghiul necesita o singura cifra si foloseste exclusiv cifra de
+interpretare a Destinului.
 
 Scriptul contine formula, coordonatele, paleta, watermark-ul si structura SVG necesare. La o rulare reusita, rezultatul scriptului este livrabil fara verificari suplimentare.
 

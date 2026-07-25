@@ -8,6 +8,6 @@ tip: decizie-arhitectura
 
 - The Lore Keeper este singura autoritate de scriere pentru `vault/`.
 - Skill-ul `numerologie-validare-formule` este folosit prin The Lore Keeper si necesita aprobare explicita la fiecare lansare.
-- Fiecare validare este inregistrata in `vault/Numerologie/Istoric Rulari Validare Formule.md`.
+- Fiecare validare este inregistrata in `vault/Audit/Istoric Rulari Validare Formule.md`.
 - Corectiile formulelor necesita aprobare separata dupa audit.
 - The Lore Keeper intretine skill-urile si sincronizeaza calculatorul cu formulele confirmate.

@@ -1,7 +1,8 @@
 """Calculator numerologic agregat pentru lucrarea de examen.
 
-Scriptul urmeaza ordinea din `templates/Cuprins_Lucrare_Numerologica.md` si
-`templates/Template_Lucrare_Numerologica_Examen.md`. Este o baza de lucru:
+Scriptul urmeaza ordinea din
+`skills/numerologie-lucrare-redactare/assets/templates/Cuprins_Lucrare_Numerologica.md`
+si din `skills/numerologie-lucrare-redactare/assets/templates/Template_Lucrare_Numerologica_Examen.md`. Este o baza de lucru:
 formulele documentate in proiect sunt implementate, iar rubricile ramase fara
 metoda operationala completa sunt marcate cu `status: de_completat`.
 """
@@ -164,7 +165,8 @@ def vibratii(data_nasterii: date) -> dict[str, Any]:
     luna_redusa = reducere_numerologica(luna)
     an_redus = reducere_numerologica(sum(cifre(an)))
     calea = suma_data
-    vibratia_destinului = reducere_numerologica(calea)
+    vibratia_destinului = reducere_o_singura_data(calea)
+    cifra_interpretare_destin = reducere_numerologica(vibratia_destinului.rezultat)
     aspecte = calea - 2 * prima_cifra_nenula(zi)
 
     return {
@@ -214,10 +216,11 @@ def vibratii(data_nasterii: date) -> dict[str, Any]:
             "rezultat": calea,
         },
         "destinul_vibratia_destinului": {
-            "formula": "reducere_numerologica(calea destinului)",
+            "formula": "reducere_o_singura_data(calea destinului)",
             "calcul": asdict(vibratia_destinului),
+            "cifra_interpretare": asdict(cifra_interpretare_destin),
         },
-        "puntea_interior_destin": punte(zi_redusa.rezultat, vibratia_destinului.rezultat),
+        "puntea_interior_destin": punte(zi_redusa.rezultat, cifra_interpretare_destin.rezultat),
         "aspecte_de_indreptat": {
             "formula": "calea destinului - 2 x prima cifra din ziua nasterii",
             "calcul": f"{calea} - 2 x {prima_cifra_nenula(zi)} = {aspecte}",
@@ -566,7 +569,13 @@ def pinacluri(data_nasterii: date) -> dict[str, Any]:
     final_3 = final_2 + 9
     intervale = [f"0-{final_1}", f"{final_1 + 1}-{final_2}", f"{final_2 + 1}-{final_3}", f"{final_3 + 1}+"]
     return {
-        "baza": {"zi_redusa": zi, "luna_redusa": luna, "an_redus": an, "vibratia_destinului": destin},
+        "baza": {
+            "zi_redusa": zi,
+            "luna_redusa": luna,
+            "an_redus": an,
+            "vibratia_destinului": destin,
+            "rol_vibratia_destinului": "cifra de interpretare folosita la varstele pinaclurilor",
+        },
         "zona_confort_oportunitati": sum(oportunitati) / 4,
         "zona_confort_provocari": sum(provocari) / 4,
         "randuri": [

@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/20-Judgenmet.jpg]]
+![[20-Judgenmet.jpg]]
 
 ### Esenta
 - Judecata este arhetipul chemarii, al trezirii si al bilantului profund. Ea ridica trecutul la suprafata nu pentru condamnare, ci pentru intelegere, iertare si decizie. In lumina, aduce renastere si raspuns la vocatie; in umbra, vina, amanare sau refuzul responsabilitatii.

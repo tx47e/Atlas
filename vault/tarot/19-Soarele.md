@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/19-The Sun.jpg]]
+![[19-The Sun.jpg]]
 
 ### Esenta
 - Soarele este arhetipul vitalitatii, bucuriei si claritatii. El aduce lucrurile la lumina, incalzeste, confirma si permite exprimarea fara masca. In lumina, vorbeste despre succes, incredere si viata asumata; in umbra, poate deveni orgoliu, expunere excesiva sau naivitate.

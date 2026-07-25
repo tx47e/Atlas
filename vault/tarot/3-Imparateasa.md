@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/03-The Empress.jpg]]
+![[03-The Empress.jpg]]
 
 ### Esenta
 - Imparateasa este arhetipul fertilitatii, al creativitatii si al abundentei traite prin corp, natura si relationare. Ea hraneste, creste, atrage si da forma frumusetii. In lumina, vorbeste despre generozitate, expresie si rodire; in umbra, poate deveni exces, posesivitate, lene sau dependenta de confort.

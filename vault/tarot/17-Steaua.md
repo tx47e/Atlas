@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/17-The Star.jpg]]
+![[17-The Star.jpg]]
 
 ### Esenta
 - Steaua este arhetipul sperantei, inspiratiei si vindecarii dupa furtuna. Ea readuce increderea in viitor si conecteaza omul la o ordine mai larga, mai blanda. In lumina, aduce claritate, protectie si regenerare; in umbra, poate indica idealizare, pasivitate sau pierderea credintei.

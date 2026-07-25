@@ -1,0 +1,122 @@
+---
+titlu: Fixatia - Metodica si interpretari
+tip: metodica-si-interpretari
+tags:
+  - numerologie
+  - metodica-si-interpretari
+  - Fixatia
+  - documentatie-modulara
+sursa: '[[Fixatia]]'
+---
+
+# Fixatia - Metodica si interpretari
+
+## Cum se alege fixatia
+
+1. Se construieste patratul lui Pitagora al datei de nastere.
+2. Se calculeaza valorile celor 9 casute.
+3. Se calculeaza valorile celor 8 vectori.
+4. Se pastreaza doar vectorii orizontali plini: `147`, `258`, `369`.
+5. Dintre vectorii orizontali plini, se alege vectorul cu cea mai mare cantitate de cifre.
+6. Se noteaza compozitia vectorului: cifrele din cele trei casute, numarul total
+   de elemente, cate casute pare si cate casute impare contine.
+
+Formula scurta pentru raport:
+
+```text
+Fixatia: V[vector] ([casuta_a], [casuta_b], [casuta_c]) =
+[numar_elemente] elemente, [casute_pare] casute pare,
+[casute_impare] casute impare, vector plin.
+```
+
+---
+
+## Reguli de departajare
+
+Daca exista mai multi vectori plini, se aplica in ordine:
+
+1. Are prioritate vectorul orizontal plin cu cel mai mare numar total de elemente.
+2. Daca numarul de elemente este egal, se citesc impreuna ca fixatii duble
+   sau asociate.
+3. Daca nu exista niciun vector orizontal plin, nu se introduce rubrica Fixatia
+   in lucrare; se poate analiza separat treapta cea mai inalta din scara bunastarii.
+
+---
+
+## Ce se interpreteaza
+
+La fixatie se citesc impreuna:
+
+- codul vectorului;
+- denumirea vectorului;
+- casutele care il compun;
+- cantitatea cifrelor din fiecare casuta;
+- valoarea totala a vectorului;
+- raportul dintre casute pare si impare;
+- legatura cu cea mai inalta treapta a scarii bunastarii;
+- lipsurile din matrice, pentru ca ele arata unde fixatia are nevoie de sprijin.
+
+Fixatia arata unde omul are o directie puternica si repetitiva. Scara bunastarii
+arata daca acea directie este si cea mai mare nevoie de implinire sau doar un
+ax interior care sustine alte trepte.
+
+---
+
+## Utilizare in lucrare
+
+In `templates/Template_Lucrare_Numerologica_Examen.md`, fixatia se foloseste in
+doua locuri:
+
+- `2.5.8. Fixatia`, in capitolul `2.5. Structura matriciala`, unde se noteaza
+  calculul, vectorul plin dominant si compozitia lui.
+- `3.2.10. Fixatia`, in capitolul `3.2. Structura matriciala`, unde aceeasi
+  fixatie se interpreteaza in lectura caracterului.
+
+Ea se reia scurt si in legatura cu `2.5.12. Scara bunastarii`, deoarece arata
+relatia dintre vectorul plin dominant si ordinea treptelor de bunastare.
+
+Structura recomandata:
+
+```text
+### Fixatia
+
+- Descriere:
+- Formula:
+- Vectori plini identificati:
+- Vector ales:
+- Compozitie:
+- Valoare:
+- Numar total de elemente:
+- Casute pare:
+- Casute impare:
+- Legatura cu scara bunastarii:
+- Interpretare:
+```
+
+Formula de redactare:
+
+```text
+Fixatia este V[vector] - [denumire] ([casuta_a], [casuta_b], [casuta_c]),
+cu valoarea [valoare]. Vectorul are [numar_elemente] elemente, [casute_pare]
+casute pare si [casute_impare] casute impare. Aceasta arata ca persoana se
+fixeaza interior pe tema [tema_vectorului], iar scara bunastarii confirma daca
+aceasta tema este si treapta principala de implinire.
+```
+
+In interpretarea finala a capitolului, fixatia se leaga de:
+
+- vibratia interioara, pentru a vedea ce tip de caracter alimenteaza vectorul;
+- elementele dominante din matrice;
+- casutele lipsa, pentru a vedea ce sprijin cere vectorul;
+- scara bunastarii, pentru a vedea daca fixatia este si cea mai inalta treapta;
+- numele, doar ca sustinere sau tensiune, nu ca sursa de recalculare.
+
+---
+
+## Observatii
+
+- Fixatia se calculeaza din matricea datei de nastere, nu din matricea numelui.
+- Matricea numelui poate sustine sau tensiona fixatia, dar nu o inlocuieste.
+- Un vector vertical, diagonal sau incomplet, oricat de valoros ar fi, nu este fixatie; el poate fi tendinta
+  sau treapta importanta pe scara bunastarii.
+- O fixatie trebuie formulata ca potential de constientizare, nu ca verdict.

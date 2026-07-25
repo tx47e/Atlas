@@ -19,7 +19,7 @@ tags:
 
 ## Descriere Generala
 
-![[imagini/07-The Chariot.jpg]]
+![[07-The Chariot.jpg]]
 
 ### Esenta
 - Carul este arhetipul vointei conduse, al victoriei obtinute prin disciplina si directie. El tine impreuna forte opuse si le orienteaza spre un scop. In lumina, aduce progres, curaj si control interior; in umbra, poate deveni graba, conflict, ambitia de a invinge cu orice pret sau pierderea contactului emotional.
