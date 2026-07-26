@@ -21,5 +21,6 @@ tags:
 ## Concepte dependente
 
 - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]]
+- [[vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-Index|Karma din Calea Destinului]]
 - [[vault/Numerologie/Date de Intrare/01-DI-Index|Datele de intrare]]
 - [[Registru Validare Formule]]

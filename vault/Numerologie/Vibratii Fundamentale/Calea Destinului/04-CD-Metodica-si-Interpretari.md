@@ -75,7 +75,24 @@ nevoie de ele ca sa faca ce are de facut. Cu cat numarul este mai mare, sansele
 pot fi mai putine sau mai subtile, pentru ca perioada de antrenament interior
 este mai mare.
 
-### 7. Ordinea citirii
+### 7. Corelarea cu Karma din Calea Destinului
+
+Dupa interpretarea intrebarilor `CE?` si `CUM?`, valoarea completa poate fi
+aprofundata prin [[vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-Index|Karma din Calea Destinului]].
+
+Interpretarea poate fi facuta astfel:
+
+1. se interpreteaza Calea Destinului prin valoarea completa, interval si
+   cifrele componente;
+2. se pastreaza raspunsurile distincte pentru `CE?` si `CUM?`;
+3. se consulta aceeasi valoare completa in
+   [[vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/01-KCDI-Index|indexul interpretarilor Karma din Calea Destinului]];
+4. interpretarea karmica se foloseste pentru a explica ajutoarele, obstacolele
+   si contextul karmic al drumului;
+5. interpretarea karmica completeaza Calea Destinului, fara sa inlocuiasca
+   lectura `CE?` si `CUM?`.
+
+### 8. Ordinea citirii
 
 1. valoarea completa CD;
 2. intervalul in care se afla;
@@ -85,11 +102,12 @@ este mai mare.
 6. caracteristicile de polaritate plus folosite `Cu`;
 7. caracteristicile de polaritate minus eliminate sau evitate `Fara`;
 8. raportul dintre cele doua cifre;
-9. rezultatele derivate confirmate, interpretate separat;
-10. raportul dintre intregul numar, cifrele componente si cifra suplimentara de
+9. interpretarea aceleiasi valori prin Karma din Calea Destinului;
+10. rezultatele derivate confirmate, interpretate separat;
+11. raportul dintre intregul numar, cifrele componente si cifra suplimentara de
    interpretare.
 
-### 8. Lista de control pentru redactare
+### 9. Lista de control pentru redactare
 
 - data nasterii este afisata;
 - adunarea tuturor cifrelor este vizibila;
@@ -103,6 +121,9 @@ este mai mare.
 - pentru `CUM` sunt consemnate caracteristicile de polaritate minus evitate;
 - pentru o valoare de o singura cifra, aceeasi cifra este citita prin ambele
   reguli;
+- valoarea completa este corelata cu interpretarea Karma din Calea Destinului;
+- interpretarea karmica este prezentata complementar, fara sa inlocuiasca
+  lectura `CE?` si `CUM?`;
 - valoarea intreaga si cifra suplimentara de interpretare sunt corelate fara a
   fi confundate.
 

@@ -13,7 +13,7 @@ sursa: '[[vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-In
 
 ## Statutul formulei
 
-Formula este pastrata din nota legacy si foloseste aceeasi baza ca Calea Destinului. Nu a fost lansat un audit formal nou in aceasta etapa.
+Formula foloseste aceeasi baza ca Calea Destinului. 
 
 ## Formula de calcul
 
