@@ -16,7 +16,3 @@ tags:
 2. [[03-CTV-Calcul|Calcul]]
 3. [[04-CTV-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-CTV-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Caii Trasura si Vizitiul]]

@@ -7,7 +7,7 @@ tags:
   - metodica-si-interpretari
   - CiclulDe12Ani
   - documentatie-modulara
-sursa: '[[Ciclul de 12 Ani]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 12 Ani/01-C12-Index|Ciclul de 12 Ani]]'
 ---
 
 # Ciclul de 12 Ani - Metodica si interpretari
@@ -48,7 +48,7 @@ Ciclul de 12 ani ajuta la detectarea marilor ferestre de oportunitate. Anii mult
 
 Analiza se face si retrospectiv, cautand ce s-a intamplat la 12, 24, 36, 48 de ani si asa mai departe. Daca la 24 de ani a existat o mutare importanta, iar la 36 de ani apare un alt salt major, interpretarea poate cauta firul evolutiv dintre cele doua praguri.
 
-Ciclul de 12 ani si [[Ciclul de 9 Ani|ciclul de 9 ani]] se intalnesc la 36 de ani:
+Ciclul de 12 ani si [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|ciclul de 9 ani]] se intalnesc la 36 de ani:
 
 ```text
 LCM(9, 12) = 36
@@ -56,7 +56,7 @@ LCM(9, 12) = 36
 
 Punctele de putere rezultate sunt 36, 72, 108 si continua din 36 in 36 de ani. Aceste varste pot fi citite ca ani de recalibrare profunda, deoarece ritmul de finalizare si renastere al ciclului de 9 ani se suprapune peste ritmul de expansiune si repozitionare al ciclului de 12 ani.
 
-Ciclul de 12 ani si [[Ciclul de 7 Ani|ciclul de 7 ani]] se intalnesc la 84 de ani:
+Ciclul de 12 ani si [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|ciclul de 7 ani]] se intalnesc la 84 de ani:
 
 ```text
 LCM(7, 12) = 84
@@ -76,7 +76,7 @@ La fiecare prag de 12 ani, analiza poate porni de la intrebarile:
 
 ## Observatii
 
-- Nu inlocuieste [[Ciclul de 9 Ani]].
+- Nu inlocuieste [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Este ritm larg de reprezentare grafica.
 - Pozitia nu promite evenimente, ci arata unde se afla persoana in segment.
 - In lectura sintetica: 9 ani = finalizare, 7 ani = maturizare, 12 ani = expansiune.

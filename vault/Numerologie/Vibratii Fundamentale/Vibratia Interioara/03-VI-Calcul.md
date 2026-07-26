@@ -6,7 +6,7 @@ tags:
   - calcul
   - VibratieInterioara
   - documentatie-modulara
-sursa: '[[Vibratie Interioara]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]]'
 ---
 
 # Vibratia Interioara - Calcul
@@ -25,7 +25,7 @@ VI = reducere_numerologica(ziua nasterii)
 
 ### Pasi de calcul
 
-1. Se preia ziua din [[Datele de intrare|data nasterii]].
+1. Se preia ziua din [[vault/Numerologie/Date de Intrare/01-DI-Index|data nasterii]].
 2. Daca ziua este intre 1 si 9, rezultatul este chiar ziua.
 3. Daca ziua are doua cifre, se aduna cifrele intre ele.
 4. Daca rezultatul are in continuare doua cifre, se reduce pana la 1-9.

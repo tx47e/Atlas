@@ -7,7 +7,7 @@ tags:
   - exemple
   - DirectiileDeSucces
   - documentatie-modulara
-sursa: '[[Directiile de Succes]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Directiile de Succes/01-DS-Index|Directiile de Succes]]'
 ---
 
 # Direcțiile de Succes - Exemple

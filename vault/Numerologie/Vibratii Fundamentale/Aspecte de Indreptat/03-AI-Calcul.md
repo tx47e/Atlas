@@ -6,7 +6,7 @@ tags:
   - calcul
   - AspecteDeIndreptat
   - documentatie-modulara
-sursa: '[[Aspecte de Indreptat]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]]'
 ---
 
 # Aspecte de Indreptat si Solutia - Calcul
@@ -28,7 +28,7 @@ AI = CD - 2 x PZ
 
 ### Pasi de calcul
 
-1. Se calculeaza [[Calea Destinului]] si se pastreaza valoarea completa CD.
+1. Se calculeaza [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]] si se pastreaza valoarea completa CD.
 2. Se identifica prima cifra din ziua de nastere.
 3. Prima cifra se inmulteste cu `2`.
 4. Rezultatul se scade din CD.
@@ -40,13 +40,13 @@ AI = CD - 2 x PZ
 - pentru ziua `17`, PZ este `1`;
 - pentru ziua `29`, PZ este `2`.
 
-Formula nu foloseste [[Vibratie Interioara|Vibratia Interioara]] redusa.
+Formula nu foloseste [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratia Interioara]] redusa.
 
 ## Formula Solutiei - statut de audit
 
 Sursele curente nu sunt aliniate:
 
-- nota legacy [[Aspecte de Indreptat]] cere reducerea repetata pana la o singura
+- nota legacy [[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]] cere reducerea repetata pana la o singura
   cifra;
 - calculatorul agregat si copia lui din skill aplica in prezent o singura
   insumare a cifrelor AI;

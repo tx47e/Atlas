@@ -17,7 +17,3 @@ tags:
 2. [[03-AIIE-Calcul|Calcul]]
 3. [[04-AIIE-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-AIIE-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Anii Importanti Int-Ext]]

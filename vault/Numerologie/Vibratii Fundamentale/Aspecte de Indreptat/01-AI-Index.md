@@ -24,10 +24,6 @@ Aspectele de Indreptat si Solutia lor sunt tratate ca un singur concept.
 Rezultatele raman distincte in calcul si interpretare, dar nu sunt separate in
 directoare diferite.
 
-## Sursa pastrata
-
-- [[Aspecte de Indreptat]]
-
 ## Validarea formulei
 
 - [[Registru Validare Formule]]

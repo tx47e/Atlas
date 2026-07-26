@@ -7,7 +7,7 @@ tags:
   - descriere
   - TriunghiulFinanciar
   - documentatie-modulara
-sursa: '[[Triunghiul Financiar]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Triunghiul Financiar/01-TF-Index|Triunghiul Financiar]]'
 ---
 
 # Triunghiul Financiar - Descriere

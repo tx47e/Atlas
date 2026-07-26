@@ -7,7 +7,7 @@ tags:
   - calcul
   - PinacluriOportunitatiProvocari
   - documentatie-modulara
-sursa: '[[Pinacluri - Oportunitati si Provocari]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]]'
 ---
 
 # Pinacluri, Oportunitati si Provocari - Calcul

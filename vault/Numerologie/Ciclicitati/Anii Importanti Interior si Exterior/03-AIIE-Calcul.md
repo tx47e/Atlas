@@ -7,7 +7,7 @@ tags:
   - calcul
   - AniImportantiInteriorExterior
   - documentatie-modulara
-sursa: '[[Anii Importanti Int-Ext]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Anii Importanti Interior si Exterior/01-AIIE-Index|Anii Importanti Int-Ext]]'
 ---
 
 # Ani Importanti Interior si Exterior - Calcul

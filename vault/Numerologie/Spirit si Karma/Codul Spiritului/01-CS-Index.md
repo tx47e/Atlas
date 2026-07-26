@@ -16,7 +16,3 @@ tags:
 2. [[03-CS-Calcul|Calcul]]
 3. [[04-CS-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-CS-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Codul Spiritului]]

@@ -7,14 +7,14 @@ tags:
   - descriere
   - Septagrama
   - documentatie-modulara
-sursa: '[[Septagrama]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/Septagrama/01-SPT-Index|Septagrama]]'
 ---
 
 # Septagrama - Descriere
 
 ## Descriere
 
-Septagrama este reprezentarea grafica a [[Ciclul de 7 Ani|ciclului de 7 ani]].
+Septagrama este reprezentarea grafica a [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|ciclului de 7 ani]].
 Ea aseaza viata in segmente de cate 7 ani, pe varfurile unei stele cu sapte
 varfuri. Fiecare varf indica un prag de verificare, numit moment de criza, iar
 fiecare latura arata trecerea de la o etapa la alta.

@@ -51,6 +51,6 @@ Interpretarile individuale nu sunt completate in aceasta etapa.
 
 ## Sursa conceptului
 
-- [[Aspecte de Indreptat]]
+- [[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]]
 - [[01-AI-Index|Indexul modular Aspecte de Indreptat si Solutia]]
 - [[Registru Validare Formule]]

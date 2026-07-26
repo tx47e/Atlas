@@ -6,7 +6,7 @@ tags:
   - calcul
   - KarmaZiuaNasterii
   - documentatie-modulara
-sursa: '[[Karma din Ziua Nasterii]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Karma din Ziua Nasterii/01-KZN-Index|Karma din Ziua Nasterii]]'
 ---
 
 # Karma din Ziua Nasterii - Calcul

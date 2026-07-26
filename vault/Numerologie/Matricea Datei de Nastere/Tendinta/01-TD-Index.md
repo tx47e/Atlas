@@ -16,7 +16,3 @@ tags:
 2. [[03-TD-Calcul|Calcul]]
 3. [[04-TD-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-TD-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Tendinta]]

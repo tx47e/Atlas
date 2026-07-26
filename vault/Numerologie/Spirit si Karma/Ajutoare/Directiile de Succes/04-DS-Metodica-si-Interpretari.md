@@ -7,7 +7,7 @@ tags:
   - metodica-si-interpretari
   - DirectiileDeSucces
   - documentatie-modulara
-sursa: '[[Directiile de Succes]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Directiile de Succes/01-DS-Index|Directiile de Succes]]'
 ---
 
 # Direcțiile de Succes - Metodică și interpretări
@@ -31,8 +31,8 @@ sursa: '[[Directiile de Succes]]'
 
 ## Utilizare in lucrare
 
-Se foloseste in capitolul `Ajutoare`, impreuna cu [[Semnatura Astrala]],
-[[Triunghiul Financiar]] si [[Patratul de Aur]].
+Se foloseste in capitolul `Ajutoare`, impreuna cu [[vault/Numerologie/Spirit si Karma/Ajutoare/Semnatura Astrala/01-SA-Index|Semnatura Astrala]],
+[[vault/Numerologie/Spirit si Karma/Ajutoare/Triunghiul Financiar/01-TF-Index|Triunghiul Financiar]] si [[vault/Numerologie/Spirit si Karma/Ajutoare/Patratul de Aur/01-PA-Index|Patratul de Aur]].
 
 In redactare se pot include:
 

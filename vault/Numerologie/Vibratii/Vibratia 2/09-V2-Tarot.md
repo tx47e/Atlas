@@ -6,7 +6,7 @@ tags:
   - tarot
   - Vibratia2
   - documentatie-modulara
-sursa: '[[Vibratia 2]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 2/01-V2-Index|Vibratia 2]]'
 ---
 
 # Vibratia 2 - Tarot

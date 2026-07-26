@@ -6,7 +6,7 @@ tags:
   - interpretare
   - PunteaCosmicDestin
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Cosmic - Destin - Metodica si interpretari

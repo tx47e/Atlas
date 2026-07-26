@@ -6,16 +6,16 @@ tags:
   - metodica-si-interpretari
   - MatriceaNumelui
   - documentatie-modulara
-sursa: '[[Matricea Numelui]]'
+sursa: '[[vault/Numerologie/Nume/Matricea Numelui/01-MN-Index|Matricea Numelui]]'
 ---
 
 # Matricea Numelui - Metodica si interpretari
 
 ## Comparatia cu optimul
 
-Comparatia cu optimul este o analiza separata de comparatia dintre [[Matricea Numelui]] si [[Matricea Datei de Nastere]]. Ea compara matricea personala cu o matrice optima fixa, prestabilita.
+Comparatia cu optimul este o analiza separata de comparatia dintre [[vault/Numerologie/Nume/Matricea Numelui/01-MN-Index|Matricea Numelui]] si [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]]. Ea compara matricea personala cu o matrice optima fixa, prestabilita.
 
-Matricea personala se construieste din [[Cod Numerologic Personal]], conform regulilor din [[Matricea Datei de Nastere]]. Matricea optima este reperul stabil fata de care se observa zonele subreprezentate, echilibrate sau supraincarcate.
+Matricea personala se construieste din [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]], conform regulilor din [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]]. Matricea optima este reperul stabil fata de care se observa zonele subreprezentate, echilibrate sau supraincarcate.
 
 ### Matricea optima
 
@@ -160,7 +160,7 @@ structura nativa oferita de data nasterii.
 ## Observatii
 
 - Cifrele intermediare ale componentelor reduse nu se introduc separat in matrice.
-- Se introduce [[Numarul de Exprimare|numarul final de exprimare]].
+- Se introduce [[vault/Numerologie/Nume/Numarul de Exprimare/01-NE-Index|numarul final de exprimare]].
 - Codul numelui nu se calculeaza prin adunare sau scadere suplimentara; este sirul cifrelor numelui complet, urmat de numarul de exprimare.
 - Matricea numelui ramane separata de matricea datei.
-- Pentru raportul complet, matricea numelui se citeste impreuna cu [[Matricea Numelui vs Matricea Datei de Nastere]] si [[Influentele Numelui]].
+- Pentru raportul complet, matricea numelui se citeste impreuna cu [[vault/Numerologie/Nume/Comparatia Matricea Datei de Nastere vs Matricea Numelui/01-CMN-Index|Matricea Numelui vs Matricea Datei de Nastere]] si [[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]].

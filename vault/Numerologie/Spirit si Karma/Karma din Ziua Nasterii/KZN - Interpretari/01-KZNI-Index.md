@@ -46,5 +46,5 @@ Interpretarile individuale nu sunt completate in aceasta etapa.
 
 ## Sursa conceptului
 
-- [[Karma din Ziua Nasterii]]
+- [[vault/Numerologie/Spirit si Karma/Karma din Ziua Nasterii/01-KZN-Index|Karma din Ziua Nasterii]]
 - [[01-KZN-Index|Indexul modular Karma din Ziua Nasterii]]

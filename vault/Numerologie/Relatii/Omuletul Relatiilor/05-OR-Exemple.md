@@ -7,7 +7,7 @@ tags:
   - exemple
   - OmuletulRelatiilor
   - documentatie-modulara
-sursa: '[[Omuletul Relatiilor]]'
+sursa: '[[vault/Numerologie/Relatii/Omuletul Relatiilor/01-OR-Index|Omuletul Relatiilor]]'
 ---
 
 # Omulețul Relațiilor - Exemple
@@ -18,7 +18,7 @@ Exemplu SVG pentru doua persoane:
 
 - Persoana A: `06.11.1984`;
 - Persoana B: `17.04.1984`;
-- fisier: [[omulet-relatii-06-11-1984-17-04-1984.svg]].
+- fisier: omulet-relatii-06-11-1984-17-04-1984.svg.
 
 Acest SVG se foloseste ca referinta vizuala pentru asezarea omuletului
 relatiilor: omul vitruvian in fundal, cercul, patratul si pentagrama cu

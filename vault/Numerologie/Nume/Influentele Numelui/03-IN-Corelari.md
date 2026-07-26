@@ -6,7 +6,7 @@ tags:
   - corelari
   - InfluenteleNumelui
   - documentatie-modulara
-sursa: '[[Influentele Numelui]]'
+sursa: '[[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]]'
 ---
 
 # Influentele Numelui - Corelari
@@ -15,11 +15,11 @@ sursa: '[[Influentele Numelui]]'
 
 In raport, influentele numelui se citesc dupa numerele principale ale numelui si dupa matricea numelui:
 
-1. [[Numarul de Exprimare]];
-2. [[Numarul Intim]];
-3. [[Numarul de Realizare]];
-4. [[Numarul Activ]];
-5. [[Numarul Ereditar]] si numarul neamului;
+1. [[vault/Numerologie/Nume/Numarul de Exprimare/01-NE-Index|Numarul de Exprimare]];
+2. [[vault/Numerologie/Nume/Numarul Intim/01-NI-Index|Numarul Intim]];
+3. [[vault/Numerologie/Nume/Numarul de Realizare/01-NR-Index|Numarul de Realizare]];
+4. [[vault/Numerologie/Nume/Numarul Activ/01-NA-Index|Numarul Activ]];
+5. [[vault/Numerologie/Nume/Numarul Ereditar/01-NER-Index|Numarul Ereditar]] si numarul neamului;
 6. [[../Matricea Numelui/01-MN-Index|Matricea Numelui]];
 7. [[../Comparatia Matricea Datei de Nastere vs Matricea Numelui/01-CMN-Index|comparatia dintre Matricea Datei de Nastere si Matricea Numelui]];
 8. cifrele intense;

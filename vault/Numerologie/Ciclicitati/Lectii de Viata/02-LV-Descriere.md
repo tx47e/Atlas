@@ -7,14 +7,14 @@ tags:
   - descriere
   - LectiiDeViata
   - documentatie-modulara
-sursa: '[[Lectii de Viata]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]]'
 ---
 
 # Lectii de Viata - Descriere
 
 ## Descriere
 
-Lectiile de viata descriu o succesiune ciclica de teme anuale, calculata din [[Datele de intrare|data nasterii]] prin inmultirea zilei, lunii si anului nasterii.
+Lectiile de viata descriu o succesiune ciclica de teme anuale, calculata din [[vault/Numerologie/Date de Intrare/01-DI-Index|data nasterii]] prin inmultirea zilei, lunii si anului nasterii.
 
 Sirul rezultat se aplica peste anii de viata, in ordine, apoi se repeta de la inceput cand se termina.
 

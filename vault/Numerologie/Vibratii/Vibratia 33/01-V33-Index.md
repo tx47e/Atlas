@@ -20,7 +20,3 @@ tags:
 6. [[07-V33-Dezvoltare|Dezvoltare]]
 7. [[08-V33-Exemple|Exemple]]
 8. [[09-V33-Tarot|Tarot]]
-
-## Sursa pastrata
-
-- [[Vibratia 33]]

@@ -5,7 +5,7 @@ tags:
   - numerologie
   - VibratieCosmicaTotala
   - documentatie-modulara
-sursa: '[[Vibratie Cosmica Totala]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Totala/01-VCT-Index|Vibratie Cosmica Totala]]'
 ---
 
 # Vibratia Cosmica Totala - Exemple

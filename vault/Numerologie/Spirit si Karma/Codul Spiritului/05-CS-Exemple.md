@@ -6,7 +6,7 @@ tags:
   - exemple
   - CodulSpiritului
   - documentatie-modulara
-sursa: '[[Codul Spiritului]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]]'
 ---
 
 # Codul Spiritului - Exemple

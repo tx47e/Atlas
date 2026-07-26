@@ -6,7 +6,7 @@ tags:
   - subconcept
   - InfluenteleNumelui
   - documentatie-modulara
-sursa: '[[Influentele Numelui]]'
+sursa: '[[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]]'
 ---
 
 # Cifra Energetica - Concept
@@ -17,7 +17,7 @@ Registrul formulelor marcheaza Cifra Energetica cu lipsa sursei operationale. Co
 
 ## Cifra energetica
 
-Cifra energetica arata pozitia cea mai usor de atins prin efectul combinat al [[Vibratia Destinului|cifrei destinului]] si al [[Numarul de Exprimare|numelui complet]].
+Cifra energetica arata pozitia cea mai usor de atins prin efectul combinat al [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|cifrei destinului]] si al [[vault/Numerologie/Nume/Numarul de Exprimare/01-NE-Index|numelui complet]].
 
 Ea se mai numeste cifra fundamentala sau cifra relatiilor. Efectul ei asupra numerogramei este subtil si se simte in plan secund.
 

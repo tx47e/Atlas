@@ -6,7 +6,7 @@ tags:
   - metodica-si-interpretari
   - CodulSpiritului
   - documentatie-modulara
-sursa: '[[Codul Spiritului]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]]'
 ---
 
 # Codul Spiritului - Metodica si interpretari
@@ -116,7 +116,7 @@ foloseste ca formula separata, ci ca indiciu interpretativ.
 
 ### Corelare cu Scara Bunastarii
 
-Daca spiritul se afla in zona materiala, iar in [[Scara Bunastarii|Scara Bunastarii]]
+Daca spiritul se afla in zona materiala, iar in [[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]]
 vectorul 369 - Bunastare materiala este printre cele mai inalte
 valori sau chiar cea mai inalta valoare a scarii, aceasta suprapunere devine un
 element important de interpretare.
@@ -148,7 +148,7 @@ nici o condamnare la dificultati materiale.
 - Rezultatul nu se reduce numerologic la 1-9.
 - Rezultatul se pastreaza ca numar intre 0 si 52.
 - Pentru interpretare, se folosesc impreuna codul exact, zona, lectia si Varsta Spiritului.
-- Codul Spiritului poate fi citit impreuna cu [[Vibratie Interioara|vibratia interioara]], [[Vibratie Exterioara|vibratia exterioara]], [[Deschidere spre Ezoterism]] si [[Lectii de Viata]].
+- Codul Spiritului poate fi citit impreuna cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|vibratia interioara]], [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|vibratia exterioara]], [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]] si [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 
 ---
 

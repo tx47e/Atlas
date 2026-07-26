@@ -34,5 +34,5 @@ Interpretarile individuale nu sunt completate in aceasta etapa.
 
 ## Sursa conceptului
 
-- [[Punti]]
+- [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]
 - [[01-PID-Index|Indexul modular Puntea Interior - Destin]]

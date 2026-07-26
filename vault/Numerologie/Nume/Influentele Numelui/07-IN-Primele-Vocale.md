@@ -6,7 +6,7 @@ tags:
   - subconcept
   - InfluenteleNumelui
   - documentatie-modulara
-sursa: '[[Influentele Numelui]]'
+sursa: '[[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]]'
 ---
 
 # Primele Vocale - Concept

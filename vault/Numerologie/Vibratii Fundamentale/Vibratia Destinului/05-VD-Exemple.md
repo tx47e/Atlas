@@ -5,7 +5,7 @@ tags:
   - numerologie
   - VibratiaDestinului
   - documentatie-modulara
-sursa: '[[Vibratia Destinului]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]]'
 ---
 
 # Vibratia Destinului - Exemple

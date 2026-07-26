@@ -6,7 +6,7 @@ tags:
   - descriere
   - VibratieExterioara
   - documentatie-modulara
-sursa: '[[Vibratie Exterioara]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibratie Exterioara]]'
 ---
 
 # Vibratia Exterioara - Descriere

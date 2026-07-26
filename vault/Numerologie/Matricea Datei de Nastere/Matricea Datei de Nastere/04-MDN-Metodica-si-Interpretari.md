@@ -6,7 +6,7 @@ tags:
   - metodica-si-interpretari
   - MatriceaDateiDeNastere
   - documentatie-modulara
-sursa: '[[Matricea Datei de Nastere]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]]'
 ---
 
 # Matricea Datei de Nastere - Metodica si interpretari
@@ -44,15 +44,15 @@ In lucrare, interpretarea matricei datei de nastere trebuie sa includa:
 
 - citirea fiecarei casute importante;
 - frecventa cifrelor din casute;
-- figura geometrica asociata fiecarei casute, conform [[Figuri Geometrice]];
+- figura geometrica asociata fiecarei casute, conform [[vault/Numerologie/Matricea Datei de Nastere/Figuri Geometrice/01-FG-Index|Figuri Geometrice]];
 - tema si elementul fiecarei pozitii analizate;
 - starea pozitiei: absenta, potential disponibil, oscilanta, stabila sau
   supraincarcata;
 - totalul cifrelor pe fiecare element;
 - elementele dominante si elementele slab reprezentate;
 - temperamentul rezultat din elementul cu cea mai mare cantitate de cifre;
-- legatura dintre matrice, [[Scara Bunastarii]], [[Matricea Numelui]] si
-  [[Matricea Numelui vs Matricea Datei de Nastere]].
+- legatura dintre matrice, [[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]], [[vault/Numerologie/Nume/Matricea Numelui/01-MN-Index|Matricea Numelui]] si
+  [[vault/Numerologie/Nume/Comparatia Matricea Datei de Nastere vs Matricea Numelui/01-CMN-Index|Matricea Numelui vs Matricea Datei de Nastere]].
 
 ---
 

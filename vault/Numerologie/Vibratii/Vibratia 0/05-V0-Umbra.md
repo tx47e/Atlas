@@ -6,7 +6,7 @@ tags:
   - umbra
   - Vibratia0
   - documentatie-modulara
-sursa: '[[Vibratia 0]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 0/01-V0-Index|Vibratia 0]]'
 ---
 
 # Vibratia 0 - Umbra

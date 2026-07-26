@@ -6,7 +6,7 @@ tags:
   - exemple
   - NumarulIntim
   - documentatie-modulara
-sursa: '[[Numarul Intim]]'
+sursa: '[[vault/Numerologie/Nume/Numarul Intim/01-NI-Index|Numarul Intim]]'
 ---
 
 # Numarul Intim - Exemple

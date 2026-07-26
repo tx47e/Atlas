@@ -6,15 +6,15 @@ tags:
   - descriere
   - Fixatia
   - documentatie-modulara
-sursa: '[[Fixatia]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Fixatia/01-FX-Index|Fixatia]]'
 ---
 
 # Fixatia - Descriere
 
 ## Descriere
 
-Fixatia este vectorul orizontal plin dominant din [[Matricea Datei de Nastere]], citit in
-legatura directa cu [[Scara Bunastarii]]. Ea arata directia pe care omul tinde sa
+Fixatia este vectorul orizontal plin dominant din [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]], citit in
+legatura directa cu [[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]]. Ea arata directia pe care omul tinde sa
 se fixeze interior: locul unde energia matricei se aduna, se repeta si devine
 un mod principal de orientare.
 

@@ -6,7 +6,7 @@ tags:
   - arhetip
   - Vibratia8
   - documentatie-modulara
-sursa: '[[Vibratia 8]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 8/01-V8-Index|Vibratia 8]]'
 ---
 
 # Vibratia 8 - Arhetip

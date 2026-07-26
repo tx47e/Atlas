@@ -6,7 +6,7 @@ tags:
   - descriere
   - AspecteDeIndreptat
   - documentatie-modulara
-sursa: '[[Aspecte de Indreptat]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]]'
 ---
 
 # Aspecte de Indreptat si Solutia - Descriere
@@ -22,7 +22,7 @@ formeaza un singur concept:
 - Aspectele de Indreptat reprezinta materialul de lucru;
 - Solutia reprezinta energia folosita pentru indreptare.
 
-Calculul porneste de la [[Calea Destinului]] si de la prima cifra din ziua de
+Calculul porneste de la [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]] si de la prima cifra din ziua de
 nastere.
 
 ## Delimitare

@@ -6,7 +6,7 @@ tags:
   - metodica-si-interpretari
   - FiguriGeometrice
   - documentatie-modulara
-sursa: '[[Figuri Geometrice]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Figuri Geometrice/01-FG-Index|Figuri Geometrice]]'
 ---
 
 # Figuri Geometrice - Metodica si interpretari
@@ -37,7 +37,7 @@ Figura geometrica arata gradul de formare al energiei din casuta:
 - patratul arata structura, stabilitate, fixare si materializare;
 - pentagrama, hexagrama si septagrama arata o energie foarte incarcata, care
   capata deja o forma simbolica proprie si se citeste cu prudenta, impreuna cu
-  [[Scara Bunastarii]], [[Fixatia]] si [[Curgerea Energiei]];
+  [[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]], [[vault/Numerologie/Matricea Datei de Nastere/Fixatia/01-FX-Index|Fixatia]] si [[vault/Numerologie/Matricea Datei de Nastere/Curgerea Energiei/01-CE-Index|Curgerea Energiei]];
 - peste sapte aparitii, forma geometrica se adapteaza la numarul de cifre, dar
   trebuie sa ramana lizibila in casuta.
 

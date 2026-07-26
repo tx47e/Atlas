@@ -7,7 +7,7 @@ tags:
   - metodica-si-interpretari
   - SoartaSiDestin
   - documentatie-modulara
-sursa: '[[Soarta si Destin]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]]'
 ---
 
 # Soarta si Destin - Metodica si interpretari
@@ -32,8 +32,8 @@ Daca soarta este mai confortabila decat destinul, tema poate fi depasirea inerti
 
 ## Observatii
 
-- Destinul din aceasta metoda nu este acelasi lucru cu [[Vibratia Destinului]].
-- Destinul grafic nu se calculeaza din nume si nu se confunda cu [[Numarul de Exprimare]].
+- Destinul din aceasta metoda nu este acelasi lucru cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
+- Destinul grafic nu se calculeaza din nume si nu se confunda cu [[vault/Numerologie/Nume/Numarul de Exprimare/01-NE-Index|Numarul de Exprimare]].
 - Soarta si destinul se pastreaza ca numere grafice de 7 cifre.
 
 ---

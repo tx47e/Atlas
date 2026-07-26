@@ -6,7 +6,7 @@ tags:
   - date-de-intrare
   - introducere
   - documentatie-modulara
-sursa: '[[Introducere]]'
+sursa: '[[vault/Numerologie/Date de Intrare/Introducere/01-INT-Index|Introducere]]'
 ---
 
 # Introducere - Descriere

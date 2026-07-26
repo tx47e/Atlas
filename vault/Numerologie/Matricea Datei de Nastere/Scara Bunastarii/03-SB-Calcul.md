@@ -6,7 +6,7 @@ tags:
   - calcul
   - ScaraBunastarii
   - documentatie-modulara
-sursa: '[[Scara Bunastarii]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]]'
 ---
 
 # Scara Bunastarii - Calcul

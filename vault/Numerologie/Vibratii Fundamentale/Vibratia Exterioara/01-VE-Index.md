@@ -17,7 +17,3 @@ tags:
 3. [[04-VE-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-VE-Exemple|Exemple]]
 5. `VE - Interpretari/` - director pregatit; interpretarile vor fi adaugate ulterior.
-
-## Sursa pastrata
-
-- [[Vibratie Exterioara]]

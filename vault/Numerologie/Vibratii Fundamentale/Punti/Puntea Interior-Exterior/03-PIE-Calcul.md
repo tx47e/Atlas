@@ -6,7 +6,7 @@ tags:
   - calcul
   - PunteaInteriorExterior
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Interior - Exterior - Calcul
@@ -35,5 +35,5 @@ PIE = |VI - VE|
 
 ## Statut
 
-Formula este documentata in [[Punti]] si este implementata in calculatorul
+Formula este documentata in [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]] si este implementata in calculatorul
 agregat.

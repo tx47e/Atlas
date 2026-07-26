@@ -16,7 +16,3 @@ tags:
 2. [[03-CNP-Calcul|Calcul]]
 3. [[04-CNP-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-CNP-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Cod Numerologic Personal]]

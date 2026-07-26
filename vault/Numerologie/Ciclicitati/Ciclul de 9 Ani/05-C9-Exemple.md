@@ -7,7 +7,7 @@ tags:
   - exemple
   - CiclulDe9Ani
   - documentatie-modulara
-sursa: '[[Ciclul de 9 Ani]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]]'
 ---
 
 # Ciclul de 9 Ani - Exemple

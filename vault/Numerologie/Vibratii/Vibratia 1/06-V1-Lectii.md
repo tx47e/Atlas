@@ -6,7 +6,7 @@ tags:
   - lectii
   - Vibratia1
   - documentatie-modulara
-sursa: '[[Vibratia 1]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 1/01-V1-Index|Vibratia 1]]'
 ---
 
 # Vibratia 1 - Lectii

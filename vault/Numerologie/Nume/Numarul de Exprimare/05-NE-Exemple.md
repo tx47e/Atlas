@@ -6,7 +6,7 @@ tags:
   - exemple
   - NumarulDeExprimare
   - documentatie-modulara
-sursa: '[[Numarul de Exprimare]]'
+sursa: '[[vault/Numerologie/Nume/Numarul de Exprimare/01-NE-Index|Numarul de Exprimare]]'
 ---
 
 # Numarul de Exprimare - Exemple

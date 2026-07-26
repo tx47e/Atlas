@@ -6,7 +6,7 @@ tags:
   - calcul
   - NumarulEreditar
   - documentatie-modulara
-sursa: '[[Numarul Ereditar]]'
+sursa: '[[vault/Numerologie/Nume/Numarul Ereditar/01-NER-Index|Numarul Ereditar]]'
 ---
 
 # Numarul Ereditar - Calcul

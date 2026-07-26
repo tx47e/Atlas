@@ -6,7 +6,7 @@ tags:
   - descriere
   - CaleaDestinului
   - documentatie-modulara
-sursa: '[[Calea Destinului]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]]'
 ---
 
 # Calea Destinului - Descriere
@@ -29,7 +29,7 @@ intrebari.
 
 Calea Destinului pastreaza suma completa a cifrelor din data nasterii. Acest
 concept nu stabileste formula rezultatului derivat si nu se confunda cu
-[[Vibratia Destinului]] sau cu cifra suplimentara de interpretare.
+[[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]] sau cu cifra suplimentara de interpretare.
 
 Formula conceptelor dependente se verifica separat in
 [[Registru Validare Formule]].

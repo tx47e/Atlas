@@ -6,7 +6,7 @@ tags:
   - dezvoltare
   - Vibratia5
   - documentatie-modulara
-sursa: '[[Vibratia 5]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 5/01-V5-Index|Vibratia 5]]'
 ---
 
 # Vibratia 5 - Dezvoltare

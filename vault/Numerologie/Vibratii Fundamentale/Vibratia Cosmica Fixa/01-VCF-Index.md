@@ -17,7 +17,3 @@ tags:
 3. [[04-VCF-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-VCF-Exemple|Exemple]]
 5. `VCF - Interpretari/` - director pregatit; interpretarile vor fi adaugate ulterior.
-
-## Sursa pastrata
-
-- [[Vibratie Cosmica Fixa]]

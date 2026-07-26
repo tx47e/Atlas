@@ -20,7 +20,3 @@ tags:
 6. [[07-V0-Dezvoltare|Dezvoltare]]
 7. [[08-V0-Exemple|Exemple]]
 8. [[09-V0-Tarot|Tarot]]
-
-## Sursa pastrata
-
-- [[Vibratia 0]]

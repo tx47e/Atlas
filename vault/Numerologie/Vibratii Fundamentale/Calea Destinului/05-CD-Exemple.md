@@ -5,7 +5,7 @@ tags:
   - numerologie
   - CaleaDestinului
   - documentatie-modulara
-sursa: '[[Calea Destinului]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]]'
 ---
 
 # Calea Destinului - Exemple

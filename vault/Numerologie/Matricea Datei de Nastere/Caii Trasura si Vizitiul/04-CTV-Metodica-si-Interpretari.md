@@ -6,7 +6,7 @@ tags:
   - metodica-si-interpretari
   - CaiiTrasuraVizitiul
   - documentatie-modulara
-sursa: '[[Caii Trasura si Vizitiul]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Caii Trasura si Vizitiul/01-CTV-Index|Caii Trasura si Vizitiul]]'
 ---
 
 # Caii, Trasura si Vizitiul - Metodica si interpretari
@@ -113,4 +113,4 @@ reprezentat de vectorul 7-8-9 si arata directia constienta. In aceasta matrice,
 - Elementele conteaza, pentru ca arata din ce tip de energie este compusa
   fiecare zona.
 - Interpretarea trebuie sa compare cele trei zone, nu sa le citeasca izolat.
-- Metafora se leaga natural de [[Curgerea Energiei]], [[Fixatia]] si [[Scara Bunastarii]].
+- Metafora se leaga natural de [[vault/Numerologie/Matricea Datei de Nastere/Curgerea Energiei/01-CE-Index|Curgerea Energiei]], [[vault/Numerologie/Matricea Datei de Nastere/Fixatia/01-FX-Index|Fixatia]] si [[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]].

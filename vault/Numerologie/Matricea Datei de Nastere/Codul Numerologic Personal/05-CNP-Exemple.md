@@ -6,7 +6,7 @@ tags:
   - exemple
   - CodNumerologicPersonal
   - documentatie-modulara
-sursa: '[[Cod Numerologic Personal]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]]'
 ---
 
 # Codul Numerologic Personal - Exemple
@@ -40,7 +40,7 @@ Cod numerologic personal:
 24041982 30 3 26 8
 ```
 
-Cifre introduse in [[Matricea Datei de Nastere]]:
+Cifre introduse in [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]]:
 
 ```text
 2, 4, 4, 1, 9, 8, 2, 3, 3, 2, 6, 8

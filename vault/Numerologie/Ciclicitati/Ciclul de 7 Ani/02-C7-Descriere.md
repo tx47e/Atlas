@@ -7,7 +7,7 @@ tags:
   - descriere
   - CiclulDe7Ani
   - documentatie-modulara
-sursa: '[[Ciclul de 7 Ani]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]]'
 ---
 
 # Ciclul de 7 Ani - Descriere
@@ -16,7 +16,7 @@ sursa: '[[Ciclul de 7 Ani]]'
 
 Ciclul de 7 ani este un ritm secundar de maturizare, construit pe praguri de varsta: 7, 14, 21, 28, 35 etc. El nu inlocuieste ciclul principal de 9 ani, ci adauga o lectura a etapelor prin care omul isi formeaza structura interioara, raportarea la limite, disciplina, responsabilitatea si relatia cu timpul.
 
-Reprezentarea grafica a acestui ciclu este [[Septagrama]], unde fiecare varf
+Reprezentarea grafica a acestui ciclu este [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/Septagrama/01-SPT-Index|Septagrama]], unde fiecare varf
 marcheaza un moment de criza la jumatatea unui segment de 7 ani si include un
 `Rezultat pereche`.
 

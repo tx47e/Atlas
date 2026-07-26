@@ -6,7 +6,7 @@ tags:
   - metodica-si-interpretari
   - KarmaLunaNasterii
   - documentatie-modulara
-sursa: '[[Karma din Luna Nasterii]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/01-KLN-Index|Karma din Luna Nasterii]]'
 ---
 
 # Karma din Luna Nasterii - Metodica si interpretari

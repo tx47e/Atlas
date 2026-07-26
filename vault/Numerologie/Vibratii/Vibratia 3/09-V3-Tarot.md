@@ -6,7 +6,7 @@ tags:
   - tarot
   - Vibratia3
   - documentatie-modulara
-sursa: '[[Vibratia 3]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 3/01-V3-Index|Vibratia 3]]'
 ---
 
 # Vibratia 3 - Tarot

@@ -16,7 +16,3 @@ tags:
 2. [[03-AP-Calcul|Calcul]]
 3. [[04-AP-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-AP-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Aplicabilitate Profesionala]]

@@ -5,14 +5,14 @@ tags:
   - numerologie
   - PunteaExteriorDestin
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Exterior - Destin - Exemple
 
 ## Statut
 
-Nota-sursa [[Punti]] nu contine un exemplu de calcul dedicat acestei punti.
+Nota-sursa [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]] nu contine un exemplu de calcul dedicat acestei punti.
 Nu a fost adaugat un exemplu inventat.
 
 ## Date necesare unui exemplu validat

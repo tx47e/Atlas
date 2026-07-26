@@ -6,7 +6,7 @@ tags:
   - exemple
   - ScaraBunastarii
   - documentatie-modulara
-sursa: '[[Scara Bunastarii]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]]'
 ---
 
 # Scara Bunastarii - Exemple
@@ -19,7 +19,7 @@ Data de nastere:
 24.04.1982
 ```
 
-Numere de lucru pentru [[Matricea Datei de Nastere]]:
+Numere de lucru pentru [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]]:
 
 ```text
 24.04.1982 -> 24041982
@@ -36,7 +36,7 @@ Sir complet:
 24041982 + 30 + 3 + 26 + 8
 ```
 
-Cifre introduse in matrice, adica [[Cod Numerologic Personal]]:
+Cifre introduse in matrice, adica [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]]:
 
 ```text
 2, 4, 4, 1, 9, 8, 2, 3, 3, 2, 6, 8

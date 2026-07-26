@@ -6,21 +6,21 @@ tags:
   - exemple
   - MatriceaDateiDeNastere
   - documentatie-modulara
-sursa: '[[Matricea Datei de Nastere]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]]'
 ---
 
 # Matricea Datei de Nastere - Exemple
 
 ## Exemplu de calcul
 
-Pentru data `24.04.1982`, [[Cod Numerologic Personal]] calculat in rubrica
+Pentru data `24.04.1982`, [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]] calculat in rubrica
 dedicata este:
 
 ```text
 24041982 + 30 + 3 + 26 + 8
 ```
 
-Cifre introduse in matrice, adica [[Cod Numerologic Personal]]:
+Cifre introduse in matrice, adica [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]]:
 
 ```text
 2, 4, 4, 1, 9, 8, 2, 3, 3, 2, 6, 8

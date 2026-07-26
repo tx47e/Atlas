@@ -6,7 +6,7 @@ tags:
   - calcul
   - CodulSpiritului
   - documentatie-modulara
-sursa: '[[Codul Spiritului]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]]'
 ---
 
 # Codul Spiritului - Calcul
@@ -47,7 +47,7 @@ Observatii:
 
 ### Pasi de calcul
 
-1. Se preia ziua din [[Datele de intrare|data nasterii]].
+1. Se preia ziua din [[vault/Numerologie/Date de Intrare/01-DI-Index|data nasterii]].
 2. Se preia luna din data nasterii.
 3. Se cauta ziua pe verticala si luna pe orizontala in tabelul rapid zi-luna.
 4. Valoarea de la intersectia zilei cu luna este codul matricial, prescurtat

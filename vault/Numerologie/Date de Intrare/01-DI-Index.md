@@ -7,7 +7,7 @@ tags:
   - formular
   - index
   - documentatie-modulara
-sursa: '[[Datele de intrare]]'
+sursa: '[[vault/Numerologie/Date de Intrare/01-DI-Index|Datele de intrare]]'
 ---
 
 # Date de Intrare
@@ -28,4 +28,4 @@ inclusă în analiză.
 
 ## Sursă legacy
 
-- [[Datele de intrare]]
+- [[vault/Numerologie/Date de Intrare/01-DI-Index|Datele de intrare]]

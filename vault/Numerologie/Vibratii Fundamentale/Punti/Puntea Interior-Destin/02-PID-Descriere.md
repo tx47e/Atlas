@@ -6,14 +6,14 @@ tags:
   - descriere
   - PunteaInteriorDestin
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Interior - Destin - Descriere
 
 ## Descriere
 
-Puntea Interior - Destin compara [[Vibratie Interioara|Vibratia Interioara]] cu
+Puntea Interior - Destin compara [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratia Interioara]] cu
 cifra suplimentara de interpretare a Destinului.
 
 Ea arata energia de legatura dintre planul interior si directia de destin, fara

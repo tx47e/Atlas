@@ -6,7 +6,7 @@ tags:
   - exemple
   - Temperament
   - documentatie-modulara
-sursa: '[[Matricea Datei de Nastere]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]]'
 ---
 
 # Temperament - Exemple

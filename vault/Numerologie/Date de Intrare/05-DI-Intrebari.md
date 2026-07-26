@@ -6,7 +6,7 @@ tags:
   - date-de-intrare
   - intrebari
   - documentatie-modulara
-sursa: '[[Datele de intrare]]'
+sursa: '[[vault/Numerologie/Date de Intrare/01-DI-Index|Datele de intrare]]'
 ---
 
 # Întrebările persoanei

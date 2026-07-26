@@ -6,7 +6,7 @@ tags:
   - arhetip
   - Vibratia22
   - documentatie-modulara
-sursa: '[[Vibratia 22]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 22/01-V22-Index|Vibratia 22]]'
 ---
 
 # Vibratia 22 - Arhetip

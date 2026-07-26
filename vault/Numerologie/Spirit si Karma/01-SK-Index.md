@@ -12,13 +12,13 @@ tags:
 
 ## Concepte
 
-- [[01-AP-Index|Aplicabilitate Profesionala]]
-- [[01-CS-Index|Codul Spiritului]]
-- [[01-DE-Index|Deschidere catre Ezoterism]]
-- [[01-KZN-Index|Karma din Ziua Nasterii]]
-- [[01-KLN-Index|Karma din Luna Nasterii]]
-- [[01-KCD-Index|Karma din Calea Destinului]]
 - [[Ajutoare/01-AJ-Index|Ajutoare]]
+- [[Aplicabilitate Profesionala/01-AP-Index|Aplicabilitate Profesionala]]
+- [[Codul Spiritului/01-CS-Index|Codul Spiritului]]
+- [[Deschidere catre Ezoterism/01-DE-Index|Deschidere catre Ezoterism]]
+- [[Karma din Calea Destinului/01-KCD-Index|Karma din Calea Destinului]]
+- [[Karma din Luna Nasterii/01-KLN-Index|Karma din Luna Nasterii]]
+- [[Karma din Ziua Nasterii/01-KZN-Index|Karma din Ziua Nasterii]]
 
 ## Referinte asociate
 

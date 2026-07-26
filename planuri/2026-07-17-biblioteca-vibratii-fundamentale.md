@@ -56,12 +56,12 @@ Modelul editorial principal este lucrarea lui Bîrsan Daniel Robert. Se păstrea
 
 Biblioteca va conține câte un fișier dedicat pentru:
 
-1. [[vault/Numerologie/Vibratie Interioara|Vibrația interioară]];
-2. [[vault/Numerologie/Vibratie Exterioara|Vibrația exterioară]];
-3. [[vault/Numerologie/Vibratie Globala|Vibrația globală]];
-4. [[vault/Numerologie/Vibratie Cosmica Fixa|Vibrația cosmică fixă]];
-5. [[vault/Numerologie/Vibratie Cosmica Variabila|Vibrația cosmică variabilă]];
-6. [[vault/Numerologie/Vibratie Cosmica Totala|Vibrația cosmică totală]].
+1. [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibrația interioară]];
+2. [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibrația exterioară]];
+3. [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibrația globală]];
+4. [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Fixa/01-VCF-Index|Vibrația cosmică fixă]];
+5. [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Variabila/01-VCV-Index|Vibrația cosmică variabilă]];
+6. [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Totala/01-VCT-Index|Vibrația cosmică totală]].
 
 Un fișier comun va păstra semnificațiile cifrelor, interacțiunile dintre ele, pragurile intermediare, conectorii și tranzițiile care pot fi reutilizate între concepte.
 

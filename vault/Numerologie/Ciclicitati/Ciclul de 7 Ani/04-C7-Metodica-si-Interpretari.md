@@ -7,7 +7,7 @@ tags:
   - metodica-si-interpretari
   - CiclulDe7Ani
   - documentatie-modulara
-sursa: '[[Ciclul de 7 Ani]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]]'
 ---
 
 # Ciclul de 7 Ani - Metodica si interpretari
@@ -24,7 +24,7 @@ sursa: '[[Ciclul de 7 Ani]]'
 | 6 | responsabilizare, relatii, armonizare |
 | 7 | analiza, sinteza, incheiere de ciclu |
 
-In lectura generala, ciclul de 7 ani raspunde la intrebarea: ce se maturizeaza acum in structura persoanei? Daca [[Ciclul de 9 Ani|ciclul de 9 ani]] descrie miscarea interioara de finalizare si renastere, iar [[Ciclul de 12 Ani|ciclul de 12 ani]] descrie expansiunea si repozitionarea in lume, ciclul de 7 ani arata ritmul consolidarii. El verifica baza, disciplina, limitele si capacitatea de asumare.
+In lectura generala, ciclul de 7 ani raspunde la intrebarea: ce se maturizeaza acum in structura persoanei? Daca [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|ciclul de 9 ani]] descrie miscarea interioara de finalizare si renastere, iar [[vault/Numerologie/Ciclicitati/Ciclul de 12 Ani/01-C12-Index|ciclul de 12 ani]] descrie expansiunea si repozitionarea in lume, ciclul de 7 ani arata ritmul consolidarii. El verifica baza, disciplina, limitele si capacitatea de asumare.
 
 Etapele mari ale ciclului pot fi citite astfel:
 
@@ -56,4 +56,4 @@ Pragul de 28-29 ani corespunde primei intoarceri saturniene. In astrologie, acea
 - Nu trebuie interpretat ca predictie rigida, ci ca ritm de verificare, constructie si responsabilizare.
 - In lectura sintetica: 7 ani = maturizare si structura, 9 ani = finalizare si renastere, 12 ani = expansiune si repozitionare.
 - Pentru reprezentarea vizuala, momentele de criza si `Rezultat pereche`, vezi
-  [[Septagrama]].
+  [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/Septagrama/01-SPT-Index|Septagrama]].

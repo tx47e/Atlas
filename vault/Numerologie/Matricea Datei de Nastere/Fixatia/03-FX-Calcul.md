@@ -6,7 +6,7 @@ tags:
   - calcul
   - Fixatia
   - documentatie-modulara
-sursa: '[[Fixatia]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Fixatia/01-FX-Index|Fixatia]]'
 ---
 
 # Fixatia - Calcul

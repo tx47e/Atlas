@@ -7,7 +7,7 @@ tags:
   - metodica-si-interpretari
   - Septagrama
   - documentatie-modulara
-sursa: '[[Septagrama]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/Septagrama/01-SPT-Index|Septagrama]]'
 ---
 
 # Septagrama - Metodica si interpretari
@@ -89,8 +89,8 @@ Interpretarea septagramei urmareste:
 - momentul de criza al ciclului;
 - perechea numerologica a varfului;
 - rezultatul perechii;
-- suprapunerea cu [[Ciclul de 9 Ani]], [[Ciclul de 12 Ani]],
-  [[Anii Importanti Int-Ext]] si [[Soarta si Destin]].
+- suprapunerea cu [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]], [[vault/Numerologie/Ciclicitati/Ciclul de 12 Ani/01-C12-Index|Ciclul de 12 Ani]],
+  [[vault/Numerologie/Ciclicitati/Anii Importanti Interior si Exterior/01-AIIE-Index|Anii Importanti Int-Ext]] si [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 
 Momentul de criza nu se interpreteaza fatalist. El arata o verificare de etapa:
 ce trebuie vazut, ajustat, maturizat sau reorganizat.

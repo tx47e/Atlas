@@ -17,7 +17,3 @@ tags:
 3. [[04-VI-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-VI-Exemple|Exemple]]
 5. `VI - Interpretari/` - director pregatit; interpretarile vor fi adaugate ulterior.
-
-## Sursa pastrata
-
-- [[Vibratie Interioara]]

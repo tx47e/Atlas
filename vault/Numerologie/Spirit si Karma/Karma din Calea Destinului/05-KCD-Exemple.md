@@ -6,7 +6,7 @@ tags:
   - exemple
   - KarmaCaleaDestinului
   - documentatie-modulara
-sursa: '[[Karma din Calea Destinului]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-Index|Karma din Calea Destinului]]'
 ---
 
 # Karma din Calea Destinului - Exemple

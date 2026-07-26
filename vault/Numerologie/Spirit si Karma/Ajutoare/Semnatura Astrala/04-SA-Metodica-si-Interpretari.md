@@ -7,7 +7,7 @@ tags:
   - metodica-si-interpretari
   - SemnaturaAstrala
   - documentatie-modulara
-sursa: '[[Semnatura Astrala]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Semnatura Astrala/01-SA-Index|Semnatura Astrala]]'
 ---
 
 # Semnătura Astrală - Metodică și interpretări
@@ -64,6 +64,6 @@ cand lucrarea nu cere o alta arie de viata.
 
 ## Utilizare in lucrare
 
-Se foloseste in capitolul `Ajutoare`, impreuna cu [[Triunghiul Financiar]] si
-[[Patratul de Aur]]. Rolul ei este sa ofere o forma geometrica de sustinere,
+Se foloseste in capitolul `Ajutoare`, impreuna cu [[vault/Numerologie/Spirit si Karma/Ajutoare/Triunghiul Financiar/01-TF-Index|Triunghiul Financiar]] si
+[[vault/Numerologie/Spirit si Karma/Ajutoare/Patratul de Aur/01-PA-Index|Patratul de Aur]]. Rolul ei este sa ofere o forma geometrica de sustinere,
 potentare si orientare a bunastarii.

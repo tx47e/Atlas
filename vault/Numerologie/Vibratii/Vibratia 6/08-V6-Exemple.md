@@ -6,7 +6,7 @@ tags:
   - exemple
   - Vibratia6
   - documentatie-modulara
-sursa: '[[Vibratia 6]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 6/01-V6-Index|Vibratia 6]]'
 ---
 
 # Vibratia 6 - Exemple

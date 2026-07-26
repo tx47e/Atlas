@@ -6,7 +6,7 @@ tags:
   - interpretare
   - AspecteDeIndreptat
   - documentatie-modulara
-sursa: '[[Aspecte de Indreptat]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]]'
 ---
 
 # Aspecte de Indreptat si Solutia - Metodica si interpretari

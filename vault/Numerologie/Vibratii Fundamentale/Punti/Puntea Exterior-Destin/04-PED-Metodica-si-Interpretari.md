@@ -6,7 +6,7 @@ tags:
   - interpretare
   - PunteaExteriorDestin
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Exterior - Destin - Metodica si interpretari

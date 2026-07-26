@@ -33,7 +33,3 @@ tags:
 - [[../Numarul Ereditar/01-NER-Index|Numarul Ereditar]]
 - [[../Matricea Numelui/01-MN-Index|Matricea Numelui]]
 - [[../Comparatia Matricea Datei de Nastere vs Matricea Numelui/01-CMN-Index|Comparatia Matricea Datei de Nastere vs Matricea Numelui]]
-
-## Sursa pastrata
-
-- [[Influentele Numelui]]

@@ -7,7 +7,7 @@ tags:
   - calcul
   - PatratulDeAur
   - documentatie-modulara
-sursa: '[[Patratul de Aur]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Patratul de Aur/01-PA-Index|Patratul de Aur]]'
 ---
 
 # Pătratul de Aur - Calcul
@@ -68,7 +68,7 @@ validarea completa se verifica si cele doua diagonale.
 
 ### Observatie de analiza
 
-Suma de control a patratului nu reprezinta in mod automat [[Calea Destinului]].
+Suma de control a patratului nu reprezinta in mod automat [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 Ea se calculeaza strict din centrul Patratului de Aur:
 
 ```text

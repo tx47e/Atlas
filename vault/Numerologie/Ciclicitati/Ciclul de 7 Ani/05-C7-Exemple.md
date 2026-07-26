@@ -7,7 +7,7 @@ tags:
   - exemple
   - CiclulDe7Ani
   - documentatie-modulara
-sursa: '[[Ciclul de 7 Ani]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]]'
 ---
 
 # Ciclul de 7 Ani - Exemple

@@ -17,7 +17,3 @@ tags:
 2. [[03-SPT-Calcul|Calcul]]
 3. [[04-SPT-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-SPT-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Septagrama]]

@@ -18,12 +18,8 @@ tags:
 4. [[05-CD-Exemple|Exemple]]
 5. [[01-CDI-Index|Interpretari predefinite]]
 
-## Sursa pastrata
-
-- [[Calea Destinului]]
-
 ## Concepte dependente
 
-- [[Vibratia Destinului]]
-- [[Datele de intrare]]
+- [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]]
+- [[vault/Numerologie/Date de Intrare/01-DI-Index|Datele de intrare]]
 - [[Registru Validare Formule]]

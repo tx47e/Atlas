@@ -6,7 +6,7 @@ tags:
   - exemple
   - MatriceaNumelui
   - documentatie-modulara
-sursa: '[[Matricea Numelui]]'
+sursa: '[[vault/Numerologie/Nume/Matricea Numelui/01-MN-Index|Matricea Numelui]]'
 ---
 
 # Matricea Numelui - Exemple

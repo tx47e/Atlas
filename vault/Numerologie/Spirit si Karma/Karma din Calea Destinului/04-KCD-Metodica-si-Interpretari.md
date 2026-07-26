@@ -6,10 +6,14 @@ tags:
   - metodica-si-interpretari
   - KarmaCaleaDestinului
   - documentatie-modulara
-sursa: '[[Karma din Calea Destinului]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-Index|Karma din Calea Destinului]]'
 ---
 
 # Karma din Calea Destinului - Metodica si interpretari
+
+## Interpretari predefinite
+
+- [[KCD - Interpretari/01-KCDI-Index|Indexul interpretarilor Karma din Calea Destinului]]
 
 ## Interpretare generala
 

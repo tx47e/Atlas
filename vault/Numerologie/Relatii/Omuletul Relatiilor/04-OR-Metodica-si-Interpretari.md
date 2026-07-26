@@ -7,7 +7,7 @@ tags:
   - metodica-si-interpretari
   - OmuletulRelatiilor
   - documentatie-modulara
-sursa: '[[Omuletul Relatiilor]]'
+sursa: '[[vault/Numerologie/Relatii/Omuletul Relatiilor/01-OR-Index|Omuletul Relatiilor]]'
 ---
 
 # Omulețul Relațiilor - Metodică și interpretări
@@ -51,7 +51,7 @@ clar in lucrare si in interpretare.
 
 ### Elemente
 
-Se foloseste corespondenta elementelor din [[Matricea Datei de Nastere]]:
+Se foloseste corespondenta elementelor din [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]]:
 
 | Element | Cifre | Tema relationala |
 | --- | --- | --- |
@@ -193,7 +193,7 @@ Rubrica trebuie sa includa:
 - Se analizeaza cine cate cifre are si ce poate oferi relatiei prin acele cifre.
 - Codul numerologic personal extins se foloseste ca sursa pentru omulet numai
   daca este cerut explicit si mentionat clar in lucrare.
-- Cifra energetica din [[Influentele Numelui]] poate fi adaugata ca nota
+- Cifra energetica din [[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]] poate fi adaugata ca nota
   secundara, pentru ca este numita si cifra relatiilor.
 - Pozitiile cifrelor se pastreaza constant pe diagrama, pentru ca exemplele sa
   fie comparabile intre ele.

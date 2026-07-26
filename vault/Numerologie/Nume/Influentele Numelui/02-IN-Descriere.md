@@ -6,7 +6,7 @@ tags:
   - descriere
   - InfluenteleNumelui
   - documentatie-modulara
-sursa: '[[Influentele Numelui]]'
+sursa: '[[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]]'
 ---
 
 # Influentele Numelui - Descriere

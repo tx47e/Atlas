@@ -5,7 +5,7 @@ tags:
   - numerologie
   - VibratieInterioara
   - documentatie-modulara
-sursa: '[[Vibratie Interioara]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]]'
 ---
 
 # Vibratia Interioara - Exemple

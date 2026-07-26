@@ -6,7 +6,7 @@ tags:
   - exemple
   - NumarulEreditarKarmic
   - documentatie-modulara
-sursa: '[[Numarul Neamului]]'
+sursa: '[[vault/Numerologie/Nume/Numarul Ereditar Karmic/01-NEK-Index|Numarul Neamului]]'
 ---
 
 # Numarul Ereditar Karmic - Exemple

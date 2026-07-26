@@ -6,7 +6,7 @@ tags:
   - metodica-si-interpretari
   - CodNumerologicPersonal
   - documentatie-modulara
-sursa: '[[Cod Numerologic Personal]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]]'
 ---
 
 # Codul Numerologic Personal - Metodica si interpretari
@@ -18,4 +18,4 @@ sursa: '[[Cod Numerologic Personal]]'
 - N2 se obtine printr-o singura insumare a cifrelor lui N1 si poate ramane un numar format din doua cifre.
 - N4 se obtine printr-o singura insumare a cifrelor lui N3 si poate ramane un numar format din doua cifre.
 - Prima cifra folosita la N3 este prima cifra nenula din ziua nasterii.
-- Daca nota pare redundanta, se poate sterge si se pastreaza doar explicatia din [[Matricea Datei de Nastere]].
+- Daca nota pare redundanta, se poate sterge si se pastreaza doar explicatia din [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]].

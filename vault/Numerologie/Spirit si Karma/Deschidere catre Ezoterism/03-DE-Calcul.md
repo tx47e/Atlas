@@ -6,7 +6,7 @@ tags:
   - calcul
   - DeschidereCatreEzoterism
   - documentatie-modulara
-sursa: '[[Deschidere spre Ezoterism]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]]'
 ---
 
 # Deschidere catre Ezoterism - Calcul

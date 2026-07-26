@@ -6,7 +6,7 @@ tags:
   - calcul
   - VibratieExterioara
   - documentatie-modulara
-sursa: '[[Vibratie Exterioara]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibratie Exterioara]]'
 ---
 
 # Vibratia Exterioara - Calcul
@@ -25,7 +25,7 @@ VE = reducere_numerologica(luna nasterii)
 
 ### Pași de calcul
 
-1. Se preia luna din [[Datele de intrare|data nașterii]], ca număr între `1` și `12`.
+1. Se preia luna din [[vault/Numerologie/Date de Intrare/01-DI-Index|data nașterii]], ca număr între `1` și `12`.
 2. Dacă luna este între `1` și `9`, rezultatul este chiar luna.
 3. Dacă luna este `10`, `11` sau `12`, se adună cifrele ei.
 4. Se notează luna de plecare, treapta reducerii și cifra finală.

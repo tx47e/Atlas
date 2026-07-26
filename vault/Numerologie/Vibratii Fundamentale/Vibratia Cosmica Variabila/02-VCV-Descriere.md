@@ -6,7 +6,7 @@ tags:
   - descriere
   - VibratieCosmicaVariabila
   - documentatie-modulara
-sursa: '[[Vibratie Cosmica Variabila]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Variabila/01-VCV-Index|Vibratie Cosmica Variabila]]'
 ---
 
 # Vibratia Cosmica Variabila - Descriere
@@ -16,7 +16,7 @@ sursa: '[[Vibratie Cosmica Variabila]]'
 Vibrația Cosmică Variabilă este componenta activă a anului nașterii. Ea
 provine din ultimele două cifre ale anului, reduse numerologic.
 
-Dacă [[Vibratie Cosmica Fixa|Vibrația Cosmică Fixă]] arată fundalul stabil,
+Dacă [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Fixa/01-VCF-Index|Vibrația Cosmică Fixă]] arată fundalul stabil,
 Vibrația Cosmică Variabilă arată partea mai concretă, personală și dinamică a
 anului. Ea descrie ce poate lucra omul în viața concretă, în relație cu
 contextul său de naștere.

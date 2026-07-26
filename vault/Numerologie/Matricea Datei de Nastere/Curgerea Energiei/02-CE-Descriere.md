@@ -6,7 +6,7 @@ tags:
   - descriere
   - CurgereaEnergiei
   - documentatie-modulara
-sursa: '[[Curgerea Energiei]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Curgerea Energiei/01-CE-Index|Curgerea Energiei]]'
 ---
 
 # Curgerea Energiei - Descriere
@@ -14,7 +14,7 @@ sursa: '[[Curgerea Energiei]]'
 ## Descriere
 
 Curgerea energiei este lectura prin care se observa daca energia poate circula
-prin [[Matricea Datei de Nastere]] pe directiile naturale ale patratului lui
+prin [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]] pe directiile naturale ale patratului lui
 Pitagora.
 
 Energia curge in doua sensuri principale:

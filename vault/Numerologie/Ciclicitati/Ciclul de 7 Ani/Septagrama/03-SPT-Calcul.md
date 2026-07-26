@@ -7,7 +7,7 @@ tags:
   - calcul
   - Septagrama
   - documentatie-modulara
-sursa: '[[Septagrama]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/Septagrama/01-SPT-Index|Septagrama]]'
 ---
 
 # Septagrama - Calcul

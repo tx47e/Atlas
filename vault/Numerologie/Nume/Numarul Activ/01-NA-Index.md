@@ -16,7 +16,3 @@ tags:
 2. [[03-NA-Calcul|Calcul]]
 3. [[04-NA-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-NA-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Numarul Activ]]

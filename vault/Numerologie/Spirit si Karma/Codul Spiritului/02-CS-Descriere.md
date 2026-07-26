@@ -6,7 +6,7 @@ tags:
   - descriere
   - CodulSpiritului
   - documentatie-modulara
-sursa: '[[Codul Spiritului]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]]'
 ---
 
 # Codul Spiritului - Descriere
@@ -15,7 +15,7 @@ sursa: '[[Codul Spiritului]]'
 
 Codul Spiritului este un indicator al nivelului de dezvoltare spirituala, calculat din ziua si luna nasterii.
 
-El nu descrie personalitatea de zi cu zi in acelasi fel ca [[Vibratie Interioara|vibratia interioara]], ci pozitioneaza spiritul intr-o etapa evolutiva mai larga. Prin acest cod se observa maturitatea interioara, tipul de experienta pe care spiritul o aduce cu sine si zona principala de invatare spirituala.
+El nu descrie personalitatea de zi cu zi in acelasi fel ca [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|vibratia interioara]], ci pozitioneaza spiritul intr-o etapa evolutiva mai larga. Prin acest cod se observa maturitatea interioara, tipul de experienta pe care spiritul o aduce cu sine si zona principala de invatare spirituala.
 
 Codul Spiritului se citeste impreuna cu varsta spiritului si cu lectia spirituala activa. Rezultatul numeric arata zona de dezvoltare, subetapa arata lectia, iar varsta spiritului traduce codul intr-un reper simbolic de experienta acumulata.
 

@@ -5,7 +5,7 @@ tags:
   - numerologie
   - Punti
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Punti - Reguli comune
@@ -36,9 +36,9 @@ schimba rezultatul.
    zone.
 4. Puntea nu inlocuieste niciuna dintre valorile de plecare.
 
-Pentru rezultate se consulta [[Vibratia 0]], [[Vibratia 1]], [[Vibratia 2]],
-[[Vibratia 3]], [[Vibratia 4]], [[Vibratia 5]], [[Vibratia 6]],
-[[Vibratia 7]], [[Vibratia 8]] si [[Vibratia 9]].
+Pentru rezultate se consulta [[vault/Numerologie/Vibratii/Vibratia 0/01-V0-Index|Vibratia 0]], [[vault/Numerologie/Vibratii/Vibratia 1/01-V1-Index|Vibratia 1]], [[vault/Numerologie/Vibratii/Vibratia 2/01-V2-Index|Vibratia 2]],
+[[vault/Numerologie/Vibratii/Vibratia 3/01-V3-Index|Vibratia 3]], [[vault/Numerologie/Vibratii/Vibratia 4/01-V4-Index|Vibratia 4]], [[vault/Numerologie/Vibratii/Vibratia 5/01-V5-Index|Vibratia 5]], [[vault/Numerologie/Vibratii/Vibratia 6/01-V6-Index|Vibratia 6]],
+[[vault/Numerologie/Vibratii/Vibratia 7/01-V7-Index|Vibratia 7]], [[vault/Numerologie/Vibratii/Vibratia 8/01-V8-Index|Vibratia 8]] si [[vault/Numerologie/Vibratii/Vibratia 9/01-V9-Index|Vibratia 9]].
 
 ## Regula rezultatului zero
 

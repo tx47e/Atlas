@@ -6,7 +6,7 @@ tags:
   - descriere
   - VibratieGlobala
   - documentatie-modulara
-sursa: '[[Vibratie Globala]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibratie Globala]]'
 ---
 
 # Vibratia Globala - Descriere
@@ -14,7 +14,7 @@ sursa: '[[Vibratie Globala]]'
 ## Descriere
 
 Vibrația Globală sintetizează ziua și luna nașterii. Ea reunește
-[[Vibratie Interioara|Vibrația Interioară]] și [[Vibratie Exterioara|Vibrația Exterioară]] într-o direcție comună.
+[[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibrația Interioară]] și [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibrația Exterioară]] într-o direcție comună.
 
 Această vibrație arată felul în care interiorul și exteriorul persoaneilucrează împreună. Nu înlocuiește analiza separată a zilei și lunii, ci arată
 rezultanta lor: tonul general al personalității de bază, înainte de integrarea

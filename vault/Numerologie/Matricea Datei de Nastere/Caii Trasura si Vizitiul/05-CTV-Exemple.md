@@ -6,7 +6,7 @@ tags:
   - exemple
   - CaiiTrasuraVizitiul
   - documentatie-modulara
-sursa: '[[Caii Trasura si Vizitiul]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Caii Trasura si Vizitiul/01-CTV-Index|Caii Trasura si Vizitiul]]'
 ---
 
 # Caii, Trasura si Vizitiul - Exemple

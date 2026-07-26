@@ -6,7 +6,7 @@ tags:
   - subconcept
   - InfluenteleNumelui
   - documentatie-modulara
-sursa: '[[Influentele Numelui]]'
+sursa: '[[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]]'
 ---
 
 # Cifrele de Tensiune - Concept
@@ -27,9 +27,9 @@ Se calculeaza prin scadere intre:
 
 In acest proiect:
 
-- cifra destinului este [[Vibratia Destinului]];
-- cifra vocalelor este [[Numarul Intim]];
-- cifra consoanelor este [[Numarul de Realizare]].
+- cifra destinului este [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]];
+- cifra vocalelor este [[vault/Numerologie/Nume/Numarul Intim/01-NI-Index|Numarul Intim]];
+- cifra consoanelor este [[vault/Numerologie/Nume/Numarul de Realizare/01-NR-Index|Numarul de Realizare]].
 
 Formula de lucru:
 

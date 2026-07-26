@@ -20,7 +20,3 @@ tags:
 6. [[07-V11-Dezvoltare|Dezvoltare]]
 7. [[08-V11-Exemple|Exemple]]
 8. [[09-V11-Tarot|Tarot]]
-
-## Sursa pastrata
-
-- [[Vibratia 11]]

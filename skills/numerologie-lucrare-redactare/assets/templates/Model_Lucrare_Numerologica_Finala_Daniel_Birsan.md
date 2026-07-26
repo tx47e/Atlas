@@ -1,4 +1,4 @@
-﻿# Lucrare numerologică - Bîrsan Daniel Robert
+# Lucrare numerologică - Bîrsan Daniel Robert
 ## Date generale
 
 - Data nasterii: 19.02.1998
@@ -407,7 +407,7 @@ Pentru numarul neamului pastram totalul numelui de familie si il aducem in inter
 
 | Arcana | Interpretare |
 | --- | --- |
-| ![Arcana 5 - Marele Preot, numarul neamului](tarot-05-marele-preot-numarul-neamului.jpg)<br>_Arcana 5 - Marele Preot. Numarul neamului_ | Rezultatul este **5**, iar arcana majora asociata este **Marele Preot**. In aceasta pozitie, cartea vorbeste despre traditie, invatatura si valorile transmise prin familie. Ea sugereaza ca numele Birsan poarta simbolic o scoala a neamului: reguli, credinte, modele de autoritate si lectii primite de la cei care au venit inainte. Darul acestei mosteniri poate fi capacitatea de a invata profund, de a cauta sensul din spatele regulilor si, la maturitate, de a deveni pentru altii un reper, un profesor sau un ghid.<br><br>Pentru tine, Daniel, Marele Preot nu cere supunere oarba fata de traditie. El te invita sa verifici ce principii te maturizeaza si ce reguli au ramas doar forme fara viata. Umbra arcanei 5 poate aparea ca rigiditate, conformism, teama de a iesi din tiparul familiei ori dependenta de aprobarea unei autoritati. Forma ei constructiva apare cand pastrezi intelepciunea utila, transformi experienta in practica si iti construiesti propriul sistem de valori. Astfel, mostenirea neamului nu devine o povara repetata mecanic, ci o invatatura asumata, vie si transmisa mai departe cu discernamant. |
+| ![Arcana 5 - Marele Preot, numarul neamului](../../../../output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-05-marele-preot-numarul-neamului.jpg)<br>_Arcana 5 - Marele Preot. Numarul neamului_ | Rezultatul este **5**, iar arcana majora asociata este **Marele Preot**. In aceasta pozitie, cartea vorbeste despre traditie, invatatura si valorile transmise prin familie. Ea sugereaza ca numele Birsan poarta simbolic o scoala a neamului: reguli, credinte, modele de autoritate si lectii primite de la cei care au venit inainte. Darul acestei mosteniri poate fi capacitatea de a invata profund, de a cauta sensul din spatele regulilor si, la maturitate, de a deveni pentru altii un reper, un profesor sau un ghid.<br><br>Pentru tine, Daniel, Marele Preot nu cere supunere oarba fata de traditie. El te invita sa verifici ce principii te maturizeaza si ce reguli au ramas doar forme fara viata. Umbra arcanei 5 poate aparea ca rigiditate, conformism, teama de a iesi din tiparul familiei ori dependenta de aprobarea unei autoritati. Forma ei constructiva apare cand pastrezi intelepciunea utila, transformi experienta in practica si iti construiesti propriul sistem de valori. Astfel, mostenirea neamului nu devine o povara repetata mecanic, ci o invatatura asumata, vie si transmisa mai departe cu discernamant. |
 
 ### 5.7. Codul numerologic personal al numelui
 
@@ -469,7 +469,7 @@ Ciclul de 9 ani descrie ritmul anilor personali. Fiecare an aduce o tema: incepu
 
 Ciclurile de 7 ani arata maturizarea, disciplina si formarea structurii interioare. Le citim ca praguri de lucru care revin din sapte in sapte ani si arata cum se aseaza energia in etape concrete de viata.
 
-![Septagrama pentru Birsan Daniel Robert](septagrama-birsan-daniel-robert.svg)
+![Septagrama pentru Birsan Daniel Robert](../../../../output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/septagrama-birsan-daniel-robert.svg)
 
 | Ciclu | Ani calendaristici | Varsta | Varsta criza | An criza | An de viata | Varf | Pereche | Rezultat pereche | Interpretare |
 | --- | --- | --- | ---: | ---: | --- | ---: | --- | ---: | --- |
@@ -579,7 +579,7 @@ Pentru destinul grafic folosim aceeasi structura, dar inlocuim zerourile din dat
 
 **Calcul:** Destin grafic = 1912 x 1998 = 3820176; zona de confort destin = (3 + 8 + 2 + 0 + 1 + 7 + 6) / 7 = 27 / 7 = 3,86.
 
-![Grafic Soarta si Destin pentru Birsan Daniel Robert](soarta-si-destin-birsan-daniel-robert.svg)
+![Grafic Soarta si Destin pentru Birsan Daniel Robert](../../../../output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/soarta-si-destin-birsan-daniel-robert.svg)
 
 _Grafic Soarta si Destin pentru Birsan Daniel Robert_
 
@@ -597,7 +597,7 @@ Pentru Daniel folosim citirea pe intervale de 10 ani, deoarece data lui are pred
 
 ### 6.8. Harta suprapusa
 
-![Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert.svg)
+![Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert](../../../../output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/harta-suprapusa-soarta-destin-birsan-daniel-robert.svg)
 
 _Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert_
 
@@ -607,7 +607,7 @@ _Harta suprapusa Soarta-Destin-Ciclicitati pentru Birsan Daniel Robert_
 
 Daniel, aici nu ne uitam la relatie ca la un verdict, ci ca la o harta de orientare. Omuletul relatiilor iti arata ce aduci tu in legatura cu Andreea, ce aduce ea, unde va completati firesc si unde este nevoie sa fiti mai constienti unul cu celalalt. Ideea nu este sa cautam cine are dreptate, ci sa vedem cum puteti construi o relatie mai limpede, mai asezata si mai vie.
 
-![Omuletul relatiilor pentru Birsan Daniel Robert si Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg)
+![Omuletul relatiilor pentru Birsan Daniel Robert si Roman Andreea Maria](../../../../output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg)
 
 _Omuletul relatiilor pentru Birsan Daniel Robert si Roman Andreea Maria_
 
@@ -636,8 +636,8 @@ DA / aplicabilitate profesionala: luna 2 + (1 + 9 + 9 + 8) = 2 + 27 = 29 -> 29 -
 
 | Arcana | Interpretare |
 | --- | --- |
-| ![Arcana 7 - Carul, aplicabilitate profesionala](tarot-07-carul-aplicabilitate-profesionala.jpg)<br>_Arcana 7 - Carul. Aplicabilitate profesionala / DA_ | Carul iti spune ca profesional ai nevoie de directie, miscare si control interior. Nu esti facut sa ramai prea mult intr-un loc in care doar executi fara sa intelegi sensul drumului. Ai nevoie de obiective clare, autonomie, provocari care cer prezenta si situatii in care poti organiza forte diferite: oameni, resurse, timp, presiune, emotie si decizie. In varianta buna, Carul poate sustine domenii legate de coordonare, management, vanzari, logistica, sport, transport, proiecte dinamice, antreprenoriat, interventie rapida, strategie sau roluri in care trebuie sa tii fraiele fara sa te rupi de oameni. |
-| ![Arcana 17 - Steaua, obstacole profesionale](tarot-17-steaua-obstacole-profesionale.jpg)<br>_Arcana 17 - Steaua. Obstacole / NU_ | Partea care cere atentie este Steaua pe pozitia de `NU`. Asta nu inseamna ca inspiratia este gresita, ci ca poate deveni obstacol atunci cand ramane doar vis, asteptare sau incredere fara plan. Daca idealizezi prea mult directia profesionala, poti amana pasii concreti. Daca astepti confirmarea perfecta, poti pierde momentul in care trebuie sa actionezi. Cheia este sa folosesti speranta Stelei ca sursa de sens, dar sa o pui in Car: program, decizie, ritm, responsabilitate si actiune vizibila. |
+| ![Arcana 7 - Carul, aplicabilitate profesionala](../../../../output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-07-carul-aplicabilitate-profesionala.jpg)<br>_Arcana 7 - Carul. Aplicabilitate profesionala / DA_ | Carul iti spune ca profesional ai nevoie de directie, miscare si control interior. Nu esti facut sa ramai prea mult intr-un loc in care doar executi fara sa intelegi sensul drumului. Ai nevoie de obiective clare, autonomie, provocari care cer prezenta si situatii in care poti organiza forte diferite: oameni, resurse, timp, presiune, emotie si decizie. In varianta buna, Carul poate sustine domenii legate de coordonare, management, vanzari, logistica, sport, transport, proiecte dinamice, antreprenoriat, interventie rapida, strategie sau roluri in care trebuie sa tii fraiele fara sa te rupi de oameni. |
+| ![Arcana 17 - Steaua, obstacole profesionale](../../../../output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/tarot-17-steaua-obstacole-profesionale.jpg)<br>_Arcana 17 - Steaua. Obstacole / NU_ | Partea care cere atentie este Steaua pe pozitia de `NU`. Asta nu inseamna ca inspiratia este gresita, ci ca poate deveni obstacol atunci cand ramane doar vis, asteptare sau incredere fara plan. Daca idealizezi prea mult directia profesionala, poti amana pasii concreti. Daca astepti confirmarea perfecta, poti pierde momentul in care trebuie sa actionezi. Cheia este sa folosesti speranta Stelei ca sursa de sens, dar sa o pui in Car: program, decizie, ritm, responsabilitate si actiune vizibila. |
 
 ### 8.2. Inclinatii ezoterice
 
@@ -765,7 +765,7 @@ Triunghiul financiar combina ziua, luna, anul redus si destinul redus pentru a o
 
 Pentru triunghi pornim de la zi, luna, anul redus si destinul redus. Diagrama de mai jos aseaza aceste valori in forma lor de lucru, ca sa putem citi relatia dintre pornire, sustinere, viziune si rezultat.
 
-![Triunghiul financiar pentru Birsan Daniel Robert](triunghiul-financiar-birsan-daniel-robert.svg)
+![Triunghiul financiar pentru Birsan Daniel Robert](../../../../output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/triunghiul-financiar-birsan-daniel-robert.svg)
 
 _Triunghiul financiar - codul 1293_
 
@@ -777,7 +777,7 @@ Patratul de aur aseaza valori succesive pornind de la ziua nasterii si creeaza o
 
 Pentru patrat pornim de la ziua nasterii si completam schema in ordinea specifica instrumentului. Diagrama de mai jos arata centrul, traseul si suma de control, apoi citim ce fel de stabilizare simbolica propune.
 
-![Patratul de aur pentru Birsan Daniel Robert](patratul-de-aur-birsan-daniel-robert.svg)
+![Patratul de aur pentru Birsan Daniel Robert](../../../../output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/patratul-de-aur-birsan-daniel-robert.svg)
 
 _Patratul de aur - centru 23 si suma de control 69_
 

@@ -6,7 +6,7 @@ tags:
   - interpretare
   - VibratieGlobala
   - documentatie-modulara
-sursa: '[[Vibratie Globala]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibratie Globala]]'
 ---
 
 # Vibratia Globala - Metodica si interpretari

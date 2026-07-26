@@ -16,7 +16,3 @@ tags:
 2. [[03-NE-Calcul|Calcul]]
 3. [[04-NE-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-NE-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Numarul de Exprimare]]

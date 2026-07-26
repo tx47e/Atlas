@@ -6,7 +6,7 @@ tags:
   - lumina
   - Vibratia9
   - documentatie-modulara
-sursa: '[[Vibratia 9]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 9/01-V9-Index|Vibratia 9]]'
 ---
 
 # Vibratia 9 - Lumina

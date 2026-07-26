@@ -16,6 +16,10 @@ tags:
 - [[Registru Validare Formule|Registru validare formule]]
 - [[Istoric Rulari Validare Formule|Istoric rulări validare formule]]
 
+## Planuri și urmărire
+
+- [[2026-07-24-refactorizare-vault-numerologie|Refactorizare Vault Numerologie]]
+
 ## Rol
 
 Directorul reunește documentele folosite pentru verificarea, inventarierea și

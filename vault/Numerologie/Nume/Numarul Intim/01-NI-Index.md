@@ -16,7 +16,3 @@ tags:
 2. [[03-NI-Calcul|Calcul]]
 3. [[04-NI-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-NI-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Numarul Intim]]

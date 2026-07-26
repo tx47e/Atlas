@@ -5,7 +5,7 @@ tags:
   - numerologie
   - VibratieCosmicaFixa
   - documentatie-modulara
-sursa: '[[Vibratie Cosmica Fixa]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Fixa/01-VCF-Index|Vibratie Cosmica Fixa]]'
 ---
 
 # Vibratia Cosmica Fixa - Exemple

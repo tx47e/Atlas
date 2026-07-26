@@ -22,6 +22,3 @@ tags:
 
 - [[Septagrama/01-SPT-Index|Septagrama]]
 - [[Harta Suprapusa/01-HS-Index|Harta Suprapusa]]
-## Sursa pastrata
-
-- [[Ciclul de 7 Ani]]

@@ -7,7 +7,7 @@ tags:
   - index
   - DirectiileDeSucces
   - documentatie-modulara
-sursa: '[[Directiile de Succes]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Directiile de Succes/01-DS-Index|Directiile de Succes]]'
 ---
 
 # Direcțiile de Succes
@@ -21,4 +21,4 @@ sursa: '[[Directiile de Succes]]'
 
 ## Sursă legacy
 
-- [[Directiile de Succes]]
+- [[vault/Numerologie/Spirit si Karma/Ajutoare/Directiile de Succes/01-DS-Index|Directiile de Succes]]

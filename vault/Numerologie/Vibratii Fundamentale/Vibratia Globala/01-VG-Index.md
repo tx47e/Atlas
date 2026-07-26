@@ -17,7 +17,3 @@ tags:
 3. [[04-VG-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-VG-Exemple|Exemple]]
 5. `VG - Interpretari/` - director pregatit; interpretarile vor fi adaugate ulterior.
-
-## Sursa pastrata
-
-- [[Vibratie Globala]]

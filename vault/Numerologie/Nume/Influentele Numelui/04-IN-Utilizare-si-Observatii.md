@@ -6,14 +6,14 @@ tags:
   - metodica
   - InfluenteleNumelui
   - documentatie-modulara
-sursa: '[[Influentele Numelui]]'
+sursa: '[[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]]'
 ---
 
 # Influentele Numelui - Utilizare si observatii
 
 ## Utilizare in lucrare
 
-Conceptul [[Influentele Numelui]] se utilizeaza in capitolul dedicat numelui, dupa ce au fost calculate si interpretate numerele principale ale numelui si matricea numelui.
+Conceptul [[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]] se utilizeaza in capitolul dedicat numelui, dupa ce au fost calculate si interpretate numerele principale ale numelui si matricea numelui.
 
 In structura standard a lucrarii, acest concept intra in:
 

@@ -6,7 +6,7 @@ tags:
   - descriere
   - CaiiTrasuraVizitiul
   - documentatie-modulara
-sursa: '[[Caii Trasura si Vizitiul]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Caii Trasura si Vizitiul/01-CTV-Index|Caii Trasura si Vizitiul]]'
 ---
 
 # Caii, Trasura si Vizitiul - Descriere
@@ -14,7 +14,7 @@ sursa: '[[Caii Trasura si Vizitiul]]'
 ## Descriere
 
 Caii, trasura si vizitiul sunt o metafora de lucru pentru citirea celor trei
-vectori verticali din [[Matricea Datei de Nastere]].
+vectori verticali din [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]].
 
 Schema folosita:
 

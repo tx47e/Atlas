@@ -6,7 +6,7 @@ tags:
   - exemple
   - CurgereaEnergiei
   - documentatie-modulara
-sursa: '[[Curgerea Energiei]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Curgerea Energiei/01-CE-Index|Curgerea Energiei]]'
 ---
 
 # Curgerea Energiei - Exemple

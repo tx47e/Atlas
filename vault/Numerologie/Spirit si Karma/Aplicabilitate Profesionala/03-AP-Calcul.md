@@ -6,7 +6,7 @@ tags:
   - calcul
   - AplicabilitateProfesionala
   - documentatie-modulara
-sursa: '[[Aplicabilitate Profesionala]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Aplicabilitate Profesionala/01-AP-Index|Aplicabilitate Profesionala]]'
 ---
 
 # Aplicabilitate Profesionala - Calcul

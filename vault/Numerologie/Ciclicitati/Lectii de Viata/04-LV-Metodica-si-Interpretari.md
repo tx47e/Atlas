@@ -7,7 +7,7 @@ tags:
   - metodica-si-interpretari
   - LectiiDeViata
   - documentatie-modulara
-sursa: '[[Lectii de Viata]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]]'
 ---
 
 # Lectii de Viata - Metodica si interpretari

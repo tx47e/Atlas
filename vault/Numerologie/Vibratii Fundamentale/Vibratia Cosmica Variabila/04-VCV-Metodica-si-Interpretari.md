@@ -6,7 +6,7 @@ tags:
   - interpretare
   - VibratieCosmicaVariabila
   - documentatie-modulara
-sursa: '[[Vibratie Cosmica Variabila]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Variabila/01-VCV-Index|Vibratie Cosmica Variabila]]'
 ---
 
 # Vibratia Cosmica Variabila - Metodica si interpretari
@@ -69,9 +69,9 @@ sursa: '[[Vibratie Cosmica Variabila]]'
 
 ### 9. Comparația cu VCF și VCT
 
-- VCV se compară cu [[Vibratie Cosmica Fixa|VCF]].
+- VCV se compară cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Fixa/01-VCF-Index|VCF]].
 - Se urmărește raportul dintre componenta activă și fundalul stabil.
-- VCV se corelează apoi cu [[Vibratie Cosmica Totala|VCT]].
+- VCV se corelează apoi cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Totala/01-VCT-Index|VCT]].
 
 ### 10. Lista de control
 

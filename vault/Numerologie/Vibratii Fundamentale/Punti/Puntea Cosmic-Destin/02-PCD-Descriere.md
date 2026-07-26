@@ -6,7 +6,7 @@ tags:
   - descriere
   - PunteaCosmicDestin
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Cosmic - Destin - Descriere
@@ -14,7 +14,7 @@ sursa: '[[Punti]]'
 ## Descriere
 
 Puntea Cosmic - Destin compara
-[[Vibratie Cosmica Totala|Vibratia Cosmica Totala]] cu cifra suplimentara de
+[[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Totala/01-VCT-Index|Vibratia Cosmica Totala]] cu cifra suplimentara de
 interpretare a Destinului.
 
 Ea arata energia de legatura dintre planul cosmic total si directia de destin,

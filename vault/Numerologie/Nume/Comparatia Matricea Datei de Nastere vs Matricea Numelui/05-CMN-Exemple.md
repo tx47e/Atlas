@@ -6,7 +6,7 @@ tags:
   - exemple
   - ComparatieMatriceDataNume
   - documentatie-modulara
-sursa: '[[Matricea Numelui vs Matricea Datei de Nastere]]'
+sursa: '[[vault/Numerologie/Nume/Comparatia Matricea Datei de Nastere vs Matricea Numelui/01-CMN-Index|Matricea Numelui vs Matricea Datei de Nastere]]'
 ---
 
 # Comparatia Matricea Datei de Nastere vs Matricea Numelui - Exemple

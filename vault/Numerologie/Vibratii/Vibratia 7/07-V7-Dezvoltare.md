@@ -6,7 +6,7 @@ tags:
   - dezvoltare
   - Vibratia7
   - documentatie-modulara
-sursa: '[[Vibratia 7]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 7/01-V7-Index|Vibratia 7]]'
 ---
 
 # Vibratia 7 - Dezvoltare

@@ -6,7 +6,7 @@ tags:
   - metodica-si-interpretari
   - Tendinta
   - documentatie-modulara
-sursa: '[[Tendinta]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Tendinta/01-TD-Index|Tendinta]]'
 ---
 
 # Tendinta - Metodica si interpretari

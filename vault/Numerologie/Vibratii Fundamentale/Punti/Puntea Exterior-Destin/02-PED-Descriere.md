@@ -6,7 +6,7 @@ tags:
   - descriere
   - PunteaExteriorDestin
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Exterior - Destin - Descriere
@@ -14,7 +14,7 @@ sursa: '[[Punti]]'
 ## Descriere
 
 Puntea Exterior - Destin compara
-[[Vibratie Exterioara|Vibratia Exterioara]] cu cifra suplimentara de
+[[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibratia Exterioara]] cu cifra suplimentara de
 interpretare a Destinului.
 
 Ea arata energia de legatura dintre expresia exterioara si directia de destin,

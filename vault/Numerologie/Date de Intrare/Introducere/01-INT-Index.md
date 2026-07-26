@@ -7,7 +7,7 @@ tags:
   - introducere
   - index
   - documentatie-modulara
-sursa: '[[Introducere]]'
+sursa: '[[vault/Numerologie/Date de Intrare/Introducere/01-INT-Index|Introducere]]'
 ---
 
 # Introducere
@@ -20,4 +20,4 @@ sursa: '[[Introducere]]'
 
 ## Sursă legacy
 
-- [[Introducere]]
+- [[vault/Numerologie/Date de Intrare/Introducere/01-INT-Index|Introducere]]

@@ -6,7 +6,7 @@ tags:
   - interpretare
   - VibratieInterioara
   - documentatie-modulara
-sursa: '[[Vibratie Interioara]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]]'
 ---
 
 # Vibratia Interioara - Metodica si interpretari
@@ -124,7 +124,7 @@ compozițiile elementale ale zilelor de naștere.
 ### 10. Comparația dintre Vibrația Interioară și Vibrația Exterioară
 
 După calcularea separată a celor două vibrații, Vibrația Interioară se compară
-obligatoriu cu [[Vibratie Exterioara|Vibrația Exterioară]].
+obligatoriu cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibrația Exterioară]].
 
 - Se notează valoarea finală a Vibrației Interioare.
 - Se notează valoarea finală a Vibrației Exterioare.
@@ -139,7 +139,7 @@ obligatoriu cu [[Vibratie Exterioara|Vibrația Exterioară]].
 - Dacă valorile sunt diferite, diferența se consemnează fără a fi declarată
   automat conflict; sensul ei se stabilește ulterior prin interpretare.
 - Comparația interior-exterior se finalizează înaintea interpretării
-  [[Vibratie Globala|Vibrației Globale]].
+  [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibrației Globale]].
 
 ### 11. Ordinea citirii
 
@@ -158,9 +158,9 @@ Citirea se pregătește în următoarea ordine:
 ### 12. Delimitarea față de alte calcule
 
 - Vibrația Interioară se calculează din ziua nașterii.
-- Nu se confundă cu [[Numarul Intim]], care aparține calculelor numelui.
-- Corelarea cu [[Vibratie Exterioara|Vibrația Exterioară]],
-  [[Vibratie Globala|Vibrația Globală]] și celelalte componente se face numai
+- Nu se confundă cu [[vault/Numerologie/Nume/Numarul Intim/01-NI-Index|Numarul Intim]], care aparține calculelor numelui.
+- Corelarea cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibrația Exterioară]],
+  [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibrația Globală]] și celelalte componente se face numai
   după finalizarea citirii proprii a Vibrației Interioare.
 
 ### 13. Lista de control pentru redactare

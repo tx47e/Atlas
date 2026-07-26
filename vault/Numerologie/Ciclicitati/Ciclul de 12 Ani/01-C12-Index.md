@@ -17,7 +17,3 @@ tags:
 2. [[03-C12-Calcul|Calcul]]
 3. [[04-C12-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-C12-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Ciclul de 12 Ani]]

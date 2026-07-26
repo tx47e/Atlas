@@ -7,7 +7,7 @@ tags:
   - exemple
   - CiclulDe12Ani
   - documentatie-modulara
-sursa: '[[Ciclul de 12 Ani]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 12 Ani/01-C12-Index|Ciclul de 12 Ani]]'
 ---
 
 # Ciclul de 12 Ani - Exemple

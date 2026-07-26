@@ -6,7 +6,7 @@ tags:
   - calcul
   - PunteaExteriorDestin
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Exterior - Destin - Calcul
@@ -37,6 +37,6 @@ PED = |VE - 3|
 
 ## Statut
 
-Formula este documentata in [[Punti]] si este compatibila cu regula Destinului
+Formula este documentata in [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]] si este compatibila cu regula Destinului
 din [[Registru Validare Formule]]. Nu a fost identificata o implementare
 dedicata in calculatorul agregat in inventarul curent.

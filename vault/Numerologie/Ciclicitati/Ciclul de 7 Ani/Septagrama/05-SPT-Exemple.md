@@ -7,7 +7,7 @@ tags:
   - exemple
   - Septagrama
   - documentatie-modulara
-sursa: '[[Septagrama]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/Septagrama/01-SPT-Index|Septagrama]]'
 ---
 
 # Septagrama - Exemple
@@ -16,7 +16,7 @@ sursa: '[[Septagrama]]'
 
 Exemplu SVG pentru data `27.11.1973`:
 
-- fisier: [[septagrama-27-11-1973.svg]].
+- fisier: septagrama-27-11-1973.svg.
 
 Acest SVG se foloseste ca referinta vizuala principala pentru septagrama:
 

@@ -6,7 +6,7 @@ tags:
   - metodica-si-interpretari
   - NumarulDeExprimare
   - documentatie-modulara
-sursa: '[[Numarul de Exprimare]]'
+sursa: '[[vault/Numerologie/Nume/Numarul de Exprimare/01-NE-Index|Numarul de Exprimare]]'
 ---
 
 # Numarul de Exprimare - Metodica si interpretari
@@ -23,7 +23,7 @@ sursa: '[[Numarul de Exprimare]]'
 - Vibratia 8: putere, organizare, rezultate.
 - Vibratia 9: generozitate, intelepciune, perspectiva larga.
 
-Citirea se face in context cu [[Vibratia Destinului]]: daca sunt identice, numele sustine directia de viata; daca sunt diferite, se verifica paritatea si tensiunea dintre cele doua.
+Citirea se face in context cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]]: daca sunt identice, numele sustine directia de viata; daca sunt diferite, se verifica paritatea si tensiunea dintre cele doua.
 
 ---
 

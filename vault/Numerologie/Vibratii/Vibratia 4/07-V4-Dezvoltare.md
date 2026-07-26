@@ -6,7 +6,7 @@ tags:
   - dezvoltare
   - Vibratia4
   - documentatie-modulara
-sursa: '[[Vibratia 4]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 4/01-V4-Index|Vibratia 4]]'
 ---
 
 # Vibratia 4 - Dezvoltare

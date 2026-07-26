@@ -17,7 +17,3 @@ tags:
 3. [[04-VCT-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-VCT-Exemple|Exemple]]
 5. `VCT - Interpretari/` - director pregatit; interpretarile vor fi adaugate ulterior.
-
-## Sursa pastrata
-
-- [[Vibratie Cosmica Totala]]

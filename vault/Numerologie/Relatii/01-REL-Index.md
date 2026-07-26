@@ -22,4 +22,4 @@ persoane. Datele fiecărei persoane asociate sunt definite în
 
 ## Compatibilitate
 
-Nota [[Omuletul Relatiilor]] rămâne disponibilă ca sursă legacy.
+Nota [[vault/Numerologie/Relatii/Omuletul Relatiilor/01-OR-Index|Omuletul Relatiilor]] rămâne disponibilă ca sursă legacy.

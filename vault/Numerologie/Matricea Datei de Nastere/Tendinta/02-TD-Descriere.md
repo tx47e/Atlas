@@ -6,7 +6,7 @@ tags:
   - descriere
   - Tendinta
   - documentatie-modulara
-sursa: '[[Tendinta]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Tendinta/01-TD-Index|Tendinta]]'
 ---
 
 # Tendinta - Descriere

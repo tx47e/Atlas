@@ -7,7 +7,7 @@ tags:
   - metodica-si-interpretari
   - TriunghiulFinanciar
   - documentatie-modulara
-sursa: '[[Triunghiul Financiar]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Triunghiul Financiar/01-TF-Index|Triunghiul Financiar]]'
 ---
 
 # Triunghiul Financiar - Metodică și interpretări
@@ -31,5 +31,5 @@ scriu cu negru, in interiorul triunghiului, aproape de baza.
 
 ## Utilizare in lucrare
 
-Se foloseste in capitolul `Ajutoare`, impreuna cu [[Patratul de Aur]] si
+Se foloseste in capitolul `Ajutoare`, impreuna cu [[vault/Numerologie/Spirit si Karma/Ajutoare/Patratul de Aur/01-PA-Index|Patratul de Aur]] si
 celelalte instrumente de sustinere.

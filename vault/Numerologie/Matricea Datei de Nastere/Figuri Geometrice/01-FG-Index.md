@@ -16,7 +16,3 @@ tags:
 2. [[03-FG-Calcul|Calcul]]
 3. [[04-FG-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-FG-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Figuri Geometrice]]

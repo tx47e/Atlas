@@ -7,7 +7,7 @@ tags:
   - index
   - PatratulDeAur
   - documentatie-modulara
-sursa: '[[Patratul de Aur]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Patratul de Aur/01-PA-Index|Patratul de Aur]]'
 ---
 
 # Pătratul de Aur
@@ -21,4 +21,4 @@ sursa: '[[Patratul de Aur]]'
 
 ## Sursă legacy
 
-- [[Patratul de Aur]]
+- [[vault/Numerologie/Spirit si Karma/Ajutoare/Patratul de Aur/01-PA-Index|Patratul de Aur]]

@@ -18,10 +18,6 @@ tags:
 4. [[01-PED-Index|Puntea Exterior - Destin]]
 5. [[01-PCD-Index|Puntea Cosmic - Destin]]
 
-## Sursa pastrata
-
-- [[Punti]]
-
 ## Principiu
 
 Fiecare punte este documentata ca un concept distinct, in propriul director.

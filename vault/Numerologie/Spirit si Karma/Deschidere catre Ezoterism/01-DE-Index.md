@@ -16,7 +16,3 @@ tags:
 2. [[03-DE-Calcul|Calcul]]
 3. [[04-DE-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-DE-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Deschidere spre Ezoterism]]

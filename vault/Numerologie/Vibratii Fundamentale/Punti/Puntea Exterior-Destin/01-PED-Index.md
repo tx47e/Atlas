@@ -21,7 +21,3 @@ tags:
 ## Reguli comune
 
 - [[02-PU-Reguli-Comune|Reguli comune pentru punti]]
-
-## Sursa pastrata
-
-- [[Punti]]

@@ -16,7 +16,3 @@ tags:
 2. [[03-NER-Calcul|Calcul]]
 3. [[04-NER-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-NER-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Numarul Ereditar]]

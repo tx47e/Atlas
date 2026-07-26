@@ -16,7 +16,3 @@ tags:
 2. [[03-CE-Calcul|Calcul]]
 3. [[04-CE-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-CE-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Curgerea Energiei]]

@@ -17,7 +17,3 @@ tags:
 3. [[04-KZN-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-KZN-Exemple|Exemple]]
 5. [[01-KZNI-Index|Interpretari predefinite]]
-
-## Sursa pastrata
-
-- [[Karma din Ziua Nasterii]]

@@ -6,7 +6,7 @@ tags:
   - umbra
   - Vibratia11
   - documentatie-modulara
-sursa: '[[Vibratia 11]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 11/01-V11-Index|Vibratia 11]]'
 ---
 
 # Vibratia 11 - Umbra

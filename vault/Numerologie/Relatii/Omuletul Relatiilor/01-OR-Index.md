@@ -7,7 +7,7 @@ tags:
   - index
   - OmuletulRelatiilor
   - documentatie-modulara
-sursa: '[[Omuletul Relatiilor]]'
+sursa: '[[vault/Numerologie/Relatii/Omuletul Relatiilor/01-OR-Index|Omuletul Relatiilor]]'
 ---
 
 # Omulețul Relațiilor
@@ -21,4 +21,4 @@ sursa: '[[Omuletul Relatiilor]]'
 
 ## Sursă legacy
 
-- [[Omuletul Relatiilor]]
+- [[vault/Numerologie/Relatii/Omuletul Relatiilor/01-OR-Index|Omuletul Relatiilor]]

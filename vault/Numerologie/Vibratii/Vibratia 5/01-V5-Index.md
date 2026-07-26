@@ -20,7 +20,3 @@ tags:
 6. [[07-V5-Dezvoltare|Dezvoltare]]
 7. [[08-V5-Exemple|Exemple]]
 8. [[09-V5-Tarot|Tarot]]
-
-## Sursa pastrata
-
-- [[Vibratia 5]]

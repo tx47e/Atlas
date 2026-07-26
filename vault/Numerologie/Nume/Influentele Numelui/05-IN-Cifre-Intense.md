@@ -6,7 +6,7 @@ tags:
   - subconcept
   - InfluenteleNumelui
   - documentatie-modulara
-sursa: '[[Influentele Numelui]]'
+sursa: '[[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]]'
 ---
 
 # Cifre Intense - Concept
@@ -15,7 +15,7 @@ sursa: '[[Influentele Numelui]]'
 
 Cifra intensa este cifra care apare de mai multe ori in interiorul numelui. Ea arata o dorinta ascunsa, o pasiune calauzitoare sau o pasiune secreta care poate colora felul in care persoana isi traieste numele.
 
-Cand o cifra devine predominanta, ea poate influenta caracteristicile date de [[Numarul de Exprimare|cifra numelui complet]], de [[Numarul Intim|cifra vocalelor]] si de [[Numarul de Realizare|cifra consoanelor]]. Cu alte cuvinte, cifra intensa nu este un calcul separat care anuleaza celelalte rezultate, ci un accent interior care le poate orienta expresia.
+Cand o cifra devine predominanta, ea poate influenta caracteristicile date de [[vault/Numerologie/Nume/Numarul de Exprimare/01-NE-Index|cifra numelui complet]], de [[vault/Numerologie/Nume/Numarul Intim/01-NI-Index|cifra vocalelor]] si de [[vault/Numerologie/Nume/Numarul de Realizare/01-NR-Index|cifra consoanelor]]. Cu alte cuvinte, cifra intensa nu este un calcul separat care anuleaza celelalte rezultate, ci un accent interior care le poate orienta expresia.
 
 ### Prag de interpretare
 

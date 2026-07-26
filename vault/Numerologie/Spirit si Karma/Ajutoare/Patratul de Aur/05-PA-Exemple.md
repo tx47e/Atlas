@@ -7,7 +7,7 @@ tags:
   - exemple
   - PatratulDeAur
   - documentatie-modulara
-sursa: '[[Patratul de Aur]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Patratul de Aur/01-PA-Index|Patratul de Aur]]'
 ---
 
 # Pătratul de Aur - Exemple
@@ -57,7 +57,7 @@ Verificare:
 
 Exemplu desenat:
 
-- [[Patratul de Aur - 27 noiembrie 1973.svg]] - exemplu de referinta cu layout actualizat
+- Patratul de Aur - 27 noiembrie 1973.svg - exemplu de referinta cu layout actualizat
 - [[Patratul de Aur - 06 noiembrie 1984.svg]] - exemplu suplimentar cu layout actualizat
 
 In exemplul vizual, culorile elementelor sunt:

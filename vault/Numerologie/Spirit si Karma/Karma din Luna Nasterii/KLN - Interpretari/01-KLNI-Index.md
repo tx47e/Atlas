@@ -46,5 +46,5 @@ Interpretarile individuale nu sunt completate in aceasta etapa.
 
 ## Sursa conceptului
 
-- [[Karma din Luna Nasterii]]
+- [[vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/01-KLN-Index|Karma din Luna Nasterii]]
 - [[01-KLN-Index|Indexul modular Karma din Luna Nasterii]]

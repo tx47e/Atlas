@@ -6,7 +6,7 @@ tags:
   - interpretare
   - VibratieCosmicaTotala
   - documentatie-modulara
-sursa: '[[Vibratie Cosmica Totala]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Totala/01-VCT-Index|Vibratie Cosmica Totala]]'
 ---
 
 # Vibratia Cosmica Totala - Metodica si interpretari
@@ -71,16 +71,16 @@ sursa: '[[Vibratie Cosmica Totala]]'
 
 ### 9. Relația dintre VCF, VCV și VCT
 
-- Se păstrează separat [[Vibratie Cosmica Fixa|VCF]].
-- Se păstrează separat [[Vibratie Cosmica Variabila|VCV]].
+- Se păstrează separat [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Fixa/01-VCF-Index|VCF]].
+- Se păstrează separat [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Variabila/01-VCV-Index|VCV]].
 - Se compară fundalul stabil cu partea activă.
 - VCT se folosește ca sinteză, fără să anuleze VCF și VCV.
 
 ### 10. Corelarea cu VI, VE și VG
 
-- VCT se corelează cu [[Vibratie Interioara|VI]].
-- VCT se corelează cu [[Vibratie Exterioara|VE]].
-- VCT se compară cu [[Vibratie Globala|VG]] după finalizarea calculelor
+- VCT se corelează cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|VI]].
+- VCT se corelează cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|VE]].
+- VCT se compară cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|VG]] după finalizarea calculelor
   separate.
 - Egalitățile și diferențele se consemnează fără concluzii automate.
 

@@ -7,7 +7,7 @@ tags:
   - descriere
   - SoartaSiDestin
   - documentatie-modulara
-sursa: '[[Soarta si Destin]]'
+sursa: '[[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]]'
 ---
 
 # Soarta si Destin - Descriere

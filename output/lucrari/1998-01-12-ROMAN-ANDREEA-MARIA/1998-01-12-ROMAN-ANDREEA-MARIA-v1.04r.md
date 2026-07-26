@@ -380,7 +380,7 @@ Analiza relationala priveste legatura dintre **Roman Andreea Maria** si **Birsan
 
 Scopul acestei analize nu este sa dea un verdict despre relatie, ci sa arate cum poate fi inteleasa si construita mai matur. Urmarim felul in care se combina energiile celor doua date de nastere, ce potential de realizare apare impreuna, ce trebuie rezolvat in doi si ce obiceiuri relationale pot transforma atractia sau tensiunea in cooperare concreta.
 
-![Omuletul relatiilor pentru Birsan Daniel Robert si Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.png)
+![Omuletul relatiilor pentru Birsan Daniel Robert si Roman Andreea Maria](../1998-02-19-BIRSAN-DANIEL-ROBERT/omulet-relatii-birsan-daniel-robert-roman-andreea-maria.png)
 
 In interpretare, o cifra absenta nu inseamna lipsa de iubire, ci o zona care trebuie construita constient. O cifra puternica poate fi resursa, dar poate deveni presiune daca nu este traita matur.
 

@@ -515,7 +515,7 @@ _Pagini sursa: 20-89._
 
 ### Vibrația Interioară
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Interioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]].
 - Metoda de calcul: Vibrația Interioară: suma cifrelor componente din ziua de naștere = 2+7 = 9
 - Calcul: suma cifrelor componente din ziua de naștere = 2+7 = 9
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -523,7 +523,7 @@ _Pagini sursa: 20-89._
 
 ### Vibrația Interioară Karmă
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Karma din Ziua Nasterii]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Karma din Ziua Nasterii/01-KZN-Index|Karma din Ziua Nasterii]].
 - Metoda de calcul: Vibrația Interioară Karmă: ziua de naștere - 22 (dacă ziua > 22) = 27 - 22 = 5
 - Calcul: ziua de naștere - 22 (dacă ziua > 22) = 27 - 22 = 5
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -531,7 +531,7 @@ _Pagini sursa: 20-89._
 
 ### Vibrația Exterioară
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Exterioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibratie Exterioara]].
 - Metoda de calcul: Vibrația Exterioară: suma cifrelor componente a lunii de naștere = VE 11 = 1+1 = 2
 - Calcul: suma cifrelor componente a lunii de naștere = VE 11 = 1+1 = 2
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -539,7 +539,7 @@ _Pagini sursa: 20-89._
 
 ### Vibrația Exterioară Karmă
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Karma din Luna Nasterii]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/01-KLN-Index|Karma din Luna Nasterii]].
 - Metoda de calcul: Vibrația Exterioară Karmă: luna de naștere = 11
 - Calcul: luna de naștere = 11
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -547,7 +547,7 @@ _Pagini sursa: 20-89._
 
 ### Vibrația Globală
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Globala]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibratie Globala]].
 - Metoda de calcul: Vibrația Globală: reprezintă suma cifrelor componente dintre VI 9 + VE 2 = VG 11 = 1+1 = 2
 - Calcul: reprezintă suma cifrelor componente dintre VI 9 + VE 2 = VG 11 = 1+1 = 2
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -555,7 +555,7 @@ _Pagini sursa: 20-89._
 
 ### Puntea dintre Vibrația Interioară și Vibrația Exterioară
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Punti]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]].
 - Metoda de calcul: Puntea dintre Vibrația Interioară și Vibrația Exterioară: diferenta dintre VI - VE = 9 - 5 = 4
 - Calcul: diferenta dintre VI - VE = 9 - 5 = 4
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -563,7 +563,7 @@ _Pagini sursa: 20-89._
 
 ### Vibrația Cosmică Variabilă
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Cosmica Variabila]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Variabila/01-VCV-Index|Vibratie Cosmica Variabila]].
 - Metoda de calcul: Vibrația Cosmică Variabilă: reprezintă ultimele două cifre adunate din an = VCV 73 = 7 + 3 = 10 = 1
 - Calcul: reprezintă ultimele două cifre adunate din an = VCV 73 = 7 + 3 = 10 = 1
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -571,7 +571,7 @@ _Pagini sursa: 20-89._
 
 ### Vibrația Cosmică Totală
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Cosmica Totala]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Totala/01-VCT-Index|Vibratie Cosmica Totala]].
 - Metoda de calcul: Vibrația Cosmică Totală: reprezintă suma totală a anului = VCT 1973 = 1+9+7+3 = 2+0 = 2
 - Calcul: reprezintă suma totală a anului = VCT 1973 = 1+9+7+3 = 2+0 = 2
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -579,7 +579,7 @@ _Pagini sursa: 20-89._
 
 ### Calea Destinului
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: Calea Destinului: suma tuturor cifrelor din data de naștere: ziua+luna+anul = 2+7+1+1+1+9+7+3 = 31
 - Calcul: suma tuturor cifrelor din data de naștere: ziua+luna+anul = 2+7+1+1+1+9+7+3 = 31
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -587,7 +587,7 @@ _Pagini sursa: 20-89._
 
 ### Calea Destinului Karmă
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Karma din Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-Index|Karma din Calea Destinului]].
 - Metoda de calcul: Calea Destinului Karmă: CD -22 = 31-22 = 9
 - Calcul: CD -22 = 31-22 = 9
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -595,7 +595,7 @@ _Pagini sursa: 20-89._
 
 ### Destinul
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Destinul: suma cifrelor componente din calea destinului 3+1 = 4
 - Calcul: suma cifrelor componente din calea destinului 3+1 = 4
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -603,7 +603,7 @@ _Pagini sursa: 20-89._
 
 ### Puntea dintre Vibrația Interioară și Destin
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Punti]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]].
 - Metoda de calcul: Puntea dintre Vibrația Interioară și Destin: 9 - 4 = 5
 - Calcul: 9 - 4 = 5
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -611,7 +611,7 @@ _Pagini sursa: 20-89._
 
 ### Aspecte de Îndreptat
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Aspecte de Indreptat]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]].
 - Metoda de calcul: Aspecte de Îndreptat: 2 si 7
 - Calcul: Aspecte de Îndreptat: 2 si 7
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -619,7 +619,7 @@ _Pagini sursa: 20-89._
 
 ### Soluția Aspectelor de Îndreptat
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Aspecte de Indreptat]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]].
 - Metoda de calcul: Soluția Aspectelor de Îndreptat: 9
 - Calcul: Soluția Aspectelor de Îndreptat: 9
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -627,7 +627,7 @@ _Pagini sursa: 20-89._
 
 ### - Cifra Destinului - Cifra Vocalelor
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Influentele Numelui]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]].
 - Metoda de calcul: - Cifra Destinului - Cifra Vocalelor: 4 - 9 = 5
 - Calcul: 4 - 9 = 5
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -635,7 +635,7 @@ _Pagini sursa: 20-89._
 
 ### - Cifra Destinului - Cifra Consoanelor
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Influentele Numelui]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]].
 - Metoda de calcul: - Cifra Destinului - Cifra Consoanelor: 4 - 7 = 3
 - Calcul: 4 - 7 = 3
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -643,7 +643,7 @@ _Pagini sursa: 20-89._
 
 ### Calea destinului 31
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: Calea destinului 31 => începând cu 31 de ani, viața începe să aibă așteptări mai mari , iar ciclicitatea va avea
 - Calcul: Calea destinului 31 => începând cu 31 de ani, viața începe să aibă așteptări mai mari , iar ciclicitatea va avea
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -651,7 +651,7 @@ _Pagini sursa: 20-89._
 
 ### Ciclicitatea Lecțiilor de viață
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: Ciclicitatea Lecțiilor de viață: 27 x 11 x 1973 = 585981
 - Calcul: 27 x 11 x 1973 = 585981
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -659,7 +659,7 @@ _Pagini sursa: 20-89._
 
 ### Ciclicitatea de 7 ani
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 7 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]].
 - Metoda de calcul: Ciclicitatea de 7 ani:din punct de vedere fizic , în corpul omului au loc diferite transformări / schimbări din 7 în 7 ani
 - Calcul: Ciclicitatea de 7 ani:din punct de vedere fizic , în corpul omului au loc diferite transformări / schimbări din 7 în 7 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -667,7 +667,7 @@ _Pagini sursa: 20-89._
 
 ### Ciclicitatea de 9 ani
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: Ciclicitatea de 9 ani:modul de a gândi și de a lua hotărâri, de a găsi soluții, de a fixa lucrurile, puterea de a rezista prin viață, de
 - Calcul: Ciclicitatea de 9 ani:modul de a gândi și de a lua hotărâri, de a găsi soluții, de a fixa lucrurile, puterea de a rezista prin viață, de
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -675,7 +675,7 @@ _Pagini sursa: 20-89._
 
 ### Ciclicitatea de 12 ani
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 12 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 12 Ani/01-C12-Index|Ciclul de 12 Ani]].
 - Metoda de calcul: Ciclicitatea de 12 ani: Spiritualitate
 - Calcul: Ciclicitatea de 12 ani: Spiritualitate
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -691,7 +691,7 @@ _Pagini sursa: 20-89._
 
 ### * 36
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: * 36 = Numărul Omului; D = Destinul Ziua 9 Luna 2 An 2
 - Calcul: * 36 = Numărul Omului; D = Destinul Ziua 9 Luna 2 An 2
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -699,7 +699,7 @@ _Pagini sursa: 20-89._
 
 ### ● Pinaclul 1
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ● Pinaclul 1: 0 - 32 ani
 - Calcul: ● Pinaclul 1: 0 - 32 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -707,7 +707,7 @@ _Pagini sursa: 20-89._
 
 ### ● Pinaclul 2
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ● Pinaclul 2: 33 - 42 ani
 - Calcul: ● Pinaclul 2: 33 - 42 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -715,7 +715,7 @@ _Pagini sursa: 20-89._
 
 ### ● Pinaclul 3
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ● Pinaclul 3: 43 - 52 ani
 - Calcul: ● Pinaclul 3: 43 - 52 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -723,7 +723,7 @@ _Pagini sursa: 20-89._
 
 ### ● Pinaclul 4
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ● Pinaclul 4: 53 - sfârșit
 - Calcul: ● Pinaclul 4: 53 - sfârșit
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -731,10 +731,10 @@ _Pagini sursa: 20-89._
 
 ### Ciclicitatea de 10 sau 12 ani - Soartă și Destin
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Ciclicitatea de 10 sau 12 ani - Soartă și Destin: Bărbat - 10 ani
 - Calcul: Ciclicitatea de 10 sau 12 ani - Soartă și Destin: Bărbat - 10 ani
-- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in [[Soarta si Destin]].
+- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Verificare pagina: pagina 53.
 
 
@@ -746,23 +746,23 @@ _Pagini sursa: 20-89._
 
 ### Calea atingerii Potențialului
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Deschidere spre Ezoterism]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]].
 - Metoda de calcul: Calea atingerii Potențialului: Împărțim încă odată la 7 numărul întreg obținut anterior. Marcăm zecimala după
 - Calcul: Calea atingerii Potențialului: Împărțim încă odată la 7 numărul întreg obținut anterior. Marcăm zecimala după
-- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in [[Deschidere spre Ezoterism]].
+- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]].
 - Verificare pagina: pagina 76.
 
 ### Calea atingerii Potențialului 3873
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Deschidere spre Ezoterism]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]].
 - Metoda de calcul: Calea atingerii Potențialului 3873:7 = 553,28 Rezultat: 2 Terapiilor
 - Calcul: 7 = 553,28 Rezultat: 2 Terapiilor
-- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in [[Deschidere spre Ezoterism]].
+- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]].
 - Verificare pagina: pagina 76.
 
 ### (CM x 189) - 189
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: (CM x 189) - 189 = Vârsta Spiritului la naștere
 - Calcul: (CM x 189) - 189 = Vârsta Spiritului la naștere
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -770,7 +770,7 @@ _Pagini sursa: 20-89._
 
 ### Vârsta Spiritului la naștere + Vârsta în ani împliniți
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: Vârsta Spiritului la naștere + Vârsta în ani împliniți = Vârsta Spiritului in acel moment
 - Calcul: Vârsta Spiritului la naștere + Vârsta în ani împliniți = Vârsta Spiritului in acel moment
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -778,7 +778,7 @@ _Pagini sursa: 20-89._
 
 ### Vârsta Spiritului (6 x 189) - 189
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: Vârsta Spiritului (6 x 189) - 189 = 1134 - 189 = 945 + 52 ani (2025) = 997 ani
 - Calcul: Vârsta Spiritului (6 x 189) - 189 = 1134 - 189 = 945 + 52 ani (2025) = 997 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -786,7 +786,7 @@ _Pagini sursa: 20-89._
 
 ### Barbați
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Cosmica Variabila]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Variabila/01-VCV-Index|Vibratie Cosmica Variabila]].
 - Metoda de calcul: Barbați: 10 - Vibratia cosmică variabilă redusă la o cifră (din anul de naștere)
 - Calcul: Barbați: 10 - Vibratia cosmică variabilă redusă la o cifră (din anul de naștere)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -794,7 +794,7 @@ _Pagini sursa: 20-89._
 
 ### Femei
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Cosmica Variabila]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Variabila/01-VCV-Index|Vibratie Cosmica Variabila]].
 - Metoda de calcul: Femei: 5 + Vibratia cosmică variabilă redusă la o cifră (din anul de naștere)
 - Calcul: Femei: 5 + Vibratia cosmică variabilă redusă la o cifră (din anul de naștere)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -802,7 +802,7 @@ _Pagini sursa: 20-89._
 
 ### Triunghiul financiar
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Cod Numerologic Personal]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]].
 - Metoda de calcul: Triunghiul financiar: 9224
 - Calcul: Triunghiul financiar: 9224
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -810,7 +810,7 @@ _Pagini sursa: 20-89._
 
 ### Pătratul de Aur (Magic) 3x3 30+31+32
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Cod Numerologic Personal]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]].
 - Metoda de calcul: Pătratul de Aur (Magic) 3x3 30+31+32=93
 - Calcul: Pătratul de Aur (Magic) 3x3 30+31+32=93
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -818,7 +818,7 @@ _Pagini sursa: 20-89._
 
 ### Pătratul de aur conține numere care adunate pe fiecare rând, 34 27 32 34+27+32
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Cod Numerologic Personal]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]].
 - Metoda de calcul: Pătratul de aur conține numere care adunate pe fiecare rând, 34 27 32 34+27+32=93
 - Calcul: Pătratul de aur conține numere care adunate pe fiecare rând, 34 27 32 34+27+32=93
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -826,7 +826,7 @@ _Pagini sursa: 20-89._
 
 ### ● Elemente masculine
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Deschidere spre Ezoterism]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]].
 - Metoda de calcul: ● Elemente masculine: 11 (1111, 33, 777, 99) ● Calea ezoterică: 2 - Terapii
 - Calcul: ● Elemente masculine: 11 (1111, 33, 777, 99) ● Calea ezoterică: 2 - Terapii
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -834,7 +834,7 @@ _Pagini sursa: 20-89._
 
 ### ● Vibrația interioară
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Interioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]].
 - Metoda de calcul: ● Vibrația interioară: 27 = 2+7 = 9 K: 27-22 =5
 - Calcul: 27 = 2+7 = 9 K: 27-22 =5
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -842,7 +842,7 @@ _Pagini sursa: 20-89._
 
 ### ● Vibrația exterioară
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Exterioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibratie Exterioara]].
 - Metoda de calcul: ● Vibrația exterioară: 11 K: 11
 - Calcul: ● Vibrația exterioară: 11 K: 11
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -858,7 +858,7 @@ _Pagini sursa: 20-89._
 
 ### ● Soarta
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: ● Soarta: 2711x1973=5348803
 - Calcul: 2711x1973=5348803
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -866,7 +866,7 @@ _Pagini sursa: 20-89._
 
 ### ● Calea Destinului
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: ● Calea Destinului: 31
 - Calcul: ● Calea Destinului: 31
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -874,7 +874,7 @@ _Pagini sursa: 20-89._
 
 ### ● Vârsta spiritului
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: ● Vârsta spiritului: 945 de ani la naștere
 - Calcul: ● Vârsta spiritului: 945 de ani la naștere
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -882,7 +882,7 @@ _Pagini sursa: 20-89._
 
 ### ● Aspecte de îndreptat
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Aspecte de Indreptat]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]].
 - Metoda de calcul: ● Aspecte de îndreptat: 27 ● Zona de confort: 4,42
 - Calcul: ● Aspecte de îndreptat: 27 ● Zona de confort: 4,42
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -890,7 +890,7 @@ _Pagini sursa: 20-89._
 
 ### ● Soluția de indreptat
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ● Soluția de indreptat: 9 ● Pinacluri: 0-32, 33-42, 43-52, 53 - sfârșitul vieții
 - Calcul: ● Soluția de indreptat: 9 ● Pinacluri: 0-32, 33-42, 43-52, 53 - sfârșitul vieții
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -898,7 +898,7 @@ _Pagini sursa: 20-89._
 
 ### ● Vibrația Globală
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Globala]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibratie Globala]].
 - Metoda de calcul: ● Vibrația Globală: VI + VE = 27 + 11 = 9+2 = 11 = 2 ● Oportunități: O1= 2 (0-32) O2=2 (33-42)
 - Calcul: VI + VE = 27 + 11 = 9+2 = 11 = 2 ● Oportunități: O1= 2 (0-32) O2=2 (33-42)
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -906,7 +906,7 @@ _Pagini sursa: 20-89._
 
 ### ● Puntea VI - VE
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Punti]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]].
 - Metoda de calcul: ● Puntea VI - VE = 9 - 2 = 7 O3 = 4 (43-52) O4 = 4 (53-sf)
 - Calcul: ● Puntea VI - VE = 9 - 2 = 7 O3 = 4 (43-52) O4 = 4 (53-sf)
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -914,7 +914,7 @@ _Pagini sursa: 20-89._
 
 ### ● Puntea VI - D = 9 - 4 = 5 ● Provocări
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Punti]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]].
 - Metoda de calcul: ● Puntea VI - D = 9 - 4 = 5 ● Provocări: P1=7 (0-32) P2=7 (33-42) P3 = 0 (43-52) 27
 - Calcul: P1=7 (0-32) P2=7 (33-42) P3 = 0 (43-52) 27
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -922,7 +922,7 @@ _Pagini sursa: 20-89._
 
 ### ● Scara Bunăstării
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Scara Bunastarii]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]].
 - Metoda de calcul: ● Scara Bunăstării: 0 - C65,6,8; 4 - V.V (4, 05, 06) V.Soci (22, 05, 2068, 2075
 - Calcul: ● Scara Bunăstării: 0 - C65,6,8; 4 - V.V (4, 05, 06) V.Soci (22, 05, 2068, 2075
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -930,7 +930,7 @@ _Pagini sursa: 20-89._
 
 ### ● Ciclul de 9 ani
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: ● Ciclul de 9 ani: Ciclu: 6 ; An:7 , Lecția de viață:9.; Litera: O, 2019, 2026, 2033, 2040, 2047, 2054, 2061, 2068
 - Calcul: ● Ciclul de 9 ani: Ciclu: 6 ; An:7 , Lecția de viață:9.; Litera: O, 2019, 2026, 2033, 2040, 2047, 2054, 2061, 2068
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -938,7 +938,7 @@ _Pagini sursa: 20-89._
 
 ### V. Ext
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Punti]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]].
 - Metoda de calcul: V. Ext = 11 Puntea VI-D = 5 Pătrat Pitagora = 99 Nr. Activ = 3 Provocarea 1 = 7
 - Calcul: V. Ext = 11 Puntea VI-D = 5 Pătrat Pitagora = 99 Nr. Activ = 3 Provocarea 1 = 7
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -946,7 +946,7 @@ _Pagini sursa: 20-89._
 
 ### V. ext Karmică
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: V. ext Karmică =11 Lecții de viață = 585981 Nr intim =9 Soarta = 5348803 Provocarea 2 = 7
 - Calcul: V. ext Karmică =11 Lecții de viață = 585981 Nr intim =9 Soarta = 5348803 Provocarea 2 = 7
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -954,7 +954,7 @@ _Pagini sursa: 20-89._
 
 ### Vibrație Cosmică
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Vibrație Cosmică = 1 Soarta = 5348803 Nr karmic Neam =9 Destin = 5348803 Asp de Indreptat = 27
 - Calcul: Vibrație Cosmică = 1 Soarta = 5348803 Nr karmic Neam =9 Destin = 5348803 Asp de Indreptat = 27
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -962,7 +962,7 @@ _Pagini sursa: 20-89._
 
 ### Calea Destinului
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Punti]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]].
 - Metoda de calcul: Calea Destinului = 31 Destin = 5348803 Aplicabilitate Da= 9 Calea Destinului = 31 Puntea VI-VE = 7
 - Calcul: Calea Destinului = 31 Destin = 5348803 Aplicabilitate Da= 9 Calea Destinului = 31 Puntea VI-VE = 7
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -970,7 +970,7 @@ _Pagini sursa: 20-89._
 
 ### V. ext
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: V. ext = 2 Cod matriceal CM = 6 Destin = 4 Soarta = 5348803 Provocarea 4 = 0
 - Calcul: V. ext = 2 Cod matriceal CM = 6 Destin = 4 Soarta = 5348803 Provocarea 4 = 0
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -978,7 +978,7 @@ _Pagini sursa: 20-89._
 
 ### Vibrația Globală
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Globala]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibratie Globala]].
 - Metoda de calcul: Vibrația Globală = 2 Nr Ereditar = 4 Destin = 5348803 Soarta = 5348803
 - Calcul: Vibrația Globală = 2 Nr Ereditar = 4 Destin = 5348803 Soarta = 5348803
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -986,7 +986,7 @@ _Pagini sursa: 20-89._
 
 ### Zona de comfort
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Zona de comfort = 4,42 Soarta = 5348803 Destin = 5348803
 - Calcul: Zona de comfort = 4,42 Soarta = 5348803 Destin = 5348803
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -994,7 +994,7 @@ _Pagini sursa: 20-89._
 
 ### Calea Ezoterică
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Deschidere spre Ezoterism]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]].
 - Metoda de calcul: Calea Ezoterică = 2 Oportunitatea 4 =4
 - Calcul: Calea Ezoterică = 2 Oportunitatea 4 =4
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -1002,7 +1002,7 @@ _Pagini sursa: 20-89._
 
 ### Aspecte de indreptat
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Aspecte de Indreptat]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]].
 - Metoda de calcul: Aspecte de indreptat = 27
 - Calcul: Aspecte de indreptat = 27
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -1010,7 +1010,7 @@ _Pagini sursa: 20-89._
 
 ### Ciclul de 9 ani
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: Ciclul de 9 ani: 585981
 - Calcul: Ciclul de 9 ani: 585981
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -3131,7 +3131,7 @@ _Pagini sursa: 90-203._
 
 ### Vibrația interioară 9/27 este susținută prin 99, 22 și 777
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Interioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]].
 - Metoda de calcul: Vibrația interioară 9/27 este susținută prin 99, 22 și 777: multă energie pe 9 și
 - Calcul: Vibrația interioară 9/27 este susținută prin 99, 22 și 777: multă energie pe 9 și
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -3139,7 +3139,7 @@ _Pagini sursa: 90-203._
 
 ### Persoana analizată are un caracter de Foc orientat spre sens
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Interioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]].
 - Metoda de calcul: Persoana analizată are un caracter de Foc orientat spre sens: vibrația interioară 9/27 (comunicarea
 - Calcul: Persoana analizată are un caracter de Foc orientat spre sens: vibrația interioară 9/27 (comunicarea
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -3147,7 +3147,7 @@ _Pagini sursa: 90-203._
 
 ### Zi + Luna + An sau (Calea destinului) - 22
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: Zi + Luna + An sau (Calea destinului) - 22: 2+7+1+1+1+9+7+3 = 31 - 22 = 9
 - Calcul: 2+7+1+1+1+9+7+3 = 31 - 22 = 9
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -3155,7 +3155,7 @@ _Pagini sursa: 90-203._
 
 ### Rezultat
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Deschidere spre Ezoterism]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]].
 - Metoda de calcul: Rezultat: 2 Calea ezoterică 2 este cea a Terapiilor complementare.
 - Calcul: Rezultat: 2 Calea ezoterică 2 este cea a Terapiilor complementare.
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -3163,7 +3163,7 @@ _Pagini sursa: 90-203._
 
 ### ZZLL x AAAA = XXXXXXX 2711 x 1973 = 5348803 SOARTA
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: ZZLL x AAAA = XXXXXXX 2711 x 1973 = 5348803 SOARTA: 5348803
 - Calcul: 5348803
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -3171,15 +3171,15 @@ _Pagini sursa: 90-203._
 
 ### Pinaclul 1 se află după formula
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: Pinaclul 1 se află după formula: 36 minus cifra destinului: 36* - VD (4) 0 - 32 ani
 - Calcul: Pinaclul 1 se află după formula: 36 minus cifra destinului: 36* - VD (4) 0 - 32 ani
-- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in tabelul cu pinacluri din [[Pinacluri - Oportunitati si Provocari]].
+- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in tabelul cu pinacluri din [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Verificare pagina: pagina 150.
 
 ### Durata tuturor întrupărilor spiritului
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: Durata tuturor întrupărilor spiritului = 9072 ani + 756 ani = 9828 ani* 9 vibrația pitagoreică a acestor numere
 - Calcul: Durata tuturor întrupărilor spiritului = 9072 ani + 756 ani = 9828 ani* 9 vibrația pitagoreică a acestor numere
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -3187,7 +3187,7 @@ _Pagini sursa: 90-203._
 
 ### este
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: este: (CM x 189) - 189 + Vârsta în ani împliniți = vârsta spiritului 9828 ani : 52 = 189 ani
 - Calcul: (CM x 189) - 189 + Vârsta în ani împliniți = vârsta spiritului 9828 ani : 52 = 189 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -3203,7 +3203,7 @@ _Pagini sursa: 90-203._
 
 ### (CM x 189) - 189 + Vârsta în ani împliniți = vârsta spiritului 9828 ani*
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: (CM x 189) - 189 + Vârsta în ani împliniți = vârsta spiritului 9828 ani* : 52 = 189 ani
 - Calcul: 52 = 189 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -3211,7 +3211,7 @@ _Pagini sursa: 90-203._
 
 ### CM
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: CM = COD = se ia din tabelul de mai jos (conform graficului Etapelor Spiritului), fiind intersecția zilei cu cea a
 - Calcul: CM = COD = se ia din tabelul de mai jos (conform graficului Etapelor Spiritului), fiind intersecția zilei cu cea a
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -3219,7 +3219,7 @@ _Pagini sursa: 90-203._
 
 ### CM
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: CM = COD = (conform graficului Etapelor Spiritului) fiind intersecția zilei 27 cu cea a lunii XI = 6
 - Calcul: CM = COD = (conform graficului Etapelor Spiritului) fiind intersecția zilei 27 cu cea a lunii XI = 6
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -3235,7 +3235,7 @@ _Pagini sursa: 90-203._
 
 ### - cifra destinului şi cea a vocalelor
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: - cifra destinului şi cea a vocalelor: 4 (par) - 9 (impar) = 5 (impar)
 - Calcul: 4 (par) - 9 (impar) = 5 (impar)
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -3243,7 +3243,7 @@ _Pagini sursa: 90-203._
 
 ### - cifra destinului și cea a consoanelor
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: - cifra destinului și cea a consoanelor: 4 (par) - 7 (impar) = 3 (impar)
 - Calcul: 4 (par) - 7 (impar) = 3 (impar)
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6010,7 +6010,7 @@ _Pagini sursa: 204-265._
 
 ### ● 4.8. Ultimele două numere operaționale
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Aspecte de Indreptat]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Aspecte de Indreptat/01-AI-Index|Aspecte de Indreptat]].
 - Metoda de calcul: ● 4.8. Ultimele două numere operaționale: Aspecte de îndreptat
 - Calcul: ● 4.8. Ultimele două numere operaționale: Aspecte de îndreptat
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6018,7 +6018,7 @@ _Pagini sursa: 204-265._
 
 ### Vibrația Exterioară este reprezentată de luna de naștere - Noiembrie
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Exterioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibratie Exterioara]].
 - Metoda de calcul: Vibrația Exterioară este reprezentată de luna de naștere - Noiembrie: 2 (11)
 - Calcul: Vibrația Exterioară este reprezentată de luna de naștere - Noiembrie: 2 (11)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6034,7 +6034,7 @@ _Pagini sursa: 204-265._
 
 ### ZIUA + LUNA
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Globala]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibratie Globala]].
 - Metoda de calcul: ZIUA + LUNA = VIBRAȚIA GLOBALĂ
 - Calcul: ZIUA + LUNA = VIBRAȚIA GLOBALĂ
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6050,7 +6050,7 @@ _Pagini sursa: 204-265._
 
 ### Puntea (VI - VD)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Punti]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]].
 - Metoda de calcul: Puntea (VI - VD) = VI - VD Puntea (VI-VD) = 9 - 4 = 5
 - Calcul: Puntea (VI - VD) = VI - VD Puntea (VI-VD) = 9 - 4 = 5
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6058,7 +6058,7 @@ _Pagini sursa: 204-265._
 
 ### ZIUA (Z+Z) + LUNA (L+L) + ANUL (A+A+A+A)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: ZIUA (Z+Z) + LUNA (L+L) + ANUL (A+A+A+A) = 2+7+1+1+1+9+7+3 = 31 = Calea Destinului
 - Calcul: ZIUA (Z+Z) + LUNA (L+L) + ANUL (A+A+A+A) = 2+7+1+1+1+9+7+3 = 31 = Calea Destinului
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6066,7 +6066,7 @@ _Pagini sursa: 204-265._
 
 ### talentelor proprii, astfel încât să ajungă la Destinul 4
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: talentelor proprii, astfel încât să ajungă la Destinul 4: structură, metodă, disciplină și construirea de proiecte
 - Calcul: talentelor proprii, astfel încât să ajungă la Destinul 4: structură, metodă, disciplină și construirea de proiecte
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6074,7 +6074,7 @@ _Pagini sursa: 204-265._
 
 ### Exista 5 categorii de căi ale destinului
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Exista 5 categorii de căi ale destinului:
 - Calcul: Exista 5 categorii de căi ale destinului:
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6090,7 +6090,7 @@ _Pagini sursa: 204-265._
 
 ### Calea destinului minus 2 x prima cifră din ziua de naștere
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: Calea destinului minus 2 x prima cifră din ziua de naștere: 31- 2 x 2 = 27
 - Calcul: 31- 2 x 2 = 27
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6098,7 +6098,7 @@ _Pagini sursa: 204-265._
 
 ### Calea destinului minus 2 x prima cifră din ziua de naștere) redusă la o singură cifră
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: Calea destinului minus 2 x prima cifră din ziua de naștere) redusă la o singură cifră: 2 + 7 = 9
 - Calcul: 2 + 7 = 9
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6122,7 +6122,7 @@ _Pagini sursa: 204-265._
 
 ### Ciclicitatea Lecțiilor de viață
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: Ciclicitatea Lecțiilor de viață: 27 x 11 x 1973 = 585981
 - Calcul: 27 x 11 x 1973 = 585981
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6130,7 +6130,7 @@ _Pagini sursa: 204-265._
 
 ### ▪ Primul Pinaclu se află după formula
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: ▪ Primul Pinaclu se află după formula: 36 minus cifra destinului 36 - 4 = 0 - 32 ani
 - Calcul: 36 minus cifra destinului 36 - 4 = 0 - 32 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6138,7 +6138,7 @@ _Pagini sursa: 204-265._
 
 ### ▪ Al doilea Pinaclu se află adunând 9 ani, de la următorul an (+9) 33 + 9
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ▪ Al doilea Pinaclu se află adunând 9 ani, de la următorul an (+9) 33 + 9 = 33 - 42 ani
 - Calcul: ▪ Al doilea Pinaclu se află adunând 9 ani, de la următorul an (+9) 33 + 9 = 33 - 42 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6146,7 +6146,7 @@ _Pagini sursa: 204-265._
 
 ### ▪ Al treilea pinaclu se afla adunând încă 9 ani, de la următorul an (+9) 43 + 9
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ▪ Al treilea pinaclu se afla adunând încă 9 ani, de la următorul an (+9) 43 + 9 = 43 - 52 ani
 - Calcul: ▪ Al treilea pinaclu se afla adunând încă 9 ani, de la următorul an (+9) 43 + 9 = 43 - 52 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6154,7 +6154,7 @@ _Pagini sursa: 204-265._
 
 ### * 36
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: * 36 = Numărul Omului; D = Destinul Ziua 9 Luna 2 An 2
 - Calcul: * 36 = Numărul Omului; D = Destinul Ziua 9 Luna 2 An 2
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6162,7 +6162,7 @@ _Pagini sursa: 204-265._
 
 ### ● Pinaclul 1
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ● Pinaclul 1: 0 - 32 ani
 - Calcul: ● Pinaclul 1: 0 - 32 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6170,7 +6170,7 @@ _Pagini sursa: 204-265._
 
 ### ● Pinaclul 2
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ● Pinaclul 2: 33 - 42 ani
 - Calcul: ● Pinaclul 2: 33 - 42 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6178,7 +6178,7 @@ _Pagini sursa: 204-265._
 
 ### ● Pinaclul 3
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ● Pinaclul 3: 43 - 52 ani
 - Calcul: ● Pinaclul 3: 43 - 52 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6186,7 +6186,7 @@ _Pagini sursa: 204-265._
 
 ### ● Pinaclul 4
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ● Pinaclul 4: 53 - sfârșit
 - Calcul: ● Pinaclul 4: 53 - sfârșit
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6194,7 +6194,7 @@ _Pagini sursa: 204-265._
 
 ### Rezultat
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Deschidere spre Ezoterism]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]].
 - Metoda de calcul: Rezultat: 2 Calea ezoterică 2 este cea a Terapiilor complementare.
 - Calcul: Rezultat: 2 Calea ezoterică 2 este cea a Terapiilor complementare.
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6202,7 +6202,7 @@ _Pagini sursa: 204-265._
 
 ### (CM x 189) - 189
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: (CM x 189) - 189 = Vârsta Spiritului la naștere
 - Calcul: (CM x 189) - 189 = Vârsta Spiritului la naștere
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6210,7 +6210,7 @@ _Pagini sursa: 204-265._
 
 ### Vârsta Spiritului (6 x 189) - 189
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: Vârsta Spiritului (6 x 189) - 189 = 1134 - 189 = 945 ani + 52 ani (2025) = 997 de ani
 - Calcul: Vârsta Spiritului (6 x 189) - 189 = 1134 - 189 = 945 ani + 52 ani (2025) = 997 de ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6218,7 +6218,7 @@ _Pagini sursa: 204-265._
 
 ### ZZLL x AAAA
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: ZZLL x AAAA = XXXXXXX SOARTA 2711 x 1973 = 5348803
 - Calcul: ZZLL x AAAA = XXXXXXX SOARTA 2711 x 1973 = 5348803
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6226,10 +6226,10 @@ _Pagini sursa: 204-265._
 
 ### Ciclicitatea de 10 sau 12 ani - Soartă și Destin
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Ciclicitatea de 10 sau 12 ani - Soartă și Destin: Bărbat - 10 ani
 - Calcul: Ciclicitatea de 10 sau 12 ani - Soartă și Destin: Bărbat - 10 ani
-- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in [[Soarta si Destin]].
+- Verificare: ok - concept verificat in VAULT/Numerologie; formula/metoda se verifica in [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Verificare pagina: pagina 248.
 
 ### 8 - 6 Pas 1
@@ -6250,7 +6250,7 @@ _Pagini sursa: 204-265._
 
 ### Persoana cu Vibrația Exterioară 2 joacă rolul SAMARITEANULUI în plan social
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Exterioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibratie Exterioara]].
 - Metoda de calcul: Persoana cu Vibrația Exterioară 2 joacă rolul SAMARITEANULUI în plan social: „Sunt pentru tine”. De
 - Calcul: Persoana cu Vibrația Exterioară 2 joacă rolul SAMARITEANULUI în plan social: „Sunt pentru tine”. De
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6266,7 +6266,7 @@ _Pagini sursa: 204-265._
 
 ### conduce – și fără 1− – fără impulsivitate, autoritarism, izolare orgolioasă. Astfel, ajunge natural la Destinul 4
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: conduce – și fără 1− – fără impulsivitate, autoritarism, izolare orgolioasă. Astfel, ajunge natural la Destinul 4:
 - Calcul: conduce – și fără 1− – fără impulsivitate, autoritarism, izolare orgolioasă. Astfel, ajunge natural la Destinul 4:
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6274,7 +6274,7 @@ _Pagini sursa: 204-265._
 
 ### Calea Destinului Karmică 31 (4) indică o lecție de singurătate activă și discernământ
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Karma din Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-Index|Karma din Calea Destinului]].
 - Metoda de calcul: Calea Destinului Karmică 31 (4) indică o lecție de singurătate activă și discernământ: perioade în care
 - Calcul: Calea Destinului Karmică 31 (4) indică o lecție de singurătate activă și discernământ: perioade în care
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6282,7 +6282,7 @@ _Pagini sursa: 204-265._
 
 ### vine cu memorie de
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Interioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]].
 - Metoda de calcul: vine cu memorie de: carismă și interpretare de roluri plus vibrația interioară 9 care are aceste caracteristici de
 - Calcul: vine cu memorie de: carismă și interpretare de roluri plus vibrația interioară 9 care are aceste caracteristici de
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6290,7 +6290,7 @@ _Pagini sursa: 204-265._
 
 ### acțiune, leadership, deschidere de drumuri, astfel încât Destinul 4 se configurează ca structură
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: acțiune, leadership, deschidere de drumuri, astfel încât Destinul 4 se configurează ca structură:
 - Calcul: acțiune, leadership, deschidere de drumuri, astfel încât Destinul 4 se configurează ca structură:
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6306,7 +6306,7 @@ _Pagini sursa: 204-265._
 
 ### Vibrația globală (9 + 2 = 11 → 2) arată tipul de presiuni pe care viața i le așază pe umeri
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Globala]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibratie Globala]].
 - Metoda de calcul: Vibrația globală (9 + 2 = 11 → 2) arată tipul de presiuni pe care viața i le așază pe umeri: parteneriate, alianțe,
 - Calcul: parteneriate, alianțe,
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6314,7 +6314,7 @@ _Pagini sursa: 204-265._
 
 ### Între VI 9 și Destin 4 rezultă Puntea 5 – lecția lui „altfel”
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Punti]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]].
 - Metoda de calcul: Între VI 9 și Destin 4 rezultă Puntea 5 – lecția lui „altfel”: mobilitate, curaj, scenă, a ieși din tipar. Ca 9 să
 - Calcul: Între VI 9 și Destin 4 rezultă Puntea 5 – lecția lui „altfel”: mobilitate, curaj, scenă, a ieși din tipar. Ca 9 să
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6322,7 +6322,7 @@ _Pagini sursa: 204-265._
 
 ### prindă oportunitățile, să îndrăznească să lanseze. Aici se conectează și Calea destinului 31
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: prindă oportunitățile, să îndrăznească să lanseze. Aici se conectează și Calea destinului 31: CE = 3 (mesaj,
 - Calcul: CE = 3 (mesaj,
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -6338,7 +6338,7 @@ _Pagini sursa: 204-265._
 
 ### Scara bunăstării îl așază pe o coloană clară
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Scara Bunastarii]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]].
 - Metoda de calcul: Scara bunăstării îl așază pe o coloană clară: la bază are căsuțe conservate pe 5-6-8, deci învață încrederea,
 - Calcul: Scara bunăstării îl așază pe o coloană clară: la bază are căsuțe conservate pe 5-6-8, deci învață încrederea,
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6346,7 +6346,7 @@ _Pagini sursa: 204-265._
 
 ### Aici îl ajută lecțiile de viață ciclice
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: Aici îl ajută lecțiile de viață ciclice: 5 (altfel, mobilitate, strălucire fără autodistrugere), 8 (putere și
 - Calcul: Aici îl ajută lecțiile de viață ciclice: 5 (altfel, mobilitate, strălucire fără autodistrugere), 8 (putere și
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -6354,7 +6354,7 @@ _Pagini sursa: 204-265._
 
 ### destinului, 4 destin – vedem transformarea firească a lui Sharlto Copley
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: destinului, 4 destin – vedem transformarea firească a lui Sharlto Copley: dintr-un 9 idealist, predispus la solitudine
 - Calcul: destinului, 4 destin – vedem transformarea firească a lui Sharlto Copley: dintr-un 9 idealist, predispus la solitudine
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -7837,7 +7837,7 @@ _Pagini sursa: 266-293._
 
 ### ZIUA + LUNA + ANUL
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: ZIUA + LUNA + ANUL = 2+7+1+1+1+9+7+3= 31 3 + 1 = 4 Vibratia DESTINULUI = 4
 - Calcul: ZIUA + LUNA + ANUL = 2+7+1+1+1+9+7+3= 31 3 + 1 = 4 Vibratia DESTINULUI = 4
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7845,7 +7845,7 @@ _Pagini sursa: 266-293._
 
 ### VIBRAȚIA DESTINULUI
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: VIBRAȚIA DESTINULUI = ZIUA + LUNA + ANUL
 - Calcul: VIBRAȚIA DESTINULUI = ZIUA + LUNA + ANUL
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7853,7 +7853,7 @@ _Pagini sursa: 266-293._
 
 ### Vibrația destinului
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Vibrația destinului = VOCAȚIA, Menirea Vasului, Apogeul, Potențialitatea maximă,
 - Calcul: Vibrația destinului = VOCAȚIA, Menirea Vasului, Apogeul, Potențialitatea maximă,
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7861,7 +7861,7 @@ _Pagini sursa: 266-293._
 
 ### ▪ Primul Pinaclu se află după formula
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: ▪ Primul Pinaclu se află după formula: 36 minus cifra destinului 36 - 4 = 32 ani
 - Calcul: 36 minus cifra destinului 36 - 4 = 32 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7869,7 +7869,7 @@ _Pagini sursa: 266-293._
 
 ### ▪ Al doilea Pinaclu se află adunând 9 ani, de la următorul an (+9) 33 + 9
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ▪ Al doilea Pinaclu se află adunând 9 ani, de la următorul an (+9) 33 + 9 = 42 ani
 - Calcul: ▪ Al doilea Pinaclu se află adunând 9 ani, de la următorul an (+9) 33 + 9 = 42 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7877,7 +7877,7 @@ _Pagini sursa: 266-293._
 
 ### ▪ Al treilea pinaclu se afla adunând încă 9 ani, de la următorul an (+9) 43 + 9
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: ▪ Al treilea pinaclu se afla adunând încă 9 ani, de la următorul an (+9) 43 + 9 = 52 ani
 - Calcul: ▪ Al treilea pinaclu se afla adunând încă 9 ani, de la următorul an (+9) 43 + 9 = 52 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7885,7 +7885,7 @@ _Pagini sursa: 266-293._
 
 ### PINACLU 3 (43- 52 ani)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: PINACLU 3 (43- 52 ani): O1 + O2 = 11+11 = 22 = 2+2=4 O3 = 4
 - Calcul: O1 + O2 = 11+11 = 22 = 2+2=4 O3 = 4
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7893,7 +7893,7 @@ _Pagini sursa: 266-293._
 
 ### PINACLU 3 (43- 52 ani)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: PINACLU 3 (43- 52 ani): P1 - P2 = 4 - 4 P3 = 0
 - Calcul: P1 - P2 = 4 - 4 P3 = 0
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7901,7 +7901,7 @@ _Pagini sursa: 266-293._
 
 ### Calea destinului minus 2 x prima cifră din ziua de naștere
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: Calea destinului minus 2 x prima cifră din ziua de naștere: 31- 2 x 2 = 27
 - Calcul: 31- 2 x 2 = 27
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7909,7 +7909,7 @@ _Pagini sursa: 266-293._
 
 ### Calea destinului minus 2 x prima cifră din ziua de naștere, redusă la o singură cifră
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: Calea destinului minus 2 x prima cifră din ziua de naștere, redusă la o singură cifră: 2 + 7 = 9
 - Calcul: 2 + 7 = 9
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7917,7 +7917,7 @@ _Pagini sursa: 266-293._
 
 ### Vârsta Spiritului (6 x 189) - 189
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: Vârsta Spiritului (6 x 189) - 189 = 1134 - 189 = 945 ani + 51 ani = 996 ani
 - Calcul: Vârsta Spiritului (6 x 189) - 189 = 1134 - 189 = 945 ani + 51 ani = 996 ani
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7925,7 +7925,7 @@ _Pagini sursa: 266-293._
 
 ### Rezultat
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Deschidere spre Ezoterism]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Deschidere catre Ezoterism/01-DE-Index|Deschidere spre Ezoterism]].
 - Metoda de calcul: Rezultat: 2 Calea ezoterică 2 este cea a Terapiilor complementare.
 - Calcul: Rezultat: 2 Calea ezoterică 2 este cea a Terapiilor complementare.
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -7933,7 +7933,7 @@ _Pagini sursa: 266-293._
 
 ### Cifra Destinului - Cifra Vocalelor
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Influentele Numelui]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]].
 - Metoda de calcul: Cifra Destinului - Cifra Vocalelor: 4 - 9 = 5
 - Calcul: 4 - 9 = 5
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7941,7 +7941,7 @@ _Pagini sursa: 266-293._
 
 ### Cifra Destinului - Cifra Consoanelor
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Influentele Numelui]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Nume/Influentele Numelui/01-IN-Index|Influentele Numelui]].
 - Metoda de calcul: Cifra Destinului - Cifra Consoanelor: 4 - 7 = 3
 - Calcul: 4 - 7 = 3
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7949,7 +7949,7 @@ _Pagini sursa: 266-293._
 
 ### Vibrația DESTINULUI, obținută prin însumarea cifrelor din data nașterii (2+7+1+1+1+9+7+3
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Vibrația DESTINULUI, obținută prin însumarea cifrelor din data nașterii (2+7+1+1+1+9+7+3 = 31 → 4), arată
 - Calcul: Vibrația DESTINULUI, obținută prin însumarea cifrelor din data nașterii (2+7+1+1+1+9+7+3 = 31 → 4), arată
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -7957,7 +7957,7 @@ _Pagini sursa: 266-293._
 
 ### Calea Destinului ne arată CE are de împlinit omul și CUM merită să-și împlinească Destinul
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: Calea Destinului ne arată CE are de împlinit omul și CUM merită să-și împlinească Destinul: 31 → 3/1. CE (3)
 - Calcul: Calea Destinului ne arată CE are de împlinit omul și CUM merită să-și împlinească Destinul: 31 → 3/1. CE (3)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -7965,7 +7965,7 @@ _Pagini sursa: 266-293._
 
 ### naște firesc 4
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: naște firesc 4: structură, plan, execuție, rezultate durabile. Așa se configurează destinul: nu prin acumulări
 - Calcul: naște firesc 4: structură, plan, execuție, rezultate durabile. Așa se configurează destinul: nu prin acumulări
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -7989,7 +7989,7 @@ _Pagini sursa: 266-293._
 
 ### sens (9). În acest tablou, Destinul 4 nu îngustează orizontul; îl ancorează
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: sens (9). În acest tablou, Destinul 4 nu îngustează orizontul; îl ancorează: transformă idealurile în structuri,
 - Calcul: sens (9). În acest tablou, Destinul 4 nu îngustează orizontul; îl ancorează: transformă idealurile în structuri,
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -7997,7 +7997,7 @@ _Pagini sursa: 266-293._
 
 ### Concluzia Destinului
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Concluzia Destinului: altruismul și înțelepciunea lui 9 se materializează social prin 2 (diplomație, parteneriat,
 - Calcul: Concluzia Destinului: altruismul și înțelepciunea lui 9 se materializează social prin 2 (diplomație, parteneriat,
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8005,7 +8005,7 @@ _Pagini sursa: 266-293._
 
 ### Conform întregii analize (VI
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Scara Bunastarii]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]].
 - Metoda de calcul: Conform întregii analize (VI=9, VE=2, Calea 31→4, Pinacluri și Scara Bunăstării), după 31 de ani începe
 - Calcul: Conform întregii analize (VI=9, VE=2, Calea 31→4, Pinacluri și Scara Bunăstării), după 31 de ani începe
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -8013,7 +8013,7 @@ _Pagini sursa: 266-293._
 
 ### între 33–42 de ani (ordine, metodă, planificare, rezultate concrete) și o maturizare deplină în Pinaclul 3
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: între 33–42 de ani (ordine, metodă, planificare, rezultate concrete) și o maturizare deplină în Pinaclul 3:
 - Calcul: între 33–42 de ani (ordine, metodă, planificare, rezultate concrete) și o maturizare deplină în Pinaclul 3:
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8021,7 +8021,7 @@ _Pagini sursa: 266-293._
 
 ### și modelează destinul (4) nativului. Prin structura sa numerică, acest nume adună trei straturi esențiale
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: și modelează destinul (4) nativului. Prin structura sa numerică, acest nume adună trei straturi esențiale: numărul
 - Calcul: și modelează destinul (4) nativului. Prin structura sa numerică, acest nume adună trei straturi esențiale: numărul
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8029,7 +8029,7 @@ _Pagini sursa: 266-293._
 
 ### (31), numele acționează ca o punte de transformare
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]].
 - Metoda de calcul: (31), numele acționează ca o punte de transformare: mesajul și pedagogia lui 3 (calea destinului), combinate cu
 - Calcul: (31), numele acționează ca o punte de transformare: mesajul și pedagogia lui 3 (calea destinului), combinate cu
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8669,7 +8669,7 @@ _Pagini sursa: 294-368._
 
 ### Toate vibrațiile din codul numerologic personal
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 7 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]].
 - Metoda de calcul: Toate vibrațiile din codul numerologic personal: Scara bunăstării - toate treptele; Ciclicități de 7 ani; Ciclicități de
 - Calcul: Toate vibrațiile din codul numerologic personal: Scara bunăstării - toate treptele; Ciclicități de 7 ani; Ciclicități de
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8677,7 +8677,7 @@ _Pagini sursa: 294-368._
 
 ### - Triunghiul
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Codul Spiritului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Codul Spiritului/01-CS-Index|Codul Spiritului]].
 - Metoda de calcul: - Triunghiul: SPIRITUL (C10, C11, C12)
 - Calcul: - Triunghiul: SPIRITUL (C10, C11, C12)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8685,7 +8685,7 @@ _Pagini sursa: 294-368._
 
 ### Ciclicitatea de 27 ani
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 7 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]].
 - Metoda de calcul: Ciclicitatea de 27 ani: Ansamblul geometric al lui Pitagora
 - Calcul: Ciclicitatea de 27 ani: Ansamblul geometric al lui Pitagora
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8717,7 +8717,7 @@ _Pagini sursa: 294-368._
 
 ### ciclul mental 1
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: ciclul mental 1: 0 - 9 ani - ÎNCEPUT
 - Calcul: ciclul mental 1: 0 - 9 ani - ÎNCEPUT
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8741,7 +8741,7 @@ _Pagini sursa: 294-368._
 
 ### ciclul mental 3
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 7 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]].
 - Metoda de calcul: ciclul mental 3: 18 - 27 ani - EXPERIENȚĂ
 - Calcul: ciclul mental 3: 18 - 27 ani - EXPERIENȚĂ
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8765,7 +8765,7 @@ _Pagini sursa: 294-368._
 
 ### ciclul mental 11 = 2
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: ciclul mental 11 = 2: 90 - 99 ani CAUZĂ EFECT
 - Calcul: 90 - 99 ani CAUZĂ EFECT
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8797,7 +8797,7 @@ _Pagini sursa: 294-368._
 
 ### CICLUL 1 (0 - 9 ani)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: CICLUL 1 (0 - 9 ani): 27.11.1973 - 26.11.1982
 - Calcul: CICLUL 1 (0 - 9 ani): 27.11.1973 - 26.11.1982
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8805,7 +8805,7 @@ _Pagini sursa: 294-368._
 
 ### Lecțiile de viață în primul ciclu
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: Lecțiile de viață în primul ciclu: 5 8 5 9 8 1 5 8 5
 - Calcul: Lecțiile de viață în primul ciclu: 5 8 5 9 8 1 5 8 5
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8813,7 +8813,7 @@ _Pagini sursa: 294-368._
 
 ### CICLUL MENTAL 1
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: CICLUL MENTAL 1: 0 - 9 ANI ÎNCEPUTUL
 - Calcul: CICLUL MENTAL 1: 0 - 9 ANI ÎNCEPUTUL
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8821,7 +8821,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta si Destin
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Soarta si Destin: 5 → 3
 - Calcul: Soarta si Destin: 5 → 3
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8829,7 +8829,7 @@ _Pagini sursa: 294-368._
 
 ### Lectia acestui ciclu este dezVAULTarea vointei. Ani de criză
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: Lectia acestui ciclu este dezVAULTarea vointei. Ani de criză: 1976-77 (3,5 ani - mai 1977)
 - Calcul: Lectia acestui ciclu este dezVAULTarea vointei. Ani de criză: 1976-77 (3,5 ani - mai 1977)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8861,7 +8861,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta si Destin
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Soarta si Destin: 3 → 4
 - Calcul: Soarta si Destin: 3 → 4
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8869,7 +8869,7 @@ _Pagini sursa: 294-368._
 
 ### CICLUL MENTAL 3
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 7 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]].
 - Metoda de calcul: CICLUL MENTAL 3: 18 - 27 ANI EXPERIENȚA, PE CONT PROPRIU
 - Calcul: CICLUL MENTAL 3: 18 - 27 ANI EXPERIENȚA, PE CONT PROPRIU
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8877,7 +8877,7 @@ _Pagini sursa: 294-368._
 
 ### Bunăstare
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: Bunăstare: sa corecteze programele mentale greșite din Ciclul 1 și să învețe lecțiile restante cauză-efect din
 - Calcul: Bunăstare: sa corecteze programele mentale greșite din Ciclul 1 și să învețe lecțiile restante cauză-efect din
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8885,7 +8885,7 @@ _Pagini sursa: 294-368._
 
 ### CICLUL MENTAL 3
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 7 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]].
 - Metoda de calcul: CICLUL MENTAL 3: 18 - 27 ANI - EXPERIENȚA, PE CONT PROPRIU
 - Calcul: CICLUL MENTAL 3: 18 - 27 ANI - EXPERIENȚA, PE CONT PROPRIU
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8893,7 +8893,7 @@ _Pagini sursa: 294-368._
 
 ### CICLUL 3 (18 - 27 ani)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 7 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]].
 - Metoda de calcul: CICLUL 3 (18 - 27 ani): 27.11.1991 - 26.11.2000
 - Calcul: CICLUL 3 (18 - 27 ani): 27.11.1991 - 26.11.2000
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8901,7 +8901,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta si destin
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Soarta si destin: 3 → 4 → 8 colaborării lor.
 - Calcul: Soarta si destin: 3 → 4 → 8 colaborării lor.
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8909,7 +8909,7 @@ _Pagini sursa: 294-368._
 
 ### În Ciclul 3 (18–27 ani), lecțiile de viață se succed anual
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 7 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 7 Ani/01-C7-Index|Ciclul de 7 Ani]].
 - Metoda de calcul: În Ciclul 3 (18–27 ani), lecțiile de viață se succed anual: 5, 8, 5, 9, 8, 1, 5, 8, 5, conturând o etapă a
 - Calcul: În Ciclul 3 (18–27 ani), lecțiile de viață se succed anual: 5, 8, 5, 9, 8, 1, 5, 8, 5, conturând o etapă a
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8917,7 +8917,7 @@ _Pagini sursa: 294-368._
 
 ### În Ciclul 3, persoana are ani importanți interiori
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: În Ciclul 3, persoana are ani importanți interiori: 1994-95 sub lecția 9 și 1999-00 sub lecția 5. 1994 marchează
 - Calcul: În Ciclul 3, persoana are ani importanți interiori: 1994-95 sub lecția 9 și 1999-00 sub lecția 5. 1994 marchează
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8941,7 +8941,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta si Destin
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Soarta si Destin : 4 →8 → 8
 - Calcul: Soarta si Destin : 4 →8 → 8
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8949,7 +8949,7 @@ _Pagini sursa: 294-368._
 
 ### Joburg”
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Joburg”: (proiect-sămânță pentru „District 9”). La 31 de ani intră pe Destinul lui.
 - Calcul: Joburg”: (proiect-sămânță pentru „District 9”). La 31 de ani intră pe Destinul lui.
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8957,7 +8957,7 @@ _Pagini sursa: 294-368._
 
 ### marca viața profund, el devenind celebru din acest moment. Iarăsi, treapta următoare a Destinului 31+4
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: marca viața profund, el devenind celebru din acest moment. Iarăsi, treapta următoare a Destinului 31+4 = 35
 - Calcul: marca viața profund, el devenind celebru din acest moment. Iarăsi, treapta următoare a Destinului 31+4 = 35
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -8965,7 +8965,7 @@ _Pagini sursa: 294-368._
 
 ### 9 ani, destinul se ridică peste linia de confort, iar constanta 8 aduce vizibilitate, putere și recunoaștere socială
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: 9 ani, destinul se ridică peste linia de confort, iar constanta 8 aduce vizibilitate, putere și recunoaștere socială:
 - Calcul: 9 ani, destinul se ridică peste linia de confort, iar constanta 8 aduce vizibilitate, putere și recunoaștere socială:
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8989,7 +8989,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta si Destin
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Soarta si Destin : 8 → 8
 - Calcul: Soarta si Destin : 8 → 8
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -8997,7 +8997,7 @@ _Pagini sursa: 294-368._
 
 ### influență
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: influență: Pinaclul 2 → 3 Oportunitatile trec din 2 comunicare în 4 stabilitate, abordarea practică a vieții (casătoria) și
 - Calcul: influență: Pinaclul 2 → 3 Oportunitatile trec din 2 comunicare în 4 stabilitate, abordarea practică a vieții (casătoria) și
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9013,7 +9013,7 @@ _Pagini sursa: 294-368._
 
 ### o vibrație la alta în majoritatea cadrelor de influență
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Pinacluri - Oportunitati si Provocari]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Pinacluri Oportunitati si Provocari/01-POP-Index|Pinacluri - Oportunitati si Provocari]].
 - Metoda de calcul: o vibrație la alta în majoritatea cadrelor de influență: Pinaclul 2 → 3 Oportunitatile trec din 2 parteneriate în
 - Calcul: o vibrație la alta în majoritatea cadrelor de influență: Pinaclul 2 → 3 Oportunitatile trec din 2 parteneriate în
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9037,7 +9037,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta si Destinul
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Soarta si Destinul: 8 (45- 50 ani) Man” la SXSW (Austin); joacă rolul Tiger.
 - Calcul: Soarta si Destinul: 8 (45- 50 ani) Man” la SXSW (Austin); joacă rolul Tiger.
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9045,7 +9045,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta si Destinul
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Soarta si Destinul: 0 (51- 54 ani) ● 2024 (50 ani) — Lansare „Monkey Man” în
 - Calcul: Soarta si Destinul: 0 (51- 54 ani) ● 2024 (50 ani) — Lansare „Monkey Man” în
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9069,7 +9069,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta di destinul
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Soarta di destinul: 0 (54-60 ani)
 - Calcul: Soarta di destinul: 0 (54-60 ani)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9077,7 +9077,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta si Destinul
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Soarta si Destinul: 3 (60 - 63 ani)
 - Calcul: Soarta si Destinul: 3 (60 - 63 ani)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9085,7 +9085,7 @@ _Pagini sursa: 294-368._
 
 ### 2033 – sub lecția 1, independent de neam (litera 1)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: 2033 – sub lecția 1, independent de neam (litera 1): premergător ciclului, aduce decizii independente și
 - Calcul: 2033 – sub lecția 1, independent de neam (litera 1): premergător ciclului, aduce decizii independente și
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9101,7 +9101,7 @@ _Pagini sursa: 294-368._
 
 ### CICLUL 8 (63 - 72 ani)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: CICLUL 8 (63 - 72 ani): 27.11.2036 - 26.11.2045 Lecții: 9 8 1 5 8 5 9 8 1 5
 - Calcul: CICLUL 8 (63 - 72 ani): 27.11.2036 - 26.11.2045 Lecții: 9 8 1 5 8 5 9 8 1 5
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9109,7 +9109,7 @@ _Pagini sursa: 294-368._
 
 ### Oportunitate
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Oportunitate: 4 Soarta si Destinul: 3 (2036 - 2042)
 - Calcul: Oportunitate: 4 Soarta si Destinul: 3 (2036 - 2042)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9117,7 +9117,7 @@ _Pagini sursa: 294-368._
 
 ### Provocare
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Provocare: 0 Soarta si Destin: 5 (2043 - 2045)
 - Calcul: Provocare: 0 Soarta si Destin: 5 (2043 - 2045)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9141,7 +9141,7 @@ _Pagini sursa: 294-368._
 
 ### Soarta si destin
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Soarta si destin: 3 (2053 - 2054)
 - Calcul: Soarta si destin: 3 (2053 - 2054)
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9157,7 +9157,7 @@ _Pagini sursa: 294-368._
 
 ### CICLUL 10 (81 - 90 ani)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: CICLUL 10 (81 - 90 ani): 27.11.2054 - 26.11. 2063 Lecții:9 8 1 5 8 5 9 8 1 5
 - Calcul: CICLUL 10 (81 - 90 ani): 27.11.2054 - 26.11. 2063 Lecții:9 8 1 5 8 5 9 8 1 5
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9165,7 +9165,7 @@ _Pagini sursa: 294-368._
 
 ### Oportunitate
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Oportunitate: 4 Soarta si Destin: 3 → 4
 - Calcul: Oportunitate: 4 Soarta si Destin: 3 → 4
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9173,7 +9173,7 @@ _Pagini sursa: 294-368._
 
 ### CICLUL MENTAL 11 SAU DIN NOU 2
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: CICLUL MENTAL 11 SAU DIN NOU 2: 90 - 99 ANI (ALTFEL DE) CAUZĂ - EFECT
 - Calcul: CICLUL MENTAL 11 SAU DIN NOU 2: 90 - 99 ANI (ALTFEL DE) CAUZĂ - EFECT
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9189,7 +9189,7 @@ _Pagini sursa: 294-368._
 
 ### CICLUL 11 (90 - 99 ani)
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: CICLUL 11 (90 - 99 ani): 27.11.2063- 26.11.2071 Lecții: 5 8 5 9 8 1 5 8 5
 - Calcul: CICLUL 11 (90 - 99 ani): 27.11.2063- 26.11.2071 Lecții: 5 8 5 9 8 1 5 8 5
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -9197,7 +9197,7 @@ _Pagini sursa: 294-368._
 
 ### Oportunitate
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Soarta si Destin]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soarta si Destin]].
 - Metoda de calcul: Oportunitate: 4 Soarta si Destin: 4
 - Calcul: Oportunitate: 4 Soarta si Destin: 4
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11143,7 +11143,7 @@ _Pagini sursa: 369-374._
 
 ### Barbați
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Cosmica Variabila]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Variabila/01-VCV-Index|Vibratie Cosmica Variabila]].
 - Metoda de calcul: Barbați: 10 - Vibratia cosmică variabilă redusă la o cifră (din anul de naștere) SUCCES (CARIERĂ,
 - Calcul: Barbați: 10 - Vibratia cosmică variabilă redusă la o cifră (din anul de naștere) SUCCES (CARIERĂ,
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11151,7 +11151,7 @@ _Pagini sursa: 369-374._
 
 ### Triunghiul financiar
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Cod Numerologic Personal]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]].
 - Metoda de calcul: Triunghiul financiar: 9224
 - Calcul: Triunghiul financiar: 9224
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11159,7 +11159,7 @@ _Pagini sursa: 369-374._
 
 ### Pătratul de Aur (Magic) 3x3 30+31+32
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Cod Numerologic Personal]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]].
 - Metoda de calcul: Pătratul de Aur (Magic) 3x3 30+31+32=93
 - Calcul: Pătratul de Aur (Magic) 3x3 30+31+32=93
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -11167,7 +11167,7 @@ _Pagini sursa: 369-374._
 
 ### Pătratul de aur conține numere care adunate pe fiecare rând, 34 27 32 34+27+32
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Cod Numerologic Personal]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]].
 - Metoda de calcul: Pătratul de aur conține numere care adunate pe fiecare rând, 34 27 32 34+27+32=93
 - Calcul: Pătratul de aur conține numere care adunate pe fiecare rând, 34 27 32 34+27+32=93
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -11295,7 +11295,7 @@ _Pagini sursa: 375-389._
 
 ### și perseverență. Vibrația interioară 9 reflectă trăsături esențiale ale caracterului său
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Interioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]].
 - Metoda de calcul: și perseverență. Vibrația interioară 9 reflectă trăsături esențiale ale caracterului său: dedicarea,
 - Calcul: și perseverență. Vibrația interioară 9 reflectă trăsături esențiale ale caracterului său: dedicarea,
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11303,7 +11303,7 @@ _Pagini sursa: 375-389._
 
 ### autoritarism, izolare orgolioasă. Astfel, ajunge natural la Destinul 4
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: autoritarism, izolare orgolioasă. Astfel, ajunge natural la Destinul 4: cadru, metodă, disciplină, rezultate
 - Calcul: autoritarism, izolare orgolioasă. Astfel, ajunge natural la Destinul 4: cadru, metodă, disciplină, rezultate
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11311,7 +11311,7 @@ _Pagini sursa: 375-389._
 
 ### Calea Destinului Karmic 31 (4) indică o lecție de singurătate activă și discernământ
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Karma din Calea Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-Index|Karma din Calea Destinului]].
 - Metoda de calcul: Calea Destinului Karmic 31 (4) indică o lecție de singurătate activă și discernământ: perioade în care reflecția,
 - Calcul: Calea Destinului Karmic 31 (4) indică o lecție de singurătate activă și discernământ: perioade în care reflecția,
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11319,7 +11319,7 @@ _Pagini sursa: 375-389._
 
 ### memorie de
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratie Interioara]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibratie Interioara]].
 - Metoda de calcul: memorie de: carismă și interpretare de roluri plus vibrația interioară 9 care are aceste caracteristici de
 - Calcul: memorie de: carismă și interpretare de roluri plus vibrația interioară 9 care are aceste caracteristici de
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11694,7 +11694,7 @@ _Pagini sursa: 390-410._
 
 ### și l-a cunoscut pe Neill Blomkamp. În acei ani, și-a activat destinul 4
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: și l-a cunoscut pe Neill Blomkamp. În acei ani, și-a activat destinul 4: a creat structuri, sisteme, a învățat să lucreze metodic
 - Calcul: și l-a cunoscut pe Neill Blomkamp. În acei ani, și-a activat destinul 4: a creat structuri, sisteme, a învățat să lucreze metodic
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11710,7 +11710,7 @@ _Pagini sursa: 390-410._
 
 ### Scăderea vibrațiilor interioare (7 – 9
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: Scăderea vibrațiilor interioare (7 – 9 = 2) arată lecția de cooperare și empatie. Într-adevăr, colaborarea lor a
 - Calcul: Scăderea vibrațiilor interioare (7 – 9 = 2) arată lecția de cooperare și empatie. Într-adevăr, colaborarea lor a
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -11726,7 +11726,7 @@ _Pagini sursa: 390-410._
 
 ### Scăderea vibrațiilor exterioare (5 – 2
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Lectii de Viata]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Lectii de Viata/01-LV-Index|Lectii de Viata]].
 - Metoda de calcul: Scăderea vibrațiilor exterioare (5 – 2 = 3) arată lecția exprimării clare. 3 i-a obligat să traducă ideile abstracte
 - Calcul: Scăderea vibrațiilor exterioare (5 – 2 = 3) arată lecția exprimării clare. 3 i-a obligat să traducă ideile abstracte
 - Verificare: ok - concept verificat in VAULT/Numerologie; formula de calcul este compatibila cu documentatia.
@@ -11734,7 +11734,7 @@ _Pagini sursa: 390-410._
 
 ### Patru ani mai târziu, la 35 de ani, urcă pe încă o treaptă a destinului sub lecție 3 și constantă Soartă/Destin 8
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: Patru ani mai târziu, la 35 de ani, urcă pe încă o treaptă a destinului sub lecție 3 și constantă Soartă/Destin 8:
 - Calcul: Patru ani mai târziu, la 35 de ani, urcă pe încă o treaptă a destinului sub lecție 3 și constantă Soartă/Destin 8:
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11742,7 +11742,7 @@ _Pagini sursa: 390-410._
 
 ### privire din ochii unui 9 care și-a înțeles destinul de 4
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Vibratia Destinului]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]].
 - Metoda de calcul: privire din ochii unui 9 care și-a înțeles destinul de 4: să construiască, prin iubire, ordine și adevăr.
 - Calcul: privire din ochii unui 9 care și-a înțeles destinul de 4: să construiască, prin iubire, ordine și adevăr.
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.
@@ -11750,7 +11750,7 @@ _Pagini sursa: 390-410._
 
 ### Anul 2026 aduce o tranziție majoră
 
-- Concept analizat: verificat in VAULT/Numerologie - [[Ciclul de 9 Ani]].
+- Concept analizat: verificat in VAULT/Numerologie - [[vault/Numerologie/Ciclicitati/Ciclul de 9 Ani/01-C9-Index|Ciclul de 9 Ani]].
 - Metoda de calcul: Anul 2026 aduce o tranziție majoră: un an 8 în ciclul 6 de 9 ani, sub influența neamului 9 și a karmei lunii 11,
 - Calcul: Anul 2026 aduce o tranziție majoră: un an 8 în ciclul 6 de 9 ani, sub influența neamului 9 și a karmei lunii 11,
 - Verificare: ok - concept verificat in VAULT/Numerologie; metoda trebuie rafinata din textul paginii.

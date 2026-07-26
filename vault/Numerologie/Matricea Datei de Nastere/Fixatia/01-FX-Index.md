@@ -16,7 +16,3 @@ tags:
 2. [[03-FX-Calcul|Calcul]]
 3. [[04-FX-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-FX-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Fixatia]]

@@ -6,7 +6,7 @@ tags:
   - interpretare
   - VibratieExterioara
   - documentatie-modulara
-sursa: '[[Vibratie Exterioara]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibratie Exterioara]]'
 ---
 
 # Vibratia Exterioara - Metodica si interpretari
@@ -78,7 +78,7 @@ se verifică toate elementele de mai jos.
 ### 9. Comparația dintre Vibrația Interioară și Vibrația Exterioară
 
 După calcularea separată a celor două vibrații, Vibrația Exterioară se compară
-obligatoriu cu [[Vibratie Interioara|Vibrația Interioară]].
+obligatoriu cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibrația Interioară]].
 
 - Se notează valoarea finală a Vibrației Interioare.
 - Se notează valoarea finală a Vibrației Exterioare.
@@ -93,7 +93,7 @@ obligatoriu cu [[Vibratie Interioara|Vibrația Interioară]].
 - Dacă valorile sunt diferite, diferența se consemnează fără a fi declarată
   automat conflict; sensul ei se stabilește ulterior prin interpretare.
 - Comparația interior-exterior se finalizează înaintea interpretării
-  [[Vibratie Globala|Vibrației Globale]].
+  [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibrației Globale]].
 
 ### 10. Ordinea citirii
 
@@ -110,8 +110,8 @@ obligatoriu cu [[Vibratie Interioara|Vibrația Interioară]].
 
 - Vibrația Exterioară se calculează din luna nașterii.
 - Nu se confundă cu un calcul realizat din consoanele numelui.
-- Corelarea cu [[Vibratie Interioara|Vibrația Interioară]],
-  [[Vibratie Globala|Vibrația Globală]] și celelalte componente se face după
+- Corelarea cu [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibrația Interioară]],
+  [[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibrația Globală]] și celelalte componente se face după
   finalizarea citirii proprii.
 
 ### 12. Lista de control pentru redactare

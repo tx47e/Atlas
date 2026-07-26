@@ -16,7 +16,3 @@ tags:
 2. [[03-SB-Calcul|Calcul]]
 3. [[04-SB-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-SB-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Scara Bunastarii]]

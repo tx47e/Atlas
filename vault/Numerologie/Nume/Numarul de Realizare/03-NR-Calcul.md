@@ -6,7 +6,7 @@ tags:
   - calcul
   - NumarulDeRealizare
   - documentatie-modulara
-sursa: '[[Numarul de Realizare]]'
+sursa: '[[vault/Numerologie/Nume/Numarul de Realizare/01-NR-Index|Numarul de Realizare]]'
 ---
 
 # Numarul de Realizare - Calcul

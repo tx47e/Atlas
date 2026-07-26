@@ -7,7 +7,7 @@ tags:
   - calcul
   - SemnaturaAstrala
   - documentatie-modulara
-sursa: '[[Semnatura Astrala]]'
+sursa: '[[vault/Numerologie/Spirit si Karma/Ajutoare/Semnatura Astrala/01-SA-Index|Semnatura Astrala]]'
 ---
 
 # Semnătura Astrală - Calcul

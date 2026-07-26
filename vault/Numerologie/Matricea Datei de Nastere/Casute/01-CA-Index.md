@@ -19,5 +19,5 @@ tags:
 
 ## Surse pastrate
 
-- [[Matricea Datei de Nastere]]
-- [[Scara Bunastarii]]
+- [[vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/01-MDN-Index|Matricea Datei de Nastere]]
+- [[vault/Numerologie/Matricea Datei de Nastere/Scara Bunastarii/01-SB-Index|Scara Bunastarii]]

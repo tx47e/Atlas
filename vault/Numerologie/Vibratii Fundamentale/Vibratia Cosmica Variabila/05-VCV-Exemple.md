@@ -5,7 +5,7 @@ tags:
   - numerologie
   - VibratieCosmicaVariabila
   - documentatie-modulara
-sursa: '[[Vibratie Cosmica Variabila]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Cosmica Variabila/01-VCV-Index|Vibratie Cosmica Variabila]]'
 ---
 
 # Vibratia Cosmica Variabila - Exemple

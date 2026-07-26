@@ -6,7 +6,7 @@ tags:
   - tarot
   - Vibratia33
   - documentatie-modulara
-sursa: '[[Vibratia 33]]'
+sursa: '[[vault/Numerologie/Vibratii/Vibratia 33/01-V33-Index|Vibratia 33]]'
 ---
 
 # Vibratia 33 - Tarot

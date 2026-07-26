@@ -17,7 +17,3 @@ tags:
 2. [[03-POP-Calcul|Calcul]]
 3. [[04-POP-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-POP-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Pinacluri - Oportunitati si Provocari]]

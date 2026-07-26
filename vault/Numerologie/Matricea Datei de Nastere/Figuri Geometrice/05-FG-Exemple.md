@@ -6,7 +6,7 @@ tags:
   - exemple
   - FiguriGeometrice
   - documentatie-modulara
-sursa: '[[Figuri Geometrice]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Figuri Geometrice/01-FG-Index|Figuri Geometrice]]'
 ---
 
 # Figuri Geometrice - Exemple

@@ -5,7 +5,7 @@ tags:
   - numerologie
   - PunteaInteriorExterior
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Interior - Exterior - Exemple

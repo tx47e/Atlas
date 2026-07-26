@@ -6,7 +6,7 @@ tags:
   - calcul
   - VibratieGlobala
   - documentatie-modulara
-sursa: '[[Vibratie Globala]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Globala/01-VG-Index|Vibratie Globala]]'
 ---
 
 # Vibratia Globala - Calcul
@@ -25,8 +25,8 @@ VG = reducere_numerologica(VI + VE)
 
 ### Pași de calcul
 
-1. Se calculează [[Vibratie Interioara|Vibrația Interioară]].
-2. Se calculează [[Vibratie Exterioara|Vibrația Exterioară]].
+1. Se calculează [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibrația Interioară]].
+2. Se calculează [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibrația Exterioară]].
 3. Se adună rezultatul VI cu rezultatul VE.
 4. Suma se reduce numerologic până la o singură cifră, între `1` și `9`.
 5. Se notează traseul `VI + VE`, suma și toate treptele reducerii.

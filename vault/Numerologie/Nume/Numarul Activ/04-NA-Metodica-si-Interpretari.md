@@ -6,7 +6,7 @@ tags:
   - metodica-si-interpretari
   - NumarulActiv
   - documentatie-modulara
-sursa: '[[Numarul Activ]]'
+sursa: '[[vault/Numerologie/Nume/Numarul Activ/01-NA-Index|Numarul Activ]]'
 ---
 
 # Numarul Activ - Metodica si interpretari

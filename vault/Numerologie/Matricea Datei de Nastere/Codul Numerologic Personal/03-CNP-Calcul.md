@@ -6,7 +6,7 @@ tags:
   - calcul
   - CodNumerologicPersonal
   - documentatie-modulara
-sursa: '[[Cod Numerologic Personal]]'
+sursa: '[[vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index|Cod Numerologic Personal]]'
 ---
 
 # Codul Numerologic Personal - Calcul

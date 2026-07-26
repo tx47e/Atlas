@@ -22,7 +22,3 @@ tags:
 - [[../../Matricea Datei de Nastere/Casute/01-CA-Index|Casute]]
 - [[../../Matricea Datei de Nastere/Curgerea Energiei/01-CE-Index|Curgerea Energiei]]
 - [[../../Matricea Datei de Nastere/Figuri Geometrice/01-FG-Index|Figuri Geometrice]]
-
-## Sursa pastrata
-
-- [[Matricea Numelui]]

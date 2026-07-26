@@ -6,7 +6,7 @@ tags:
   - interpretare
   - PunteaInteriorExterior
   - documentatie-modulara
-sursa: '[[Punti]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Punti/01-PU-Index|Punti]]'
 ---
 
 # Puntea Interior - Exterior - Metodica si interpretari

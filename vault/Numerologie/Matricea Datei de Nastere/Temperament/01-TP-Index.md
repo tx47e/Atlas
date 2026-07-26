@@ -16,7 +16,3 @@ tags:
 2. [[03-TP-Calcul|Calcul]]
 3. [[04-TP-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-TP-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Matricea Datei de Nastere]]

@@ -16,7 +16,3 @@ tags:
 2. [[03-MDN-Calcul|Calcul]]
 3. [[04-MDN-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-MDN-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Matricea Datei de Nastere]]

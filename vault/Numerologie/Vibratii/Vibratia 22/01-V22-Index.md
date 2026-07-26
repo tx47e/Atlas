@@ -20,7 +20,3 @@ tags:
 6. [[07-V22-Dezvoltare|Dezvoltare]]
 7. [[08-V22-Exemple|Exemple]]
 8. [[09-V22-Tarot|Tarot]]
-
-## Sursa pastrata
-
-- [[Vibratia 22]]

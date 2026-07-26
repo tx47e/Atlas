@@ -17,7 +17,3 @@ tags:
 3. [[04-KLN-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-KLN-Exemple|Exemple]]
 5. [[01-KLNI-Index|Interpretari predefinite]]
-
-## Sursa pastrata
-
-- [[Karma din Luna Nasterii]]

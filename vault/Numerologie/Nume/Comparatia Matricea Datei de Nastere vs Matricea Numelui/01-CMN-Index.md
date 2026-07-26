@@ -16,7 +16,3 @@ tags:
 2. [[03-CMN-Calcul|Calcul]]
 3. [[04-CMN-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-CMN-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Matricea Numelui vs Matricea Datei de Nastere]]

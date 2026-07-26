@@ -6,7 +6,7 @@ tags:
   - descriere
   - VibratiaDestinului
   - documentatie-modulara
-sursa: '[[Vibratia Destinului]]'
+sursa: '[[vault/Numerologie/Vibratii Fundamentale/Vibratia Destinului/01-VD-Index|Vibratia Destinului]]'
 ---
 
 # Vibratia Destinului - Descriere
@@ -18,12 +18,12 @@ pe traseul său. El arată orientarea de fond prin care se exprimă parcursul vi
 și se conturează din convergența dintre lumea interioară și manifestarea
 exterioară.
 
-Dacă [[Vibratie Interioara|Vibrația Interioară]] vorbește despre cine este omul
-în esență, iar [[Vibratie Exterioara|Vibrația Exterioară]] despre felul în care
+Dacă [[vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index|Vibrația Interioară]] vorbește despre cine este omul
+în esență, iar [[vault/Numerologie/Vibratii Fundamentale/Vibratia Exterioara/01-VE-Index|Vibrația Exterioară]] despre felul în care
 se exprimă și este perceput de lume, Vibrația Destinului reprezintă drumul de convergență
 dintre ele: locul unde intenția sufletului și realitatea concretă se întâlnesc.
 
-Spre deosebire de [[Soarta si Destin|Soartă]], care reprezintă cadrul fix al
+Spre deosebire de [[vault/Numerologie/Ciclicitati/Soarta si Destin/01-SD-Index|Soartă]], care reprezintă cadrul fix al
 existenței, experiențele, lecțiile și punctele de cotitură înscrise în planul
 vieții, Vibrația Destinului rămâne dinamică și maleabilă. Soarta este structura
 de bază, iar Vibrația Destinului arată modul în care omul alege să traverseze această structură prin

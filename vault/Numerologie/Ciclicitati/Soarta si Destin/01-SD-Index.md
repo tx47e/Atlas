@@ -17,7 +17,3 @@ tags:
 2. [[03-SD-Calcul|Calcul]]
 3. [[04-SD-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-SD-Exemple|Exemple]]
-
-## Sursa pastrata
-
-- [[Soarta si Destin]]

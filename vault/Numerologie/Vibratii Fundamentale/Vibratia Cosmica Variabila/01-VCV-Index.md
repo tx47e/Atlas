@@ -17,7 +17,3 @@ tags:
 3. [[04-VCV-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-VCV-Exemple|Exemple]]
 5. `VCV - Interpretari/` - director pregatit; interpretarile vor fi adaugate ulterior.
-
-## Sursa pastrata
-
-- [[Vibratie Cosmica Variabila]]

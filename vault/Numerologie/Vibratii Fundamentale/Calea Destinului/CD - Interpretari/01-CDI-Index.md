@@ -49,5 +49,5 @@ Interpretarile individuale nu sunt completate in aceasta etapa.
 
 ## Sursa conceptului
 
-- [[Calea Destinului]]
+- [[vault/Numerologie/Vibratii Fundamentale/Calea Destinului/01-CD-Index|Calea Destinului]]
 - [[01-CD-Index|Indexul modular Calea Destinului]]
