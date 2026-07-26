@@ -14,7 +14,7 @@ sursa-import: 'temp/KCD - Interpretari/KCD-11-CaleaDestinului.md'
 statut: importata
 ---
 
-# Calea Karmică Destinului 11 - Judecâta (Justiția)
+# Calea Karmică Destinului 11 - Justiția (Justice)
 
 ## 1. Context general
 
