@@ -14,36 +14,30 @@ sursa-import: 'temp/KCD - Interpretari/KCD-12-CaleaDestinului.md'
 statut: importata
 ---
 
-# Karma din Calea Destinului 12 - Interpretare
+# Calea Karmică Destinului 12 - Spânzuratul (The Hanged Man)
 
-## Context general
+## 1. Context general
 
-Spiritul întrupat căruia îi este dat să meargă pe calea Karma din 12 a destinului, va întâlni pe cale mai puține ajutoare și mai multe obstacole "prescrise" pentru a-și împlini destinul.
+Spiritul întrupat căruia îi este dat să meargă pe calea karmică 12 a destinului va întâlni pe cale mai puține ajutoare și mai multe obstacole „prescrise” pentru a-și împlini destinul.
 
-## Acumularea din alte vieți
+## 2. Bile albe și bile negre
 
-Din alte vieți a acumulat bile negre și poate, puține bile albe
-A dus o viață agitata - ca revoluționar sau terorist
-De aceea în viață aceasta, greșelile acumulate nu trebuie repetate și este posibil să i se întoarcă în această viață sub diferite forme, care să arate o viață plină de suferință, neliniște și griji și chiar să fie victima șarlatanilor și intriganților.
-Naivitatea, ușurință cu care se lasă rănit, îngrijorarea și când nu e cazul, "retrăirea" experintelor sunt aspectele la care are de lucrat, că să i se luminieze calea.
+Din alte vieți a acumulat bile negre și, poate, puține bile albe.
 
-## Calea destinului
+## 3. Viața anterioară probabilă
 
-Calea acestuia îl obliga să se "supună" / adapteze partenerului de viață
+A dus o viață agitată - ca revoluționar sau terorist.
+De aceea, în viața aceasta, greșelile acumulate nu trebuie repetate și este posibil să i se întoarcă în această viață sub diferite forme, care să arate o viață plină de suferință, neliniște și griji și chiar să fie victima șarlatanilor și intriganților.
+Naivitatea, ușurința cu care se lasă rănit, îngrijorarea și când nu e cazul, „retrăirea” experiențelor sunt aspectele la care are de lucrat, ca să i se lumineze calea.
 
-## Ezoterism
+## 4. Calea destinului
 
-Atenția, prudența și un mentor/învățător foarte experimentat - acestea sunt obligatorii în întâlnirea cu ezoterismul
+Calea sa îl obligă să se adapteze partenerului de viață.
 
-## Asociere Tarot
+## 5. Ezoterism
 
-**Spanzuratul (The Hanged Man)**
+Atenția, prudența și un mentor/învățător foarte experimentat - acestea sunt obligatorii în întâlnirea cu ezoterismul.
 
-Arcana 12 simbolizează suspendarea temporară, sacrificiul voluntar, perspectiva schimbată și învățarea prin suferință. Pentru Calea Destinului 12, această asociere este profund semnificativă:
+## 6. Asociere Tarot
 
-- **Suspendarea și adaptarea**: Necesitatea de a se "supune" sau adapta partenerului de viață, similar cu Spanzuratul care se suspendă voluntar
-- **Suferința ca lecție**: Viața plină de suferință, neliniște și griji este rezultatul direct al vieții agitate din trecut (revoluționar/terorist)
-- **Perspectiva schimbată**: Necesitatea de a privi lucrurile dintr-o nouă perspectivă pentru a înțelege lecțiile karmice
-- **Sacrificiul voluntar**: Adaptarea și supunerea ca formă de sacrificiu pentru a restabili balanța karmică
-- **Victima șarlatanilor și intriganților**: Naivitatea și ușurința cu care se lasă rănit sunt consecințele directe ale greșelilor din viețile anterioare
-- **Îngrijorarea excesivă**: "Retrăirea" experiențelor când nu e cazul indică o lipsă de încredere în prezent, necesară a fi depășită
+Arcana 12 - The Hanged Man - "Spânzuratul"

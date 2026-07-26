@@ -14,33 +14,29 @@ sursa-import: 'temp/KCD - Interpretari/KCD-10-CaleaDestinului.md'
 statut: importata
 ---
 
-# Karma din Calea Destinului 10 - Interpretare
+# Calea Karmică Destinului 10 - Roata Norocului (The Wheel of Fortune)
 
-## Context general
+## 1. Context general
 
-Spiritul întrupat căruia îi este dat să meargă pe calea Karma din 10 a destinului, va întâlni pe cale mai multe ajutoare și foarte puține obstacole "prescrise" pentru a-și împlini destinul.
+Spiritul întrupat căruia îi este dat să meargă pe calea karmică 10 a destinului va întâlni pe cale mai multe ajutoare și foarte puține obstacole „prescrise” pentru a-și împlini destinul.
 
-## Acumularea din alte vieți
+## 2. Bile albe și bile negre
 
-Din alte vieți a acumulat bile albe și poate, aproape deloc bile negre,
-A dus o viață simplă, în conexiune cu natura, supus legilor acesteia - țaran, agricultor
-De aceea în viața aceasta, experiențele acumulate îi vor folosi să realizeze tot lucruri concrete, "pământene" (chiar dacă acum ar trăi la oraș între calculatoare)
+Din alte vieți a acumulat bile albe și, poate, aproape deloc bile negre.
 
-## Calea destinului
+## 3. Viața anterioară probabilă
 
-Calea acestuia este luminoasă și benefică, fără probleme deosebite, cu urcuș lin pe scara socială, poate chiar în joacă, cu bucurie și bunăstare pe toate palierele - sănătate, relații, urmași, cariera, stima de sine
+A dus o viață simplă, în conexiune cu natura, supus legilor acesteia, ca țăran sau agricultor.
+De aceea, în viața aceasta, experiențele acumulate îi vor folosi pentru a realiza tot lucruri concrete, „pământene”, chiar dacă acum ar trăi la oraș, între calculatoare.
 
-## Ezoterism
+## 4. Calea destinului
 
-Cu cât latura aceasta este abordată mai complicat (ocultism, psihologie, magie) cu atât mai mult îl bulversează, decât îl face să evolueze. Simplitate, firesc, natural - acesta este ezoterismul benefic al acestuia
+Calea acestuia este luminoasă și benefică, fără probleme deosebite, cu un urcuș lin pe scara socială, poate chiar în joacă, cu bucurie și bunăstare pe toate palierele: sănătate, relații, urmași, carieră și stimă de sine.
 
-## Asociere Tarot
+## 5. Ezoterism
 
-**Roata Norocului (Wheel of Fortune)**
+Cu cât această latură este abordată mai complicat, prin ocultism, psihologie sau magie, cu atât mai mult îl bulversează, în loc să îl ajute să evolueze. Simplitatea, firescul și naturalețea reprezintă ezoterismul benefic pentru acesta.
 
-Arcana 10 simbolizează norocul, schimbarea ciclică și evoluția naturală a destinului. Pentru Calea Destinului 10, această asociere este profund semnificativă:
+## 6. Asociere Tarot
 
-- **Norocul favorabil**: Roata se învârte în favoarea spiritului care parcurge această cale
-- **Evoluție naturală**: Schimbările vin firesc, fără efort excesiv
-- **Ciclicitatea benefică**: Viața curge armonios, cu urcuș lin pe scara destinului
-- **Conexiunea cu natura**: La fel ca Roata Norocului care se învârte în ritmul naturii
+Arcana 10 - The Wheel of Fortune - "Roata Norocului"

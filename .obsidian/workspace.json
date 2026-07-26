@@ -6,7 +6,7 @@
       {
         "id": "8fb72a4bc2ffa45c",
         "type": "tabs",
-        "dimension": 41.62436548223351,
+        "dimension": 50.81218274111675,
         "children": [
           {
             "id": "db3067c72034932b",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/Numerologie/Date de Intrare/Introducere/03-INT-Text-Predefinit.md",
+                "file": "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-INT-Text-Predefinit"
+              "title": "KCDI-NN-13"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "8b9b6d32aa465847",
         "type": "tabs",
-        "dimension": 58.37563451776649,
+        "dimension": 49.18781725888325,
         "children": [
           {
             "id": "29fcc46aaa15561c",
@@ -222,8 +222,25 @@
   },
   "active": "db3067c72034932b",
   "lastOpenFiles": [
-    "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-12.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-11.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/04-KCD-Metodica-si-Interpretari.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/01-KCDI-Index.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-15.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-13.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-10.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-48.md",
+    "temp/KCD-48-CaleaDestinului.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-Index.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-44.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-46.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-47.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-37.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-41.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-43.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-45.md",
     "vault/Numerologie/Date de Intrare/Introducere/03-INT-Text-Predefinit.md",
+    "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/01-VI-Index.md",
     "temp/lucrare finalizate/Chibulcutean Tamara_Lucrare Examen.pdf",
     "temp/dashboard v2/6-----.png",
     "temp/lucrare finalizate/Template lucrare numerologica - din PDF.md",
@@ -249,24 +266,7 @@
     "scripts/__pycache__",
     "skills/numerologie-gestionare-persoane/scripts/__pycache__/gestioneaza_persoane.cpython-311.pyc",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/02-KCD-Descriere.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/01-KCD-Index.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-39.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-38.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-37.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-36.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-35.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-34.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-33.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-32.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-31.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-30.md",
-    "vault/Numerologie/Spirit si Karma/01-SK-Index.md",
-    "vault/Numerologie/Spirit si Karma/Aplicabilitate Profesionala/01-AP-Index.md",
-    "skills/numerologie-gestionare-persoane/SKILL.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-47.md",
-    "vault/Audit/2026-07-24-refactorizare-vault-numerologie.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-48.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-46.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-45.md"
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-38.md"
   ]
 }

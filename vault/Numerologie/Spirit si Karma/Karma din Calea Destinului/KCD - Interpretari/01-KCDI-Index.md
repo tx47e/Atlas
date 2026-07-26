@@ -23,7 +23,8 @@ Directorul păstrează interpretările predefinite pentru rezultatele disponibil
 - valorile 10-46 și 48 provin din fișierele sursă;
 - valoarea 47 a fost furnizată direct de utilizator;
 - valorile 4-9 nu sunt acoperite de fișierele sursă;
-- documentele editoriale și secțiunile generale repetitive nu au fost importate.
+- toate interpretările folosesc aceeași structură editorială în nouă secțiuni, după modelul `temp/KCD-48-CaleaDestinului.md`;
+- au fost păstrate metadatele proiectului și informația utilă specifică fiecărei interpretări.
 
 ## Interpretări disponibile
 

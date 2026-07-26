@@ -14,36 +14,30 @@ sursa-import: 'temp/KCD - Interpretari/KCD-15-CaleaDestinului.md'
 statut: importata
 ---
 
-# Karma din Calea Destinului 15 - Interpretare
+# Calea Karmică Destinului 15 - Diavolul (The Devil)
 
-## Context general
+## 1. Context general
 
-Spiritul întrupat căruia îi este dat să meargă pe calea Karma din 15 a destinului, va întâlni pe cale mai puține ajutoare și mai multe obstacole "prescrise" pentru a-și împlini destinul.
+Spiritul întrupat căruia îi este dat să meargă pe calea karmică 15 a destinului va întâlni pe cale mai puține ajutoare și mai multe obstacole „prescrise” pentru a-și împlini destinul.
 
-## Acumularea din alte vieți
+## 2. Bile albe și bile negre
 
-Din alte vieți a acumulat și bile negre și bile albe
-Cel mai probabil într-o viață anterioară și-a utilizat corpul și farmecele și talentele cu scopul de a căștiga bani. S-a vândut pe sine.
-De aceea în viața aceasta, merită să se ocupe de meserii artistice - pictor, muzician, actor. Poate avea mult succes.
+Din alte vieți a acumulat și bile negre și bile albe.
 
-## Calea destinului
+## 3. Viața anterioară probabilă
 
-Calea destinului este buna. 15 este un număr foarte bun, al admirației. Acest om poate ajunge sa fie adorat, idolatrizat. Are un temperament viu, aprins, colorat, cu magnetism natural - pe care îl folosește pentru a-și atinge scopurile.
-Atenție să nu cedeze tentațiilor și să se îndrepte către scopuri meschine, minciună și trădare!!!
+Cel mai probabil, într-o viață anterioară și-a folosit corpul, farmecul și talentele pentru a câștiga bani. S-a vândut pe sine.
+De aceea, în viața aceasta, merită să se ocupe de meserii artistice - pictor, muzician, actor. Poate avea mult succes.
 
-## Ezoterism
+## 4. Calea destinului
 
-NU se poate ocupa de științe oculte! Pentru că are toate șansele să facă magie neagră (tentații)
+Calea destinului este bună. 15 este un număr foarte bun, al admirației. Acest om poate ajunge să fie adorat, idolatrizat. Are un temperament viu, aprins, colorat, cu magnetism natural - pe care îl folosește pentru a-și atinge scopurile.
+Atenție să nu cedeze tentațiilor și să se îndrepte către scopuri meschine, minciună și trădare!
 
-## Asociere Tarot
+## 5. Ezoterism
 
-**Diavolul (The Devil)**
+Nu este indicat să se ocupe de științe oculte, deoarece tentațiile îl pot îndrepta către magia neagră.
 
-Arcana 15 simbolizează atașamentul material, tentațiile, iluziile și legăturile care ne țin în lanțurile propriilor dorințe. Pentru Calea Destinului 15, această asociere este profund semnificativă:
+## 6. Asociere Tarot
 
-- **Tentația și auto-vânzarea**: În viața anterioară s-a vândut pe sine pentru bani - Diavolul reprezintă legătura cu materialismul și folosirea farmecelor/talentelelor în scopuri egoiste
-- **Magnetism natural și admirație**: Temperamentul viu, aprins, colorat cu magnetism natural poate duce la a fi adorat, idolatrizat - dar această admirație trebuie folosită constructiv
-- **Riscul de magie neagră**: Atenția necesară pentru a nu ceda tentațiilor către scopuri meschine, minciună și trădare este esențială - Diavolul atrage spre întuneric dacă nu se are prudență
-- **Meseriile artistice ca redirecționare**: Ocuparea cu pictură, muzică, actorie este calea de a transforma energia magnetică în expresie artistică pură, nu în manipulare
-- **Libertatea de la atașamente**: Diavolul ne ține în lanțuri; Calea 15 necesită ruperea acestor legături pentru a folosi talentele în scopuri nobile
-- **Atenția constantă**: Magnetismul natural este o forță puternică care trebuie direcționată către bine, nu spre manipularea altora
+Arcana 15 - The Devil - "Diavolul"
