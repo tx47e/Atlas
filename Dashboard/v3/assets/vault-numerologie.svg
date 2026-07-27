@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 170" fill="none">
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="84" r="72" stroke="#b98632" stroke-width="1" stroke-dasharray="1.5 5"/>
+    <path d="M120 4v13M120 151v13M39 84H26M214 84h-13" stroke="#b98632" stroke-width="1.1"/>
+    <path d="m120 5 3 8 8 3-8 3-3 8-3-8-8-3 8-3Zm0 138 3 8 8 3-8 3-3 8-3-8-8-3 8-3ZM31 84l7 3 3 7 3-7 7-3-7-3-3-7-3 7Zm158 0 7 3 3 7 3-7 7-3-7-3-3-7-3 7Z" fill="#d8b76d" fill-opacity=".28" stroke="#b98632" stroke-width=".9"/>
+    <path d="M55 17c-12 8-21 19-27 32M185 17c12 8 21 19 27 32M55 151c-12-8-21-19-27-32M185 151c12-8 21-19 27-32" stroke="#b98632" stroke-width=".8"/>
+    <rect x="55" y="23" width="130" height="122" rx="8" fill="#fffaf0" fill-opacity=".34" stroke="#0a5458" stroke-width="2"/>
+    <rect x="61" y="29" width="118" height="110" rx="3" stroke="#b98632" stroke-width=".8"/>
+    <path d="M98.33 29v110M140.66 29v110M61 65.66h118M61 102.33h118" stroke="#0a5458" stroke-width="1.2"/>
+    <path d="m62 29 5 2 2 5 2-5 5-2-5-2-2-5-2 5Zm103 0 5 2 2 5 2-5 5-2-5-2-2-5-2 5ZM62 139l5-2 2-5 2 5 5 2-5 2-2 5-2-5Zm103 0 5-2 2-5 2 5 5 2-5 2-2 5-2-5Z" fill="#d8b76d" stroke="#b98632" stroke-width=".55"/>
+    <g fill="#a97829" font-family="Georgia, serif" font-size="27" text-anchor="middle">
+      <text x="79.5" y="56">1</text><text x="119.5" y="56">4</text><text x="161.5" y="56">7</text>
+      <text x="79.5" y="93">2</text><text x="119.5" y="93">5</text><text x="161.5" y="93">8</text>
+      <text x="79.5" y="130">3</text><text x="119.5" y="130">6</text><text x="161.5" y="130">9</text>
+    </g>
+  </g>
+</svg>

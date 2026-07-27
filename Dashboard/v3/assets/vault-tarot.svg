@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 170" fill="none">
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M130 2v17M121 10h18M130 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3Z" fill="#d8b76d" fill-opacity=".22" stroke="#b98632" stroke-width=".85"/>
+    <path d="M89 16 76 22 65 14M171 16l13 6 11-8" stroke="#b98632" stroke-width=".75" stroke-dasharray="2 5"/>
+
+    <g transform="translate(28 31) rotate(-9 46 61)">
+      <rect x="3" y="3" width="86" height="126" rx="7" fill="#fffaf0" fill-opacity=".82" stroke="#0a5458" stroke-width="1.8"/>
+      <rect x="9" y="9" width="74" height="114" rx="3" stroke="#b98632" stroke-width=".85"/>
+      <text x="46" y="20" fill="#a97829" font-family="Georgia,serif" font-size="8" text-anchor="middle">XVIII</text>
+      <path d="M50 31c-15-5-28 7-25 21 3 13 18 18 29 10-10 1-17-8-15-17 1-7 5-11 11-14Z" fill="#d8b76d" fill-opacity=".2" stroke="#b98632" stroke-width="1"/>
+      <path d="M21 80c9-7 16-8 24 0 8-8 15-7 23 0M20 99l12-14 8 8 8-12 18 18M17 106c13-8 25 6 40-1 7-3 13-2 18 1" stroke="#b98632" stroke-width=".8"/>
+      <circle cx="64" cy="40" r="1.3" fill="#b98632"/><path d="m69 52 2 4 4 2-4 2-2 4-2-4-4-2 4-2Z" stroke="#b98632" stroke-width=".65"/>
+      <path d="M12 114h68" stroke="#b98632" stroke-width=".65"/>
+    </g>
+
+    <g transform="translate(146 31) rotate(9 46 61)">
+      <rect x="3" y="3" width="86" height="126" rx="7" fill="#fffaf0" fill-opacity=".82" stroke="#0a5458" stroke-width="1.8"/>
+      <rect x="9" y="9" width="74" height="114" rx="3" stroke="#b98632" stroke-width=".85"/>
+      <text x="46" y="20" fill="#a97829" font-family="Georgia,serif" font-size="8" text-anchor="middle">XVII</text>
+      <path d="m46 31 4 10 11 1-8 7 3 11-10-6-10 6 3-11-8-7 11-1Z" fill="#d8b76d" fill-opacity=".22" stroke="#b98632" stroke-width="1"/>
+      <path d="M19 95c10-17 17-27 28-23 8 3 6 15 2 24M47 76c9 1 13 9 12 19M23 101c14-8 31-8 47 0M18 108c16-6 35-6 55 0" stroke="#b98632" stroke-width=".8"/>
+      <path d="m69 42 2 4 4 2-4 2-2 4-2-4-4-2 4-2Zm-48 15 2 3 3 2-3 2-2 3-2-3-3-2 3-2Z" stroke="#b98632" stroke-width=".65"/>
+      <path d="M12 114h68" stroke="#b98632" stroke-width=".65"/>
+    </g>
+
+    <g transform="translate(84 19)">
+      <rect x="3" y="3" width="86" height="139" rx="7" fill="#fffaf0" stroke="#0a5458" stroke-width="2"/>
+      <rect x="9" y="9" width="74" height="127" rx="3" stroke="#b98632" stroke-width=".9"/>
+      <text x="46" y="22" fill="#a97829" font-family="Georgia,serif" font-size="9" text-anchor="middle">0</text>
+      <path d="M62 21a13 13 0 0 1 20 14 14 14 0 0 1-15-13" fill="#d8b76d" fill-opacity=".16" stroke="#b98632" stroke-width=".85"/>
+      <path d="M17 113c9-7 18-11 26-9 8 1 12 8 20 8 7 0 12-3 19-1" stroke="#b98632" stroke-width=".9"/>
+      <path d="M46 45c-5 3-7 10-5 16l-4 13 7 9-4 18M44 83l11 4 8 15M42 59l-13 9-9-2M44 61l12-5 7 4" stroke="#0a5458" stroke-width="1.15"/>
+      <circle cx="47" cy="40" r="5" stroke="#0a5458" stroke-width="1.05"/>
+      <path d="M44 35c2-5 8-6 11-2M54 34l6 5M58 39l7-4" stroke="#b98632" stroke-width=".85"/>
+      <path d="M61 60c3-9 10-13 17-11l-4 11-11 2M26 66l-5-9-7 3M14 60l3 7" stroke="#b98632" stroke-width=".85"/>
+      <path d="M18 102c4-6 9-6 12 0M19 101l-2 9M29 101l3 9" stroke="#0a5458" stroke-width=".9"/>
+      <path d="m20 35 2 4 4 2-4 2-2 4-2-4-4-2 4-2Zm58 57 2 3 3 2-3 2-2 3-2-3-3-2 3-2Z" stroke="#b98632" stroke-width=".65"/>
+      <path d="M12 119h68" stroke="#b98632" stroke-width=".7"/>
+      <text x="46" y="132" fill="#a97829" font-family="Georgia,serif" font-size="7.5" text-anchor="middle" letter-spacing="1">THE FOOL</text>
+      <path d="m9 9 4 2 2 4 2-4 4-2-4-2-2-4-2 4Zm60 0 4 2 2 4 2-4 4-2-4-2-2-4-2 4ZM9 136l4-2 2-4 2 4 4 2-4 2-2 4-2-4Zm60 0 4-2 2-4 2 4 4 2-4 2-2 4-2-4Z" fill="#d8b76d" stroke="#b98632" stroke-width=".5"/>
+    </g>
+  </g>
+</svg>

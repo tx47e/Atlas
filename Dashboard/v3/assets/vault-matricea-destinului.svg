@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 170" fill="none">
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="84" r="74" stroke="#0a5458" stroke-width="1.2" stroke-dasharray="1 5"/>
+    <circle cx="120" cy="84" r="49" stroke="#b98632" stroke-width=".75"/>
+    <circle cx="120" cy="84" r="34" stroke="#b98632" stroke-width=".6" stroke-dasharray="2 3"/>
+    <path d="m120 10 52 22 23 52-23 52-52 24-52-24-23-52 23-52Z" stroke="#0a5458" stroke-width="1.35"/>
+    <path d="M120 10v150M45 84h150M68 32l104 104M172 32 68 136" stroke="#0a5458" stroke-width=".9"/>
+    <path d="M120 10 88 84l32 76 32-76ZM45 84l75-35 75 35-75 35Z" stroke="#b98632" stroke-width=".7" stroke-dasharray="2 3"/>
+    <path d="m88 35 13 49-13 49M152 35l-13 49 13 49M52 61l68 23-68 23M188 61l-68 23 68 23" stroke="#b98632" stroke-width=".55"/>
+
+    <g fill="#fffaf0" stroke="#0a5458" stroke-width="1.5">
+      <circle cx="120" cy="10" r="16"/><circle cx="172" cy="32" r="14"/><circle cx="195" cy="84" r="14"/>
+      <circle cx="172" cy="136" r="14"/><circle cx="120" cy="160" r="16"/><circle cx="68" cy="136" r="14"/>
+      <circle cx="45" cy="84" r="14"/><circle cx="68" cy="32" r="14"/>
+      <circle cx="120" cy="84" r="19"/>
+    </g>
+    <circle cx="120" cy="84" r="14" stroke="#b98632" stroke-width=".9"/>
+    <g fill="#a97829" font-family="Georgia,serif" text-anchor="middle">
+      <text x="120" y="16" font-size="15">9</text><text x="172" y="38" font-size="14">7</text>
+      <text x="195" y="90" font-size="14">6</text><text x="172" y="142" font-size="14">4</text>
+      <text x="120" y="166" font-size="15">1</text><text x="68" y="142" font-size="14">8</text>
+      <text x="45" y="90" font-size="14">3</text><text x="68" y="38" font-size="14">2</text>
+      <text x="120" y="91" font-size="19">5</text>
+    </g>
+
+    <g fill="#fffaf0" stroke="#0a5458" stroke-width="1">
+      <circle cx="120" cy="35" r="4"/><circle cx="169" cy="84" r="4"/><circle cx="120" cy="133" r="4"/><circle cx="71" cy="84" r="4"/>
+    </g>
+    <path d="M31 35c5-4 10-4 14 0M31 35c1 7 6 9 12 4M197 26c5 1 8 5 8 10-7 1-11-3-8-10ZM28 132c6-2 11 1 12 7-6 2-11-1-12-7ZM202 132c-6-2-11 1-12 7 6 2 11-1 12-7Z" fill="#d8b76d" fill-opacity=".42" stroke="#b98632" stroke-width=".8"/>
+  </g>
+</svg>
