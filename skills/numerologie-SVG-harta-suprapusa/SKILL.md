@@ -1,7 +1,6 @@
 ---
 name: numerologie-SVG-harta-suprapusa
 description: Creeaza SVG-uri autonome pentru Harta Suprapusa Soarta-Destin, cu ciclurile de 7, 9 si 12 ani, ani interiori si exteriori, lectii de viata, pinacluri, oportunitati si provocari. Foloseste cand utilizatorul cere harta suprapusa, soarta si destin suprapuse sau ciclicitati numerologice.
-tags: [skill]
 ---
 
 # Harta Suprapusa
@@ -35,7 +34,7 @@ Nu modifica manual SVG-ul dupa generare. Corecteaza scriptul si regenereaza.
 4. Zona de confort: media cifrelor fiecarei serii de 7 cifre.
 5. Lectii de viata: cifrele produsului `zi * luna * an`, repetate pe ani.
 6. Ani interiori: aduna anual valoarea redusa a anului curent; ani exteriori: aduna suma bruta a cifrelor anului curent.
-7. Pinacluri: foloseste vibratia interioara, vibratia exterioara, vibratia redusa a anului si destinul; oportunitatile si provocarile sunt cele patru valori asociate pinaclurilor.
+7. Pinacluri: foloseste vibratia interioara, vibratia exterioara, vibratia redusa a anului si Destinul compus. Limita Pinaclului 1 este `36 - Destinul compus`, fara reducerea acestuia la cifra de interpretare; Pinaclurile 2 si 3 au cate 10 ani inclusivi, iar Pinaclul 4 incepe in anul urmator. Pentru Destin `12`, intervalele sunt `0-24`, `25-34`, `35-44`, `45+`. Oportunitatile si provocarile sunt cele patru valori asociate pinaclurilor.
 8. Ciclurile se deseneaza la 7 ani, 9 ani si 12 ani; crizele ciclului 7 sunt la `3.5 + 7n` ani.
 
 Foloseste `->` pentru orice afisare a unui traseu de calcul cu mai multi pasi.

@@ -36,7 +36,11 @@ in PATH. Nu modifica manual SVG-ul dupa generare; corecteaza scriptul si regener
 
 ## Calcul
 
-1. Numara cifrele brute `0-9` din fiecare data de nastere.
+1. Numara cifrele `0-9` din valorile reale ale zilei, lunii si anului. Zeroul
+   folosit numai pentru formatarea zilelor sau lunilor `01-09` se elimina
+   inainte de numarare: `01` devine `1`, iar `09` devine `9`. Pastreaza
+   zerourile care apartin valorii reale: zilele `10`, `20`, `30`, luna `10`
+   si anii precum `1990` sau `2001`.
 2. Afiseaza la fiecare pozitie grupurile persoanei A si B, separate prin ` / `.
    In livrarea pentru lucrare, omite pozitia cand cifra lipseste din ambele date.
    Nu afisa `- / -` in lucrarea livrata si nu inventa valori.

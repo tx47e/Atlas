@@ -464,6 +464,13 @@ Index: {{cod_lucrare}}-CAP-011
 Index: {{cod_lucrare}}-P-024b
 De-a lungul vieții, treci prin patru pinacluri, fiecare cu propria oportunitate și propria provocare. Oportunitatea arată direcția pe care viața o poate deschide, iar provocarea arată lecția care îți cere maturizare pentru a folosi constructiv acea direcție.
 
+Index: {{cod_lucrare}}-C-013
+> [!example] Calcul
+> Calea Destinului: **{{calea_destinului}}**
+> Destin compus: **{{destin_compus}}**
+> Limita Pinaclului 1: 36 - **{{destin_compus}}** = **{{limita_pinaclu_1}}**
+> Pinacluri: **{{interval_1}}** -> **{{interval_2}}** -> **{{interval_3}}** -> **{{interval_4}}**
+
 Index: {{cod_lucrare}}-T-003
 | Pinaclu | Interval | Oportunitate | Provocare | Interpretare |
 | --- | --- | ---: | ---: | --- |

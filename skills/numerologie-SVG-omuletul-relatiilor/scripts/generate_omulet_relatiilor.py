@@ -3,6 +3,7 @@
 from __future__ import annotations
 import argparse
 from collections import Counter
+from datetime import date
 import os
 from pathlib import Path
 import shutil
@@ -61,11 +62,25 @@ def export_png(svg_path: Path, png_path: Path) -> None:
             f"Dimensiuni PNG invalide: {width}x{height}; asteptat {PNG_WIDTH}x{PNG_HEIGHT}."
         )
 
-def digits(value: str) -> list[int]:
-    return [int(char) for char in value if char.isdigit()]
+def parse_birth_date(value: str) -> tuple[int, int, int]:
+    parts = value.replace("/", ".").replace("-", ".").split(".")
+    if len(parts) != 3:
+        raise ValueError(f"Data invalida: {value}. Foloseste ZZ.LL.AAAA.")
+    day, month, year = (int(part) for part in parts)
+    date(year, month, day)
+    return day, month, year
+
+
+def birth_date_digits(value: str) -> list[int]:
+    day, month, year = parse_birth_date(value)
+    # Zerourile folosite doar pentru formatarea zilelor/lunilor 1-9 nu sunt
+    # energii numerologice. Zerourile din valorile reale (10, 20, 30, 1990)
+    # raman in sirul analizat.
+    normalized = f"{day}{month}{year}"
+    return [int(char) for char in normalized]
 
 def reduce_day(value: str) -> int:
-    number = int(value.replace("/", ".").replace("-", ".").split(".")[0])
+    number, _, _ = parse_birth_date(value)
     while number > 9:
         number = sum(int(char) for char in str(number))
     return number
@@ -82,7 +97,8 @@ def main() -> int:
         help="Afiseaza - / - pentru cifrele absente la ambele persoane; folosit numai pentru referinta.",
     )
     args = parser.parse_args()
-    left, right = Counter(digits(args.birth_date_a)), Counter(digits(args.birth_date_b))
+    left = Counter(birth_date_digits(args.birth_date_a))
+    right = Counter(birth_date_digits(args.birth_date_b))
     va, vb = reduce_day(args.birth_date_a), reduce_day(args.birth_date_b)
     together_sum = va + vb
     together = together_sum
@@ -108,7 +124,7 @@ def main() -> int:
         right_x = x + len(value) * 7 - len(b) * 7
         boxes.append(f'<rect x="{x-width/2:.1f}" y="{y-22:.1f}" width="{width:.1f}" height="44" rx="5" fill="#ffffff" stroke="#d5d5d5" stroke-width="1.5" opacity=".98"/><text x="{left_x:.1f}" y="{y+7:.1f}" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="{LABEL_FONT_WEIGHT}" fill="#0070c9">{a}</text><text x="{x:.1f}" y="{y+7:.1f}" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="{LABEL_FONT_WEIGHT}" fill="#333333"> / </text><text x="{right_x:.1f}" y="{y+7:.1f}" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="{LABEL_FONT_WEIGHT}" fill="#ff00b8">{b}</text>')
     fire = sum(left[n] + right[n] for n in (1,5,9)); water = sum(left[n] + right[n] for n in (2,6)); air = sum(left[n] + right[n] for n in (3,7)); earth = sum(left[n] + right[n] for n in (4,8)); potential = left[0] + right[0]
-    header = f'''<style>.value,.soft{{display:none}}</style><g id="generated-overlay"><rect x="0" y="0" width="900" height="116" fill="#f4dcb6" opacity=".96"/><text x="24" y="32" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#0070c9">{args.name_a} - {args.birth_date_a}</text><text x="24" y="58" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#ff00b8">{args.name_b} - {args.birth_date_b}</text><text x="560" y="32" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#4f4f4f">Realizare impreuna: {together_display}</text><text x="560" y="58" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#4f4f4f">De rezolvat impreuna: |{va} - {vb}| = {abs(va-vb)}</text>{''.join(boxes)}<rect x="0" y="770" width="900" height="70" fill="#f4dcb6" opacity=".96"/><text x="24" y="790" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#333333">Sinteza elemente</text><text x="24" y="814" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#555555">Foc: {fire}   Apa: {water}   Aer: {air}   Pamant: {earth}   Potential/0: {potential}</text></g><text x="880" y="825" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#aaa" font-weight="800">Atlas Numerologie</text>'''
+    header = f'''<style>.value,.soft,.legend,.legend-small,.summary-title,.summary{{display:none}}</style><g id="generated-overlay"><rect x="0" y="0" width="900" height="116" fill="#f4dcb6" opacity=".96"/><text x="24" y="32" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#0070c9">{args.name_a} - {args.birth_date_a}</text><text x="24" y="58" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#ff00b8">{args.name_b} - {args.birth_date_b}</text><text x="560" y="32" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#4f4f4f">Realizare impreuna: {together_display}</text><text x="560" y="58" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#4f4f4f">De rezolvat impreuna: |{va} - {vb}| = {abs(va-vb)}</text>{''.join(boxes)}<rect x="0" y="770" width="900" height="70" fill="#f4dcb6" opacity=".96"/><text x="24" y="790" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#333333">Sinteza elemente</text><text x="24" y="814" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#555555">Foc: {fire}   Apa: {water}   Aer: {air}   Pamant: {earth}   Potential/0: {potential}</text></g><text x="880" y="825" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#aaa" font-weight="800">Atlas Numerologie</text>'''
     svg = (ROOT / "assets" / "reference.svg").read_text(encoding="utf-8")
     svg = svg.replace("</svg>", header + "</svg>")
     args.output.parent.mkdir(parents=True, exist_ok=True)

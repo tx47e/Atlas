@@ -78,7 +78,8 @@ def harta_data(name, birth_date):
     destiny_digits = [int(digit) for digit in destiny_number]
     vi = numerological_reduce(day)
     ve = numerological_reduce(month)
-    destin = numerological_reduce(day + month + birth_year)
+    calea_destinului = digit_sum(f"{day:02d}{month:02d}{birth_year:04d}")
+    destin_compus = digit_sum(calea_destinului)
     year_digit = numerological_reduce(birth_year)
     opportunities = [
         numerological_reduce(ve + vi),
@@ -89,9 +90,9 @@ def harta_data(name, birth_date):
     opportunities[2] = numerological_reduce(opportunities[0] + opportunities[1])
     challenges = [abs(vi - ve), abs(vi - year_digit), 0, abs(ve - year_digit)]
     challenges[2] = abs(challenges[0] - challenges[1])
-    p1_end = 36 - destin
-    p2_end = p1_end + 9
-    p3_end = p2_end + 9
+    p1_end = 36 - destin_compus
+    p2_end = p1_end + 10
+    p3_end = p2_end + 10
     return {
         "name": name,
         "birth_date": f"{day:02d}.{month:02d}.{birth_year:04d}",

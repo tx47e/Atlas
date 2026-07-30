@@ -8,6 +8,18 @@
     "gen": "masculin",
     "nume_anterior": null
   },
+  "interval_calculat": {
+    "varsta_initiala": 0,
+    "varsta_finala": 108,
+    "an_initial": 1998,
+    "an_final": 2106,
+    "observatie": "Toate seriile temporale sunt calculate complet; selectia pentru afisare se face numai la redactarea lucrarii."
+  },
+  "selectie_afisare_solicitata": {
+    "an_start": 1998,
+    "an_final": 2106,
+    "observatie": "Nu limiteaza calculele. Poate fi folosita de template pentru selectarea perioadei afisate."
+  },
   "capitolul_2_formule_calcule_tabele_grafice": {
     "2.1_codul_numerologic_personal_data_nasterii": {
       "vibratia_interioara": {
@@ -94,11 +106,17 @@
         "rezultat": 39
       },
       "destinul_vibratia_destinului": {
-        "formula": "reducere_numerologica(calea destinului)",
+        "formula": "reducere_o_singura_data(calea destinului)",
         "calcul": {
           "intrare": 39,
           "pasi": [
-            "3 + 9 = 12",
+            "3 + 9 = 12"
+          ],
+          "rezultat": 12
+        },
+        "cifra_interpretare": {
+          "intrare": 12,
+          "pasi": [
             "1 + 2 = 3"
           ],
           "rezultat": 3
@@ -208,50 +226,58 @@
         "123": {
           "denumire": "Energie",
           "cifre": "11112233",
+          "cantitate": 8,
           "valoare": 14,
           "este_plin": true
-        },
-        "147": {
-          "denumire": "Spiritualitate",
-          "cifre": "11117",
-          "valoare": 11,
-          "este_plin": false
-        },
-        "159": {
-          "denumire": "Cariera",
-          "cifre": "11119999",
-          "valoare": 40,
-          "este_plin": false
-        },
-        "258": {
-          "denumire": "Social",
-          "cifre": "228",
-          "valoare": 12,
-          "este_plin": false
-        },
-        "357": {
-          "denumire": "Scopuri",
-          "cifre": "337",
-          "valoare": 13,
-          "este_plin": false
-        },
-        "369": {
-          "denumire": "Bunastare materiala",
-          "cifre": "339999",
-          "valoare": 42,
-          "este_plin": false
         },
         "456": {
           "denumire": "Vointa",
           "cifre": "-",
+          "cantitate": 0,
           "valoare": 0,
           "este_plin": false
         },
         "789": {
           "denumire": "Creativitate",
           "cifre": "789999",
+          "cantitate": 6,
           "valoare": 51,
           "este_plin": true
+        },
+        "147": {
+          "denumire": "Spiritualitate",
+          "cifre": "11117",
+          "cantitate": 5,
+          "valoare": 11,
+          "este_plin": false
+        },
+        "258": {
+          "denumire": "Social",
+          "cifre": "228",
+          "cantitate": 3,
+          "valoare": 12,
+          "este_plin": false
+        },
+        "369": {
+          "denumire": "Bunastare materiala",
+          "cifre": "339999",
+          "cantitate": 6,
+          "valoare": 42,
+          "este_plin": false
+        },
+        "159": {
+          "denumire": "Cariera",
+          "cifre": "11119999",
+          "cantitate": 8,
+          "valoare": 40,
+          "este_plin": false
+        },
+        "357": {
+          "denumire": "Scopuri",
+          "cifre": "337",
+          "cantitate": 3,
+          "valoare": 13,
+          "este_plin": false
         }
       },
       "figuri_geometrice": {
@@ -267,44 +293,39 @@
         "status": "calcul_cantitativ_initial"
       },
       "tendinte": {
-        "casute_dominante": [
-          "9"
-        ],
-        "casute_lipsa": [
-          "4",
-          "5",
-          "6"
-        ]
+        "rezultat": null,
+        "observatie": "Nu exista vector diagonal plin; nu exista tendinta matriceala clara."
       },
       "fixatia": {
-        "vectori_dominanti": [
-          "789"
-        ],
-        "valoare": 51
+        "rezultat": null,
+        "observatie": "Nu exista vector orizontal plin; nu exista fixatie matriceala clara."
       },
       "caii_trasura_vizitiul": {
         "caii_123": {
           "denumire": "Energie",
           "cifre": "11112233",
+          "cantitate": 8,
           "valoare": 14,
           "este_plin": true
         },
         "trasura_456": {
           "denumire": "Vointa",
           "cifre": "-",
+          "cantitate": 0,
           "valoare": 0,
           "este_plin": false
         },
         "vizitiul_789": {
           "denumire": "Creativitate",
           "cifre": "789999",
+          "cantitate": 6,
           "valoare": 51,
           "este_plin": true
         }
       },
       "curgerea_energiei": {
         "status": "de_completat",
-        "observatie": "Metoda nu este implementata complet in calculatorul curent."
+        "observatie": "Necesita formalizare completa din vault/Numerologie/Curgerea Energiei.md."
       },
       "comparatia_cu_optimul": {
         "1": {
@@ -954,49 +975,57 @@
           "123": {
             "denumire": "Energie",
             "cifre": "1112223",
+            "cantitate": 7,
             "valoare": 12,
-            "este_plin": true
-          },
-          "147": {
-            "denumire": "Spiritualitate",
-            "cifre": "1114",
-            "valoare": 7,
-            "este_plin": false
-          },
-          "159": {
-            "denumire": "Cariera",
-            "cifre": "111555599999",
-            "valoare": 68,
-            "este_plin": true
-          },
-          "258": {
-            "denumire": "Social",
-            "cifre": "2225555",
-            "valoare": 26,
-            "este_plin": false
-          },
-          "357": {
-            "denumire": "Scopuri",
-            "cifre": "35555",
-            "valoare": 23,
-            "este_plin": false
-          },
-          "369": {
-            "denumire": "Bunastare materiala",
-            "cifre": "36699999",
-            "valoare": 60,
             "este_plin": true
           },
           "456": {
             "denumire": "Vointa",
             "cifre": "4555566",
+            "cantitate": 7,
             "valoare": 36,
             "este_plin": true
           },
           "789": {
             "denumire": "Creativitate",
             "cifre": "99999",
+            "cantitate": 5,
             "valoare": 45,
+            "este_plin": false
+          },
+          "147": {
+            "denumire": "Spiritualitate",
+            "cifre": "1114",
+            "cantitate": 4,
+            "valoare": 7,
+            "este_plin": false
+          },
+          "258": {
+            "denumire": "Social",
+            "cifre": "2225555",
+            "cantitate": 7,
+            "valoare": 26,
+            "este_plin": false
+          },
+          "369": {
+            "denumire": "Bunastare materiala",
+            "cifre": "36699999",
+            "cantitate": 8,
+            "valoare": 60,
+            "este_plin": true
+          },
+          "159": {
+            "denumire": "Cariera",
+            "cifre": "111555599999",
+            "cantitate": 12,
+            "valoare": 68,
+            "este_plin": true
+          },
+          "357": {
+            "denumire": "Scopuri",
+            "cifre": "35555",
+            "cantitate": 5,
+            "valoare": 23,
             "este_plin": false
           }
         },
@@ -1014,43 +1043,43 @@
           "status": "calcul_cantitativ_initial"
         },
         "tendinte": {
-          "casute_dominante": [
-            "9"
-          ],
-          "casute_lipsa": [
-            "7",
-            "8"
-          ]
-        },
-        "fixatia": {
           "vectori_dominanti": [
             "159"
           ],
-          "valoare": 68
+          "cantitate": 12
+        },
+        "fixatia": {
+          "vectori_dominanti": [
+            "369"
+          ],
+          "cantitate": 8
         },
         "caii_trasura_vizitiul": {
           "caii_123": {
             "denumire": "Energie",
             "cifre": "1112223",
+            "cantitate": 7,
             "valoare": 12,
             "este_plin": true
           },
           "trasura_456": {
             "denumire": "Vointa",
             "cifre": "4555566",
+            "cantitate": 7,
             "valoare": 36,
             "este_plin": true
           },
           "vizitiul_789": {
             "denumire": "Creativitate",
             "cifre": "99999",
+            "cantitate": 5,
             "valoare": 45,
             "este_plin": false
           }
         },
         "curgerea_energiei": {
           "status": "de_completat",
-          "observatie": "Metoda nu este implementata complet in calculatorul curent."
+          "observatie": "Necesita formalizare completa din vault/Numerologie/Curgerea Energiei.md."
         },
         "comparatia_cu_optimul": {
           "1": {
@@ -1888,55 +1917,99 @@
       "ciclul_de_7_ani": [
         {
           "ciclu": 1,
-          "interval_varsta": "0-6"
+          "interval_varsta": "0-6",
+          "inceput_varsta": 0,
+          "sfarsit_varsta": 6
         },
         {
           "ciclu": 2,
-          "interval_varsta": "7-13"
+          "interval_varsta": "7-13",
+          "inceput_varsta": 7,
+          "sfarsit_varsta": 13
         },
         {
           "ciclu": 3,
-          "interval_varsta": "14-20"
+          "interval_varsta": "14-20",
+          "inceput_varsta": 14,
+          "sfarsit_varsta": 20
         },
         {
           "ciclu": 4,
-          "interval_varsta": "21-27"
+          "interval_varsta": "21-27",
+          "inceput_varsta": 21,
+          "sfarsit_varsta": 27
         },
         {
           "ciclu": 5,
-          "interval_varsta": "28-34"
+          "interval_varsta": "28-34",
+          "inceput_varsta": 28,
+          "sfarsit_varsta": 34
         },
         {
           "ciclu": 6,
-          "interval_varsta": "35-41"
+          "interval_varsta": "35-41",
+          "inceput_varsta": 35,
+          "sfarsit_varsta": 41
         },
         {
           "ciclu": 7,
-          "interval_varsta": "42-48"
+          "interval_varsta": "42-48",
+          "inceput_varsta": 42,
+          "sfarsit_varsta": 48
         },
         {
           "ciclu": 8,
-          "interval_varsta": "49-55"
+          "interval_varsta": "49-55",
+          "inceput_varsta": 49,
+          "sfarsit_varsta": 55
         },
         {
           "ciclu": 9,
-          "interval_varsta": "56-62"
+          "interval_varsta": "56-62",
+          "inceput_varsta": 56,
+          "sfarsit_varsta": 62
         },
         {
           "ciclu": 10,
-          "interval_varsta": "63-69"
+          "interval_varsta": "63-69",
+          "inceput_varsta": 63,
+          "sfarsit_varsta": 69
         },
         {
           "ciclu": 11,
-          "interval_varsta": "70-76"
+          "interval_varsta": "70-76",
+          "inceput_varsta": 70,
+          "sfarsit_varsta": 76
         },
         {
           "ciclu": 12,
-          "interval_varsta": "77-83"
+          "interval_varsta": "77-83",
+          "inceput_varsta": 77,
+          "sfarsit_varsta": 83
         },
         {
           "ciclu": 13,
-          "interval_varsta": "84-90"
+          "interval_varsta": "84-90",
+          "inceput_varsta": 84,
+          "sfarsit_varsta": 90
+        },
+        {
+          "ciclu": 14,
+          "interval_varsta": "91-97",
+          "inceput_varsta": 91,
+          "sfarsit_varsta": 97
+        },
+        {
+          "ciclu": 15,
+          "interval_varsta": "98-104",
+          "inceput_varsta": 98,
+          "sfarsit_varsta": 104
+        },
+        {
+          "ciclu": 16,
+          "interval_varsta": "105-108",
+          "inceput_varsta": 105,
+          "sfarsit_varsta": 108
         }
       ],
       "ciclul_de_9_ani": [
@@ -2601,43 +2674,63 @@
       "ciclul_de_12_ani": [
         {
           "ciclu": 1,
-          "interval_varsta": "0-11"
+          "interval_varsta": "0-11",
+          "inceput_varsta": 0,
+          "sfarsit_varsta": 11
         },
         {
           "ciclu": 2,
-          "interval_varsta": "12-23"
+          "interval_varsta": "12-23",
+          "inceput_varsta": 12,
+          "sfarsit_varsta": 23
         },
         {
           "ciclu": 3,
-          "interval_varsta": "24-35"
+          "interval_varsta": "24-35",
+          "inceput_varsta": 24,
+          "sfarsit_varsta": 35
         },
         {
           "ciclu": 4,
-          "interval_varsta": "36-47"
+          "interval_varsta": "36-47",
+          "inceput_varsta": 36,
+          "sfarsit_varsta": 47
         },
         {
           "ciclu": 5,
-          "interval_varsta": "48-59"
+          "interval_varsta": "48-59",
+          "inceput_varsta": 48,
+          "sfarsit_varsta": 59
         },
         {
           "ciclu": 6,
-          "interval_varsta": "60-71"
+          "interval_varsta": "60-71",
+          "inceput_varsta": 60,
+          "sfarsit_varsta": 71
         },
         {
           "ciclu": 7,
-          "interval_varsta": "72-83"
+          "interval_varsta": "72-83",
+          "inceput_varsta": 72,
+          "sfarsit_varsta": 83
         },
         {
           "ciclu": 8,
-          "interval_varsta": "84-95"
+          "interval_varsta": "84-95",
+          "inceput_varsta": 84,
+          "sfarsit_varsta": 95
         },
         {
           "ciclu": 9,
-          "interval_varsta": "96-107"
+          "interval_varsta": "96-107",
+          "inceput_varsta": 96,
+          "sfarsit_varsta": 107
         },
         {
           "ciclu": 10,
-          "interval_varsta": "108-119"
+          "interval_varsta": "108-108",
+          "inceput_varsta": 108,
+          "sfarsit_varsta": 108
         }
       ],
       "ciclul_de_27_ani": {
@@ -2648,32 +2741,35 @@
           "zi_redusa": 1,
           "luna_redusa": 2,
           "an_redus": 9,
-          "vibratia_destinului": 3
+          "calea_destinului": 39,
+          "destin_compus": 12,
+          "rol_destin_compus": "valoarea folosita fara reducere suplimentara la limita Pinaclului 1",
+          "formula_limita_pinaclul_1": "36 - Destinul compus"
         },
         "zona_confort_oportunitati": 2.5,
         "zona_confort_provocari": 5.75,
         "randuri": [
           {
             "pinaclu": 1,
-            "interval_varsta": "0-33",
+            "interval_varsta": "0-24",
             "oportunitate": 3,
             "provocare": 1
           },
           {
             "pinaclu": 2,
-            "interval_varsta": "34-42",
+            "interval_varsta": "25-34",
             "oportunitate": 1,
             "provocare": 8
           },
           {
             "pinaclu": 3,
-            "interval_varsta": "43-51",
+            "interval_varsta": "35-44",
             "oportunitate": 4,
             "provocare": 7
           },
           {
             "pinaclu": 4,
-            "interval_varsta": "52+",
+            "interval_varsta": "45+",
             "oportunitate": 2,
             "provocare": 7
           }
@@ -2747,7 +2843,7 @@
         "formula_initiala": "reducere_numerologica(ziua + luna)",
         "cod_spirit": 3,
         "status": "partial",
-        "observatie": "Etapele, subetapele si varsta spiritului nu sunt implementate complet in calculatorul curent."
+        "observatie": "Etapele, subetapele si varsta spiritului necesita transcrierea completa din vault/Numerologie/Codul Spiritului.md."
       },
       "etape_si_subetape": {
         "status": "de_completat"
@@ -2762,7 +2858,7 @@
         "baza": 8,
         "gen": "masculin",
         "status": "partial",
-        "observatie": "Formula pe gen nu este implementata complet in calculatorul curent."
+        "observatie": "Formula pe gen trebuie completata din vault/Numerologie/Directiile de Succes.md."
       },
       "triunghiul_financiar": {
         "formula": "zi redusa + luna redusa + an redus + destin redus",
@@ -2787,15 +2883,15 @@
           6
         ],
         "casute": {
-          "1": 26,
+          "4": 19,
+          "9": 20,
           "2": 21,
           "3": 22,
-          "4": 19,
           "5": 23,
-          "6": 27,
           "7": 24,
           "8": 25,
-          "9": 20
+          "1": 26,
+          "6": 27
         },
         "randuri": [
           [

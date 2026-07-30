@@ -613,7 +613,7 @@ Index: BDR-19980219-v1.00r-SUB-012a
 ### 6.4. Karma din Calea Destinului
 
 Index: BDR-19980219-v1.00r-P-015a
-Karma din Calea Destinului arată ritmul karmic al vieții și felul în care se pot manifesta șansele, obstacolele și ajutoarele de-a lungul drumului. Calculul pornește de la toate cifrele datei de naștere, dar rezultatul se păstrează neredus complet. Astfel, nu citim numai Destinul final **3**, ci și amprenta compusă **39**, deoarece ea păstrează nuanța karmică pe care reducerea ar pierde-o.
+Karma din Calea Destinului arată ritmul karmic al vieții și felul în care se pot manifesta șansele, obstacolele și ajutoarele de-a lungul drumului. Calculul pornește de la toate cifrele datei de naștere, iar rezultatul se păstrează neredus complet. Astfel, nu citim numai cifra de interpretare **3**, ci mai ales amprenta compusă **39**, deoarece ea păstrează nuanța karmică pe care reducerea ar pierde-o.
 
 Index: BDR-19980219-v1.00r-C-003a
 > [!example] Calcul
@@ -624,7 +624,12 @@ Index: BDR-19980219-v1.00r-C-003a
 > Intervalul 30–39 = categoria karmică **3**
 
 Index: BDR-19980219-v1.00r-P-015b
-**Numărul minții.** Daniel, ești un om foarte inteligent, cu o gândire puternică și profundă. Poți ajunge foarte departe prin capacitatea ta de a înțelege, de a face legături și de a transforma informația în cunoaștere. În această lectură karmică, frâna ta poate fi invidia față de oamenii care îți seamănă sau care, într-un anumit domeniu, au ajuns mai departe decât tine. Când lași comparația să devină invidie, ea îți „ascute sabia karmei”: îți consumă energia, îți tulbură judecata și poate favoriza stresul, autosabotajul sau refugiul în obiceiuri distructive, precum jocurile de noroc, alcoolul ori alte substanțe. Aceste consecințe nu sunt inevitabile; ele reprezintă un avertisment simbolic despre felul în care o emoție necontrolată îți poate devia potențialul. Nu-i invidia pe cei mai buni, ci observă-i, admiră-le munca și învață de la ei, pentru că și ei au fost cândva la început. Elimină invidia din viața ta sub toate formele și transformă comparația în inspirație. În plan simbolic, această karmă păstrează și imaginea unei vieți anterioare consumate prin jocuri de noroc, patimi și risipirea timpului fără o construcție adevărată. Tocmai de aceea, lecția ta actuală este să alegi luciditatea, disciplina și creația: să folosești mintea pe care o ai pentru a construi, nu pentru a te compara.
+**Numărul minții.** Daniel, Karma din Calea Destinului **39** este asociată simbolic cu Arcana **17 — Steaua** și vorbește despre o minte foarte inteligentă, puternică și profundă, capabilă să înțeleagă repede, să observe legături pe care alții nu le văd și să transforme informația în cunoaștere, inspirație și direcție pentru ceilalți. Documentația descrie această cale prin imaginea unui drum pe care pot apărea mai multe obstacole și mai puține ajutoare directe, precum și prin metafora unor „bile negre” mai numeroase decât „bilele albe”; nu este un verdict că vei fi lipsit de sprijin, ci o invitație să nu aștepți ca lucrurile să se așeze singure și să îți construiești conștient disciplina, aliații și oportunitățile. Poți ajunge foarte departe prin capacitatea ta mentală, însă frâna acestei energii poate fi invidia față de oamenii care îți seamănă sau care, într-un anumit domeniu, au ajuns mai departe decât tine. Când comparația se transformă în invidie, ea îți poate consuma energia, îți poate tulbura judecata și poate deschide drumul către stres, autosabotaj ori refugierea în obiceiuri distructive, pe care tradiția le simbolizează prin jocuri de noroc, alcool sau alte dependențe; acestea nu sunt consecințe inevitabile, ci avertismente despre ce se poate întâmpla atunci când mintea ta puternică nu mai construiește, ci se luptă permanent cu reușitele altora. Imaginea unei vieți anterioare risipite în patimi și jocuri de noroc trebuie citită tot simbolic: ea îți amintește să nu îți arzi timpul, talentul și inteligența fără să lași ceva concret în urma ta. În același registru, valoarea **39** este asociată și cu o receptivitate aparte față de simboluri, ezoterism și limbajul runic, dar această deschidere devine folositoare numai când este însoțită de discernământ și studiu serios. Lecția ta este să îi observi pe cei mai buni, să le admiri munca și să înveți de la ei, transformând comparația în inspirație, invidia în curiozitate și inteligența în creație, astfel încât Steaua să nu rămână doar o promisiune sau un ideal îndepărtat, ci să devină lumina după care îți organizezi pașii și o contribuție reală pe care o oferi lumii.
+
+Index: BDR-19980219-v1.00r-G-001b
+![Arcana 17 — Steaua. Karma din Calea Destinului 39](tarot-17-steaua-obstacole-profesionale.jpg)
+
+_Arcana 17 — Steaua. Karma din Calea Destinului 39._
 
 Index: BDR-19980219-v1.00r-SUB-012b
 ### 6.5. Concluzie: direcția de lucru
@@ -638,28 +643,35 @@ Index: BDR-19980219-v1.00r-CAP-010
 Index: BDR-19980219-v1.00r-P-024b
 De-a lungul vieții, treci prin patru pinacluri, fiecare cu propria oportunitate și propria provocare, structurate în tabelul de mai jos. Oportunitatea arată direcția pe care viața o poate deschide, iar provocarea arată lecția care îți cere maturizare ca să poți folosi acea direcție în mod constructiv.
 
+Index: BDR-19980219-v1.00r-C-013
+> [!example] Calcul
+> Calea Destinului: **39**
+> Destin compus: **3 + 9 = 12**
+> Limita Pinaclului 1: 36 - **12** = **24**
+> Pinacluri: **0–24 ani** -> **25–34 ani** -> **35–44 ani** -> **45 ani–sfârșit**
+
 Index: BDR-19980219-v1.00r-T-003
 | Pinaclu | Interval | Oportunitate | Provocare | Interpretare |
 | --- | --- | ---: | ---: | --- |
-| 1 | 0–33 ani | 3 | 1 | Comunicarea și creativitatea sunt oportunitatea; provocarea este să te afirmi fără grabă sau izolare. |
-| 2 | 34–42 ani | 1 | 8 | Autonomia devine oportunitate, iar provocarea 8 cere administrarea matură a banilor, puterii și responsabilității. |
-| 3 | 43–51 ani | 4 | 7 | Construcția pas cu pas este favorizată; provocarea 7 cere încredere, analiză și timp interior. |
-| 4 | 52+ ani | 2 | 7 | Cooperarea și diplomația devin resurse; provocarea 7 păstrează lecția discernământului și a profunzimii. |
+| 1 | 0–24 ani | 3 | 1 | Comunicarea și creativitatea sunt oportunitatea; provocarea este să te afirmi fără grabă sau izolare. |
+| 2 | 25–34 ani | 1 | 8 | Autonomia devine oportunitate, iar provocarea 8 cere administrarea matură a banilor, puterii și responsabilității. |
+| 3 | 35–44 ani | 4 | 7 | Construcția pas cu pas este favorizată; provocarea 7 cere încredere, analiză și timp interior. |
+| 4 | 45+ ani | 2 | 7 | Cooperarea și diplomația devin resurse; provocarea 7 păstrează lecția discernământului și a profunzimii. |
 
 Index: BDR-19980219-v1.00r-P-024c
-**Pinaclul 1: până la 33 de ani**, Oportunitatea **3** îți deschide comunicarea, creativitatea, imaginația și posibilitatea de a urca pe scara socială prin oameni, idei și un cerc larg de prieteni. Provocarea **1** te pune însă în situații în care trebuie să te descurci singur, să îți câștigi independența și să înveți leadershipul. Nu aștepta mereu confirmare: exprimă-te, dar asumă și primul pas.
+**Pinaclul 1: până la 24 de ani**, Oportunitatea **3** îți deschide comunicarea, creativitatea, imaginația și posibilitatea de a urca pe scara socială prin oameni, idei și un cerc larg de prieteni. Provocarea **1** te pune însă în situații în care trebuie să te descurci singur, să îți câștigi independența și să înveți leadershipul. Nu aștepta mereu confirmare: exprimă-te, dar asumă și primul pas.
 
 Index: BDR-19980219-v1.00r-P-024d
-**Pinaclul 2: între 34 și 42 de ani**, Oportunitatea **1** te cheamă către poziții de conducere, inițiativă, originalitate și întărirea capacității psihice. Provocarea **8** aduce lecții despre responsabilitate, autoritate, putere de sacrificiu, respect pentru karmă și pentru consecințele puterii. Pot apărea și contexte de luptă pentru influență; cheia este să conduci ferm, fără să transformi autoritatea în control.
+**Pinaclul 2: între 25 și 34 de ani**, Oportunitatea **1** te cheamă către poziții de conducere, inițiativă, originalitate și întărirea capacității psihice. Provocarea **8** aduce lecții despre responsabilitate, autoritate, putere de sacrificiu, respect pentru karmă și pentru consecințele puterii. Pot apărea și contexte de luptă pentru influență; cheia este să conduci ferm, fără să transformi autoritatea în control.
 
 Index: BDR-19980219-v1.00r-P-024e
-**Pinaclul 3: între 43 și 51 de ani**, Oportunitatea **4** îți cere muncă susținută, atenție la corpul fizic și capacitatea de a materializa mai ușor ceea ce ai pregătit. Provocarea **7** te învață să apreciezi singurătatea, solitudinea, studiul, analiza și legătura dintre cunoaștere și spirit. Ea poate aduce retragere, îndoială sau tendința de a te izola; maturizarea înseamnă să transformi timpul singur în claritate, nu în separare. Această oportunitate se întinde pe toată viața: cunoaște calitățile lui **4** și învinge defectele lui **7** prin disciplină, răbdare și încredere.
+**Pinaclul 3: între 35 și 44 de ani**, Oportunitatea **4** îți cere muncă susținută, atenție la corpul fizic și capacitatea de a materializa mai ușor ceea ce ai pregătit. Provocarea **7** te învață să apreciezi singurătatea, solitudinea, studiul, analiza și legătura dintre cunoaștere și spirit. Ea poate aduce retragere, îndoială sau tendința de a te izola; maturizarea înseamnă să transformi timpul singur în claritate, nu în separare. În acest interval, cunoaște calitățile lui **4** și învinge defectele lui **7** prin disciplină, răbdare și încredere.
 
 Index: BDR-19980219-v1.00r-P-024f
-**Pinaclul 4: după 52 de ani**, Oportunitatea **2** te așază în contexte de cooperare, empatie, prietenie și diplomație. Viața te poate pune în situații în care să apropii oameni, să înveți pe alții empatia și să construiești relații bazate pe încredere. Provocarea **7** rămâne activă: păstrează profunzimea și discernământul, dar nu te retrage din legături atunci când ai ceva valoros de oferit.
+**Pinaclul 4: de la 45 de ani până la sfârșitul vieții**, Oportunitatea **2** te așază în contexte de cooperare, empatie, prietenie și diplomație. Viața te poate pune în situații în care să apropii oameni, să înveți pe alții empatia și să construiești relații bazate pe încredere. Provocarea **7** rămâne activă: păstrează profunzimea și discernământul, dar nu te retrage din legături atunci când ai ceva valoros de oferit.
 
 Index: BDR-19980219-v1.00r-P-024g
-Daniel, tu te afli acum în Pinaclul **1**, în care ai Oportunitatea **3** și Provocarea **1**. Prin această combinație, ai de învățat să îți câștigi independența și, în același timp, să urci pe scara socială prin comunicare, creativitate și colaborare. Ai un potențial important de „alpinist social”: poți ajunge în cercuri tot mai largi și poți deveni un lider care se remarcă prin idei originale și prin felul în care îi apropie pe oameni. Lecția ta este să conduci fără ego, să îți păstrezi originalitatea și să transformi vizibilitatea într-o contribuție reală.
+Daniel, la 28 de ani te afli în Pinaclul **2**, cu Oportunitatea **1** și Provocarea **8**. Acum viața îți cere să inițiezi, să alegi o direcție proprie și să îți asumi roluri în care poți conduce, dar să faci acest lucru cu maturitate financiară și cu respect pentru responsabilitatea pe care o aduce puterea. Cu cât îți transformi ambiția în structură, buget, consecvență și decizii asumate, cu atât folosești mai bine această etapă. Cheia este să conduci ferm fără să devii rigid și să urmărești rezultate fără să confunzi autoritatea cu nevoia de control.
 
 Index: BDR-19980219-v1.00r-CAP-011
 ## Capitolul 8. Ciclicități
@@ -739,22 +751,8 @@ Index: BDR-19980219-v1.00r-T-008
 Index: BDR-19980219-v1.00r-P-028a
 În **2026**, Daniel, lecția ta este **2**: relația, cooperarea, răbdarea, ascultarea și finețea cu care îi faci loc celuilalt. Nu este un an în care să forțezi totul singur; este un an în care rezultatele cresc atunci când ceri feedback, formulezi întrebări clare și construiești acorduri reale. Lecția **2** se întâlnește cu anul personal **4**, așa că sensibilitatea și cooperarea au nevoie de formă concretă: program, responsabilități împărțite, promisiuni respectate și pași mici repetați. Când unești aceste două energii, relațiile devin mai stabile, iar ceea ce construiești împreună poate rezista în timp.
 
-Index: BDR-19980219-v1.00r-SUB-026
-### 8.4. Ciclul de 7 ani
-
-Index: BDR-19980219-v1.00r-P-028b
-Ciclul de 7 ani este un ritm secundar de maturizare, construit pe pragurile de vârstă **7**, **14**, **21**, **28** și **35**. El adaugă o lectură a etapelor prin care omul își formează structura interioară, raportarea la limite, disciplina, responsabilitatea și relația cu timpul. Acest ciclu are o corelație simbolico-astronomică importantă cu mișcarea lui Saturn. Saturn finalizează o orbită completă în jurul Soarelui în aproximativ 29,46 ani; împărțită în 4 faze majore, această durată produce segmente de aproximativ 7,36 ani. De aici poate fi înțeleasă baza saturniană a ciclului de 7 ani: fiecare segment marchează o etapă de testare, creștere, consolidare și asumare. În limbaj astrologic, Saturn este asociat cu timpul, disciplina, structura, karma, maturizarea și verificările vieții. De aceea, ciclul de 7 ani poate fi citit ca o succesiune de praguri saturniene, în care omul este invitat să observe ce a construit, ce trebuie corectat și ce formă interioară devine suficient de solidă pentru etapa următoare. Reprezentarea grafică a acestui ciclu este Septagrama, unde fiecare vârf marchează un moment de criză la jumătatea unui segment de 7 ani și include un „Rezultat pereche”.
-
-Index: BDR-19980219-v1.00r-G-007
-![Septagrama ciclurilor de 7 ani pentru Bîrsan Daniel Robert](septagrama-birsan-daniel-robert.svg)
-
-_Septagrama ciclurilor de 7 ani — ciclul activ este evidențiat cu verde._
-
-Index: BDR-19980219-v1.00r-P-028c
-Daniel, în **2026** intri în **Ciclul 5**, care acoperă intervalul 2026–2032 și vârsta de 28–35 de ani. Prima jumătate, de la 28 la 31,5 ani, îți cere să verifici ce structură ai construit până acum: ce responsabilități îți aparțin, ce reguli te susțin și unde libertatea are nevoie de disciplină ca să producă rezultate. Pragul central apare în **2029**, la 31,5 ani. Nu trebuie privit ca un verdict, ci ca un punct de verificare: ceea ce funcționează poate fi consolidat, iar ceea ce este instabil cere corectare înainte de a merge mai departe. Rezultatul pereche **5/12** leagă mișcarea, schimbarea și nevoia de libertate de răbdare, schimbarea perspectivei și asumare; pentru tine, cheia este să nu confunzi progresul cu graba. În a doua jumătate a ciclului, dintre 31,5 și 35 de ani, experiențele și alegerile făcute până la pragul din 2029 trebuie transformate într-o formă mai matură: un ritm de lucru stabil, limite clare, responsabilități asumate și proiecte care pot rezista în timp.
-
 Index: BDR-19980219-v1.00r-SUB-027
-### 8.5. Ciclul de 9 ani
+### 8.4. Ciclul de 9 ani
 
 Index: BDR-19980219-v1.00r-P-028d
 Ciclul de 9 ani descrie succesiunea anilor personali **1–9**. Fiecare an personal începe la ziua și luna nașterii și se încheie la următoarea aniversare, nu la 1 ianuarie.
@@ -790,7 +788,7 @@ Index: BDR-19980219-v1.00r-P-027
 Daniel, anul evidențiat cu roșu arată poziția ta actuală în acest ciclu. În 2026 te afli în ciclul **4**, o etapă care vorbește despre consolidare: să pui ordine în program, să îți organizezi bugetul, să lucrezi consecvent și să construiești o fundație stabilă. În interiorul acestui ciclu, te afli în **Anul 2**, care aduce parteneriate, comunicare și cooperare. Pentru tine, perioada cere să îmbini structura cu deschiderea către ceilalți: să nu construiești totul singur, ci să alegi oamenii potriviți, să asculți, să negociezi și să transformi colaborările în rezultate durabile.
 
 Index: BDR-19980219-v1.00r-SUB-027a
-### 8.6. Ciclul de 12 ani
+### 8.5. Ciclul de 12 ani
 
 Index: BDR-19980219-v1.00r-P-027b
 Ciclul de 12 ani poate fi privit ca un ciclu de expansiune, învățare și repoziționare în lume. Simbolic, el poate fi asociat cu mișcarea lui Jupiter, care are o revoluție de aproximativ 11,86 ani. Dacă ciclul de 9 ani este ritmul închiderilor și renașterilor, ciclul de 12 ani este ritmul creșterii conștiinței prin experiență și oportunități. Ciclul de 12 ani ajută la detectarea marilor ferestre de oportunitate. Anii multipli de 12 pot susține schimbări de carieră, mutări, lansări de proiecte, expansiune financiară, dezvoltare spirituală sau repoziționări sociale și profesionale.
@@ -825,7 +823,7 @@ Index: BDR-19980219-v1.00r-P-029
 Daniel, această hartă nu dă un verdict despre relație. Ea arată ce aduce fiecare, ce se întâlnește firesc și ce trebuie construit împreună.
 
 Index: BDR-19980219-v1.00r-G-006
-![Omulețul relațiilor pentru Bîrsan Daniel Robert și Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.svg)
+![Omulețul relațiilor pentru Bîrsan Daniel Robert și Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.png)
 
 _Omulețul relațiilor pentru Bîrsan Daniel Robert și Roman Andreea Maria_
 
@@ -879,7 +877,7 @@ Index: BDR-19980219-v1.00r-P-031a
 Harta suprapusă reunește Soarta și Destinul cu zona de confort, anii importanți și ciclurile de **7**, **9** și **12** ani. Ea te ajută să observi unde se întâlnesc schimbările interioare cu evenimentele exterioare și în ce perioade mai multe ritmuri susțin aceeași direcție.
 
 Index: BDR-19980219-v1.00r-G-008
-![Harta suprapusă Soartă–Destin și ciclicități pentru Bîrsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert.svg)
+![Harta suprapusă Soartă–Destin și ciclicități pentru Bîrsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert-v1.00r.svg)
 
 Index: BDR-19980219-v1.00r-SUB-030
 ### 11.2. Carieră și bani
@@ -888,17 +886,17 @@ Index: BDR-19980219-v1.00r-P-032
 Daniel, în carieră ești autentic atunci când inițiativa Vibrației interioare **1** se vede în exterior prin cooperarea și diplomația Vibrației exterioare **2**, iar Destinul **3** transformă ideea într-un mesaj pe care oamenii îl pot înțelege și urma. Numele adaugă responsabilitatea lui **6** și perspectiva repetată a lui **9**, iar Scara bunăstării confirmă multă energie în vectorul **789, Creativitate**, vectorul **369, Bunăstare materială**, și diagonala **159, Carieră**. Resursa ta este să vezi direcția, să formulezi și să mobilizezi. Partea de construit se află în energiile **4**, **5** și **6**: organizare, măsură, pragmatism, buget și continuitate. De aceea, progresul tău nu depinde de încă o idee, ci de forma simplă pe care i-o dai: termen, responsabil, buget, rutină și încheiere.
 
 Index: BDR-19980219-v1.00r-P-032a
-În intervalul actual, **19.02.2026–18.02.2027**, te afli în Ciclul **4** de 9 ani, în Anul **2** al acestui ciclu, cu vibrația anuală **4** și Lecția **2**. Ciclul de 7 ani **5** abia începe, Ciclul de 12 ani **3** continuă expansiunea, iar Pinaclul **1** îți oferă Oportunitatea **3** și Provocarea **1**. Pe graficul Soartă–Destin ești la **0 / 0**, sub zona de confort, ceea ce poate crea senzația de stagnare sau lipsă de direcție. Nu este momentul să aștepți ca impulsul să apară singur. Este o fereastră de pregătire: pune ordine în program și bani, alege colaboratorii potriviți, testează ideile la scară mică și construiește sistemul care va putea susține o creștere ulterioară.
+În intervalul actual, **19.02.2026–18.02.2027**, te afli în Ciclul **4** de 9 ani, în Anul **2** al acestui ciclu, cu vibrația anuală **4** și Lecția **2**. Ciclul de 7 ani **5** abia începe, Ciclul de 12 ani **3** continuă expansiunea, iar Pinaclul **2** îți oferă Oportunitatea **1** și Provocarea **8**. Pe graficul Soartă–Destin ești la **0 / 0**, sub zona de confort, ceea ce poate crea senzația de stagnare sau lipsă de direcție. Nu este momentul să aștepți ca impulsul să apară singur. Este o fereastră de pregătire: pune ordine în program și bani, alege colaboratorii potriviți, testează ideile la scară mică și construiește sistemul care va putea susține o creștere ulterioară.
 
 Index: BDR-19980219-v1.00r-T-020
 | Fereastră | Suprapunerea principală | Utilizare profesională |
 | --- | --- | --- |
-| **19.02.2026–18.02.2027** | Ciclul de 9 ani: C4, Anul **2**; vibrația anuală **4**; Lecția **2**; Ciclul de 7 ani **5**; Ciclul de 12 ani **3**; Soartă–Destin **0 / 0** | Pregătire, structură, buget, colaborări și validarea unei direcții. Nu forța rezultatul final; construiește mecanismul care îl poate produce. |
+| **19.02.2026–18.02.2027** | Ciclul de 9 ani: C4, Anul **2**; vibrația anuală **4**; Lecția **2**; Ciclul de 7 ani **5**; Ciclul de 12 ani **3**; Pinaclul **2**, Oportunitatea **1**, Provocarea **8**; Soartă–Destin **0 / 0** | Pregătire, structură, buget, colaborări și validarea unei direcții. Nu forța rezultatul final; construiește mecanismul care îl poate produce. |
 | **Pragul din 2029** | Centrul Ciclului de 7 ani **5**; nevoie de verificare înaintea perioadelor materiale mai puternice | Punct de bilanț și posibilă schimbare de direcție. Păstrează ce funcționează, oprește risipa și corectează proiectele care nu au fundație. |
-| **19.02.2030–18.02.2031** | Vibrația anuală **8**; Anul **6** al ciclului de 9 ani; Lecția **9**; după pragul din 2029; Oportunitatea **3**, Provocarea **1**; Soartă–Destin **1 / 1** | Cea mai apropiată fereastră puternică pentru bani, negociere, promovare și autoritate. Rezultatul cere inițiativă și finalizarea proiectelor fără valoare. |
+| **19.02.2030–18.02.2031** | Vibrația anuală **8**; Anul **6** al ciclului de 9 ani; Lecția **9**; după pragul din 2029; Pinaclul **2**, Oportunitatea **1**, Provocarea **8**; Soartă–Destin **1 / 1** | Cea mai apropiată fereastră puternică pentru bani, negociere, promovare și autoritate. Rezultatul cere inițiativă și finalizarea proiectelor fără valoare. |
 | **19.02.2032–18.02.2033** | Anul **8** al ciclului de 9 ani; vibrația anuală **1**; Lecția **4**; Pinaclul **2** cu Oportunitatea **1** și Provocarea **8**; Soartă–Destin **6 / 6** | Lansare, schimbare de rol sau afacere. Este o fereastră puternică pentru inițiativă, cu condiția să existe disciplină și maturitate financiară. |
-| **19.02.2034–18.02.2035** | Începe un nou ciclu de 9 ani și Ciclul de 12 ani **4**; vibrația anuală **3**; Lecția **5**; Soartă–Destin **8 / 8**; an important interior și exterior | Repoziționare majoră, expansiune și putere materială. Este punctul cel mai dens, dar cere adaptare și folosirea responsabilă a autorității. |
-| **19.02.2039–18.02.2040** | Vibrația anuală **8**; Anul **6**; Lecția **5**; Ciclul de 12 ani **4**; Soartă–Destin **6 / 6** | Consolidare, venit, funcție de conducere și valorificarea unei structuri construite anterior. Schimbarea trebuie legată de responsabilitate pe termen lung. |
+| **19.02.2034–18.02.2035** | Începe un nou ciclu de 9 ani și Ciclul de 12 ani **4**; vibrația anuală **3**; Lecția **5**; Pinaclul **3**, Oportunitatea **4**, Provocarea **7**; Soartă–Destin **8 / 8**; an important interior și exterior | Repoziționare majoră, expansiune și putere materială. Este punctul cel mai dens, dar cere adaptare și folosirea responsabilă a autorității. |
+| **19.02.2039–18.02.2040** | Vibrația anuală **8**; Anul **6**; Lecția **5**; Ciclul de 12 ani **4**; Pinaclul **3**, Oportunitatea **4**, Provocarea **7**; Soartă–Destin **6 / 6** | Consolidare, venit, funcție de conducere și valorificarea unei structuri construite anterior. Schimbarea trebuie legată de responsabilitate pe termen lung. |
 
 Index: BDR-19980219-v1.00r-P-032b
 Răsturnarea de situație nu trebuie citită ca un eveniment inevitabil. Pentru tine, primul prag care cere pregătire este **2029**: ceea ce nu are structură poate deveni greu de susținut, iar ceea ce funcționează poate trece la un nivel superior. Al doilea punct este **2034**, când se schimbă simultan ritmul ciclului de 9 ani și cadrul ciclului de 12 ani, iar Soarta și Destinul ajung la **8 / 8**. Abordarea potrivită este cea a Carului: obiectiv clar, strategie, ritm și autocontrol. Umbra Stelei îți cere să nu aștepți momentul perfect și să nu confunzi inspirația cu rezultatul. Verifică săptămânal ce produce valoare, ce consumă fără rezultat și care este următoarea acțiune măsurabilă.
@@ -913,15 +911,15 @@ Index: BDR-19980219-v1.00r-P-033a
 În relația cu Andreea, rezultatul comun **4** cere construcție: reguli, stabilitate, timp protejat, buget, casă și angajamente respectate. Tema de rezolvat împreună este **2**, deci legătura se maturizează prin răbdare, întrebări simple și responsabilitate împărțită. Tu aduci mai mult din perspectiva lui **9**, iar Andreea aduce pornirea lui **1**. Diferența poate deveni motor dacă tu nu rămâi numai în analiză, iar ea nu este lăsată să poarte singură inițiativa. Întrebările utile sunt: „Ce ai simțit?”, „De ce ai nevoie?”, „Ce alegem împreună?” și „Cine își asumă fiecare pas?”.
 
 Index: BDR-19980219-v1.00r-P-033b
-Perioada **19.02.2026–18.02.2027** este deja relațională: Anul **2** al ciclului de 9 ani, Lecția **2** și vibrația anuală **4** pun împreună cooperarea și structura. Totuși, Soarta și Destinul sunt la **0 / 0**, sub zona de confort, iar Ciclul de 7 ani **5** abia începe. De aceea, prezentul este mai potrivit pentru clarificarea relației decât pentru o hotărâre luată din teamă sau grabă. Discutați programul, banii, spațiul personal, familia, locuința și felul în care reparați un conflict. Ceea ce așezați acum devine fundația după care puteți evalua matur fereastra următoare.
+Perioada **19.02.2026–18.02.2027** este deja relațională: Anul **2** al ciclului de 9 ani, Lecția **2** și vibrația anuală **4** pun împreună cooperarea și structura. În același timp, Pinaclul **2** aduce Oportunitatea **1** și Provocarea **8**, deci apropierea trebuie însoțită de o decizie asumată și de claritate despre bani, putere și responsabilități. Totuși, Soarta și Destinul sunt la **0 / 0**, sub zona de confort, iar Ciclul de 7 ani **5** abia începe. De aceea, prezentul este mai potrivit pentru clarificarea relației decât pentru o hotărâre luată din teamă sau grabă. Discutați programul, banii, spațiul personal, familia, locuința și felul în care reparați un conflict. Ceea ce așezați acum devine fundația după care puteți evalua matur fereastra următoare.
 
 Index: BDR-19980219-v1.00r-T-021
 | Fereastră | Suprapunerea principală | Sens relațional |
 | --- | --- | --- |
-| **19.02.2026–18.02.2027** | Anul **2** al ciclului de 9 ani; vibrația anuală **4**; Lecția **2**; Soartă–Destin **0 / 0** | Clarificare, reguli comune și observarea modului în care funcționați în realitate. Este o etapă de fundație, nu o obligație de oficializare. |
-| **19.02.2028–18.02.2029** | Vibrația anuală **6**; Anul **4**; Destin **2**; Oportunitatea **3**, Provocarea **1**; înaintea pragului din 2029 | Cea mai apropiată fereastră favorabilă pentru căsătorie, familie și cămin, dacă relația este deja matură și decizia este asumată de amândoi. |
-| **19.02.2033–18.02.2034** | Vibrația anuală **2**; Anul **9**; Lecția **7**; începutul Ciclului de 7 ani **6**; Soartă–Destin **3 / 3** | Clarificare și alegere matură. Poate susține oficializarea unei relații consolidate, după închiderea neclarităților sau etapelor vechi. |
-| **19.02.2037–18.02.2038** | Vibrația anuală **6**; Anul **4**; Lecția **4**; după pragul din 2036; Ciclul de 12 ani **4** | Fereastră puternică pentru stabilitate, casă și familie. Este mai matură structural, dar cere discuții clare despre bani, putere și responsabilități. |
+| **19.02.2026–18.02.2027** | Anul **2** al ciclului de 9 ani; vibrația anuală **4**; Lecția **2**; Pinaclul **2**, Oportunitatea **1**, Provocarea **8**; Soartă–Destin **0 / 0** | Clarificare, reguli comune și observarea modului în care funcționați în realitate. Este o etapă de fundație, nu o obligație de oficializare. |
+| **19.02.2028–18.02.2029** | Vibrația anuală **6**; Anul **4**; Destin **2**; Pinaclul **2**, Oportunitatea **1**, Provocarea **8**; înaintea pragului din 2029 | Cea mai apropiată fereastră favorabilă pentru căsătorie, familie și cămin, dacă relația este deja matură și decizia este asumată de amândoi. |
+| **19.02.2033–18.02.2034** | Vibrația anuală **2**; Anul **9**; Lecția **7**; începutul Ciclului de 7 ani **6**; Pinaclul **3**, Oportunitatea **4**, Provocarea **7**; Soartă–Destin **3 / 3** | Clarificare și alegere matură. Poate susține oficializarea unei relații consolidate, după închiderea neclarităților sau etapelor vechi. |
+| **19.02.2037–18.02.2038** | Vibrația anuală **6**; Anul **4**; Lecția **4**; după pragul din 2036; Ciclul de 12 ani **4**; Pinaclul **3**, Oportunitatea **4**, Provocarea **7** | Fereastră puternică pentru stabilitate, casă și familie. Este mai matură structural, dar cere discuții clare despre bani, putere și responsabilități. |
 
 Index: BDR-19980219-v1.00r-P-033c
 Cu Andreea, pregătirea practică poate fi simplă. O dată pe săptămână, aveți o conversație fără telefoane despre starea relației; o dată pe lună, verificați bugetul, programul și un obiectiv comun; periodic, păstrați atât o experiență nouă împreună, cât și timp individual fără vinovăție. Când apare tensiunea, nu încerca să o rezolvi numai prin concluzie. Spune mai întâi ce ai simțit, întreabă ce a trăit ea și abia apoi decideți pasul. Pentru tine, formula matură nu este „eu hotărăsc”, ci „eu spun limpede ce vreau, te ascult și construim o alegere pe care o putem susține”.
@@ -941,5 +939,5 @@ Index: BDR-19980219-v1.00r-T-014
 | Template | `scurt` — `Template_Lucrare_Numerologica_Scurt.md` + `.html` |
 | Raport calculator | `1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00r-calculator.json` |
 | Registru formule și data validării | `vault/Numerologie/Registru formule.md` — 18.07.2026 |
-| SVG-uri integrate | G-002 Matrița datei de naștere; G-002a Matrița numelui; G-004 Scara bunăstării; G-005 Soarta și Destinul; G-006 Omulețul relațiilor; G-007 Septagrama ciclurilor de 7 ani; G-008 Harta suprapusă Soartă–Destin și ciclicități |
+| SVG-uri integrate | G-002 Matrița datei de naștere; G-002a Matrița numelui; G-004 Scara bunăstării; G-005 Soarta și Destinul; G-006 Omulețul relațiilor; G-008 Harta suprapusă Soartă–Destin și ciclicități |
 | Versiune și data redactării | V1.00R — 18.07.2026 |

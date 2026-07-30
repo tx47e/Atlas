@@ -1,5 +1,6 @@
 const STORAGE_KEY = "atlasDashboardV3";
 const SETTINGS_KEY = "atlasDashboardV3Settings";
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 
 const deliverableLabels = {
   calcule: "Calcule",
@@ -21,6 +22,7 @@ const statusLabels = {
 
 const viewTitles = {
   dashboard: "Dashboard",
+  calculator: "Calculator",
   vault: "Vault / Bibliotecă",
   agents: "Agenți",
   works: "Lucrări",
@@ -90,7 +92,7 @@ if (!viewTitles[currentView]) currentView = "dashboard";
 let activeWorkFilter = "toate";
 
 const byId = id => document.getElementById(id);
-const icon = name => `<svg aria-hidden="true"><use href="assets/atlas-symbols.svg#${name}"></use></svg>`;
+const icon = name => `<svg aria-hidden="true"><use href="#${name}"></use></svg>`;
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, character => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
 }[character]));
@@ -131,6 +133,7 @@ function relativeDate(iso) {
 
 function navigate(view) {
   if (!viewTitles[view]) return;
+  window.scrollTo({ top: 0, behavior: "auto" });
   currentView = view;
   location.hash = `/${view}`;
   document.querySelectorAll(".nav-item").forEach(button => button.classList.toggle("active", button.dataset.view === view));
@@ -139,12 +142,13 @@ function navigate(view) {
   document.title = `${viewTitles[view]} — Atlas Numerologie`;
   renderView();
   closeSidebar();
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  window.scrollTo({ top: 0, behavior: "auto" });
 }
 
 function renderView() {
   const renderers = {
     dashboard: renderDashboard,
+    calculator: renderCalculator,
     vault: renderVault,
     agents: renderAgents,
     works: renderWorks,
@@ -156,6 +160,7 @@ function renderView() {
   byId("view").innerHTML = renderers[currentView]();
   decorateCards();
   bindViewInteractions();
+  if (currentView === "calculator") stabilizeCalculatorScroll();
 }
 
 function decorateCards() {
@@ -168,6 +173,38 @@ function decorateCards() {
       card.append(corner);
     });
   });
+}
+
+function renderCalculator() {
+  return `
+    <section class="calculator-frame-card card" aria-labelledby="calculatorIntroTitle">
+      <div class="calculator-intro">
+        <div>
+          <p class="eyebrow">INSTRUMENT DE LUCRU</p>
+          <h2 id="calculatorIntroTitle">Calculator numerologic</h2>
+          <p>Calculatorul complet din Dashboard V2, integrat în interfața și paleta V3.</p>
+        </div>
+        <span class="calculator-seal" aria-hidden="true">${icon("calculator")}</span>
+      </div>
+      <iframe
+        class="calculator-frame"
+        src="calculator.html"
+        title="Calculator numerologic Atlas"
+        loading="eager"
+      ></iframe>
+    </section>
+  `;
+}
+
+function stabilizeCalculatorScroll() {
+  const frame = document.querySelector(".calculator-frame");
+  if (!frame) return;
+  const resetOuterScroll = () => requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
+  frame.addEventListener("load", () => {
+    resetOuterScroll();
+    setTimeout(resetOuterScroll, 120);
+  }, { once: true });
+  resetOuterScroll();
 }
 
 function renderDashboard() {

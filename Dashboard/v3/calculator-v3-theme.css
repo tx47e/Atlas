@@ -1,0 +1,220 @@
+:root {
+  --bg: #f2e4c5;
+  --paper: #fbf3df;
+  --ink: #073f43;
+  --muted: #526f6d;
+  --line: rgba(185, 134, 50, .48);
+  --accent: #0d686c;
+  --accent-dark: #073f43;
+  --gold: #b98632;
+  --soft: rgba(139, 197, 190, .18);
+  --warn: #f3dfac;
+  --shadow: 0 10px 28px rgba(69, 42, 13, .11), inset 0 0 28px rgba(185, 134, 50, .05);
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+html {
+  background: #efe0bd;
+}
+
+body {
+  color: var(--ink);
+  background-color: #f3e7cb;
+  background-image:
+    radial-gradient(circle at 16% 8%, rgba(255,255,255,.72), transparent 22%),
+    radial-gradient(circle at 88% 92%, rgba(183,132,50,.16), transparent 30%),
+    repeating-radial-gradient(ellipse at 27% 41%, transparent 0 4px, rgba(105,74,33,.025) 5px 6px),
+    linear-gradient(96deg, rgba(255,255,255,.2), transparent 42%, rgba(121,83,31,.05));
+  box-shadow: inset 0 0 80px rgba(115,72,19,.18);
+}
+
+main {
+  padding: 12px;
+}
+
+h1,
+h2,
+h3,
+.toolbar,
+button {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
+.panel,
+.dash-card {
+  border-color: var(--line);
+  border-radius: 11px;
+  background-color: rgba(251, 243, 223, .78);
+  background-image:
+    repeating-radial-gradient(circle at 20% 30%, transparent 0 5px, rgba(105,74,33,.018) 6px 7px),
+    linear-gradient(120deg, rgba(255,255,255,.22), transparent 55%);
+  box-shadow: var(--shadow);
+}
+
+.atlas-header-panel,
+.dashboard-panel,
+.dashboard-panel .dash-card,
+.dashboard-panel .form-panel,
+.collapsible-header {
+  background-color: rgba(251, 243, 223, .84);
+}
+
+.atlas-header-panel {
+  border-color: rgba(185, 134, 50, .66);
+}
+
+.toolbar {
+  color: var(--accent-dark);
+}
+
+.toolbar h2 {
+  font-size: clamp(25px, 2.4vw, 37px);
+  font-style: italic;
+  letter-spacing: .01em;
+}
+
+.hint,
+.person-status,
+.muted {
+  color: var(--muted);
+}
+
+button {
+  border-color: var(--accent-dark);
+  border-radius: 7px;
+  color: #f7e7b6;
+  background: linear-gradient(135deg, #0d686c, #073f43);
+  box-shadow: inset 0 0 0 1px rgba(216,183,109,.24);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button:hover {
+  border-color: var(--gold);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 16px rgba(69,42,13,.13), inset 0 0 0 1px rgba(216,183,109,.34);
+}
+
+button.secondary,
+.segmented button,
+.collapsible-toggle {
+  border-color: rgba(121,83,31,.38);
+  color: var(--accent-dark);
+  background: rgba(255,249,230,.58);
+  box-shadow: none;
+}
+
+.segmented button.active {
+  color: #f7e7b6;
+  background: linear-gradient(135deg, #0d686c, #073f43);
+  border-color: var(--gold);
+}
+
+input,
+select,
+textarea {
+  border-color: rgba(121,83,31,.38);
+  border-radius: 6px;
+  color: var(--ink);
+  background: rgba(255,249,230,.68);
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid rgba(185,134,50,.32);
+  border-color: var(--gold);
+}
+
+.collapsible-header {
+  border-bottom: 1px solid rgba(185,134,50,.24);
+}
+
+.card-title-row {
+  border-bottom-color: rgba(121,83,31,.16);
+}
+
+table {
+  color: var(--ink);
+}
+
+th {
+  color: var(--accent-dark);
+  background: rgba(139,197,190,.15);
+}
+
+td,
+th {
+  border-color: rgba(121,83,31,.2);
+}
+
+.bar-track,
+.pyramid-track {
+  background: rgba(121,83,31,.12);
+}
+
+@media (max-width: 760px) {
+  html,
+  body,
+  .landscape-shell,
+  main {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  main {
+    padding: 7px;
+  }
+
+  .toolbar {
+    gap: 12px;
+  }
+
+  .panel,
+  .dash-card {
+    border-radius: 8px;
+  }
+
+  .dashboard {
+    min-width: 0;
+    padding: 8px;
+  }
+
+  .dash-card {
+    min-width: 0;
+    padding: 10px;
+  }
+
+  .wellbeing-card .card-title-row {
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .wellbeing-controls {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .bar-row {
+    grid-template-columns: minmax(92px, 1fr) minmax(70px, 1.35fr) 24px;
+    gap: 6px;
+  }
+
+  .wellbeing-label {
+    white-space: normal;
+  }
+
+  .matrix-compare {
+    grid-template-columns: 1fr;
+  }
+}

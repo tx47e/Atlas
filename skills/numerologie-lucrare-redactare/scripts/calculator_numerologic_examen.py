@@ -554,7 +554,8 @@ def pinacluri(data_nasterii: date) -> dict[str, Any]:
     zi = reducere_numerologica(data_nasterii.day).rezultat
     luna = reducere_numerologica(data_nasterii.month).rezultat
     an = reducere_numerologica(sum(cifre(data_nasterii.year))).rezultat
-    destin = reducere_numerologica(sum(cifre(data_compacta(data_nasterii)))).rezultat
+    calea_destinului = sum(cifre(data_compacta(data_nasterii)))
+    destin_compus = reducere_o_singura_data(calea_destinului).rezultat
     oportunitati = [
         reducere_numerologica(luna + zi).rezultat,
         reducere_numerologica(zi + an).rezultat,
@@ -564,17 +565,19 @@ def pinacluri(data_nasterii: date) -> dict[str, Any]:
     oportunitati[2] = reducere_numerologica(oportunitati[0] + oportunitati[1]).rezultat
     provocari = [abs(zi - luna), abs(zi - an), 0, abs(luna - an)]
     provocari[2] = abs(provocari[0] - provocari[1])
-    final_1 = 36 - destin
-    final_2 = final_1 + 9
-    final_3 = final_2 + 9
+    final_1 = 36 - destin_compus
+    final_2 = final_1 + 10
+    final_3 = final_2 + 10
     intervale = [f"0-{final_1}", f"{final_1 + 1}-{final_2}", f"{final_2 + 1}-{final_3}", f"{final_3 + 1}+"]
     return {
         "baza": {
             "zi_redusa": zi,
             "luna_redusa": luna,
             "an_redus": an,
-            "vibratia_destinului": destin,
-            "rol_vibratia_destinului": "cifra de interpretare folosita la varstele pinaclurilor",
+            "calea_destinului": calea_destinului,
+            "destin_compus": destin_compus,
+            "rol_destin_compus": "valoarea folosita fara reducere suplimentara la limita Pinaclului 1",
+            "formula_limita_pinaclul_1": "36 - Destinul compus",
         },
         "zona_confort_oportunitati": sum(oportunitati) / 4,
         "zona_confort_provocari": sum(provocari) / 4,

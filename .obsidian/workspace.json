@@ -6,20 +6,18 @@
       {
         "id": "8fb72a4bc2ffa45c",
         "type": "tabs",
-        "dimension": 50.81218274111675,
+        "dimension": 57.61421319796954,
         "children": [
           {
-            "id": "db3067c72034932b",
+            "id": "021379e004efa062",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-30.md",
-                "mode": "source",
-                "source": false
+                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00r.html"
               },
               "icon": "lucide-file",
-              "title": "KCDI-NN-30"
+              "title": "Bîrsan Daniel Robert — 19.02.1998"
             }
           }
         ]
@@ -27,7 +25,7 @@
       {
         "id": "8b9b6d32aa465847",
         "type": "tabs",
-        "dimension": 49.18781725888325,
+        "dimension": 42.38578680203046,
         "children": [
           {
             "id": "29fcc46aaa15561c",
@@ -220,8 +218,26 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "db3067c72034932b",
+  "active": "021379e004efa062",
   "lastOpenFiles": [
+    "Dashboard/v3/calculator-v3-theme.css",
+    "Dashboard/v3/persoane.txt",
+    "Dashboard/v3/calculator.html",
+    "vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/03-CNP-Calcul.md",
+    "skills/numerologie-SVG-harta-suprapusa/scripts/__pycache__/generate_harta_suprapusa.cpython-312.pyc",
+    "skills/numerologie-SVG-harta-suprapusa/scripts/__pycache__",
+    "vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index.md",
+    "vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/03-MDN-Calcul.md",
+    "skills/numerologie-SVG-harta-suprapusa/scripts/test_pinacluri.py",
+    "skills/numerologie-lucrare-redactare/scripts/test_pinacluri.py",
+    "Dashboard/persoane.txt",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/harta-suprapusa-soarta-destin-birsan-daniel-robert-v1.00r.svg",
+    "scripts/test_pinacluri_regresie.py",
+    "skills/numerologie-SVG-omuletul-relatiilor/assets/reference-cifre-lipsa-preview.png",
+    "skills/numerologie-SVG-omuletul-relatiilor/scripts/__pycache__/generate_omulet_relatiilor.cpython-311.pyc",
+    "skills/numerologie-SVG-omuletul-relatiilor/scripts/__pycache__",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-39.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-30.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-47.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-48.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-46.md",
@@ -231,7 +247,6 @@
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-42.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-41.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-40.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-39.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-38.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-37.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-36.md",
@@ -240,15 +255,9 @@
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-33.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-32.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-31.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-30.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-29.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-28.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-27.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-26.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-25.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-24.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-23.md",
-    "temp/lucrare finalizate/Chibulcutean Tamara_Lucrare Examen.pdf",
     "temp/dashboard v2/6-----.png",
     "temp/omulet-relatii-validation.svg",
     "temp/patratul-de-aur-validation.svg",
@@ -256,17 +265,6 @@
     "temp/vitruvian-man-bg.jpg",
     "temp/Pasted image 20260718090756.png",
     "temp/Pasted image 20260718090829.png",
-    "temp/harta-suprapusa-title-check.svg",
-    "temp/omulet-relatii-szabo-mihai-gabriel-szabo-sabina.svg",
-    "temp/harta-suprapusa-daniel-validation.svg",
-    "skills/numerologie-lucrare-redactare/scripts/__pycache__/calculator_numerologic_examen.cpython-312.pyc",
-    "skills/numerologie-lucrare-redactare/scripts/__pycache__",
-    "skills/numerologie-gestionare-persoane/scripts/__pycache__/gestioneaza_persoane.cpython-312.pyc",
-    "skills/numerologie-gestionare-persoane/scripts/__pycache__",
-    "scripts/__pycache__/gen_harta_suprapusa_szabo_mihai_gabriel.cpython-312.pyc",
-    "scripts/__pycache__/gen_harta_suprapusa_bdr.cpython-312.pyc",
-    "scripts/__pycache__/calculator_numerologic_examen.cpython-312.pyc",
-    "scripts/__pycache__",
-    "skills/numerologie-gestionare-persoane/scripts/__pycache__/gestioneaza_persoane.cpython-311.pyc"
+    "temp/harta-suprapusa-title-check.svg"
   ]
 }

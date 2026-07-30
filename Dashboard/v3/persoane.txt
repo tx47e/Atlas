@@ -1,0 +1,4 @@
+# Format:
+# Eticheta|Nume complet|Prenume activ|Nume familie|Data nasterii YYYY-MM-DD|Gen masculin/feminin|An referinta|Interval ani|Nume partener optional|Data nasterii partener|Tip relatie
+Szabo Sabina|Szabo Sabina|Sabina|Mirescu|1984-04-17|feminin|2026|108|Szabo Mihai Gabriel
+Szabo Mihai Gabriel|Szabo Mihai Gabriel|Mihai|Szabo|1984-11-06|masculin|2026|108|Szabo Sabina

@@ -11,54 +11,87 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <defs>
+      <symbol id="compass" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="20"/><circle cx="32" cy="32" r="12"/><path d="M32 4v56M4 32h56M12 12l40 40M52 12 12 52"/><path d="m32 13 5 14 14 5-14 5-5 14-5-14-14-5 14-5Z"/>
+      </symbol>
+      <symbol id="home" viewBox="0 0 24 24"><path d="m3 11 9-7 9 7"/><path d="M5 10v10h14V10M9 20v-6h6v6"/></symbol>
+      <symbol id="calculator" viewBox="0 0 24 24"><rect x="3" y="2.5" width="18" height="19" rx="2"/><path d="M6.5 6h11v3h-11zM8 13h.01M12 13h.01M16 13h.01M8 17h.01M12 17h.01M16 17h.01"/></symbol>
+      <symbol id="book" viewBox="0 0 24 24"><path d="M3 5c3-1 6 0 9 2v14c-3-2-6-3-9-2Zm18 0c-3-1-6 0-9 2v14c3-2 6-3 9-2ZM12 7v14"/><path d="M6 8h3M6 11h3M15 8h3M15 11h3"/></symbol>
+      <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/><circle cx="12" cy="12" r="8"/></symbol>
+      <symbol id="scroll" viewBox="0 0 24 24"><path d="M6 3h13v15H8a3 3 0 0 0-3 3V6a3 3 0 0 1 3-3"/><path d="M8 21h11v-3M9 7h7M9 11h7M9 15h5"/></symbol>
+      <symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 4-7 8-7s7 2 8 7M8 8c0-4 1-6 4-6s4 2 4 6"/></symbol>
+      <symbol id="chronicle" viewBox="0 0 24 24"><path d="M6 3h13v18H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3Z"/><path d="M7 3v18M10 8h6M10 12h6M10 16h4"/></symbol>
+      <symbol id="archive" viewBox="0 0 24 24"><path d="M3 6h18v15H3ZM2 3h20v4H2Z"/><path d="M9 11h6M8 15h8"/></symbol>
+      <symbol id="gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="m10 2-1 3-3 1-3-1-2 4 3 2v3l-3 2 2 4 3-1 3 1 1 3h4l1-3 3-1 3 1 2-4-3-2v-3l3-2-2-4-3 1-3-1-1-3Z"/></symbol>
+      <symbol id="logout" viewBox="0 0 24 24"><path d="M10 4H4v16h6M14 8l4 4-4 4M7 12h11"/></symbol>
+      <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+      <symbol id="search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+      <symbol id="bell" viewBox="0 0 24 24"><path d="M6 16h12l-2-3V9a4 4 0 0 0-8 0v4Zm4 3h4"/><path d="M12 2v2"/></symbol>
+      <symbol id="quill" viewBox="0 0 24 24"><path d="M4 20c5-1 10-5 13-10l3-7-7 3C8 9 5 14 4 20Z"/><path d="m6 18 8-8M10 15H6M14 11V7"/></symbol>
+      <symbol id="vault" viewBox="0 0 24 24"><path d="M4 21V6l8-3 8 3v15Z"/><path d="M8 9h8M8 13h8M8 17h8M12 6v15"/></symbol>
+      <symbol id="shield" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3 9 8 11 5-2 8-6 8-11V5Z"/><path d="m8 13 3-6 2 4 3-2-4 8Z"/></symbol>
+      <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></symbol>
+      <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h16M15 7l5 5-5 5"/></symbol>
+      <symbol id="plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></symbol>
+      <symbol id="chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+      <symbol id="rule" viewBox="0 0 180 18"><path d="M2 9h62m52 0h62"/><path d="m73 9 7-4 10 4-10 4Zm34 0-7-4-10 4 10 4Z"/><circle cx="90" cy="9" r="2"/></symbol>
+      <symbol id="flourish" viewBox="0 0 240 40"><path d="M3 20h58c12 0 18-6 18-14 0 9 8 14 17 14h48c9 0 17-5 17-14 0 8 6 14 18 14h58"/><path d="M62 20c8 0 14 7 14 14 0-7 6-14 14-14-8 0-14-7-14-14 0 7-6 14-14 14Zm116 0c-8 0-14 7-14 14 0-7-6-14-14-14 8 0 14-7 14-14 0 7 6 14 14 14Z"/><path d="M102 20c7-12 29-12 36 0-7 12-29 12-36 0Z"/><circle cx="120" cy="20" r="3"/></symbol>
+    </defs>
+  </svg>
   <div class="app-shell">
     <aside class="sidebar" id="sidebar">
       <div class="brand">
-        <svg class="brand-mark" aria-hidden="true"><use href="assets/atlas-symbols.svg#compass"></use></svg>
+        <svg class="brand-mark" aria-hidden="true"><use href="#compass"></use></svg>
         <div><strong>ATLAS</strong><span>NUMEROLOGIE</span></div>
       </div>
       <div class="rule ornament-rule" aria-hidden="true">
-        <svg><use href="assets/atlas-symbols.svg#rule"></use></svg>
+        <svg><use href="#rule"></use></svg>
       </div>
       <nav class="main-nav" aria-label="Navigație principală">
         <button class="nav-item active" data-view="dashboard">
-          <svg><use href="assets/atlas-symbols.svg#home"></use></svg><span>Dashboard</span>
+          <svg><use href="#home"></use></svg><span>Dashboard</span>
+        </button>
+        <button class="nav-item" data-view="calculator">
+          <svg><use href="#calculator"></use></svg><span>Calculator</span>
         </button>
         <button class="nav-item" data-view="vault">
-          <svg><use href="assets/atlas-symbols.svg#book"></use></svg><span>Vault / Bibliotecă</span>
+          <svg><use href="#book"></use></svg><span>Vault / Bibliotecă</span>
         </button>
         <button class="nav-item" data-view="agents">
-          <svg><use href="assets/atlas-symbols.svg#sun"></use></svg><span>Agenți</span>
+          <svg><use href="#sun"></use></svg><span>Agenți</span>
         </button>
         <button class="nav-item" data-view="works">
-          <svg><use href="assets/atlas-symbols.svg#scroll"></use></svg><span>Lucrări</span>
+          <svg><use href="#scroll"></use></svg><span>Lucrări</span>
         </button>
         <button class="nav-item" data-view="persons">
-          <svg><use href="assets/atlas-symbols.svg#person"></use></svg><span>Persoane</span>
+          <svg><use href="#person"></use></svg><span>Persoane</span>
         </button>
         <button class="nav-item" data-view="chronicles">
-          <svg><use href="assets/atlas-symbols.svg#chronicle"></use></svg><span>Noutăți / Cronici</span>
+          <svg><use href="#chronicle"></use></svg><span>Noutăți / Cronici</span>
         </button>
         <button class="nav-item" data-view="archives">
-          <svg><use href="assets/atlas-symbols.svg#archive"></use></svg><span>Arhive</span>
+          <svg><use href="#archive"></use></svg><span>Arhive</span>
         </button>
         <button class="nav-item" data-view="settings">
-          <svg><use href="assets/atlas-symbols.svg#gear"></use></svg><span>Setări</span>
+          <svg><use href="#gear"></use></svg><span>Setări</span>
         </button>
       </nav>
       <div class="sidebar-footer">
-        <div class="rule" aria-hidden="true"><svg><use href="assets/atlas-symbols.svg#rule"></use></svg></div>
+        <div class="rule" aria-hidden="true"><svg><use href="#rule"></use></svg></div>
         <div class="profile">
-          <div class="avatar"><svg><use href="assets/atlas-symbols.svg#person"></use></svg></div>
+          <div class="avatar"><svg><use href="#person"></use></svg></div>
           <div><strong>Administrator</strong><span>Atlas Numerologie</span></div>
         </div>
-        <button class="logout" type="button" id="logoutBtn"><svg><use href="assets/atlas-symbols.svg#logout"></use></svg>Închide sesiunea</button>
+        <button class="logout" type="button" id="logoutBtn"><svg><use href="#logout"></use></svg>Închide sesiunea</button>
       </div>
     </aside>
 
     <main class="paper" id="main">
       <button class="menu-toggle" id="menuToggle" type="button" aria-label="Deschide meniul" aria-expanded="false">
-        <svg><use href="assets/atlas-symbols.svg#menu"></use></svg>
+        <svg><use href="#menu"></use></svg>
       </button>
       <div class="paper-corner corner-tl" aria-hidden="true"><img src="assets/lace-corner.svg" alt=""></div>
       <div class="paper-corner corner-tr" aria-hidden="true"><img src="assets/lace-corner.svg" alt=""></div>
@@ -71,22 +104,22 @@
         </div>
         <div class="header-actions">
           <button class="icon-button" id="searchBtn" type="button" aria-label="Caută">
-            <svg><use href="assets/atlas-symbols.svg#search"></use></svg>
+            <svg><use href="#search"></use></svg>
           </button>
           <button class="icon-button" id="notificationBtn" type="button" aria-label="Notificări">
-            <svg><use href="assets/atlas-symbols.svg#bell"></use></svg><i></i>
+            <svg><use href="#bell"></use></svg><i></i>
           </button>
           <button class="primary-button" id="newWorkBtn" type="button">
-            <svg><use href="assets/atlas-symbols.svg#quill"></use></svg>Lucrare nouă
+            <svg><use href="#quill"></use></svg>Lucrare nouă
           </button>
         </div>
       </header>
-      <div class="header-ornament" aria-hidden="true"><svg><use href="assets/atlas-symbols.svg#flourish"></use></svg></div>
+      <div class="header-ornament" aria-hidden="true"><svg><use href="#flourish"></use></svg></div>
       <section id="view" class="view" aria-live="polite"></section>
       <footer class="paper-footer">
-        <svg aria-hidden="true"><use href="assets/atlas-symbols.svg#flourish"></use></svg>
+        <svg aria-hidden="true"><use href="#flourish"></use></svg>
         <p>„Numerele sunt limbajul universului.”</p>
-        <svg aria-hidden="true"><use href="assets/atlas-symbols.svg#flourish"></use></svg>
+        <svg aria-hidden="true"><use href="#flourish"></use></svg>
       </footer>
     </main>
   </div>
@@ -132,7 +165,7 @@
   <dialog id="searchDialog" class="atlas-dialog search-dialog">
     <form method="dialog">
       <div class="dialog-head"><h2>Caută în Atlas</h2><button class="icon-button close-dialog" value="cancel" aria-label="Închide">×</button></div>
-      <label class="global-search"><svg><use href="assets/atlas-symbols.svg#search"></use></svg><input id="globalSearchInput" autocomplete="off" placeholder="Persoană, lucrare, document…"></label>
+      <label class="global-search"><svg><use href="#search"></use></svg><input id="globalSearchInput" autocomplete="off" placeholder="Persoană, lucrare, document…"></label>
       <div id="globalSearchResults" class="search-results"></div>
     </form>
   </dialog>
