@@ -1,0 +1,14 @@
+{
+  "persoana_A": "Roman Andreea Maria",
+  "persoana_B": "Bîrsan Daniel Robert",
+  "data_A": "1998-01-12",
+  "data_B": "1998-02-19",
+  "validare_svg": {
+    "agent": "The Cartographer",
+    "status": "validat",
+    "regula_zero_initial": "zerourile de completare din zi sau luna nu intra in calcul",
+    "realizare_impreuna": "1 + 3 = 4",
+    "de_rezolvat_impreuna": "|1 - 3| = 2",
+    "watermark": "Atlas Numerologie"
+  }
+}
