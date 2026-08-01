@@ -88,8 +88,40 @@ def convert_callouts(body: str) -> str:
             inner,
             count=1,
         )
-        return f'<div class="callout">{inner}</div>'
+        return f'<aside class="callout example">{inner}</aside>'
     return re.sub(r"<blockquote>(.*?)</blockquote>", repl, body, flags=re.S)
+
+
+def apply_daniel_component_classes(body: str, prefix: str = "RAM-19980112-v1.00r") -> str:
+    escaped_prefix = re.escape(prefix)
+    body = re.sub(
+        rf'(<div class="idx">Index: {escaped_prefix}-T-017</div>\s*)<div class="table-wrap"><table>',
+        r'\1<div class="table-wrap spirit-code-wrap"><table class="spirit-code-table">',
+        body,
+        count=1,
+    )
+    body = re.sub(
+        rf'(<div class="idx">Index: {escaped_prefix}-T-018</div>\s*)<div class="table-wrap"><table>',
+        r'\1<div class="table-wrap"><table class="spirit-zones-table">',
+        body,
+        count=1,
+    )
+    for css, label in (("love", "Iubire"), ("reason", "Rațiune"), ("material", "Material"), ("gifts", "Haruri")):
+        body = body.replace(
+            f'<td><span class="zone-badge zone-{css}">{label}</span></td>',
+            f'<td class="zone-cell zone-{css}"><span class="zone-badge">{label}</span></td>',
+            1,
+        )
+    return body
+
+
+def wrap_tarot_figures(body: str) -> str:
+    return re.sub(
+        r'<p>(<img\b[^>]+>)</p>\s*<p><em>(.*?)</em></p>',
+        r'<figure>\1<figcaption>\2</figcaption></figure>',
+        body,
+        flags=re.S,
+    )
 
 
 def main() -> None:
@@ -100,12 +132,15 @@ def main() -> None:
 
     source = MD_PATH.read_text(encoding="utf-8")
     source = re.sub(r"\A---\n.*?\n---\n", "", source, count=1, flags=re.S)
+    source = re.sub(r"(?m)^(Index: RAM-19980112-v1\.00r-[^\n]+)\n(?!\n)", r"\1\n\n", source)
     source = embed_markdown_images(source)
     body = add_heading_ids(render_markdown(source))
     body = re.sub(r'<p>Index: ([^<]+)</p>', r'<div class="idx">Index: \1</div>', body)
     body = convert_callouts(body)
     body = build_toc(body)
     body = re.sub(r'(?<!<div class="table-wrap">)(<table\b.*?</table>)', r'<div class="table-wrap">\1</div>', body, flags=re.S)
+    body = apply_daniel_component_classes(body)
+    body = wrap_tarot_figures(body)
     body = embed_sources(body)
 
     css = style.group(1) + "\nblockquote{padding:14px 18px;margin:16px 0;background:linear-gradient(100deg,rgba(239,224,189,.72),rgba(255,248,232,.84));border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:0 5px 5px 0} figure{margin:18px 0} figcaption{text-align:center;color:var(--muted);font-style:italic}"

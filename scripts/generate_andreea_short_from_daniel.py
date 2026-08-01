@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
+import sys
 from pathlib import Path
 
 
@@ -10,48 +12,115 @@ DANIEL = ROOT / "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSA
 OUT_DIR = ROOT / "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA"
 OUT = OUT_DIR / "1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r.md"
 REPORT = OUT_DIR / "1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r-calculator.json"
+MATRIX_SVG = OUT_DIR / "matrita-datei-roman-andreea-maria.svg"
+CALCULATOR = ROOT / "skills/numerologie-lucrare-redactare/scripts/calculator_numerologic_examen.py"
+MATRIX_GENERATOR = ROOT / "skills/numerologie-SVG-matrita-datei-de-nastere/scripts/generate_matrita_datei_de_nastere.py"
 PREFIX = "RAM-19980112-v1.00r"
+
+
+def regenerate_sources() -> None:
+    """Reface sursele numerice si matricea, fara a reutiliza livrabile vechi."""
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    calculator_cmd = [
+        sys.executable,
+        str(CALCULATOR),
+        "--data-nasterii", "12.01.1998",
+        "--nume-complet", "Roman Andreea Maria",
+        "--nume-familie", "Roman",
+        "--prenume", "Andreea Maria",
+        "--prenume-activ", "Andreea",
+        "--gen", "feminin",
+        "--an-start", "1998",
+        "--an-final", "2106",
+        "--pretty",
+    ]
+    calculator_result = subprocess.run(
+        calculator_cmd,
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+    )
+    # Parsarea inainte de salvare impiedica propagarea unui raport incomplet.
+    report = json.loads(calculator_result.stdout)
+    REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+
+    subprocess.run(
+        [
+            sys.executable,
+            str(MATRIX_GENERATOR),
+            "--name", "Roman Andreea Maria",
+            "--birth-date", "12.01.1998",
+            "--output", str(MATRIX_SVG),
+        ],
+        check=True,
+    )
 
 
 def replace_block(text: str, suffix: str, body: str) -> str:
     marker = f"Index: {PREFIX}-{suffix}"
     pattern = rf"({re.escape(marker)}\n)(.*?)(?=\nIndex: {re.escape(PREFIX)}-|\Z)"
-    updated, count = re.subn(pattern, lambda m: m.group(1) + body.rstrip() + "\n", text, count=1, flags=re.S)
+    # Indexul trebuie să rămână un bloc separat de conținutul pe care îl identifică.
+    # Fără linia goală, parserul Markdown poate absorbi paragraful în stilul indexului.
+    updated, count = re.subn(pattern, lambda m: m.group(1) + "\n" + body.rstrip() + "\n", text, count=1, flags=re.S)
     if count != 1:
         raise RuntimeError(f"Blocul {suffix} nu a fost găsit o singură dată: {count}")
     return updated
 
 
+def geometry_svg(count: int) -> tuple[str, str]:
+    if count == 0:
+        return "", "absent"
+    if count == 1:
+        return '<svg viewBox="0 0 40 32" role="img"><circle cx="20" cy="16" r="6"/></svg>', "cerc"
+    if count == 2:
+        return '<svg viewBox="0 0 40 32" role="img"><line x1="17.1" y1="16" x2="22.9" y2="16" style="stroke-linecap:butt"/><circle cx="10" cy="16" r="6"/><circle cx="30" cy="16" r="6"/></svg>', "două cercuri legate"
+    if count == 3:
+        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,4 33,27 7,27"/></svg>', "triunghi"
+    if count == 4:
+        return '<svg viewBox="0 0 40 32" role="img"><rect x="8" y="4" width="24" height="24"/></svg>', "pătrat"
+    if count == 5:
+        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,3 24,13 35,13 26,20 30,30 20,24 10,30 14,20 5,13 16,13"/></svg>', "pentagramă"
+    if count == 6:
+        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,3 35,27 5,27"/><polygon points="20,29 5,5 35,5"/></svg>', "hexagramă"
+    # Pentru apariții peste 6 păstrăm un poligon lizibil în spațiul compact al celulei.
+    return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,3 31,8 36,18 28,28 12,28 4,18 9,8"/></svg>', f"poligon cu {count} laturi"
+
+
 def matrix_table(casute: dict[str, dict]) -> str:
-    element = {1: "Foc", 2: "Apă", 3: "Aer", 4: "Pământ", 5: "Foc", 6: "Apă", 7: "Aer", 8: "Pământ", 9: "Foc"}
+    element_class = {1: "foc", 2: "apa", 3: "aer", 4: "pamant", 5: "foc", 6: "apa", 7: "aer", 8: "pamant", 9: "foc"}
     optim = {1: "111", 2: "222", 3: "333", 4: "44", 5: "55", 6: "66", 7: "7", 8: "8", 9: "9"}
-    geom = {0: "absent", 1: "○", 2: "○—○", 3: "△"}
     def cell(n: int) -> str:
         item = casute[str(n)]
         count = item["cantitate"]
-        symbol = geom.get(count, "□")
-        return f"**{n} — {element[n]}** · {item['cifre']} · optim `{optim[n]}` · {symbol}"
-    return "\n".join([
-        f"| {cell(1)} | {cell(4)} | {cell(7)} |",
-        "| --- | --- | --- |",
-        f"| {cell(2)} | {cell(5)} | {cell(8)} |",
-        f"| {cell(3)} | {cell(6)} | {cell(9)} |",
-    ])
+        svg, label = geometry_svg(count)
+        empty = " matrix-geom-empty" if count == 0 else ""
+        return (
+            f'<div class="matrix-cell element-{element_class[n]}">'
+            f'<div class="matrix-number">{n}</div><div class="matrix-main">{item["cifre"]}</div>'
+            f'<div class="matrix-opt">optim {optim[n]}</div>'
+            f'<div class="matrix-geom{empty}" aria-label="{label}">{svg}</div></div>'
+        )
+    cells = "\n".join(cell(n) for n in (1, 4, 7, 2, 5, 8, 3, 6, 9))
+    return f'<div class="matrix-grid matrix-grid-outlined" data-source-svg="matrita-datei-roman-andreea-maria.svg" aria-label="Matrița numerologică 3 pe 3 pentru Roman Andreea Maria">\n{cells}\n</div>'
 
 
 def name_matrix_table(date_boxes: dict[str, dict], name_boxes: dict[str, dict]) -> str:
+    element_class = {1: "foc", 2: "apa", 3: "aer", 4: "pamant", 5: "foc", 6: "apa", 7: "aer", 8: "pamant", 9: "foc"}
     optim = {1: "111", 2: "222", 3: "333", 4: "44", 5: "55", 6: "66", 7: "7", 8: "8", 9: "9"}
-    geom = {0: "absent", 1: "○", 2: "○—○", 3: "△"}
     def cell(n: int) -> str:
         d, x = date_boxes[str(n)], name_boxes[str(n)]
-        symbol = geom.get(x["cantitate"], "□")
-        return f"**data {d['cifre']}** · nume {x['cifre']} · optim `{optim[n]}` · {symbol}"
-    return "\n".join([
-        f"| {cell(1)} | {cell(4)} | {cell(7)} |",
-        "| --- | --- | --- |",
-        f"| {cell(2)} | {cell(5)} | {cell(8)} |",
-        f"| {cell(3)} | {cell(6)} | {cell(9)} |",
-    ])
+        count = x["cantitate"]
+        svg, label = geometry_svg(count)
+        empty = " matrix-geom-empty" if count == 0 else ""
+        return (
+            f'<div class="matrix-cell element-{element_class[n]}">'
+            f'<div class="matrix-number">data {d["cifre"]}</div><div class="matrix-main">{x["cifre"]}</div>'
+            f'<div class="matrix-opt">optim {optim[n]}</div>'
+            f'<div class="matrix-geom{empty}" aria-label="{label}">{svg}</div></div>'
+        )
+    cells = "\n".join(cell(n) for n in (1, 4, 7, 2, 5, 8, 3, 6, 9))
+    return f'<div class="matrix-grid matrix-grid-outlined" aria-label="Matricea Codului Numerologic al Numelui comparată cu matricea datei">\n{cells}\n</div>'
 
 
 def wellbeing(rows: list[dict]) -> str:
@@ -122,7 +191,88 @@ def cycle9_table(start_year: int = 1998) -> str:
     return "\n".join(lines)
 
 
+def indexed_paragraphs(base: str, paragraphs: list[str]) -> str:
+    """Construiește o serie stabilă de paragrafe indexate pentru revizie."""
+    suffixes = [""] + list("abcdefghijklmnopqrstuvwxyz")
+    suffixes += [f"a{letter}" for letter in "abcdefghijklmnopqrstuvwxyz"]
+    if len(paragraphs) > len(suffixes):
+        raise ValueError(f"Prea multe paragrafe pentru seria {base}: {len(paragraphs)}")
+    return "\n\n".join(
+        f"Index: {PREFIX}-{base}{suffix}\n\n{paragraph}"
+        for suffix, paragraph in zip(suffixes, paragraphs)
+    )
+
+
+def andreea_conclusions() -> str:
+    """Concluzii personalizate, după contractul scurt validat pe Daniel."""
+    career = [
+        "Andreea, când vorbim despre cariera ta, primul lucru la care ne uităm este potențialul tău nativ: cu ce calități ai venit, ce resurse ai în tine și în ce fel de medii poți să dai cel mai bun randament.",
+        "În data ta de naștere, 12.01.1998, apar foarte puternic energiile **111111**, **999**, **22**, alături de câte o apariție a lui **3**, **4** și **8**. Ai multă inițiativă, o identitate puternică, capacitatea de a porni proiecte și o energie mentală care caută sens, transformare și rezultate. Poți aduna oamenii în jurul unei idei atunci când le arăți limpede direcția.",
+        "Cele șase apariții ale lui **1** îți dau forță psihică, voință și capacitate de conducere, iar cele trei apariții ale lui **9** susțin analiza, memoria și înțelegerea profundă. În medii dinamice poți decide repede și poți vedea atât începutul, cât și imaginea de ansamblu. Ai grijă însă ca hotărârea să nu devină rigiditate, iar analiza să nu se transforme în suprasolicitare mentală.",
+        "La tine există o bază concretă prin căsuța **4**, dar energiile **5**, **6** și **7** nu apar în matricea datei. Asta înseamnă că încrederea în tine, pragmatismul financiar, continuitatea, răbdarea și timpul de reflecție trebuie construite intenționat. Ideea poate porni foarte repede; succesul apare când îi dai un sistem, un buget, un termen și un ritm de finalizare.",
+        "În carieră ți se potrivesc rolurile în care poți iniția, organiza și transforma o idee într-o construcție utilă. Poți funcționa bine ca antreprenor, coordonator, consultant, specialist, creator de programe sau proiecte, om de strategie ori lider al unei echipe. Rolurile complet repetitive te pot seca de energie, dar nici libertatea fără criterii nu te ajută: ai nevoie de autonomie în interiorul unei structuri clare.",
+        "Destinul tău **31/4** cere construcție, ordine, responsabilitate și rezultate care rezistă în timp. Vibrația interioară **12/3** aduce comunicare și creativitate, Vibrația exterioară **1** te face vizibilă și hotărâtă, iar Numărul de exprimare **7** adaugă cercetare, specializare și profunzime. Formula ta profesională este simplă: creezi prin **3**, pornești prin **1**, aprofundezi prin **7** și construiești prin **4**.",
+        "Arcana **6 — Îndrăgostiții** susține aplicabilitatea profesională prin alegere, colaborare și armonizarea intereselor. Îți sunt favorabile consilierea, negocierea, educația, resursele umane, comunicarea, proiectele pentru oameni, arta, estetica și activitățile în care trebuie să creezi acord. Reușești când alegi pe baza valorilor tale și nu amâni o decizie numai pentru a evita disconfortul.",
+        "În schimb, manifestarea dezechilibrată a Arcanei **9 — Eremitul** poate deveni o frână: izolare, analiză fără termen, acumularea cunoașterii fără expunere și așteptarea certitudinii perfecte. Profunzimea este un dar, dar are nevoie de ieșire în lume. Stabilește date concrete pentru publicare, prezentare, ofertă și feedback, astfel încât atelierul interior să nu devină ascunzătoare.",
+        "Pentru bunăstarea materială, căsuța **6** are nevoie de aport conștient. În practică, asta înseamnă realism, disciplină financiară, grijă pentru resurse, capacitatea de a vedea oportunitățile și asumarea responsabilității pentru bani. Nu aștepta ca pragmatismul să apară singur: folosește bugete, praguri de risc, economisire automată și criterii clare de investiție.",
+        "Scara bunăstării arată că **Vectorul 789 — Creativitate** este cel mai puternic, urmat de **Vectorul 159 — Carieră** și **Vectorul 369 — Bunăstare materială**. Asta îți spune că banii nu vin numai din efort, ci mai ales atunci când transformi creativitatea și cunoașterea într-o soluție repetabilă. Ai nevoie să legi ideea de o nevoie reală, apoi să îi dai preț, proces și continuitate.",
+        "Numărul tău ereditar karmic este **3**, asociat cu Arcana **3 — Împărăteasa**. Moștenirea aceasta susține creativitatea, îngrijirea, frumusețea, creșterea și capacitatea de a face un proiect să rodească. Profesional, poți crea spații, produse sau servicii în care oamenii se simt văzuți, susținuți și inspirați.",
+        "Umbra energiei ereditare **3** poate apărea prin împrăștiere, confort excesiv, nevoie de validare ori începuturi care nu ajung la maturitate. Ca să fii susținută de ea, hrănește o direcție suficient de mult încât să devină rezultat. Creativitatea ta capătă valoare economică atunci când are selecție, ritm, limite și un standard de finalizare.",
+        "Ai o energie de conducere foarte mare, dar leadershipul tău funcționează cel mai bine când nu ocupă tot spațiul. Ascultă oamenii, cere opinii și lasă-i să contribuie la soluție. Nu trebuie să renunți la fermitate; trebuie să o transformi într-o claritate care organizează, nu într-o presiune care îi micșorează pe ceilalți.",
+        "Aspectele de urmărit sunt rigiditatea, nerăbdarea, nevoia de control, suprasolicitarea mentală, dispersia creativă și dificultatea de a cere ajutor. Când simți că trebuie să le faci pe toate, oprește-te și separă rolurile: ce trebuie decis de tine, ce poate fi delegat și ce nu merită continuat.",
+        "În intervalul actual, **12.01.2026–11.01.2027**, te afli în Ciclul **4** de 9 ani, în Anul **2**, cu vibrația anuală **5** și Lecția **9**. Pinaclul **1** aduce Oportunitatea **4** și Provocarea **2**, iar Soarta și Destinul sunt la **2 / 2**. Este o perioadă bună pentru reorganizare, colaborări și închiderea proiectelor care consumă resurse fără să construiască valoare.",
+        "Cadrul actual nu îți cere să forțezi singură rezultatul. Oportunitatea **4** cere fundație, iar Provocarea **2** cere cooperare. Alege partenerii potriviți, pune acordurile în scris, testează o direcție nouă la scară mică și păstrează numai ceea ce poate fi susținut prin timp, bani și oameni reali.",
+        "Pe scurt, Andreea, ție ți se potrivesc carierele în care poți crea, cerceta, decide și construi. Arcana **6** favorizează colaborarea și alegerea matură, Destinul **4** cere structură, iar scara bunăstării leagă creativitatea de carieră și bani. Când activezi conștient pragmatismul lui **6**, ideile tale nu rămân doar promisiuni, ci devin resurse durabile.",
+        "Nu ești aici doar ca să pornești multe lucruri, ci ca să alegi ce merită crescut și să îi dai o formă stabilă. Când inițiativa lui **1**, expresia lui **3**, profunzimea lui **7** și disciplina lui **4** lucrează împreună, poți deveni un reper: un om care nu doar vede posibilități, ci le transformă în realitate.",
+    ]
+
+    relationship = [
+        "Andreea, când ne uităm la relația dintre tine, născută pe 12.01.1998, și Daniel, născut pe 19.02.1998, observăm că potențialul maxim al relației este **4**, iar podul de trecut este **2**.",
+        "Direcția finală a relației este construcția, stabilitatea, maturizarea și așezarea concretă a lucrurilor. Energia **4** vorbește despre structură, casă, responsabilitate, ordine, asumare și o fundație comună. Întrebarea relației nu este numai cât de intens vă simțiți, ci dacă puteți construi împreună ceva real, sănătos și durabil.",
+        "Potențialul **4** cere maturitate. Aveți de pus lucrurile în practică, de asumat roluri, de respectat limite și de creat reguli clare. Relația nu se hrănește numai din atracție sau inspirație, ci și din consecvență, organizare și fapte repetate. Lucrată conștient, vă poate stabiliza pe amândoi.",
+        "Podul de trecut este **2**. Ca să ajungeți la stabilitatea lui **4**, trebuie să treceți prin cooperare, ascultare, sensibilitate, răbdare și diplomație. Nu puteți construi sănătos dacă fiecare trage singur în direcția lui; podul **2** cere un parteneriat real.",
+        "Energia **2** vă cere să nu transformați fiecare diferență într-o luptă de putere. Formula matură este: «nu câștig eu împotriva ta, ci câștigăm noi dacă învățăm să ne auzim». Blândețea nu înseamnă slăbiciune, ci capacitatea de a proteja legătura în timp ce spuneți adevărul.",
+        "Un detaliu important este că potențialul maxim **4** este chiar Destinul tău și Vibrația ta globală. Tu rezonezi natural cu direcția relației și poți vedea mai repede ce trebuie organizat, reparat sau construit. Relația îți activează propriul drum de maturizare prin responsabilitate și rezultate concrete.",
+        "Asta nu înseamnă că trebuie să duci relația singură. În dezechilibru, energia ta **4** poate deveni rigiditate, critică, control sau asumarea unei poveri prea mari. Daniel are nevoie să participe real la construcție, iar tu ai nevoie să lași loc și modului lui de a contribui.",
+        "Vibrația ta interioară urmează traseul **12/3**, același traseu pe care îl are Destinul compus al lui Daniel. Această sincronizare arată că îl poți atinge direct în zona lui de evoluție prin comunicare, expresie și transformare. În același timp, felul în care el răspunde îți oglindește calitatea propriei tale comunicări.",
+        "Destinul lui Daniel **12/3** și Vibrația ta interioară **12/3** pot crea sentimentul că vă recunoașteți în aceeași temă. Dar oglinda nu lucrează singură: aveți de ieșit din sacrificiu, blocaj, tăcere sau dramatizare și de transformat experiența în dialog sincer, creativ și responsabil.",
+        "Privind cifrele brute din data ta de naștere, tu aduci în relație **111**, **2**, **8** și **99**. Vii cu inițiativă și prezență prin cele trei apariții ale lui **1**, cu sensibilitate prin **2**, cu putere și resurse prin **8**, precum și cu analiză și profunzime prin cele două apariții ale lui **9**.",
+        "Daniel aduce în relație, din cifrele brute ale datei lui, **11**, **2**, **8** și **999**. El vine cu voință prin cele două apariții ale lui **1**, cu relaționare prin **2**, cu intensitate și resurse prin **8**, precum și cu o profunzime mentală accentuată prin cele trei apariții ale lui **9**.",
+        "Este semnificativ că veniți cu aceleași cifre de bază: **1**, **2**, **8** și **9**. Diferă intensitatea lor: tu ai mai mult **1**, iar Daniel are mai mult **9**. Tu poți pune lucrurile mai repede în mișcare, iar el poate aduce o analiză mai adâncă și o perspectivă mai largă.",
+        "Acolo unde aveți aceeași cifră, aveți și o zonă comună de lucru. Vă puteți înțelege firesc, dar vă puteți activa reciproc și umbrele. Tocmai de aceea, asemănarea are nevoie de conștiență, nu doar de atracție.",
+        "Prin **1**, amândoi veniți cu voință, inițiativă și nevoie de afirmare. Tu ai **111**, iar Daniel **11**, astfel că impulsul tău de pornire poate fi mai vizibil. În lumină vă încurajați spre curaj; în umbră pot apărea competiția, încăpățânarea și lupta pentru cine are dreptate.",
+        "Prin **2**, amândoi veniți cu sensibilitate, cooperare și parteneriat, iar podul relației este tot **2**. Aveți resursa empatiei, dar și riscul tăcerilor, al fricii de respingere sau al așteptării ca celălalt să ghicească. Spune ce simți și întreabă înainte să tragi concluzii.",
+        "Prin **8**, amândoi aduceți tema puterii, banilor, controlului, ambiției și sexualității. Energia poate susține atracția și construcția materială, dar poate aduce și posesivitate ori lupte de putere. Folosiți puterea pentru proiecte comune, nu pentru dominare.",
+        "Prin **9**, amândoi veniți cu profunzime, analiză și intuiție. Daniel are **999**, iar tu **99**, deci el poate interioriza și analiza mai mult. Nu îl grăbi spre concluzie, dar nici nu lăsa analiza să înlocuiască dialogul. Profunzimea trebuie adusă în cuvinte, nu transformată în distanță.",
+        "Faptul că aveți aceleași cifre poate crea senzația că vorbiți aceeași limbă: voință, sensibilitate, intensitate și profunzime. Totuși, dacă unul intră în orgoliu, retragere sau control, celălalt poate răspunde prin aceeași energie. Opriți escaladarea înainte să devină un reflex.",
+        "Pe tine, ziua **12** te motivează să simți sens, transformare, viață interioară și mișcare. În umbră, poți fugi de stabilitate dacă o confunzi cu blocajul. Pe Daniel, ziua **19** îl împinge să reușească, să conducă și să aibă impact; în umbră, poate transforma această pornire în competiție sau orgoliu.",
+        "Muntele tău de urcat este **4**: să construiești, să te așezi și să transformi sensul interior în realitate, fără să devii rigidă ori excesiv de controlantă. Muntele lui este **12/3**: să transforme forța în comunicare matură, expresie sinceră și dialog.",
+        "Pe scurt, relația poate construi ceva solid prin **4**, dar cheia este **2**: cooperare, blândețe și parteneriat real. Tu rezonezi direct cu potențialul relației, iar traseul tău interior **12/3** atinge Destinul lui Daniel. Ceea ce vă apropie trebuie lucrat conștient, pentru că aceleași energii vă pot și provoca.",
+        "În prezent, până la 12.01.2027, lecția ta principală este **9**. Ea îți cere încheiere, selecție, iertare și transformare: să vezi ce tipare și-au terminat rolul și ce trebuie eliberat pentru ca relația să poată continua într-o formă mai matură.",
+        "Te afli în Anul **2** din al patrulea ciclu de 9 ani. Este o poziție relațională, potrivită pentru apropiere, cooperare și acorduri, nu pentru forțarea unilaterală a rezultatului. Pentru că este ciclul **4**, toate discuțiile trebuie aduse spre stabilitate, responsabilitate și o construcție care poate fi susținută.",
+        "Soarta și Destinul sunt ambele la **2**. Contextul exterior și direcția interioară îți cer aceeași lecție: dialog, parteneriat, răbdare și adaptare. Când aceeași cifră apare pe ambele linii, tema devine greu de evitat și merită lucrată direct.",
+        "Vibrația anuală **5** adaugă însă schimbare, libertate și nevoia de a ieși din tipare. Nu interpreta schimbarea ca obligația de a rupe relația și nici stabilitatea ca obligația de a rămâne în ceva nesănătos. Folosește anul pentru a schimba modul în care relaționați, nu pentru a repeta automat vechile reacții.",
+        "Faptul că te afli sub zona de confort poate aduce neliniște, sensibilitate sau impresia că nu controlezi ritmul. Nu confunda disconfortul cu eșecul. Perioada îți cere o putere mai calmă: să rămâi prezentă, să ceri claritate și să nu iei decizii definitive într-un vârf emoțional.",
+        "Până la 12.01.2027, discutați concret ce păstrați, ce încheiați și ce construiți. Este o perioadă potrivită pentru vindecarea tiparelor, clarificarea rolurilor, stabilirea limitelor și reașezarea responsabilităților. O promisiune are valoare numai dacă este urmată de un comportament repetat.",
+        "Ai grijă la impulsul de a prelua conducerea întregii relații. Anul **2** cere cooperare, iar lecția **9** cere să renunți la ceea ce nu mai servește. Spune ce ai nevoie, ascultă răspunsul și lasă-l pe Daniel să își asume partea lui fără să îi scrii tu rolul.",
+        "Practic, stabiliți o conversație săptămânală fără telefoane, un moment lunar pentru buget și obiective comune și o regulă de oprire când discuția devine luptă de putere. Întrebările «ce ai simțit?», «de ce ai nevoie?» și «ce putem face concret?» vă ajută să treceți podul **2**.",
+        "Relațional, apropierea nu trebuie să anuleze libertatea, iar libertatea nu trebuie folosită ca fugă. Păstrați timp individual, dar și ritualuri comune. Tu ai nevoie să simți că relația evoluează; Daniel are nevoie să simtă că direcția are sens. Construiți o formă în care ambele nevoi sunt vizibile.",
+        "Pe scurt, Andreea, până la 12.01.2027 viața îți cere să cureți vechile tipare și să înveți parteneriatul matur. Nu câștigi prin control, ci prin claritate; nu prin grabă, ci prin consecvență; nu ducând totul singură, ci construind împreună. Dacă unești inițiativa ta cu răbdarea lui **2**, relația poate folosi potențialul **4** la nivelul lui cel mai sănătos.",
+    ]
+
+    if len(career) != 18 or len(relationship) != 31:
+        raise AssertionError(f"Structură concluzii invalidă: {len(career)} / {len(relationship)}")
+    return "\n\n".join([
+        f"Index: {PREFIX}-CAP-015\n\n## Capitolul 11. Concluzii",
+        f"Index: {PREFIX}-SUB-030\n\n### 11.1. Carieră și bani",
+        indexed_paragraphs("P-032", career),
+        f"Index: {PREFIX}-SUB-031\n\n### 11.2. Iubire și relație",
+        indexed_paragraphs("P-033", relationship),
+    ])
+
+
 def main() -> None:
+    regenerate_sources()
     source = DANIEL.read_text(encoding="utf-8")
     report = json.loads(REPORT.read_text(encoding="utf-8"))
     calc = report["capitolul_2_formule_calcule_tabele_grafice"]
@@ -270,7 +420,7 @@ def main() -> None:
         "T-021": "| Fereastră | Suprapunerea principală | Sens relațional |\n| --- | --- | --- |\n| **12.01.2026–11.01.2027** | Anul **2**; vibrația **5**; Lecția **9**; Soartă–Destin **2 / 2** | Clarificare, schimbarea tiparelor și acorduri concrete. |\n| **12.01.2027–11.01.2028** | Vibrația **6**; Lecția **6**; Pinaclul **1**, Oportunitatea **4**, Provocarea **2** | Fereastră apropiată pentru familie, cămin și asumare, dacă relația este stabilă. |\n| **12.01.2032–11.01.2033** | Vibrația **2**; Lecția **6**; Soartă–Destin **8 / 8**; Pinaclul **2**, Oportunitatea **3**, Provocarea **6** | Parteneriat matur, oficializare și construcție comună cu responsabilitate financiară. |\n| **12.01.2036–11.01.2037** | Vibrația **6**; Soartă–Destin **9 / 9**; Pinaclul **2** | Fereastră de maturizare afectivă, familie și închiderea unor vechi tensiuni. |",
         "P-033c": "O dată pe săptămână, vorbiți fără telefoane despre starea relației; lunar, verificați bugetul și un obiectiv comun. Când apare tensiunea, spune mai întâi ce ai simțit, apoi ce propui. Formula ta matură nu este «pornesc singură și văd dacă vii», ci «spun limpede ce îmi doresc, te ascult și alegem o construcție pe care o putem susține amândoi».",
         "P-034": "Ferestrele nu promit bani, carieră sau căsătorie. Ele arată suprapuneri simbolice care pot susține o direcție. Când Vibrația interioară **3** exprimă, Vibrația exterioară **1** inițiază, iar Destinul **4** construiește, harta devine un instrument de alegere conștientă, nu un substitut pentru realitate.",
-        "T-014": "| Resursă | Valoare |\n| --- | --- |\n| Agent coordonator | The Scribe |\n| Grafică | The Cartographer — SVG-uri validate |\n| Skill-uri | `numerologie-lucrare-redactare`; skill-urile SVG dedicate |\n| Template | `scurt` — `Template_Lucrare_Numerologica_Scurt.md` + `.html` |\n| Raport calculator | `1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r-calculator.json` |\n| SVG-uri integrate | Matrice, Scara bunăstării, Soarta–Destin, Omulețul relațiilor și Harta suprapusă |\n| Versiune și data redactării | V1.00R — 31.07.2026 |",
+        "T-014": "| Resursă | Valoare |\n| --- | --- |\n| Agent coordonator | The Scribe |\n| Grafică | The Cartographer — SVG-uri validate |\n| Skill-uri | `numerologie-lucrare-redactare`; skill-urile SVG dedicate |\n| Template | `scurt` — `Template_Lucrare_Numerologica_Scurt.md` + `.html` |\n| Raport calculator | `1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r-calculator.json` |\n| SVG-uri integrate | Matrice, Scara bunăstării, Soarta–Destin și Omulețul relațiilor |\n| Versiune și data redactării | V1.00R — 31.07.2026 |",
     }
 
     # Elementele sunt calculate din cantitățile căsuțelor, nu din valorile lor.
@@ -280,8 +430,27 @@ def main() -> None:
         for label, css, value in [("Foc", "foc", 9), ("Pământ", "pamant", 2), ("Aer", "aer", 1), ("Apă", "apa", 2)]
     ) + """</div></div><ul class="element-definitions"><li><strong>Focul</strong> este esența vieții, a duhului și a spiritului care animă și activează.</li><li><strong>Pământul</strong> hrănește și dă formă.</li><li><strong>Aerul</strong> eliberează și stimulează inteligența conceptuală.</li><li><strong>Apa</strong> susține emoțiile, flexibilitatea și acumularea.</li></ul></div>\n\nIndex: RAM-19980112-v1.00r-P-045\nTemperamentul tău predominant este **coleric**: Focul are **9** apariții, față de Pământ cu **2**, Apă cu **2** și Aer cu **1**. Reacționezi repede și ai multă energie de pornire. Echilibrul vine când dai Focului un scop, iar corpul, emoțiile și reflecția primesc timp egal în program."""
 
+    old_conclusion_blocks = {
+        "P-032", "P-032a", "T-020", "P-032b", "SUB-031",
+        "P-033", "P-033a", "P-033b", "T-021", "P-033c", "P-034",
+    }
     for suffix, body in blocks.items():
+        if suffix in old_conclusion_blocks:
+            continue
         text = replace_block(text, suffix, body)
+
+    # Subetapa Spiritului este personală. Modelul Daniel evidențiază 6, însă
+    # pentru codul 41 al Andreei rezultatul formulei este subetapa 2.
+    text = text.replace(' class="stage-reason current-row"', ' class="stage-reason"')
+    text = text.replace(
+        '<tr class="stage-love"><td>2</td><td>Interacțiune</td>',
+        '<tr class="stage-love current-row"><td>2</td><td>Interacțiune</td>',
+        1,
+    )
+    text = text.replace(
+        '<colgroup><col style="width:7%"><col style="width:22%"><col style="width:8%"><col style="width:18%"><col style="width:45%"></colgroup>',
+        '<colgroup><col style="width:3%"><col style="width:22%"><col style="width:8%"><col style="width:18%"><col style="width:49%"></colgroup>',
+    )
 
     text, element_count = re.subn(
         r'<div class="element-analysis framed-panel">.*?(?=\nIndex: RAM-19980112-v1\.00r-SUB-016)',
@@ -293,8 +462,19 @@ def main() -> None:
     if element_count != 1:
         raise RuntimeError(f"Secțiunea elementelor nu a fost înlocuită: {element_count}")
 
+    # Concluziile păstrează modelul structural Daniel, dar sunt recalculate și
+    # rescrise din perspectiva Andreei. Faptele comune ale relației rămân identice.
+    text, conclusion_count = re.subn(
+        rf"Index: {re.escape(PREFIX)}-CAP-015\n.*?(?=Index: {re.escape(PREFIX)}-CAP-016)",
+        andreea_conclusions().rstrip() + "\n\n",
+        text,
+        count=1,
+        flags=re.S,
+    )
+    if conclusion_count != 1:
+        raise RuntimeError(f"Capitolul Concluzii nu a fost înlocuit: {conclusion_count}")
+
     # Relația și graficele trebuie privite din perspectiva Andreei.
-    text = text.replace("### 11.3. Iubire și relația cu Andreea", "### 11.3. Iubire și relația cu Daniel")
     text = text.replace("![Grafic Soarta și Destin pentru Roman Andreea Maria]", "![Grafic Soarta și Destin pentru Roman Andreea Maria]")
     text = text.replace("tarot-01-magicianul-vibratia-interioara.jpg", "tarot-03-imparateasa-vibratia-interioara.jpg")
     text = text.replace("tarot-05-marele-preot-numarul-neamului.jpg", "tarot-03-imparateasa-vibratia-interioara.jpg")
@@ -304,6 +484,9 @@ def main() -> None:
     text = text.replace("parteneră", "partener")
     text = text.replace("născut în luna", "născută în luna")
     text = text.replace("ești autentic atunci", "ești autentică atunci")
+    # Regula este generală pentru revizii: niciun index nu înglobează paragraful,
+    # calculul, tabelul sau graficul care urmează.
+    text = re.sub(rf"(?m)^(Index: {re.escape(PREFIX)}-[^\n]+)\n(?!\n)", r"\1\n\n", text)
     OUT.write_text(text, encoding="utf-8", newline="\n")
     print(OUT)
 

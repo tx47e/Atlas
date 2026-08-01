@@ -6,37 +6,17 @@
       {
         "id": "8fb72a4bc2ffa45c",
         "type": "tabs",
-        "dimension": 57.61421319796954,
         "children": [
           {
-            "id": "04999844b5e9e94b",
+            "id": "c6280322d0947656",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "file:///C:/Users/Mihai/Documents/Atlas/Dashboard/v3/index.html#/vault"
+                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r.html"
               },
               "icon": "lucide-file",
-              "title": "Vault / Bibliotecă — Atlas Numerologie"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8b9b6d32aa465847",
-        "type": "tabs",
-        "dimension": 42.38578680203046,
-        "children": [
-          {
-            "id": "29fcc46aaa15561c",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-v1.07r.html#capitolul-6-ciclicitatile"
-              },
-              "icon": "lucide-file",
-              "title": "Lucrare numerologică - Bîrsan Daniel Robert - V1.07R"
+              "title": "Roman Andreea Maria — 12.01.1998"
             }
           }
         ]
@@ -220,13 +200,24 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "04999844b5e9e94b",
+  "active": "c6280322d0947656",
   "lastOpenFiles": [
+    "scripts/__pycache__/validate_andreea_short.cpython-311.pyc",
+    "scripts/__pycache__/generate_andreea_short_from_daniel.cpython-311.pyc",
+    "skills/numerologie-lucrare-redactare/references/metoda-concluzii.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/03-NEK-Calcul.md",
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/Untitled.md",
+    "scripts/__pycache__/render_andreea_short_html.cpython-311.pyc",
+    "scripts/render_daniel_short_html.py",
+    "vault/Numerologie/Spirit si Karma/Codul Spiritului/03-CS-Calcul.md",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r.html",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r.md",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/matrita-datei-roman-andreea-maria.svg",
+    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r-calculator.json",
+    "skills/numerologie-lucrare-redactare/scripts/validate_scurt_contract.py",
     "scripts/validate_andreea_short.py",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r-relatie-calculator.json",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r.html",
     "scripts/render_andreea_short_html.py",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r.md",
     "scripts/generate_andreea_short_from_daniel.py",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/omulet-relatii-roman-andreea-maria-birsan-daniel-robert.png",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/tarot-09-eremitul-obstacole-profesionale.jpg",
@@ -235,13 +226,7 @@
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/tarot-12-spanzuratul-karma-zilei.jpg",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/tarot-03-imparateasa-vibratia-interioara.jpg",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/harta-suprapusa-soarta-destin-roman-andreea-maria-v1.00r.svg",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r-calculator.json",
-    "Dashboard/v3/calculator-v3-theme.css",
-    "Dashboard/v3/persoane.txt",
-    "Dashboard/v3/calculator.html",
     "vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/03-CNP-Calcul.md",
-    "skills/numerologie-SVG-harta-suprapusa/scripts/__pycache__/generate_harta_suprapusa.cpython-312.pyc",
-    "skills/numerologie-SVG-harta-suprapusa/scripts/__pycache__",
     "vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index.md",
     "vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/03-MDN-Calcul.md",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/harta-suprapusa-soarta-destin-birsan-daniel-robert-v1.00r.svg",
@@ -262,11 +247,6 @@
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-36.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-35.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-34.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-33.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-32.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-31.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-29.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-28.md",
-    "temp/dashboard v2/6-----.png"
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-33.md"
   ]
 }

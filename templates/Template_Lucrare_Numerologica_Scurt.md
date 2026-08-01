@@ -54,7 +54,7 @@ Index: {{cod_lucrare}}-CAP-005
 ## Capitolul 1. Vibrația interioară — Cine ești tu?
 
 Index: {{cod_lucrare}}-SUB-001
-### 1.1. Definiție și calcul
+### 1.1. Definiție
 
 Index: {{cod_lucrare}}-P-002
 {{definitie_vibratie_interioara_si_metoda}}
@@ -118,7 +118,7 @@ Index: {{cod_lucrare}}-C-002
 > Luna din data de naștere = {{calcul_vibratie_exterioara}}
 
 Index: {{cod_lucrare}}-SUB-009
-### 2.2. Caracterul social
+### 2.2. Rolul social
 
 {{interpretare_caracter_social}}
 
@@ -184,10 +184,8 @@ Index: {{cod_lucrare}}-C-004
 > Șir complet / număr logic = **{{sir_complet}}**
 
 Index: {{cod_lucrare}}-G-002
-| **1 — Foc** · {{cifre_1}} · optim `111` · {{simbol_1}} | **4 — Pământ** · {{cifre_4}} · optim `44` · {{simbol_4}} | **7 — Aer** · {{cifre_7}} · optim `7` · {{simbol_7}} |
-| --- | --- | --- |
-| **2 — Apă** · {{cifre_2}} · optim `222` · {{simbol_2}} | **5 — Foc** · {{cifre_5}} · optim `55` · {{simbol_5}} | **8 — Pământ** · {{cifre_8}} · optim `8` · {{simbol_8}} |
-| **3 — Aer** · {{cifre_3}} · optim `333` · {{simbol_3}} | **6 — Apă** · {{cifre_6}} · optim `66` · {{simbol_6}} | **9 — Foc** · {{cifre_9}} · optim `9` · {{simbol_9}} |
+
+{{matrice_data_3x3_componenta_html_cu_geometrii_svg_si_clasa_matrix-grid-outlined}}
 
 > [!important] Model matriceal
 > Păstrează ordinea `1–4–7 / 2–5–8 / 3–6–9`, culorile elementelor și reperul optim. Pentru o cifră folosește un cerc; pentru exact două cifre folosește două cercuri unite printr-o linie care se oprește la contur și nu intră în cercuri; pentru exact trei cifre folosește un triunghi. Căsuțele fără cifre afișează `—` și starea `absent`.
@@ -338,7 +336,8 @@ Index: {{cod_lucrare}}-C-{{index_calcul_cod_nume}}
 > Codul numerologic personal al numelui = **{{cod_numerologic_personal_nume}}**
 
 Index: {{cod_lucrare}}-G-002a
-{{matrice_comparativa_data_si_nume}}
+
+{{matrice_comparativa_data_si_nume_componenta_html_cu_geometrii_svg_si_clasa_matrix-grid-outlined}}
 
 Index: {{cod_lucrare}}-P-{{index_comparatie_data_nume}}
 {{interpretare_comparatie_data_nume_resurse_comune}}
@@ -530,17 +529,8 @@ Index: {{cod_lucrare}}-T-008
 
 {{interpretare_lectii_de_viata}}
 
-Index: {{cod_lucrare}}-SUB-026
-### 8.4. Ciclul de 7 ani
-
-Index: {{cod_lucrare}}-T-006
-| Ciclu | Anul 1 | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Interpretare |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| {{ciclu_7_1}} | {{an1}} | {{an2}} | {{an3}} | **{{an4_reper}}** | {{an5}} | {{an6}} | {{an7}} | {{interpretare_ciclu_7_1}} |
-| {{adauga_randuri_pentru_interval}} |  |  |  |  |  |  |  |  |
-
 Index: {{cod_lucrare}}-SUB-027
-### 8.5. Ciclul de 9 ani
+### 8.4. Ciclul de 9 ani
 
 Index: {{cod_lucrare}}-T-007
 | Ciclu | Anul 1 — început | Anul 2 | Anul 3 | Anul 4 | Anul 5 | Anul 6 | Anul 7 | Anul 8 | Anul 9 — încheiere |
@@ -551,7 +541,7 @@ Index: {{cod_lucrare}}-T-007
 {{interpretare_ciclu_9_si_an_personal}}
 
 Index: {{cod_lucrare}}-SUB-027a
-### 8.6. Ciclul de 12 ani
+### 8.5. Ciclul de 12 ani
 
 Index: {{cod_lucrare}}-T-015
 | Ciclu | Interval calendaristic | Vârste | Citire |
@@ -623,27 +613,18 @@ Index: {{cod_lucrare}}-T-016
 Index: {{cod_lucrare}}-CAP-015
 ## Capitolul 11. Concluzii
 
-Index: {{cod_lucrare}}-SUB-{{index_sub_harta_suprapusa}}
-### 11.1. Harta suprapusă
-
-Index: {{cod_lucrare}}-P-{{index_descriere_harta_suprapusa}}
-{{descriere_harta_suprapusa_maxim_trei_randuri}}
-
-Index: {{cod_lucrare}}-G-{{index_harta_suprapusa}}
-![Harta suprapusă pentru {{nume_complet}}]({{fisier_harta_suprapusa}}.svg)
-
 Index: {{cod_lucrare}}-SUB-{{index_sub_cariera_bani}}
-### 11.2. Carieră și bani
+### 11.1. Carieră și bani
 
-{{concluzie_cariera_bani_din_harta_suprapusa_si_ferestre_temporale_cu_paragrafe_indexate}}
+{{concluzie_cariera_bani_conform_metoda_concluzii_cu_paragrafe_indexate}}
 
 Index: {{cod_lucrare}}-SUB-{{index_sub_iubire_relatii}}
-### 11.3. Iubire și relații
+### 11.2. Iubire și relație
 
-{{concluzie_iubire_relatii_din_harta_suprapusa_si_ferestre_temporale_cu_paragrafe_indexate}}
+{{concluzie_iubire_relatie_conform_metoda_concluzii_cu_paragrafe_indexate}}
 
 > [!info] Renumerotare fără relație
-> Dacă nu există date relaționale, titlul devine `Capitolul 9. Concluzii`, iar ținta din Cuprins se actualizează identic. Subcapitolul `Iubire și relații` rămâne general și nu inventează un partener.
+> Dacă nu există date relaționale, titlul devine `Capitolul 9. Concluzii`, iar ținta din Cuprins se actualizează identic. Elimină al doilea subcapitol sau păstrează numai o lectură generală `Iubire și relații`, fără partener ori valori inventate.
 
 Index: {{cod_lucrare}}-CAP-016
 ## Documentația și trasabilitatea lucrării
@@ -681,6 +662,6 @@ Index: {{cod_lucrare}}-T-014
 - [ ] Subcapitolul Interior și exterior conține dialogul, definiția punții, calculul absolut în chenar și interpretarea autenticității.
 - [ ] Capitolul 5 respectă ordinea Activ, Intim, Ereditar, Ereditar karmic, Realizare, Exprimare, Codul numelui.
 - [ ] Ciclul activ din T-015 este marcat cu roșu și bold, iar diacriticele sunt UTF-8 fără mojibake.
-- [ ] Concluziile includ Harta suprapusă, Carieră și bani, apoi Iubire și relații.
+- [ ] Concluziile includ Carieră și bani, apoi Iubire și relație; Harta suprapusă este numai sursă de sinteză, nu subcapitol separat.
 - [ ] SVG-ul Omulețului relațiilor este valid, are watermark `Atlas Numerologie` și nu a fost editat manual.
 - [ ] Nu există date, ani, interpretări sau resurse rămase de la persoana-model.
