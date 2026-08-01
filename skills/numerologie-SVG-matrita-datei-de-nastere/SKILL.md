@@ -35,6 +35,7 @@ python scripts/generate_matrita_datei_de_nastere.py `
 
 - 0 aparitii: fara figura; 1: cerc; 2: doua cercuri legate; 3: triunghi; 4: patrat.
 - 5: pentagrama; 6: hexagrama; 7: septagrama; 8: octogon.
+- Hexagrama se construieste din doua triunghiuri echilaterale concentrice, unul orientat in sus si unul rotit la 180 de grade. Bazele triunghiurilor raman in interiorul formei si nu se apropie de varfurile opuse, pentru ca simbolul sa nu arate ca o clepsidra. Deseneaza figura mai mica decat limita maxima a spatiului grafic, cu o margine de siguranta vizibila pe toate laturile; toate cele sase varfuri si grosimea conturului raman integral in interiorul casutei.
 - De la 9 in sus, foloseste poligonul regulat cu acelasi numar de laturi si denumirea lui numerica.
 
 ## Verificare

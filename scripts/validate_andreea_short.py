@@ -56,6 +56,14 @@ def main() -> None:
         errors.append("G-002a nu este redat ca matrice comparativă cu geometrii SVG")
     if html.count('<div class="matrix-cell element-') < 18:
         errors.append("Matricele G-002 și G-002a nu conțin câte nouă celule")
+    compact_hexagram = '<polygon points="20,5 30,22 10,22"/><polygon points="20,27 10,10 30,10"/>'
+    if compact_hexagram not in md or compact_hexagram not in html:
+        errors.append("Hexagrama compactă nu păstrează cele șase vârfuri complet vizibile")
+    if any(old in md + html for old in [
+        '20,3 35,27 5,27',
+        '20,6 32,25 8,25',
+    ]):
+        errors.append("A rămas o geometrie veche, aplatizată sau prea mare, pentru hexagramă")
 
     # Audit independent pentru Spirit, conform formulelor și tabelului din Vault.
     spirit_code = 55 - 12 - (2 * 1)

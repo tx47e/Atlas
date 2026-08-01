@@ -82,7 +82,7 @@ def geometry_svg(count: int) -> tuple[str, str]:
     if count == 5:
         return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,3 24,13 35,13 26,20 30,30 20,24 10,30 14,20 5,13 16,13"/></svg>', "pentagramă"
     if count == 6:
-        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,3 35,27 5,27"/><polygon points="20,29 5,5 35,5"/></svg>', "hexagramă"
+        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,5 30,22 10,22"/><polygon points="20,27 10,10 30,10"/></svg>', "hexagramă"
     # Pentru apariții peste 6 păstrăm un poligon lizibil în spațiul compact al celulei.
     return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,3 31,8 36,18 28,28 12,28 4,18 9,8"/></svg>', f"poligon cu {count} laturi"
 

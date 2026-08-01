@@ -49,7 +49,10 @@ def geometry(count: int, cx: float, cy: float) -> tuple[str, str]:
     if count == 5:
         return f'<polygon points="{points(5, cx, cy, 21, 2)}" {style}/>', "pentagrama"
     if count == 6:
-        return f'<polygon points="{points(3, cx, cy, 21)}" {style}/><polygon points="{points(3, cx, cy, 21, rotation=math.pi/2)}" {style}/>', "hexagrama"
+        # Hexagrama are o margine de siguranță mai mare decât celelalte
+        # simboluri, astfel încât toate cele șase vârfuri și conturul să fie
+        # complet vizibile în interiorul căsuței.
+        return f'<polygon points="{points(3, cx, cy, 17)}" {style}/><polygon points="{points(3, cx, cy, 17, rotation=math.pi/2)}" {style}/>', "hexagrama"
     if count == 7:
         return f'<polygon points="{points(7, cx, cy, 22, 3)}" {style}/>', "septagrama"
     if count == 8:
