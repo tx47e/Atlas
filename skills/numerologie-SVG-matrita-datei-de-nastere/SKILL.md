@@ -9,8 +9,10 @@ description: Genereaza SVG-uri autonome pentru Matrita datei de nastere din Codu
 
 1. Primeste numele, data nasterii si calea SVG de iesire.
 2. Ruleaza exclusiv `scripts/generate_matrita_datei_de_nastere.py`.
-3. Valideaza rezultatul ca XML si confirma numerele de lucru si sirul complet.
-4. Livreaza SVG-ul autonom; nu modifica manual rezultatul.
+3. Pentru o lucrare, cere si `--component-output`; insereaza componenta produsa imediat dupa indexul `G-002`, fara reconstructie manuala.
+4. Include [stilul componentei](assets/matrix-component.css) in CSS-ul HTML al lucrarii.
+5. Valideaza SVG-ul ca XML, cele noua celule ale componentei si numerele de lucru.
+6. Consulta [modelele Daniel si Andreea](references/modele/index.md) cand verifici aspectul.
 
 ## Comanda
 
@@ -18,7 +20,8 @@ description: Genereaza SVG-uri autonome pentru Matrita datei de nastere din Codu
 python scripts/generate_matrita_datei_de_nastere.py `
   --name "Birsan Daniel Robert" `
   --birth-date "19.02.1998" `
-  --output "matrita-datei-birsan-daniel-robert.svg"
+  --output "matrita-datei-birsan-daniel-robert.svg" `
+  --component-output "matrita-datei-birsan-daniel-robert-g-002.html"
 ```
 
 ## Calcul
@@ -38,8 +41,17 @@ python scripts/generate_matrita_datei_de_nastere.py `
 - Hexagrama se construieste din doua triunghiuri echilaterale concentrice, unul orientat in sus si unul rotit la 180 de grade. Bazele triunghiurilor raman in interiorul formei si nu se apropie de varfurile opuse, pentru ca simbolul sa nu arate ca o clepsidra. Deseneaza figura mai mica decat limita maxima a spatiului grafic, cu o margine de siguranta vizibila pe toate laturile; toate cele sase varfuri si grosimea conturului raman integral in interiorul casutei.
 - De la 9 in sus, foloseste poligonul regulat cu acelasi numar de laturi si denumirea lui numerica.
 
+## Componenta pentru lucrare
+
+- Foloseste exact clasele `matrix-grid matrix-grid-outlined`, `matrix-cell`, `matrix-number`, `matrix-main`, `matrix-opt` si `matrix-geom` generate de script.
+- Centreaza grila, pastreaza conturul auriu, raza de `5px`, umbra discreta si fundalul elementului pentru fiecare casuta.
+- Pune geometria in coltul dreapta-jos. Nu lasa niciun varf sa atinga sau sa depaseasca `viewBox`-ul compact `0 0 40 32`.
+- Pentru doua aparitii, linia dintre cercuri nu intra in cercuri. Pentru trei aparitii foloseste triunghiul. Pentru sase aparitii foloseste hexagrama compacta validata in modelul Andreea.
+- Nu copia valori din modele; genereaza din nou datele persoanei.
+
 ## Verificare
 
 ```powershell
 [xml](Get-Content -Raw "matrita-datei-birsan-daniel-robert.svg") | Out-Null
+python scripts/test_generate_matrita_datei_de_nastere.py
 ```

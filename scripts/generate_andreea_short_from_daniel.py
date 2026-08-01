@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import importlib.util
 import re
 import subprocess
 import sys
@@ -15,6 +16,7 @@ REPORT = OUT_DIR / "1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r-calculator.json"
 MATRIX_SVG = OUT_DIR / "matrita-datei-roman-andreea-maria.svg"
 CALCULATOR = ROOT / "skills/numerologie-lucrare-redactare/scripts/calculator_numerologic_examen.py"
 MATRIX_GENERATOR = ROOT / "skills/numerologie-SVG-matrita-datei-de-nastere/scripts/generate_matrita_datei_de_nastere.py"
+NAME_MATRIX_GENERATOR = ROOT / "skills/numerologie-SVG-matrita-numelui/scripts/generate_matrita_numelui.py"
 PREFIX = "RAM-19980112-v1.00r"
 
 
@@ -68,59 +70,13 @@ def replace_block(text: str, suffix: str, body: str) -> str:
     return updated
 
 
-def geometry_svg(count: int) -> tuple[str, str]:
-    if count == 0:
-        return "", "absent"
-    if count == 1:
-        return '<svg viewBox="0 0 40 32" role="img"><circle cx="20" cy="16" r="6"/></svg>', "cerc"
-    if count == 2:
-        return '<svg viewBox="0 0 40 32" role="img"><line x1="17.1" y1="16" x2="22.9" y2="16" style="stroke-linecap:butt"/><circle cx="10" cy="16" r="6"/><circle cx="30" cy="16" r="6"/></svg>', "două cercuri legate"
-    if count == 3:
-        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,4 33,27 7,27"/></svg>', "triunghi"
-    if count == 4:
-        return '<svg viewBox="0 0 40 32" role="img"><rect x="8" y="4" width="24" height="24"/></svg>', "pătrat"
-    if count == 5:
-        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,3 24,13 35,13 26,20 30,30 20,24 10,30 14,20 5,13 16,13"/></svg>', "pentagramă"
-    if count == 6:
-        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,5 30,22 10,22"/><polygon points="20,27 10,10 30,10"/></svg>', "hexagramă"
-    # Pentru apariții peste 6 păstrăm un poligon lizibil în spațiul compact al celulei.
-    return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,3 31,8 36,18 28,28 12,28 4,18 9,8"/></svg>', f"poligon cu {count} laturi"
-
-
-def matrix_table(casute: dict[str, dict]) -> str:
-    element_class = {1: "foc", 2: "apa", 3: "aer", 4: "pamant", 5: "foc", 6: "apa", 7: "aer", 8: "pamant", 9: "foc"}
-    optim = {1: "111", 2: "222", 3: "333", 4: "44", 5: "55", 6: "66", 7: "7", 8: "8", 9: "9"}
-    def cell(n: int) -> str:
-        item = casute[str(n)]
-        count = item["cantitate"]
-        svg, label = geometry_svg(count)
-        empty = " matrix-geom-empty" if count == 0 else ""
-        return (
-            f'<div class="matrix-cell element-{element_class[n]}">'
-            f'<div class="matrix-number">{n}</div><div class="matrix-main">{item["cifre"]}</div>'
-            f'<div class="matrix-opt">optim {optim[n]}</div>'
-            f'<div class="matrix-geom{empty}" aria-label="{label}">{svg}</div></div>'
-        )
-    cells = "\n".join(cell(n) for n in (1, 4, 7, 2, 5, 8, 3, 6, 9))
-    return f'<div class="matrix-grid matrix-grid-outlined" data-source-svg="matrita-datei-roman-andreea-maria.svg" aria-label="Matrița numerologică 3 pe 3 pentru Roman Andreea Maria">\n{cells}\n</div>'
-
-
-def name_matrix_table(date_boxes: dict[str, dict], name_boxes: dict[str, dict]) -> str:
-    element_class = {1: "foc", 2: "apa", 3: "aer", 4: "pamant", 5: "foc", 6: "apa", 7: "aer", 8: "pamant", 9: "foc"}
-    optim = {1: "111", 2: "222", 3: "333", 4: "44", 5: "55", 6: "66", 7: "7", 8: "8", 9: "9"}
-    def cell(n: int) -> str:
-        d, x = date_boxes[str(n)], name_boxes[str(n)]
-        count = x["cantitate"]
-        svg, label = geometry_svg(count)
-        empty = " matrix-geom-empty" if count == 0 else ""
-        return (
-            f'<div class="matrix-cell element-{element_class[n]}">'
-            f'<div class="matrix-number">data {d["cifre"]}</div><div class="matrix-main">{x["cifre"]}</div>'
-            f'<div class="matrix-opt">optim {optim[n]}</div>'
-            f'<div class="matrix-geom{empty}" aria-label="{label}">{svg}</div></div>'
-        )
-    cells = "\n".join(cell(n) for n in (1, 4, 7, 2, 5, 8, 3, 6, 9))
-    return f'<div class="matrix-grid matrix-grid-outlined" aria-label="Matricea Codului Numerologic al Numelui comparată cu matricea datei">\n{cells}\n</div>'
+def load_generator(path: Path, module_name: str):
+    spec = importlib.util.spec_from_file_location(module_name, path)
+    if not spec or not spec.loader:
+        raise RuntimeError(f"Generatorul nu poate fi încărcat: {path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 def wellbeing(rows: list[dict]) -> str:
@@ -320,7 +276,7 @@ def main() -> None:
         "C-003": "> [!example] Calcul\n> Toate cifrele adunate din data de naștere = 1 + 2 + 0 + 1 + 1 + 9 + 9 + 8 = **31** → 3 + 1 = **4**",
         "P-015": "Andreea, Destinul compus **4** păstrează întâlnirea dintre **3**, care comunică și creează, și **1**, care inițiază și își asumă direcția. Rezultatul **4** îți cere să transformi această combinație într-o construcție stabilă: program, reguli, corp îngrijit, responsabilități clare și rezultate repetabile. Darul tău este să dai formă ideilor; umbra este să simți structura ca pe o limitare sau, invers, să devii rigidă când vrei siguranță. Maturizarea apare când disciplina devine cadrul care îți protejează creativitatea.",
         "C-004": "> [!example] Calcul\n> Data nașterii: 12.01.1998 → data compactă = **12011998**  \n> N1 = 1 + 2 + 0 + 1 + 1 + 9 + 9 + 8 = **31**  \n> N2 = 3 + 1 = **4**  \n> N3 = 31 − (2 × 1) = **29**  \n> N4 = 2 + 9 = **11**  \n> Șir complet = 12011998 + 31 + 4 + 29 + 11 = **120119983142911**",
-        "G-002": matrix_table(matrix["casute"]),
+        "G-002": load_generator(MATRIX_GENERATOR, "matrix_date_skill").build_html_component("Roman Andreea Maria", "12.01.1998")[0],
         "P-035": "**Căsuța 1.** Ai **6** apariții. Psihicul, inițiativa și voința sunt foarte intense: poți susține presiune, poți genera multe idei și poți prelua conducerea. Umbra este rigiditatea și tendința de a decide că numai varianta ta este corectă. Puterea ta devine matură atunci când conduci fără să transformi fermitatea în control.",
         "P-036": "**Căsuța 2.** Ai **2** apariții. Emoțiile, comunicarea și colaborarea circulă în ambele sensuri: poți primi și oferi sprijin. Numărul par de apariții poate aduce indecizie, de aceea te ajută să numești ce simți și să alegi după un dialog clar.",
         "P-037": "**Căsuța 3.** Ai **1** apariție. Relațiile și prelucrarea informației sunt disponibile, dar au nevoie de focalizare. Curiozitatea te ajută să cercetezi; maturizarea apare când selectezi esențialul și îl transmiți fără să te risipești.",
@@ -352,7 +308,7 @@ def main() -> None:
         "P-024": "Numărul de exprimare **7** te susține în activități care cer cercetare, analiză, specializare, consiliere, educație sau înțelegerea mecanismelor ascunse. Ai nevoie de autonomie intelectuală și de timp pentru aprofundare. Lumea poate aștepta de la tine concluzii bine gândite, nu reacții grăbite.",
         "P-024a": "Armonizarea dintre Numărul de exprimare **7** și Destinul **4** cere să transformi cunoașterea în metodă. **7** investighează și caută adevărul; **4** organizează și construiește. Când lucrează împreună, poți crea sisteme solide, cursuri, proceduri sau proiecte în care profunzimea devine utilă. Evită izolarea lui **7** și rigiditatea lui **4** prin colaborări bine alese și termene clare.",
         "C-011": "> [!example] Calcul\n> Roman = R9 + O6 + M4 + A1 + N5 → **96415**\n>\n> Andreea = A1 + N5 + D4 + R9 + E5 + E5 + A1 → **1549551**\n>\n> Maria = M4 + A1 + R9 + I9 + A1 → **41991**\n>\n> Codul literelor numelui = **96415154955141991**\n> Codul numerologic personal al numelui = 96415154955141991 + 7 = **964151549551419917**",
-        "G-002a": name_matrix_table(matrix["casute"], name["matricea_numelui"]["casute"]),
+        "G-002a": load_generator(NAME_MATRIX_GENERATOR, "matrix_name_skill").build_html_component("Roman Andreea Maria", "12.01.1998")[0],
         "P-023": "Comparând pătratul datei cu pătratul numelui, energiile comune sunt **1**, **4** și **9**. Numele confirmă inițiativa, capacitatea de organizare și forța mentală; aici identitatea exprimată și structura nativă se susțin reciproc.",
         "P-023b": "Prin **1**, numele îți amplifică voința și originalitatea. Prin **4**, îți întărește imaginea de om practic și organizat. Prin **9**, adaugă memorie, viziune și capacitate de transformare. Aceste energii pot deveni repere constante dacă sunt folosite cu măsură.",
         "P-023c": "Energiile **5**, **6** și **7** apar numai în matricea numelui. Numele îți poate da impresia că libertatea și curajul lui **5**, pragmatismul și grija lui **6**, respectiv introspecția lui **7** îți sunt complet naturale. În matricea datei ele sunt conservate, deci au nevoie de experiență, rutină și sprijin exterior ca să devină resurse constante.",

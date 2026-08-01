@@ -8,7 +8,7 @@ description: Elaboreaza, adapteaza si verifica lucrari numerologice complete in 
 ## Flux obligatoriu
 
 1. Colecteaza datele prin [[skills/numerologie-lucrare-redactare/references/formular-date|Formularul de intrare]].
-2. Alege template-ul cerut. Pentru `examen`, foloseste `assets/Template-lucrare-examen.md`; pentru `scurt`, foloseste `assets/Template-lucrare-scurta.md` si perechea HTML indicata de acesta.
+2. Alege template-ul cerut. Pentru `examen`, foloseste `assets/Template-lucrare-examen.md` si [referinta HTML de examen](references/modele-html/lucrare-examen-daniel-v1.07r.html); pentru `scurt`, foloseste `assets/Template-lucrare-scurta.md` si [referinta HTML scurta](references/modele-html/lucrare-scurta-daniel-v1.00r.html). Referintele HTML sunt modele vizuale canonice, nu surse de valori personale.
 3. Citeste [[skills/numerologie-lucrare-redactare/references/reguli-redactare|Reguli de redactare]] inainte de redactare sau revizie. Pentru redactarea ori refacerea Concluziilor template-ului `scurt`, citeste obligatoriu [[skills/numerologie-lucrare-redactare/references/metoda-concluzii|Metoda de redactare a concluziilor]]. Pentru o cerere despre perioade favorabile pentru bani, cariera, casatorie sau alte decizii temporale, citeste si [[skills/numerologie-lucrare-redactare/references/analiza-ferestrelor-temporale|Analiza ferestrelor temporale]].
 4. Ruleaza `scripts/calculator_numerologic_examen.py` si salveaza sau pastreaza iesirea JSON ca sursa a tuturor valorilor de calcul. Pentru matricea datei de nastere, `N2` este suma cifrelor lui `N1`, iar `N4` este suma cifrelor lui `N3`; fiecare insumare se executa exact o singura data. Pentru Daniel: `N1 = 39 -> N2 = 12` si `N3 = 37 -> N4 = 10`; nu continua cu `1 + 2 = 3` sau `1 + 0 = 1`.
    Daca utilizatorul cere regenerarea `de la zero`, nu reutiliza raportul calculatorului, Markdown-ul, HTML-ul sau graficele dependente existente. Verifica mai intai ca tintele apartin directorului persoanei, elimina numai livrabilele regenerate, ruleaza din nou calculatorul si skill-urile SVG necesare, apoi construieste perechea Markdown-HTML si valideaz-o. Generatorul unei persoane trebuie sa poata recrea singur raportul calculatorului si sursele grafice indispensabile pe care le declara.
@@ -45,8 +45,8 @@ python scripts/calculator_numerologic_examen.py `
 
 - Consulta [[skills/numerologie-lucrare-redactare/references/harta-template-uri-lucrari|Harta template-urilor pentru lucrari numerologice]] inainte de alegerea structurii.
 - Solicita alegerea explicita a unuia dintre tipurile disponibile: `scurt` sau `examen`. Nu deduce tipul doar din nivelul de detaliere.
-- `examen`: foloseste template-ul inclus si toate capitolele cerute de acesta.
-- `scurt`: foloseste ca resursa principala `assets/Template-lucrare-scurta.md`; pastreaza continutul sincronizat cu perechea canonica `assets/templates/Template_Lucrare_Numerologica_Scurt.md` si `assets/templates/Template_Lucrare_Numerologica_Scurt.html`.
+- `examen`: foloseste template-ul inclus si toate capitolele cerute de acesta. Pentru structura HTML, integrarea grafica, tabele, chenare, indexuri si comportamentul responsive, urmeaza [lucrarea Daniel de examen](references/modele-html/lucrare-examen-daniel-v1.07r.html).
+- `scurt`: foloseste ca resursa principala `assets/Template-lucrare-scurta.md`; pastreaza continutul sincronizat cu perechea canonica `assets/templates/Template_Lucrare_Numerologica_Scurt.md` si `assets/templates/Template_Lucrare_Numerologica_Scurt.html`, iar ca reper vizual complet foloseste [lucrarea Daniel scurta](references/modele-html/lucrare-scurta-daniel-v1.00r.html).
 - Pentru un tip viitor, foloseste fisierul dedicat numai daca este inregistrat in harta template-urilor; altfel cere confirmare inainte de a inventa o structura.
 - Pastreaza fiecare template intr-o pereche distincta Markdown-HTML si mentine copiile din `templates/` si `assets/templates/` identice.
 
@@ -148,6 +148,7 @@ python scripts/calculator_numerologic_examen.py `
 - Livreaza perechea `.md` si `.html` cu acelasi continut semantic.
 - Cand utilizatorul valideaza o revizie ca finala, pastreaza numarul versiunii si schimba numai sufixul de stare: `v1.07r` -> `v1.07f`. Genereaza finala din perechea reviziei validate; nu porni de la o finala mai veche si nu creste versiunea doar pentru schimbarea starii.
 - Foloseste structura HTML canonica indicata de template, nu o conversie Markdown simplificata.
+- Nu copia valorile, numele, datele sau interpretarile personalizate din referintele HTML Daniel. Foloseste-le numai pentru structura, CSS, componente, amplasarea indexurilor, integrarea autonoma a imaginilor si densitatea editoriala; toate valorile se regenereaza din raportul calculatorului persoanei curente.
 - Inventariaza graficele inainte de integrare si nu pastra formate duplicate fara rol. Sterge copia nereferentiata numai dupa ce verifici ca nu este sursa canonica unica sau intrare necesara pentru regenerare.
 - Pentru SVG vectorial pur, foloseste referinta relativa in Markdown si `data:image/svg+xml;base64,...` intr-un element `<img>` din HTML-ul autonom. Pentru SVG care contine `<image>` sau orice resursa raster, foloseste PNG-ul validat in Markdown si incorporeaza acelasi PNG in HTML ca `data:image/png;base64,...`; pastreaza SVG-ul numai daca are un rol tehnic explicit.
 - Pastreaza resursele grafice folosite langa lucrare si referintele Markdown valide. HTML-ul final nu trebuie sa contina surse relative pentru imagini.
@@ -164,6 +165,14 @@ python scripts/validate_scurt_contract.py --md "cale-lucrare.md" --html "cale-lu
 ```
 
 Nu livra lucrarea daca validatorul raporteaza un index absorbit in paragraf, o matrice `G-002`/`G-002a` transformata in tabel obisnuit, clase Spirit lipsa sau un `current-row` mostenit de la persoana-model.
+
+Pentru referinta HTML Daniel de tip `examen`, ruleaza validatorul dedicat impreuna cu sursa Markdown:
+
+```powershell
+python scripts/validate_exam_html_reference.py "cale-lucrare-examen.html" --md "cale-lucrare-examen.md"
+```
+
+Acest validator verifica valorile aprobate ale modelului Daniel, nu calculele unei alte persoane. Nu publica referinta daca gaseste intervalele vechi ale Pinaclurilor, Destinul compus inlocuit cu cifra de interpretare, N1-N4 vechi, imagini neincorporate, ancore fara tinta, indexuri care nu corespund sursei Markdown, ID-uri duplicate ori mojibake.
 
 Verifica obligatoriu:
 

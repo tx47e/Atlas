@@ -278,25 +278,28 @@ Index: BDR-19980219-v1.07r-SUB-009
 ### 2.2. Destinul
 
 Index: BDR-19980219-v1.07r-P-045
-Destinul arată direcția finala de realizare, cifra către care se reduce calea. Dacă 39 este traseul complet, 3 este semnul mare de pe drum: direcția prin comunicare, expresie, creativitate, relatie vie cu oamenii și capacitatea de a aduce lumina într-o situatie prin cuvânt, idee, umor, inspiratie sau prezenta.
+Destinul arată direcția de realizare către care conduce Calea Destinului. Pentru tine, Daniel, Calea **39** se reduce o singură dată și formează Destinul compus **12**. Cifra **3** rămâne cheia de interpretare a lui **12**, nu înlocuiește rezultatul compus.
 
 Index: BDR-19980219-v1.07r-P-046
 Destinul poate fi privit ca semnul principal de orientare. El reuneste chemarea, direcția, tinta interioară și întrebarea: "prin ce devin eu mai implinit și mai util în lume?"
 
 Index: BDR-19980219-v1.07r-P-047
-Pentru destin reducem calea destinului până ajungem la vibrația de baza.
+Pentru Destin însumăm o singură dată cifrele Căii Destinului și păstrăm rezultatul compus. Îl reducem apoi separat numai pentru a obține cifra de interpretare.
 
 Index: BDR-19980219-v1.07r-P-048
-**Calcul:** 3 + 9 = 12 -> 1 + 2 = 3
+> [!example] Calcul
+> Calea Destinului: **39**
+> Destin compus: **3 + 9 = 12**
+> Cifră de interpretare: **1 + 2 = 3**
 
 Index: BDR-19980219-v1.07r-P-049
-Rezultatul este 3. Destinul 3 susține comunicarea, creativitatea, construirea unei atmosfere și legarea oamenilor prin idei și expresie. Nu înseamnă neaparat scena, spectacol sau arta în sens clasic. Poate insemna și să explici bine, să vinzi o idee, să creezi continut, să coordonezi o discutie, să aduci claritate într-o echipa sau să gasesti formula potrivita atunci când ceilalți nu stiu cum să spună ce simt.
+Rezultatul Destinului este **12**, cu cifra de interpretare **3**. În **12**, cifra **1** aduce inițiativa, identitatea și curajul de a deschide drumul, iar cifra **2** aduce cooperarea, diplomația și atenția față de celălalt. Împreună, ele cer să unești conducerea cu relația: să pornești lucrurile fără să treci peste oameni și să colaborezi fără să îți pierzi direcția.
 
 Index: BDR-19980219-v1.07r-P-050
-Direcția ta de realizare merge prin 3, Daniel: comunicare, exprimare, creativitate și contact viu cu oamenii. Când îți asumi vocea, ideile și felul tau de a transmite, destinul se misca mai natural. În termeni simpli, viața îți cere să nu ramai doar în observatie sau analiză, ci să dai forma lucrurilor: să formulezi, să creezi, să explici, să pui oamenii în miscare printr-o idee sau printr-o stare.
+Prin reducerea lui **12** ajungem la **3**, energia comunicării, creativității și contactului viu cu oamenii. Daniel, direcția ta se deschide când inițiativa lui **1** și tactul lui **2** devin expresie coerentă: formulezi, creezi, explici, convingi și îi ajuți pe oameni să se miște împreună în jurul unei idei.
 
 Index: BDR-19980219-v1.07r-P-051
-În varianta echilibrata, 3-ul tau devine bucurie, inteligenta expresiva, flexibilitate și capacitatea de a face lucrurile mai usor de inteles. În varianta tensionata, poate deveni risipire, gluma folosită ca aparare, multe inceputuri fără finalizare sau tendinta de a evita subiectele grele prin schimbarea tonului. De aceea, destinul 3 nu înseamnă doar să vorbesti mai mult, ci să vorbesti mai clar, mai asumat și mai conectat la ceea ce vrei să construiesti.
+În forma echilibrată, traseul **12 → 3** devine leadership colaborativ, inteligență expresivă și capacitatea de a face lucrurile mai ușor de înțeles. În forma tensionată, **1** poate împinge spre control, **2** spre ezitare, iar **3** spre risipire sau multe începuturi fără finalizare. Maturizarea înseamnă să alegi clar, să comunici direct și să duci mesajul până la un rezultat concret.
 
 Index: BDR-19980219-v1.07r-SUB-010
 ### 2.3. Puntea interior - exterior
@@ -413,15 +416,15 @@ Index: BDR-19980219-v1.07r-P-082
 Pentru matrice pornim de la data de naștere și construim, pe rand, N1, N2, N3 și N4. La final, data compacta împreună cu aceste patru valori formeaza șirul complet, adica numărul logic al persoanei.
 
 Index: BDR-19980219-v1.07r-P-083
-**Calcul:**<br>
-Data nașterii 19.02.1998 -> data compactă `19021998`<br>
-N1 = 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = `39`<br>
-N2 = 3 + 9 = `12` (o singură însumare a cifrelor lui N1)<br>
-N3 = 39 - (2 x 1) = `37`<br>
-N4 = 3 + 7 = `10` (o singură însumare a cifrelor lui N3)<br>
-Șir complet / număr logic = 19021998 + 39 + 12 + 37 + 10 = `1902199839123710`
+> [!example] Calcul
+> Data nașterii: **19.02.1998** → data compactă **19021998**
+> N1: **1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39**
+> N2: **3 + 9 = 12**
+> N3: **39 - (2 × 1) = 37**
+> N4: **3 + 7 = 10**
+> Șir complet / număr logic: **1902199839123710**
 
-Index: BDR-19980219-v1.07r-C-001
+Index: BDR-19980219-v1.07r-G-001
 ```text
 1: 1111 / optim 111 / pătrat   | 4: - / optim 44 / absent | 7: 7    / optim 7 / cerc
 2: 22   / optim 222 / două cercuri legate | 5: - / optim 55 / absent | 8: 8    / optim 8 / cerc
@@ -436,17 +439,17 @@ Index: BDR-19980219-v1.07r-SUB-015
 ### 4.2. Căsuțele matricei
 
 Index: BDR-19980219-v1.07r-T-001
-| Căsuța | Cifre | Valoare | Descriere | Calcul și interpretare |
-| --- | --- | ---: | --- | --- |
-| 1 | 1111 | 4 | identitatea, voința, caracterul și modul în care persoana își afirmă prezența | Ai patru cifre 1, cu una peste reperul optim. Inițiativa, autonomia și nevoia de a decide sunt foarte accesibile. Folosită matur, această forță te ajută să pornești și să susții direcții proprii; dusă la exces, poate deveni rigiditate, control sau dificultatea de a primi ajutor. Practic, păstrează hotărârea, dar lasă loc dialogului înaintea deciziilor importante. |
-| 2 | 22 | 4 | energia emoțională, empatia, sensibilitatea relațională și vitalitatea subtilă | Cele două cifre 2 îți oferă mai multă receptivitate, cooperare și atenție față de oameni decât arăta calculul anterior. Energia este prezentă, deși rămâne sub reperul optim de trei apariții. Te ajută să simți contextul și să lucrezi în tandem, iar pentru echilibru ai nevoie să spui clar ce simți și să nu transformi disponibilitatea în suprasolicitare. |
-| 3 | 33 | 6 | expresia, comunicarea, talentul, bucuria și felul în care îți pui trăirile în formă | Cele două cifre 3 arată o expresie creativă reală, dar mai selectivă decât sugera varianta anterioară. Poți formula idei și da formă experiențelor, însă comunicarea câștigă când este exersată și dusă până la capăt. O rutină utilă este să transformi zilnic o idee într-un mesaj, o notă, un exemplu sau un rezultat concret. |
-| 4 | - | 0 | corpul, disciplina, sanatatea practica, ordinea și stabilitatea concretă | Căsuța este absența. Vibrația 4, asociata cu ordine, stabilitate, disciplina, responsabilitate și capacitatea de a construi pas cu pas. Cantitatea 0 arată cat de accesibila este aceasta energie. |
-| 5 | - | 0 | centrul, curajul, libertatea, intuitia practica și capacitatea de adaptare | Căsuța este absența. Vibrația 5, asociata cu miscare, schimbare, curaj, adaptare și nevoia de experiența directa. Cantitatea 0 arată cat de accesibila este aceasta energie. |
-| 6 | - | 0 | munca, familia, responsabilitatea, grija și felul în care te implici afectiv | Căsuța este absența. Vibrația 6, asociata cu Iubire, grija, familie, responsabilitate afectiva, estetica și dorinta de echilibru. Cantitatea 0 arată cat de accesibila este aceasta energie. |
-| 7 | 7 | 7 | spiritualitatea, intuitia, protectia, analiză și legatura cu lumea interioară | Căsuța este prezenta. Vibrația 7, asociata cu introspectie, analiză, intuitie, spiritualitate și căutarea unui sens mai adanc. Cantitatea 1 arată cat de accesibila este aceasta energie. |
-| 8 | 8 | 8 | socialul, dreptatea, organizarea, puterea și relația cu resursele | Căsuța este prezenta. Vibrația 8, asociata cu organizare, dreptate, rezultate, administrarea resurselor și raportarea matură la autoritate. Cantitatea 1 arată cat de accesibila este aceasta energie. |
-| 9 | 9999 | 36 | intelectul, memoria, intelepciunea, sinteză și capacitatea de a intelege experientele | Căsuța este prezenta. Vibrația 9, asociata cu intelepciune, compasiune, finalizare, idealuri și capacitatea de a privi imaginea de ansamblu. Cantitatea 4 arată cat de accesibila este aceasta energie. |
+| Căsuța | Apariții | Interpretare |
+| ---: | ---: | --- |
+| **1** | **4** | Ai un psihic puternic, multe idei și calități bune de leadership. Poți lucra în medii cu presiune ridicată și poți menține direcția. În polaritatea negativă, poți deveni rigid, inflexibil sau prea hotărât ca toate lucrurile să fie făcute după tine. Maturizarea înseamnă să rămâi ferm, dar deschis la dialog. |
+| **2** | **2** | Sensibilitatea, comunicarea și spiritul de colaborare sunt prezente. Fiind un număr par de apariții, poți primi și oferi sprijin emoțional, dar poate apărea indecizia. Te ajută să numești clar ce simți și să alegi după dialog. |
+| **3** | **2** | Poți primi, prelucra și transmite informația, cu potențial de mentor sau dascăl. Cele două apariții pot aduce și oscilație între mai multe interpretări. Selectează esențialul, organizează informația și decide ce merită aplicat, ca să nu te risipești în prea multe direcții. |
+| **4** | **0** | Energia corpului, sănătății, organizării și stabilității este conservată și poate oscila. Pentru echilibru ai nevoie de planuri clare, program stabil, somn, alimentație și mișcare practicate constant. |
+| **5** | **0** | Libertatea, stima de sine, curajul și adaptarea pot fi activate prin oameni și contexte externe. Alege medii care îți ridică încrederea și intră conștient în experiențe care te ajută să ieși din tipare fără să îți pierzi centrul. |
+| **6** | **0** | Iubirea ca ocrotire, realismul, pragmatismul, banii, familia și echilibrul pot avea o manifestare oscilantă. Construiește această energie prin responsabilități clare, disciplină financiară și obiceiuri repetabile care transformă intenția în rezultat. |
+| **7** | **1** | Ai acces la observație, analiză, studiu și legătura dintre cunoaștere și spirit. Folosește timpul de liniște pentru claritate și soluții, nu pentru retragere din contactul cu lumea. |
+| **8** | **1** | Puterea, responsabilitatea, ambiția și raportarea la rezultate sunt accesibile. Energia te susține când gestionezi resursele echitabil și nu preiei mai mult decât îți aparține. |
+| **9** | **4** | Inteligența, memoria, transformarea și viziunea de ansamblu sunt foarte intense. Selectează prioritățile și creează pauze, astfel încât mintea să rămână un instrument de lucru, nu o sursă de suprasolicitare. |
 
 Index: BDR-19980219-v1.07r-SUB-016
 ### 4.3. Pare și impare
@@ -654,16 +657,16 @@ Index: BDR-19980219-v1.07r-P-128
 În viața concretă, 9-ul ereditar poate arată o tendinta de a simti greutatea trecutului, de a cauta explicatii pentru ce s-a intamplat în familie sau de a avea o maturitate interioară formata devreme. Important este să o traiesti personal, nu ca pe o povara preluata automat. Mostenirea devine resursa când alegi ce pastrezi, ce transformi și ce nu mai duci mai departe.
 
 Index: BDR-19980219-v1.07r-SUB-024
-### 5.6. Numărul neamului
+### 5.6. Numărul ereditar karmic
 
 Index: BDR-19980219-v1.07r-P-129
-Numărul neamului citește numele de familie printr-o reducere în intervalul 1-22, apropiata simbolic de limbajul arcanelor. Nu este o eticheta, ci o tema de fundal: ce lecție simbolica poate veni prin nume și ce fel de energie poate fi transformata în maturitate.
+Numărul ereditar karmic citește numele de familie printr-o reducere în intervalul 1–22, apropiată simbolic de limbajul arcanelor. El arată lecția transmisă prin linia de familie și felul în care această moștenire poate fi transformată în maturitate.
 
 Index: BDR-19980219-v1.07r-P-130
-Simbolic, aceasta rubrica vorbește despre firul de familie, scoala interioară a neamului și felul în care o mostenire poate deveni invatatura. Dacă numărul ereditar arată vibrația principală a numelui de familie, numărul neamului adaugă o imagine mai nuantata.
+Daniel, numărul tău ereditar karmic este **5**, asociat cu Marele Preot. Simbolic, vii dintr-o linie în care cunoașterea, credința, tradiția și relația cu sacrul au avut un rol important. Ca să fii susținut de această energie, cultivă mai departe studiul profund, discernământul și capacitatea de a transmite principii utile, fără să transformi tradiția în rigiditate.
 
 Index: BDR-19980219-v1.07r-P-131
-Pentru numărul neamului pastram totalul numelui de familie și il aducem în intervalul arcanelor majore prin scaderea lui 22.
+Pentru numărul ereditar karmic păstrăm totalul numelui de familie și îl aducem în intervalul Arcanelor Majore prin scăderea lui **22**.
 
 Index: BDR-19980219-v1.07r-P-132
 **Calcul:** Bîrsan = B2 + I9 + R9 + S1 + A1 + N5 = 27 -> 27 - 22 = **5**
@@ -671,7 +674,7 @@ Index: BDR-19980219-v1.07r-P-132
 Index: BDR-19980219-v1.07r-T-005
 | Arcana | Interpretare |
 | --- | --- |
-| ![Arcana 5 - Marele Preot, numărul neamului](tarot-05-marele-preot-numarul-neamului.jpg)<br>_Arcana 5 - Marele Preot. Numărul neamului_ | Rezultatul este **5**, iar arcana majora asociata este **Marele Preot**. În aceasta pozitie, cartea vorbește despre traditie, invatatura și valorile transmise prin familie. Ea sugereaza ca numele Bîrsan poarta simbolic o scoala a neamului: reguli, credinte, modele de autoritate și lecții primite de la cei care au venit inainte. Darul acestei mosteniri poate fi capacitatea de a invata profund, de a cauta sensul din spatele regulilor și, la maturitate, de a deveni pentru altii un reper, un profesor sau un ghid.<br><br>Pentru tine, Daniel, Marele Preot nu cere supunere oarba fata de traditie. El te invita să verifici ce principii te maturizeaza și ce reguli au ramas doar forme fără viața. Umbra arcanei 5 poate aparea ca rigiditate, conformism, teama de a iesi din tiparul familiei ori dependenta de aprobarea unei autoritati. Forma ei constructiva apare când pastrezi intelepciunea utila, transformi experiența în practica și îți construiesti propriul sistem de valori. Astfel, mostenirea neamului nu devine o povara repetata mecanic, ci o invatatura asumata, vie și transmisa mai departe cu discernamant. |
+| ![Arcana 5 - Marele Preot, numărul ereditar karmic](tarot-05-marele-preot-numarul-neamului.jpg)<br>_Arcana 5 - Marele Preot. Numărul ereditar karmic_ | Marele Preot vorbește despre tradiție, învățătură, principii și legătura cu sacrul. Darul acestei moșteniri este capacitatea de a învăța profund, de a căuta sensul din spatele regulilor și de a deveni pentru ceilalți un reper, profesor sau ghid. Umbra poate apărea ca rigiditate, conformism, dogmatism ori dependență de aprobarea unei autorități. Lecția ta este să păstrezi înțelepciunea utilă, să verifici prin experiență ceea ce primești și să construiești un sistem propriu de valori, viu și responsabil. |
 
 Index: BDR-19980219-v1.07r-SUB-025
 ### 5.7. Codul numerologic personal al numelui
@@ -680,16 +683,16 @@ Index: BDR-19980219-v1.07r-P-133
 Pentru codul numerologic personal al numelui, luam fiecare parte a numelui complet, calculam codul literelor și apoi adăugăm numărul de exprimare. Calculul urmator arată traseul complet.
 
 Index: BDR-19980219-v1.07r-C-019
-**Calcul:**<br>
-Bîrsan = B2 + I9 + R9 + S1 + A1 + N5 = 27 -> 2 + 7 = **9**; cod Bîrsan = **299115**.<br>
-Daniel = D4 + A1 + N5 + I9 + E5 + L3 = 27 -> 2 + 7 = **9**; cod Daniel = **415953**.<br>
-Robert = R9 + O6 + B2 + E5 + R9 + T2 = 33 -> 3 + 3 = **6**; cod Robert = **962592**.<br>
-Număr de exprimare = 9 + 9 + 6 = 24 -> 2 + 4 = **6**.
+> [!example] Calcul
+> Bîrsan: B2 + I9 + R9 + S1 + A1 + N5 = 27 → 2 + 7 = **9**; cod **299115**
+> Daniel: D4 + A1 + N5 + I9 + E5 + L3 = 27 → 2 + 7 = **9**; cod **415953**
+> Robert: R9 + O6 + B2 + E5 + R9 + T2 = 33 → 3 + 3 = **6**; cod **962592**
+> Numărul de exprimare: 9 + 9 + 6 = 24 → 2 + 4 = **6**
 
 Index: BDR-19980219-v1.07r-C-020
-**Calcul:**<br>
-Codul literelor numelui = Bîrsan 299115 + Daniel 415953 + Robert 962592 = **299115415953962592**.<br>
-Codul numerologic personal al numelui = codul literelor + numărul de exprimare = 299115415953962592 + 6 = **2991154159539625926**.
+> [!example] Calcul
+> Codul literelor numelui: Bîrsan 299115 + Daniel 415953 + Robert 962592 = **299115415953962592**
+> Codul numerologic personal al numelui: 299115415953962592 + 6 = **2991154159539625926**
 
 Index: BDR-19980219-v1.07r-C-002
 ```text
@@ -761,7 +764,7 @@ Index: BDR-19980219-v1.07r-SUB-029
 Index: BDR-19980219-v1.07r-P-146
 Ciclurile de 7 ani arată maturizarea, disciplina și formarea structurii interioare. Le citim ca praguri de lucru care revin din sapte în sapte ani și arată cum se așază energia în etape concrete de viața.
 
-Index: BDR-19980219-v1.07r-G-001
+Index: BDR-19980219-v1.07r-G-002
 ![Septagrama pentru Bîrsan Daniel Robert](septagrama-birsan-daniel-robert.svg)
 
 Index: BDR-19980219-v1.07r-T-007
@@ -820,13 +823,35 @@ Index: BDR-19980219-v1.07r-SUB-031
 Index: BDR-19980219-v1.07r-P-153
 Pinaclurile descriu patru etape mari de crestere. Fiecare are o oportunitate și o provocare. Oportunitatea arată ce se poate construi, provocarea arată ce trebuie echilibrat.
 
+Index: BDR-19980219-v1.07r-C-026
+> [!example] Calculul intervalelor
+> Calea Destinului: **39**
+> Destin compus: **3 + 9 = 12**
+> Limita Pinaclului 1: **36 - 12 = 24**
+> Intervalele: **0–24 ani → 25–34 ani → 35–44 ani → 45 ani–sfârșit**
+
 Index: BDR-19980219-v1.07r-T-009
 | Pinaclu | Interval | Oportunitate | Provocare | Interpretare |
 | --- | --- | ---: | ---: | --- |
-| 1 | 0-33 | 3 | 1 | Oportunitatea se exprima prin comunicare, creativitate, bucurie, spontaneitate și talentul de a da forma trairilor prin cuvânt sau gest; provocarea cere lucrul conștient cu autonomie, vointa, curajul inceputului și nevoia de a lua decizii proprii. |
-| 2 | 34-42 | 1 | 8 | Oportunitatea se exprima prin autonomie, vointa, curajul inceputului și nevoia de a lua decizii proprii; provocarea cere lucrul conștient cu organizare, dreptate, rezultate, administrarea resurselor și raportarea matură la autoritate. |
-| 3 | 43-51 | 4 | 7 | Oportunitatea se exprima prin ordine, stabilitate, disciplina, responsabilitate și capacitatea de a construi pas cu pas; provocarea cere lucrul conștient cu introspectie, analiză, intuitie, spiritualitate și căutarea unui sens mai adanc. |
-| 4 | 52+ | 2 | 7 | Oportunitatea se exprima prin sensibilitate, cooperare, diplomatie, răbdare și capacitatea de a crea echilibru intre oameni; provocarea cere lucrul conștient cu introspectie, analiză, intuitie, spiritualitate și căutarea unui sens mai adanc. |
+| 1 | 0–24 ani | 3 | 1 | Comunicarea și creativitatea sunt oportunitatea; provocarea este să îți câștigi independența și să te afirmi fără grabă sau ego. |
+| 2 | 25–34 ani | 1 | 8 | Autonomia și leadershipul devin oportunități, iar provocarea **8** cere administrarea matură a banilor, puterii și responsabilității. |
+| 3 | 35–44 ani | 4 | 7 | Construcția pas cu pas este favorizată; provocarea **7** cere discernământ, analiză și folosirea matură a timpului interior. |
+| 4 | 45+ ani | 2 | 7 | Cooperarea, empatia și diplomația devin resurse; provocarea **7** păstrează lecția profunzimii fără izolare. |
+
+Index: BDR-19980219-v1.07r-P-153a
+**Pinaclul 1: până la 24 de ani.** Oportunitatea **3** ți-a deschis comunicarea, creativitatea și relaționarea, iar Provocarea **1** te-a învățat să te descurci singur, să îți câștigi independența și să îți asumi inițiativa fără să conduci prin ego.
+
+Index: BDR-19980219-v1.07r-P-153b
+**Pinaclul 2: între 25 și 34 de ani.** Oportunitatea **1** te cheamă către conducere, originalitate și o direcție proprie. Provocarea **8** aduce lecții despre bani, autoritate, responsabilitate și consecințele puterii. Cheia este să conduci ferm, fără să transformi autoritatea în control.
+
+Index: BDR-19980219-v1.07r-P-153c
+**Pinaclul 3: între 35 și 44 de ani.** Oportunitatea **4** îți cere muncă susținută, atenție la corp și capacitatea de a materializa ceea ce ai pregătit. Provocarea **7** te învață să transformi studiul, solitudinea și analiza în claritate, nu în izolare.
+
+Index: BDR-19980219-v1.07r-P-153d
+**Pinaclul 4: de la 45 de ani până la sfârșitul vieții.** Oportunitatea **2** te așază în contexte de cooperare, empatie și diplomație. Provocarea **7** rămâne activă și îți cere să păstrezi profunzimea și discernământul fără să te retragi din legături.
+
+Index: BDR-19980219-v1.07r-P-153e
+Daniel, la **28 de ani** te afli în Pinaclul **2**, cu Oportunitatea **1** și Provocarea **8**. Acum este important să inițiezi și să îți asumi roluri de conducere, dar cu maturitate financiară, consecvență și respect pentru responsabilitatea pe care o aduce puterea.
 
 Index: BDR-19980219-v1.07r-SUB-032
 ### 6.6. Ani importanti interiori și exteriori
@@ -896,7 +921,7 @@ Pentru destinul grafic folosim aceeasi structura, dar inlocuim zerourile din dat
 Index: BDR-19980219-v1.07r-P-162
 **Calcul:** Destin grafic = 1912 x 1998 = 3820176; zona de confort destin = (3 + 8 + 2 + 0 + 1 + 7 + 6) / 7 = 27 / 7 = 3,86.
 
-Index: BDR-19980219-v1.07r-G-002
+Index: BDR-19980219-v1.07r-G-003
 ![Grafic Soarta și Destin pentru Bîrsan Daniel Robert](soarta-si-destin-birsan-daniel-robert.svg)
 
 _Grafic Soarta și Destin pentru Bîrsan Daniel Robert_
@@ -918,7 +943,7 @@ Daniel, în cazul tău citim graficul pe intervale de câte 10 ani, deoarece dat
 Index: BDR-19980219-v1.07r-SUB-034
 ### 6.8. Harta suprapusa
 
-Index: BDR-19980219-v1.07r-G-003
+Index: BDR-19980219-v1.07r-G-004
 ![Harta suprapusa Soarta-Destin-Ciclicitati pentru Bîrsan Daniel Robert](harta-suprapusa-soarta-destin-birsan-daniel-robert.svg)
 
 _Harta suprapusa Soarta-Destin-Ciclicitati pentru Bîrsan Daniel Robert_
@@ -937,7 +962,7 @@ Index: BDR-19980219-v1.07r-SUB-035
 Index: BDR-19980219-v1.07r-P-164
 Relația dintre Daniel și Andreea este citita ca harta de orientare, nu ca verdict. Omuletul relatiilor descrie contributia fiecăruia, zonele de completare fireasca și aspectele care cer mai multa conștientă reciproca. Scopul este construirea unei legaturi mai limpezi, mai asezate și mai vii, nu stabilirea celui care are dreptate.
 
-Index: BDR-19980219-v1.07r-G-004
+Index: BDR-19980219-v1.07r-G-005
 ![Omulețul relațiilor pentru Bîrsan Daniel Robert și Roman Andreea Maria](omulet-relatii-birsan-daniel-robert-roman-andreea-maria.png)
 
 _Omuletul relatiilor pentru Bîrsan Daniel Robert și Roman Andreea Maria_
@@ -973,7 +998,8 @@ Index: BDR-19980219-v1.07r-P-172
 În aceasta metoda citim doua răspunsuri. `DA` arată aplicabilitatea profesională, adica direcția care poate fi cultivata și folosită concret. `NU` arată obstacolele, adica formele prin care energia se poate bloca dacă nu este gestionata conștient.
 
 Index: BDR-19980219-v1.07r-P-173
-**Calcul:** NU / obstacole: 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39 -> 39 - 22 = 17.<br>
+> [!example] Calcul
+> NU / obstacole: 1 + 9 + 0 + 2 + 1 + 9 + 9 + 8 = 39 → 39 - 22 = **17**
 Index: BDR-19980219-v1.07r-P-174
 DA / aplicabilitate profesională: luna 2 + (1 + 9 + 9 + 8) = 2 + 27 = 29 -> 29 - 22 = 7.
 
@@ -1146,7 +1172,7 @@ Pentru acest ajutor folosim data nașterii, codul numeric personal și codul num
 Index: BDR-19980219-v1.07r-P-201
 `19021998 + 39 + 12 + 37 + 10 = 1902199839123710; fără 0 în pătratul 1-9: 1 -> 9 -> 2 -> 1 -> 1 -> 9 -> 9 -> 8 -> 3 -> 9 -> 1 -> 2 -> 3 -> 7 -> 1; Destin: 3; multiplicare: 3 rotiri`
 
-Index: BDR-19980219-v1.07r-G-005
+Index: BDR-19980219-v1.07r-G-006
 ![Semnătura astrală pentru Bîrsan Daniel Robert](semnatura-astrala-birsan-daniel-robert.svg)
 
 _Semnătura astrală - traseul personal al lui Daniel_
@@ -1162,7 +1188,7 @@ Triunghiul financiar combina ziua, luna, anul redus și destinul redus pentru a 
 Index: BDR-19980219-v1.07r-P-204
 Pentru triunghi pornim de la zi, luna, anul redus și destinul redus. Diagrama de mai jos așază aceste valori în forma lor de lucru, ca să putem citi relația dintre pornire, susținere, viziune și rezultat.
 
-Index: BDR-19980219-v1.07r-G-006
+Index: BDR-19980219-v1.07r-G-007
 ![Triunghiul financiar pentru Bîrsan Daniel Robert](triunghiul-financiar-birsan-daniel-robert.svg)
 
 _Triunghiul financiar - codul 1293_
@@ -1178,7 +1204,7 @@ Pătratul de aur așază valori succesive pornind de la ziua nașterii și creea
 Index: BDR-19980219-v1.07r-P-207
 Pentru patrat pornim de la ziua nașterii și completam schema în ordinea specifică instrumentului. Diagrama de mai jos arată centrul, traseul și suma de control, apoi citim ce fel de stabilizare simbolica propune.
 
-Index: BDR-19980219-v1.07r-G-007
+Index: BDR-19980219-v1.07r-G-008
 ![Pătratul de aur pentru Bîrsan Daniel Robert](patratul-de-aur-birsan-daniel-robert.svg)
 
 _Patratul de aur - centru 23 și suma de control 69_

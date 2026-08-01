@@ -3,6 +3,8 @@ from __future__ import annotations
 import argparse
 import html
 import math
+import re
+import unicodedata
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
@@ -10,6 +12,7 @@ from pathlib import Path
 ORDER = ((1, 4, 7), (2, 5, 8), (3, 6, 9))
 OPTIMUM = {1: "111", 2: "222", 3: "333", 4: "44", 5: "55", 6: "66", 7: "7", 8: "8", 9: "9"}
 COLORS = {1: "#e6b4a9", 2: "#b8d9e7", 3: "#fffaf3", 4: "#d8c1a2", 5: "#e6b4a9", 6: "#b8d9e7", 7: "#fffaf3", 8: "#d8c1a2", 9: "#e6b4a9"}
+ELEMENT_CLASSES = {1: "foc", 2: "apa", 3: "aer", 4: "pamant", 5: "foc", 6: "apa", 7: "aer", 8: "pamant", 9: "foc"}
 
 
 def reduce_once(value: int) -> int:
@@ -60,6 +63,69 @@ def geometry(count: int, cx: float, cy: float) -> tuple[str, str]:
     return f'<polygon points="{points(count, cx, cy, 22)}" {style}/>', f"poligon regulat cu {count} laturi"
 
 
+def compact_points(n: int, radius: float, step: int = 1, rotation: float = -math.pi / 2) -> str:
+    return points(n, 20, 16, radius, step, rotation)
+
+
+def compact_geometry(count: int) -> tuple[str, str]:
+    if count == 0:
+        return "", "absent"
+    if count == 1:
+        return '<svg viewBox="0 0 40 32" role="img"><circle cx="20" cy="16" r="6"/></svg>', "cerc"
+    if count == 2:
+        return '<svg viewBox="0 0 40 32" role="img"><line x1="17.1" y1="16" x2="22.9" y2="16" style="stroke-linecap:butt"/><circle cx="10" cy="16" r="6"/><circle cx="30" cy="16" r="6"/></svg>', "două cercuri legate"
+    if count == 3:
+        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,4 33,27 7,27"/></svg>', "triunghi"
+    if count == 4:
+        return '<svg viewBox="0 0 40 32" role="img"><rect x="8" y="4" width="24" height="24"/></svg>', "pătrat"
+    if count == 5:
+        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,3 24,13 35,13 26,20 30,30 20,24 10,30 14,20 5,13 16,13"/></svg>', "pentagramă"
+    if count == 6:
+        # Forma compactă validată în lucrarea Andreei: toate vârfurile rămân
+        # vizibile, inclusiv când containerul SVG aplică overflow: hidden.
+        return '<svg viewBox="0 0 40 32" role="img"><polygon points="20,5 30,22 10,22"/><polygon points="20,27 10,10 30,10"/></svg>', "hexagramă"
+    if count == 7:
+        shape = compact_points(7, 12, 3)
+        return f'<svg viewBox="0 0 40 32" role="img"><polygon points="{shape}"/></svg>', "septagramă"
+    if count == 8:
+        shape = compact_points(8, 12)
+        return f'<svg viewBox="0 0 40 32" role="img"><polygon points="{shape}"/></svg>', "octogon"
+    shape = compact_points(count, 12)
+    return f'<svg viewBox="0 0 40 32" role="img"><polygon points="{shape}"/></svg>', f"poligon regulat cu {count} laturi"
+
+
+def slugify(value: str) -> str:
+    decomposed = unicodedata.normalize("NFD", value.lower())
+    ascii_value = "".join(c for c in decomposed if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^a-z0-9]+", "-", ascii_value).strip("-")
+
+
+def build_html_component(name: str, birth_date: str) -> tuple[str, dict[str, object]]:
+    _, meta = build_svg(name, birth_date)
+    counts = Counter({int(k): int(v) for k, v in meta["counts"].items()})
+    cells: list[str] = []
+    for digits in ORDER:
+        for digit in digits:
+            count = counts[digit]
+            shown = str(digit) * count if count else "-"
+            shape, label = compact_geometry(count)
+            empty = " matrix-geom-empty" if count == 0 else ""
+            cells.append(
+                f'<div class="matrix-cell element-{ELEMENT_CLASSES[digit]}">'
+                f'<div class="matrix-number">{digit}</div><div class="matrix-main">{shown}</div>'
+                f'<div class="matrix-opt">optim {OPTIMUM[digit]}</div>'
+                f'<div class="matrix-geom{empty}" aria-label="{label}">{shape}</div></div>'
+            )
+    source = f"matrita-datei-{slugify(name)}.svg"
+    component = (
+        f'<div class="matrix-grid matrix-grid-outlined" data-source-svg="{source}" '
+        f'aria-label="Matrița numerologică 3 pe 3 pentru {html.escape(name)}">\n'
+        + "\n".join(cells)
+        + "\n</div>"
+    )
+    return component, meta
+
+
 def build_svg(name: str, birth_date: str) -> tuple[str, dict[str, object]]:
     born = parse_date(birth_date)
     compact = born.strftime("%d%m%Y")
@@ -88,11 +154,17 @@ def main() -> None:
     parser.add_argument("--name", required=True)
     parser.add_argument("--birth-date", required=True)
     parser.add_argument("--output", required=True)
+    parser.add_argument("--component-output", help="Scrie și componenta HTML reutilizabilă pentru G-002.")
     args = parser.parse_args()
     svg, _ = build_svg(args.name, args.birth_date)
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(svg, encoding="utf-8")
+    if args.component_output:
+        component, _ = build_html_component(args.name, args.birth_date)
+        component_output = Path(args.component_output)
+        component_output.parent.mkdir(parents=True, exist_ok=True)
+        component_output.write_text(component + "\n", encoding="utf-8")
     print(output.resolve())
 
 

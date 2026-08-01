@@ -24,8 +24,8 @@ Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare
 
 | Tip / resursa | Template | Folosire |
 | --- | --- | --- |
-| Lucrare completa de examen | [Template_Lucrare_Numerologica_Examen.md](../assets/templates/Template_Lucrare_Numerologica_Examen.md) | Sursa canonica pentru structura completa, calcule, tabele, grafice, reguli de revizie si verificarea integralitatii. |
-| Lucrare scurta | [Template principal](../assets/Template-lucrare-scurta.md) · [Markdown canonic](../assets/templates/Template_Lucrare_Numerologica_Scurt.md) · [HTML canonic](../assets/templates/Template_Lucrare_Numerologica_Scurt.html) | Resursa principala si perechea canonica pentru cheia `scurt`: incepe direct cu Capitolul 1 dupa Cuprins, fara `Cuvant inainte`; include tabele editabile, Tarot dinamic, matrice 3x3, capitolul combinat Spirit si karma, capitol relational optional cu Omuletul relatiilor si Concluzii in doua sinteze: Cariera si bani, apoi Iubire si relatie. |
+| Lucrare completa de examen | [Template_Lucrare_Numerologica_Examen.md](../assets/templates/Template_Lucrare_Numerologica_Examen.md) · [Referinta HTML Daniel](modele-html/lucrare-examen-daniel-v1.07r.html) | Template-ul controleaza structura si domeniul; referinta HTML este modelul vizual complet pentru CSS, indexuri, chenare, tabele, grafice integrate si comportament responsive. Valorile personale se regenereaza intotdeauna. |
+| Lucrare scurta | [Template principal](../assets/Template-lucrare-scurta.md) · [Markdown canonic](../assets/templates/Template_Lucrare_Numerologica_Scurt.md) · [HTML canonic](../assets/templates/Template_Lucrare_Numerologica_Scurt.html) · [Referinta HTML Daniel](modele-html/lucrare-scurta-daniel-v1.00r.html) | Resursa principala si perechea canonica pentru cheia `scurt`; referinta HTML fixeaza aspectul publicat complet. Lucrarea incepe direct cu Capitolul 1 dupa Cuprins, fara `Cuvant inainte`; include tabele editabile, Tarot dinamic, matrice 3x3, capitolul combinat Spirit si karma, capitol relational optional cu Omuletul relatiilor si Concluzii in doua sinteze. |
 | Lucrare tematica sau restransa | [Template_Lucrare_Numerologica.md](../assets/templates/Template_Lucrare_Numerologica.md) | Se foloseste pentru o analiza mai scurta, un set limitat de teme sau capitole individuale. |
 | Lista de control | [Cuprins_Lucrare_Numerologica.md](../assets/templates/Cuprins_Lucrare_Numerologica.md) | Inventar extins pentru alegerea capitolelor si verificarea acoperirii notiunilor. Nu este template de redactare de sine statator. |
 | Model editorial de revizie | [Markdown](../assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.md) · [HTML](../assets/templates/Model_Lucrare_Numerologica_Revizie_Daniel_Birsan.html) | Pereche editoriala `v1.04r`: Markdown-ul conduce continutul, iar HTML-ul arata prezentarea publicata si redarea indexurilor. Sursa istorica nu contine capitolul de trasabilitate; la o revizie noua, adauga-l obligatoriu conform `SKILL.md` si template-ului general. |
@@ -48,6 +48,9 @@ Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare
   domeniului si al calculelor.
 - Consulta impreuna fisierele Markdown si HTML ale modelului ales si pastreaza
   perechea sincronizata atunci cand modelul este actualizat.
+- Referintele HTML Daniel sunt exemple de redare, nu sabloane de date. Nu
+  mosteni din ele numele, data nasterii, rezultatele, ciclurile sau textele
+  personalizate ale persoanei-model.
 
 Template-ul istoric din `temp/lucrare finalizate/` nu este resursa activa si nu
 se foloseste pentru o lucrare noua.

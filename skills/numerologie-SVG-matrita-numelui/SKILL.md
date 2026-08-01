@@ -9,8 +9,10 @@ description: Genereaza SVG-uri autonome pentru Matrita numelui folosind codul nu
 
 1. Primeste numele complet, data nasterii si calea SVG de iesire.
 2. Ruleaza exclusiv `scripts/generate_matrita_numelui.py`.
-3. Valideaza rezultatul ca XML si confirma codul numelui si numarul de exprimare.
-4. Livreaza SVG-ul autonom; nu modifica manual rezultatul.
+3. Pentru o lucrare, cere si `--component-output`; insereaza componenta produsa imediat dupa indexul `G-002a`, fara reconstructie manuala.
+4. Include [stilul componentei](assets/matrix-component.css) in CSS-ul HTML al lucrarii.
+5. Valideaza SVG-ul ca XML, cele noua celule ale componentei, codul numelui si numarul de exprimare.
+6. Consulta [modelele Daniel si Andreea](references/modele/index.md) cand verifici aspectul.
 
 ## Comanda
 
@@ -18,7 +20,8 @@ description: Genereaza SVG-uri autonome pentru Matrita numelui folosind codul nu
 python scripts/generate_matrita_numelui.py `
   --name "Birsan Daniel Robert" `
   --birth-date "19.02.1998" `
-  --output "matrita-numelui-birsan-daniel-robert.svg"
+  --output "matrita-numelui-birsan-daniel-robert.svg" `
+  --component-output "matrita-numelui-birsan-daniel-robert-g-002a.html"
 ```
 
 ## Calcul
@@ -37,7 +40,17 @@ python scripts/generate_matrita_numelui.py `
 - 0 aparitii: fara figura; 1: cerc; 2: doua cercuri legate; 3: triunghi; 4: patrat.
 - 5: pentagrama; 6: hexagrama; 7: septagrama; 8: octogon.
 - De la 9 in sus, foloseste poligonul regulat cu acelasi numar de laturi si denumirea lui numerica.
+- Hexagrama foloseste aceeasi geometrie compacta ca Matrita datei de nastere, cu toate cele sase varfuri vizibile.
 - Test de regresie Daniel: in casuta `9`, valoarea numelui este `99999`; fiind cinci aparitii ale cifrei `9`, figura obligatorie este pentagrama. Nu folosi patratul rezultat din cele patru aparitii afisate in reperul `data 9999`.
+
+## Componenta pentru lucrare
+
+- Foloseste exact clasele `matrix-grid matrix-grid-outlined`, `matrix-cell`, `matrix-number`, `matrix-main`, `matrix-opt` si `matrix-geom` generate de script.
+- Afiseaza reperul datei in stanga sus, valoarea numelui in centru, optimul in stanga jos si geometria numelui in dreapta jos.
+- Stabileste geometria numai din cantitatea cifrei din nume. Reperul `data` nu schimba figura.
+- Aplica acelasi contur auriu, raza de `5px`, umbra, centrare si culori ca la `G-002`.
+- Pentru doua aparitii, linia dintre cercuri nu intra in cercuri; pentru trei foloseste triunghi; pentru sase foloseste hexagrama compacta.
+- Nu copia valori din modele; genereaza din nou numele si data persoanei.
 
 ## Compararea matricei numelui cu matricea datei
 

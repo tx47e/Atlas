@@ -1,4 +1,4 @@
-from generate_matrita_numelui import build_svg, geometry
+from generate_matrita_numelui import build_html_component, build_svg, compact_geometry, geometry
 
 
 def main() -> None:
@@ -15,7 +15,18 @@ def main() -> None:
     assert comparison["name_potential"] == [4, 5, 6]
     assert comparison["active_vectors_date"] == ["123, Energie", "789, Creativitate"]
     assert comparison["active_vectors_name"] == ["123, Energie", "456, Vointa", "369, Bunastare materiala", "159, Cariera"]
-    print("Regresie Daniel casuta 9: OK (99999 -> pentagrama)")
+    daniel_component, _ = build_html_component("Birsan Daniel Robert", "19.02.1998")
+    assert daniel_component.count('class="matrix-cell ') == 9
+    assert 'data 9999' in daniel_component
+    assert 'aria-label="pentagramă"' in daniel_component
+
+    andreea_component, andreea = build_html_component("Roman Andreea Maria", "12.01.1998")
+    assert andreea["expression"] == 7
+    assert andreea_component.count('class="matrix-cell ') == 9
+    assert "11111" in andreea_component and "9999" in andreea_component
+    hexagram, _ = compact_geometry(6)
+    assert 'points="20,5 30,22 10,22"' in hexagram
+    print("Regresii G-002a Daniel si Andreea: OK")
 
 
 if __name__ == "__main__":
