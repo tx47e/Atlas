@@ -23,10 +23,11 @@ Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare
 
 ## Structura
 
-În template-ul `scurt`, concluziile sintetizează lucrarea în maximum două subcapitole:
+În template-ul `scurt`, concluziile sintetizează lucrarea în maximum trei subcapitole:
 
 1. `Carieră și bani`;
-2. `Iubire și relație`, numai când există un partener declarat; fără partener, folosește `Iubire și relații` și nu inventa date relaționale.
+2. `Iubire și relație`, numai când există un partener declarat; fără partener, folosește `Iubire și relații` și nu inventa date relaționale;
+3. `Momentul prezent`, când lucrarea conține o sinteză distinctă a Lecției, ciclurilor, Pinaclului, Oportunității, Provocării, Sorții și Destinului active.
 
 Nu crea subcapitol separat pentru Harta suprapusă. Folosește Harta suprapusă, ciclurile și graficele anterioare ca surse de sinteză, fără să le repeți în Concluzii și fără să muți aici tabele deja explicate. În revizie, fiecare paragraf primește index `P` unic și fiecare subcapitol index `SUB` unic.
 
@@ -55,17 +56,19 @@ Pornește de la datele ambilor parteneri și construiește lectura în această 
 4. cifrele brute ale celor două date de naștere, fără zerourile de formatare ale zilei sau lunii;
 5. cifrele comune, diferențele de intensitate și lectura fiecărei energii în lumină și umbră;
 6. motivațiile date de ziua nașterii și „muntele de urcat” dat de Destinul fiecăruia;
-7. poziția actuală a cititorului în cicluri, Lecție, Soartă, Destin și zona de confort, dacă aceste informații sunt cerute sau deja fac parte din concluzia validată;
-8. recomandări conversaționale pentru cooperare, dialog, bani, putere, vulnerabilitate și construcție comună.
+7. recomandări conversaționale pentru cooperare, dialog, bani, putere, vulnerabilitate și construcție comună.
 
 Aceeași relație poate fi analizată în ambele lucrări, iar valorile comune rămân identice. Schimbă însă perspectiva: adresează-te persoanei a cărei lucrare este redactată, prezintă mai întâi contribuția ei și explică felul în care partenerul o activează. Nu copia mecanic pronumele, motivațiile, ciclurile actuale, Soarta sau Destinul unei persoane în lucrarea celeilalte.
 
+## Momentul prezent
+
+Separă într-un subcapitol propriu toate paragrafele care descriu perioada activă a cititorului. Începe cu Lecția actuală și intervalul aniversare-la-aniversare, apoi leagă Anul și ciclul de 9 ani, Soarta, Destinul, zona de confort, Pinaclul, Oportunitatea și Provocarea. Încheie cu recomandări practice pentru perioada curentă. Valorile sunt personale și nu se copiază între parteneri.
+
 ## Control
 
-- Confirmă exact două subcapitole când există relație și un singur subcapitol când nu există date relaționale.
+- Confirmă trei subcapitole când există relație și o sinteză temporală distinctă: `Carieră și bani`, `Iubire și relație`, `Momentul prezent`.
 - Confirmă că nu există subcapitol, index sau figură `Harta suprapusă` în Concluzii.
 - Confirmă că fiecare paragraf are index propriu în revizie.
 - Confirmă că numerele, Arcanele și aparițiile matriciale aparțin cititorului curent.
 - Confirmă că valorile comune ale relației sunt identice în ambele lucrări, dar adresarea și ciclurile sunt personalizate.
 - Confirmă că nu au rămas tabele temporale vechi sau concluzii ale persoanei-model.
-

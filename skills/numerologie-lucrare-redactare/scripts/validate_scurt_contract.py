@@ -29,6 +29,19 @@ def main() -> None:
         errors.append("Elementele div nu sunt echilibrate")
     if re.search(r"Ã|Ä|È|�|â€”|â†’", md + html):
         errors.append("Au fost detectate secvențe de mojibake")
+    if re.search(r"(?:apar|apare)\s+(?:numai|doar)\s+în\s+matricea\s+numelui", md + html, re.I):
+        errors.append("Sunt interpretate cifre prezente exclusiv în Matricea numelui")
+
+    forbidden_tarot_patterns = (
+        (r"1\.7\. Tarot", "1.7. Tarot"),
+        (rf"{re.escape(prefix)}-SUB-007(?![A-Za-z0-9])", "SUB-007"),
+        (rf"{re.escape(prefix)}-P-010a(?![A-Za-z0-9])", "P-010a"),
+        (rf"{re.escape(prefix)}-P-010b(?![A-Za-z0-9])", "P-010b"),
+        (rf"{re.escape(prefix)}-T-010(?![A-Za-z0-9])", "T-010"),
+    )
+    for pattern, label in forbidden_tarot_patterns:
+        if prefix and re.search(pattern, md + html):
+            errors.append(f"Template-ul scurt conține vechiul bloc Tarot interzis: {label}")
 
     for suffix in ("G-002", "G-002a"):
         pattern = rf"Index: {re.escape(prefix)}-{suffix}</div>\s*<div class=\"matrix-grid matrix-grid-outlined\"[^>]*>.*?<svg"

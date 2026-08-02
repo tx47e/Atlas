@@ -100,6 +100,10 @@
 
     .collapsible-panel {
       overflow: hidden;
+      border: 1px solid rgba(185, 133, 45, .34);
+      border-radius: 9px;
+      background: transparent;
+      box-shadow: none;
     }
 
     .collapsible-header {
@@ -108,6 +112,7 @@
       gap: 10px;
       padding: 13px 18px;
       background: #f7efe3;
+      border-bottom: 1px solid rgba(185, 133, 45, .26);
       cursor: pointer;
     }
 
@@ -2577,10 +2582,10 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       const endAge = Math.max(startAge + 1, Math.min(108, Math.round(overlayRangeEnd)));
       const data = fateDestinyData(s);
       const width = 1900;
-      const height = 1080;
+      const height = 1015;
       const left = 270;
       const right = 410;
-      const top = 135;
+      const top = 70;
       const chartH = 430;
       const chartW = width - left - right;
       const bottom = top + chartH;
@@ -2680,7 +2685,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
 
       parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Hartă suprapusă soartă-destin-ciclicități">`);
       parts.push(`<style>
-        .ov-title{font:800 22px Arial,sans-serif;fill:#293238}.ov-subtitle{font:800 15px Arial,sans-serif;fill:#35434a}
         .ov-label{font:700 12px Arial,sans-serif;fill:#333}.ov-axis-y{font:800 16px Arial,sans-serif;fill:#2b2119}.ov-axis-x{font:800 16px Arial,sans-serif;fill:#2b2119}
         .ov-axis-name{font:900 14px Arial,sans-serif;fill:#2b2119}.ov-grid{stroke:#c9d0d2;stroke-width:1;stroke-dasharray:6 4}.ov-year-grid{stroke:#bcc5c8;stroke-width:1;stroke-dasharray:3 5;opacity:.72}.ov-major{stroke:#aeb7bb;stroke-width:1.4}
         .ov-axis{stroke:#111;stroke-width:3}.ov-axis-light{stroke:#111;stroke-width:2}.ov-fate-line{fill:none;stroke:${colors.fate};stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
@@ -2696,11 +2700,8 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         .ov-square-number{font:900 10px Arial,sans-serif;fill:#fff;dominant-baseline:middle}.ov-opportunity-line{fill:none;stroke:${colors.opportunity};stroke-width:2.4;opacity:.82}.ov-challenge-line{fill:none;stroke:${colors.challenge};stroke-width:2.4;opacity:.78}
         .ov-lesson-line{fill:none;stroke:${colors.lessons};stroke-width:2.2;opacity:.82;stroke-linejoin:round;stroke-linecap:round}.ov-opportunity-label{font:900 10px Arial,sans-serif;fill:${colors.opportunity};paint-order:stroke;stroke:#fff;stroke-width:2px}
         .ov-challenge-label{font:900 10px Arial,sans-serif;fill:${colors.challenge};paint-order:stroke;stroke:#fff;stroke-width:2px}.ov-legend{font:800 13px Arial,sans-serif;fill:#222}.ov-watermark{font:800 14px Arial,sans-serif;fill:#aaa}
-        .ov-current-age-line{stroke:#111;stroke-width:2.8}.ov-current-age-badge{fill:${paper};stroke:#111;stroke-width:1.5}.ov-current-age-axis-badge{fill:${paper};stroke:#111;stroke-width:1.2}.ov-current-age-label{font:900 12px Arial,sans-serif;fill:#111;letter-spacing:.4px}.ov-current-age-axis{font:900 13px Arial,sans-serif;fill:#111}
+        .ov-current-age-line{stroke:#111;stroke-width:2.8}.ov-current-age-badge{fill:${paper};stroke:#111;stroke-width:1.5}.ov-current-age-label{font:900 12px Arial,sans-serif;fill:#111;letter-spacing:.4px}
       </style>`);
-      parts.push(text(95, 28, "Hartă suprapusă soartă-destin-ciclicități", "ov-title"));
-      parts.push(text(width - 160, 28, (s.fullName || "-").toUpperCase(), "ov-title", "end"));
-      parts.push(text(width - 160, 52, formatBirthDate(s), "ov-subtitle", "end"));
 
       for (let value = 0; value <= 9; value++) {
         const yy = y(value);
@@ -2788,7 +2789,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         const currentX = x(currentAge);
         const labelWidth = 126;
         const labelX = Math.max(left, Math.min(left + chartW - labelWidth, currentX - labelWidth / 2));
-        parts.push(`<g class="ov-current-age" aria-label="Vârsta curentă ${currentAge} ani">${line(currentX, top - 2, currentX, bottom, "ov-current-age-line")}<rect class="ov-current-age-badge" x="${labelX.toFixed(1)}" y="${(top - 42).toFixed(1)}" width="${labelWidth}" height="27" rx="6"/>${text(labelX + labelWidth / 2, top - 23, `VÂRSTA ${currentAge}`, "ov-current-age-label", "middle")}<rect class="ov-current-age-axis-badge" x="${(currentX - 42).toFixed(1)}" y="${(bottom + 27).toFixed(1)}" width="84" height="25" rx="5"/>${text(currentX, bottom + 45, `${currentAge} ani`, "ov-current-age-axis", "middle")}</g>`);
+        parts.push(`<g class="ov-current-age" aria-label="Vârsta curentă ${currentAge} ani">${line(currentX, top - 15, currentX, bottom, "ov-current-age-line")}<rect class="ov-current-age-badge" x="${labelX.toFixed(1)}" y="${(top - 42).toFixed(1)}" width="${labelWidth}" height="27" rx="6"/>${text(labelX + labelWidth / 2, top - 23, `VÂRSTA ${currentAge}`, "ov-current-age-label", "middle")}</g>`);
       }
       parts.push(text(rowLabelX, rowsY.fate, "Soarta", "ov-row ov-green", "end"));
       parts.push(text(rowLabelX, rowsY.destiny, "Destin", "ov-row ov-red", "end"));

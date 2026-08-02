@@ -5,6 +5,14 @@
       <stop offset=".44" stop-color="#dcbf73"/>
       <stop offset="1" stop-color="#99631d"/>
     </linearGradient>
+    <radialGradient id="cornerOpacity" cx="23" cy="23" r="136" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white"/>
+      <stop offset=".2" stop-color="white"/>
+      <stop offset=".58" stop-color="white" stop-opacity=".58"/>
+      <stop offset=".82" stop-color="white" stop-opacity=".18"/>
+      <stop offset="1" stop-color="black"/>
+    </radialGradient>
+    <mask id="cornerFade"><rect width="140" height="140" fill="url(#cornerOpacity)"/></mask>
     <g id="braid-arm">
       <path d="M23 23C34 9 47 7 59 14c11 7 18 7 29-1 12-9 26-8 38-2 4 2 7 2 10 1"/>
       <path d="M23 23c15 6 26 5 36-4 11-10 21-10 32-2 12 9 25 7 36-2 3-2 6-3 9-3" stroke-width=".82"/>
@@ -22,7 +30,7 @@
     </g>
   </defs>
 
-  <g stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+  <g mask="url(#cornerFade)" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 138V26Q4 4 26 4h112" stroke-width="2"/>
     <path d="M9 138V30Q9 9 30 9h108" stroke-width=".72" opacity=".78"/>
     <path d="M14 138V34Q14 14 34 14h104" stroke-width=".45" opacity=".48"/>

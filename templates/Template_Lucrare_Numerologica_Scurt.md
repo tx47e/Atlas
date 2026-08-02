@@ -95,16 +95,6 @@ Index: {{cod_lucrare}}-T-009
 </tbody>
 </table>
 
-Index: {{cod_lucrare}}-SUB-007
-### 1.7. Tarot
-
-Index: {{cod_lucrare}}-T-010
-<table>
-<tbody>
-<tr><td><div>Index: {{cod_lucrare}}-G-001</div><img src="{{fisier_arcana_vibratie}}" alt="Arcana {{numar_arcana_vibratie}} — {{nume_arcana_vibratie}}" width="190"><div><em>Arcana <strong>{{numar_arcana_vibratie}}</strong> — {{nume_arcana_vibratie}}</em></div></td><td><ul><li><strong>Resursă:</strong> {{resursa_arcana_vibratie}}</li><li><strong>Manifestare:</strong> {{manifestare_arcana_vibratie}}</li><li><strong>Umbră:</strong> {{umbra_arcana_vibratie}}</li><li><strong>Maturizare:</strong> {{maturizare_arcana_vibratie}}</li></ul></td></tr>
-</tbody>
-</table>
-
 Index: {{cod_lucrare}}-CAP-006
 ## Capitolul 2. Vibrația exterioară — Rolul social
 
@@ -341,9 +331,6 @@ Index: {{cod_lucrare}}-G-002a
 
 Index: {{cod_lucrare}}-P-{{index_comparatie_data_nume}}
 {{interpretare_comparatie_data_nume_resurse_comune}}
-
-Index: {{cod_lucrare}}-P-{{index_comparatie_data_nume_aport}}
-{{interpretare_energii_doar_in_nume_ca_impresie_si_aport_extern}}
 
 {{bloc_nume_anterior_conditional}}
 
@@ -656,6 +643,7 @@ Index: {{cod_lucrare}}-T-014
 - [ ] Scara bunăstării are paragraf interpretativ indexat înaintea graficului și explică lanțul de sprijin dintre trepte.
 - [ ] Capitolul 6 reunește Spiritul și cele trei karme, fără calcule ori explicații intermediare redundante, și se încheie cu o singură concluzie.
 - [ ] Fiecare arcană numită are imagine în același subcapitol.
+- [ ] Subcapitolul separat `1.7. Tarot` și vechiul tabel Tarot al Vibrației interioare lipsesc integral.
 - [ ] Capitolul Relații este inclus numai când există date relaționale.
 - [ ] Aplicabilitatea profesională este inclusă numai împreună cu Relațiile, iar T-016 are calcul unic, imagini și interpretări pe coloane egale.
 - [ ] HTML-ul livrează toate SVG-urile și imaginile incorporate ca data URI.

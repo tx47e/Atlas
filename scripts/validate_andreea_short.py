@@ -40,6 +40,11 @@ def main() -> None:
         errors.append("Au rămas placeholder-e")
     if re.search(r"Ã|Ä|È|�|â€”|â†’", md + html):
         errors.append("Au fost detectate secvențe de mojibake")
+    if any(fragment in md + html for fragment in [
+        "Energiile **5**, **6** și **7** apar numai în matricea numelui",
+        "Energiile <strong>5</strong>, <strong>6</strong> și <strong>7</strong> apar numai în matricea numelui",
+    ]):
+        errors.append("P-023c interpretează încă energiile invalide 5, 6 și 7 din Matricea numelui")
     if re.search(r"^Index: (?!RAM-19980112-v1\.00r-)", md, re.M):
         errors.append("Există index străin")
     if re.search(r"(?m)^Index: RAM-19980112-v1\.00r-[^\n]+\n(?!\n)", md):
@@ -99,14 +104,26 @@ def main() -> None:
             errors.append(f"Karma incompletă sau calculată greșit: {needle}")
     if not all(x in md for x in ["0–32 ani", "33–42 ani", "43–52 ani", "53 ani–sfârșit"]):
         errors.append("Intervalele pinaclurilor nu sunt complete")
-    if not all(x in md for x in ["vibrația anuală **5**", "Lecția **9**", "Soarta și Destinul sunt la **2 / 2**"]):
+    if not all(x in md for x in ["vibrația anuală **5**", "Lecția **7**", "Soarta și Destinul sunt la **2 / 2**"]):
         errors.append("Sinteza perioadei curente este incompletă")
+    lesson_2026 = re.search(
+        r"Index: RAM-19980112-v1\.00r-P-028a\s+(.+?)(?=\n\s*Index:)",
+        md,
+        re.S,
+    )
+    if not lesson_2026 or "lecția ta este **7**" not in lesson_2026.group(1):
+        errors.append("P-028a nu identifică Lecția 7 pentru anul 2026")
+    if lesson_2026 and "lecția ta este **9**" in lesson_2026.group(1):
+        errors.append("P-028a păstrează greșit Lecția 9 pentru anul 2026")
 
     # Contract 1:1 cu modelul Daniel: aceeași schemă, valori și texte personale.
     index_pattern = r"^Index: [A-Z]+-\d+-v1\.00r-([^\s]+)"
     daniel_indexes = re.findall(index_pattern, daniel_md, re.M)
     andreea_indexes = re.findall(index_pattern, md, re.M)
-    if daniel_indexes != andreea_indexes:
+    conclusion_index = re.compile(r"P-03[23](?:[a-z]+)?$")
+    daniel_core_indexes = [x for x in daniel_indexes if not conclusion_index.fullmatch(x)]
+    andreea_core_indexes = [x for x in andreea_indexes if not conclusion_index.fullmatch(x)]
+    if daniel_core_indexes != andreea_core_indexes:
         errors.append("Secvența tipurilor și sufixelor de index nu coincide cu modelul Daniel")
     heading_pattern = r"^(#{2,3})\s+(.+)$"
     if re.findall(heading_pattern, daniel_md, re.M) != re.findall(heading_pattern, md, re.M):
@@ -114,8 +131,9 @@ def main() -> None:
     if re.findall(r"^### 11\.[^\n]+", md, re.M) != [
         "### 11.1. Carieră și bani",
         "### 11.2. Iubire și relație",
+        "### 11.3. Momentul prezent",
     ]:
-        errors.append("Concluziile Andreei nu au exact cele două subcapitole aprobate")
+        errors.append("Concluziile Andreei nu au exact cele trei subcapitole aprobate")
     personal_conclusion_values = [
         "Destinul tău **31/4**",
         "Numărul tău ereditar karmic este **3**",
@@ -126,6 +144,16 @@ def main() -> None:
     for needle in personal_conclusion_values:
         if needle not in md:
             errors.append(f"Concluzia personală a Andreei nu conține: {needle}")
+    approved_closing_values = [
+        "Până la **12.01.2027**, te afli sub Lecția **7**",
+        "Provocarea **2** te învață să îți depășești timiditatea",
+        "Oportunitatea **4** îți oferă contexte în care să muncești",
+        "Destinul tău **31/4**",
+        "muntele constructorului",
+    ]
+    for needle in approved_closing_values:
+        if needle not in md:
+            errors.append(f"Încheierea dictată pentru Andreea nu conține: {needle}")
     shared_relationship_values = [
         "potențialul maxim al relației este **4**",
         "podul de trecut este **2**",
@@ -135,7 +163,7 @@ def main() -> None:
     for needle in shared_relationship_values:
         if needle not in md or needle not in daniel_md:
             errors.append(f"Faptul relațional comun diferă între lucrări: {needle}")
-    if any(old in md for old in ["T-020", "T-021", "G-008", "### 11.3."]):
+    if any(old in md for old in ["T-020", "T-021", "G-008"]):
         errors.append("Au reapărut elemente eliminate din vechiul capitol Concluzii")
 
     for name in [

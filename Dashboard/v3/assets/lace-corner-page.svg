@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none" role="img" aria-label="Colț vegetal auriu cu împletitură și dispariție graduală">
+  <defs>
+    <linearGradient id="gold" x1="10" y1="10" x2="310" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8a5818"/>
+      <stop offset=".24" stop-color="#d8b86e"/>
+      <stop offset=".64" stop-color="#b37a2a"/>
+      <stop offset="1" stop-color="#e2c985"/>
+    </linearGradient>
+    <linearGradient id="armFade" x1="18" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset=".18" stop-color="white"/>
+      <stop offset=".48" stop-color="white" stop-opacity=".82"/>
+      <stop offset=".72" stop-color="white" stop-opacity=".38"/>
+      <stop offset=".9" stop-color="white" stop-opacity=".09"/>
+      <stop offset="1" stop-color="black"/>
+    </linearGradient>
+    <mask id="fade"><rect width="320" height="72" fill="url(#armFade)"/></mask>
+    <g id="arm" mask="url(#fade)" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 6h302" stroke-width="2.1"/>
+      <path d="M19 11h301" stroke-width=".7" opacity=".72"/>
+      <path d="M20 18c22-12 43-12 63 0 18 11 35 12 53 2 21-12 41-13 62-1 18 10 35 10 53 0 19-11 38-11 69-3" stroke-width="1.2"/>
+      <path d="M22 24c18 11 36 12 54 2 21-12 40-13 61-1 18 10 35 10 53 0 20-12 40-13 60-2 17 9 35 9 55 1" stroke-width=".88"/>
+      <path d="M31 17c9 18 29 23 43 11 12-11 4-29-11-29-16 0-22 19-10 29 13 11 35 3 39-15" stroke-width="1.42"/>
+      <path d="M95 20c12-16 33-18 46-4 12 12 2 30-14 28-16-2-20-22-7-31" stroke-width="1.22"/>
+      <path d="M158 19c11 15 31 18 44 6 12-11 4-27-11-28-15-1-22 16-12 27" stroke-width="1.08"/>
+      <path d="M218 20c10-13 28-14 39-3 10 10 2 24-11 23-13-1-18-16-9-24" stroke-width=".94"/>
+      <path d="M57 9c15-9 31-9 47 0-9 14-25 15-47 0ZM132 11c14-9 29-8 43 1-9 12-23 13-43-1ZM202 12c12-8 25-7 37 1-8 10-20 11-37-1Z" fill="#d9b768" fill-opacity=".12" stroke-width=".72"/>
+      <path d="M57 9c13 3 26 3 39 0M132 11c12 2 24 2 36 0M202 12c10 2 20 2 30 0" stroke-width=".45" opacity=".65"/>
+      <path d="M28 34c54-10 95 8 143 1 46-6 82-14 137-3" stroke-width=".52" opacity=".42"/>
+    </g>
+  </defs>
+  <use href="#arm"/>
+  <use href="#arm" transform="matrix(0 1 1 0 0 0)"/>
+  <g stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 78V28Q7 7 28 7h50" stroke-width="2.35"/>
+    <path d="M12 92V33Q12 12 33 12h59" stroke-width=".82" opacity=".76"/>
+    <path d="M18 104V39Q18 18 39 18h65" stroke-width=".48" opacity=".54"/>
+    <path d="M26 7c3 8 8 14 16 18-8 4-14 9-18 17-4-8-9-14-17-18 8-4 14-9 19-17Z" fill="#d9b768" fill-opacity=".28" stroke="#98621c" stroke-width="1.5"/>
+    <path d="M26 14c2 5 5 8 10 11-5 2-8 5-11 10-2-5-5-8-10-11 5-2 8-5 11-10Z" stroke-width=".72"/>
+    <circle cx="25" cy="25" r="3.4" fill="#f1dda4" fill-opacity=".6" stroke="#b98632" stroke-width="1"/>
+    <path d="M14 14c6 2 10 5 12 11M36 14c-2 6-5 10-11 12M14 36c6-2 10-5 12-11M36 36c-2-6-5-10-11-12" stroke-width=".56" opacity=".74"/>
+  </g>
+</svg>

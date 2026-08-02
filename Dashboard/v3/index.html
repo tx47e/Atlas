@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260802-10">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true">
@@ -36,6 +36,7 @@
       <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h16M15 7l5 5-5 5"/></symbol>
       <symbol id="plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
       <symbol id="download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></symbol>
+      <symbol id="upload" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></symbol>
       <symbol id="chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
       <symbol id="rule" viewBox="0 0 180 18"><path d="M2 9h62m52 0h62"/><path d="m73 9 7-4 10 4-10 4Zm34 0-7-4-10 4 10 4Z"/><circle cx="90" cy="9" r="2"/></symbol>
       <symbol id="flourish" viewBox="0 0 240 40"><path d="M3 20h58c12 0 18-6 18-14 0 9 8 14 17 14h48c9 0 17-5 17-14 0 8 6 14 18 14h58"/><path d="M62 20c8 0 14 7 14 14 0-7 6-14 14-14-8 0-14-7-14-14 0 7-6 14-14 14Zm116 0c-8 0-14 7-14 14 0-7-6-14-14-14 8 0 14-7 14-14 0 7 6 14 14 14Z"/><path d="M102 20c7-12 29-12 36 0-7 12-29 12-36 0Z"/><circle cx="120" cy="20" r="3"/></symbol>
@@ -93,17 +94,16 @@
       <button class="menu-toggle" id="menuToggle" type="button" aria-label="Deschide meniul" aria-expanded="false">
         <svg><use href="#menu"></use></svg>
       </button>
-      <div class="paper-corner corner-tl" aria-hidden="true"><img src="assets/lace-corner.svg" alt=""></div>
-      <div class="paper-corner corner-tr" aria-hidden="true"><img src="assets/lace-corner.svg" alt=""></div>
-      <div class="paper-corner corner-bl" aria-hidden="true"><img src="assets/lace-corner.svg" alt=""></div>
-      <div class="paper-corner corner-br" aria-hidden="true"><img src="assets/lace-corner.svg" alt=""></div>
+      <div class="paper-corner corner-tl" aria-hidden="true"><img src="assets/lace-corner-page.svg" alt=""></div>
+      <div class="paper-corner corner-tr" aria-hidden="true"><img src="assets/lace-corner-page.svg" alt=""></div>
+      <div class="paper-corner corner-bl" aria-hidden="true"><img src="assets/lace-corner-page.svg" alt=""></div>
+      <div class="paper-corner corner-br" aria-hidden="true"><img src="assets/lace-corner-page.svg" alt=""></div>
       <div class="paper-edge edge-top" aria-hidden="true"><img src="assets/lace-edge.svg" alt=""></div>
       <div class="paper-edge edge-right" aria-hidden="true"><img src="assets/lace-edge-vertical.svg" alt=""></div>
       <div class="paper-edge edge-bottom" aria-hidden="true"><img src="assets/lace-edge.svg" alt=""></div>
       <div class="paper-edge edge-left" aria-hidden="true"><img src="assets/lace-edge-vertical.svg" alt=""></div>
       <header class="page-header">
         <div>
-          <p class="breadcrumb" id="breadcrumb">Atlas / Dashboard</p>
           <h1 id="pageTitle">Dashboard</h1>
         </div>
         <div class="header-actions">
@@ -113,12 +113,8 @@
           <button class="icon-button" id="notificationBtn" type="button" aria-label="Notificări">
             <svg><use href="#bell"></use></svg><i></i>
           </button>
-          <button class="primary-button" id="newWorkBtn" type="button">
-            <svg><use href="#quill"></use></svg>Lucrare nouă
-          </button>
         </div>
       </header>
-      <div class="header-ornament" aria-hidden="true"><svg><use href="#flourish"></use></svg></div>
       <section id="view" class="view" aria-live="polite"></section>
     </main>
   </div>
@@ -161,6 +157,104 @@
     </form>
   </dialog>
 
+  <dialog id="importPersonDialog" class="atlas-dialog import-person-dialog">
+    <form method="dialog" id="importPersonForm">
+      <div class="dialog-corner corner-tl"><img src="assets/lace-corner.svg" alt=""></div>
+      <div class="dialog-corner corner-tr"><img src="assets/lace-corner.svg" alt=""></div>
+      <div class="dialog-head">
+        <div><p class="eyebrow">REGISTRUL PERSOANELOR</p><h2>Încarcă fișă YAML</h2></div>
+        <button class="icon-button close-dialog" id="importPersonDialogCloseBtn" type="button" aria-label="Închide">×</button>
+      </div>
+      <p class="import-person-intro">Selectează o fișă YAML. Datele vor fi validate, adăugate în registrul local și încărcate în Calculator.</p>
+      <label class="yaml-file-control" for="personYamlFile">
+        <svg aria-hidden="true"><use href="#upload"></use></svg>
+        <span><strong>Alege fișierul YAML</strong><small id="importPersonFileName">Alege un fișier .yaml sau .yml.</small></span>
+        <input id="personYamlFile" type="file" accept=".yaml,.yml,application/x-yaml,text/yaml" required>
+      </label>
+      <p class="form-error" id="importPersonError" role="alert"></p>
+      <div class="dialog-actions">
+        <button class="secondary-button" id="importPersonDialogCancelBtn" type="button">Renunță</button>
+        <button class="primary-button" type="submit">Adaugă în registru</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="personDialog" class="atlas-dialog person-dialog">
+    <form method="dialog" id="personForm">
+      <div class="dialog-corner corner-tl"><img src="assets/lace-corner.svg" alt=""></div>
+      <div class="dialog-corner corner-tr"><img src="assets/lace-corner.svg" alt=""></div>
+      <div class="dialog-head">
+        <div><p class="eyebrow">REGISTRUL PERSOANELOR</p><h2>Persoană nouă</h2></div>
+        <button class="icon-button close-dialog" id="personDialogCloseBtn" type="button" aria-label="Închide">×</button>
+      </div>
+
+      <section class="person-form-section" aria-labelledby="identityHeading">
+        <h3 id="identityHeading">Identitate</h3>
+        <div class="form-grid person-identity-grid">
+          <label class="span-2">Nume complet<input name="fullName" autocomplete="name" required></label>
+          <label>Nume de familie<input name="familyName" required></label>
+          <label>Prenume complete<input name="givenNames" required></label>
+          <label>Prenume activ<input name="activeName" required></label>
+          <label>Gen
+            <select name="gender" required>
+              <option value="">Alege genul</option>
+              <option value="masculin">Masculin</option>
+              <option value="feminin">Feminin</option>
+            </select>
+          </label>
+          <label class="birth-time-toggle span-2"><input id="hasBirthTime" type="checkbox"> Ora nașterii este cunoscută</label>
+          <label id="birthTimeField" hidden>Ora nașterii<input id="birthTimeInput" name="birthTime" type="time" disabled></label>
+          <label class="span-2">Nume anterioare <span class="optional-label">separate prin virgulă</span><input name="previousNames" placeholder="Ex.: Mirescu, Popescu"></label>
+        </div>
+        <fieldset class="birth-date-fieldset">
+          <legend>Data nașterii</legend>
+          <div class="date-parts">
+            <label>Zi<input name="birthDay" type="number" inputmode="numeric" min="1" max="31" placeholder="ZZ" required></label>
+            <label>Lună<input name="birthMonth" type="number" inputmode="numeric" min="1" max="12" placeholder="LL" required></label>
+            <label>An<input name="birthYear" type="number" inputmode="numeric" min="1900" max="2100" placeholder="AAAA" required></label>
+          </div>
+        </fieldset>
+      </section>
+
+      <section class="person-form-section" aria-labelledby="preferencesHeading">
+        <h3 id="preferencesHeading">Preferințe pentru lucrare</h3>
+        <div class="form-grid person-preferences-grid">
+          <label>Template implicit<select name="template"><option value="examen">Examen</option><option value="scurt">Scurt</option></select></label>
+          <label>Interval<select id="ageRangeType" name="ageRangeType"><option value="complet">Complet, 0–108</option><option value="specific">Specific</option></select></label>
+          <label>Vârsta de început<input id="ageRangeStart" name="ageRangeStart" type="number" min="0" max="107" value="0" disabled></label>
+          <label>Vârsta finală<input id="ageRangeEnd" name="ageRangeEnd" type="number" min="1" max="108" value="108" disabled></label>
+        </div>
+      </section>
+
+      <section class="person-form-section" aria-labelledby="relationsHeading">
+        <div class="person-section-heading">
+          <div><h3 id="relationsHeading">Relații</h3><p>Poți introduce una sau mai multe persoane.</p></div>
+          <label class="relation-toggle"><input id="hasRelations" name="hasRelations" type="checkbox"> Persoana este într-o relație</label>
+        </div>
+        <div id="relationsEditor" class="repeat-editor" hidden>
+          <div id="relationRows"></div>
+          <button id="addRelationBtn" class="secondary-button compact-button" type="button">+ Adaugă încă o persoană</button>
+        </div>
+      </section>
+
+      <section class="person-form-section" aria-labelledby="questionsHeading">
+        <div class="person-section-heading">
+          <div><h3 id="questionsHeading">Întrebările persoanei</h3><p>Carieră, iubire, relație sau orice alt subiect.</p></div>
+          <button id="addQuestionBtn" class="secondary-button compact-button" type="button">+ Adaugă întrebare</button>
+        </div>
+        <div id="questionRows" class="repeat-editor"></div>
+      </section>
+
+      <p class="persistence-note">Datele se păstrează în registrul local al Dashboard V3. Poți descărca și fișa YAML pentru arhivare în registrul canonic <code>persoane/</code>.</p>
+      <p class="form-error" id="personFormError" role="alert"></p>
+      <div class="dialog-actions person-dialog-actions">
+        <button class="secondary-button" id="personDialogCancelBtn" value="cancel" type="submit" formnovalidate>Renunță</button>
+        <button class="secondary-button" value="yaml" type="submit" data-export-yaml>Salvează + copie YAML</button>
+        <button class="primary-button" value="save" type="submit">Salvează în registru</button>
+      </div>
+    </form>
+  </dialog>
+
   <dialog id="searchDialog" class="atlas-dialog search-dialog">
     <form method="dialog">
       <div class="dialog-head"><h2>Caută în Atlas</h2><button class="icon-button close-dialog" value="cancel" aria-label="Închide">×</button></div>
@@ -170,6 +264,6 @@
   </dialog>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="app.js"></script>
+  <script src="app.js?v=20260802-10"></script>
 </body>
 </html>

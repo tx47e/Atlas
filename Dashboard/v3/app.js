@@ -53,43 +53,16 @@ const chronicles = [
   { title: "Sistemul de iconuri a fost unificat", text: "Iconurile și ornamentele folosesc simboluri SVG scalabile.", time: "acum 2 zile", icon: "sun" },
 ];
 
-const seed = {
-  persons: [
-    { id: "person-demo-1", fullName: "Andrei Popescu", birthDate: "1985-05-17", notes: "Profil demonstrativ" },
-    { id: "person-demo-2", fullName: "Maria Ionescu", birthDate: "1992-11-03", notes: "Profil demonstrativ" },
-    { id: "person-demo-3", fullName: "Elena M.", birthDate: "1990-08-26", notes: "Profil demonstrativ" },
-  ],
-  works: [
-    createSeedWork("work-demo-1", "person-demo-1", "Analiză numerologică — Andrei Popescu", "Analiză numerologică", "in-lucru", 3, "2026-07-27T09:25:00+03:00"),
-    createSeedWork("work-demo-2", "person-demo-2", "Matricea Destinului — Maria Ionescu", "Lucrare scurtă", "in-revizie", 4, "2026-07-26T15:10:00+03:00"),
-    createSeedWork("work-demo-3", "person-demo-3", "Prognoză anuală — Elena M.", "Analiză numerologică", "pregatita", 1, "2026-07-25T11:40:00+03:00"),
-  ],
-};
-
-function createSeedWork(id, personId, title, workType, status, completed, updatedAt) {
-  return {
-    id,
-    personId,
-    title,
-    workType,
-    targetDirectory: `output/lucrari/${id}`,
-    status,
-    deliverables: Object.keys(deliverableLabels).map((type, index) => ({
-      id: `${id}-${type}`,
-      type,
-      label: deliverableLabels[type],
-      state: index < completed ? "done" : index === completed ? "active" : "pending",
-    })),
-    history: [{ at: updatedAt, from: "pregatita", to: status, note: "Stare demonstrativă" }],
-    updatedAt,
-    blockers: [],
-  };
-}
+const DEFAULT_PERSON_ID = "1984-11-06-SZABO-MIHAI-GABRIEL";
+const seed = { persons: [], works: [] };
 
 let state = loadState();
+saveState();
 let currentView = location.hash.replace("#/", "") || "dashboard";
 if (!viewTitles[currentView]) currentView = "dashboard";
 let activeWorkFilter = "toate";
+let selectedCalculatorPersonKey = "";
+let registryStatus = "loading";
 
 const byId = id => document.getElementById(id);
 const icon = name => `<svg aria-hidden="true"><use href="#${name}"></use></svg>`;
@@ -104,13 +77,68 @@ function clone(value) {
 function loadState() {
   try {
     const stored = JSON.parse(localStorage.getItem(STORAGE_KEY));
-    if (stored?.persons && stored?.works) return stored;
+    if (Array.isArray(stored?.works)) {
+      return { persons: [], works: stored.works.filter(work => !String(work.id || "").startsWith("work-demo-")) };
+    }
   } catch {}
   return clone(seed);
 }
 
 function saveState() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ works: state.works }));
+}
+
+async function loadPersonsFromRegistry() {
+  registryStatus = "loading";
+  try {
+    const response = await fetch("/api/persons", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Serviciul local a răspuns cu ${response.status}.`);
+    const payload = await response.json();
+    state.persons = (payload.persons || []).filter(person => person.fullName && person.birthDate && person.recordKey);
+    registryStatus = payload.errors?.length ? "warning" : "ready";
+  } catch (error) {
+    state.persons = await loadLegacyPersonsFile();
+    registryStatus = state.persons.length ? "legacy" : "error";
+  }
+  const selectedExists = state.persons.some(person => person.recordKey === selectedCalculatorPersonKey);
+  if (!selectedExists) {
+    selectedCalculatorPersonKey = state.persons.find(person => person.id === DEFAULT_PERSON_ID)?.recordKey
+      || state.persons[0]?.recordKey
+      || "";
+  }
+  renderView();
+}
+
+async function loadLegacyPersonsFile() {
+  try {
+    const response = await fetch("persoane.txt", { cache: "no-store" });
+    if (!response.ok) return [];
+    const text = await response.text();
+    return text.split(/\r?\n/).map(line => line.trim()).filter(line => line && !line.startsWith("#")).map((line, index) => {
+      const [label, fullName, activeName, familyName, birthDate, gender, referenceYear, yearLimit, partnerName, partnerBirthDate, partnerRelationship] = line.split("|");
+      const id = `${birthDate}-${fullName.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase().replace(/[^A-Z0-9]+/g, "-")}`;
+      return {
+        schemaVersion: 1,
+        id,
+        recordKey: `legacy-${index}-${id}`,
+        label,
+        fullName,
+        familyName,
+        givenNames: fullName.replace(new RegExp(`^${familyName}\\s+`, "i"), ""),
+        activeName,
+        birthDate,
+        birthTime: null,
+        gender,
+        previousNames: [],
+        questions: [],
+        relations: partnerName ? [{ fullName: partnerName, birthDate: partnerBirthDate || "", gender: "", type: partnerRelationship || "partener", status: "provizorie" }] : [],
+        preferences: { template: "examen", expression: "conversational", detailLevel: "amplu", ageRange: { type: "complet", start: 0, end: Number(yearLimit) || 108 } },
+        referenceYear: Number(referenceYear) || new Date().getFullYear(),
+      };
+    });
+  } catch {
+    return [];
+  }
 }
 
 function personFor(work) {
@@ -138,7 +166,6 @@ function navigate(view) {
   location.hash = `/${view}`;
   document.querySelectorAll(".nav-item").forEach(button => button.classList.toggle("active", button.dataset.view === view));
   byId("pageTitle").textContent = viewTitles[view];
-  byId("breadcrumb").textContent = `Atlas / ${viewTitles[view]}`;
   byId("main").dataset.view = view;
   document.title = `${viewTitles[view]} — Atlas Numerologie`;
   renderView();
@@ -180,20 +207,31 @@ function renderCalculator() {
     <section class="calculator-surface" aria-label="Calculator numerologic">
       <div class="calculator-person-tools" aria-label="Selectare persoană pentru calculator">
         <select id="calculatorHostPersonSelect" aria-label="Persoană salvată">
-          <option value="">Se încarcă lista...</option>
+          ${state.persons.length
+            ? state.persons.map(person => `<option value="${escapeHtml(person.recordKey)}" ${person.recordKey === selectedCalculatorPersonKey ? "selected" : ""}>${escapeHtml(personOptionLabel(person))}</option>`).join("")
+            : `<option value="">${registryStatus === "loading" ? "Se scanează registrul persoane…" : "Nu există persoane în registru"}</option>`}
         </select>
         <button id="calculatorHostLoadBtn" class="secondary-button" type="button">Încarcă</button>
         <button id="calculatorHostNewBtn" class="secondary-button" type="button">Persoană nouă</button>
       </div>
       <iframe
         class="calculator-frame"
-        src="calculator.html"
+        src="calculator.html?v=20260802-2"
         title="Calculator numerologic Atlas"
         loading="eager"
         scrolling="yes"
       ></iframe>
     </section>
   `;
+}
+
+function formatDateRo(isoDate) {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(isoDate || "");
+  return match ? `${match[3]}.${match[2]}.${match[1]}` : "Data necunoscută";
+}
+
+function personOptionLabel(person) {
+  return `${person.fullName} — ${formatDateRo(person.birthDate)}`;
 }
 
 function renderDashboard() {
@@ -243,7 +281,7 @@ function renderVault() {
     </div>
     <div class="feature-grid">
       <article class="card feature-card" data-category="Numerologie"><img class="vault-art" src="assets/vault-card-numerologie-hd.svg" alt="Pătratul lui Pitagora cu cifrele 1–2–3, 4–5–6 și 7–8–9 dispuse pe coloane"><h3>Numerologie</h3><p>Metode, formule și interpretări</p></article>
-      <article class="card feature-card" data-category="Tarot"><img class="vault-art" src="assets/vault-card-tarot-hd.svg" alt="Trei cărți de Tarot ilustrate, cu Arcana 0 — The Fool în centru"><h3>Tarot</h3><p>Arcane și corespondențe</p></article>
+      <article class="card feature-card" data-category="Tarot"><img class="vault-art tarot-art" src="assets/vault-card-tarot-detailed-transparent.png?v=20260802-7" alt="Trei cărți de Tarot gravate în detaliu, pe fundal transparent: The Moon XVIII, Arcana 0 — The Fool și The Star XVII"><h3>Tarot</h3><p>Arcane și corespondențe</p></article>
       <article class="card feature-card" data-category="Matricea Destinului"><img class="vault-art" src="assets/vault-card-matricea-destinului-hd.svg" alt="Matricea Destinului, diagramă circulară vectorială inspirată din Floarea Vieții"><h3>Matricea Destinului</h3><p>Linii, energii și profiluri</p></article>
     </div>
     <article class="card panel-card" style="margin-top:15px">
@@ -373,40 +411,276 @@ function bindCalculatorPersonTools() {
   const hostNew = byId("calculatorHostNewBtn");
   if (!frame || !hostSelect || !hostLoad || !hostNew) return;
 
-  const connect = () => {
+  const selectedPerson = () => state.persons.find(person => person.recordKey === hostSelect.value);
+  const applySelectedPerson = () => {
     const innerDocument = frame.contentDocument;
-    const innerSelect = innerDocument?.getElementById("personSelect");
-    const innerLoad = innerDocument?.getElementById("loadPersonBtn");
-    const innerNew = innerDocument?.getElementById("newPersonBtn");
-    if (!innerSelect || !innerLoad || !innerNew) return false;
-
-    const syncOptions = () => {
-      const signature = [...innerSelect.options].map(option => `${option.value}:${option.textContent}`).join("|");
-      if (hostSelect.dataset.optionsSignature !== signature) {
-        hostSelect.innerHTML = [...innerSelect.options]
-          .map(option => `<option value="${escapeHtml(option.value)}">${escapeHtml(option.textContent)}</option>`)
-          .join("");
-        hostSelect.dataset.optionsSignature = signature;
-      }
-      hostSelect.value = innerSelect.value;
+    const innerWindow = frame.contentWindow;
+    const person = selectedPerson();
+    if (!innerDocument || !innerWindow || !person) return false;
+    const relation = person.relations?.[0];
+    const values = {
+      fullName: person.fullName,
+      activeName: person.activeName || person.givenNames?.split(/\s+/)[0] || "",
+      familyName: person.familyName || "",
+      birthDate: person.birthDate,
+      gender: person.gender || "masculin",
+      referenceYear: person.referenceYear || new Date().getFullYear(),
+      yearLimit: person.preferences?.ageRange?.end || 108,
+      partnerName: relation?.fullName || "",
+      partnerBirthDate: relation?.birthDate || "",
+      partnerRelationship: relation ? (/sot|sotie/i.test(relation.type) ? "sot/sotie" : /iubit|iubita/i.test(relation.type) ? "iubit/a" : "partener") : "partener",
+      workNotes: (person.questions || []).map(question => `[${question.category}] ${question.text}`).join("\n"),
     };
-
-    syncOptions();
-    innerSelect.addEventListener("change", syncOptions);
-    hostSelect.addEventListener("change", () => {
-      innerSelect.value = hostSelect.value;
-      innerSelect.dispatchEvent(new Event("change", { bubbles: true }));
+    Object.entries(values).forEach(([id, value]) => {
+      const control = innerDocument.getElementById(id);
+      if (!control) return;
+      control.value = value;
+      control.dispatchEvent(new Event("change", { bubbles: true }));
     });
-    hostLoad.addEventListener("click", () => innerLoad.click());
-    hostNew.addEventListener("click", () => innerNew.click());
-
-    const optionsObserver = new MutationObserver(syncOptions);
-    optionsObserver.observe(innerSelect, { childList: true, subtree: true, attributes: true });
+    innerWindow.setPartnerFieldsActive?.(Boolean(relation));
+    innerWindow.renderTable?.();
+    selectedCalculatorPersonKey = person.recordKey;
+    toast(`${person.fullName} a fost încărcat în calculator`);
     return true;
   };
 
+  const connect = () => applySelectedPerson();
+  hostSelect.addEventListener("change", () => {
+    selectedCalculatorPersonKey = hostSelect.value;
+    applySelectedPerson();
+  });
+  hostLoad.addEventListener("click", openImportPersonDialog);
+  hostNew.addEventListener("click", openPersonDialog);
   frame.addEventListener("load", connect, { once: true });
   if (frame.contentDocument?.readyState === "complete") connect();
+}
+
+function openPersonDialog() {
+  const form = byId("personForm");
+  form.reset();
+  byId("personFormError").textContent = "";
+  byId("hasRelations").checked = false;
+  byId("relationsEditor").hidden = true;
+  byId("ageRangeType").value = "complet";
+  byId("ageRangeStart").value = "0";
+  byId("ageRangeEnd").value = "108";
+  byId("ageRangeStart").disabled = true;
+  byId("ageRangeEnd").disabled = true;
+  byId("hasBirthTime").checked = false;
+  byId("birthTimeField").hidden = true;
+  byId("birthTimeInput").disabled = true;
+  byId("birthTimeInput").value = "";
+  byId("relationRows").innerHTML = "";
+  byId("questionRows").innerHTML = questionRowTemplate();
+  byId("personDialog").showModal();
+  setTimeout(() => form.elements.fullName.focus(), 50);
+}
+
+function openImportPersonDialog() {
+  const form = byId("importPersonForm");
+  form.reset();
+  byId("importPersonFileName").textContent = "Alege un fișier .yaml sau .yml.";
+  byId("importPersonError").textContent = "";
+  byId("importPersonDialog").showModal();
+}
+
+function relationRowTemplate() {
+  return `<fieldset class="repeat-row relation-row">
+    <legend>Persoană asociată</legend>
+    <button class="remove-repeat" type="button" data-remove-row aria-label="Elimină persoana">×</button>
+    <div class="form-grid relation-grid">
+      <label class="span-2">Nume complet<input data-relation-field="fullName" autocomplete="off" required></label>
+      <fieldset class="relation-date-field span-2">
+        <legend>Data nașterii</legend>
+        <div class="relation-date-parts">
+          <label>Zi<input data-relation-field="birthDay" type="number" min="1" max="31" inputmode="numeric" placeholder="ZZ" required></label>
+          <label>Lună<input data-relation-field="birthMonth" type="number" min="1" max="12" inputmode="numeric" placeholder="LL" required></label>
+          <label>An<input data-relation-field="birthYear" type="number" min="1900" max="2100" inputmode="numeric" placeholder="AAAA" required></label>
+          <label class="relation-calendar-picker"><span>Calendar</span><input data-relation-calendar type="date" aria-label="Alege data nașterii din calendar"></label>
+        </div>
+      </fieldset>
+      <label>Gen<select data-relation-field="gender" required><option value="">Alege</option><option value="masculin">Masculin</option><option value="feminin">Feminin</option></select></label>
+      <label>Tipul relației<select data-relation-field="type" required><option value="partener">Partener</option><option value="sot">Soț</option><option value="sotie">Soție</option><option value="iubit">Iubit</option><option value="iubita">Iubită</option><option value="familie">Familie</option><option value="altul">Altul</option></select></label>
+    </div>
+  </fieldset>`;
+}
+
+function questionRowTemplate() {
+  return `<div class="repeat-row question-row">
+    <label>Categorie<select data-question-field="category"><option value="cariera">Carieră</option><option value="iubire">Iubire</option><option value="relatie">Relație</option><option value="familie">Familie</option><option value="finante">Finanțe</option><option value="sanatate">Sănătate</option><option value="alta">Altă întrebare</option></select></label>
+    <label class="question-text">Întrebare<textarea data-question-field="text" rows="2" placeholder="Scrie întrebarea persoanei"></textarea></label>
+    <button class="remove-repeat" type="button" data-remove-row aria-label="Elimină întrebarea">×</button>
+  </div>`;
+}
+
+function isoDateFromParts(dayValue, monthValue, yearValue) {
+  const day = Number(dayValue);
+  const month = Number(monthValue);
+  const year = Number(yearValue);
+  if (!Number.isInteger(day) || !Number.isInteger(month) || !Number.isInteger(year)) return null;
+  const date = new Date(Date.UTC(year, month - 1, day));
+  if (date.getUTCFullYear() !== year || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) return null;
+  if (date > new Date()) return null;
+  return `${String(year).padStart(4, "0")}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
+
+function personIdFor(fullName, birthDate) {
+  const safeName = fullName.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase().replace(/[^A-Z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return `${birthDate}-${safeName}`;
+}
+
+function collectPersonForm() {
+  const form = byId("personForm");
+  const data = new FormData(form);
+  const fullName = `${data.get("fullName") || ""}`.trim();
+  const familyName = `${data.get("familyName") || ""}`.trim();
+  const givenNames = `${data.get("givenNames") || ""}`.trim();
+  const activeName = `${data.get("activeName") || ""}`.trim();
+  const gender = `${data.get("gender") || ""}`;
+  const birthTime = byId("hasBirthTime").checked ? (`${data.get("birthTime") || ""}` || null) : null;
+  const previousNames = `${data.get("previousNames") || ""}`.split(",").map(value => value.trim()).filter(Boolean);
+  const birthDate = isoDateFromParts(data.get("birthDay"), data.get("birthMonth"), data.get("birthYear"));
+  if (!fullName || !familyName || !givenNames || !activeName || !gender || !birthDate) {
+    throw new Error("Completează identitatea și introdu o dată de naștere validă, în format zi, lună, an.");
+  }
+
+  const relations = byId("hasRelations").checked ? [...byId("relationRows").querySelectorAll(".relation-row")].map(row => {
+    const value = field => row.querySelector(`[data-relation-field="${field}"]`)?.value.trim() || "";
+    const relation = {
+      fullName: value("fullName"),
+      birthDate: isoDateFromParts(value("birthDay"), value("birthMonth"), value("birthYear")),
+      gender: value("gender"),
+      type: value("type"),
+    };
+    if (!relation.fullName || !relation.birthDate || !relation.gender || !relation.type) {
+      throw new Error("Completează toate datele pentru fiecare persoană din secțiunea Relații.");
+    }
+    const registered = state.persons.find(person => person.fullName.toLocaleLowerCase("ro") === relation.fullName.toLocaleLowerCase("ro") && person.birthDate === relation.birthDate);
+    return { ...relation, personId: registered?.id || null, status: registered ? "confirmata" : "provizorie" };
+  }) : [];
+  if (byId("hasRelations").checked && !relations.length) throw new Error("Adaugă cel puțin o persoană în secțiunea Relații.");
+
+  const questions = [...byId("questionRows").querySelectorAll(".question-row")].map(row => ({
+    category: row.querySelector('[data-question-field="category"]').value,
+    text: row.querySelector('[data-question-field="text"]').value.trim(),
+  })).filter(question => question.text);
+  const id = personIdFor(fullName, birthDate);
+  const now = new Date().toISOString();
+  const ageRangeType = `${data.get("ageRangeType") || "complet"}`;
+  const ageRange = ageRangeType === "specific"
+    ? { type: "specific", start: Number(data.get("ageRangeStart")), end: Number(data.get("ageRangeEnd")) }
+    : { type: "complet", start: 0, end: 108 };
+  if (!Number.isInteger(ageRange.start) || !Number.isInteger(ageRange.end) || ageRange.start < 0 || ageRange.end > 108 || ageRange.start >= ageRange.end) {
+    throw new Error("Intervalul de vârstă trebuie să fie între 0 și 108, în ordine crescătoare.");
+  }
+  return {
+    schemaVersion: 1,
+    id,
+    fullName,
+    familyName,
+    givenNames,
+    activeName,
+    birthDate,
+    birthTime,
+    gender,
+    previousNames,
+    questions,
+    relations,
+    preferences: {
+      template: `${data.get("template") || "examen"}`,
+      expression: "conversational",
+      detailLevel: "amplu",
+      ageRange,
+    },
+    metadata: { createdAt: now, updatedAt: now },
+  };
+}
+
+function personToApiDocument(person) {
+  return {
+    schema_version: 1,
+    id: person.id,
+    identitate: {
+      nume_complet: person.fullName,
+      nume_familie: person.familyName,
+      prenume: person.givenNames,
+      prenume_activ: person.activeName,
+      data_nasterii: person.birthDate,
+      ora_nasterii: person.birthTime,
+      gen: person.gender,
+      nume_anterioare: person.previousNames,
+    },
+    preferinte_lucrare: {
+      template: person.preferences.template,
+      exprimare: person.preferences.expression,
+      nivel_detaliere: person.preferences.detailLevel,
+      interval_ani: {
+        tip: person.preferences.ageRange.type,
+        start_varsta: person.preferences.ageRange.start,
+        final_varsta: person.preferences.ageRange.end,
+      },
+    },
+    intrebari: person.questions.map(question => ({ categorie: question.category, text: question.text })),
+    relatii: person.relations.map(relation => ({
+      persoana_id: relation.personId,
+      nume: relation.fullName,
+      data_nasterii: relation.birthDate,
+      gen: relation.gender,
+      tip: relation.type,
+      status: relation.status,
+    })),
+  };
+}
+
+function yamlString(value) {
+  return JSON.stringify(String(value ?? ""));
+}
+
+function yamlForPerson(person) {
+  const questions = person.questions.length
+    ? person.questions.map(question => `  - categorie: ${yamlString(question.category)}\n    text: ${yamlString(question.text)}`).join("\n")
+    : "  []";
+  const relations = person.relations.length
+    ? person.relations.map(relation => `  - persoana_id: ${relation.personId ? yamlString(relation.personId) : "null"}\n    nume: ${yamlString(relation.fullName)}\n    data_nasterii: ${yamlString(relation.birthDate)}\n    gen: ${yamlString(relation.gender)}\n    tip: ${yamlString(relation.type)}\n    status: ${yamlString(relation.status)}`).join("\n")
+    : "  []";
+  return `schema_version: 1
+id: ${yamlString(person.id)}
+identitate:
+  nume_complet: ${yamlString(person.fullName)}
+  nume_familie: ${yamlString(person.familyName)}
+  prenume: ${yamlString(person.givenNames)}
+  prenume_activ: ${yamlString(person.activeName)}
+  data_nasterii: ${yamlString(person.birthDate)}
+  ora_nasterii: ${person.birthTime ? yamlString(person.birthTime) : "null"}
+  gen: ${yamlString(person.gender)}
+  nume_anterioare: ${person.previousNames?.length ? `[${person.previousNames.map(yamlString).join(", ")}]` : "[]"}
+preferinte_lucrare:
+  template: ${yamlString(person.preferences.template)}
+  exprimare: ${yamlString(person.preferences.expression)}
+  nivel_detaliere: ${yamlString(person.preferences.detailLevel)}
+  interval_ani:
+    tip: ${yamlString(person.preferences.ageRange.type)}
+    start_varsta: ${person.preferences.ageRange.start}
+    final_varsta: ${person.preferences.ageRange.end}
+intrebari:
+${questions}
+relatii:
+${relations}
+metadata:
+  created_at: ${yamlString(person.metadata.createdAt)}
+  updated_at: ${yamlString(person.metadata.updatedAt)}
+`;
+}
+
+function downloadPersonYaml(person) {
+  const blob = new Blob([yamlForPerson(person)], { type: "application/yaml;charset=utf-8" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  const timestamp = new Date().toISOString().replace(/\.\d{3}Z$/, "Z").replace("T", "_").replace(/:/g, "-").replace("Z", "");
+  link.download = `${person.id}__${timestamp}.yaml`;
+  link.click();
+  URL.revokeObjectURL(link.href);
 }
 
 function openWorkDialog() {
@@ -461,7 +735,7 @@ function closeSidebar() {
 }
 
 document.querySelectorAll(".nav-item").forEach(button => button.addEventListener("click", () => navigate(button.dataset.view)));
-byId("newWorkBtn").addEventListener("click", openWorkDialog);
+byId("newWorkBtn")?.addEventListener("click", openWorkDialog);
 byId("menuToggle").addEventListener("click", () => {
   const open = byId("sidebar").classList.toggle("open");
   byId("menuToggle").setAttribute("aria-expanded", String(open));
@@ -491,6 +765,120 @@ byId("globalSearchInput").addEventListener("input", event => {
   }));
 });
 
+byId("hasRelations").addEventListener("change", event => {
+  byId("relationsEditor").hidden = !event.target.checked;
+  if (event.target.checked && !byId("relationRows").children.length) {
+    byId("relationRows").insertAdjacentHTML("beforeend", relationRowTemplate());
+  }
+});
+byId("addRelationBtn").addEventListener("click", () => {
+  byId("relationRows").insertAdjacentHTML("beforeend", relationRowTemplate());
+});
+byId("relationRows").addEventListener("change", event => {
+  const calendar = event.target.closest("[data-relation-calendar]");
+  if (!calendar?.value) return;
+  const [year, month, day] = calendar.value.split("-");
+  const row = calendar.closest(".relation-row");
+  row.querySelector('[data-relation-field="birthDay"]').value = Number(day);
+  row.querySelector('[data-relation-field="birthMonth"]').value = Number(month);
+  row.querySelector('[data-relation-field="birthYear"]').value = Number(year);
+});
+byId("relationRows").addEventListener("input", event => {
+  if (!event.target.matches('[data-relation-field="birthDay"], [data-relation-field="birthMonth"], [data-relation-field="birthYear"]')) return;
+  const row = event.target.closest(".relation-row");
+  const value = field => row.querySelector(`[data-relation-field="${field}"]`).value;
+  row.querySelector("[data-relation-calendar]").value = isoDateFromParts(value("birthDay"), value("birthMonth"), value("birthYear")) || "";
+});
+byId("addQuestionBtn").addEventListener("click", () => {
+  byId("questionRows").insertAdjacentHTML("beforeend", questionRowTemplate());
+});
+byId("ageRangeType").addEventListener("change", event => {
+  const specific = event.target.value === "specific";
+  byId("ageRangeStart").disabled = !specific;
+  byId("ageRangeEnd").disabled = !specific;
+});
+byId("hasBirthTime").addEventListener("change", event => {
+  const enabled = event.target.checked;
+  byId("birthTimeField").hidden = !enabled;
+  byId("birthTimeInput").disabled = !enabled;
+  if (!enabled) byId("birthTimeInput").value = "";
+});
+byId("personDialogCloseBtn").addEventListener("click", () => byId("personDialog").close());
+byId("importPersonDialogCloseBtn").addEventListener("click", () => byId("importPersonDialog").close());
+byId("importPersonDialogCancelBtn").addEventListener("click", () => byId("importPersonDialog").close());
+byId("personYamlFile").addEventListener("change", event => {
+  const file = event.target.files?.[0];
+  byId("importPersonFileName").textContent = file ? `${file.name} · ${Math.max(1, Math.ceil(file.size / 1024))} KB` : "Alege un fișier .yaml sau .yml.";
+  byId("importPersonError").textContent = "";
+});
+byId("importPersonForm").addEventListener("submit", async event => {
+  event.preventDefault();
+  const file = byId("personYamlFile").files?.[0];
+  const error = byId("importPersonError");
+  error.textContent = "";
+  if (!file) {
+    error.textContent = "Alege mai întâi un fișier YAML.";
+    return;
+  }
+  if (!/\.ya?ml$/i.test(file.name)) {
+    error.textContent = "Fișierul trebuie să aibă extensia .yaml sau .yml.";
+    return;
+  }
+  try {
+    const response = await fetch("/api/persons/import", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ filename: file.name, yaml: await file.text() }),
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok || !result.ok) throw new Error(result.error || "Fișierul YAML nu a putut fi importat.");
+    selectedCalculatorPersonKey = result.person.recordKey;
+    byId("importPersonDialog").close();
+    await loadPersonsFromRegistry();
+    toast(`${result.person.fullName} a fost adăugat în registru și încărcat în calculator`);
+  } catch (exception) {
+    error.textContent = exception.message || "Fișierul YAML nu a putut fi importat.";
+  }
+});
+byId("personForm").addEventListener("click", event => {
+  const removeButton = event.target.closest("[data-remove-row]");
+  if (!removeButton) return;
+  const row = removeButton.closest(".repeat-row");
+  row?.remove();
+  if (byId("hasRelations").checked && !byId("relationRows").children.length) {
+    byId("hasRelations").checked = false;
+    byId("relationsEditor").hidden = true;
+  }
+});
+byId("personForm").addEventListener("submit", async event => {
+  if (event.submitter?.value === "cancel") {
+    event.preventDefault();
+    byId("personDialog").close();
+    return;
+  }
+  event.preventDefault();
+  const error = byId("personFormError");
+  error.textContent = "";
+  if (!event.currentTarget.reportValidity()) return;
+  try {
+    const person = collectPersonForm();
+    const response = await fetch("/api/persons", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(personToApiDocument(person)),
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok || !result.ok) throw new Error(result.error || "Serviciul local nu a putut salva fișa YAML.");
+    selectedCalculatorPersonKey = result.person.recordKey;
+    byId("personDialog").close();
+    if (event.submitter?.hasAttribute("data-export-yaml")) downloadPersonYaml(result.person);
+    await loadPersonsFromRegistry();
+    toast(`${person.fullName} a fost salvat direct în Dashboard/v3/persoane`);
+  } catch (exception) {
+    error.textContent = exception.message || "Datele persoanei nu au putut fi salvate.";
+  }
+});
+
 byId("workForm").addEventListener("submit", event => {
   if (event.submitter?.value === "cancel") return;
   event.preventDefault();
@@ -507,8 +895,8 @@ byId("workForm").addEventListener("submit", event => {
   const identity = `${fullName.toLocaleLowerCase("ro")}|${birthDate}`;
   let person = state.persons.find(item => `${item.fullName.toLocaleLowerCase("ro")}|${item.birthDate}` === identity);
   if (!person) {
-    person = { id: `person-${crypto.randomUUID()}`, fullName, birthDate, notes: "" };
-    state.persons.push(person);
+    byId("formError").textContent = "Persoana nu există în registrul YAML. Creeaz-o mai întâi din Calculator → Persoană nouă.";
+    return;
   }
   const id = `work-${crypto.randomUUID()}`;
   const now = new Date().toISOString();
@@ -539,3 +927,4 @@ window.addEventListener("hashchange", () => {
 const settings = loadSettings();
 document.documentElement.dataset.density = settings.density === "Compact" ? "compact" : "comfortable";
 navigate(currentView);
+loadPersonsFromRegistry();
