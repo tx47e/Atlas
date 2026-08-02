@@ -76,5 +76,13 @@
       <ellipse cx="165.3" cy="170" rx="24" ry="28"/><ellipse cx="240" cy="170" rx="24" ry="28"/><ellipse cx="314.7" cy="170" rx="24" ry="28"/>
       <ellipse cx="165.3" cy="242" rx="24" ry="28"/><ellipse cx="240" cy="242" rx="24" ry="28"/><ellipse cx="314.7" cy="242" rx="24" ry="28"/>
     </g>
+    <!-- dantelă fină și trasee numerologice suplimentare -->
+    <g fill="none" stroke="#b98632" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M111 91c-18-6-28-18-31-36 18 2 29 14 31 36Zm258 0c18-6 28-18 31-36-18 2-29 14-31 36ZM111 247c-18 6-28 18-31 36 18-2 29-14 31-36Zm258 0c18 6 28 18 31 36-18-2-29-14-31-36Z" stroke-width=".72" opacity=".58"/>
+      <path d="M83 57c9 1 15 6 18 15M397 57c-9 1-15 6-18 15M83 281c9-1 15-6 18-15M397 281c-9-1-15-6-18-15" stroke-width=".55" stroke-dasharray="2 4" opacity=".75"/>
+      <path d="M240 25c-29 7-52 22-70 44M240 25c29 7 52 22 70 44M240 313c-29-7-52-22-70-44M240 313c29-7 52-22 70-44" stroke-width=".6" stroke-dasharray="3 5" opacity=".5"/>
+      <path d="M130 64c8 0 14 6 14 14 0 6-5 10-10 8-5-3-3-10 2-10M350 64c-8 0-14 6-14 14 0 6 5 10 10 8 5-3 3-10-2-10M130 274c8 0 14-6 14-14 0-6-5-10-10-8-5 3-3 10 2 10M350 274c-8 0-14-6-14-14 0-6 5-10 10-8 5 3 3 10-2 10" stroke-width=".7"/>
+    </g>
+    <g fill="#b98632" opacity=".5"><circle cx="154" cy="42" r="1.4"/><circle cx="326" cy="42" r="1.4"/><circle cx="154" cy="296" r="1.4"/><circle cx="326" cy="296" r="1.4"/></g>
   </g>
 </svg>

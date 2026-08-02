@@ -139,6 +139,7 @@ function navigate(view) {
   document.querySelectorAll(".nav-item").forEach(button => button.classList.toggle("active", button.dataset.view === view));
   byId("pageTitle").textContent = viewTitles[view];
   byId("breadcrumb").textContent = `Atlas / ${viewTitles[view]}`;
+  byId("main").dataset.view = view;
   document.title = `${viewTitles[view]} — Atlas Numerologie`;
   renderView();
   closeSidebar();
@@ -160,7 +161,6 @@ function renderView() {
   byId("view").innerHTML = renderers[currentView]();
   decorateCards();
   bindViewInteractions();
-  if (currentView === "calculator") stabilizeCalculatorScroll();
 }
 
 function decorateCards() {
@@ -177,34 +177,23 @@ function decorateCards() {
 
 function renderCalculator() {
   return `
-    <section class="calculator-frame-card card" aria-labelledby="calculatorIntroTitle">
-      <div class="calculator-intro">
-        <div>
-          <p class="eyebrow">INSTRUMENT DE LUCRU</p>
-          <h2 id="calculatorIntroTitle">Calculator numerologic</h2>
-          <p>Calculatorul complet din Dashboard V2, integrat în interfața și paleta V3.</p>
-        </div>
-        <span class="calculator-seal" aria-hidden="true">${icon("calculator")}</span>
+    <section class="calculator-surface" aria-label="Calculator numerologic">
+      <div class="calculator-person-tools" aria-label="Selectare persoană pentru calculator">
+        <select id="calculatorHostPersonSelect" aria-label="Persoană salvată">
+          <option value="">Se încarcă lista...</option>
+        </select>
+        <button id="calculatorHostLoadBtn" class="secondary-button" type="button">Încarcă</button>
+        <button id="calculatorHostNewBtn" class="secondary-button" type="button">Persoană nouă</button>
       </div>
       <iframe
         class="calculator-frame"
         src="calculator.html"
         title="Calculator numerologic Atlas"
         loading="eager"
+        scrolling="yes"
       ></iframe>
     </section>
   `;
-}
-
-function stabilizeCalculatorScroll() {
-  const frame = document.querySelector(".calculator-frame");
-  if (!frame) return;
-  const resetOuterScroll = () => requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
-  frame.addEventListener("load", () => {
-    resetOuterScroll();
-    setTimeout(resetOuterScroll, 120);
-  }, { once: true });
-  resetOuterScroll();
 }
 
 function renderDashboard() {
@@ -255,7 +244,7 @@ function renderVault() {
     <div class="feature-grid">
       <article class="card feature-card" data-category="Numerologie"><img class="vault-art" src="assets/vault-card-numerologie-hd.svg" alt="Pătratul lui Pitagora cu cifrele 1–2–3, 4–5–6 și 7–8–9 dispuse pe coloane"><h3>Numerologie</h3><p>Metode, formule și interpretări</p></article>
       <article class="card feature-card" data-category="Tarot"><img class="vault-art" src="assets/vault-card-tarot-hd.svg" alt="Trei cărți de Tarot ilustrate, cu Arcana 0 — The Fool în centru"><h3>Tarot</h3><p>Arcane și corespondențe</p></article>
-      <article class="card feature-card" data-category="Matricea Destinului"><img class="vault-art" src="assets/vault-card-matricea-destinului-hd.svg" alt="Matricea Destinului, diagramă circulară detaliată cu noduri și trasee energetice"><h3>Matricea Destinului</h3><p>Linii, energii și profiluri</p></article>
+      <article class="card feature-card" data-category="Matricea Destinului"><img class="vault-art" src="assets/vault-card-matricea-destinului-hd.svg" alt="Matricea Destinului, diagramă circulară vectorială inspirată din Floarea Vieții"><h3>Matricea Destinului</h3><p>Linii, energii și profiluri</p></article>
     </div>
     <article class="card panel-card" style="margin-top:15px">
       <div class="card-heading"><h2>Documente recente</h2>${icon("book")}</div>
@@ -374,6 +363,50 @@ function bindViewInteractions() {
     document.documentElement.dataset.density = settings.density === "Compact" ? "compact" : "comfortable";
     toast("Preferințele au fost salvate");
   });
+  if (currentView === "calculator") bindCalculatorPersonTools();
+}
+
+function bindCalculatorPersonTools() {
+  const frame = document.querySelector(".calculator-frame");
+  const hostSelect = byId("calculatorHostPersonSelect");
+  const hostLoad = byId("calculatorHostLoadBtn");
+  const hostNew = byId("calculatorHostNewBtn");
+  if (!frame || !hostSelect || !hostLoad || !hostNew) return;
+
+  const connect = () => {
+    const innerDocument = frame.contentDocument;
+    const innerSelect = innerDocument?.getElementById("personSelect");
+    const innerLoad = innerDocument?.getElementById("loadPersonBtn");
+    const innerNew = innerDocument?.getElementById("newPersonBtn");
+    if (!innerSelect || !innerLoad || !innerNew) return false;
+
+    const syncOptions = () => {
+      const signature = [...innerSelect.options].map(option => `${option.value}:${option.textContent}`).join("|");
+      if (hostSelect.dataset.optionsSignature !== signature) {
+        hostSelect.innerHTML = [...innerSelect.options]
+          .map(option => `<option value="${escapeHtml(option.value)}">${escapeHtml(option.textContent)}</option>`)
+          .join("");
+        hostSelect.dataset.optionsSignature = signature;
+      }
+      hostSelect.value = innerSelect.value;
+    };
+
+    syncOptions();
+    innerSelect.addEventListener("change", syncOptions);
+    hostSelect.addEventListener("change", () => {
+      innerSelect.value = hostSelect.value;
+      innerSelect.dispatchEvent(new Event("change", { bubbles: true }));
+    });
+    hostLoad.addEventListener("click", () => innerLoad.click());
+    hostNew.addEventListener("click", () => innerNew.click());
+
+    const optionsObserver = new MutationObserver(syncOptions);
+    optionsObserver.observe(innerSelect, { childList: true, subtree: true, attributes: true });
+    return true;
+  };
+
+  frame.addEventListener("load", connect, { once: true });
+  if (frame.contentDocument?.readyState === "complete") connect();
 }
 
 function openWorkDialog() {

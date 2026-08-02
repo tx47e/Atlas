@@ -1105,8 +1105,8 @@
     }
 
     .matrix-large {
-      width: 100%;
-      max-width: 300px;
+      width: min(100%, 520px);
+      max-width: 520px;
     }
 
     .matrix-large div {
@@ -1115,13 +1115,78 @@
 
     .matrix-compare {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      justify-items: center;
       gap: 14px;
       align-items: start;
     }
 
+    .matrix-combined-meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      width: min(100%, 720px);
+    }
+
+    .matrix-meta-panel {
+      min-width: 0;
+      padding: 10px 12px;
+      border: 1px solid rgba(185, 134, 50, 0.28);
+      border-radius: 6px;
+      background: rgba(255, 253, 248, 0.44);
+    }
+
+    .matrix-meta-panel:last-child { text-align: right; }
+
+    .matrix-meta-panel h3 {
+      margin: 0 0 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .matrix-combined {
+      width: min(100%, 520px);
+      box-shadow: 0 12px 30px rgba(108, 72, 31, 0.1);
+    }
+
+    .matrix-combined > div {
+      min-width: 0;
+      padding: 10px;
+    }
+
+    .matrix-combined .matrix-value {
+      font-size: clamp(20px, 2.2vw, 30px);
+    }
+
+    .matrix-name-value {
+      position: absolute;
+      left: 7px;
+      bottom: 6px;
+      z-index: 2;
+      max-width: calc(100% - 40px);
+      overflow: hidden;
+      color: currentColor;
+      font-size: clamp(12px, 1.35vw, 17px);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: .02em;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .matrix-name-value::before {
+      content: "N ";
+      opacity: .72;
+      font-size: .72em;
+      font-weight: 700;
+    }
+
     .matrix-block {
       min-width: 0;
+    }
+
+    .matrix-block-combined {
+      width: min(100%, 520px);
     }
 
     .matrix-block h3 {
@@ -1225,6 +1290,15 @@
     }
 
     @media (max-width: 620px) {
+      .matrix-combined-meta {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .matrix-meta-panel:last-child {
+        text-align: left;
+      }
+
       .grid,
       .summary {
         grid-template-columns: 1fr;
@@ -1313,10 +1387,6 @@
   <main>
     <section class="panel atlas-header-panel">
       <div class="toolbar">
-        <div>
-          <h2 style="margin:0">Calculator numerologic</h2>
-          <div class="hint">Destinul se citește în cifre, dar se împlinește prin alegeri.</div>
-        </div>
         <div class="dashboard-person-tools">
           <div class="person-picker">
             <label><span>Persoană salvată</span>
@@ -1463,20 +1533,13 @@
         </div>
 
         <div class="dash-card matrix-compare-card">
-          <h2>Matrici comparate</h2>
+          <h2>Matrice integrată</h2>
           <div id="dashboardMatrix"></div>
           <div class="matrix-elements">
             <div class="card-title-row">
               <h3>Elemente</h3>
               <span class="elements-temperament" id="elementsTemperament"></span>
               <div class="control-stack wellbeing-controls elements-controls" aria-label="Optiuni elemente">
-                <div class="control-group">
-                  <span>Matrice</span>
-                  <div class="segmented">
-                    <button type="button" id="elementsBirthMatrixMode" class="active" aria-label="Matricea datei de naștere" title="Matricea datei de naștere"><span class="filter-icon icon-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
-                    <button type="button" id="elementsNameMatrixMode" aria-label="Matricea numelui" title="Matricea numelui"><span class="filter-icon icon-vector" aria-hidden="true"></span></button>
-                  </div>
-                </div>
                 <div class="control-group">
                   <span>Sortare</span>
                   <div class="segmented">
@@ -2522,6 +2585,10 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       const chartW = width - left - right;
       const bottom = top + chartH;
       const paper = "#f7efe3";
+      const today = new Date();
+      let currentAge = today.getFullYear() - s.year;
+      if ((today.getMonth() + 1) < s.month || ((today.getMonth() + 1) === s.month && today.getDate() < s.day)) currentAge -= 1;
+      const showCurrentAge = currentAge >= startAge && currentAge <= endAge;
       const colors = {
         fate: "#22b14c",
         destiny: "#ff1616",
@@ -2613,7 +2680,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
 
       parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Hartă suprapusă soartă-destin-ciclicități">`);
       parts.push(`<style>
-        .ov-bg{fill:${paper}} .ov-title{font:800 22px Arial,sans-serif;fill:#293238}.ov-subtitle{font:800 15px Arial,sans-serif;fill:#35434a}
+        .ov-title{font:800 22px Arial,sans-serif;fill:#293238}.ov-subtitle{font:800 15px Arial,sans-serif;fill:#35434a}
         .ov-label{font:700 12px Arial,sans-serif;fill:#333}.ov-axis-y{font:800 16px Arial,sans-serif;fill:#2b2119}.ov-axis-x{font:800 16px Arial,sans-serif;fill:#2b2119}
         .ov-axis-name{font:900 14px Arial,sans-serif;fill:#2b2119}.ov-grid{stroke:#c9d0d2;stroke-width:1;stroke-dasharray:6 4}.ov-year-grid{stroke:#bcc5c8;stroke-width:1;stroke-dasharray:3 5;opacity:.72}.ov-major{stroke:#aeb7bb;stroke-width:1.4}
         .ov-axis{stroke:#111;stroke-width:3}.ov-axis-light{stroke:#111;stroke-width:2}.ov-fate-line{fill:none;stroke:${colors.fate};stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
@@ -2629,8 +2696,8 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         .ov-square-number{font:900 10px Arial,sans-serif;fill:#fff;dominant-baseline:middle}.ov-opportunity-line{fill:none;stroke:${colors.opportunity};stroke-width:2.4;opacity:.82}.ov-challenge-line{fill:none;stroke:${colors.challenge};stroke-width:2.4;opacity:.78}
         .ov-lesson-line{fill:none;stroke:${colors.lessons};stroke-width:2.2;opacity:.82;stroke-linejoin:round;stroke-linecap:round}.ov-opportunity-label{font:900 10px Arial,sans-serif;fill:${colors.opportunity};paint-order:stroke;stroke:#fff;stroke-width:2px}
         .ov-challenge-label{font:900 10px Arial,sans-serif;fill:${colors.challenge};paint-order:stroke;stroke:#fff;stroke-width:2px}.ov-legend{font:800 13px Arial,sans-serif;fill:#222}.ov-watermark{font:800 14px Arial,sans-serif;fill:#aaa}
+        .ov-current-age-line{stroke:#111;stroke-width:2.8}.ov-current-age-badge{fill:${paper};stroke:#111;stroke-width:1.5}.ov-current-age-axis-badge{fill:${paper};stroke:#111;stroke-width:1.2}.ov-current-age-label{font:900 12px Arial,sans-serif;fill:#111;letter-spacing:.4px}.ov-current-age-axis{font:900 13px Arial,sans-serif;fill:#111}
       </style>`);
-      parts.push(`<rect class="ov-bg" width="${width}" height="${height}"/>`);
       parts.push(text(95, 28, "Hartă suprapusă soartă-destin-ciclicități", "ov-title"));
       parts.push(text(width - 160, 28, (s.fullName || "-").toUpperCase(), "ov-title", "end"));
       parts.push(text(width - 160, 52, formatBirthDate(s), "ov-subtitle", "end"));
@@ -2717,6 +2784,12 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       }).join("")}</g>`);
       parts.push(`<g class="${groupClass("fate")}"><polyline class="ov-fate-line" points="${points(fateValues)}"/>${ages.map((age, i) => circle(x(age), y(fateValues[i]), 7, "ov-fate-dot")).join("")}</g>`);
       parts.push(`<g class="${groupClass("destiny")}"><polyline class="ov-destiny-line" points="${points(destinyValues)}"/>${ages.map((age, i) => circle(x(age), y(destinyValues[i]), 7, "ov-destiny-dot")).join("")}</g>`);
+      if (showCurrentAge) {
+        const currentX = x(currentAge);
+        const labelWidth = 126;
+        const labelX = Math.max(left, Math.min(left + chartW - labelWidth, currentX - labelWidth / 2));
+        parts.push(`<g class="ov-current-age" aria-label="Vârsta curentă ${currentAge} ani">${line(currentX, top - 2, currentX, bottom, "ov-current-age-line")}<rect class="ov-current-age-badge" x="${labelX.toFixed(1)}" y="${(top - 42).toFixed(1)}" width="${labelWidth}" height="27" rx="6"/>${text(labelX + labelWidth / 2, top - 23, `VÂRSTA ${currentAge}`, "ov-current-age-label", "middle")}<rect class="ov-current-age-axis-badge" x="${(currentX - 42).toFixed(1)}" y="${(bottom + 27).toFixed(1)}" width="84" height="25" rx="5"/>${text(currentX, bottom + 45, `${currentAge} ani`, "ov-current-age-axis", "middle")}</g>`);
+      }
       parts.push(text(rowLabelX, rowsY.fate, "Soarta", "ov-row ov-green", "end"));
       parts.push(text(rowLabelX, rowsY.destiny, "Destin", "ov-row ov-red", "end"));
       ages.slice(0, -1).forEach((age, i) => {
@@ -2833,17 +2906,21 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     }
 
     function matrixComparisonHtml(s) {
+      const nm = nameMatrix(s.fullName);
       return `
         <div class="matrix-compare">
-          <div class="matrix-block">
-            <h3>Data nașterii: ${formatBirthDate(s)}</h3>
-            <div class="matrix-code">${birthMatrixCode(s)}</div>
-            ${matrixHtmlLarge(s.matrix, true)}
+          <div class="matrix-combined-meta">
+            <div class="matrix-meta-panel">
+              <h3>Data nașterii: ${formatBirthDate(s)}</h3>
+              <div class="matrix-code">${birthMatrixCode(s)}</div>
+            </div>
+            <div class="matrix-meta-panel">
+              <h3>Nume complet: ${escapeHtml(s.fullName || "-")}</h3>
+              <div class="matrix-code">${nameMatrixCode(s)}</div>
+            </div>
           </div>
-          <div class="matrix-block">
-            <h3>Nume: ${escapeHtml(s.fullName || "-")}</h3>
-            <div class="matrix-code">${nameMatrixCode(s)}</div>
-            ${matrixHtmlLarge(nameMatrix(s.fullName), true)}
+          <div class="matrix-block matrix-block-combined">
+            ${matrixHtmlCombined(s.matrix, nm)}
           </div>
         </div>
       `;
@@ -2871,7 +2948,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     }
 
     function renderElementsVisual(s) {
-      const matrix = elementsMatrixMode === "name" ? nameMatrix(s.fullName) : s.matrix;
+      const matrix = s.matrix;
       const counts = elementCountsFromMatrix(matrix);
       const items = [
         { label: "Foc", value: counts.foc, className: "element-foc", order: 0 },
@@ -2883,8 +2960,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         ? [...items].sort((a, b) => b.value - a.value || a.order - b.order)
         : items;
       document.getElementById("elementsTemperament").textContent = elementTemperamentText(counts);
-      setActive("elementsBirthMatrixMode", elementsMatrixMode === "birth");
-      setActive("elementsNameMatrixMode", elementsMatrixMode === "name");
       setActive("elementsOrderMode", elementsSortMode === "element");
       setActive("elementsQuantityMode", elementsSortMode === "quantity");
       const max = Math.max(1, ...rows.map(item => item.value));
@@ -2936,6 +3011,22 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       if (count === 2) return '<span class="shape-marker shape-2" aria-hidden="true"><i></i></span>';
       if (count <= 4) return `<span class="shape-marker shape-${count}" aria-hidden="true"></span>`;
       return '<span class="shape-marker shape-many" aria-hidden="true"></span>';
+    }
+
+    function matrixHtmlCombined(birthMatrix, fullNameMatrix) {
+      const order = [1, 4, 7, 2, 5, 8, 3, 6, 9];
+      return `
+        <div class="matrix matrix-large matrix-combined" aria-label="Matrice integrată: data nașterii în centru, numele în stânga jos">
+          ${order.map(digit => matrixCombinedCellHtml(digit, birthMatrix[digit], fullNameMatrix[digit])).join("")}
+        </div>
+      `;
+    }
+
+    function matrixCombinedCellHtml(digit, birthValues, nameValues) {
+      const birthCount = birthValues.length;
+      const birthText = birthValues.join("") || "0";
+      const nameText = nameValues.join("") || "0";
+      return `<div class="${elementClass(digit, birthCount)}" aria-label="Căsuța ${digit}: data ${birthText}, nume ${nameText}">${optimalMatrixHintHtml(digit)}<span class="matrix-value">${birthText}</span><span class="matrix-name-value" title="Valoarea numelui: ${nameText}">${nameText}</span>${shapeMarkerHtml(birthCount)}</div>`;
     }
 
     function elementName(digit) {
@@ -3133,14 +3224,6 @@ def calculate_capitol_2(person: PersonInput) -> dict:
     });
     document.getElementById("wellbeingValueMeasureMode").addEventListener("click", () => {
       wellbeingMeasureMode = "value";
-      renderDashboard(parseState());
-    });
-    document.getElementById("elementsBirthMatrixMode").addEventListener("click", () => {
-      elementsMatrixMode = "birth";
-      renderDashboard(parseState());
-    });
-    document.getElementById("elementsNameMatrixMode").addEventListener("click", () => {
-      elementsMatrixMode = "name";
       renderDashboard(parseState());
     });
     document.getElementById("elementsOrderMode").addEventListener("click", () => {

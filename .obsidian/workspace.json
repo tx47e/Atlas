@@ -8,15 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6280322d0947656",
+            "id": "2d4a9c8ebc930337",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r.html"
+                "url": "file:///C:/Users/Mihai/Documents/Atlas/Dashboard/v3/index.html#/calculator"
               },
               "icon": "lucide-file",
-              "title": "Roman Andreea Maria — 12.01.1998"
+              "title": "Calculator — Atlas Numerologie"
             }
           }
         ]
@@ -200,8 +200,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c6280322d0947656",
+  "active": "c1cd69e380e73c87",
   "lastOpenFiles": [
+    "Dashboard/v3/assets/lace-edge-vertical.svg",
+    "Dashboard/v3/assets/lace-edge.svg",
+    "Dashboard/v3/assets/lace-corner.svg",
+    "Dashboard/v3/design-qa.md",
     "scripts/__pycache__/gen_harta_suprapusa_szabo_mihai_gabriel.cpython-312.pyc",
     "scripts/__pycache__/gen_harta_suprapusa_bdr.cpython-312.pyc",
     "scripts/__pycache__/calculator_numerologic_examen.cpython-312.pyc",
@@ -213,7 +217,6 @@
     "scripts/__pycache__/generate_andreea_short_from_daniel.cpython-311.pyc",
     "skills/numerologie-SVG-matrita-numelui/references/modele/matrita-numelui-andreea-g-002a.html",
     "skills/numerologie-SVG-matrita-numelui/references/modele/matrita-numelui-andreea.svg",
-    "skills/numerologie-SVG-matrita-numelui/references/modele/matrita-numelui-daniel-g-002a.html",
     "skills/numerologie-SVG-matrita-numelui/references/modele/matrita-numelui-daniel.svg",
     "skills/numerologie-SVG-matrita-datei-de-nastere/references/modele/matrita-datei-andreea.svg",
     "skills/numerologie-SVG-matrita-datei-de-nastere/references/modele/matrita-datei-daniel.svg",
@@ -228,8 +231,6 @@
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/omulet-relatii-roman-andreea-maria-birsan-daniel-robert.png",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/tarot-09-eremitul-obstacole-profesionale.jpg",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/tarot-06-indragostitii-aplicabilitate-profesionala.jpg",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/tarot-09-eremitul-karma-calea-destinului.jpg",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/tarot-12-spanzuratul-karma-zilei.jpg",
     "vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/03-CNP-Calcul.md",
     "vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index.md",
     "vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/03-MDN-Calcul.md",
@@ -246,7 +247,6 @@
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-40.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-38.md",
     "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-37.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-36.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-35.md"
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-36.md"
   ]
 }

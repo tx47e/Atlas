@@ -1,97 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="title desc">
   <title id="title">Matricea Destinului</title>
-  <desc id="desc">Diagramă numerologică circulară cu opt noduri exterioare, centru și trasee energetice detaliate.</desc>
+  <desc id="desc">Diagramă circulară vectorială foarte detaliată, inspirată din Floarea Vieții, cu noduri, canale și ornament astral.</desc>
   <defs>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8b5d1c"/><stop offset=".48" stop-color="#d5b56d"/><stop offset="1" stop-color="#996621"/>
-    </linearGradient>
-    <radialGradient id="node" cx=".4" cy=".3" r=".8">
-      <stop offset="0" stop-color="#fffef8"/><stop offset=".75" stop-color="#fbf2df"/><stop offset="1" stop-color="#e9d09f"/>
-    </radialGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#073f43" flood-opacity=".12"/>
-    </filter>
-    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
-      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="28" result="n"/>
-      <feColorMatrix in="n" type="saturate" values="0" result="m"/>
-      <feComponentTransfer in="m" result="f"><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer>
-      <feBlend in="SourceGraphic" in2="f" mode="multiply"/>
-    </filter>
+    <linearGradient id="gold" x1="72" y1="290" x2="402" y2="34" gradientUnits="userSpaceOnUse"><stop stop-color="#8b5d1c"/><stop offset=".48" stop-color="#d7b86e"/><stop offset="1" stop-color="#966522"/></linearGradient>
+    <radialGradient id="node" cx=".38" cy=".3" r=".82"><stop stop-color="#fffef8"/><stop offset=".76" stop-color="#fbf2df"/><stop offset="1" stop-color="#e9d09f"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#073f43" flood-opacity=".13"/></filter>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency=".84" numOctaves="2" seed="31" result="n"/><feColorMatrix in="n" type="saturate" values="0" result="m"/><feComponentTransfer in="m" result="f"><feFuncA type="table" tableValues="0 .03"/></feComponentTransfer><feBlend in="SourceGraphic" in2="f" mode="multiply"/></filter>
   </defs>
-
   <g filter="url(#grain)" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Aureola -->
-    <circle cx="240" cy="170" r="151" fill="none" stroke="#073f43" stroke-width="1.6" stroke-dasharray="2 8"/>
-    <circle cx="240" cy="170" r="137" fill="none" stroke="#b98632" stroke-width=".85" stroke-dasharray="24 9 2 9"/>
-    <circle cx="240" cy="170" r="118" fill="none" stroke="#b98632" stroke-opacity=".38" stroke-width=".75"/>
-    <g fill="url(#gold)" stroke="#a47125" stroke-width=".7">
-      <path d="M67 72c11 1 17 8 16 19-10 1-18-7-16-19Z"/><path d="M413 72c-11 1-17 8-16 19 10 1 18-7 16-19Z"/>
-      <path d="M67 268c11-1 17-8 16-19-10-1-18 7-16 19Z"/><path d="M413 268c-11-1-17-8-16-19 10-1 18 7 16 19Z"/>
-      <path d="M240 5c8 9 8 18 0 27-8-9-8-18 0-27ZM240 335c8-9 8-18 0-27-8 9-8 18 0 27Z"/>
+    <!-- aureole și ritm exterior -->
+    <circle cx="240" cy="170" r="156" fill="none" stroke="#073f43" stroke-width="1.5" stroke-dasharray="2 8"/>
+    <circle cx="240" cy="170" r="143" fill="none" stroke="#b98632" stroke-width="1" stroke-dasharray="25 8 2 8"/>
+    <circle cx="240" cy="170" r="131" fill="none" stroke="#b98632" stroke-opacity=".48" stroke-width=".75"/>
+    <g fill="url(#gold)" stroke="#9a6823" stroke-width=".6">
+      <path d="m240 3 6 18 18 6-18 6-6 18-6-18-18-6 18-6Z"/><path d="m240 289 6 18 18 6-18 6-6 18-6-18-18-6 18-6Z"/>
+      <path d="m73 170 5 14 14 5-14 5-5 14-5-14-14-5 14-5Z"/><path d="m407 170 5 14 14 5-14 5-5 14-5-14-14-5 14-5Z"/>
+      <path d="m122 47 3 9 9 3-9 3-3 9-3-9-9-3 9-3Zm236 0 3 9 9 3-9 3-3 9-3-9-9-3 9-3Z"/>
     </g>
-    <g fill="#b98632"><circle cx="71" cy="170" r="3"/><circle cx="409" cy="170" r="3"/><circle cx="120" cy="35" r="2.5"/><circle cx="360" cy="35" r="2.5"/><circle cx="120" cy="305" r="2.5"/><circle cx="360" cy="305" r="2.5"/></g>
+    <g fill="#b98632"><circle cx="102" cy="82" r="3"/><circle cx="378" cy="82" r="3"/><circle cx="102" cy="258" r="3"/><circle cx="378" cy="258" r="3"/><circle cx="240" cy="25" r="2.4"/><circle cx="240" cy="315" r="2.4"/></g>
 
-    <!-- Schelet geometric -->
+    <!-- structura octogonală și canale -->
     <g fill="none">
-      <path d="m240 24 103 43 45 103-45 103-103 43-103-43-45-103 45-103Z" stroke="#073f43" stroke-width="2.4"/>
-      <path d="M240 24v292M92 170h296M137 67l206 206M343 67 137 273" stroke="#073f43" stroke-width="1.45"/>
-      <path d="M240 24 178 170l62 146 62-146ZM92 170l148-67 148 67-148 67Z" stroke="#b98632" stroke-width="1.2" stroke-dasharray="4 5"/>
-      <path d="M137 67 240 103l103-36-41 103 41 103-103-36-103 36 41-103Z" stroke="#b98632" stroke-width=".95"/>
-      <path d="m137 67 41 103-41 103M343 67l-41 103 41 103M92 170l148-67 148 67-148 67Z" stroke="#073f43" stroke-opacity=".5" stroke-width=".75"/>
-      <circle cx="240" cy="170" r="87" stroke="#b98632" stroke-width="1.1"/>
-      <circle cx="240" cy="170" r="67" stroke="#b98632" stroke-opacity=".7" stroke-width=".8" stroke-dasharray="3 5"/>
-      <circle cx="240" cy="170" r="49" stroke="#073f43" stroke-opacity=".55" stroke-width=".7"/>
+      <path d="m240 34 96 40 40 96-40 96-96 40-96-40-40-96 40-96Z" stroke="#073f43" stroke-width="2.1"/>
+      <path d="M240 34v272M104 170h272M144 74l192 192M336 74 144 266" stroke="#073f43" stroke-width="1.05" opacity=".8"/>
+      <path d="M240 34 172 170l68 136 68-136ZM104 170l136-68 136 68-136 68Z" stroke="#b98632" stroke-width="1" stroke-dasharray="4 5"/>
+      <path d="m144 74 96 28 96-28-28 96 28 96-96-28-96 28 28-96Z" stroke="#b98632" stroke-width=".75" opacity=".72"/>
     </g>
 
-    <!-- Canale și săgeți -->
-    <g fill="none" stroke-width="1.1">
-      <path d="M137 67c37 28 58 63 62 103-4 40-25 75-62 103" stroke="#b98632"/>
-      <path d="M343 67c-37 28-58 63-62 103 4 40 25 75 62 103" stroke="#b98632"/>
-      <path d="M92 170c43-23 84-28 122-13M388 170c-43 23-84 28-122 13" stroke="#b98632"/>
-      <path d="M182 110c17 15 28 35 32 58M298 110c-17 15-28 35-32 58M182 230c17-15 28-35 32-58M298 230c-17-15-28-35-32-58" stroke="#073f43" stroke-opacity=".55"/>
+    <!-- Floarea Vieții -->
+    <g fill="none" stroke="#073f43" stroke-width="1.15" opacity=".88">
+      <circle cx="240" cy="170" r="55"/>
+      <circle cx="240" cy="115" r="55"/><circle cx="287.63" cy="142.5" r="55"/><circle cx="287.63" cy="197.5" r="55"/>
+      <circle cx="240" cy="225" r="55"/><circle cx="192.37" cy="197.5" r="55"/><circle cx="192.37" cy="142.5" r="55"/>
     </g>
-    <g fill="url(#gold)" stroke="#9a6924" stroke-width=".55">
-      <path d="m201 130 8 1-5 6Z"/><path d="m279 130-8 1 5 6Z"/><path d="m201 210 8-1-5-6Z"/><path d="m279 210-8-1 5-6Z"/>
-    </g>
-
-    <!-- Noduri secundare -->
-    <g fill="url(#node)" stroke="#073f43" stroke-width="1.5">
-      <circle cx="240" cy="103" r="8"/><circle cx="307" cy="170" r="8"/><circle cx="240" cy="237" r="8"/><circle cx="173" cy="170" r="8"/>
-      <circle cx="193" cy="123" r="6"/><circle cx="287" cy="123" r="6"/><circle cx="287" cy="217" r="6"/><circle cx="193" cy="217" r="6"/>
-    </g>
-    <g fill="#b98632">
-      <circle cx="240" cy="103" r="2"/><circle cx="307" cy="170" r="2"/><circle cx="240" cy="237" r="2"/><circle cx="173" cy="170" r="2"/>
+    <g fill="none" stroke="#b98632" stroke-width=".72" opacity=".72">
+      <circle cx="240" cy="170" r="82.5"/><circle cx="240" cy="170" r="110"/>
+      <circle cx="240" cy="87.5" r="55"/><circle cx="311.45" cy="128.75" r="55"/><circle cx="311.45" cy="211.25" r="55"/>
+      <circle cx="240" cy="252.5" r="55"/><circle cx="168.55" cy="211.25" r="55"/><circle cx="168.55" cy="128.75" r="55"/>
+      <path d="m240 60 95.26 55v110L240 280l-95.26-55V115Z" stroke-dasharray="4 4"/>
+      <path d="m240 87.5 71.45 41.25v82.5L240 252.5l-71.45-41.25v-82.5Z"/>
     </g>
 
-    <!-- Noduri majore -->
-    <g filter="url(#shadow)" fill="url(#node)" stroke="#073f43" stroke-width="2.6">
-      <circle cx="240" cy="24" r="28"/><circle cx="343" cy="67" r="24"/><circle cx="388" cy="170" r="24"/><circle cx="343" cy="273" r="24"/>
-      <circle cx="240" cy="316" r="28"/><circle cx="137" cy="273" r="24"/><circle cx="92" cy="170" r="24"/><circle cx="137" cy="67" r="24"/>
-      <circle cx="240" cy="170" r="34"/>
-    </g>
-    <circle cx="240" cy="170" r="27" fill="none" stroke="#b98632" stroke-width="1.5"/>
-    <circle cx="240" cy="170" r="21" fill="none" stroke="#b98632" stroke-opacity=".4" stroke-width=".7"/>
-
-    <g fill="#946623" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
-      <text x="240" y="34" font-size="29">9</text><text x="343" y="76" font-size="24">7</text>
-      <text x="388" y="179" font-size="24">6</text><text x="343" y="282" font-size="24">4</text>
-      <text x="240" y="326" font-size="29">1</text><text x="137" y="282" font-size="24">8</text>
-      <text x="92" y="179" font-size="24">3</text><text x="137" y="76" font-size="24">2</text>
-      <text x="240" y="182" font-size="36">5</text>
+    <!-- petale interioare și centru -->
+    <g fill="none" stroke="url(#gold)">
+      <path d="M240 170c-26-17-31-45-16-67 24 9 32 37 16 67Z" stroke-width="1.2"/>
+      <path d="M240 170c26-17 31-45 16-67-24 9-32 37-16 67Z" stroke-width="1.2"/>
+      <path d="M240 170c26 17 31 45 16 67-24-9-32-37-16-67Z" stroke-width="1.2"/>
+      <path d="M240 170c-26 17-31 45-16 67 24-9 32-37 16-67Z" stroke-width="1.2"/>
+      <path d="M240 170c-17-26-45-31-67-16 9 24 37 32 67 16ZM240 170c17-26 45-31 67-16-9 24-37 32-67 16Z" stroke-width="1.2"/>
+      <path d="M240 170c-17 26-45 31-67 16 9-24 37-32 67-16ZM240 170c17 26 45 31 67 16-9-24-37-32-67-16Z" stroke-width="1.2"/>
+      <circle cx="240" cy="170" r="21" stroke-width="1.35"/><circle cx="240" cy="170" r="9" stroke-width=".8"/>
     </g>
 
-    <!-- Marcaje simbolice -->
-    <g fill="none" stroke="#b98632">
-      <path d="M99 91c15-8 28-8 41 0M340 91c15-8 28-8 41 0M99 249c15 8 28 8 41 0M340 249c15 8 28 8 41 0" stroke-width=".9"/>
-      <path d="m110 93 4-9 4 9M362 93l4-9 4 9M110 247l4 9 4-9M362 247l4 9 4-9" stroke-width=".7"/>
-      <path d="M63 112c10-7 19-4 23 7-11 3-19 0-23-7ZM417 112c-10-7-19-4-23 7 11 3 19 0 23-7ZM63 228c10 7 19 4 23-7-11-3-19 0-23 7ZM417 228c-10 7-19 4-23-7 11-3 19 0 23 7Z" fill="#d8b76d" fill-opacity=".22" stroke-width=".9"/>
-      <path d="M66 115c7 0 13 2 18 6M414 115c-7 0-13 2-18 6M66 225c7 0 13-2 18-6M414 225c-7 0-13-2-18-6" stroke-width=".55"/>
+    <!-- noduri principale și secundare -->
+    <g filter="url(#shadow)" fill="url(#node)" stroke="#073f43" stroke-width="2.2">
+      <circle cx="240" cy="34" r="13"/><circle cx="336" cy="74" r="12"/><circle cx="376" cy="170" r="13"/><circle cx="336" cy="266" r="12"/>
+      <circle cx="240" cy="306" r="13"/><circle cx="144" cy="266" r="12"/><circle cx="104" cy="170" r="13"/><circle cx="144" cy="74" r="12"/>
     </g>
+    <g fill="url(#node)" stroke="#8b6d2b" stroke-width="1.6">
+      <circle cx="240" cy="60" r="7"/><circle cx="335.26" cy="115" r="7"/><circle cx="335.26" cy="225" r="7"/>
+      <circle cx="240" cy="280" r="7"/><circle cx="144.74" cy="225" r="7"/><circle cx="144.74" cy="115" r="7"/>
+      <circle cx="240" cy="170" r="6"/>
+    </g>
+    <g fill="#b98632"><circle cx="240" cy="34" r="3"/><circle cx="336" cy="74" r="2.5"/><circle cx="376" cy="170" r="3"/><circle cx="336" cy="266" r="2.5"/><circle cx="240" cy="306" r="3"/><circle cx="144" cy="266" r="2.5"/><circle cx="104" cy="170" r="3"/><circle cx="144" cy="74" r="2.5"/></g>
 
-    <!-- Puncte de ritm -->
-    <g fill="#d2ad60">
-      <circle cx="218" cy="73" r="2"/><circle cx="262" cy="73" r="2"/><circle cx="337" cy="145" r="2"/><circle cx="337" cy="195" r="2"/>
-      <circle cx="262" cy="267" r="2"/><circle cx="218" cy="267" r="2"/><circle cx="143" cy="195" r="2"/><circle cx="143" cy="145" r="2"/>
+    <!-- linii fine, săgeți și semne -->
+    <g fill="none" stroke="#b98632" stroke-width=".7" opacity=".8">
+      <path d="M125 99c12-7 24-7 36 0M319 99c12-7 24-7 36 0M125 241c12 7 24 7 36 0M319 241c12 7 24 7 36 0"/>
+      <path d="m134 101 4-9 4 9m204 0-4-9-4 9M134 239l4 9 4-9m204 0-4 9-4-9"/>
+      <path d="M83 126c11-5 20-1 25 10-11 4-20 0-25-10Zm314 0c-11-5-20-1-25 10 11 4 20 0 25-10ZM83 214c11 5 20 1 25-10-11-4-20 0-25 10Zm314 0c-11 5-20 1-25-10 11-4 20 0 25 10Z" fill="#d8b76d" fill-opacity=".16"/>
     </g>
   </g>
 </svg>
