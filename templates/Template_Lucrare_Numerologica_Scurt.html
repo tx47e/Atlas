@@ -206,13 +206,13 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 .spirit-zone-reason,.zone-reason{background:#fffaf3!important}
 .spirit-zone-material,.zone-material{background:#d8c1a2!important}
 .spirit-zone-gifts,.zone-gifts{background:#e6b4a9!important}
-.spirit-cell-highlight{background:var(--teal)!important;color:#fff;font-weight:900!important;box-shadow:inset 0 0 0 2px var(--gold)}
+.spirit-cell-highlight{background:var(--teal)!important;color:#fff;font-weight:900!important}
 .spirit-zones-table td.zone-cell{padding:0;text-align:center;vertical-align:middle}
 .spirit-zones-table .zone-badge{display:block;width:100%;padding:10px 6px;box-sizing:border-box;background:transparent;font-weight:800}
 .stage-table{width:100%;table-layout:fixed}
 .stage-table th,.stage-table td{vertical-align:middle;padding:10px}
 .stage-table td:first-child,.stage-table td:nth-child(3){text-align:center}
-.stage-table .current-row td{background:#dcc39b!important;font-weight:700}
+.stage-table .current-row td.current-substage{background:#dcc39b!important;font-weight:700;box-shadow:none!important;outline:none!important}
 @media(max-width:760px){.spirit-code-table th,.spirit-code-table td{padding:4px 1px;font-size:8px}.spirit-code-table td>span{margin:-4px -1px;padding:4px 1px}}
 </style>
 </head>
@@ -364,6 +364,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <div class="index">Index: {{cod_lucrare}}-P-{{index_pozitie_cod_spirit}}</div><p>În tabel, poziția ta este la ziua <strong>{{zi_nastere}}</strong> și luna <strong>{{luna_romana}}</strong>, unde apare codul <strong>{{cod_spirit}}</strong>.</p>
 <div class="index">Index: {{cod_lucrare}}-T-017</div>
 <div class="table-wrap spirit-code-wrap">{{tabel_cod_spirit_zi_luna_html}}</div>
+<aside class="callout important"><strong>Contract vizual T-017</strong><br>Tabelul respectă calendarul: 29-31 februarie și ziua 31 din aprilie, iunie, septembrie și noiembrie rămân goale. Codurile sunt colorate după zonă: <code>spirit-zone-love</code> pentru <code>0-13</code>, <code>spirit-zone-reason</code> pentru <code>14-26</code>, <code>spirit-zone-material</code> pentru <code>27-39</code>, <code>spirit-zone-gifts</code> pentru <code>40-52</code>. Intersecția persoanei folosește exclusiv <code>spirit-cell-highlight</code>, turcoaz cu text alb ca în <code>BDR-19980219-v1.00r-T-017</code>, fără clasă de zonă pe același marcaj.</aside>
 <div class="index">Index: {{cod_lucrare}}-P-{{index_interpretare_cod_spirit}}</div><p>{{interpretare_cod_spirit_si_zona_fara_repetarea_formulei}}</p>
 <div class="index">Index: {{cod_lucrare}}-T-018</div>
 <div class="table-wrap"><table class="spirit-zones-table"><thead><tr><th>Zona</th><th>Interval cod</th><th>Nivel simbolic</th><th>Teme principale</th></tr></thead><tbody>
@@ -374,6 +375,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 </tbody></table></div>
 <div class="index">Index: {{cod_lucrare}}-T-019</div>
 <div class="table-wrap">{{tabel_etape_si_subetape_spirit_html_cu_current-row_exclusiv_pe_subetapa_calculata}}</div>
+<aside class="callout important"><strong>Contract vizual T-019</strong><br>Tabelul pastreaza structura validata din <code>BDR-19980219-v1.00r-T-019</code>: <code>Etapă</code>, <code>Descriere etapă</code>, <code>Subetapă</code>, <code>Lecție</code>, <code>Descriere subetapă</code>, cu <code>rowspan</code> pentru Etapă si Descriere etapă acolo unde etapa are mai multe subetape. Aplica <code>current-row</code> numai subetapei persoanei curente.</aside>
 <div class="index">Index: {{cod_lucrare}}-P-{{index_interpretare_subetapa_spirit}}</div><p>{{interpretare_conversationala_subetapa_spirit}}</p>
 <div class="index">Index: {{cod_lucrare}}-P-{{index_definitie_varsta_spirit}}</div><p>{{definitie_concisa_varsta_spirit}}</p>
 <div class="index">Index: {{cod_lucrare}}-C-{{index_calcul_varsta_spirit}}</div><div class="calc-box">Vârsta la naștere = ({{cod_spirit}} × 189) - 189 = <strong>{{varsta_spirit_la_nastere}}</strong><br>Vârsta actuală = {{varsta_spirit_la_nastere}} + {{varsta_biologica}} = <strong>{{varsta_spirit_actuala}}</strong></div>
@@ -432,7 +434,8 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <p><strong>Șirul anilor importanți exteriori:</strong> {{sir_ani_importanti_exteriori}}.</p>
 <h3 id="8-3-lectiile-de-viata">8.3. Lecțiile de viață</h3>
 <div class="index">Index: {{cod_lucrare}}-T-008</div>
-<div class="table-wrap"><table><thead><tr><th>Vârstă</th><th>Lecția 1 — <strong class="lesson-number">{{lectia_1}}</strong></th><th>Lecția 2 — <strong class="lesson-number">{{lectia_2}}</strong></th><th>Lecția 3 — <strong class="lesson-number">{{lectia_3}}</strong></th><th>Lecția 4 — <strong class="lesson-number">{{lectia_4}}</strong></th><th>Lecția 5 — <strong class="lesson-number">{{lectia_5}}</strong></th></tr></thead><tbody><tr><td>{{rand_lectii_1}}</td><td>{{an_l1}}</td><td>{{an_l2}}</td><td>{{an_l3}}</td><td class="active-year">{{an_l4}}</td><td>{{an_l5}}</td></tr>{{randuri_lectii_html}}</tbody></table></div>
+<!-- T-008 se generează dinamic din toate cifrele produsului zi x luna x an, inclusiv fiecare 0. Anii se distribuie consecutiv, iar sirul se repeta ciclic dupa modelul BDR-19980219-v1.00r-SUB-025a. -->
+<div class="table-wrap">{{tabel_lectii_de_viata_html_dinamic_dupa_sir_lectii}}</div>
 <p>{{interpretare_lectii_de_viata}}</p>
 <h3 id="8-4-ciclul-de-9-ani">8.4. Ciclul de 9 ani</h3>
 <div class="index">Index: {{cod_lucrare}}-T-007</div>
@@ -441,6 +444,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <h3 id="8-5-ciclul-de-12-ani">8.5. Ciclul de 12 ani</h3>
 <div class="index">Index: {{cod_lucrare}}-T-015</div>
 <!-- Aplică class="active-cycle" rândului care conține data curentă. -->
+<!-- Fiecare rând din coloana Citire trebuie să aibă lectură proprie pentru etapa de viață; nu repeta aceeași formulare pe cicluri diferite. -->
 <div class="table-wrap"><table class="twelve-year-table" style="width:100%;table-layout:fixed"><colgroup><col style="width:10%"><col style="width:20%"><col style="width:12%"><col style="width:58%"></colgroup><thead><tr><th>Ciclu</th><th>Interval calendaristic</th><th>Vârste</th><th>Citire</th></tr></thead><tbody>{{randuri_ciclu_12_html}}</tbody></table></div>
 <p>{{interpretare_ciclu_12}}</p>
 
@@ -477,6 +481,9 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
 <div class="index">Index: {{cod_lucrare}}-SUB-{{index_sub_iubire_relatii}}</div>
 <h3 id="11-2-iubire-si-relatie">11.2. Iubire și relație</h3>
 {{concluzie_iubire_relatie_conform_metoda_concluzii_html_cu_indexuri}}
+<div class="index">Index: {{cod_lucrare}}-SUB-{{index_sub_momentul_prezent}}</div>
+<h3 id="11-3-momentul-prezent">11.3. Momentul prezent</h3>
+{{concluzie_momentul_prezent_din_ciclicitati_html_cu_indexuri}}
 
 <section class="conditional" data-template-condition="revizie">
 <div class="index index-heading">Index: {{cod_lucrare}}-CAP-016</div>
@@ -500,7 +507,7 @@ figcaption { margin-top: 9px; color: #5f5850; font: 13px/1.4 Arial, sans-serif; 
   <li>Subcapitolul separat <code>1.7. Tarot</code> și vechiul tabel Tarot al Vibrației interioare lipsesc integral.</li>
   <li>Relația este inclusă numai când există date relaționale.</li>
   <li>SVG-ul Omulețului relațiilor este valid și conține watermark-ul Atlas Numerologie.</li>
-  <li>Concluziile includ Carieră și bani, apoi Iubire și relație; Harta suprapusă este numai sursă de sinteză.</li>
+  <li>Concluziile includ Carieră și bani, Iubire și relație, apoi Momentul prezent când există sinteză temporală; Harta suprapusă este numai sursă de sinteză.</li>
   <li>Nu există date sau interpretări rămase de la persoana-model.</li>
 </ul>
 </section>

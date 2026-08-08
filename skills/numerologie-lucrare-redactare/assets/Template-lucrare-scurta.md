@@ -349,6 +349,9 @@ Index: {{cod_lucrare}}-P-{{index_pozitie_cod_spirit}}
 Index: {{cod_lucrare}}-T-017
 {{tabel_cod_spirit_zi_luna_markdown}}
 
+> [!important] Contract vizual T-017
+> Tabelul respectă calendarul: 29-31 februarie și ziua 31 din aprilie, iunie, septembrie și noiembrie rămân goale. Codurile sunt colorate după zonă: `spirit-zone-love` pentru `0-13`, `spirit-zone-reason` pentru `14-26`, `spirit-zone-material` pentru `27-39`, `spirit-zone-gifts` pentru `40-52`. Intersecția persoanei folosește exclusiv `spirit-cell-highlight`, turcoaz cu text alb ca în `BDR-19980219-v1.00r-T-017`, fără clasă de zonă pe același marcaj.
+
 Index: {{cod_lucrare}}-P-{{index_interpretare_cod_spirit}}
 {{interpretare_cod_spirit_si_zona_fara_repetarea_formulei}}
 
@@ -362,6 +365,9 @@ Index: {{cod_lucrare}}-T-018
 
 Index: {{cod_lucrare}}-T-019
 {{tabel_etape_si_subetape_spirit_markdown}}
+
+> [!important] Contract vizual T-019
+> Tabelul pastreaza structura validata din `BDR-19980219-v1.00r-T-019`: `Etapă`, `Descriere etapă`, `Subetapă`, `Lecție`, `Descriere subetapă`, cu `rowspan` pentru Etapă si Descriere etapă acolo unde etapa are mai multe subetape. Aplica `current-row` numai subetapei persoanei curente.
 
 Index: {{cod_lucrare}}-P-{{index_interpretare_subetapa_spirit}}
 {{interpretare_conversationala_subetapa_spirit}}
@@ -509,10 +515,10 @@ Index: {{cod_lucrare}}-SUB-025a
 ### 8.3. Lecțiile de viață
 
 Index: {{cod_lucrare}}-T-008
-| Vârstă | Lecția 1 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_1}}</strong> | Lecția 2 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_2}}</strong> | Lecția 3 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_3}}</strong> | Lecția 4 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_4}}</strong> | Lecția 5 — <strong style="font-size: 1.15em; font-weight: 700;">{{lectia_5}}</strong> |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| {{rand_lectii_1}} | {{an_l1}} | {{an_l2}} | {{an_l3}} | {{an_l4}} | {{an_l5}} |
-| {{adauga_randuri_pentru_interval}} |  |  |  |  |  |
+{{tabel_lectii_de_viata_dinamic_dupa_sir_lectii}}
+
+> [!important] Contract T-008
+> Recalculează lecțiile de viață cu formula `zi x lună x an`, apoi folosește toate cifrele produsului, în ordine, inclusiv fiecare `0`. Numărul coloanelor este numărul cifrelor produsului; anii se distribuie consecutiv și șirul se repetă ciclic, după modelul `BDR-19980219-v1.00r-SUB-025a`.
 
 {{interpretare_lectii_de_viata}}
 
@@ -538,6 +544,7 @@ Index: {{cod_lucrare}}-T-015
 
 > [!important] Ciclul activ
 > Marchează cu roșu și bold toate celulele rândului care conține data curentă. În HTML, aplică rândului clasa `active-cycle`.
+> Coloana `Citire` trebuie redactată distinct pentru fiecare ciclu de 12 ani, în funcție de etapa de viață; nu repeta aceeași lectură generică pe mai multe rânduri.
 
 {{interpretare_ciclu_12}}
 
@@ -610,6 +617,11 @@ Index: {{cod_lucrare}}-SUB-{{index_sub_iubire_relatii}}
 
 {{concluzie_iubire_relatie_conform_metoda_concluzii_cu_paragrafe_indexate}}
 
+Index: {{cod_lucrare}}-SUB-{{index_sub_momentul_prezent}}
+### 11.3. Momentul prezent
+
+{{concluzie_momentul_prezent_din_ciclicitati_cu_paragrafe_indexate}}
+
 > [!info] Renumerotare fără relație
 > Dacă nu există date relaționale, titlul devine `Capitolul 9. Concluzii`, iar ținta din Cuprins se actualizează identic. Elimină al doilea subcapitol sau păstrează numai o lectură generală `Iubire și relații`, fără partener ori valori inventate.
 
@@ -649,7 +661,11 @@ Index: {{cod_lucrare}}-T-014
 - [ ] HTML-ul livrează toate SVG-urile și imaginile incorporate ca data URI.
 - [ ] Subcapitolul Interior și exterior conține dialogul, definiția punții, calculul absolut în chenar și interpretarea autenticității.
 - [ ] Capitolul 5 respectă ordinea Activ, Intim, Ereditar, Ereditar karmic, Realizare, Exprimare, Codul numelui.
-- [ ] Ciclul activ din T-015 este marcat cu roșu și bold, iar diacriticele sunt UTF-8 fără mojibake.
-- [ ] Concluziile includ Carieră și bani, apoi Iubire și relație; Harta suprapusă este numai sursă de sinteză, nu subcapitol separat.
+- [ ] T-008 păstrează toate cifrele produsului `zi x lună x an`, inclusiv zerourile, și distribuie anii ciclic pe numărul real de poziții.
+- [ ] T-015 are citiri distincte pe cicluri și marchează integral numai ciclul activ.
+- [ ] T-017 lasă goale datele calendaristice inexistente, colorează `0` în albastru și folosește un singur marcaj turcoaz `spirit-cell-highlight`.
+- [ ] T-019 păstrează cele cinci coloane Daniel, gruparea cu `rowspan` și un singur `current-row` pe subetapa persoanei.
+- [ ] Diacriticele sunt UTF-8 fără mojibake.
+- [ ] Concluziile includ Carieră și bani, Iubire și relație, apoi Momentul prezent când există sinteză temporală; Harta suprapusă este numai sursă de sinteză, nu subcapitol separat.
 - [ ] SVG-ul Omulețului relațiilor este valid, are watermark `Atlas Numerologie` și nu a fost editat manual.
 - [ ] Nu există date, ani, interpretări sau resurse rămase de la persoana-model.

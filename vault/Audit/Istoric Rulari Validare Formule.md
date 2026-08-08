@@ -122,3 +122,15 @@ Se adauga cate o intrare noua, in ordine cronologica, la fiecare incercare de la
 - Modificari propuse: reducere unica pentru rezultatul Destinului, reducere completa separata pentru cifra de interpretare si folosirea explicita a cifrei finale in formulele dependente care cer o singura cifra
 - Modificari executate: actualizate Vault-ul si documentatia modulara, calculatorul principal, copia calculatorului din skill, skill-ul de redactare, documentatia Punti si Pinacluri, skill-urile Triunghiul Financiar si Semnatura Astrala; adaugat testul `test_destin_regresie.py`; sincronizate global skill-urile modificate
 - Rezultat / pas urmator: formula este confirmata si implementata; pentru Daniel, Calea Destinului `39` produce Destin `12` si cifra de interpretare `3`; testele Destin, N2/N4 si Karma zilei trec
+
+## 2026-08-08 - audit ritm Soarta-Destin
+
+- Agent / sesiune: The Lore Keeper, executie locala in Dashboard V3
+- Aprobarea de lansare: utilizatorul a precizat regula pentru ritmul de 10/12 ani si a cerut explicit modificarea calculatorului din Dashboard V3
+- Aria verificata: formula afisata in Dashboard V3, generarea SVG-ului Harta suprapusa, generatorul SVG autonom si exemplele aprobate disponibile
+- Mod: audit urmat de corectie aprobata separat pentru Dashboard V3
+- Surse consultate: `Dashboard/v3/calculator.html`, skill-urile `numerologie-SVG-harta-suprapusa` si `numerologie-SVG-soarta-si-destin`, lucrarea Rebeca (predominanta para, intervale de 12 ani), lucrarile Mihai si Andreea (predominanta impara, intervale de 10 ani) si regula confirmata de utilizator
+- Neconformitati gasite: Dashboard V3 stabilea ritmul dupa campul gen, apoi a fost corectat provizoriu numai dupa paritatea zilei reduse; ambele variante omiteau analiza predominantei cifrelor din data; graficul folosea initial si intervale de 10 ani fixate in varste, valorile Soarta/Destin si grila principala; generatorul Harta suprapusa autonom ramane fixat la 10 ani
+- Modificari propuse: reducerea zilei la o cifra, formarea sirului `zi redusa + LL + AAAA`, numararea cifrelor pare si impare, ritm 12 ani numai pentru predominanta para si 10 ani pentru predominanta impara; folosirea aceluiasi ritm in calcul, axa SVG, serii si legenda
+- Modificari executate: corectate `Dashboard/v3/calculator.html` si versiunea de cache din `Dashboard/v3/app.js`; registrul a fost actualizat; generatorul SVG autonom si calculatorul agregat nu au fost modificate, fiind in afara ariei aprobate
+- Rezultat / pas urmator: Dashboard V3 aplica regula completa; pentru Rebeca, `15 -> 6`, codul analizat `6032020` contine 6 cifre pare si 1 impara, deci pasul este 12 ani; pentru Mihai, codul `6111984` contine 3 cifre pare si 4 impare, deci pasul este 10 ani; sincronizarea surselor externe se valideaza si se aproba separat

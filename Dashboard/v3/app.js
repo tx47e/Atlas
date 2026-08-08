@@ -216,7 +216,7 @@ function renderCalculator() {
       </div>
       <iframe
         class="calculator-frame"
-        src="calculator.html?v=20260802-2"
+        src="calculator.html?v=20260808-2"
         title="Calculator numerologic Atlas"
         loading="eager"
         scrolling="yes"

@@ -595,7 +595,7 @@ def pinacluri(data_nasterii: date) -> dict[str, Any]:
 
 def lectii_de_viata(data_nasterii: date, ani: int = 108) -> dict[str, Any]:
     produs = data_nasterii.day * data_nasterii.month * data_nasterii.year
-    sir = [int(cifra) for cifra in str(produs) if cifra != "0"]
+    sir = [int(cifra) for cifra in str(produs)]
     return {
         "formula": "zi x luna x an; cifrele rezultatului se aplica ciclic pe anii de viata",
         "produs": produs,

@@ -1809,7 +1809,10 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       { group: "Ciclicitati", concept: "Ani importanti exteriori", method: "Anul nasterii + suma cifrelor anului; apoi se repeta calculul cu anul obtinut.", calc: s => importantYearsOuter(s.year, 8).join(", "), result: () => "sir calculat" },
       { group: "Ciclicitati", concept: "Ani de rascruce", method: "Se marcheaza anii aflati la intersectia liniilor soartei cu liniile destinului.", calc: () => "necesita grafic soarta/destin", result: () => "de completat", manual: true },
       { group: "Ciclicitati", concept: "Ani de criza", method: "Se marcheaza anii din succesiunea de criza folosita de metoda, de regula ritmata la 7 ani.", calc: s => rangeYears(s.year + 4, 14, 7).join(", "), result: () => "sir calculat" },
-      { group: "Ciclicitati", concept: "Soarta si Destin", method: "Ziua+luna concatenate x anul nasterii; rezultatul se imparte pe sirul varstelor: barbat din 10 in 10 ani, femeie din 12 in 12 ani.", calc: s => fateDestinyText(s), result: s => s.gender === "masculin" ? "ritm 10 ani" : "ritm 12 ani" },
+      { group: "Ciclicitati", concept: "Soarta si Destin", method: "Ziua nasterii se reduce la o cifra si inlocuieste ziua din data analizata. Se numara cifrele pare si impare din ziua redusa, luna si anul nasterii: predominanta para (feminina) = 12 ani, predominanta impara (masculina) = 10 ani.", calc: s => fateDestinyText(s), result: s => {
+        const polarity = fateDestinyPolarity(s);
+        return `${polarity.dateCode}: ${polarity.evenCount} pare, ${polarity.oddCount} impare; predominanta ${polarity.tendency}; ritm ${polarity.rhythm} ani`;
+      } },
 
       { group: "Relatii", concept: "Omuletul relatiilor", method: "Valoarea prenumelui de botez + valoarea zilei de nastere; pentru compatibilitate se adauga 3 si se reduce. In cuplu se folosesc adunarea si scaderea vibratiilor interioare.", calc: s => `${reduceNumber(nameSum(s.activeName))} + ${s.vi} + 3 = ${reduceNumber(reduceNumber(nameSum(s.activeName)) + s.vi + 3)}`, result: s => reduceNumber(reduceNumber(nameSum(s.activeName)) + s.vi + 3) },
 
@@ -2506,14 +2509,36 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       return Array.from({ length: count }, (_, i) => start + i * step);
     }
 
+    function fateDestinyPolarity(s) {
+      const reducedDay = reduceNumber(s.day);
+      const dateCode = `${reducedDay}${String(s.month).padStart(2, "0")}${s.year}`;
+      const dateDigits = dateCode.split("").map(Number);
+      const evenCount = dateDigits.filter(digit => digit % 2 === 0).length;
+      const oddCount = dateDigits.length - evenCount;
+      const evenDominant = evenCount > oddCount;
+      return {
+        reducedDay,
+        dateCode,
+        evenCount,
+        oddCount,
+        tendency: evenDominant ? "para/feminina" : "impara/masculina",
+        rhythm: evenDominant ? 12 : 10
+      };
+    }
+
+    function fateDestinyRhythm(s) {
+      return fateDestinyPolarity(s).rhythm;
+    }
+
     function fateDestinyText(s) {
       const base = Number(`${String(s.day).padStart(2, "0")}${String(s.month).padStart(2, "0")}`);
       const destinyBase = Number(`${String(s.day).padStart(2, "0")}${String(s.month).padStart(2, "0")}`.replace(/0/g, "1"));
       const destinyYear = Number(String(s.year).replace(/0/g, "1"));
       const product = base * s.year;
       const destinyProduct = destinyBase * destinyYear;
-      const rhythm = s.gender === "masculin" ? 10 : 12;
-      return `Soarta: ${base} x ${s.year} = ${product}; Destin: ${destinyBase} x ${destinyYear} = ${destinyProduct}; ritm varste: 0, ${rhythm}, ${rhythm * 2}, ${rhythm * 3}...`;
+      const polarity = fateDestinyPolarity(s);
+      const rhythm = polarity.rhythm;
+      return `Soarta: ${base} x ${s.year} = ${product}; Destin: ${destinyBase} x ${destinyYear} = ${destinyProduct}; zi: ${reductionText(s.day)}; analiza ${polarity.dateCode}: ${polarity.evenCount} pare, ${polarity.oddCount} impare (${polarity.tendency}); ritm varste: 0, ${rhythm}, ${rhythm * 2}, ${rhythm * 3}...`;
     }
 
     function fateDestinyData(s) {
@@ -2581,6 +2606,8 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       const startAge = Math.max(0, Math.min(107, Math.round(overlayRangeStart)));
       const endAge = Math.max(startAge + 1, Math.min(108, Math.round(overlayRangeEnd)));
       const data = fateDestinyData(s);
+      const polarity = fateDestinyPolarity(s);
+      const rhythm = polarity.rhythm;
       const width = 1900;
       const height = 1015;
       const left = 270;
@@ -2625,11 +2652,16 @@ def calculate_capitol_2(person: PersonInput) -> dict:
         return `<polygon class="${cls}" points="${(xp - h).toFixed(1)},${(yp + h).toFixed(1)} ${(xp + h).toFixed(1)},${(yp + h).toFixed(1)} ${xp.toFixed(1)},${(yp - h).toFixed(1)}"/>`;
       };
       const groupClass = key => overlayVisibility[key] ? "" : " overlay-hidden";
-      const ages = [...new Set([startAge, ...Array.from({ length: Math.floor((endAge - Math.ceil(startAge / 10) * 10) / 10) + 1 }, (_, i) => Math.ceil(startAge / 10) * 10 + i * 10).filter(age => age > startAge && age < endAge), endAge])];
+      const firstRhythmAge = Math.ceil(startAge / rhythm) * rhythm;
+      const rhythmAges = [];
+      for (let age = firstRhythmAge; age <= endAge; age += rhythm) {
+        if (age > startAge && age < endAge) rhythmAges.push(age);
+      }
+      const ages = [...new Set([startAge, ...rhythmAges, endAge])];
       const annualAges = Array.from({ length: endAge - startAge + 1 }, (_, index) => startAge + index);
       const xAxisAges = endAge - startAge <= 20 ? annualAges : ages;
-      const fateValues = ages.map(age => data.fateDigits[Math.floor(age / 10) % data.fateDigits.length]);
-      const destinyValues = ages.map(age => data.destinyDigits[Math.floor(age / 10) % data.destinyDigits.length]);
+      const fateValues = ages.map(age => data.fateDigits[Math.floor(age / rhythm) % data.fateDigits.length]);
+      const destinyValues = ages.map(age => data.destinyDigits[Math.floor(age / rhythm) % data.destinyDigits.length]);
       const points = values => ages.map((age, i) => `${x(age).toFixed(1)},${y(values[i]).toFixed(1)}`).join(" ");
       const lifeDigits = String(s.lifeProduct).split("").map(Number);
       const lessonPoints = Array.from({ length: endAge - startAge + 1 }, (_, index) => {
@@ -2683,7 +2715,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       const rowLabelX = left - 36;
       const parts = [];
 
-      parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Hartă suprapusă soartă-destin-ciclicități">`);
+      parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Hartă suprapusă soartă-destin-ciclicități" data-fate-destiny-rhythm="${rhythm}" data-reduced-birth-day="${polarity.reducedDay}" data-even-digits="${polarity.evenCount}" data-odd-digits="${polarity.oddCount}">`);
       parts.push(`<style>
         .ov-label{font:700 12px Arial,sans-serif;fill:#333}.ov-axis-y{font:800 16px Arial,sans-serif;fill:#2b2119}.ov-axis-x{font:800 16px Arial,sans-serif;fill:#2b2119}
         .ov-axis-name{font:900 14px Arial,sans-serif;fill:#2b2119}.ov-grid{stroke:#c9d0d2;stroke-width:1;stroke-dasharray:6 4}.ov-year-grid{stroke:#bcc5c8;stroke-width:1;stroke-dasharray:3 5;opacity:.72}.ov-major{stroke:#aeb7bb;stroke-width:1.4}
@@ -2710,7 +2742,7 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       }
       annualAges.forEach(age => {
         const xp = x(age);
-        parts.push(line(xp, top, xp, bottom, age % 10 === 0 ? "ov-year-grid ov-major" : "ov-year-grid"));
+        parts.push(line(xp, top, xp, bottom, age % rhythm === 0 ? "ov-year-grid ov-major" : "ov-year-grid"));
       });
       xAxisAges.forEach(age => {
         const xp = x(age);
@@ -2802,8 +2834,8 @@ def calculate_capitol_2(person: PersonInput) -> dict:
       const legendX = left + chartW + 120;
       const legendY = 390;
       const legendItems = [
-        ["fate", colors.fate, `Soarta ${data.fateNumber}`, "line"],
-        ["destiny", colors.destiny, `Destin ${data.destinyNumber}`, "line"],
+        ["fate", colors.fate, `Soarta ${data.fateNumber} / ${rhythm} ani`, "line"],
+        ["destiny", colors.destiny, `Destin ${data.destinyNumber} / ${rhythm} ani`, "line"],
         ["comfortFate", colors.fate, `Zona confort Soarta ${data.comfortFate.toFixed(2).replace(".", ",")}`, "dash"],
         ["comfortDestiny", colors.destiny, `Zona confort Destin ${data.comfortDestiny.toFixed(2).replace(".", ",")}`, "dash"],
         ["opportunity", colors.opportunity, `Oportunitate ${pinacles.map(p => p.opportunity).join("")}`, "line"],

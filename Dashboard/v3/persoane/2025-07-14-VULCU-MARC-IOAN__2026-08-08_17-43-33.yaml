@@ -18,12 +18,7 @@ preferinte_lucrare:
     start_varsta: 0
     final_varsta: 108
 intrebari: []
-relatii:
-- persoana_id: 2020-03-15-VULCU-REBECA-ANDREEA
-  nume: Vulcu Rebeca Andreea
-  data_nasterii: '2020-03-15'
-  tip: soră
-  status: confirmata
+relatii: []
 metadata:
-  created_at: '2026-07-17T16:25:36+03:00'
-  updated_at: '2026-08-08T18:12:30+03:00'
+  created_at: '2026-08-08T17:43:33+03:00'
+  updated_at: '2026-08-08T17:43:33+03:00'

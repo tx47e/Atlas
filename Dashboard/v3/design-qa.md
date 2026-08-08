@@ -131,6 +131,7 @@ Referința pentru carduri este tratată drept direcție artistică pentru ilustr
 | P2 | Data persoanei asociate depindea de formatul regional implicit al browserului. | Înlocuită afișarea cu trei câmpuri explicite Zi / Lună / An și un buton-calendar nativ; selecția și editarea manuală se sincronizează bidirecțional, iar persistența rămâne ISO în YAML. |
 | P2 | Bara selectorului de persoane se suprapunea peste dantela ornamentală din colțul dreapta-sus. | Bara a fost coborâtă cu 33 px pe desktop, rămânând în afara ornamentului și fără a acoperi conținutul Calculatorului. |
 | P1 | Butonul „Încarcă” doar reaplica persoana selectată și nu putea adăuga fișe externe în registru. | Butonul deschide acum un dialog de import `.yaml` / `.yml`; serviciul parsează cu `safe_load`, validează schema, scrie o versiune în `Dashboard/v3/persoane/`, actualizează dropdown-ul și încarcă persoana importată. |
+| P1 | Harta suprapusă stabilea ritmul Soartă–Destin după gen, apoi numai după paritatea zilei reduse, și desena seriile în pași fixați la 10 ani. | Ziua se reduce la o cifră, apoi se analizează predominanța în șirul `zi redusă + LL + AAAA`; par/feminin = 12 ani, impar/masculin = 10 ani. Aceeași valoare controlează punctele, seriile, grila, axa și legenda SVG. Rebeca: `6032020`, 6 pare / 1 impară, 12 ani; Mihai: `6111984`, 3 pare / 4 impare, 10 ani. |
 
 ## Rezultat final
 

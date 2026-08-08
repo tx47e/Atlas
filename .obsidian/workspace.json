@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "8fb72a4bc2ffa45c",
+        "id": "019b5b64964737cd",
         "type": "tabs",
         "children": [
           {
-            "id": "2a4d7f9e93899e76",
+            "id": "26c27ff1238aa976",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r.html#capitolul-6-spirit-si-karma-lectii-si-directii-de-maturizare"
+              },
+              "icon": "lucide-file",
+              "title": "Vulcu Marc Ioan — 14.07.2025"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0e04cded7104e8f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ef2a092e7f8ad4d",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
@@ -20,15 +38,15 @@
             }
           },
           {
-            "id": "4f09b10490ef3753",
+            "id": "39c5d5113cfff9e4",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r.html"
+                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/2020-03-15-VULCU-REBECA-ANDREEA-scurt-v1.00r.html#capitolul-5-numele-eu-si-neamul"
               },
               "icon": "lucide-file",
-              "title": "Roman Andreea Maria — 12.01.1998"
+              "title": "Vulcu Rebeca Andreea — 15.03.2020"
             }
           }
         ],
@@ -213,53 +231,53 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c1cd69e380e73c87",
+  "active": "26c27ff1238aa976",
   "lastOpenFiles": [
-    "Dashboard/v3/qa/dashboard-v3-import-yaml-dialog-final.jpg",
-    "Dashboard/v3/qa/dashboard-v3-calculator-toolbar-lowered-final.jpg",
-    "Dashboard/v3/qa/invalid-import-test.yaml",
-    "Dashboard/v3/qa/dashboard-v3-relation-date-ddmmyyyy-final.jpg",
-    "Dashboard/v3/qa/dashboard-v3-vault-tarot-transparent-final.jpg",
-    "Dashboard/v3/assets/vault-card-tarot-detailed-transparent.png",
-    "Dashboard/v3/qa/vault-card-tarot-chroma-source.png",
-    "scripts/__pycache__/validate_andreea_short.cpython-311.pyc",
-    "scripts/__pycache__/generate_andreea_short_from_daniel.cpython-311.pyc",
-    "Dashboard/v3/assets/lace-edge-vertical.svg",
-    "Dashboard/v3/assets/lace-edge.svg",
-    "Dashboard/v3/assets/lace-corner-page.svg",
-    "Dashboard/v3/persoane/2000-01-02-TEST-REGISTRU-QA__2026-08-02_19-51-04.yaml",
-    "Dashboard/v3/__pycache__/server.cpython-311.pyc",
-    "Dashboard/v3/__pycache__",
-    "Dashboard/v3/persoane/1984-04-17-SZABO-SABINA__2026-07-16_13-03-08.yaml",
-    "Dashboard/v3/persoane/1984-11-06-SZABO-MIHAI-GABRIEL__2026-07-16_12-52-24.yaml",
-    "Dashboard/v3/persoane",
-    "Dashboard/v3/requirements.txt",
+    "scripts/__pycache__/render_rebeca_short_html.cpython-311.pyc",
+    "scripts/__pycache__/generate_rebeca_short.cpython-311.pyc",
+    "scripts/__pycache__/generate_marc_short.cpython-312.pyc",
+    "skills/numerologie-SVG-matrita-numelui/scripts/__pycache__/generate_matrita_numelui.cpython-312.pyc",
+    "skills/numerologie-SVG-matrita-datei-de-nastere/scripts/__pycache__/generate_matrita_datei_de_nastere.cpython-312.pyc",
+    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/omulet-relatii-vulcu-rebeca-andreea-vulcu-marc-ioan.png",
+    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/omulet-relatii-vulcu-rebeca-andreea-vulcu-marc-ioan.svg",
+    "scripts/update_rebeca_sibling_relation.py",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r.html",
+    "scripts/__pycache__/render_rebeca_short_html.cpython-312.pyc",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r.md",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/tarot-21-lumea-karma-destin-si-obstacole.jpg",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/tarot-16-turnul-aplicabilitate-profesionala.jpg",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/tarot-14-cumpatarea-karma-zilei.jpg",
+    "scripts/__pycache__/generate_rebeca_short.cpython-312.pyc",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r-calculator.json",
+    "scripts/render_marc_short_html.py",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/omulet-relatii-vulcu-marc-ioan-vulcu-rebeca-andreea.png",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/omulet-relatii-vulcu-marc-ioan-vulcu-rebeca-andreea.svg",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/soarta-si-destin-vulcu-marc-ioan.svg",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/matrita-numelui-vulcu-marc-ioan.svg",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/matrita-datei-vulcu-marc-ioan.svg",
+    "skills/numerologie-lucrare-redactare/references/contracte-tabele-scurt.md",
+    "vault/Numerologie/Ciclicitati/Lectii de Viata/05-LV-Exemple.md",
+    "vault/Numerologie/Ciclicitati/Lectii de Viata/03-LV-Calcul.md",
+    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/05-PID-Exemple.md",
+    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/2020-03-15-VULCU-REBECA-ANDREEA-scurt-v1.00r.md",
+    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/04-PID-Metodica-si-Interpretari.md",
+    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/03-PID-Calcul.md",
+    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/02-PID-Descriere.md",
+    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/01-PCD-Index.md",
+    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/02-PCD-Descriere.md",
+    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/03-PCD-Calcul.md",
+    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/PCD - Interpretari/01-PCDI-Index.md",
     "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00f.md",
     "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00f.md",
     "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/05-VI-Exemple.md",
     "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/04-VI-Metodica-si-Interpretari.md",
     "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/03-VI-Calcul.md",
     "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/02-VI-Descriere.md",
-    "Dashboard/v3/assets/lace-corner.svg",
     "Dashboard/v3/design-qa.md",
-    "skills/numerologie-SVG-matrita-numelui/references/modele/matrita-numelui-andreea.svg",
     "skills/numerologie-SVG-matrita-numelui/references/modele/index.md",
     "skills/numerologie-SVG-matrita-datei-de-nastere/references/modele/index.md",
     "skills/numerologie-lucrare-redactare/references/metoda-concluzii.md",
     "vault/Numerologie/Nume/Numarul Ereditar Karmic/03-NEK-Calcul.md",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/Untitled.md",
-    "vault/Numerologie/Spirit si Karma/Codul Spiritului/03-CS-Calcul.md",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00r.md",
-    "vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/03-CNP-Calcul.md",
-    "vault/Numerologie/Matricea Datei de Nastere/Codul Numerologic Personal/01-CNP-Index.md",
-    "vault/Numerologie/Matricea Datei de Nastere/Matricea Datei de Nastere/03-MDN-Calcul.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-39.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-30.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-47.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-48.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-46.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-45.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-44.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-43.md"
+    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/Untitled.md"
   ]
 }

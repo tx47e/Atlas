@@ -1,0 +1,2853 @@
+{
+  "date_intrare": {
+    "data_nasterii": "2020-03-15",
+    "nume_complet": "Vulcu Rebeca Andreea",
+    "nume_familie": "Vulcu",
+    "prenume": "Rebeca Andreea",
+    "prenume_activ": "Rebeca",
+    "gen": "feminin",
+    "nume_anterior": null
+  },
+  "capitolul_2_formule_calcule_tabele_grafice": {
+    "2.1_codul_numerologic_personal_data_nasterii": {
+      "vibratia_interioara": {
+        "formula": "reducere_numerologica(ziua nasterii)",
+        "calcul": {
+          "intrare": 15,
+          "pasi": [
+            "1 + 5 = 6"
+          ],
+          "rezultat": 6
+        }
+      },
+      "vibratia_interioara_karmica": {
+        "zi": 15,
+        "arcana": 15,
+        "procent": "spre 80%"
+      },
+      "linii_de_tensiune": {
+        "status": "de_completat",
+        "observatie": "Rubrica exista in cuprins, dar formula operationala trebuie confirmata."
+      },
+      "vibratia_exterioara": {
+        "formula": "reducere_numerologica(luna nasterii)",
+        "calcul": {
+          "intrare": 3,
+          "pasi": [],
+          "rezultat": 3
+        }
+      },
+      "vibratia_exterioara_karmica": {
+        "status": "de_completat",
+        "observatie": "Trebuie validata regula de karma pentru luna."
+      },
+      "vibratia_globala": {
+        "formula": "reducere_numerologica(ziua nasterii + luna nasterii)",
+        "calcul": {
+          "intrare": 18,
+          "pasi": [
+            "1 + 8 = 9"
+          ],
+          "rezultat": 9
+        }
+      },
+      "puntea_interior_exterior": {
+        "formula": "valoare_absoluta(vibratie_a - vibratie_b)",
+        "calcul": "|6 - 3| = 3",
+        "rezultat": 3
+      },
+      "vibratia_cosmica_fixa": {
+        "formula": "primele doua cifre ale anului",
+        "calcul": "20",
+        "rezultat": 20
+      },
+      "vibratia_cosmica_variabila": {
+        "formula": "reducere_numerologica(ultimele doua cifre ale anului)",
+        "calcul": {
+          "intrare": 20,
+          "pasi": [
+            "2 + 0 = 2"
+          ],
+          "rezultat": 2
+        }
+      },
+      "vibratia_cosmica_totala": {
+        "formula": "reducere_numerologica(suma cifrelor anului)",
+        "calcul": {
+          "intrare": 4,
+          "pasi": [],
+          "rezultat": 4
+        }
+      },
+      "calea_destinului": {
+        "formula": "suma cifrelor din data nasterii, neredusa complet",
+        "calcul": "1 + 5 + 0 + 3 + 2 + 0 + 2 + 0 = 13",
+        "rezultat": 13
+      },
+      "calea_destinului_karmica": {
+        "formula": "aceeasi baza ca la calea destinului; interpretare karmica",
+        "calcul": 13,
+        "rezultat": 13
+      },
+      "destinul_vibratia_destinului": {
+        "formula": "reducere_o_singura_data(calea destinului)",
+        "calcul": {
+          "intrare": 13,
+          "pasi": [
+            "1 + 3 = 4"
+          ],
+          "rezultat": 4
+        },
+        "cifra_interpretare": {
+          "intrare": 4,
+          "pasi": [],
+          "rezultat": 4
+        }
+      },
+      "puntea_interior_destin": {
+        "formula": "valoare_absoluta(vibratie_a - vibratie_b)",
+        "calcul": "|6 - 4| = 2",
+        "rezultat": 2
+      },
+      "aspecte_de_indreptat": {
+        "formula": "calea destinului - 2 x prima cifra din ziua nasterii",
+        "calcul": "13 - 2 x 1 = 11",
+        "rezultat": 11
+      },
+      "solutia_aspectelor_de_indreptat": {
+        "formula": "insumarea cifrelor o singura data (aspecte de indreptat)",
+        "calcul": {
+          "intrare": 11,
+          "pasi": [
+            "1 + 1 = 2"
+          ],
+          "rezultat": 2
+        }
+      }
+    },
+    "2.2_structura_matriciala": {
+      "meta": {
+        "data_compacta": "15032020",
+        "numere_de_lucru": {
+          "n1": 13,
+          "n2": 4,
+          "n3": 11,
+          "n4": 2
+        },
+        "sir_complet": "15032020134112"
+      },
+      "casute": {
+        "1": {
+          "cifre": "1111",
+          "cantitate": 4,
+          "valoare": 4
+        },
+        "2": {
+          "cifre": "222",
+          "cantitate": 3,
+          "valoare": 6
+        },
+        "3": {
+          "cifre": "33",
+          "cantitate": 2,
+          "valoare": 6
+        },
+        "4": {
+          "cifre": "4",
+          "cantitate": 1,
+          "valoare": 4
+        },
+        "5": {
+          "cifre": "5",
+          "cantitate": 1,
+          "valoare": 5
+        },
+        "6": {
+          "cifre": "-",
+          "cantitate": 0,
+          "valoare": 0
+        },
+        "7": {
+          "cifre": "-",
+          "cantitate": 0,
+          "valoare": 0
+        },
+        "8": {
+          "cifre": "-",
+          "cantitate": 0,
+          "valoare": 0
+        },
+        "9": {
+          "cifre": "-",
+          "cantitate": 0,
+          "valoare": 0
+        }
+      },
+      "randuri": [
+        [
+          "1111",
+          "4",
+          "-"
+        ],
+        [
+          "222",
+          "5",
+          "-"
+        ],
+        [
+          "33",
+          "-",
+          "-"
+        ]
+      ],
+      "pare_impare": {
+        "pare": 4,
+        "impare": 7
+      },
+      "vectori": {
+        "123": {
+          "denumire": "Energie",
+          "cifre": "111122233",
+          "cantitate": 9,
+          "valoare": 16,
+          "este_plin": true
+        },
+        "456": {
+          "denumire": "Vointa",
+          "cifre": "45",
+          "cantitate": 2,
+          "valoare": 9,
+          "este_plin": false
+        },
+        "789": {
+          "denumire": "Creativitate",
+          "cifre": "-",
+          "cantitate": 0,
+          "valoare": 0,
+          "este_plin": false
+        },
+        "147": {
+          "denumire": "Spiritualitate",
+          "cifre": "11114",
+          "cantitate": 5,
+          "valoare": 8,
+          "este_plin": false
+        },
+        "258": {
+          "denumire": "Social",
+          "cifre": "2225",
+          "cantitate": 4,
+          "valoare": 11,
+          "este_plin": false
+        },
+        "369": {
+          "denumire": "Bunastare materiala",
+          "cifre": "33",
+          "cantitate": 2,
+          "valoare": 6,
+          "este_plin": false
+        },
+        "159": {
+          "denumire": "Cariera",
+          "cifre": "11115",
+          "cantitate": 5,
+          "valoare": 9,
+          "este_plin": false
+        },
+        "357": {
+          "denumire": "Scopuri",
+          "cifre": "335",
+          "cantitate": 3,
+          "valoare": 11,
+          "este_plin": false
+        }
+      },
+      "figuri_geometrice": {
+        "cifre_prezente": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "cantitate_casute_active": 5,
+        "status": "calcul_cantitativ_initial"
+      },
+      "tendinte": {
+        "rezultat": null,
+        "observatie": "Nu exista vector diagonal plin; nu exista tendinta matriceala clara."
+      },
+      "fixatia": {
+        "rezultat": null,
+        "observatie": "Nu exista vector orizontal plin; nu exista fixatie matriceala clara."
+      },
+      "caii_trasura_vizitiul": {
+        "caii_123": {
+          "denumire": "Energie",
+          "cifre": "111122233",
+          "cantitate": 9,
+          "valoare": 16,
+          "este_plin": true
+        },
+        "trasura_456": {
+          "denumire": "Vointa",
+          "cifre": "45",
+          "cantitate": 2,
+          "valoare": 9,
+          "este_plin": false
+        },
+        "vizitiul_789": {
+          "denumire": "Creativitate",
+          "cifre": "-",
+          "cantitate": 0,
+          "valoare": 0,
+          "este_plin": false
+        }
+      },
+      "curgerea_energiei": {
+        "status": "de_completat",
+        "observatie": "Metoda nu este implementata complet in calculatorul curent."
+      },
+      "comparatia_cu_optimul": {
+        "1": {
+          "cantitate": 4,
+          "diferenta_fata_de_1_aparitie": 3
+        },
+        "2": {
+          "cantitate": 3,
+          "diferenta_fata_de_1_aparitie": 2
+        },
+        "3": {
+          "cantitate": 2,
+          "diferenta_fata_de_1_aparitie": 1
+        },
+        "4": {
+          "cantitate": 1,
+          "diferenta_fata_de_1_aparitie": 0
+        },
+        "5": {
+          "cantitate": 1,
+          "diferenta_fata_de_1_aparitie": 0
+        },
+        "6": {
+          "cantitate": 0,
+          "diferenta_fata_de_1_aparitie": -1
+        },
+        "7": {
+          "cantitate": 0,
+          "diferenta_fata_de_1_aparitie": -1
+        },
+        "8": {
+          "cantitate": 0,
+          "diferenta_fata_de_1_aparitie": -1
+        },
+        "9": {
+          "cantitate": 0,
+          "diferenta_fata_de_1_aparitie": -1
+        }
+      },
+      "scara_bunastarii": [
+        {
+          "tip": "vector",
+          "denumire": "123 - Energie",
+          "cantitate": "111122233",
+          "formula": "1 + 2 + 3",
+          "valoare": 16
+        },
+        {
+          "tip": "vector",
+          "denumire": "258 - Social",
+          "cantitate": "2225",
+          "formula": "2 + 5 + 8",
+          "valoare": 11
+        },
+        {
+          "tip": "vector",
+          "denumire": "357 - Scopuri",
+          "cantitate": "335",
+          "formula": "3 + 5 + 7",
+          "valoare": 11
+        },
+        {
+          "tip": "vector",
+          "denumire": "159 - Cariera",
+          "cantitate": "11115",
+          "formula": "1 + 5 + 9",
+          "valoare": 9
+        },
+        {
+          "tip": "vector",
+          "denumire": "456 - Vointa",
+          "cantitate": "45",
+          "formula": "4 + 5 + 6",
+          "valoare": 9
+        },
+        {
+          "tip": "vector",
+          "denumire": "147 - Spiritualitate",
+          "cantitate": "11114",
+          "formula": "1 + 4 + 7",
+          "valoare": 8
+        },
+        {
+          "tip": "casuta",
+          "denumire": "2",
+          "cantitate": "222",
+          "formula": "2 + 2 + 2",
+          "valoare": 6
+        },
+        {
+          "tip": "casuta",
+          "denumire": "3",
+          "cantitate": "33",
+          "formula": "3 + 3",
+          "valoare": 6
+        },
+        {
+          "tip": "vector",
+          "denumire": "369 - Bunastare materiala",
+          "cantitate": "33",
+          "formula": "3 + 6 + 9",
+          "valoare": 6
+        },
+        {
+          "tip": "casuta",
+          "denumire": "5",
+          "cantitate": "5",
+          "formula": "5",
+          "valoare": 5
+        },
+        {
+          "tip": "casuta",
+          "denumire": "1",
+          "cantitate": "1111",
+          "formula": "1 + 1 + 1 + 1",
+          "valoare": 4
+        },
+        {
+          "tip": "casuta",
+          "denumire": "4",
+          "cantitate": "4",
+          "formula": "4",
+          "valoare": 4
+        },
+        {
+          "tip": "casuta",
+          "denumire": "6",
+          "cantitate": "-",
+          "formula": "0",
+          "valoare": 0
+        },
+        {
+          "tip": "casuta",
+          "denumire": "7",
+          "cantitate": "-",
+          "formula": "0",
+          "valoare": 0
+        },
+        {
+          "tip": "vector",
+          "denumire": "789 - Creativitate",
+          "cantitate": "-",
+          "formula": "7 + 8 + 9",
+          "valoare": 0
+        },
+        {
+          "tip": "casuta",
+          "denumire": "8",
+          "cantitate": "-",
+          "formula": "0",
+          "valoare": 0
+        },
+        {
+          "tip": "casuta",
+          "denumire": "9",
+          "cantitate": "-",
+          "formula": "0",
+          "valoare": 0
+        }
+      ]
+    },
+    "2.3_codul_numerologic_personal_al_numelui": {
+      "nume_complet": "Vulcu Rebeca Andreea",
+      "nume_normalizat": "VULCUREBECAANDREEA",
+      "numarul_de_exprimare": {
+        "formula": "reducere(suma reducerilor componentelor numelui)",
+        "componente": [
+          {
+            "componenta": "Vulcu",
+            "valori": [
+              {
+                "litera": "V",
+                "valoare": 4
+              },
+              {
+                "litera": "U",
+                "valoare": 3
+              },
+              {
+                "litera": "L",
+                "valoare": 3
+              },
+              {
+                "litera": "C",
+                "valoare": 3
+              },
+              {
+                "litera": "U",
+                "valoare": 3
+              }
+            ],
+            "total": 16,
+            "reducere": {
+              "intrare": 16,
+              "pasi": [
+                "1 + 6 = 7"
+              ],
+              "rezultat": 7
+            }
+          },
+          {
+            "componenta": "Rebeca",
+            "valori": [
+              {
+                "litera": "R",
+                "valoare": 9
+              },
+              {
+                "litera": "E",
+                "valoare": 5
+              },
+              {
+                "litera": "B",
+                "valoare": 2
+              },
+              {
+                "litera": "E",
+                "valoare": 5
+              },
+              {
+                "litera": "C",
+                "valoare": 3
+              },
+              {
+                "litera": "A",
+                "valoare": 1
+              }
+            ],
+            "total": 25,
+            "reducere": {
+              "intrare": 25,
+              "pasi": [
+                "2 + 5 = 7"
+              ],
+              "rezultat": 7
+            }
+          },
+          {
+            "componenta": "Andreea",
+            "valori": [
+              {
+                "litera": "A",
+                "valoare": 1
+              },
+              {
+                "litera": "N",
+                "valoare": 5
+              },
+              {
+                "litera": "D",
+                "valoare": 4
+              },
+              {
+                "litera": "R",
+                "valoare": 9
+              },
+              {
+                "litera": "E",
+                "valoare": 5
+              },
+              {
+                "litera": "E",
+                "valoare": 5
+              },
+              {
+                "litera": "A",
+                "valoare": 1
+              }
+            ],
+            "total": 30,
+            "reducere": {
+              "intrare": 30,
+              "pasi": [
+                "3 + 0 = 3"
+              ],
+              "rezultat": 3
+            }
+          }
+        ],
+        "total_reduse": 17,
+        "reducere": {
+          "intrare": 17,
+          "pasi": [
+            "1 + 7 = 8"
+          ],
+          "rezultat": 8
+        }
+      },
+      "numarul_intim": {
+        "formula": "reducere(suma vocalelor)",
+        "valori": [
+          {
+            "litera": "U",
+            "valoare": 3
+          },
+          {
+            "litera": "U",
+            "valoare": 3
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          },
+          {
+            "litera": "A",
+            "valoare": 1
+          },
+          {
+            "litera": "A",
+            "valoare": 1
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          },
+          {
+            "litera": "A",
+            "valoare": 1
+          }
+        ],
+        "total": 29,
+        "reducere": {
+          "intrare": 29,
+          "pasi": [
+            "2 + 9 = 11",
+            "1 + 1 = 2"
+          ],
+          "rezultat": 2
+        }
+      },
+      "numarul_de_realizare": {
+        "formula": "reducere(suma consoanelor)",
+        "valori": [
+          {
+            "litera": "V",
+            "valoare": 4
+          },
+          {
+            "litera": "L",
+            "valoare": 3
+          },
+          {
+            "litera": "C",
+            "valoare": 3
+          },
+          {
+            "litera": "R",
+            "valoare": 9
+          },
+          {
+            "litera": "B",
+            "valoare": 2
+          },
+          {
+            "litera": "C",
+            "valoare": 3
+          },
+          {
+            "litera": "N",
+            "valoare": 5
+          },
+          {
+            "litera": "D",
+            "valoare": 4
+          },
+          {
+            "litera": "R",
+            "valoare": 9
+          }
+        ],
+        "total": 42,
+        "reducere": {
+          "intrare": 42,
+          "pasi": [
+            "4 + 2 = 6"
+          ],
+          "rezultat": 6
+        }
+      },
+      "numarul_activ": {
+        "prenume_activ": "Rebeca",
+        "valori": [
+          {
+            "litera": "R",
+            "valoare": 9
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          },
+          {
+            "litera": "B",
+            "valoare": 2
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          },
+          {
+            "litera": "C",
+            "valoare": 3
+          },
+          {
+            "litera": "A",
+            "valoare": 1
+          }
+        ],
+        "total": 25,
+        "reducere": {
+          "intrare": 25,
+          "pasi": [
+            "2 + 5 = 7"
+          ],
+          "rezultat": 7
+        }
+      },
+      "numarul_ereditar": {
+        "nume_familie": "Vulcu",
+        "valori": [
+          {
+            "litera": "V",
+            "valoare": 4
+          },
+          {
+            "litera": "U",
+            "valoare": 3
+          },
+          {
+            "litera": "L",
+            "valoare": 3
+          },
+          {
+            "litera": "C",
+            "valoare": 3
+          },
+          {
+            "litera": "U",
+            "valoare": 3
+          }
+        ],
+        "total": 16,
+        "reducere": {
+          "intrare": 16,
+          "pasi": [
+            "1 + 6 = 7"
+          ],
+          "rezultat": 7
+        }
+      },
+      "numarul_ereditar_karmic_neamul": {
+        "nume_familie": "Vulcu",
+        "total": 16,
+        "reducere_22": {
+          "intrare": 16,
+          "pasi": [],
+          "rezultat": 16
+        },
+        "arcana_majora": 16
+      },
+      "matricea_numelui": {
+        "meta": {
+          "nume": "Vulcu Rebeca Andreea",
+          "numar_exprimare_introdus_in_matrice": 8,
+          "codul_numelui": {
+            "formula": "sirul valorilor numerologice ale numelui complet + numarul de exprimare",
+            "valori_nume": [
+              {
+                "litera": "V",
+                "valoare": 4
+              },
+              {
+                "litera": "U",
+                "valoare": 3
+              },
+              {
+                "litera": "L",
+                "valoare": 3
+              },
+              {
+                "litera": "C",
+                "valoare": 3
+              },
+              {
+                "litera": "U",
+                "valoare": 3
+              },
+              {
+                "litera": "R",
+                "valoare": 9
+              },
+              {
+                "litera": "E",
+                "valoare": 5
+              },
+              {
+                "litera": "B",
+                "valoare": 2
+              },
+              {
+                "litera": "E",
+                "valoare": 5
+              },
+              {
+                "litera": "C",
+                "valoare": 3
+              },
+              {
+                "litera": "A",
+                "valoare": 1
+              },
+              {
+                "litera": "A",
+                "valoare": 1
+              },
+              {
+                "litera": "N",
+                "valoare": 5
+              },
+              {
+                "litera": "D",
+                "valoare": 4
+              },
+              {
+                "litera": "R",
+                "valoare": 9
+              },
+              {
+                "litera": "E",
+                "valoare": 5
+              },
+              {
+                "litera": "E",
+                "valoare": 5
+              },
+              {
+                "litera": "A",
+                "valoare": 1
+              }
+            ],
+            "numar_exprimare": 8,
+            "cifre": [
+              4,
+              3,
+              3,
+              3,
+              3,
+              9,
+              5,
+              2,
+              5,
+              3,
+              1,
+              1,
+              5,
+              4,
+              9,
+              5,
+              5,
+              1,
+              8
+            ],
+            "sir": "4333395253115495518"
+          }
+        },
+        "casute": {
+          "1": {
+            "cifre": "111",
+            "cantitate": 3,
+            "valoare": 3
+          },
+          "2": {
+            "cifre": "2",
+            "cantitate": 1,
+            "valoare": 2
+          },
+          "3": {
+            "cifre": "33333",
+            "cantitate": 5,
+            "valoare": 15
+          },
+          "4": {
+            "cifre": "44",
+            "cantitate": 2,
+            "valoare": 8
+          },
+          "5": {
+            "cifre": "55555",
+            "cantitate": 5,
+            "valoare": 25
+          },
+          "6": {
+            "cifre": "-",
+            "cantitate": 0,
+            "valoare": 0
+          },
+          "7": {
+            "cifre": "-",
+            "cantitate": 0,
+            "valoare": 0
+          },
+          "8": {
+            "cifre": "8",
+            "cantitate": 1,
+            "valoare": 8
+          },
+          "9": {
+            "cifre": "99",
+            "cantitate": 2,
+            "valoare": 18
+          }
+        },
+        "randuri": [
+          [
+            "111",
+            "44",
+            "-"
+          ],
+          [
+            "2",
+            "55555",
+            "8"
+          ],
+          [
+            "33333",
+            "-",
+            "99"
+          ]
+        ],
+        "pare_impare": {
+          "pare": 4,
+          "impare": 15
+        },
+        "vectori": {
+          "123": {
+            "denumire": "Energie",
+            "cifre": "111233333",
+            "cantitate": 9,
+            "valoare": 20,
+            "este_plin": true
+          },
+          "456": {
+            "denumire": "Vointa",
+            "cifre": "4455555",
+            "cantitate": 7,
+            "valoare": 33,
+            "este_plin": false
+          },
+          "789": {
+            "denumire": "Creativitate",
+            "cifre": "899",
+            "cantitate": 3,
+            "valoare": 26,
+            "este_plin": false
+          },
+          "147": {
+            "denumire": "Spiritualitate",
+            "cifre": "11144",
+            "cantitate": 5,
+            "valoare": 11,
+            "este_plin": false
+          },
+          "258": {
+            "denumire": "Social",
+            "cifre": "2555558",
+            "cantitate": 7,
+            "valoare": 35,
+            "este_plin": true
+          },
+          "369": {
+            "denumire": "Bunastare materiala",
+            "cifre": "3333399",
+            "cantitate": 7,
+            "valoare": 33,
+            "este_plin": false
+          },
+          "159": {
+            "denumire": "Cariera",
+            "cifre": "1115555599",
+            "cantitate": 10,
+            "valoare": 46,
+            "este_plin": true
+          },
+          "357": {
+            "denumire": "Scopuri",
+            "cifre": "3333355555",
+            "cantitate": 10,
+            "valoare": 40,
+            "este_plin": false
+          }
+        },
+        "figuri_geometrice": {
+          "cifre_prezente": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9
+          ],
+          "cantitate_casute_active": 7,
+          "status": "calcul_cantitativ_initial"
+        },
+        "tendinte": {
+          "vectori_dominanti": [
+            "159"
+          ],
+          "cantitate": 10
+        },
+        "fixatia": {
+          "vectori_dominanti": [
+            "258"
+          ],
+          "cantitate": 7
+        },
+        "caii_trasura_vizitiul": {
+          "caii_123": {
+            "denumire": "Energie",
+            "cifre": "111233333",
+            "cantitate": 9,
+            "valoare": 20,
+            "este_plin": true
+          },
+          "trasura_456": {
+            "denumire": "Vointa",
+            "cifre": "4455555",
+            "cantitate": 7,
+            "valoare": 33,
+            "este_plin": false
+          },
+          "vizitiul_789": {
+            "denumire": "Creativitate",
+            "cifre": "899",
+            "cantitate": 3,
+            "valoare": 26,
+            "este_plin": false
+          }
+        },
+        "curgerea_energiei": {
+          "status": "de_completat",
+          "observatie": "Metoda nu este implementata complet in calculatorul curent."
+        },
+        "comparatia_cu_optimul": {
+          "1": {
+            "cantitate": 3,
+            "diferenta_fata_de_1_aparitie": 2
+          },
+          "2": {
+            "cantitate": 1,
+            "diferenta_fata_de_1_aparitie": 0
+          },
+          "3": {
+            "cantitate": 5,
+            "diferenta_fata_de_1_aparitie": 4
+          },
+          "4": {
+            "cantitate": 2,
+            "diferenta_fata_de_1_aparitie": 1
+          },
+          "5": {
+            "cantitate": 5,
+            "diferenta_fata_de_1_aparitie": 4
+          },
+          "6": {
+            "cantitate": 0,
+            "diferenta_fata_de_1_aparitie": -1
+          },
+          "7": {
+            "cantitate": 0,
+            "diferenta_fata_de_1_aparitie": -1
+          },
+          "8": {
+            "cantitate": 1,
+            "diferenta_fata_de_1_aparitie": 0
+          },
+          "9": {
+            "cantitate": 2,
+            "diferenta_fata_de_1_aparitie": 1
+          }
+        },
+        "scara_bunastarii": [
+          {
+            "tip": "vector",
+            "denumire": "159 - Cariera",
+            "cantitate": "1115555599",
+            "formula": "1 + 5 + 9",
+            "valoare": 46
+          },
+          {
+            "tip": "vector",
+            "denumire": "357 - Scopuri",
+            "cantitate": "3333355555",
+            "formula": "3 + 5 + 7",
+            "valoare": 40
+          },
+          {
+            "tip": "vector",
+            "denumire": "258 - Social",
+            "cantitate": "2555558",
+            "formula": "2 + 5 + 8",
+            "valoare": 35
+          },
+          {
+            "tip": "vector",
+            "denumire": "369 - Bunastare materiala",
+            "cantitate": "3333399",
+            "formula": "3 + 6 + 9",
+            "valoare": 33
+          },
+          {
+            "tip": "vector",
+            "denumire": "456 - Vointa",
+            "cantitate": "4455555",
+            "formula": "4 + 5 + 6",
+            "valoare": 33
+          },
+          {
+            "tip": "vector",
+            "denumire": "789 - Creativitate",
+            "cantitate": "899",
+            "formula": "7 + 8 + 9",
+            "valoare": 26
+          },
+          {
+            "tip": "casuta",
+            "denumire": "5",
+            "cantitate": "55555",
+            "formula": "5 + 5 + 5 + 5 + 5",
+            "valoare": 25
+          },
+          {
+            "tip": "vector",
+            "denumire": "123 - Energie",
+            "cantitate": "111233333",
+            "formula": "1 + 2 + 3",
+            "valoare": 20
+          },
+          {
+            "tip": "casuta",
+            "denumire": "9",
+            "cantitate": "99",
+            "formula": "9 + 9",
+            "valoare": 18
+          },
+          {
+            "tip": "casuta",
+            "denumire": "3",
+            "cantitate": "33333",
+            "formula": "3 + 3 + 3 + 3 + 3",
+            "valoare": 15
+          },
+          {
+            "tip": "vector",
+            "denumire": "147 - Spiritualitate",
+            "cantitate": "11144",
+            "formula": "1 + 4 + 7",
+            "valoare": 11
+          },
+          {
+            "tip": "casuta",
+            "denumire": "4",
+            "cantitate": "44",
+            "formula": "4 + 4",
+            "valoare": 8
+          },
+          {
+            "tip": "casuta",
+            "denumire": "8",
+            "cantitate": "8",
+            "formula": "8",
+            "valoare": 8
+          },
+          {
+            "tip": "casuta",
+            "denumire": "1",
+            "cantitate": "111",
+            "formula": "1 + 1 + 1",
+            "valoare": 3
+          },
+          {
+            "tip": "casuta",
+            "denumire": "2",
+            "cantitate": "2",
+            "formula": "2",
+            "valoare": 2
+          },
+          {
+            "tip": "casuta",
+            "denumire": "6",
+            "cantitate": "-",
+            "formula": "0",
+            "valoare": 0
+          },
+          {
+            "tip": "casuta",
+            "denumire": "7",
+            "cantitate": "-",
+            "formula": "0",
+            "valoare": 0
+          }
+        ]
+      },
+      "cifra_energetica": {
+        "status": "de_completat",
+        "observatie": "Formula trebuie confirmata in documentatia de nume."
+      },
+      "cifre_intense": {
+        "aparitii": {
+          "1": 3,
+          "2": 1,
+          "3": 5,
+          "4": 2,
+          "5": 5,
+          "9": 2
+        },
+        "cifre_intense": [
+          3,
+          5
+        ]
+      },
+      "primele_si_ultimele_litere": [
+        {
+          "componenta": "Vulcu",
+          "prima": {
+            "litera": "V",
+            "valoare": 4
+          },
+          "ultima": {
+            "litera": "U",
+            "valoare": 3
+          }
+        },
+        {
+          "componenta": "Rebeca",
+          "prima": {
+            "litera": "R",
+            "valoare": 9
+          },
+          "ultima": {
+            "litera": "A",
+            "valoare": 1
+          }
+        },
+        {
+          "componenta": "Andreea",
+          "prima": {
+            "litera": "A",
+            "valoare": 1
+          },
+          "ultima": {
+            "litera": "A",
+            "valoare": 1
+          }
+        }
+      ],
+      "primele_vocale": [
+        {
+          "componenta": "Vulcu",
+          "prima_vocala": "U",
+          "valoare": 3
+        },
+        {
+          "componenta": "Rebeca",
+          "prima_vocala": "E",
+          "valoare": 5
+        },
+        {
+          "componenta": "Andreea",
+          "prima_vocala": "A",
+          "valoare": 1
+        }
+      ],
+      "cheile_de_bolta": {
+        "status": "de_completat",
+        "observatie": "Necesita validarea regulii finale pentru cheia de bolta."
+      },
+      "structura_literelor": {
+        "mentale": [
+          {
+            "litera": "A",
+            "valoare": 1
+          },
+          {
+            "litera": "A",
+            "valoare": 1
+          },
+          {
+            "litera": "A",
+            "valoare": 1
+          }
+        ],
+        "fizice": [
+          {
+            "litera": "V",
+            "valoare": 4
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          },
+          {
+            "litera": "N",
+            "valoare": 5
+          },
+          {
+            "litera": "D",
+            "valoare": 4
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          },
+          {
+            "litera": "E",
+            "valoare": 5
+          }
+        ],
+        "emotionale": [
+          {
+            "litera": "U",
+            "valoare": 3
+          },
+          {
+            "litera": "L",
+            "valoare": 3
+          },
+          {
+            "litera": "C",
+            "valoare": 3
+          },
+          {
+            "litera": "U",
+            "valoare": 3
+          },
+          {
+            "litera": "B",
+            "valoare": 2
+          },
+          {
+            "litera": "C",
+            "valoare": 3
+          }
+        ],
+        "intuitive": [
+          {
+            "litera": "R",
+            "valoare": 9
+          },
+          {
+            "litera": "R",
+            "valoare": 9
+          }
+        ],
+        "initiatoare_continuatoare_finalizatoare": {
+          "initiatoare": "V",
+          "continuatoare": "ULCUREBECAANDREE",
+          "finalizatoare": "A"
+        },
+        "observatie": "Clasificarea pe planuri este operationala si trebuie validata cu bibliografia finala."
+      },
+      "temperamentul": {
+        "status": "de_completat",
+        "observatie": "Metoda pentru numerele temperamentului trebuie formalizata."
+      },
+      "cifrele_de_tensiune": {
+        "status": "de_completat",
+        "observatie": "Metoda pentru cifrele de tensiune ale numelui trebuie formalizata."
+      },
+      "comparatie_matrice_data_vs_matrice_nume": {
+        "1": {
+          "data": 4,
+          "nume": 3,
+          "diferenta": -1,
+          "status": "sustinuta_sau_nuantata"
+        },
+        "2": {
+          "data": 3,
+          "nume": 1,
+          "diferenta": -2,
+          "status": "sustinuta_sau_nuantata"
+        },
+        "3": {
+          "data": 2,
+          "nume": 5,
+          "diferenta": 3,
+          "status": "exces_in_nume"
+        },
+        "4": {
+          "data": 1,
+          "nume": 2,
+          "diferenta": 1,
+          "status": "sustinuta_sau_nuantata"
+        },
+        "5": {
+          "data": 1,
+          "nume": 5,
+          "diferenta": 4,
+          "status": "exces_in_nume"
+        },
+        "6": {
+          "data": 0,
+          "nume": 0,
+          "diferenta": 0,
+          "status": "absenta"
+        },
+        "7": {
+          "data": 0,
+          "nume": 0,
+          "diferenta": 0,
+          "status": "absenta"
+        },
+        "8": {
+          "data": 0,
+          "nume": 1,
+          "diferenta": 1,
+          "status": "potential_de_nume_fara_suport_nativ"
+        },
+        "9": {
+          "data": 0,
+          "nume": 2,
+          "diferenta": 2,
+          "status": "potential_de_nume_fara_suport_nativ"
+        }
+      }
+    },
+    "2.4_ciclicitati": {
+      "lectii_de_viata": {
+        "formula": "zi x luna x an; cifrele rezultatului se aplica ciclic pe anii de viata",
+        "produs": 90900,
+        "sir_lectii": [
+          9,
+          0,
+          9,
+          0,
+          0
+        ],
+        "ani": [
+          {
+            "an_de_viata": 1,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 2,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 3,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 4,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 5,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 6,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 7,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 8,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 9,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 10,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 11,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 12,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 13,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 14,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 15,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 16,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 17,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 18,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 19,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 20,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 21,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 22,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 23,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 24,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 25,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 26,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 27,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 28,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 29,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 30,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 31,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 32,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 33,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 34,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 35,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 36,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 37,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 38,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 39,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 40,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 41,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 42,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 43,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 44,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 45,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 46,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 47,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 48,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 49,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 50,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 51,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 52,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 53,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 54,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 55,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 56,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 57,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 58,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 59,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 60,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 61,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 62,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 63,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 64,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 65,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 66,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 67,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 68,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 69,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 70,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 71,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 72,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 73,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 74,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 75,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 76,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 77,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 78,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 79,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 80,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 81,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 82,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 83,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 84,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 85,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 86,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 87,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 88,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 89,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 90,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 91,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 92,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 93,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 94,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 95,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 96,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 97,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 98,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 99,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 100,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 101,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 102,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 103,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 104,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 105,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 106,
+            "lectie": 9
+          },
+          {
+            "an_de_viata": 107,
+            "lectie": 0
+          },
+          {
+            "an_de_viata": 108,
+            "lectie": 9
+          }
+        ]
+      },
+      "ciclul_de_7_ani": [
+        {
+          "ciclu": 1,
+          "interval_varsta": "0-6"
+        },
+        {
+          "ciclu": 2,
+          "interval_varsta": "7-13"
+        },
+        {
+          "ciclu": 3,
+          "interval_varsta": "14-20"
+        },
+        {
+          "ciclu": 4,
+          "interval_varsta": "21-27"
+        },
+        {
+          "ciclu": 5,
+          "interval_varsta": "28-34"
+        },
+        {
+          "ciclu": 6,
+          "interval_varsta": "35-41"
+        },
+        {
+          "ciclu": 7,
+          "interval_varsta": "42-48"
+        },
+        {
+          "ciclu": 8,
+          "interval_varsta": "49-55"
+        },
+        {
+          "ciclu": 9,
+          "interval_varsta": "56-62"
+        },
+        {
+          "ciclu": 10,
+          "interval_varsta": "63-69"
+        },
+        {
+          "ciclu": 11,
+          "interval_varsta": "70-76"
+        },
+        {
+          "ciclu": 12,
+          "interval_varsta": "77-83"
+        },
+        {
+          "ciclu": 13,
+          "interval_varsta": "84-90"
+        }
+      ],
+      "ciclul_de_9_ani": [
+        {
+          "an": 2020,
+          "varsta": 0,
+          "an_personal": 4,
+          "lectie": 9
+        },
+        {
+          "an": 2021,
+          "varsta": 1,
+          "an_personal": 5,
+          "lectie": 0
+        },
+        {
+          "an": 2022,
+          "varsta": 2,
+          "an_personal": 6,
+          "lectie": 9
+        },
+        {
+          "an": 2023,
+          "varsta": 3,
+          "an_personal": 7,
+          "lectie": 0
+        },
+        {
+          "an": 2024,
+          "varsta": 4,
+          "an_personal": 8,
+          "lectie": 0
+        },
+        {
+          "an": 2025,
+          "varsta": 5,
+          "an_personal": 9,
+          "lectie": 9
+        },
+        {
+          "an": 2026,
+          "varsta": 6,
+          "an_personal": 1,
+          "lectie": 0
+        },
+        {
+          "an": 2027,
+          "varsta": 7,
+          "an_personal": 2,
+          "lectie": 9
+        },
+        {
+          "an": 2028,
+          "varsta": 8,
+          "an_personal": 3,
+          "lectie": 0
+        },
+        {
+          "an": 2029,
+          "varsta": 9,
+          "an_personal": 4,
+          "lectie": 0
+        },
+        {
+          "an": 2030,
+          "varsta": 10,
+          "an_personal": 5,
+          "lectie": 9
+        },
+        {
+          "an": 2031,
+          "varsta": 11,
+          "an_personal": 6,
+          "lectie": 0
+        },
+        {
+          "an": 2032,
+          "varsta": 12,
+          "an_personal": 7,
+          "lectie": 9
+        },
+        {
+          "an": 2033,
+          "varsta": 13,
+          "an_personal": 8,
+          "lectie": 0
+        },
+        {
+          "an": 2034,
+          "varsta": 14,
+          "an_personal": 9,
+          "lectie": 0
+        },
+        {
+          "an": 2035,
+          "varsta": 15,
+          "an_personal": 1,
+          "lectie": 9
+        },
+        {
+          "an": 2036,
+          "varsta": 16,
+          "an_personal": 2,
+          "lectie": 0
+        },
+        {
+          "an": 2037,
+          "varsta": 17,
+          "an_personal": 3,
+          "lectie": 9
+        },
+        {
+          "an": 2038,
+          "varsta": 18,
+          "an_personal": 4,
+          "lectie": 0
+        },
+        {
+          "an": 2039,
+          "varsta": 19,
+          "an_personal": 5,
+          "lectie": 0
+        },
+        {
+          "an": 2040,
+          "varsta": 20,
+          "an_personal": 6,
+          "lectie": 9
+        },
+        {
+          "an": 2041,
+          "varsta": 21,
+          "an_personal": 7,
+          "lectie": 0
+        },
+        {
+          "an": 2042,
+          "varsta": 22,
+          "an_personal": 8,
+          "lectie": 9
+        },
+        {
+          "an": 2043,
+          "varsta": 23,
+          "an_personal": 9,
+          "lectie": 0
+        },
+        {
+          "an": 2044,
+          "varsta": 24,
+          "an_personal": 1,
+          "lectie": 0
+        },
+        {
+          "an": 2045,
+          "varsta": 25,
+          "an_personal": 2,
+          "lectie": 9
+        },
+        {
+          "an": 2046,
+          "varsta": 26,
+          "an_personal": 3,
+          "lectie": 0
+        },
+        {
+          "an": 2047,
+          "varsta": 27,
+          "an_personal": 4,
+          "lectie": 9
+        },
+        {
+          "an": 2048,
+          "varsta": 28,
+          "an_personal": 5,
+          "lectie": 0
+        },
+        {
+          "an": 2049,
+          "varsta": 29,
+          "an_personal": 6,
+          "lectie": 0
+        },
+        {
+          "an": 2050,
+          "varsta": 30,
+          "an_personal": 7,
+          "lectie": 9
+        },
+        {
+          "an": 2051,
+          "varsta": 31,
+          "an_personal": 8,
+          "lectie": 0
+        },
+        {
+          "an": 2052,
+          "varsta": 32,
+          "an_personal": 9,
+          "lectie": 9
+        },
+        {
+          "an": 2053,
+          "varsta": 33,
+          "an_personal": 1,
+          "lectie": 0
+        },
+        {
+          "an": 2054,
+          "varsta": 34,
+          "an_personal": 2,
+          "lectie": 0
+        },
+        {
+          "an": 2055,
+          "varsta": 35,
+          "an_personal": 3,
+          "lectie": 9
+        },
+        {
+          "an": 2056,
+          "varsta": 36,
+          "an_personal": 4,
+          "lectie": 0
+        },
+        {
+          "an": 2057,
+          "varsta": 37,
+          "an_personal": 5,
+          "lectie": 9
+        },
+        {
+          "an": 2058,
+          "varsta": 38,
+          "an_personal": 6,
+          "lectie": 0
+        },
+        {
+          "an": 2059,
+          "varsta": 39,
+          "an_personal": 7,
+          "lectie": 0
+        },
+        {
+          "an": 2060,
+          "varsta": 40,
+          "an_personal": 8,
+          "lectie": 9
+        },
+        {
+          "an": 2061,
+          "varsta": 41,
+          "an_personal": 9,
+          "lectie": 0
+        },
+        {
+          "an": 2062,
+          "varsta": 42,
+          "an_personal": 1,
+          "lectie": 9
+        },
+        {
+          "an": 2063,
+          "varsta": 43,
+          "an_personal": 2,
+          "lectie": 0
+        },
+        {
+          "an": 2064,
+          "varsta": 44,
+          "an_personal": 3,
+          "lectie": 0
+        },
+        {
+          "an": 2065,
+          "varsta": 45,
+          "an_personal": 4,
+          "lectie": 9
+        },
+        {
+          "an": 2066,
+          "varsta": 46,
+          "an_personal": 5,
+          "lectie": 0
+        },
+        {
+          "an": 2067,
+          "varsta": 47,
+          "an_personal": 6,
+          "lectie": 9
+        },
+        {
+          "an": 2068,
+          "varsta": 48,
+          "an_personal": 7,
+          "lectie": 0
+        },
+        {
+          "an": 2069,
+          "varsta": 49,
+          "an_personal": 8,
+          "lectie": 0
+        },
+        {
+          "an": 2070,
+          "varsta": 50,
+          "an_personal": 9,
+          "lectie": 9
+        },
+        {
+          "an": 2071,
+          "varsta": 51,
+          "an_personal": 1,
+          "lectie": 0
+        },
+        {
+          "an": 2072,
+          "varsta": 52,
+          "an_personal": 2,
+          "lectie": 9
+        },
+        {
+          "an": 2073,
+          "varsta": 53,
+          "an_personal": 3,
+          "lectie": 0
+        },
+        {
+          "an": 2074,
+          "varsta": 54,
+          "an_personal": 4,
+          "lectie": 0
+        },
+        {
+          "an": 2075,
+          "varsta": 55,
+          "an_personal": 5,
+          "lectie": 9
+        },
+        {
+          "an": 2076,
+          "varsta": 56,
+          "an_personal": 6,
+          "lectie": 0
+        },
+        {
+          "an": 2077,
+          "varsta": 57,
+          "an_personal": 7,
+          "lectie": 9
+        },
+        {
+          "an": 2078,
+          "varsta": 58,
+          "an_personal": 8,
+          "lectie": 0
+        },
+        {
+          "an": 2079,
+          "varsta": 59,
+          "an_personal": 9,
+          "lectie": 0
+        },
+        {
+          "an": 2080,
+          "varsta": 60,
+          "an_personal": 1,
+          "lectie": 9
+        },
+        {
+          "an": 2081,
+          "varsta": 61,
+          "an_personal": 2,
+          "lectie": 0
+        },
+        {
+          "an": 2082,
+          "varsta": 62,
+          "an_personal": 3,
+          "lectie": 9
+        },
+        {
+          "an": 2083,
+          "varsta": 63,
+          "an_personal": 4,
+          "lectie": 0
+        },
+        {
+          "an": 2084,
+          "varsta": 64,
+          "an_personal": 5,
+          "lectie": 0
+        },
+        {
+          "an": 2085,
+          "varsta": 65,
+          "an_personal": 6,
+          "lectie": 9
+        },
+        {
+          "an": 2086,
+          "varsta": 66,
+          "an_personal": 7,
+          "lectie": 0
+        },
+        {
+          "an": 2087,
+          "varsta": 67,
+          "an_personal": 8,
+          "lectie": 9
+        },
+        {
+          "an": 2088,
+          "varsta": 68,
+          "an_personal": 9,
+          "lectie": 0
+        },
+        {
+          "an": 2089,
+          "varsta": 69,
+          "an_personal": 1,
+          "lectie": 0
+        },
+        {
+          "an": 2090,
+          "varsta": 70,
+          "an_personal": 2,
+          "lectie": 9
+        },
+        {
+          "an": 2091,
+          "varsta": 71,
+          "an_personal": 3,
+          "lectie": 0
+        },
+        {
+          "an": 2092,
+          "varsta": 72,
+          "an_personal": 4,
+          "lectie": 9
+        },
+        {
+          "an": 2093,
+          "varsta": 73,
+          "an_personal": 5,
+          "lectie": 0
+        },
+        {
+          "an": 2094,
+          "varsta": 74,
+          "an_personal": 6,
+          "lectie": 0
+        },
+        {
+          "an": 2095,
+          "varsta": 75,
+          "an_personal": 7,
+          "lectie": 9
+        },
+        {
+          "an": 2096,
+          "varsta": 76,
+          "an_personal": 8,
+          "lectie": 0
+        },
+        {
+          "an": 2097,
+          "varsta": 77,
+          "an_personal": 9,
+          "lectie": 9
+        },
+        {
+          "an": 2098,
+          "varsta": 78,
+          "an_personal": 1,
+          "lectie": 0
+        },
+        {
+          "an": 2099,
+          "varsta": 79,
+          "an_personal": 2,
+          "lectie": 0
+        },
+        {
+          "an": 2100,
+          "varsta": 80,
+          "an_personal": 3,
+          "lectie": 9
+        },
+        {
+          "an": 2101,
+          "varsta": 81,
+          "an_personal": 4,
+          "lectie": 0
+        },
+        {
+          "an": 2102,
+          "varsta": 82,
+          "an_personal": 5,
+          "lectie": 9
+        },
+        {
+          "an": 2103,
+          "varsta": 83,
+          "an_personal": 6,
+          "lectie": 0
+        },
+        {
+          "an": 2104,
+          "varsta": 84,
+          "an_personal": 7,
+          "lectie": 0
+        },
+        {
+          "an": 2105,
+          "varsta": 85,
+          "an_personal": 8,
+          "lectie": 9
+        },
+        {
+          "an": 2106,
+          "varsta": 86,
+          "an_personal": 9,
+          "lectie": 0
+        },
+        {
+          "an": 2107,
+          "varsta": 87,
+          "an_personal": 1,
+          "lectie": 9
+        },
+        {
+          "an": 2108,
+          "varsta": 88,
+          "an_personal": 2,
+          "lectie": 0
+        },
+        {
+          "an": 2109,
+          "varsta": 89,
+          "an_personal": 3,
+          "lectie": 0
+        },
+        {
+          "an": 2110,
+          "varsta": 90,
+          "an_personal": 4,
+          "lectie": 9
+        },
+        {
+          "an": 2111,
+          "varsta": 91,
+          "an_personal": 5,
+          "lectie": 0
+        },
+        {
+          "an": 2112,
+          "varsta": 92,
+          "an_personal": 6,
+          "lectie": 9
+        },
+        {
+          "an": 2113,
+          "varsta": 93,
+          "an_personal": 7,
+          "lectie": 0
+        },
+        {
+          "an": 2114,
+          "varsta": 94,
+          "an_personal": 8,
+          "lectie": 0
+        },
+        {
+          "an": 2115,
+          "varsta": 95,
+          "an_personal": 9,
+          "lectie": 9
+        },
+        {
+          "an": 2116,
+          "varsta": 96,
+          "an_personal": 1,
+          "lectie": 0
+        },
+        {
+          "an": 2117,
+          "varsta": 97,
+          "an_personal": 2,
+          "lectie": 9
+        },
+        {
+          "an": 2118,
+          "varsta": 98,
+          "an_personal": 3,
+          "lectie": 0
+        },
+        {
+          "an": 2119,
+          "varsta": 99,
+          "an_personal": 4,
+          "lectie": 0
+        },
+        {
+          "an": 2120,
+          "varsta": 100,
+          "an_personal": 5,
+          "lectie": 9
+        },
+        {
+          "an": 2121,
+          "varsta": 101,
+          "an_personal": 6,
+          "lectie": 0
+        },
+        {
+          "an": 2122,
+          "varsta": 102,
+          "an_personal": 7,
+          "lectie": 9
+        },
+        {
+          "an": 2123,
+          "varsta": 103,
+          "an_personal": 8,
+          "lectie": 0
+        },
+        {
+          "an": 2124,
+          "varsta": 104,
+          "an_personal": 9,
+          "lectie": 0
+        },
+        {
+          "an": 2125,
+          "varsta": 105,
+          "an_personal": 1,
+          "lectie": 9
+        },
+        {
+          "an": 2126,
+          "varsta": 106,
+          "an_personal": 2,
+          "lectie": 0
+        },
+        {
+          "an": 2127,
+          "varsta": 107,
+          "an_personal": 3,
+          "lectie": 9
+        },
+        {
+          "an": 2128,
+          "varsta": 108,
+          "an_personal": 4,
+          "lectie": 0
+        }
+      ],
+      "subcicluri": {
+        "status": "de_completat"
+      },
+      "ciclul_de_12_ani": [
+        {
+          "ciclu": 1,
+          "interval_varsta": "0-11"
+        },
+        {
+          "ciclu": 2,
+          "interval_varsta": "12-23"
+        },
+        {
+          "ciclu": 3,
+          "interval_varsta": "24-35"
+        },
+        {
+          "ciclu": 4,
+          "interval_varsta": "36-47"
+        },
+        {
+          "ciclu": 5,
+          "interval_varsta": "48-59"
+        },
+        {
+          "ciclu": 6,
+          "interval_varsta": "60-71"
+        },
+        {
+          "ciclu": 7,
+          "interval_varsta": "72-83"
+        },
+        {
+          "ciclu": 8,
+          "interval_varsta": "84-95"
+        },
+        {
+          "ciclu": 9,
+          "interval_varsta": "96-107"
+        },
+        {
+          "ciclu": 10,
+          "interval_varsta": "108-119"
+        }
+      ],
+      "ciclul_de_27_ani": {
+        "status": "de_completat"
+      },
+      "pinacluri": {
+        "baza": {
+          "zi_redusa": 6,
+          "luna_redusa": 3,
+          "an_redus": 4,
+          "calea_destinului": 13,
+          "destin_compus": 4,
+          "rol_destin_compus": "valoarea folosita fara reducere suplimentara la limita Pinaclului 1",
+          "formula_limita_pinaclul_1": "36 - Destinul compus"
+        },
+        "zona_confort_oportunitati": 4.5,
+        "zona_confort_provocari": 1.75,
+        "randuri": [
+          {
+            "pinaclu": 1,
+            "interval_varsta": "0-32",
+            "oportunitate": 9,
+            "provocare": 3
+          },
+          {
+            "pinaclu": 2,
+            "interval_varsta": "33-42",
+            "oportunitate": 1,
+            "provocare": 2
+          },
+          {
+            "pinaclu": 3,
+            "interval_varsta": "43-52",
+            "oportunitate": 1,
+            "provocare": 1
+          },
+          {
+            "pinaclu": 4,
+            "interval_varsta": "53+",
+            "oportunitate": 7,
+            "provocare": 1
+          }
+        ]
+      },
+      "ani_importanti_interiori_exteriori": {
+        "interiori": [
+          2024,
+          2032,
+          2039,
+          2044,
+          2045,
+          2047,
+          2051,
+          2059,
+          2066,
+          2071,
+          2072,
+          2074,
+          2078,
+          2086,
+          2093,
+          2098,
+          2099,
+          2101,
+          2105,
+          2113,
+          2120,
+          2125,
+          2126,
+          2128
+        ],
+        "exteriori": [
+          2024,
+          2032,
+          2039,
+          2053,
+          2063,
+          2074,
+          2087,
+          2104,
+          2111,
+          2116,
+          2126
+        ],
+        "observatie": "Implementare initiala pe metoda iterativa din temp/calcule/timp-si-cicluri; trebuie validata pe exemple."
+      },
+      "ani_de_criza_si_rascruce": {
+        "status": "de_completat"
+      },
+      "soarta_si_destin": {
+        "soarta": {
+          "status": "de_completat",
+          "baza_posibila": 1503,
+          "observatie": "Formula exacta pentru soarta trebuie confirmata din temp/calcule/soarta-si-destin."
+        },
+        "destin_grafic": {
+          "status": "de_completat",
+          "baza_posibila": 2020,
+          "observatie": "Template-ul mentioneaza formula ZZLL ajustat x AAAA ajustat; ajustarea trebuie finalizata."
+        }
+      }
+    },
+    "2.5_relatii": {
+      "omuletul_relatiilor": {
+        "status": "de_completat",
+        "observatie": "Necesita datele celei de-a doua persoane."
+      }
+    },
+    "2.6_spiritul": {
+      "inclinatii_profesionale": {
+        "formula_operationala": "DA = luna + suma cifrelor anului; NU = suma tuturor cifrelor datei; rezultate pastrate in intervalul 1-22",
+        "da": 7,
+        "nu": 13,
+        "calcul_da": "3 + 4 = 7 -> 7",
+        "calcul_nu": "13 -> 13"
+      },
+      "inclinatii_ezoterice": {
+        "formula": "prima cifra dupa virgula la impartirea datei compacte la 7; secundar din partea intreaga / 7",
+        "data_compacta": 15032020,
+        "cod_principal": 4,
+        "partea_intreaga": 2147431,
+        "cod_secundar": 8
+      },
+      "codul_spiritului_si_varsta_spiritului": {
+        "formula_initiala": "reducere_numerologica(ziua + luna)",
+        "cod_spirit": 9,
+        "status": "partial",
+        "observatie": "Etapele, subetapele si varsta spiritului nu sunt implementate complet in calculatorul curent."
+      },
+      "etape_si_subetape": {
+        "status": "de_completat"
+      }
+    },
+    "2.7_ajutoare": {
+      "semnatura_astrala": {
+        "status": "de_completat",
+        "observatie": "Formula trebuie extrasa si validata din documentatia de ajutoare."
+      },
+      "directiile_de_succes": {
+        "baza": 2,
+        "gen": "feminin",
+        "status": "partial",
+        "observatie": "Formula pe gen nu este implementata complet in calculatorul curent."
+      },
+      "triunghiul_financiar": {
+        "formula": "zi redusa + luna redusa + an redus + destin redus",
+        "baza": [
+          6,
+          3,
+          4,
+          4
+        ],
+        "destin": 4
+      },
+      "patratul_de_aur_3x3": {
+        "traseu": [
+          4,
+          9,
+          2,
+          3,
+          5,
+          7,
+          8,
+          1,
+          6
+        ],
+        "casute": {
+          "4": 15,
+          "9": 16,
+          "2": 17,
+          "3": 18,
+          "5": 19,
+          "7": 20,
+          "8": 21,
+          "1": 22,
+          "6": 23
+        },
+        "randuri": [
+          [
+            22,
+            15,
+            20
+          ],
+          [
+            17,
+            19,
+            21
+          ],
+          [
+            18,
+            23,
+            16
+          ]
+        ],
+        "valoare_centrala": 19,
+        "suma_control": 57
+      }
+    },
+    "2.8_sinteza_finala": {
+      "tabel_general": {
+        "status": "de_completat"
+      },
+      "grafic_general": {
+        "status": "de_completat"
+      }
+    }
+  }
+}

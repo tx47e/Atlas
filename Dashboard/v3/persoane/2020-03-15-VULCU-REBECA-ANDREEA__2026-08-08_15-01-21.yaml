@@ -18,12 +18,7 @@ preferinte_lucrare:
     start_varsta: 0
     final_varsta: 108
 intrebari: []
-relatii:
-- persoana_id: 2025-07-14-VULCU-MARC-IOAN
-  nume: Vulcu Marc Ioan
-  data_nasterii: '2025-07-14'
-  tip: frate
-  status: confirmata
+relatii: []
 metadata:
-  created_at: '2026-07-17T16:22:36+03:00'
-  updated_at: '2026-08-08T18:12:30+03:00'
+  created_at: '2026-08-08T15:01:21+03:00'
+  updated_at: '2026-08-08T15:01:21+03:00'
