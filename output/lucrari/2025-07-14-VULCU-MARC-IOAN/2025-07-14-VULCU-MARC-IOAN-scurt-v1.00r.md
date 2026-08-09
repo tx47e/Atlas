@@ -413,7 +413,7 @@ Index: VMI-20250714-v1.00r-C-010
 
 Index: VMI-20250714-v1.00r-P-030
 
-Numărul de realizare **4** te face vizibil ca persoană care poate ordona, construi și duce lucrurile către o formă concretă.
+Marc, Numărul tău de realizare este **4**, iar ceilalți te pot percepe ca pe o persoană care are nevoie de ordine, repere clare și rezultate pe care le poate vedea, atinge sau construi pas cu pas. În forma lui matură, **4** te ajută să transformi curiozitatea în rutină, jocul în exercițiu și ideile în forme concrete: un obiect construit, o regulă înțeleasă, o activitate dusă până la capăt sau un spațiu așezat mai bine. Pentru tine, realizarea nu vine prin grabă, ci prin repetare, răbdare, corp, structură și sentimentul că fiecare pas are un loc al lui. Umbra apare când ordinea devine rigiditate: poți insista ca lucrurile să se întâmple într-un singur fel, poți refuza schimbarea sau poți deveni frustrat când mediul este prea haotic. Acolo se poate frâna realizarea ta, pentru că energia se consumă în rezistență, nu în construcție. Când primești limite blânde, sarcini scurte și un ritm previzibil, **4** devine temelia prin care înveți să ai încredere în ce faci și să transformi efortul mic într-un rezultat stabil.
 
 Index: VMI-20250714-v1.00r-SUB-024
 
@@ -449,7 +449,7 @@ Index: VMI-20250714-v1.00r-C-012
 > Marc: **4193** → 17 → 8  
 > Ioan: **9615** → 21 → 3  
 > Codul literelor numelui = **4333341939615**  
-> Codul numerologic personal al numelui = **9**
+> Codul numerologic personal al numelui = 4333341939615 + 9 = **43333419396159**
 
 Index: VMI-20250714-v1.00r-G-002a
 
@@ -478,12 +478,13 @@ Index: VMI-20250714-v1.00r-SUB-026
 
 ### 6.1. Codul Spiritului și vârsta Spiritului
 
-Index: VMI-20250714-v1.00r-C-013
+Index: VMI-20250714-v1.00r-P-032a
 
-> [!example] Calcul
-> 55 − 14 − (2 × 7) = **27**  
-> Subetapa = **1 — Început de cale**  
-> Vârsta Spiritului la naștere = **4914**; la 08.08.2026 = **4915**
+Codul Spiritului se citește din ziua și luna nașterii. Pentru tine, Marc, el arată zona mare de maturizare spirituală și lecția prin care spiritul învață să își așeze experiența.
+
+Index: VMI-20250714-v1.00r-P-032b
+
+În tabel, poziția ta este la ziua **14** și luna **VII**, unde apare codul **27**.
 
 Index: VMI-20250714-v1.00r-T-017
 
@@ -521,6 +522,10 @@ Index: VMI-20250714-v1.00r-T-017
 | 30 | <span class="spirit-zone-reason">23</span> |  | <span class="spirit-zone-reason">19</span> | <span class="spirit-zone-reason">17</span> | <span class="spirit-zone-reason">15</span> | <span class="spirit-zone-love">13</span> | <span class="spirit-zone-love">11</span> | <span class="spirit-zone-love">9</span> | <span class="spirit-zone-love">7</span> | <span class="spirit-zone-love">5</span> | <span class="spirit-zone-love">3</span> | <span class="spirit-zone-love">1</span> |
 | 31 | <span class="spirit-zone-reason">22</span> |  | <span class="spirit-zone-reason">18</span> |  | <span class="spirit-zone-reason">14</span> |  | <span class="spirit-zone-love">10</span> | <span class="spirit-zone-love">8</span> |  | <span class="spirit-zone-love">4</span> |  | <span class="spirit-zone-love">0</span> |
 
+Index: VMI-20250714-v1.00r-P-033
+
+Marc, tu ai codul **27**, iar acesta arată că spiritul tău a venit să învețe în zona **Materială**. Este o etapă în care spiritul evoluează prin construcție, responsabilitate, rezultate și administrarea resurselor. Aici înveți cum energia ta interioară, curiozitatea și resursele de care dispui pot fi transformate în ceva concret, vizibil și folositor în lume. Pe scurt, spiritul tău a venit să experimenteze în această viață tot ceea ce ține de planul material și să dea formă practică potențialului pe care îl porți în interior.
+
 Index: VMI-20250714-v1.00r-T-018
 
 | Zona | Interval cod | Nivel simbolic | Teme principale |
@@ -552,9 +557,24 @@ Index: VMI-20250714-v1.00r-T-019
 </tbody>
 </table>
 
-Index: VMI-20250714-v1.00r-P-033
+Index: VMI-20250714-v1.00r-P-033a
 
-Codul **27** te așază la începutul zonei Materiale. Spiritul învață să transforme curiozitatea în obiect, construcție, rutină și rezultat folositor.
+Pentru tine, Marc, subetapa **1** se numește **Început de cale**. Asta înseamnă că tema centrală este să începi să înțelegi cine ești, ce te atrage și ce ai de făcut pe pământ, prin pași simpli, concreți și potriviți vârstei tale. Este o lecție de pornire, orientare și stabilizare: descoperi lumea prin joc, corp, obiecte, ritm, repetare și primele forme de responsabilitate.
+
+Index: VMI-20250714-v1.00r-P-033b
+
+Vârsta Spiritului arată simbolic experiența acumulată până la naștere și apoi experiența actualizată cu vârsta biologică.
+
+Index: VMI-20250714-v1.00r-C-013
+
+> [!example] Calcul
+> Vârsta la naștere = (27 × 189) - 189 = 5.103 - 189 = **4.914 ani**
+>
+> Vârsta actuală = 4.914 + 1 = **4.915 ani**
+
+Index: VMI-20250714-v1.00r-P-033c
+
+Ghidarea practică este simplă: când apare nevoia de ordine, rutină, corp, joc sau construcție, nu o trata ca pe o limitare, ci ca pe locul în care energia ta poate prinde formă. Pentru codul **27**, progresul vine când curiozitatea este așezată într-un cadru stabil, iar fiecare încercare mică devine o piesă dintr-o construcție mai mare.
 
 Index: VMI-20250714-v1.00r-SUB-027
 
