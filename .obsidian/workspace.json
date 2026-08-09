@@ -8,41 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "26c27ff1238aa976",
+            "id": "ffd1267786cfb124",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r.html#capitolul-6-spirit-si-karma-lectii-si-directii-de-maturizare"
+                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r.html#capitolul-5-numele-eu-si-neamul"
               },
               "icon": "lucide-file",
               "title": "Vulcu Marc Ioan — 14.07.2025"
             }
           },
           {
-            "id": "6ef2a092e7f8ad4d",
+            "id": "95841f36bff8a60f",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00r.html"
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Bîrsan Daniel Robert — 19.02.1998"
-            }
-          },
-          {
-            "id": "bc9f49a3711d4992",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/04-KLN-Metodica-si-Interpretari.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "04-KLN-Metodica-si-Interpretari"
+              "title": "New tab"
             }
           }
         ]
@@ -52,7 +36,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "39c5d5113cfff9e4",
+            "id": "116bf3d24ee3bed1",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
@@ -244,10 +228,23 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "39c5d5113cfff9e4",
+  "active": "116bf3d24ee3bed1",
   "lastOpenFiles": [
-    "Dashboard/v3/porneste-dashboard-v3.bat",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/04-NEK-Metodica-si-Interpretari.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/03-NEK-Calcul.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/02-NEK-Descriere.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/01-NEK-Index.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-21.md",
+    "vault/Numerologie/Vibratii/Vibratia 5/02-V5-Descriere.md",
+    "vault/Numerologie/Vibratii/Vibratia 5/03-V5-Arhetip.md",
+    "vault/Numerologie/Vibratii/Vibratia 5/04-V5-Lumina.md",
+    "vault/Numerologie/Vibratii/Vibratia 5/09-V5-Tarot.md",
+    "vault/Numerologie/Vibratii/Vibratia 5/08-V5-Exemple.md",
+    "vault/Numerologie/Vibratii/Vibratia 5/07-V5-Dezvoltare.md",
+    "vault/Numerologie/Vibratii/Vibratia 5/06-V5-Lectii.md",
+    "vault/Numerologie/Vibratii/Vibratia 5/05-V5-Umbra.md",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/04-KLN-Metodica-si-Interpretari.md",
+    "Dashboard/v3/porneste-dashboard-v3.bat",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/03-KLN-Calcul.md",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/02-KLN-Descriere.md",
     "scripts/__pycache__/render_rebeca_short_html.cpython-311.pyc",
@@ -265,7 +262,6 @@
     "output/lucrari/2025-07-14-VULCU-MARC-IOAN/tarot-16-turnul-aplicabilitate-profesionala.jpg",
     "output/lucrari/2025-07-14-VULCU-MARC-IOAN/tarot-14-cumpatarea-karma-zilei.jpg",
     "scripts/__pycache__/generate_rebeca_short.cpython-312.pyc",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r-calculator.json",
     "output/lucrari/2025-07-14-VULCU-MARC-IOAN/omulet-relatii-vulcu-marc-ioan-vulcu-rebeca-andreea.png",
     "output/lucrari/2025-07-14-VULCU-MARC-IOAN/omulet-relatii-vulcu-marc-ioan-vulcu-rebeca-andreea.svg",
     "output/lucrari/2025-07-14-VULCU-MARC-IOAN/soarta-si-destin-vulcu-marc-ioan.svg",
@@ -279,18 +275,6 @@
     "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/04-PID-Metodica-si-Interpretari.md",
     "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/03-PID-Calcul.md",
     "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/02-PID-Descriere.md",
-    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/01-PCD-Index.md",
-    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/02-PCD-Descriere.md",
-    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/03-PCD-Calcul.md",
-    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/PCD - Interpretari/01-PCDI-Index.md",
-    "output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00f.md",
-    "output/lucrari/1998-01-12-ROMAN-ANDREEA-MARIA/1998-01-12-ROMAN-ANDREEA-MARIA-scurt-v1.00f.md",
-    "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/05-VI-Exemple.md",
-    "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/04-VI-Metodica-si-Interpretari.md",
-    "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/03-VI-Calcul.md",
-    "vault/Numerologie/Vibratii Fundamentale/Vibratia Interioara/02-VI-Descriere.md",
-    "Dashboard/v3/design-qa.md",
-    "skills/numerologie-SVG-matrita-numelui/references/modele/index.md",
-    "skills/numerologie-SVG-matrita-datei-de-nastere/references/modele/index.md"
+    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/01-PCD-Index.md"
   ]
 }
