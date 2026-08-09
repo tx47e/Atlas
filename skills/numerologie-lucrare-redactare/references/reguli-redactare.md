@@ -26,8 +26,9 @@ Skill părinte: [[skills/numerologie-lucrare-redactare/SKILL|numerologie-lucrare
 1. Datele confirmate de utilizator.
 2. Iesirea JSON din `scripts/calculator_numerologic_examen.py` pentru toate valorile numerologice.
 3. Template-ul selectat din `assets/`.
-4. Lucrarile Roman Andreea Maria si Birsan Daniel Robert ca repere de stil si nivel de detaliere.
-5. Skill-urile SVG dedicate pentru diagrame, alimentate cu valorile calculatorului.
+4. Pentru template-ul `scurt`, modelul Daniel v1.00r HTML/Markdown si contractul `references/model-daniel-scurt-v1.00r-contract.md` cand utilizatorul cere `ca la Daniel`, `la fel ca Daniel`, `adu la acelasi nivel cu Daniel` sau citeaza `BDR-19980219-v1.00r-*`.
+5. Lucrarile Roman Andreea Maria si Birsan Daniel Robert ca repere de stil si nivel de detaliere.
+6. Skill-urile SVG dedicate pentru diagrame, alimentate cu valorile calculatorului.
 
 Nu copia date, rezultate sau formulari personale dintr-o lucrare in alta.
 Nu consulta documentatia numerologica pentru a recalcula sau suprascrie rezultatele calculatorului inclus.
@@ -90,6 +91,7 @@ La o regenerare ceruta `de la zero`, trateaza raportul calculatorului, Markdown-
 - Pentru template-ul `scurt`, reda `G-002` si `G-002a` ca matrice grafice 3x3 cu clasa `matrix-grid matrix-grid-outlined`; fiecare dintre cele noua casute foloseste geometrie SVG calculata din cantitatea cifrei. Nu le converti in tabele Markdown obisnuite.
 - La sase aparitii foloseste o hexagrama redusa din doua triunghiuri echilaterale concentrice si opuse. Bazele triunghiurilor traverseaza interiorul hexagramei, astfel incat varfurile de sus si de jos sa ramana clare, nu aplatizate ca intr-o clepsidra. Pastreaza toate cele sase varfuri si grosimea conturului vizibile, cu margine de siguranta fata de viewport-ul SVG si casuta `matrix-geom`.
 - La Codul numerologic al numelui, elimina tabelele vechi `T-001` si `T-002`. Reda fiecare componenta a numelui pe rand separat in chenarul `C`, afiseaza Codul literelor si Codul numerologic personal pe randuri distincte, apoi matricea comparativa `G-002a` si interpretarile aferente.
+- Formula obligatorie este `Codul numerologic personal al numelui = Codul literelor numelui + Numarul de exprimare`. Nu folosi doar suma literelor drept cod personal al numelui si nu omite randul separat pentru `Codul literelor numelui`.
 - In HTML, tabelul Ciclului de 7 ani foloseste o clasa dedicata. Se reduce numai tipografia antetului; corpul isi pastreaza fontul, iar latimea minima rigida nu trebuie sa provoace bara orizontala pe desktop.
 - In introducerea Matricei datei de nastere, reda cele noua sfere de inteligenta ca lista cu bullet-uri sub acelasi index: psihica, emotionala, prelucrarea informatiilor, corporala, intuitiva, pragmatism, spirituala, putere si sociala, mentala.
 - Pentru `T-012` si graficul par-impar foloseste acelasi panou ca `G-004`: fundal crem deschis, contur auriu, raza de `5px` si umbra discreta. Graficul par-impar se intinde pe toata latimea utila.
