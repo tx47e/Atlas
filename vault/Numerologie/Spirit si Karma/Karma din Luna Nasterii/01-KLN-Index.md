@@ -16,4 +16,4 @@ tags:
 2. [[03-KLN-Calcul|Calcul]]
 3. [[04-KLN-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-KLN-Exemple|Exemple]]
-5. [[01-KLNI-Index|Interpretari predefinite]]
+5. [[KLN - Interpretari/01-KLNI-Index|Interpretari predefinite]]

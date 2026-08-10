@@ -16,3 +16,4 @@ tags:
 2. [[03-NEK-Calcul|Calcul]]
 3. [[04-NEK-Metodica-si-Interpretari|Metodica si interpretari]]
 4. [[05-NEK-Exemple|Exemple]]
+5. [[NEK - Interpretari/01-NEKI-Index|Interpretari predefinite]]

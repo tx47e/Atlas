@@ -13,6 +13,13 @@ sursa: '[[vault/Numerologie/Nume/Numarul Ereditar Karmic/01-NEK-Index|Numarul Ne
 
 ## Interpretare generala
 
+Tabelul de mai jos este orientativ si identifica tema de baza a fiecarui neam.
+Pentru redactarea lucrarii se folosesc interpretarile predefinite din
+[[NEK - Interpretari/01-NEKI-Index|indexul interpretarilor Numarului Ereditar Karmic]].
+
+Textul interpretarii se preia 1 la 1 din fisierul corespunzator valorii calculate,
+fara rescriere, adaptare sau sinteza libera.
+
 | Numar | Neam / tema                                                  |
 | ----- | ------------------------------------------------------------ |
 | 1     | Invatatorii elitisti; acumularea si transmiterea cunoasterii |
@@ -45,4 +52,6 @@ sursa: '[[vault/Numerologie/Nume/Numarul Ereditar Karmic/01-NEK-Index|Numarul Ne
 - Daca exista nume anterior si nume actual, se calculeaza ambele.
 - Numele anterior pastreaza neamul de origine.
 - Numele actual arata neamul social si familial activ.
-- Interpretarile traditionale se adapteaza la limbaj modern in raportul final.
+- Interpretarea finala se preia din [[NEK - Interpretari/01-NEKI-Index|textele predefinite]].
+- Pentru fiecare valoare se foloseste fisierul `NEKI-NN-[valoare].md`.
+- Textul din fisierul de interpretare se copiaza in lucrare 1 la 1.

@@ -6,27 +6,18 @@
       {
         "id": "019b5b64964737cd",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "ffd1267786cfb124",
+            "id": "73190ecd80a91d92",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r.html#capitolul-5-numele-eu-si-neamul"
+                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r.html"
               },
               "icon": "lucide-file",
               "title": "Vulcu Marc Ioan — 14.07.2025"
-            }
-          },
-          {
-            "id": "95841f36bff8a60f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
             }
           }
         ]
@@ -34,17 +25,18 @@
       {
         "id": "0e04cded7104e8f7",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "116bf3d24ee3bed1",
+            "id": "435022eb8fe2c8cf",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/2020-03-15-VULCU-REBECA-ANDREEA-scurt-v1.00r.html#capitolul-6-spirit-si-karma-lectii-si-directii-de-maturizare"
+                "url": "file:///C:/Users/Mihai/Documents/Atlas/output/lucrari/2021-05-08-VULCU-DOMINIC-IOAN/2021-05-08-VULCU-DOMINIC-IOAN-scurt-v1.00r.html#capitolul-9-relatii"
               },
               "icon": "lucide-file",
-              "title": "Vulcu Rebeca Andreea — 15.03.2020"
+              "title": "Vulcu Dominic Ioan — 08.05.2021"
             }
           }
         ]
@@ -228,53 +220,53 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "116bf3d24ee3bed1",
+  "active": "435022eb8fe2c8cf",
   "lastOpenFiles": [
-    "vault/Numerologie/Nume/Numarul Ereditar Karmic/04-NEK-Metodica-si-Interpretari.md",
-    "vault/Numerologie/Nume/Numarul Ereditar Karmic/03-NEK-Calcul.md",
-    "vault/Numerologie/Nume/Numarul Ereditar Karmic/02-NEK-Descriere.md",
-    "vault/Numerologie/Nume/Numarul Ereditar Karmic/01-NEK-Index.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Calea Destinului/KCD - Interpretari/KCDI-NN-21.md",
-    "vault/Numerologie/Vibratii/Vibratia 5/02-V5-Descriere.md",
-    "vault/Numerologie/Vibratii/Vibratia 5/03-V5-Arhetip.md",
-    "vault/Numerologie/Vibratii/Vibratia 5/04-V5-Lumina.md",
-    "vault/Numerologie/Vibratii/Vibratia 5/09-V5-Tarot.md",
-    "vault/Numerologie/Vibratii/Vibratia 5/08-V5-Exemple.md",
-    "vault/Numerologie/Vibratii/Vibratia 5/07-V5-Dezvoltare.md",
-    "vault/Numerologie/Vibratii/Vibratia 5/06-V5-Lectii.md",
-    "vault/Numerologie/Vibratii/Vibratia 5/05-V5-Umbra.md",
+    "scripts/__pycache__/generate_vulcu_docolin_short_html.cpython-311.pyc",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-8.md",
+    "output/lucrari/2023-03-17-VULCU-VICTOR-DANIEL/omulet-relatii-vulcu-dominic-ioan-vulcu-victor-daniel.png",
+    "scripts/__pycache__/generate_vulcu_docolin_short_html.cpython-312.pyc",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-12.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-11.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-10.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-9.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-7.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-6.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-5.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-4.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-3.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-2.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-1.md",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/04-KLN-Metodica-si-Interpretari.md",
-    "Dashboard/v3/porneste-dashboard-v3.bat",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/03-KLN-Calcul.md",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/02-KLN-Descriere.md",
-    "scripts/__pycache__/render_rebeca_short_html.cpython-311.pyc",
-    "scripts/__pycache__/generate_rebeca_short.cpython-311.pyc",
-    "scripts/__pycache__/generate_marc_short.cpython-312.pyc",
-    "skills/numerologie-SVG-matrita-numelui/scripts/__pycache__/generate_matrita_numelui.cpython-312.pyc",
-    "skills/numerologie-SVG-matrita-datei-de-nastere/scripts/__pycache__/generate_matrita_datei_de_nastere.cpython-312.pyc",
-    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/omulet-relatii-vulcu-rebeca-andreea-vulcu-marc-ioan.png",
-    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/omulet-relatii-vulcu-rebeca-andreea-vulcu-marc-ioan.svg",
-    "scripts/update_rebeca_sibling_relation.py",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r.html",
-    "scripts/__pycache__/render_rebeca_short_html.cpython-312.pyc",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00r.md",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/tarot-21-lumea-karma-destin-si-obstacole.jpg",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/tarot-16-turnul-aplicabilitate-profesionala.jpg",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/tarot-14-cumpatarea-karma-zilei.jpg",
-    "scripts/__pycache__/generate_rebeca_short.cpython-312.pyc",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/omulet-relatii-vulcu-marc-ioan-vulcu-rebeca-andreea.png",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/omulet-relatii-vulcu-marc-ioan-vulcu-rebeca-andreea.svg",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/soarta-si-destin-vulcu-marc-ioan.svg",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/matrita-numelui-vulcu-marc-ioan.svg",
-    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/matrita-datei-vulcu-marc-ioan.svg",
-    "skills/numerologie-lucrare-redactare/references/contracte-tabele-scurt.md",
-    "vault/Numerologie/Ciclicitati/Lectii de Viata/05-LV-Exemple.md",
-    "vault/Numerologie/Ciclicitati/Lectii de Viata/03-LV-Calcul.md",
-    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/05-PID-Exemple.md",
-    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/2020-03-15-VULCU-REBECA-ANDREEA-scurt-v1.00r.md",
-    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/04-PID-Metodica-si-Interpretari.md",
-    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/03-PID-Calcul.md",
-    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Interior-Destin/02-PID-Descriere.md",
-    "vault/Numerologie/Vibratii Fundamentale/Punti/Puntea Cosmic-Destin/01-PCD-Index.md"
+    "vault/Numerologie/Spirit si Karma/Karma din Ziua Nasterii/KZN - Interpretari/01-KZNI-Index.md",
+    "scripts/__pycache__/render_dominic_from_rebeca_short_html.cpython-312.pyc",
+    "scripts/__pycache__/generate_dominic_from_rebeca_short.cpython-312.pyc",
+    "output/lucrari/2021-05-08-VULCU-DOMINIC-IOAN/omulet-relatii-vulcu-dominic-ioan-vulcu-victor-daniel.png",
+    "output/lucrari/2021-05-08-VULCU-DOMINIC-IOAN/omulet-relatii-vulcu-dominic-ioan-vulcu-victor-daniel.svg",
+    "scripts/__pycache__/render_dominic_from_rebeca_short_html.cpython-311.pyc",
+    "scripts/__pycache__/generate_dominic_from_rebeca_short.cpython-311.pyc",
+    "scripts/render_dominic_from_rebeca_short_html.py",
+    "scripts/generate_dominic_from_rebeca_short.py",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-1.md",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/2026-03-05-DOCOLIN-INGRID-PETRA-scurt-v1.00r.html",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/tarot-14-cumpatarea-numarul-ereditar-karmic.jpg",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/tarot-18-luna-obstacol-profesional.jpg",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/tarot-13-moartea-aplicabilitate-profesionala.jpg",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/tarot-18-luna-karma-calea-destinului.jpg",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/tarot-05-marele-preot-karma-zilei.jpg",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/soarta-si-destin-docolin-ingrid-petra.svg",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/matrita-numelui-docolin-ingrid-petra.svg",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/2026-03-05-DOCOLIN-INGRID-PETRA-scurt-v1.00r-calculator.json",
+    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-2.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-3.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-4.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-5.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-6.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-7.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-8.md",
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-9.md"
   ]
 }
