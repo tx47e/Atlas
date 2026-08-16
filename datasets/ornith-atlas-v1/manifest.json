@@ -1,0 +1,49 @@
+{
+  "name": "ornith-atlas-v1",
+  "created_at": "2026-08-11",
+  "target_model": "unsloth/Ornith-1.0-9B",
+  "training_type": "SFT/LoRA",
+  "format": "ChatML JSONL with messages plus metadata",
+  "purpose": "Asistent Atlas Numerologie cu interpretări pentru toate valorile calculate",
+  "counts": {
+    "train": 400,
+    "validation": 63,
+    "test": 55
+  },
+  "total_examples": 518,
+  "topics": {
+    "atlas_numerologie": 190,
+    "matrice": 14,
+    "nume": 66,
+    "nume_nek": 26,
+    "relational": 7,
+    "rules_negative_cases": 5,
+    "spirit_karma_kcd": 56,
+    "temporal": 42,
+    "vibratii_fundamentale": 112
+  },
+  "sources": {
+    "approved_report": 51,
+    "calculator": 178,
+    "skill_rules": 5,
+    "vault": 284
+  },
+  "anonymization": {
+    "names": "replaced with stable placeholders",
+    "dates": "date-like strings in report/vault prose replaced; calculator examples keep validated values without exposing full identity",
+    "media": "images and embeds removed from dataset rows"
+  },
+  "source_globs": {
+    "calculator": "output/lucrari/**/*calculator.json",
+    "reports": "output/lucrari/**/*.md",
+    "vault": "vault/Numerologie/**/*.md"
+  },
+  "validation_rules": [
+    "valid JSONL",
+    "messages must contain system, user and assistant roles",
+    "calculator-grounded examples must include calculation and interpretation sections",
+    "do not reduce compound values unless the method explicitly requires an interpretation digit",
+    "no mojibake markers",
+    "no invented relational data"
+  ]
+}

@@ -6,7 +6,6 @@
       {
         "id": "019b5b64964737cd",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "73190ecd80a91d92",
@@ -19,14 +18,7 @@
               "icon": "lucide-file",
               "title": "Vulcu Marc Ioan — 14.07.2025"
             }
-          }
-        ]
-      },
-      {
-        "id": "0e04cded7104e8f7",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
+          },
           {
             "id": "435022eb8fe2c8cf",
             "type": "leaf",
@@ -37,6 +29,25 @@
               },
               "icon": "lucide-file",
               "title": "Vulcu Dominic Ioan — 08.05.2021"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "cb4c7d593494283e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a43d5ea80adbefa",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "file:///C:\\Users\\Mihai\\Documents\\Atlas/output/lucrari/1998-02-19-BIRSAN-DANIEL-ROBERT/1998-02-19-BIRSAN-DANIEL-ROBERT-scurt-v1.00f.html"
+              },
+              "icon": "lucide-file",
+              "title": "Bîrsan Daniel Robert — 19.02.1998"
             }
           }
         ]
@@ -220,8 +231,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "435022eb8fe2c8cf",
+  "active": "c1cd69e380e73c87",
   "lastOpenFiles": [
+    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/2020-03-15-VULCU-REBECA-ANDREEA.html",
+    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/2020-03-15-VULCU-REBECA-ANDREEA-scurt-v1.00f - Copy.html",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00f.html",
+    "output/lucrari/2025-07-14-VULCU-MARC-IOAN/2025-07-14-VULCU-MARC-IOAN-scurt-v1.00f.md",
+    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/2020-03-15-VULCU-REBECA-ANDREEA-scurt-v1.00f.html",
+    "output/lucrari/2020-03-15-VULCU-REBECA-ANDREEA/2020-03-15-VULCU-REBECA-ANDREEA-scurt-v1.00f.md",
+    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-3.md",
     "scripts/__pycache__/generate_vulcu_docolin_short_html.cpython-311.pyc",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-8.md",
     "output/lucrari/2023-03-17-VULCU-VICTOR-DANIEL/omulet-relatii-vulcu-dominic-ioan-vulcu-victor-daniel.png",
@@ -234,7 +252,6 @@
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-6.md",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-5.md",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-4.md",
-    "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-3.md",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-2.md",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/KLN - Interpretari/KLNI-LL-1.md",
     "vault/Numerologie/Spirit si Karma/Karma din Luna Nasterii/04-KLN-Metodica-si-Interpretari.md",
@@ -248,9 +265,7 @@
     "scripts/__pycache__/render_dominic_from_rebeca_short_html.cpython-311.pyc",
     "scripts/__pycache__/generate_dominic_from_rebeca_short.cpython-311.pyc",
     "scripts/render_dominic_from_rebeca_short_html.py",
-    "scripts/generate_dominic_from_rebeca_short.py",
     "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-1.md",
-    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/2026-03-05-DOCOLIN-INGRID-PETRA-scurt-v1.00r.html",
     "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/tarot-14-cumpatarea-numarul-ereditar-karmic.jpg",
     "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/tarot-18-luna-obstacol-profesional.jpg",
     "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/tarot-13-moartea-aplicabilitate-profesionala.jpg",
@@ -258,15 +273,11 @@
     "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/tarot-05-marele-preot-karma-zilei.jpg",
     "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/soarta-si-destin-docolin-ingrid-petra.svg",
     "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/matrita-numelui-docolin-ingrid-petra.svg",
-    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA/2026-03-05-DOCOLIN-INGRID-PETRA-scurt-v1.00r-calculator.json",
-    "output/lucrari/2026-03-05-DOCOLIN-INGRID-PETRA",
     "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-2.md",
     "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-3.md",
     "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-4.md",
     "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-5.md",
     "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-6.md",
-    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-7.md",
-    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-8.md",
-    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-9.md"
+    "vault/Numerologie/Nume/Numarul Ereditar Karmic/NEK - Interpretari/NEKI-NN-7.md"
   ]
 }

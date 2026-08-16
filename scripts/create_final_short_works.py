@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-FINAL_WORK_DATE = "02.08.2026"
+FINAL_WORK_DATE = "13.08.2026"
 FINAL_PAPER_CSS = r"""
 /* final-paper-texture: patina organica, fara pattern liniar repetitiv */
 body {
@@ -76,10 +76,16 @@ WORKS = (
         birth_date="12.01.1998",
     ),
     Work(
-        folder="1998-02-19-BIRSAN-DANIEL-ROBERT",
-        stem="1998-02-19-BIRSAN-DANIEL-ROBERT",
-        full_name="Bîrsan Daniel Robert",
-        birth_date="19.02.1998",
+        folder="2020-03-15-VULCU-REBECA-ANDREEA",
+        stem="2020-03-15-VULCU-REBECA-ANDREEA",
+        full_name="Vulcu Rebeca Andreea",
+        birth_date="15.03.2020",
+    ),
+    Work(
+        folder="2025-07-14-VULCU-MARC-IOAN",
+        stem="2025-07-14-VULCU-MARC-IOAN",
+        full_name="Vulcu Marc Ioan",
+        birth_date="14.07.2025",
     ),
 )
 
@@ -252,8 +258,26 @@ def validate_final(work: Work, revision_html: str, md: str, html: str) -> None:
         failures.append("textura finală de hârtie nu este aplicată corect")
     if "status: final" not in md or re.search(r"(?mi)^versiune:", md):
         failures.append("frontmatterul final este incorect")
+    if re.search(r"(?i)v1\.00r", md) or re.search(r"(?i)v1\.00r", html):
+        failures.append("versiunea-sursă a rămas în livrabilul final")
+    if len(re.findall(r"(?m)^## Capitolul \d+\.", md)) != 11:
+        failures.append("Markdown-ul final nu conține exact 11 capitole")
+    if len(re.findall(r'<h2 id="capitolul-\d+-', html)) != 11:
+        failures.append("HTML-ul final nu conține exact 11 capitole")
+    ids = re.findall(r'\bid="([^"]+)"', html)
+    duplicate_ids = sorted({element_id for element_id in ids if ids.count(element_id) > 1})
+    if duplicate_ids:
+        failures.append(f"ID-uri HTML duplicate: {', '.join(duplicate_ids)}")
+    broken_anchors = sorted(
+        {anchor for anchor in re.findall(r'href="#([^"]+)"', html) if anchor not in ids}
+    )
+    if broken_anchors:
+        failures.append(f"ancore HTML fără țintă: {', '.join(broken_anchors)}")
     if html.count("data:image/") != revision_html.count("data:image/"):
         failures.append("numărul imaginilor integrate diferă față de revizie")
+    revision_without_documentation = DOCUMENTATION_HTML.sub("</main>", revision_html)
+    if html.count("<table") != revision_without_documentation.count("<table"):
+        failures.append("numărul tabelelor de conținut diferă față de revizie")
     relative_images = re.findall(r'<img\b[^>]*\bsrc="(?!data:)[^"]+"', html, re.I)
     if relative_images:
         failures.append("HTML-ul final conține imagini relative")

@@ -270,16 +270,20 @@ def spirit_code_html(day: int, month: int) -> str:
 
     romans = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
     month_lengths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    rows = ["<table class=\"spirit-code-table\"><thead><tr><th>Ziua</th>" + "".join(f"<th>{m}</th>" for m in romans) + "</tr></thead><tbody>"]
+    rows = [
+        '<table class="spirit-code-table"><thead><tr><th>Ziua</th>'
+        + "".join(f'<th align="right">{m}</th>' for m in romans)
+        + "</tr></thead><tbody>"
+    ]
     for d in range(1, 32):
-        cells = [f"<th>{d}</th>"]
+        cells = [f"<td>{d}</td>"]
         for m in range(1, 13):
             if d > month_lengths[m - 1]:
-                cells.append("<td></td>")
+                cells.append('<td align="right"></td>')
                 continue
             code = 55 - d - 2 * m
             cls = "spirit-cell-highlight" if (d == day and m == month) else zone_class(code)
-            cells.append(f'<td><span class="{cls}">{code}</span></td>')
+            cells.append(f'<td align="right"><span class="{cls}">{code}</span></td>')
         rows.append("<tr>" + "".join(cells) + "</tr>")
     rows.append("</tbody></table>")
     return "".join(rows)
@@ -436,9 +440,9 @@ def generate_html(person: dict[str, str], report: dict, out_dir: Path, prefix: s
         f"""
 {idx("P-026")}<p>Codul Spiritului aseaza ziua si luna intr-o harta simbolica a maturizarii. Pentru tine, pozitia reala este ziua {b(day)} si luna {b(month)}, unde apare codul {b(spirit["code"])}.</p>
 {idx("T-017")}<div class="table-wrap spirit-code-wrap">{spirit_code_table_html}</div>
-{idx("T-018")}{html_table(["Zona", "Interval cod", "Nivel simbolic", "Teme principale"], [["Iubire", "1-13", "0-2.500 ani", "relatii, emotii, compasiune"], ["Ratiune", "14-26", "2.500-5.000 ani", "discernamant, minte, structura"], ["Material", "27-39", "5.000-7.500 ani", "constructie, resurse, responsabilitate"], ["Haruri", "40-52", "7.500-10.000 ani", "intuitie, ghidare, intelepciune"]])}
-{idx("T-019")}{spirit_stage_table}
-{idx("C-012")}<aside class="callout example"><strong>Varsta Spiritului</strong><br>Varsta la nastere = {b(spirit["birth_age"])}<br>Varsta actuala = {b(spirit["current_age"])}</aside>
+{idx("T-018")}<div class="table-wrap"><table class="spirit-zones-table"><thead><tr><th>Zona</th><th>Interval cod</th><th>Nivel simbolic</th><th>Teme principale</th></tr></thead><tbody><tr><td class="zone-cell zone-love"><span class="zone-badge">Iubire</span></td><td>1-13</td><td>0-2.500 ani</td><td>relații, emoții, atașamente, compasiune, vulnerabilitate</td></tr><tr><td class="zone-cell zone-reason"><span class="zone-badge">Rațiune</span></td><td>14-26</td><td>2.500-5.000 ani</td><td>logică, discernământ, structură, analiză, minte</td></tr><tr><td class="zone-cell zone-material"><span class="zone-badge">Material</span></td><td>27-39</td><td>5.000-7.500 ani</td><td>bani, construcție, putere, manifestare, responsabilitate</td></tr><tr><td class="zone-cell zone-gifts"><span class="zone-badge">Haruri</span></td><td>40-52</td><td>7.500-10.000 ani</td><td>înțelepciune, haruri spirituale, ghidare, serviciu, intuiție</td></tr></tbody></table></div>
+{idx("T-019")}<div class="table-wrap">{spirit_stage_table}</div>
+{idx("C-003d")}<aside class="callout example"><p><strong>Calcul</strong><br>Vârsta la naștere = ({spirit["code"]} − 1) × 189 = {b(spirit["birth_age"])}</p><p>Vârsta actuală = {spirit["birth_age"]} + {years_old} = {b(spirit["current_age"])}</p></aside>
 {idx("P-027")}<p>Subetapa {b(spirit["substage"])} cere o forma concreta de invatare. Pentru varsta actuala, recomandarea este sa primesti contexte sigure, ritm repetabil si oameni care explica, nu doar cer rezultat.</p>
 {idx("P-028")}<p>Karma zilei este citita prin Arcana {b(k_day_number)} - {html.escape(k_day_name)}, cu procentul {html.escape(base["vibratia_interioara_karmica"]["procent"])}. Ea descrie simbolic o lectie de maturizare, nu un fapt verificabil despre trecut.</p>
 {idx("G-003")}<figure><img src="{data_uri(k_day_img)}" alt="Arcana {k_day_number} - {html.escape(k_day_name)}"><figcaption>Arcana {b(k_day_number)} - {html.escape(k_day_name)}. Karma din ziua de nastere</figcaption></figure>
@@ -493,13 +497,6 @@ def generate_html(person: dict[str, str], report: dict, out_dir: Path, prefix: s
     body = "\n".join(sections)
     model = MODEL_HTML.read_text(encoding="utf-8")
     css = re.search(r"<style>(.*?)</style>", model, re.S).group(1)
-    css += """
-blockquote{padding:14px 18px;margin:16px 0;background:linear-gradient(100deg,rgba(239,224,189,.72),rgba(255,248,232,.84));border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:0 5px 5px 0}
-figure{margin:18px 0;text-align:center}figcaption{text-align:center;color:var(--muted);font-style:italic;margin-top:8px}
-figure img,td img{max-width:220px;border-radius:5px;border:1px solid var(--line)}
-.matrix-grid{margin:18px auto}.wellbeing-chart{margin:18px 0}
-.active-cycle-cell{color:#b3261e;font-weight:700}.idx{color:#7a5d30;font-size:12px;margin-top:16px}
-"""
     document = f"""<!doctype html>
 <html lang="ro">
 <head>
@@ -525,7 +522,45 @@ def replace_indexed_paragraph(text: str, prefix: str, suffix: str, body: str) ->
     return updated
 
 
-def matrix_interpretation(digit: int, count: int) -> str | None:
+def replace_indexed_paragraphs(text: str, prefix: str, suffix: str, bodies: list[str]) -> str:
+    pattern = rf'(<div class="idx">Index: {re.escape(prefix)}-{re.escape(suffix)}</div>)<p>.*?</p>'
+    paragraphs = "".join(f"<p>{body}</p>" for body in bodies)
+    updated, count = re.subn(pattern, lambda match: match.group(1) + paragraphs, text, count=1, flags=re.S)
+    if count != 1:
+        raise RuntimeError(f"Paragraful {prefix}-{suffix} nu a fost găsit o singură dată: {count}")
+    return updated
+
+
+def matrix_interpretation(digit: int, count: int, prefix: str) -> str | None:
+    victor = {
+        (1, 3): "<strong>Căsuța 1.</strong> Reprezintă psihicul, voința, inițiativa și felul în care îți afirmi propria direcție. Ai <strong>3</strong> apariții în căsuța cifrei <strong>1</strong>, ceea ce arată o energie psihică activă, mobilă și orientată spre exprimare. Poți porni repede, poți susține ceea ce îți dorești și poți transmite multă hotărâre celor din jur. Ai nevoie să fii ascultat și să simți că ideile tale au loc, iar când mediul îți oferă alegeri potrivite vârstei poți deveni curajos, inventiv și foarte implicat. Umbra apare când impulsul de a conduce se transformă în grabă, încăpățânare sau reacție puternică la limite. Uneori poți insista înainte să auzi până la capăt ce ți se spune ori poți consuma multă energie încercând să îți impui ritmul. Maturizarea acestei căsuțe înseamnă să înveți să ceri clar, să asculți răspunsul și să folosești inițiativa pentru a mobiliza și a construi, nu pentru a ocupa tot spațiul deciziei.",
+        (2, 2): "<strong>Căsuța 2.</strong> Reprezintă emoțiile, trăirile, comunicarea, bioenergia, spiritul de colaborare și parteneriatul. Ai <strong>2</strong> apariții în căsuța cifrei <strong>2</strong>. Sensibilitatea și capacitatea de a lucra cu celălalt sunt prezente, dar au nevoie de aport extern și exercițiu pentru a rămâne stabile. Fiind un număr par de apariții, energia poate circula în ambele sensuri: poți primi și poți da mai departe sprijin emoțional, însă în anumite situații poate apărea indecizia. Pentru tine, maturizarea acestei căsuțe înseamnă să numești clar ceea ce simți, să întrebi direct ce are nevoie celălalt și să alegi după dialog, fără să rămâi blocat între două variante.",
+        (3, 2): "<strong>Căsuța 3.</strong> Ai <strong>2</strong> apariții în căsuța cifrei <strong>3</strong>, ceea ce arată că ești capabil atât să primești informația, cât și să o prelucrezi și să o dai mai departe într-o formă accesibilă celorlalți. Poți avea abilități foarte bune de mentor sau dascăl, mai ales atunci când faci legătura dintre idei, extragi esența și o explici clar. Cele <strong>2</strong> apariții pot aduce însă și nehotărâre în raport cu informația: poți acumula foarte mult, poți oscila între mai multe interpretări sau poți amâna alegerea unei direcții. Pentru a echilibra această energie, te ajută să selectezi informațiile esențiale, să le organizezi și să hotărăști ce merită aplicat sau transmis. Altfel, există riscul să te împrăștii în prea multe direcții și să risipești energia înainte ca ideile să devină rezultate. Cu cât îți ordonezi mai bine informația și iei decizii mai ferme, cu atât această căsuță îți susține mai puternic comunicarea, relațiile și capacitatea de a-i ghida pe ceilalți.",
+        (3, 1): "<strong>Căsuța 3.</strong> Ai <strong>1</strong> apariție. Relațiile și prelucrarea informației sunt disponibile, dar au nevoie de focalizare. Curiozitatea te ajută să cercetezi; maturizarea apare când selectezi esențialul și îl transmiți fără să te risipești.",
+        (4, 0): "<strong>Căsuța 4.</strong> Reprezintă corpul fizic, sănătatea, spiritul practic, orientarea spre rezultate concrete, organizarea, cadrul, trăinicia, statornicia și temeinicia. În matricea ta nu ai nicio apariție în căsuța cifrei <strong>4</strong>, ceea ce arată că această energie este conservată: nu o poți accesa întotdeauna când dorești și în aceeași măsură. Pot exista perioade în care te simți foarte sănătos și rezistent, dar și momente în care chiar o răceală ușoară te poate solicita mai mult decât te-ai aștepta. Energia poate oscila între „foarte mult” și „foarte puțin”, iar aceeași alternanță se poate vedea în organizare, disciplină și consecvență. Pentru a echilibra această căsuță, te ajută să ai planuri clare, un program stabil și obiceiuri pe care le respecți chiar și atunci când nu simți presiunea imediată a rezultatului. Acordă atenție constantă sănătății, somnului și alimentației și introdu mișcarea sau sportul în rutina ta, într-un ritm regulat și potrivit corpului tău.",
+        (5, 0): "<strong>Căsuța 5.</strong> Reprezintă libertatea, stima de sine, imunitatea sistemică, nonconformismul — ieșirea din pătrat — spiritul de aventură, oportunismul și curajul. În matricea ta nu ai nicio apariție în căsuța cifrei <strong>5</strong>, ceea ce arată că această energie este conservată și poate fi activată prin factori externi. Aceștia pot fi oamenii care te susțin să îți construiești încrederea în tine sau conjuncturile care te provoacă să îți depășești limitele, să ieși din tipare și să îți ridici stima de sine. De-a lungul vieții, te ajută să încerci roluri diferite și să intri conștient în contexte în care îți exersezi curajul, libertatea de alegere și capacitatea de adaptare. Este la fel de important să te înconjori de oameni care îți recunosc potențialul și te încurajează să crești, nu de persoane care îți micșorează încrederea. Cu cât îți alegi mai bine mediul și experiențele, cu atât energia lui <strong>5</strong> te ajută să ieși din „pătrat” și să îți construiești o libertate autentică, susținută de încredere în tine.",
+        (5, 1): "<strong>Căsuța 5.</strong> Ai <strong>1</strong> apariție în căsuța cifrei <strong>5</strong>. Libertatea, curajul, adaptarea și dorința de experiențe noi sunt accesibile, dar trebuie educate cu măsură. Umbra este confundarea libertății cu lipsa limitelor; maturizarea apare prin alegeri asumate și revenirea la un punct stabil după fiecare explorare.",
+        (7, 0): "<strong>Căsuța 7.</strong> Nu ai apariții. Analiza profundă, răbdarea și înțelepciunea sunt energii conservate. Ele se construiesc prin studiu, repaus, natură, întrebări bune și experiențe care te ajută să încetinești înainte de a răspunde.",
+        (6, 1): "<strong>Căsuța 6.</strong> Reprezintă iubirea ca ocrotire, instinctele, arta, realismul și pragmatismul. Ai <strong>1</strong> apariție în căsuța cifrei <strong>6</strong>, ceea ce îți oferă acces la grija exprimată prin gesturi concrete și la capacitatea de a transforma o idee într-un lucru folositor. Poți arăta afecțiunea ajutând, construind, reparând sau participând la ceea ce face familia, mai ales când sarcina este clară și rezultatul poate fi văzut. Umbra apare când grija devine posesivitate, când vrei să faci lucrurile numai în felul tău ori când interesul pentru rezultat scade în fața părții repetitive a muncii. Maturizarea acestei căsuțe se construiește prin responsabilități mici, activități artistice și practice, ordine în obiectele proprii și învățarea diferenței dintre a ocroti pe cineva și a prelua totul în locul lui.",
+        (7, 2): "<strong>Căsuța 7.</strong> Reprezintă observația, analiza, studiul, experimentarea și capacitatea de a găsi sensul din spatele unei experiențe. Ai <strong>2</strong> apariții în căsuța cifrei <strong>7</strong>, ceea ce face această energie activă în ambele sensuri: poți primi idei și repere din mediul apropiat, apoi le poți întoarce sub formă de întrebări, concluzii sau soluții proprii. Poți observa detalii pe care alții le trec cu vederea și poți avea nevoie să înțelegi de ce funcționează un lucru, nu doar să accepți regula. Cele <strong>2</strong> apariții pot aduce însă și oscilație între încredere și îndoială, între dorința de a cerceta și retragerea prea lungă în propriile gânduri. Maturizarea apare când timpul de liniște este urmat de verificare, dialog și experiment concret. Studiul, natura, jocurile de strategie și întrebările la care cauți răspuns pas cu pas transformă analiza în înțelepciune practică, fără izolare sau supragândire.",
+        (8, 1): "<strong>Căsuța 8.</strong> Reprezintă puterea, responsabilitatea, spiritul de sacrificiu, elitismul, măiestria — performanța — ambiția, succesul în afaceri și în poziții de putere, precum și patriotismul. Ai <strong>1</strong> apariție în căsuța cifrei <strong>8</strong>. Această energie te ajută să gestionezi responsabilitatea și rezultatul, atât timp cât rămâi echitabil și nu preiei mai mult decât îți aparține.",
+        (9, 1): "<strong>Căsuța 9.</strong> Reprezintă inteligența mentală, memoria, compasiunea, învățarea, finalizarea și capacitatea de transformare. Ai <strong>1</strong> apariție în căsuța cifrei <strong>9</strong>, ceea ce îți oferă acces la înțelegerea de ansamblu și la legarea experiențelor într-o concluzie. Poți învăța bine atunci când informația are sens, este asociată unei povești și poate fi folosită într-o situație reală. Umbra apare când imaginea mare te face să treci prea repede peste detalii sau când o concluzie intuită nu este verificată. Îți dezvolți această energie prin lectură, conversație, recapitulare, proiecte duse până la capăt și exercițiul de a spune nu doar ce ai înțeles, ci și pe ce observații se bazează.",
+    }
+    if prefix.startswith("VVD-"):
+        return victor.get((digit, count))
+    ingrid = {
+        (1, 1): "<strong>Căsuța 1.</strong> Reprezintă psihicul, voința, inițiativa și felul în care îți afirmi propria direcție. Ai <strong>1</strong> apariție în căsuța cifrei <strong>1</strong>, ceea ce îți oferă acces direct la această energie, dar cere experiență și exercițiu pentru a deveni stabilă. Pe măsură ce crești, poți arăta inițiativă atunci când înțelegi ce ai de făcut și simți că ai un spațiu sigur în care să încerci. Resursa este capacitatea de a porni, de a spune ce îți dorești și de a susține o alegere fără să ai nevoie să controlezi întregul context. Umbra poate fi alternanța dintre curaj și retragere, reacția puternică atunci când nu ești înțeleasă sau renunțarea când primul impuls nu primește răspuns. Maturizarea acestei căsuțe se construiește prin alegeri simple, sarcini potrivite vârstei, încurajarea inițiativei și învățarea răbdării dintre dorință, cerere și rezultat.",
+        (2, 2): "<strong>Căsuța 2.</strong> Reprezintă emoțiile, trăirile, comunicarea, bioenergia, spiritul de colaborare și parteneriatul. Ai <strong>2</strong> apariții în căsuța cifrei <strong>2</strong>. Sensibilitatea și capacitatea de a lucra cu celălalt sunt prezente, dar au nevoie de aport extern și exercițiu pentru a rămâne stabile. Fiind un număr par de apariții, energia poate circula în ambele sensuri: poți primi și poți da mai departe sprijin emoțional, însă în anumite situații poate apărea indecizia. Pentru tine, maturizarea acestei căsuțe înseamnă să numești clar ceea ce simți, să întrebi direct ce are nevoie celălalt și să alegi după dialog, fără să rămâi blocată între două variante.",
+        (3, 1): "<strong>Căsuța 3.</strong> Reprezintă relaționarea, curiozitatea și capacitatea de a primi, organiza și transmite informația. Ai <strong>1</strong> apariție în căsuța cifrei <strong>3</strong>, ceea ce îți oferă acces direct la această energie, dar cere folosire conștientă pentru a deveni stabilă. Poți înțelege prin poveste, joc, imagine și dialog, mai ales când informația are un fir clar și un scop concret. Umbra poate fi graba de a trece la altă idee înainte ca prima să fie înțeleasă sau dificultatea de a explica ceea ce ai intuit deja. Te ajută să repeți cu propriile cuvinte, să pui întrebări, să alegi informația esențială și să duci o idee până la o concluzie înainte de a deschide alta.",
+        (4, 0): "<strong>Căsuța 4.</strong> Reprezintă corpul fizic, sănătatea, spiritul practic, orientarea spre rezultate concrete, organizarea, cadrul, trăinicia, statornicia și temeinicia. În matricea ta nu ai nicio apariție în căsuța cifrei <strong>4</strong>, ceea ce arată că această energie este conservată: nu o poți accesa întotdeauna când dorești și în aceeași măsură. Pot exista perioade în care te simți foarte sănătoasă și rezistentă, dar și momente în care chiar o răceală ușoară te poate solicita mai mult decât te-ai aștepta. Energia poate oscila între „foarte mult” și „foarte puțin”, iar aceeași alternanță se poate vedea în organizare, disciplină și consecvență. Pentru a echilibra această căsuță, te ajută să ai planuri clare, un program stabil și obiceiuri pe care le respecți chiar și atunci când nu simți presiunea imediată a rezultatului. Acordă atenție constantă sănătății, somnului și alimentației și introdu mișcarea sau sportul în rutina ta, într-un ritm regulat și potrivit corpului tău.",
+        (5, 1): "<strong>Căsuța 5.</strong> Ai <strong>1</strong> apariție în căsuța cifrei <strong>5</strong>, ceea ce arată că libertatea, curajul, stima de sine, adaptarea și dorința de experiențe noi sunt prezente în structura ta, dar trebuie educate cu măsură. Această energie îți poate da vioiciune, curiozitate, spontaneitate și dorința de a ieși din tipare, de a încerca, de a te mișca, de a explora și de a simți că ai spațiu să alegi. Fiind o singură apariție, curajul poate alterna: uneori poți fi foarte îndrăzneață și atrasă de noutate, iar alteori poți avea nevoie de încurajare ca să nu confunzi siguranța cu blocajul sau libertatea cu fuga de reguli. Umbra căsuței este impulsul de a face doar ce îți place pe moment, de a protesta când apar limite sau de a căuta atenție prin nonconformism. Maturizarea apare când înveți că libertatea adevărată nu înseamnă lipsă de responsabilitate, ci alegeri asumate, curaj folosit cu discernământ și experiențe noi care te cresc, nu te împrăștie.",
+        (6, 1): "<strong>Căsuța 6.</strong> Reprezintă iubirea ca ocrotire, instinctele, arta, realismul și pragmatismul. Ai <strong>1</strong> apariție în căsuța cifrei <strong>6</strong>, ceea ce îți oferă acces la grija exprimată prin gesturi concrete și la capacitatea de a transforma o idee într-un lucru folositor. Poți arăta afecțiunea ajutând, construind, reparând sau participând la ceea ce face familia, mai ales când sarcina este clară și rezultatul poate fi văzut. Umbra apare când grija devine posesivitate, când vrei să faci lucrurile numai în felul tău ori când interesul pentru rezultat scade în fața părții repetitive a muncii. Maturizarea acestei căsuțe se construiește prin responsabilități mici, activități artistice și practice, ordine în obiectele proprii și învățarea diferenței dintre a ocroti pe cineva și a prelua totul în locul lui.",
+        (7, 0): "<strong>Căsuța 7.</strong> Nu ai apariții în căsuța cifrei <strong>7</strong>, iar asta arată că observația profundă, răbdarea, înțelepciunea, credința și legătura cu spiritualitatea sunt energii conservate. Este indicat să te implici sufletește și spiritual în ceea ce faci în viața actuală și să dai o atenție deosebită religiei, rugăciunii, sensului interior și faptelor bune. Când această casetă este conservată, energia poate oscila: în anumite momente poți simți o apropiere puternică de Dumnezeu, de spiritualitate sau de lucrurile nevăzute, iar în alte momente poți reacționa impulsiv, fără răbdare, fără încredere și fără să vezi lecția mai adâncă a situației. Uneori, până la o anumită vârstă, omul poate respinge credința sau poate fi indiferent față de ea, iar apoi, în urma unor întâmplări importante, se poate apropia brusc de religie ori de o practică spirituală. Pentru tine, direcția sănătoasă nu este fanatismul, ci apropierea treptată, curată și echilibrată de spiritualitate, prin rugăciune, recunoștință, studiu, liniște și fapte concrete. Ca sfat de ocrotire, este bine să dăruiești cât poți către oameni săraci, neajutorați sau aflați în nevoie, nu ca obligație, ci ca mod de a deschide inima și de a transforma sensibilitatea în protecție și bine. Cu cât te apropii mai conștient de credință, compasiune și înțelepciune, cu atât această casetă te ajută să eviți complicațiile inutile și să alegi un drum mai limpede, mai blând și mai matur.",
+        (8, 3): "<strong>Căsuța 8.</strong> Reprezintă puterea, responsabilitatea, simțul datoriei, ambiția, performanța și felul în care administrezi resursele ori autoritatea. Ai <strong>3</strong> apariții în căsuța cifrei <strong>8</strong>, ceea ce arată o energie puternică, activă și orientată spre exterior. Pe măsură ce crești, poți observa repede cine conduce, cum sunt împărțite rolurile și dacă regulile sunt respectate. Poți dori să ai un cuvânt important de spus, să protejezi ceea ce consideri al tău și să obții un rezultat vizibil, mai ales când primești o responsabilitate clară. Umbra poate fi presiunea pusă asupra ta sau asupra celorlalți, competiția pentru control, dificultatea de a accepta un refuz ori tendința de a confunda valoarea personală cu reușita. Energia se maturizează când înveți că puterea înseamnă și echitate, răbdare, respectarea promisiunilor și grija pentru efectul pe care deciziile tale îl au asupra oamenilor. Sarcinile potrivite vârstei, regulile consecvente și aprecierea efortului, nu doar a rezultatului, transformă această intensitate în responsabilitate, curaj și capacitate reală de conducere.",
+        (9, 1): "<strong>Căsuța 9.</strong> Reprezintă inteligența mentală, memoria, compasiunea, învățarea, finalizarea și capacitatea de transformare. Ai <strong>1</strong> apariție în căsuța cifrei <strong>9</strong>, ceea ce îți oferă acces la înțelegerea de ansamblu și la legarea experiențelor într-o concluzie. Poți învăța bine atunci când informația are sens, este asociată unei povești și poate fi folosită într-o situație reală. Umbra apare când imaginea mare te face să treci prea repede peste detalii sau când o concluzie intuită nu este verificată. Îți dezvolți această energie prin lectură, conversație, recapitulare, proiecte duse până la capăt și exercițiul de a spune nu doar ce ai înțeles, ci și pe ce observații se bazează.",
+    }
+    if prefix.startswith("DIP-"):
+        return ingrid.get((digit, count))
     known = {
         (2, 2): "<strong>Căsuța 2.</strong> Ai <strong>2</strong> apariții. Emoțiile, comunicarea și colaborarea circulă în ambele sensuri: poți primi și oferi sprijin. Numărul par de apariții poate aduce indecizie, de aceea te ajută să numești ce simți și să alegi după un dialog clar.",
         (3, 2): "<strong>Căsuța 3.</strong> Ai <strong>2</strong> apariții în căsuța cifrei <strong>3</strong>, ceea ce arată că poți primi informația, o poți prelucra și o poți transmite într-o formă accesibilă. Poți face legături bune între idei și poți explica limpede ceea ce ai înțeles. Cele două apariții pot aduce și oscilație între mai multe interpretări; te ajută să alegi informația esențială, să o organizezi și să duci o direcție până la rezultat.",
@@ -573,6 +608,95 @@ def enhance_html(text: str, person: dict[str, str], report: dict, out_dir: Path,
         text, family_count = re.subn(old_family_block, lambda _: family_block, text, count=1, flags=re.S)
         if family_count != 1:
             raise RuntimeError("Secțiunea Numărul ereditar karmic nu a fost înlocuită.")
+    elif person["nume_familie"] == "Docolin":
+        neam_number = arcana_value(name_data["numarul_ereditar_karmic_neamul"]["arcana_majora"])
+        neam_name = ARCANA[neam_number][0]
+        neam_img = out_dir / f"tarot-{neam_number:02d}-{slug(neam_name)}-numarul-ereditar-karmic.jpg"
+        family_block = f'''{idx_html(prefix, "SUB-021")}<h3 id="5-4-numarul-ereditar-karmic">5.4. Numărul ereditar karmic</h3>
+{idx_html(prefix, "P-022b")}<p>Numărul ereditar karmic citește numele de familie în intervalul simbolic <strong>1–22</strong> și evidențiază o lecție arhetipală a neamului. El arată ce tipar cere înțelegere și maturizare, astfel încât resursele moștenite să fie folosite fără repetarea automată a limitelor trecutului.</p>
+{idx_html(prefix, "C-005")}<aside class="callout example"><p><strong>Calcul în intervalul 1–22</strong><br>Docolin = <strong>14</strong></p><p>Arcana neamului = <strong>14 — Cumpătarea</strong></p></aside>
+{idx_html(prefix, "T-013")}<div class="table-wrap"><table class="tarot-profile-table"><tbody><tr><td>Index: {prefix}-G-003<br><img src="{data_uri(neam_img)}" data-source="{neam_img.name}" alt="Arcana 14 — Cumpătarea"><div class="tarot-image-caption"><em>Arcana <strong>14</strong> — Cumpătarea</em></div></td><td><ul><li><strong>Resursă moștenită:</strong> cumpătarea, răbdarea și priceperea de a lucra în acord cu ritmurile naturale, transformând treptat resursele disponibile în rezultate hrănitoare și durabile.</li><li><strong>Manifestare:</strong> apropierea de pământ, plante, hrană, creștere, îngrijire și procese în care două elemente sunt combinate cu măsură pentru a obține un rezultat mai bun.</li><li><strong>Umbră:</strong> stagnarea în ceea ce este familiar, acceptarea unei vieți prea restrânse ori amânarea schimbării din teama de a tulbura echilibrul deja cunoscut.</li><li><strong>Maturizare:</strong> păstrarea măsurii fără renunțarea la evoluție, folosirea experienței practice cu deschidere și cultivarea unei stabilități care poate hrăni atât familia, cât și comunitatea.</li></ul></td></tr></tbody></table></div>
+{idx_html(prefix, "P-022e")}<p>Neamul 14 - Neamul Agricultorilor, cumpatati, echilibrati, legati de pamant - scopul principal al acestui neam a fost dintotdeauna sa se ocupe de agricultura, incrucisari, altoiri, sa descopere noi metode de crestere a plantelor, fructelor si legumelor, sa descopere specii noi de plante si, evident, sa asigure familia si lumea cu astfel de produse. In esenta, acesta este un neam taranesc, foarte priceput in tainele agriculturii. Neamul nu este unul foarte bogat, dar cu toate acestea nici unul sarac. In Romania, acest neam, candva, hranea o Europa intreaga.</p>
+'''
+        old_family_block = rf'<div class="idx">Index: {re.escape(prefix)}-P-024</div>.*?(?=<div class="idx">Index: {re.escape(prefix)}-C-011</div>)'
+        text, family_count = re.subn(old_family_block, lambda _: family_block, text, count=1, flags=re.S)
+        if family_count != 1:
+            raise RuntimeError("Secțiunea Numărul ereditar karmic pentru Docolin nu a fost înlocuită.")
+
+    expression_components = name_data["numarul_de_exprimare"]["componente"]
+    component_values = [component["reducere"]["rezultat"] for component in expression_components]
+    component_summary = ", ".join(
+        f'{html.escape(component["componenta"])} = {component["reducere"]["rezultat"]}'
+        for component in expression_components
+    )
+    component_sum = " + ".join(str(value) for value in component_values)
+    expression_total = name_data["numarul_de_exprimare"]["total_reduse"]
+    expression_result = name_data["numarul_de_exprimare"]["reducere"]["rezultat"]
+    expression_steps = name_data["numarul_de_exprimare"]["reducere"]["pasi"]
+    reduction_suffix = ""
+    if expression_steps:
+        final_step = expression_steps[-1].rsplit(" = ", 1)[0]
+        reduction_suffix = f' → {html.escape(final_step)} = <strong>{expression_result}</strong>'
+    expression_callout = (
+        f'{idx_html(prefix, "C-012")}<aside class="callout example"><p><strong>Calcul</strong><br>'
+        f'{component_summary} → {component_sum} = <strong>{expression_total}</strong>{reduction_suffix}</p></aside>'
+    )
+    code_index = f'<div class="idx">Index: {prefix}-C-011</div>'
+    if code_index not in text:
+        raise RuntimeError("Nu pot insera calculul Numărului de exprimare înainte de C-011.")
+
+    if person["nume_familie"] == "Docolin":
+        def calculation(label: str, data: dict) -> str:
+            values = " + ".join(str(item["valoare"]) for item in data["valori"])
+            steps = " → ".join(data["reducere"]["pasi"])
+            suffix = f" → {html.escape(steps)}" if steps else ""
+            return f'{html.escape(label)} = {values} = <strong>{data["total"]}</strong>{suffix}'
+
+        active_number = name_data["numarul_activ"]["reducere"]["rezultat"]
+        intimate_number = name_data["numarul_intim"]["reducere"]["rezultat"]
+        inherited_number = name_data["numarul_ereditar"]["reducere"]["rezultat"]
+        realization_number = name_data["numarul_de_realizare"]["reducere"]["rezultat"]
+
+        code_tail_match = re.search(
+            rf'(<div class="idx">Index: {re.escape(prefix)}-C-011</div>.*?)(?=\s*</section>\s*<section><div class="idx">Index: {re.escape(prefix)}-CAP-009</div>)',
+            text,
+            flags=re.S,
+        )
+        if not code_tail_match:
+            raise RuntimeError("Nu pot păstra blocul codului numerologic al numelui pentru Ingrid.")
+        code_tail = code_tail_match.group(1)
+
+        name_section = f'''<section>{idx_html(prefix, "CAP-009")}<h2 id="capitolul-5-numele">Capitolul 5. Numele — Eu și neamul</h2>
+{idx_html(prefix, "SUB-018")}<h3 id="5-1-numarul-activ">5.1. Numărul activ</h3>
+{idx_html(prefix, "P-020a")}<p>Numărul activ este influența directă a prenumelui folosit zi de zi. El arată energia cu care intri într-un context, reacția obișnuită și felul în care inițiativa ta devine vizibilă.</p>
+{idx_html(prefix, "C-009")}<aside class="callout example"><p><strong>Calcul</strong><br>{calculation(active, name_data["numarul_activ"])}</p></aside>
+{idx_html(prefix, "P-021")}<p>Numărul activ <strong>{active_number}</strong> aduce în comportamentul tău observație, profunzime și nevoia de a înțelege înainte de a te deschide. Resursa este discernământul; umbra poate fi retragerea sau neîncrederea, iar maturizarea apare când curiozitatea interioară este exprimată prin întrebări clare și experiențe concrete.</p>
+{idx_html(prefix, "SUB-019")}<h3 id="5-2-numarul-intim">5.2. Numărul intim</h3>
+{idx_html(prefix, "P-021b")}<p>Numărul intim se calculează din vocalele numelui complet și descrie motivația afectivă, dorințele profunde și ceea ce îți hrănește lumea interioară.</p>
+{idx_html(prefix, "C-009a")}<aside class="callout example"><p><strong>Calcul</strong><br>{calculation("Vocalele numelui", name_data["numarul_intim"])}</p></aside>
+{idx_html(prefix, "P-021c")}<p>Numărul intim <strong>{intimate_number}</strong> caută sens, generozitate și sentimentul că experiențele pot fi folositoare și altora. Te hrănesc poveștile, imaginația și gesturile de compasiune; umbra este dezamăgirea când realitatea nu corespunde idealului, iar maturizarea cere limite afective și încheierea lucrurilor începute.</p>
+{idx_html(prefix, "SUB-020")}<h3 id="5-3-numarul-ereditar">5.3. Numărul ereditar</h3>
+{idx_html(prefix, "C-008")}<aside class="callout example"><p><strong>Calcul</strong><br>{calculation(person["nume_familie"], name_data["numarul_ereditar"])}</p></aside>
+{idx_html(prefix, "P-020n")}<p>Numărul ereditar <strong>{inherited_number}</strong> aduce prin numele Docolin o memorie de neam legată de perspectivă largă, ajutor, finalizare și capacitatea de a transforma experiența în înțelegere. Resursa este generozitatea; nevoia de maturizare este să păstrezi măsura și să nu porți responsabilități care aparțin altora.</p>
+{family_block}
+{idx_html(prefix, "SUB-022")}<h3 id="5-5-numarul-de-realizare">5.5. Numărul de realizare</h3>
+{idx_html(prefix, "P-021a")}<p>Numărul de realizare arată impresia pe care o lași asupra celorlalți, comportamentul vizibil și felul în care energia numelui poate susține rezultate concrete.</p>
+{idx_html(prefix, "C-010")}<aside class="callout example"><p><strong>Calcul</strong><br>{calculation("Consoanele numelui", name_data["numarul_de_realizare"])}</p></aside>
+{idx_html(prefix, "P-022")}<p>Numărul de realizare <strong>{realization_number}</strong> te face vizibilă ca persoană practică, ordonată și capabilă să transforme o intenție în structură. Umbra este rigiditatea; maturizarea cere reguli simple, utile și adaptabile.</p>
+{idx_html(prefix, "P-022a")}<p>Vibrația exterioară <strong>{ve}</strong> și Numărul de realizare <strong>{realization_number}</strong> creează un dialog între expresie și ordine: <strong>{ve}</strong> comunică și explorează, iar <strong>{realization_number}</strong> fixează. Imaginea ta devine coerentă când creativitatea primește un pas concret de finalizare.</p>
+{idx_html(prefix, "SUB-023")}<h3 id="5-6-numarul-de-exprimare">5.6. Numărul de exprimare</h3>
+{idx_html(prefix, "P-023a")}<p>Numărul de exprimare reprezintă personalitatea și cheia către ceea ce poți deveni. El arată felul în care componentele numelui se reunesc într-o expresie matură.</p>
+{expression_callout}
+{idx_html(prefix, "P-024")}<p>Numărul de exprimare <strong>{expression_result}</strong> susține construcția, disciplina, răbdarea și capacitatea de a da formă unei idei. Umbra este rigiditatea sau teama de schimbare; expresia matură păstrează ordinea, dar o adaptează realității.</p>
+{idx_html(prefix, "P-024a")}<p>Armonizarea dintre Numărul de exprimare <strong>{expression_result}</strong> și Destinul <strong>{destin}</strong> cere ca structura să servească unui sens mai larg. <strong>{expression_result}</strong> construiește pas cu pas, iar <strong>{destin}</strong> aduce compasiune și perspectivă; împreună pot transforma sensibilitatea în rezultate stabile și folositoare.</p>
+{idx_html(prefix, "SUB-023a")}<h3 id="5-7-codul-numerologic-al-numelui">5.7. Codul numerologic al numelui</h3>
+{code_tail}</section>'''
+        old_name_section = rf'<section><div class="idx">Index: {re.escape(prefix)}-CAP-008</div><h2 id="capitolul-5-numele">.*?</section>'
+        text, name_count = re.subn(old_name_section, lambda _: name_section, text, count=1, flags=re.S)
+        if name_count != 1:
+            raise RuntimeError("Capitolul 5 pentru Ingrid nu a fost restructurat.")
+    else:
+        text = text.replace(code_index, expression_callout + code_index, 1)
 
     replacements = {
         "Vibratia interioara": "Vibrația interioară",
@@ -596,27 +720,125 @@ def enhance_html(text: str, person: dict[str, str], report: dict, out_dir: Path,
     for old, new in replacements.items():
         text = text.replace(old, new)
 
-    def add_subheading(before_suffix: str, sub_suffix: str, title: str) -> None:
+    def add_subheading(before_suffix: str, sub_suffix: str, title: str, anchor: str | None = None) -> None:
         nonlocal text
         needle = f'<div class="idx">Index: {prefix}-{before_suffix}</div>'
-        insertion = f'<div class="idx">Index: {prefix}-{sub_suffix}</div><h3>{title}</h3>'
+        anchor_attr = f' id="{anchor}"' if anchor else ""
+        insertion = f'<div class="idx">Index: {prefix}-{sub_suffix}</div><h3{anchor_attr}>{title}</h3>'
         if needle not in text:
             raise RuntimeError(f"Nu pot insera {sub_suffix} înainte de {before_suffix}")
         text = text.replace(needle, insertion + needle, 1)
 
     add_subheading("P-001", "SUB-001", "1.1. Definiție")
     add_subheading("P-002", "SUB-002", "1.2. Caracterul")
-    add_subheading("P-004", "SUB-006", "2.1. Definiție")
-    add_subheading("P-005", "SUB-007", "2.2. Rolul social")
-    add_subheading("P-008", "SUB-011", "3.1. Definiție și calcul")
-    add_subheading("P-009", "SUB-012", "3.2. Interpretare")
+    add_subheading("P-004", "SUB-008" if person["nume_familie"] == "Docolin" else "SUB-006", "2.1. Definiție")
+    add_subheading("P-005", "SUB-009" if person["nume_familie"] == "Docolin" else "SUB-007", "2.2. Rolul social")
+    add_subheading("P-008", "SUB-011", "3.1. Definiție și calcul", "3-1-definitie-si-calcul")
+    add_subheading("P-009", "SUB-012", "3.2. Interpretare", "3-2-interpretare")
     add_subheading("P-010", "SUB-013", "4.1. Matricea datei de naștere")
-    add_subheading("P-021", "SUB-018", "4.2. Scara bunăstării")
-    add_subheading("P-022", "SUB-020", "5.1. Identitatea numelui")
-    add_subheading("P-026", "SUB-004a", "6.1. Codul și vârsta Spiritului")
+    if person["nume_familie"] == "Docolin":
+        pass
+    else:
+        add_subheading("P-021", "SUB-018", "4.2. Scara bunăstării")
+        add_subheading("P-022", "SUB-020", "5.1. Identitatea numelui")
+    add_subheading(
+        "P-026",
+        "SUB-038" if person["nume_familie"] == "Docolin" else "SUB-004a",
+        "6.1. Codul Spiritului și vârsta Spiritului" if person["nume_familie"] == "Docolin" else "6.1. Codul și vârsta Spiritului",
+        "6-1-codul-spiritului-si-varsta-spiritului" if person["nume_familie"] == "Docolin" else None,
+    )
     add_subheading("P-028", "SUB-007a", "6.2. Karma din ziua de naștere")
     add_subheading("P-029", "SUB-007b", "6.3. Karma din luna de naștere")
-    add_subheading("P-030", "SUB-008", "6.4. Karma din Calea Destinului")
+    add_subheading("P-030", "SUB-012a" if person["nume_familie"] == "Docolin" else "SUB-008", "6.4. Karma din Calea Destinului")
+
+    if person["nume_familie"] == "Docolin":
+        chapter_index_pairs = (
+            ("CAP-004", "CAP-005", "capitolul-1-vibratia-interioara"),
+            ("CAP-005", "CAP-006", "capitolul-2-vibratia-exterioara"),
+            ("CAP-006", "CAP-007", "capitolul-3-destinul"),
+            ("CAP-007", "CAP-008", "capitolul-4-matrita-numerologica"),
+            ("CAP-009", "CAP-007b", "capitolul-6-spirit-si-karma"),
+        )
+        for old_index, new_index, chapter_anchor in chapter_index_pairs:
+            old = f'<div class="idx">Index: {prefix}-{old_index}</div><h2 id="{chapter_anchor}">'
+            new = f'<div class="idx">Index: {prefix}-{new_index}</div><h2 id="{chapter_anchor}">'
+            if old not in text:
+                raise RuntimeError(f"Nu pot alinia {old_index} la {new_index} pentru Ingrid.")
+            text = text.replace(old, new, 1)
+
+        desires = f'''{idx_html(prefix, "SUB-003")}<h3 id="1-3-dorintele">1.3. Dorințele</h3>
+{idx_html(prefix, "P-002a")}<p>Îți dorești libertatea de a explora, de a pune întrebări și de a descoperi prin experiență directă. Ai nevoie de varietate, mișcare și alegeri reale, dar și de repere care te ajută să nu pierzi direcția atunci când apar multe posibilități deodată.</p>
+{idx_html(prefix, "SUB-004")}<h3 id="1-4-motivatia">1.4. Motivația</h3>
+{idx_html(prefix, "P-002b")}<p>Te motivează noutatea, jocul, conversația și activitățile în care poți încerca mai multe căi. Energia lui <strong>{vi}</strong> crește sănătos când fiecare explorare are un început clar, un timp de lucru și un pas vizibil de încheiere.</p>
+{idx_html(prefix, "SUB-005")}<h3 id="1-5-teama">1.5. Teama</h3>
+{idx_html(prefix, "P-002c")}<p>Teama din umbra lui <strong>{vi}</strong> este limitarea fără explicație, rutina rigidă sau senzația că nu mai există opțiuni. Atunci poate apărea neliniștea ori schimbarea grăbită a direcției. Maturizarea înseamnă să descoperi că o limită bună nu închide libertatea, ci îi oferă un cadru în care experiența poate deveni competență.</p>
+{idx_html(prefix, "SUB-006")}<h3 id="1-6-polaritati-si-maturizare">1.6. Polarități și maturizare</h3>'''
+        p003_index = f'<div class="idx">Index: {prefix}-P-003</div>'
+        text = text.replace(p003_index, desires + p003_index, 1)
+
+        add_subheading("P-006", "SUB-010", "2.3. Interior și exterior", "2-3-interior-si-exterior")
+
+        counts = {int(digit): info["cantitate"] for digit, info in matrix["casute"].items()}
+        elements = {
+            "Foc": counts[1] + counts[5] + counts[9],
+            "Pământ": counts[4] + counts[8],
+            "Aer": counts[3] + counts[7],
+            "Apă": counts[2] + counts[6],
+        }
+        max_element = max(elements.values()) or 1
+        bars = "".join(
+            f'<div class="element-bar"><div class="element-bar-label"><span>{label}</span><strong>{value}</strong></div><div class="element-bar-track"><span class="element-bar-fill element-{css}" style="width:{round(value / max_element * 100)}%"></span></div></div>'
+            for label, css, value in (("Foc", "foc", elements["Foc"]), ("Pământ", "pamant", elements["Pământ"]), ("Aer", "aer", elements["Aer"]), ("Apă", "apa", elements["Apă"]))
+        )
+        element_block = f'''{idx_html(prefix, "SUB-015")}<h3 id="4-3-elemente-si-temperament">4.3. Elemente și temperament</h3>
+{idx_html(prefix, "T-012")}<div class="element-analysis framed-panel"><div class="element-chart"><div class="element-bars" role="img" aria-label="Distribuția elementelor: Foc {elements['Foc']}, Pământ {elements['Pământ']}, Aer {elements['Aer']}, Apă {elements['Apă']}">{bars}</div></div>
+{idx_html(prefix, "P-044")}<ul class="element-definitions"><li><strong>Focul</strong> este esența vieții, a duhului și a spiritului care animă și activează.</li><li><strong>Pământul</strong> este esența materiei dense, a solidarității și a fertilității, care hrănește și dă formă.</li><li><strong>Aerul</strong> este esența inteligenței conceptuale care eliberează și stimulează.</li><li><strong>Apa</strong> este esența emoțiilor și a fecundității, maleabilă, flexibilă și orientată spre acumulare.</li></ul></div>
+{idx_html(prefix, "P-045")}<p>Temperamentul tău este mixt: Focul, Pământul și Apa au câte <strong>3</strong> apariții, iar Aerul are <strong>1</strong>. Ai simultan energie de pornire, nevoie de rezultat și sensibilitate; echilibrul vine când emoțiile primesc cuvinte, corpul primește ritm, iar ideile sunt explicate simplu și verificate prin experiență.</p>
+{idx_html(prefix, "SUB-016")}<h3 id="4-4-masculin-si-feminin">4.4. Masculin și feminin</h3>'''
+        p020_index = f'<div class="idx">Index: {prefix}-P-020</div>'
+        text = text.replace(p020_index, element_block + p020_index, 1)
+
+        gifts = [digit for digit, count in counts.items() if count >= 2]
+        gift_block = f'''{idx_html(prefix, "SUB-017")}<h3 id="4-5-daruri-si-nevoi">4.5. Daruri și nevoi</h3>
+{idx_html(prefix, "P-020b")}<p>Darurile și nevoile se citesc din căsuțele cu cel puțin <strong>2</strong> cifre: la tine sunt <strong>{'</strong> și <strong>'.join(str(digit) for digit in gifts)}</strong>. Darul lui <strong>2</strong> este sensibilitatea și colaborarea, cu nevoia de siguranță emoțională; darul lui <strong>8</strong> este puterea de organizare, cu nevoia de reguli drepte și responsabilități reale. Aceste resurse cresc sănătos când sensibilitatea și responsabilitatea se susțin reciproc.</p>
+{idx_html(prefix, "SUB-017a")}<h3 id="4-6-scara-bunastarii">4.6. Scara bunăstării</h3>'''
+        p021_index = f'<div class="idx">Index: {prefix}-P-021</div>'
+        text = text.replace(p021_index, gift_block + p021_index, 1)
+
+        conclusion = f'''{idx_html(prefix, "SUB-012b")}<h3 id="6-5-concluzie-directia-de-lucru">6.5. Concluzie: direcția de lucru</h3>
+{idx_html(prefix, "P-030c")}<p>Codul Spiritului <strong>44</strong>, zona Harurilor și subetapa <strong>5</strong> arată o maturizare prin învățare, discernământ și folosirea sensibilității într-o formă concretă. Karma zilei <strong>5</strong>, Karma lunii <strong>3</strong> și Calea karmică <strong>{calea}</strong> te învață să unești valorile, autonomia și imaginația într-o direcție lucidă, creativă și folositoare.</p>'''
+        next_chapter = rf'(\s*</section>\s*<section><div class="idx">Index: {re.escape(prefix)}-CAP-010</div>)'
+        text, conclusion_count = re.subn(next_chapter, lambda match: conclusion + match.group(1), text, count=1)
+        if conclusion_count != 1:
+            raise RuntimeError("Concluzia capitolului 6 nu a fost inserată pentru Ingrid.")
+
+        index_fixes = (
+            (
+                f'<div class="idx">Index: {prefix}-C-003</div><aside class="callout example"><strong>Calculul puntii interior-exterior</strong>',
+                f'<div class="idx">Index: {prefix}-C-002a</div><aside class="callout example"><strong>Calculul puntii interior-exterior</strong>',
+            ),
+            (
+                f'<div class="idx">Index: {prefix}-C-004</div><aside class="callout example"><strong>Calcul</strong><br>Toate cifrele adunate',
+                f'<div class="idx">Index: {prefix}-C-003</div><aside class="callout example"><strong>Calcul</strong><br>Toate cifrele adunate',
+            ),
+            (
+                f'<div class="idx">Index: {prefix}-C-005</div><aside class="callout example"><strong>Calcul</strong><br>Data compacta',
+                f'<div class="idx">Index: {prefix}-C-004</div><aside class="callout example"><strong>Calcul</strong><br>Data compacta',
+            ),
+            (
+                f'<div class="idx">Index: {prefix}-P-021</div><p>Scara bunastarii',
+                f'<div class="idx">Index: {prefix}-P-019a</div><p>Scara bunastarii',
+            ),
+        )
+        for old, new in index_fixes:
+            if old not in text:
+                raise RuntimeError(f"Nu pot aplica alinierea de index pentru {old}.")
+            text = text.replace(old, new, 1)
+
+        text = text.replace(f"Index: {prefix}-SUB-029a", f"Index: {prefix}-SUB-029", 1)
+        text = text.replace("8.1. Soarta si Destinul", "8.1. Soarta și Destinul", 1)
+        text = text.replace("8.2. Anii importanti", "8.2. Anii importanți", 1)
+        text = text.replace("8.3. Lectiile de viata", "8.3. Lecțiile de viață", 1)
 
     if vi == 8:
         character = f"{active}, vibrația interioară <strong>8</strong> aduce forță, responsabilitate, putere de organizare și nevoie de rezultate concrete. Optul simbolizează forțele materiale, reacția și justiția echilibrantă. Este asociat cu puterea, bogăția, aprecierea lumească și probele lui Saturn. Drumul lui nu este simplu: succesul se construiește prin luptă, efort, planificare și muncă susținută. În lumină poți fi hotărât, protector și practic; în umbră poți lăsa impresia că urmărești permanent controlul sau câștigul. Maturizarea înseamnă să folosești forța calm și proporțional, astfel încât fermitatea să ofere siguranță, nu teamă."
@@ -624,11 +846,17 @@ def enhance_html(text: str, person: dict[str, str], report: dict, out_dir: Path,
         character = f"{active}, vibrația interioară <strong>{vi}</strong> te apropie de energia explorării, curiozității și adaptării. Ai nevoie de mișcare, varietate și experiențe prin care să descoperi direct cum funcționează lumea. Resursa este flexibilitatea; umbra este risipirea, refuzul rutinei sau schimbarea direcției înainte ca un lucru să fie încheiat. Maturizarea apare când libertatea primește limite clare, iar fiecare explorare este urmată de un pas concret de finalizare."
     text = replace_indexed_paragraph(text, prefix, "P-002", character)
 
-    destiny_text = f"{active}, Calea Destinului <strong>{calea}</strong> conduce la cifra de interpretare <strong>{destin}</strong>. Cantitativ, suma compusă se păstrează, iar reducerea se face o singură dată. Calitativ, energia lui <strong>9</strong> cere perspectivă largă, compasiune, finalizare și transformarea experienței în ceva folositor și altora. Ai nevoie de un ideal care depășește interesul imediat; egoismul, orgoliul, vanitatea sau atașamentul excesiv față de rezultat pot îngusta această direcție. Studiul, imaginația, ideile originale și proiectele cu sens susțin maturizarea. <strong>7</strong> caută adevărul retrăgându-se spre interior, în timp ce <strong>9</strong> se întoarce spre oameni pentru a împărtăși, a încheia și a transforma cunoașterea în faptă."
-    text = replace_indexed_paragraph(text, prefix, "P-009", destiny_text)
+    if vi == 8:
+        destiny_first = f"{active}, Calea Destinului <strong>{calea}</strong> reunește inițiativa lui <strong>1</strong> cu forța, responsabilitatea și raportarea la putere a lui <strong>8</strong>; suma lor conduce la cifra de interpretare <strong>{destin}</strong>, care cere perspectivă largă, compasiune, finalizare și capacitatea de a transforma experiența în înțelegere. Cantitativ, traseul este complet: toate cifrele datei formează <strong>{calea}</strong>, Destinul se reduce o singură dată la <strong>{destin}</strong>, iar cifra de interpretare rămâne <strong>{destin}</strong>. Calitativ, muntele tău de urcat este să treci de la puterea concentrată asupra rezultatului imediat la o putere care vede ansamblul și efectul asupra oamenilor. Vibrația interioară <strong>8</strong> vrea eficiență și control, în timp ce Destinul <strong>9</strong> cere generozitate, desprindere și încheiere matură. Când lucrează împreună, poți deveni un om capabil să organizeze resurse pentru un scop mai mare decât interesul de moment; în umbră, poți oscila între control și dezamăgire, iar maturizarea apare când termini ceea ce începi, accepți imperfecțiunea și folosești forța pentru a construi ceva util și altora."
+        independent = "singur"
+    else:
+        destiny_first = f"{active}, Calea Destinului <strong>{calea}</strong> reunește inițiativa lui <strong>1</strong> cu forța, responsabilitatea și raportarea la putere a lui <strong>8</strong>; suma lor conduce la cifra de interpretare <strong>{destin}</strong>, care cere perspectivă largă, compasiune, finalizare și capacitatea de a transforma experiența în înțelegere. Cantitativ, traseul este complet: toate cifrele datei formează <strong>{calea}</strong>, Destinul se reduce o singură dată la <strong>{destin}</strong>, iar cifra de interpretare rămâne <strong>{destin}</strong>. Calitativ, muntele tău de urcat este să transformi nevoia de libertate și experiență într-o direcție care vede ansamblul și efectul asupra oamenilor. Vibrația interioară <strong>5</strong> caută mișcare, varietate și descoperire, în timp ce Destinul <strong>9</strong> cere generozitate, desprindere și încheiere matură. Când lucrează împreună, poți deveni o persoană flexibilă, capabilă să adune experiențe diferite și să le transforme în înțelegere folositoare și altora; în umbră, poți oscila între risipire și dezamăgire, iar maturizarea apare când termini ceea ce începi, accepți imperfecțiunea și dai libertății un scop mai mare decât interesul de moment."
+        independent = "singură"
+    destiny_second = f"Pentru ca energia lui <strong>9</strong> să se exprime la nivel înalt, ai nevoie de un ideal care depășește interesul personal și de sentimentul că ceea ce faci contribuie la binele altora. Egoismul, vanitatea, orgoliul, preocupările mărunte sau atașamentul excesiv față de bani pot îngusta această perspectivă și pot transforma forța ta într-o sursă de nemulțumire ori suferință. În schimb, studiul, reflecția, cultivarea vieții interioare și participarea la proiecte cu sens îți oferă spațiul potrivit pentru o minte activă, idei originale, idealism și o imaginație bogată. Lecția independenței nu înseamnă izolare, ci capacitatea de a te adapta {independent} și apoi de a intra deschis în lume, comunicând și dând mai departe ceea ce ai înțeles. <strong>7</strong> și <strong>9</strong> au în comun căutarea sensului, însă o trăiesc în direcții diferite: <strong>7</strong> se retrage pentru a cerceta și a aprofunda, în timp ce <strong>9</strong> se întoarce către oameni pentru a încheia, a împărtăși și a transforma cunoașterea în faptă. De aceea, Destinul tău <strong>9</strong> cere ca experiența acumulată să nu rămână doar în interior, ci să capete o formă folositoare în exterior."
+    text = replace_indexed_paragraphs(text, prefix, "P-009", [destiny_first, destiny_second])
 
     for digit, info in matrix["casute"].items():
-        interpretation = matrix_interpretation(int(digit), info["cantitate"])
+        interpretation = matrix_interpretation(int(digit), info["cantitate"], prefix)
         if interpretation:
             text = replace_indexed_paragraph(text, prefix, f"P-01{digit}", interpretation)
 
@@ -642,6 +870,27 @@ def enhance_html(text: str, person: dict[str, str], report: dict, out_dir: Path,
 
     karma_month = f"În lectura karmică simbolică, luna nașterii poate descrie o temă în relația cu mama: acceptare, iertare, ajutor și iubire. Pentru luna <strong>{born.month}</strong>, lecția trece prin comunicare, expresie și felul în care emoțiile primesc cuvinte. Dacă mama nu este prezentă, tema se poate manifesta și printr-o persoană apropiată cu rol matern; această imagine spirituală nu atribuie vină copilului. {active} are nevoie să exprime ce simte, să repare după conflict și să ofere ajutor potrivit vârstei, fără să devină responsabil pentru starea adultului. Părinții pot ușura tema prin dialog, iertare modelată prin faptă, reguli explicate și un mediu în care greșeala nu anulează iubirea."
     text = replace_indexed_paragraph(text, prefix, "P-029", karma_month)
+
+    if person["nume_familie"] == "Docolin":
+        day_img = out_dir / f"tarot-{day_number:02d}-{slug(day_name)}-karma-zilei.jpg"
+        karma_sections = f'''{idx_html(prefix, "SUB-007a")}<h3 id="6-2-karma-din-ziua-de-nastere">6.2. Karma din ziua de naștere</h3>
+{idx_html(prefix, "P-009a")}<p>În lectura numerologică, ziua de naștere arată o încărcătură karmică simbolică. Fiind născută în ziua de <strong>5</strong>, te afli în zona de aproximativ <strong>100%</strong> și lucrezi cu Arcana <strong>5 — Marele Preot</strong>. Cheia acestei poziții este smerenia, înțelepciunea practică și capacitatea de a găsi sensul din spatele unei reguli sau învățături.</p>
+{idx_html(prefix, "C-001a")}<aside class="callout example"><p><strong>Calcul</strong><br>Ziua nașterii = <strong>5</strong></p><p>Arcana karmică = <strong>5 — Marele Preot</strong></p><p>Intervalul 1–9 = karma împlinită <strong>spre 100%</strong></p></aside>
+{idx_html(prefix, "G-001a")}<img src="{data_uri(day_img)}" data-source="{day_img.name}" alt="Arcana 5 — Marele Preot, karma din ziua de naștere"><p><em>Arcana <strong>5</strong> — Marele Preot. Karma din ziua de naștere</em></p>
+{idx_html(prefix, "P-009b")}<p>În plan karmic simbolic, cifra <strong>5</strong> poate vorbi despre memoria unei relații puternice cu tradiția, credința, educația ori autoritatea morală. În expresia dezechilibrată, cunoașterea ar fi putut fi folosită rigid: reguli repetate fără înțelegere, conformism cerut celorlalți, judecarea celor care aleg o cale diferită sau dependența de aprobarea unei autorități. Această imagine este o temă arhetipală de lucru, nu o afirmație verificabilă despre o existență anterioară și nici o etichetă aplicată copilului.</p>
+{idx_html(prefix, "P-009b1")}<p>Arcana <strong>5 — Marele Preot</strong> reprezintă legătura dintre experiență și o cale de valori care poate fi transmisă mai departe. Maestrul și discipolii sugerează învățarea prin relație, iar cheile vorbesc despre accesul la sens atunci când regula este înțeleasă, nu doar executată. În lumină, această Arcană aduce ghidaj, credință, respect pentru cunoaștere și talentul de a explica; în umbră, poate aduce dogmă, ipocrizie, conformism sau supunere din teamă. Adevărata autoritate se construiește atunci când ceea ce este spus se vede și în comportament.</p>
+{idx_html(prefix, "P-009b2")}<p>Lecția actuală a combinației <strong>5 — Marele Preot</strong> este să unești smerenia cu înțelepciunea practică. Pentru Ingrid, maturizarea începe prin libertatea de a întreba „de ce?”, prin adulți care explică sensul regulilor și prin exemple coerente, în care vorba și fapta se susțin reciproc. Curiozitatea nu trebuie înlocuită cu obediență, iar tradiția nu trebuie respinsă numai pentru că impune o limită. Când învață să primească îndrumare, să verifice prin experiență și să aleagă valorile care produc bine, autoritatea exterioară se transformă treptat în discernământ interior.</p>
+{idx_html(prefix, "SUB-007b")}<h3 id="6-3-karma-din-luna-de-nastere">6.3. Karma din luna de naștere</h3>
+{idx_html(prefix, "P-013c")}<p>Karma din luna de naștere arată datoria socială, familială sau personală legată de luna în care te-ai născut. Luna se păstrează ca număr între <strong>1</strong> și <strong>12</strong>, fără reducere, și indică o direcție de maturizare în raport cu familia, neamul, locul de origine sau propria persoană. Această karmă nu vorbește despre vină, ci despre o responsabilitate care poate fi transformată în relații mai sănătoase și alegeri mai conștiente.</p>
+{idx_html(prefix, "C-002b")}<aside class="callout example"><p><strong>Calcul</strong><br>Luna nașterii = <strong>3</strong></p><p>Karma lunii = <strong>independență față de influența maternă, exprimare și hotărâri proprii</strong></p></aside>
+{idx_html(prefix, "P-013d")}<p>În formularea tradițională a metodei, karma din luna <strong>3</strong> este karma independenței de mamă. Spiritul întrupat în această lună are datoria karmică de a dobândi calitățile lui <strong>3</strong> în relația cu mama sa sau, în lipsa acesteia, cu o persoană foarte apropiată care îndeplinește rolul matern: exprimare, comunicare, curiozitate și capacitatea de a experimenta viața independent. Imaginea unei legături foarte strânse dintr-o existență anterioară este folosită aici ca limbaj spiritual și arhetipal, nu ca fapt demonstrabil și nici ca motiv pentru a atribui vină mamei sau copilului.</p>
+{idx_html(prefix, "P-013e")}<p>Pentru Ingrid, independența nu înseamnă o desprindere bruscă și nici lipsa apropierii afective. Ea se construiește treptat prin alegeri potrivite vârstei, exprimarea propriei păreri, sarcini simple duse până la capăt și experiențe în care poate încerca fără ca adultul să decidă fiecare pas în locul ei. Energia lui <strong>3</strong> are nevoie să vorbească, să creeze, să se joace și să învețe din contactul direct cu lumea. Pe măsură ce crește, maturizarea cere să își asume propriile hotărâri și consecințele lor, păstrând legătura cu mama fără a rămâne dependentă de aprobarea ei.</p>
+{idx_html(prefix, "P-013f")}<p>Pentru părinții acestui spirit, direcția sănătoasă este să încurajeze autonomia devreme, dar proporțional cu vârsta: două opțiuni reale, obiecte și sarcini proprii, libertatea de a formula un răspuns și ocazia de a repara o alegere nepotrivită. Mama poate susține energia lui <strong>3</strong> ascultând înainte de a corecta, evitând să vorbească permanent în numele copilului și separând protecția de control. Independența financiară aparține etapelor viitoare; în copilărie, baza ei se formează prin înțelegerea valorii lucrurilor, economisire pentru obiective simple și responsabilitate. Astfel, sensul karmic nu devine separare, ci o relație în care iubirea și libertatea pot crește împreună.</p>
+'''
+        old_karma_sections = rf'<div class="idx">Index: {re.escape(prefix)}-SUB-007a</div>.*?(?=<div class="idx">Index: {re.escape(prefix)}-SUB-012a</div>)'
+        text, karma_count = re.subn(old_karma_sections, lambda _: karma_sections, text, count=1, flags=re.S)
+        if karma_count != 1:
+            raise RuntimeError("Subcapitolele karmice 6.2 și 6.3 pentru Ingrid nu au fost înlocuite.")
 
     karma_destiny = f"Karma din Calea Destinului păstrează suma compusă <strong>{calea}</strong> și se asociază cu Arcana <strong>18 — Luna</strong>. Ea vorbește despre imaginație, sensibilitate și nevoia de a distinge realitatea de teamă, proiecție sau idealizare. Nu indică lipsă de talent, ci riscul ca o stare intensă să devină concluzie înainte ca faptele să fie verificate. Maturizarea cere dialog, rutină, întrebări clare și transformarea emoției în creație, empatie și intuiție disciplinată."
     text = replace_indexed_paragraph(text, prefix, "P-030", karma_destiny)
@@ -700,15 +949,34 @@ def enhance_html(text: str, person: dict[str, str], report: dict, out_dir: Path,
         raise RuntimeError("Capitolul final vechi nu a fost înlocuit.")
 
     toc_items = [
-        "Capitolul 1. Vibrația interioară", "Capitolul 2. Vibrația exterioară", "Capitolul 3. Destinul",
-        "Capitolul 4. Matrița numerologică", "Capitolul 5. Numele", "Capitolul 6. Spirit și karmă",
-        "Capitolul 7. Pinacluri", "Capitolul 8. Ciclicități",
+        ("capitolul-1-vibratia-interioara", "Capitolul 1. Vibrația interioară - Cine ești tu?"),
+        ("capitolul-2-vibratia-exterioara", "Capitolul 2. Vibrația exterioară - Rolul social"),
+        ("capitolul-3-destinul", "Capitolul 3. Destinul - Muntele de urcat"),
+        ("capitolul-4-matrita-numerologica", "Capitolul 4. Matrița numerologică - Pătratul lui Pitagora"),
+        ("capitolul-5-numele", "Capitolul 5. Numele - Eu și neamul"),
+        ("capitolul-6-spirit-si-karma", "Capitolul 6. Spirit și karmă - Lecții și direcții de maturizare"),
+        ("capitolul-7-pinacluri", "Capitolul 7. Pinacluri: Oportunități și provocări"),
+        ("capitolul-8-ciclicitati", "Capitolul 8. Ciclicități"),
     ]
     if has_relation:
-        toc_items.append("Capitolul 9. Relații")
-    toc_items.extend([f"Capitolul {professional_number}. Aplicabilitate profesională", f"Capitolul {conclusion_number}. Concluzii"])
-    toc = "<ol>" + "".join(f"<li>{item}</li>" for item in toc_items) + "</ol>"
-    text, count = re.subn(r'(<h2 id="cuprins">Cuprins</h2>)\s*<ol>.*?</ol>', lambda match: match.group(1) + toc, text, count=1, flags=re.S)
+        toc_items.append(("capitolul-9-relatii", "Capitolul 9. Relații"))
+    toc_items.extend([
+        (
+            f"capitolul-{professional_number}-aplicabilitate-profesionala",
+            f"Capitolul {professional_number}. Aplicabilitate profesională",
+        ),
+        (f"capitolul-{conclusion_number}-concluzii", f"Capitolul {conclusion_number}. Concluzii"),
+    ])
+    toc = idx_html(prefix, "L-002") + "<ol>" + "".join(
+        f'<li><a href="#{anchor}">{label}</a></li>' for anchor, label in toc_items
+    ) + "</ol>"
+    text, count = re.subn(
+        r'(<h2 id="cuprins">Cuprins</h2>)\s*(?:<div class="idx">Index: [^<]+-L-002</div>\s*)?<ol>.*?</ol>',
+        lambda match: match.group(1) + toc,
+        text,
+        count=1,
+        flags=re.S,
+    )
     if count != 1:
         raise RuntimeError("Cuprinsul nu a fost sincronizat.")
     if has_relation:
@@ -723,11 +991,46 @@ def idx_html(prefix: str, suffix: str) -> str:
 def validate_html(path: Path, prefix: str) -> None:
     text = path.read_text(encoding="utf-8")
     main = text.split("<main>", 1)[1].split("</main>", 1)[0] if "<main>" in text else text
+    model_text = MODEL_HTML.read_text(encoding="utf-8")
+    css = re.search(r"<style>(.*?)</style>", text, re.S)
+    model_css = re.search(r"<style>(.*?)</style>", model_text, re.S)
+
+    def canonical_spirit_table(source: str) -> str | None:
+        match = re.search(r'<table class="spirit-code-table">.*?</table>', source, re.S)
+        if not match:
+            return None
+
+        def restore_zone(highlight: re.Match[str]) -> str:
+            code = int(highlight.group(1))
+            if code <= 13:
+                zone = "love"
+            elif code <= 26:
+                zone = "reason"
+            elif code <= 39:
+                zone = "material"
+            else:
+                zone = "gifts"
+            return f'<span class="spirit-zone-{zone}">{code}</span>'
+
+        table = re.sub(
+            r'<span class="spirit-cell-highlight">(-?\d+)</span>',
+            restore_zone,
+            match.group(0),
+        )
+        return re.sub(r">\s+<", "><", table).strip()
+
     failures = []
     has_relation = prefix.startswith("VVD-")
     relation_present = "Capitolul 9. Relații" in text
     if relation_present != has_relation:
         failures.append("capitolul relațional nu corespunde fișei")
+    toc_match = re.search(r'<h2 id="cuprins">Cuprins</h2>.*?(<ol>.*?</ol>)', text, re.S)
+    toc_links = re.findall(r'<a href="#([^"]+)">', toc_match.group(1)) if toc_match else []
+    expected_toc_links = 11 if has_relation else 10
+    if len(toc_links) != expected_toc_links:
+        failures.append("cuprinsul nu are toate linkurile")
+    elif any(f'id="{anchor}"' not in text for anchor in toc_links):
+        failures.append("cuprinsul contine linkuri fara destinatie")
     if "Aplicabilitate profesională" not in text or "Concluzii" not in text:
         failures.append("capitole finale lipsă")
     if "Cuvant inainte" in text or "1.7. Tarot" in text:
@@ -736,10 +1039,85 @@ def validate_html(path: Path, prefix: str) -> None:
         failures.append("imagini relative")
     if main.count("spirit-cell-highlight") != 1:
         failures.append("T-017 nu are exact un marcaj")
+    if canonical_spirit_table(text) != canonical_spirit_table(model_text):
+        failures.append("T-017 nu respecta structura Dominic")
     if "Ã" in text or "�" in text:
         failures.append("mojibake posibil")
     if f"Index: {prefix}-T-008" not in text or f"Index: {prefix}-T-017" not in text or f"Index: {prefix}-T-019" not in text:
         failures.append("tabele contract lipsa")
+    if not css or not model_css or css.group(1) != model_css.group(1):
+        failures.append("CSS diferit de modelul Dominic")
+    if not re.search(
+        rf'Index: {re.escape(prefix)}-T-018</div><div class="table-wrap"><table class="spirit-zones-table">',
+        text,
+    ):
+        failures.append("T-018 nu respecta formatul Dominic")
+    if not re.search(
+        rf'Index: {re.escape(prefix)}-T-019</div><div class="table-wrap"><table class="stage-table">',
+        text,
+    ):
+        failures.append("T-019 nu respecta chenarul Dominic")
+    expression_callout = re.search(
+        rf'Index: {re.escape(prefix)}-C-012</div><aside class="callout example">(.*?)</aside>',
+        text,
+        re.S,
+    )
+    if not expression_callout or "<strong>Calcul</strong>" not in expression_callout.group(1):
+        failures.append("C-012 nu contine calculul Numarului de exprimare")
+    if text.count(f"Index: {prefix}-C-012") != 1:
+        failures.append("C-012 nu este unic")
+    spirit_age_callout = re.search(
+        rf'Index: {re.escape(prefix)}-C-003d</div><aside class="callout example">(.*?)</aside>',
+        text,
+        re.S,
+    )
+    if not spirit_age_callout or "× 189" not in spirit_age_callout.group(1):
+        failures.append("C-003d nu contine calculul Varstei Spiritului")
+    if prefix.startswith("DIP-"):
+        indexes = re.findall(r'<div class="idx">Index: ([^<]+)</div>', text)
+        duplicate_indexes = sorted(index for index in set(indexes) if indexes.count(index) > 1)
+        if duplicate_indexes:
+            failures.append("indexuri duplicate: " + ", ".join(duplicate_indexes))
+        required_subheadings = (
+            "1.1. Definiție", "1.2. Caracterul", "1.3. Dorințele", "1.4. Motivația",
+            "1.5. Teama", "1.6. Polarități și maturizare", "2.1. Definiție",
+            "2.2. Rolul social", "2.3. Interior și exterior", "3.1. Definiție și calcul",
+            "3.2. Interpretare", "4.1. Matricea datei de naștere",
+            "4.3. Elemente și temperament", "4.4. Masculin și feminin",
+            "4.5. Daruri și nevoi", "4.6. Scara bunăstării", "5.1. Numărul activ",
+            "5.2. Numărul intim", "5.3. Numărul ereditar",
+            "5.4. Numărul ereditar karmic", "5.5. Numărul de realizare",
+            "5.6. Numărul de exprimare", "5.7. Codul numerologic al numelui",
+            "6.1. Codul Spiritului și vârsta Spiritului", "6.2. Karma din ziua de naștere",
+            "6.3. Karma din luna de naștere", "6.4. Karma din Calea Destinului",
+            "6.5. Concluzie: direcția de lucru", "8.1. Soarta și Destinul",
+            "8.2. Anii importanți", "8.3. Lecțiile de viață", "8.4. Ciclul de 9 ani",
+            "8.5. Ciclul de 12 ani",
+        )
+        headings = re.findall(r'<h3(?:\s[^>]*)?>(.*?)</h3>', text, re.S)
+        normalized_headings = {re.sub(r'<[^>]+>', '', heading).strip() for heading in headings}
+        missing_subheadings = [heading for heading in required_subheadings if heading not in normalized_headings]
+        if missing_subheadings:
+            failures.append("subcapitole Ingrid lipsă: " + ", ".join(missing_subheadings))
+        required_chapter_indexes = (
+            "CAP-005", "CAP-006", "CAP-007", "CAP-008", "CAP-009", "CAP-007b",
+            "CAP-010", "CAP-011", "CAP-014", "CAP-015", "CAP-016",
+        )
+        if any(text.count(f"Index: {prefix}-{suffix}</div>") != 1 for suffix in required_chapter_indexes):
+            failures.append("indicii capitolelor Ingrid nu corespund structurii Dominic")
+        required_karma_indexes = (
+            "P-009a", "C-001a", "G-001a", "P-009b", "P-009b1", "P-009b2",
+            "P-013c", "C-002b", "P-013d", "P-013e", "P-013f",
+        )
+        if any(
+            len(re.findall(rf'Index: {re.escape(prefix)}-{re.escape(suffix)}</div>', text)) != 1
+            for suffix in required_karma_indexes
+        ):
+            failures.append("subcapitolele karmice extinse pentru Ingrid au indexuri lipsa sau duplicate")
+        if "Arcana <strong>5 — Marele Preot</strong>" not in text:
+            failures.append("interpretarea Arcanei 5 lipseste din Karma zilei")
+        if "karma din luna <strong>3</strong> este karma independenței de mamă" not in text:
+            failures.append("interpretarea lunii 3 lipseste din Karma lunii")
     if failures:
         raise AssertionError(f"{path.name}: " + "; ".join(failures))
 

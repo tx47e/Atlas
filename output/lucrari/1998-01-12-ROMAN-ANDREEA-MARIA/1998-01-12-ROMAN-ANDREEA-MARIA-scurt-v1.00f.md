@@ -14,7 +14,7 @@ data_nasterii: 1998-01-12
 - Prenume activ: Andreea
 - Data nașterii: 12.01.1998
 - Gen: feminin
-- Data lucrării: 02.08.2026
+- Data lucrării: 13.08.2026
 - Relație analizată: Bîrsan Daniel Robert, 19.02.1998, partener
 
 ## Cuprins
