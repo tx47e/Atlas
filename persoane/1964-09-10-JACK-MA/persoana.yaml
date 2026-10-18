@@ -1,0 +1,24 @@
+schema_version: 1
+id: 1964-09-10-JACK-MA
+identitate:
+  nume_complet: Jack Ma
+  nume_familie: Ma
+  prenume: Jack
+  prenume_activ: Jack
+  data_nasterii: '1964-09-10'
+  ora_nasterii: null
+  gen: masculin
+  nume_anterioare: []
+preferinte_lucrare:
+  template: scurt
+  exprimare: formal
+  nivel_detaliere: amplu
+  interval_ani:
+    tip: complet
+    start_varsta: 0
+    final_varsta: 108
+intrebari: []
+relatii: []
+metadata:
+  created_at: '2026-09-25T18:31:07+03:00'
+  updated_at: '2026-09-25T18:31:07+03:00'

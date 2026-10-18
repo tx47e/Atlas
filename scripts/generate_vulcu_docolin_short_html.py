@@ -410,6 +410,9 @@ def generate_html(person: dict[str, str], report: dict, out_dir: Path, prefix: s
         casute.append(f'{idx(f"P-01{digit}")}<p><strong>Casuta {digit}.</strong> {state}. Aceasta zona se citeste prin resursa cifrei {b(digit)} si prin felul in care ea poate fi folosita practic in viata de zi cu zi. Cand este activa, sustine expresia directa; cand este conservata, se construieste prin oameni, contexte, exercitiu si aport extern.</p>')
     pare = matrix["pare_impare"]["pare"]
     impare = matrix["pare_impare"]["impare"]
+    parity_total = pare + impare
+    odd_width = impare / parity_total * 100
+    even_width = pare / parity_total * 100
     sections.append(section(
         f'{idx("CAP-007")}<h2 id="capitolul-4-matrita-numerologica">Capitolul 4. Matrita numerologica - Patratul lui Pitagora</h2>',
         f"""
@@ -417,7 +420,7 @@ def generate_html(person: dict[str, str], report: dict, out_dir: Path, prefix: s
 {idx("C-005")}<aside class="callout example"><strong>Calcul</strong><br>Data compacta = {b(matrix["meta"]["data_compacta"])}<br>N1 = {b(matrix["meta"]["numere_de_lucru"]["n1"])}; N2 = {b(matrix["meta"]["numere_de_lucru"]["n2"])}; N3 = {b(matrix["meta"]["numere_de_lucru"]["n3"])}; N4 = {b(matrix["meta"]["numere_de_lucru"]["n4"])}<br>Sir complet = {b(matrix["meta"]["sir_complet"])}</aside>
 {idx("G-002")}{date_component}
 {''.join(casute)}
-{idx("P-020")}<p>Raportul par-impar este {b(pare)} la {b(impare)}. Cifrele pare sustin capacitatea de a primi si de a da mai departe; cand devin foarte numeroase, pot aduce ezitare. La tine citirea se face nu ca verdict, ci ca indiciu despre ritmul in care mediul trebuie sa combine receptivitatea cu initiativa.</p>
+{idx("P-020")}<div class="parity-chart framed-panel" style="width:100%;max-width:none" role="img" aria-label="Din totalul de {parity_total} cifre, {impare} sunt impare și {pare} sunt pare."><div class="parity-chart-total">Total: <strong>{parity_total}</strong> cifre</div><div class="parity-chart-bar"><span class="parity-odd" style="width:{odd_width:.2f}%"><strong>Impare · {impare}</strong></span><span class="parity-even" style="width:{even_width:.2f}%"><strong>Pare · {pare}</strong></span></div></div><p>Raportul par-impar este {b(pare)} la {b(impare)}. Cifrele pare sustin capacitatea de a primi si de a da mai departe; cand devin foarte numeroase, pot aduce ezitare. La tine citirea se face nu ca verdict, ci ca indiciu despre ritmul in care mediul trebuie sa combine receptivitatea cu initiativa.</p>
 {idx("P-021")}<p>Scara bunastarii este condusa de {html.escape(matrix["scara_bunastarii"][0]["denumire"])} cu valoarea {b(matrix["scara_bunastarii"][0]["valoare"])}. Asta arata zona unde energia curge cel mai usor si unde se poate construi incredere prin activitati concrete.</p>
 {idx("G-004")}{wellbeing}
 """))
@@ -1045,6 +1048,16 @@ def validate_html(path: Path, prefix: str) -> None:
         failures.append("mojibake posibil")
     if f"Index: {prefix}-T-008" not in text or f"Index: {prefix}-T-017" not in text or f"Index: {prefix}-T-019" not in text:
         failures.append("tabele contract lipsa")
+    parity_chart = re.search(
+        rf'Index: {re.escape(prefix)}-P-017</div><div class="parity-chart framed-panel"[^>]*>.*?'
+        r'<div class="parity-chart-total">Total: <strong>\d+</strong> cifre</div>.*?'
+        r'<span class="parity-odd"[^>]*><strong>Impare · \d+</strong></span>'
+        r'<span class="parity-even"[^>]*><strong>Pare · \d+</strong></span>.*?</div><p>',
+        text,
+        re.S,
+    )
+    if not parity_chart or text.count('class="parity-chart framed-panel"') != 1:
+        failures.append("graficul par-impar lipseste sau nu respecta modelul Daniel")
     if not css or not model_css or css.group(1) != model_css.group(1):
         failures.append("CSS diferit de modelul Dominic")
     if not re.search(

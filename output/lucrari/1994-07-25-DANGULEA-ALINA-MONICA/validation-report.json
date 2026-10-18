@@ -1,0 +1,12 @@
+{
+  "result": "OK",
+  "chapters": 9,
+  "unique_indices": 203,
+  "unique_ids": 49,
+  "embedded_images": 4,
+  "words": 10881,
+  "md_html_text_parity": true,
+  "canonical_nek_exact": true,
+  "matrix_calculator_parity": true,
+  "browser_visual_review": "Blocked by file URL policy; no browser workaround attempted."
+}

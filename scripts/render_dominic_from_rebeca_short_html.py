@@ -145,6 +145,47 @@ def main() -> None:
     body = apply_component_classes(body)
     body = wrap_tarot_figures(body)
     body = embed_sources(body)
+    parity_chart = re.search(
+        rf'Index: {re.escape(PREFIX)}-P-017</div>\s*<div class="parity-chart framed-panel"[^>]*>.*?'
+        r'<strong>Impare · 4</strong>.*?<strong>Pare · 6</strong>.*?</div>\s*<p>',
+        body,
+        re.S,
+    )
+    if not parity_chart or body.count('class="parity-chart framed-panel"') != 1:
+        raise RuntimeError("Graficul par-impar nu respectă modelul Daniel.")
+    kcd18_markers = (
+        "unele ajutoare, dar mai multe obstacole",
+        "bile negre, cât și bile albe",
+        "vrăjitorie și/sau de activități infracționale",
+        "succesului în afaceri",
+        "număr al ruinărilor, al distrugerii și al pericolelor",
+        "riscuri asociate violenței, sinuciderii",
+        "scandalurile în familie",
+        "despotismul",
+        "opoziția permanentă",
+        "revolta",
+        "scopul scuză mijloacele",
+        "legătura cu aceste lumi este considerată închisă total",
+        "Arcana <strong>18 — Luna (The Moon)</strong>",
+    )
+    if any(marker not in body for marker in kcd18_markers):
+        raise RuntimeError("Interpretarea predefinită KCD 18 nu este completă.")
+    kcd18_section = re.search(
+        rf'Index: {re.escape(PREFIX)}-SUB-012a.*?Index: {re.escape(PREFIX)}-SUB-012b',
+        body,
+        re.S,
+    )
+    if not kcd18_section:
+        raise RuntimeError("Secțiunea KCD 18 nu a fost găsită.")
+    kcd18_html = kcd18_section.group(0)
+    if any(f"{PREFIX}-P-015b{i}" in kcd18_html for i in range(1, 7)):
+        raise RuntimeError("Interpretarea KCD 18 trebuie să rămână un singur paragraf, ca la Daniel.")
+    if not re.search(
+        rf'Index: {re.escape(PREFIX)}-P-015b</div>\s*<p>.*?</p>\s*<div class="idx">Index: {re.escape(PREFIX)}-G-001b</div>',
+        kcd18_html,
+        re.S,
+    ):
+        raise RuntimeError("Ordinea interpretare–Arcana din KCD 18 nu respectă modelul Daniel.")
 
     css = style.group(1) + "\nblockquote{padding:14px 18px;margin:16px 0;background:linear-gradient(100deg,rgba(239,224,189,.72),rgba(255,248,232,.84));border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:0 5px 5px 0} figure{margin:18px 0} figcaption{text-align:center;color:var(--muted);font-style:italic} .stage-table .stage-love.current-row td:not(.current-substage),.stage-table .stage-material.current-row td:not(.current-substage){background:#fffdf8!important}.stage-table .stage-reason.current-row td:not(.current-substage),.stage-table .stage-gifts.current-row td:not(.current-substage){background:rgba(244,229,212,.42)!important}.stage-table .current-row td.current-substage{background:#dcc39b!important;font-weight:400;box-shadow:none!important;outline:none!important}"
     document = f'''<!doctype html>

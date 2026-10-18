@@ -427,7 +427,7 @@ def life_lesson_line():
     return '<polyline class="lesson-line" points="' + " ".join(points) + '"/>'
 
 
-def chart():
+def chart(current_age=None):
     fate = DATA["fate_digits"]
     destiny = DATA["destiny_digits"]
     ages = list(range(0, 101, 10)) + [END_AGE]
@@ -450,6 +450,10 @@ def chart():
     parts.append(line(LEFT, CHART_BOTTOM, LEFT + CHART_W, CHART_BOTTOM, "axis"))
     parts.append(line(LEFT + CHART_W, TOP, LEFT + CHART_W, CHART_BOTTOM, "axis-light"))
 
+    if current_age is not None:
+        current_x = x(current_age)
+        parts.append(line(current_x, TOP, current_x, CHART_BOTTOM, "axis"))
+
     parts.append(line(LEFT, y(DATA["comfort_fate"]), LEFT + CHART_W, y(DATA["comfort_fate"]), "comfort comfort-green"))
     parts.append(line(LEFT, y(DATA["comfort_destiny"]), LEFT + CHART_W, y(DATA["comfort_destiny"]), "comfort comfort-red"))
 
@@ -467,6 +471,10 @@ def chart():
         else:
             parts.append(circle(xp, fy, 7, "fate-dot"))
             parts.append(circle(xp, dy, 7, "destiny-dot"))
+
+    if current_age is not None:
+        age_label = f"Vârsta actuală: {current_age} ani"
+        parts.append(text(x(current_age), TOP - 14, age_label, "current-age-label", "middle"))
 
     return "\n".join(parts)
 
@@ -526,9 +534,12 @@ def main():
     parser.add_argument("--birth-date", required=True)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--end-age", type=int, default=108)
+    parser.add_argument("--current-age", type=int)
     args = parser.parse_args()
     if args.end_age < 1:
         raise ValueError("Intervalul de varsta trebuie sa fie pozitiv.")
+    if args.current_age is not None and not 0 <= args.current_age <= args.end_age:
+        raise ValueError("Varsta actuala trebuie sa fie in intervalul graficului.")
     END_AGE = args.end_age
     DATA = harta_data(args.name, args.birth_date)
     birth_year = DATA["birth_year"]
@@ -565,6 +576,7 @@ def main():
       .axis-y {{ font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 800; fill: #2b2119; }}
       .axis-x {{ font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; fill: #222; }}
       .axis-name {{ font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 900; fill: #2b2119; }}
+      .current-age-label {{ font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 900; fill: #111; paint-order: stroke; stroke: {PAPER}; stroke-width: 4px; }}
       .grid {{ stroke: {GRID}; stroke-width: 1; stroke-dasharray: 6 4; }}
       .major-y, .major-x {{ stroke: #aeb7bb; stroke-width: 1.4; }}
       .axis {{ stroke: #111; stroke-width: 3; }}
@@ -637,7 +649,7 @@ def main():
     parts.append(text(WIDTH - 160, 28, DATA["name"].upper(), "title", "end"))
     parts.append(text(WIDTH - 160, 52, DATA["birth_date"], "subtitle", "end"))
 
-    parts.append(chart())
+    parts.append(chart(args.current_age))
     parts.append(life_lesson_line())
     parts.append(pinacle_lines(pinacles))
     parts.append(text(LEFT + CHART_W + 34, CHART_BOTTOM + 24, "Ani", "axis-name", "start"))

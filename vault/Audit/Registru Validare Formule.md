@@ -42,3 +42,10 @@ Rularile de audit si modificarile de statut sunt consemnate cronologic in [[Isto
 2. `neconforma` inseamna: calculatorul nu poate furniza acea valoare pentru o lucrare noua.
 3. `lipsa sursa operationala` inseamna: nu se inventeaza formula; se cere validare.
 4. Dupa fiecare validare se actualizeaza in aceeasi schimbare calculatorul, skill-ul relevant, template-ul si testul de regresie.
+
+
+## Constatare punctuala 2026-09-10 - Alina
+
+Codul Spiritului, subetapa si varsta: formula documentara este **confirmata punctual pentru implementarea separata `spirit_data`** din `scripts/generate_vulcu_docolin_short_html.py` si exemplele Daniel/Alina. Tabelul Vault si helperul concorda: Daniel 19.02 -> 32, subetapa 6, 5859 la nastere / 5887 la 28 ani; Alina 25.07 -> 16, subetapa 3, 2835 la nastere / 2867 la 32 ani. Pentru Alina zona este Ratiune, etapa 1, lectia 3 Cautarea echilibrului. Utilizare trasabila permisa ca sursa operationala separata, fara a atribui rezultatul agregatorului. Statutul agregatorului ramane **neconform** pentru cod (Alina = 5) si **neimplementat** pentru etape/varsta; sincronizarea necesita aprobare separata. Nu reprezinta audit global al limitelor calendaristice.
+
+Gruparea elementelor native este **confirmata punctual**: formula `03-TP-Calcul.md`, implementarea generatorului si exemplul Daniel (Foc 8, Pamant 1, Aer 3, Apa 2) concorda. Din cantitatile native ale JSON Alina rezulta Foc 5, Pamant 1, Aer 5, Apa 2; dominanta mixta Foc/Aer. Karma lunii Alina se preia documentar ca luna 7, fara reducere, din `03-KLN-Calcul.md` si interpretarea dictata `KLNI-LL-7.md`; agregatorul are inca rubrica necompletata.

@@ -1,0 +1,231 @@
+{
+  "date": {
+    "n1": 37,
+    "n2": 10,
+    "n3": 33,
+    "n4": 6,
+    "sequence": "250719943710336",
+    "counts": {
+      "2": 1,
+      "5": 1,
+      "7": 2,
+      "1": 2,
+      "9": 2,
+      "4": 1,
+      "3": 3,
+      "6": 1
+    }
+  },
+  "name": {
+    "code": "4157335113951465931",
+    "expression": 4,
+    "counts": {
+      "4": 3,
+      "1": 5,
+      "5": 4,
+      "7": 1,
+      "3": 4,
+      "9": 2,
+      "6": 1
+    },
+    "date_counts": {
+      "2": 1,
+      "5": 1,
+      "7": 2,
+      "1": 2,
+      "9": 2,
+      "4": 1,
+      "3": 3,
+      "6": 1
+    },
+    "comparison": {
+      "dominant_name": [
+        1
+      ],
+      "dominant_date": [
+        3
+      ],
+      "supported": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "excess_name": {
+        "1": 3,
+        "4": 2,
+        "5": 3
+      },
+      "missing_name": [
+        2
+      ],
+      "name_potential": [],
+      "active_vectors_name": [
+        "456, Vointa",
+        "147, Spiritualitate",
+        "369, Bunastare materiala",
+        "159, Cariera",
+        "357, Scopuri"
+      ],
+      "active_vectors_date": [
+        "123, Energie",
+        "456, Vointa",
+        "147, Spiritualitate",
+        "369, Bunastare materiala",
+        "159, Cariera",
+        "357, Scopuri"
+      ]
+    }
+  },
+  "soarta_si_destin": {
+    "name": "Dangulea Alina Monica",
+    "short_name": "Alina",
+    "date": "25.07.1994",
+    "fate_left": 2507,
+    "fate_right": 1994,
+    "destiny_left": 2517,
+    "destiny_right": 1994,
+    "fate": "4998958",
+    "destiny": "5018898",
+    "fate_comfort": 7.428571428571429,
+    "destiny_comfort": 5.571428571428571,
+    "ages": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "interval": 10,
+    "tendency": "impara / masculina"
+  },
+  "chart_reading": {
+    "method": "Linear interpolation of the points returned by the approved chart generator",
+    "age": 32,
+    "fate": 8.2,
+    "destiny": 8.0,
+    "intersection_ages": [
+      1.0,
+      30.0,
+      42.0,
+      60.0
+    ]
+  },
+  "scara_bunastarii": {
+    "compact": "25071994",
+    "n1": 37,
+    "n2": 10,
+    "n3": 33,
+    "n4": 6,
+    "full_code": "250719943710336",
+    "rows": [
+      {
+        "type": "vector",
+        "key": "369",
+        "label": "Vector 369 - Bunastare materiala",
+        "value": 33
+      },
+      {
+        "type": "vector",
+        "key": "789",
+        "label": "Vector 789 - Creativitate",
+        "value": 32
+      },
+      {
+        "type": "vector",
+        "key": "357",
+        "label": "Vector 357 - Scopuri",
+        "value": 28
+      },
+      {
+        "type": "vector",
+        "key": "159",
+        "label": "Vector 159 - Cariera",
+        "value": 25
+      },
+      {
+        "type": "vector",
+        "key": "147",
+        "label": "Vector 147 - Spiritualitate",
+        "value": 20
+      },
+      {
+        "type": "cell",
+        "key": "9",
+        "label": "Casuta 9",
+        "value": 18
+      },
+      {
+        "type": "vector",
+        "key": "456",
+        "label": "Vector 456 - Vointa",
+        "value": 15
+      },
+      {
+        "type": "cell",
+        "key": "7",
+        "label": "Casuta 7",
+        "value": 14
+      },
+      {
+        "type": "vector",
+        "key": "123",
+        "label": "Vector 123 - Energie",
+        "value": 13
+      },
+      {
+        "type": "cell",
+        "key": "3",
+        "label": "Casuta 3",
+        "value": 9
+      },
+      {
+        "type": "vector",
+        "key": "258",
+        "label": "Vector 258 - Social",
+        "value": 7
+      },
+      {
+        "type": "cell",
+        "key": "6",
+        "label": "Casuta 6",
+        "value": 6
+      },
+      {
+        "type": "cell",
+        "key": "5",
+        "label": "Casuta 5",
+        "value": 5
+      },
+      {
+        "type": "cell",
+        "key": "4",
+        "label": "Casuta 4",
+        "value": 4
+      },
+      {
+        "type": "cell",
+        "key": "1",
+        "label": "Casuta 1",
+        "value": 2
+      },
+      {
+        "type": "cell",
+        "key": "2",
+        "label": "Casuta 2",
+        "value": 2
+      },
+      {
+        "type": "cell",
+        "key": "8",
+        "label": "Casuta 8",
+        "value": 0
+      }
+    ]
+  }
+}

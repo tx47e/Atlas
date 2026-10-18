@@ -15,13 +15,14 @@ nu consulta vault-ul sau alta documentatie la fiecare rulare.
 - Data de nastere in forma `ZZ.LL.AAAA`, `ZZ/LL/AAAA` sau `ZZ-LL-AAAA`.
 - Calea SVG de iesire.
 - Optional, varsta finala prin `--end-age`; valoarea implicita este `108`.
+- Optional, varsta actuala prin `--current-age`; adauga o eticheta deasupra graficului si o linie verticala cu stilul axei X.
 
 ## Generare
 
 ```powershell
 python scripts/generate_harta_suprapusa.py `
   --name "Birsan Daniel Robert" --birth-date "19.02.1998" `
-  --output "C:\cale\harta-suprapusa.svg"
+  --output "C:\cale\harta-suprapusa.svg" --current-age 28
 ```
 
 Nu modifica manual SVG-ul dupa generare. Corecteaza scriptul si regenereaza.
